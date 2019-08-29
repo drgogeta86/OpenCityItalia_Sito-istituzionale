@@ -150,6 +150,11 @@ Per accedere al database da CLI:
     docker-compose exec postgres bash
     bash-4.4# psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$POSTGRES_DB"
 
+Per aggiornare il dump del database nella cartella `sql`:
+
+    docker-compose exec postgres bash
+    bash-4.4# pg_dump -U ${POSTGRES_USER} $POSTGRES_DB | gzip > /docker-entrypoint-initdb.d/${POSTGRES_DB}.sql.gz
+
 Per reindicizzare tutti i contenuti su SOLR:
 
     docker-compose exec php php bin/php/updatesearchindex.php -s bootstrapitalia_backend --allow-root-user
