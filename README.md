@@ -118,6 +118,7 @@ il repository e dalla directory principale dare i comandi:
 ```
 sudo chown 8983 conf.d/solr/prototipo/* -R
 docker-compose up -d
+docker-compose exec php bash -c 'cd html; php bin/php/updatesearchindex.php -s bootstrapitalia_backend --allow-root-user'
 ```
 
 Il prototipo di Comunweb sarà disponibile ai seguenti indirizzi:
@@ -157,8 +158,7 @@ Per aggiornare il dump del database nella cartella `sql`:
 
 Per reindicizzare tutti i contenuti su SOLR:
 
-    docker-compose exec php php bin/php/updatesearchindex.php -s bootstrapitalia_backend --allow-root-user
-
+    docker-compose exec php bash -c 'cd html; php bin/php/updatesearchindex.php -s bootstrapitalia_backend --allow-root-user'
 
 ### Rebuild database from scratch
 
