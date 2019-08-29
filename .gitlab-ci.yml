@@ -1,0 +1,111 @@
+image: docker:latest
+
+stages:
+    - build
+    - push
+    - integration 
+
+variables:
+    CONTAINER_TMP_IMAGE: "$CI_REGISTRY_IMAGE:$CI_COMMIT_SHORT_SHA"
+    # $AWS_ECR_IMAGE is in CI Settings of GitLab
+
+services:
+  - docker:dind
+
+before_script:
+  - docker login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD" $CI_REGISTRY
+
+    
+# GitHub token is set in GitLab CI Variables
+common_build:
+    stage: build
+    script:
+        - docker pull  $CONTAINER_TMP_IMAGE || docker build --build-arg GITHUB_TOKEN=$GITHUB_TOKEN --pull -t $CONTAINER_TMP_IMAGE . 
+        - docker push  $CONTAINER_TMP_IMAGE
+    only:
+      - branches
+      - tags
+
+push_branches:
+    stage: push
+    script:
+        - docker pull  $CONTAINER_TMP_IMAGE
+        - docker tag $CONTAINER_TMP_IMAGE "$CI_REGISTRY_IMAGE:$CI_COMMIT_REF_NAME" 
+        - docker push "$CI_REGISTRY_IMAGE:$CI_COMMIT_REF_NAME"
+    only:
+        - branches
+
+push_tags:
+    stage: push
+    script:
+        - docker pull  $CONTAINER_TMP_IMAGE
+        - docker tag $CONTAINER_TMP_IMAGE "$CI_REGISTRY_IMAGE:$CI_COMMIT_TAG"
+        - docker push "$CI_REGISTRY_IMAGE:$CI_COMMIT_TAG"
+    only:
+        - tags
+
+
+push_latest:
+    stage: push
+    script:
+        - docker pull  $CONTAINER_TMP_IMAGE
+        - docker tag $CONTAINER_TMP_IMAGE "$CI_REGISTRY_IMAGE:latest"
+        - docker push "$CI_REGISTRY_IMAGE:latest"
+    only:
+        - master
+
+
+push_branches_to_ecr:
+    stage: push
+    script:
+        - apk add --no-cache curl jq python py-pip
+        - pip install awscli
+        - $(aws ecr get-login --no-include-email --region eu-west-1 | sed 's|https://||')
+        - docker pull  $CONTAINER_TMP_IMAGE
+        - docker tag $CONTAINER_TMP_IMAGE "$AWS_ECR_IMAGE:$CI_COMMIT_REF_NAME"
+        - docker push "$AWS_ECR_IMAGE:$CI_COMMIT_REF_NAME"
+    only:
+        - branches
+
+push_tags_to_ecr:
+    stage: push
+    script:
+        - apk add --no-cache curl jq python py-pip
+        - pip install awscli
+        - $(aws ecr get-login --no-include-email --region eu-west-1 | sed 's|https://||')
+        - docker pull  $CONTAINER_TMP_IMAGE
+        - docker tag $CONTAINER_TMP_IMAGE "$AWS_ECR_IMAGE:$CI_COMMIT_TAG"
+        - docker push "$AWS_ECR_IMAGE:$CI_COMMIT_TAG"
+    only:
+        - tags
+
+push_latest_to_ecr:
+    stage: push
+    script:
+        - apk add --no-cache curl jq python py-pip
+        - pip install awscli
+        - $(aws ecr get-login --no-include-email --region eu-west-1 | sed 's|https://||')
+        - docker pull  $CONTAINER_TMP_IMAGE
+        - docker tag $CONTAINER_TMP_IMAGE "$AWS_ECR_IMAGE:latest"
+        - docker push "$AWS_ECR_IMAGE:latest"
+    only:
+        - master
+
+       
+zap_baseline:
+    stage: integration
+    allow_failure: true
+    script:
+      - docker run -v $(pwd):/zap/wrk/:rw -t owasp/zap2docker-stable zap-baseline.py -c .zap.conf -p .zap-progress-file.json -t https://opencity.openpa.opencontent.io
+     # -z -config rules.csrf.ignorelist=search,login then ZAP will not fail the scan if forms with an ID of "search" or "login" do not have anti CSRF tokens.
+     # - docker run -t owasp/zap2docker-stable zap-baseline.py -j -t https://10.0.1.22/ # with ajax scanning
+     #
+
+publiccode:
+    stage: integration
+    allow_failure: false 
+    script:
+      - docker run -v $(pwd):/var/tmp:ro -t --rm golang sh -c "go get github.com/italia/publiccode-parser-go/pcvalidate; cd /var/tmp; /go/bin/pcvalidate -remote-base-url https://gitlab.com/opencontent/opencity/raw/master publiccode.yml"
+
+
+# vim: set noet sw=4 ts=4:        

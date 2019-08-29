@@ -1,0 +1,78 @@
+# This repository adheres to the publiccode.yml standard by including this 
+# metadata file that makes public software easily discoverable.
+# More info at https://github.com/italia/publiccode.yml
+
+publiccodeYmlVersion: '0.2'
+name: Comunweb
+releaseDate: '2019-09-01'
+url: 'https://gitlab.com/comune-di-ala/comunweb'
+softwareVersion: 1.0.0
+developmentStatus: stable
+softwareType: standalone/web
+platforms:
+  - web
+usedBy:
+  - Comune di Ala (TN)
+landingURL: 'https://gitlab.com/comune-di-ala/comunweb'
+logo: images/opencontent.png
+categories:
+  - content-management
+  - communications
+  - digital-citizenship
+maintenance:
+  type: community
+  contacts:
+    - name: Gabriele Francescotto
+      email: gabriele.francescotto@opencontent.it
+      phone: +39 0461 186 2844
+      affiliation: Opencontent SCARL
+legal:
+  license: GPL-2.0-only
+  mainCopyrightOwner: Comune di Ala
+  repoOwner: Comune di Ala (TN)
+intendedAudience:
+  scope:
+    - local-authorities
+    - culture
+    - tourism
+    - government
+  countries:
+    - it
+localisation:
+  localisationReady: true
+  availableLanguages:
+    - it
+it:
+  riuso:
+    codiceIPA: c_a116
+  conforme:
+    lineeGuidaDesign: true
+    modelloInteroperabilita: true
+    gdpr: true
+    misureMinimeSicurezza: true
+  piattaforme:
+    spid: true
+description:
+  it:
+    shortDescription: Il sito web comunale
+    longDescription: "E' un modello di sito web avanzato, adatto a promuovere i contenuti di un ente locale in modalità multi-canale con un'esperienza utente molto gradevole. Il sistema accompagna i redattori nella gestione dei contenuti, strutturati secondo gli standard dell'informazione previsti da AgID (OntoPiA); i dati vengono valorizzati anche attraverso gallerie fotografiche, calendari, mappe, grafici e motori di ricerca. Pensato per le redazioni distribuite: ogni funzionario interviene nel flusso di gestione in base alla propria competenza. I comuni che lo adottano ottengono un duplice beneficio: nuovi canali di dialogo con il cittadino e strumenti per gestire il processo di trasformazione digitale.
+Comunweb nasce dalla collaborazione tra Consorzio dei Comuni Trentini ed Team per la Trasformazione Digitale, volta a creare un modello unico di interazione digitale tra cittadini e comuni in Italia; per questo i comuni trentini sono tra i primi ad utilizzarlo ed il Comune di Ala il primo tra questi."
+    documentation: 'https://comunweb-il-sito-comunale.readthedocs.io'
+    apiDocumentation: 'https://documenter.getpostman.com/view/7046499/S17tPncG'
+    features:
+      - >-
+        Gestione collaborativa dei contenuti (bozze, workflow di pubblicazione,
+        versioning)
+      - Conformità agli standard dell'informazione
+      - API in pubblicazione e consultazione
+      - Generazione automatica di dataset aggiornati in tempo reale (REST API)
+      - Motore di ricerca basato su filtri e faccette
+      - >-
+        Integrazione con Nominatim e OpenStreetMap per la gestione di
+        informazioni geografiche
+    genericName: Sito web comunale
+    screenshots:
+      - images/comunweb-main.png
+      - images/opencity-homepage.png
+      - images/opencity-topics.png
+      - images/opencity-service-page.png
