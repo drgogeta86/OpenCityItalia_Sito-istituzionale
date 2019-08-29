@@ -1,11 +1,10 @@
 gitlab:
-  release: false
+  release: true 
+  releaseNotes: "./changelog.sh ${latestTag} ${version} " 
 git:
   tagname: "${version}"
-  changelog: "./changelog.sh ${latestTag} ${version} " 
-  push: false
-  requireCleanWorkingDir: false
-  requireUpstream: false
+  push: true 
+  requireCleanWorkingDir: true
 hooks:
   "after:bump": "./changelog.sh ${latestVersion} ${version} >> CHANGELOG.md"
   "after:git:release": "echo After git push, before github release"
