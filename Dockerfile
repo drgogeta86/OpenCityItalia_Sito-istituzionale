@@ -1,4 +1,4 @@
-FROM opencontentcoop/ezpublish
+FROM opencontentcoop/ezpublish:0.0.2
 
 COPY composer.json composer.lock /var/www/
 
@@ -35,10 +35,10 @@ RUN php bin/php/ezcache.php --clear-id=global_ini --allow-root-user \
 
 WORKDIR /var/www
 
-VOLUME [ "/var/www/html" ]
-
-ENTRYPOINT ["/scripts/docker-entrypoint.sh"]
-
-CMD php-fpm
-
-EXPOSE 9000
+# The following directives are already present in the base-image
+# don't change them here unless for debugging or improvement of the
+# base-image itself.
+#VOLUME [ "/var/www/html" ]
+#ENTRYPOINT ["/scripts/docker-entrypoint.sh"]
+#CMD php-fpm
+#EXPOSE 9000
