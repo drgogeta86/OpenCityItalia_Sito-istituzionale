@@ -116,7 +116,7 @@ HostUriMatchMapItems[]=opencity.localtest.me;;bootstrapitalia_frontend
 [MailSettings]
 Transport=SMTP
 TransportServer=mailhog
-TransportPort=8025
+TransportPort=1025
 AdminEmail=webmaster@opencontent.it
 EmailSender=no-reply@opencontent.it
 SenderHost=opencity.localtest.me
