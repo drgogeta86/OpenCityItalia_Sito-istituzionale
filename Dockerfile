@@ -18,19 +18,13 @@ RUN echo "Running composer"  \
 	&& composer install --prefer-dist --no-scripts --no-dev \ 
 	&& rm -rf /root/.composer 
 	
-COPY scripts /scripts
 
-# Add some custom config
-COPY conf.d/php.ini ${PHP_INI_DIR}/conf.d/php.ini
-
-RUN chmod 755 /scripts/*.sh
-
+# Add some custom config... only if strictly needed for a single instance
+# otherwise change it in the base-image
+# COPY conf.d/php.ini ${PHP_INI_DIR}/conf.d/php.ini
 
 # Add custom settings of prototipo
 COPY conf.d/ez /var/www/html/settings
-
-# Needed for docker-machine
-# RUN usermod -u 1000 www-data
 
 COPY security.txt /var/www/html/.well-known/security.txt
 
@@ -40,6 +34,7 @@ RUN php bin/php/ezcache.php --clear-id=global_ini --allow-root-user \
     && php bin/php/ezpgenerateautoloads.php -e 
 
 WORKDIR /var/www
+
 VOLUME [ "/var/www/html" ]
 
 ENTRYPOINT ["/scripts/docker-entrypoint.sh"]
