@@ -51,24 +51,58 @@ it:
     gdpr: true
     misureMinimeSicurezza: true
   piattaforme:
-    spid: true
+    spid: false
 description:
   it:
     shortDescription: Il sito web comunale
-    longDescription: "E' un modello di sito web avanzato, adatto a promuovere i contenuti di un ente locale in modalità multi-canale con un'esperienza utente molto gradevole. Il sistema accompagna i redattori nella gestione dei contenuti, rappresentati e strutturati secondo gli standard dell'informazione previsti dalle 'Linee Guida di Design di siti e servizi della PA'; i dati vengono valorizzati anche attraverso gallerie fotografiche, calendari, mappe, grafici e motori di ricerca. Pensato per le redazioni distribuite: ogni funzionario interviene nel flusso di gestione in base alla propria competenza. I comuni che lo adottano ottengono un duplice beneficio: nuovi canali di dialogo con il cittadino e strumenti per gestire il processo di trasformazione digitale. Comunweb nasce dalla collaborazione tra Consorzio dei Comuni Trentini ed Team per la Trasformazione Digitale, volta a creare un modello unico di interazione digitale tra cittadini e comuni in Italia; il Comune di Ala è il primo tra questi."
+    longDescription: >
+      E' un modello di sito web avanzato, adatto a promuovere i contenuti di un
+      ente locale in modalità multi-canale con un'esperienza utente molto
+      gradevole. Il sistema accompagna i redattori nella gestione dei contenuti,
+      rappresentati e strutturati secondo gli standard dell'informazione
+      previsti dalle "Linee Guida di Design di siti e servizi della PA"; i dati
+      vengono valorizzati anche attraverso gallerie fotografiche, calendari,
+      mappe, grafici e motori di ricerca. Pensato per le redazioni distribuite:
+      ogni funzionario interviene nel flusso di gestione in base alla propria
+      competenza. I comuni che lo adottano ottengono un duplice beneficio: nuovi
+      canali di dialogo con il cittadino e strumenti per gestire il processo di
+      trasformazione digitale. Comunweb nasce dalla collaborazione tra Consorzio
+      dei Comuni Trentini ed Team per la Trasformazione Digitale, volta a creare
+      un modello unico di interazione digitale tra cittadini e comuni in Italia;
+      il Comune di Ala è il primo tra questi.
     documentation: 'https://comunweb-il-sito-comunale.readthedocs.io'
     apiDocumentation: 'https://documenter.getpostman.com/view/7046499/S17tPncG'
     features:
       - >-
         Gestione collaborativa dei contenuti (bozze, workflow di pubblicazione,
         versioning)
-      - Conformità agli standard dell'informazione
-      - API in pubblicazione e consultazione
-      - Generazione automatica di dataset aggiornati in tempo reale (REST API)
+      - >-
+        Conformità al modello di design previsto dalle Linee Guida di Design di
+        siti e servizi della PA
+      - >-
+        Conformità agli standard dell'informazione previsti dalle Linee Guida di
+        Design di siti e servizi della PA
+      - >-
+        Funzione di albo pretorio integrata (rappresentazione, ricerca e
+        importazione atti da sistemi di terze parti)
+      - >-
+        Sezione amministrazione trasparente integrata (con guide e suggerimenti
+        per il redattore)
+      - Multi-istanza (unica installazione per Unioni di Comuni)
+      - Supporto multilingue
+      - >-
+        Predisposizione per il cloud (configurazioni disponibili per servizi AWS
+        qualificati AgID - IaaS e PaaS)
+      - Supporto configurazione cluster
+      - API in pubblicazione e consultazione per qualsiasi contenuto
       - Motore di ricerca basato su filtri e faccette
       - >-
-        Integrazione con Nominatim e OpenStreetMap per la gestione di
-        informazioni geografiche
+        Generazione automatica di dataset (metadati DCAT-AP_IT) aggiornati in
+        tempo reale (REST API)
+      - Integrazione con CKAN
+      - >-
+        Informazioni geografiche: Nominatim (geocoder) e OpenStreetMap
+        (rappresentazione)
     genericName: Sito web comunale
     screenshots:
       - images/comunweb-main.png
