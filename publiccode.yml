@@ -6,7 +6,7 @@ publiccodeYmlVersion: '0.2'
 name: Comunweb
 releaseDate: '2019-09-01'
 url: 'https://gitlab.com/comune-di-ala/comunweb'
-softwareVersion: 1.0.1
+softwareVersion: 1.0.2
 developmentStatus: stable
 softwareType: standalone/web
 platforms:
@@ -50,8 +50,6 @@ it:
     modelloInteroperabilita: true
     gdpr: true
     misureMinimeSicurezza: true
-  piattaforme:
-    spid: false
 description:
   it:
     shortDescription: Il sito web comunale
@@ -73,39 +71,63 @@ description:
     documentation: 'https://comunweb-il-sito-comunale.readthedocs.io'
     apiDocumentation: 'https://documenter.getpostman.com/view/7046499/S17tPncG'
     features:
-      - >-
-        Gestione collaborativa dei contenuti (bozze, workflow di pubblicazione,
-        versioning)
-      - >-
-        Conformità al modello di design previsto dalle Linee Guida di Design di
-        siti e servizi della PA
-      - >-
-        Conformità agli standard dell'informazione previsti dalle Linee Guida di
-        Design di siti e servizi della PA
-      - >-
-        Funzione di albo pretorio integrata (rappresentazione, ricerca e
-        importazione atti da sistemi di terze parti)
-      - >-
-        Sezione amministrazione trasparente integrata (con guide e suggerimenti
-        per il redattore)
+      - Gestione collaborativa dei contenuti (bozze, workflow di pubblicazione, versioning)
+      - Conformità al modello di design previsto dalle Linee Guida di Design di siti e servizi della PA
+      - Conformità agli standard dell'informazione previsti dalle Linee Guida di Design di siti della PA
+      - Funzione di albo pretorio (rappresentazione, ricerca e importazione atti da sistemi di terze parti)
+      - Sezione amministrazione trasparente integrata (con guide e suggerimenti per il redattore)
       - Multi-istanza (unica installazione per Unioni di Comuni)
       - Supporto multilingue
-      - >-
-        Predisposizione per il cloud (configurazioni disponibili per servizi AWS
-        qualificati AgID - IaaS e PaaS)
+      - Predisposizione per il cloud (configurazioni disponibili per hosting servizi AWS qualificati AgID)
       - Supporto configurazione cluster
       - API in pubblicazione e consultazione per qualsiasi contenuto
       - Motore di ricerca basato su filtri e faccette
-      - >-
-        Generazione automatica di dataset (metadati DCAT-AP_IT) aggiornati in
-        tempo reale (REST API)
+      - Generazione automatica di dataset (metadati DCAT-AP_IT) aggiornati in tempo reale (REST API)
       - Integrazione con CKAN
-      - >-
-        Informazioni geografiche: Nominatim (geocoder) e OpenStreetMap
-        (rappresentazione)
+      - Informazioni geografiche con Nominatim (geocoder) e OpenStreetMap  (rappresentazione)
     genericName: Sito web comunale
     screenshots:
-      - images/comunweb-main.png
-      - images/opencity-homepage.png
-      - images/opencity-topics.png
-      - images/opencity-service-page.png
+      - images/comunweb01.png
+      - images/comunweb02.png
+      - images/comunweb03.png
+      - images/comunweb04.png
+      - images/comunweb05.png
+      - images/comunweb06.png
+      - images/comunweb07.png
+      - images/comunweb08.png
+      - images/comunweb09.png
+      - images/comunweb10.png
+      - images/comunweb11.png
+      - images/comunweb12.png
+      - images/comunweb13.png
+      - images/comunweb14.png
+      - images/comunweb15.png
+      - images/comunweb16.png
+      - images/comunweb17.png
+      - images/comunweb18.png
+      - images/comunweb19.png
+      - images/comunweb20.png
+      - images/comunweb21.png
+      - images/comunweb22.png
+      - images/comunweb23.png
+      - images/comunweb24.png
+      - images/comunweb25.png
+      - images/comunweb26.png
+      - images/comunweb27.png
+dependsOn:
+  open:
+    - name: PHP
+      versionMin: '7.2'
+    - name: PostgreSQL
+      versionMin: '9.6'
+    - name: Solr
+      versionMin: 4.10.1
+    - name: Varnish
+      versionMin: '4.0'
+      optional: true
+    - name: Traefik
+      optional: true
+      versionMin: '1.7.0'
+    - name: Docker
+      optional: true
+      versionMin: '18.09' 
