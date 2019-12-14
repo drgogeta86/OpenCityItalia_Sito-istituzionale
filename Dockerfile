@@ -1,4 +1,4 @@
-FROM opencontentcoop/ezpublish:0.0.2
+FROM opencontentcoop/ezpublish:0.0.5
 
 COPY composer.json composer.lock /var/www/
 
