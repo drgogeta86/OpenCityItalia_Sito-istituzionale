@@ -30,8 +30,8 @@ push_branches:
     stage: push
     script:
         - docker pull  $CONTAINER_TMP_IMAGE
-        - docker tag $CONTAINER_TMP_IMAGE "$CI_REGISTRY_IMAGE:$CI_COMMIT_REF_NAME" 
-        - docker push "$CI_REGISTRY_IMAGE:$CI_COMMIT_REF_NAME"
+        - docker tag $CONTAINER_TMP_IMAGE "$CI_REGISTRY_IMAGE:${CI_COMMIT_REF_NAME/\//-}" 
+        - docker push "$CI_REGISTRY_IMAGE:${CI_COMMIT_REF_NAME/\//-}"
     only:
         - branches
 
@@ -62,8 +62,8 @@ push_branches_to_ecr:
         - pip install awscli
         - $(aws ecr get-login --no-include-email --region eu-west-1 | sed 's|https://||')
         - docker pull  $CONTAINER_TMP_IMAGE
-        - docker tag $CONTAINER_TMP_IMAGE "$AWS_ECR_IMAGE:$CI_COMMIT_REF_NAME"
-        - docker push "$AWS_ECR_IMAGE:$CI_COMMIT_REF_NAME"
+        - docker tag $CONTAINER_TMP_IMAGE "$AWS_ECR_IMAGE:${CI_COMMIT_REF_NAME/\//-}"
+        - docker push "$AWS_ECR_IMAGE:${CI_COMMIT_REF_NAME/\//-}"
     only:
         - branches
 
