@@ -1,0 +1,10 @@
+table_view:
+    enabled:
+        '*': '1'
+    in_overview:
+        abstract: '1'
+        managed_by_political_body: '1'
+    main_image:
+        image: '1'
+    show:
+        managed_by_area: '1'

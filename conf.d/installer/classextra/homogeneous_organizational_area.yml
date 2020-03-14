@@ -1,0 +1,116 @@
+attribute_group:
+    contatti:
+        '*': Contatti
+        has_online_contact_point: '1'
+        has_spatial_coverage: '1'
+    cosa_fa:
+        '*': 'Cosa fa'
+        description: '1'
+        main_function: '1'
+    documenti:
+        '*': Documenti
+        allegati: '1'
+        has_balance_sheet: '1'
+    enabled:
+        '*': '1'
+    persone:
+        '*': Persone
+        dipendenti: '1'
+        holds_role_in_time: '1'
+    servizi:
+        '*': Servizi
+        is_public_organization_of: '1'
+        servizi_offerti: '1'
+        support_unit: '1'
+    'sort::contatti':
+        '*': '5'
+    'sort::cosa_fa':
+        '*': '1'
+    'sort::documenti':
+        '*': '6'
+    'sort::persone':
+        '*': '3'
+    'sort::servizi':
+        '*': '4'
+    'sort::struttura':
+        '*': '2'
+    'sort::ulteriori_informazioni':
+        '*': '7'
+    struttura:
+        '*': Struttura
+        assessore: '1'
+        has_public_org_activity_type: '1'
+        hold_employment: '1'
+        responsabile: '1'
+    ulteriori_informazioni:
+        '*': 'Ulteriori informazioni'
+        content_show_modified: '1'
+        help: '1'
+        more_information: '1'
+        tax_code_e_invoice_service: '1'
+card_small_view:
+    enabled:
+        '*': '1'
+    show:
+        content_show_read_more: '1'
+table_view:
+    enabled:
+        '*': '1'
+    highlight:
+        help: '1'
+    in_overview:
+        abstract: '1'
+    show:
+        abstract: '1'
+        allegati: '1'
+        assessore: '1'
+        content_show_modified: '1'
+        content_show_published: '1'
+        content_tree_related: '1'
+        description: '1'
+        dipendenti: '1'
+        has_balance_sheet: '1'
+        has_online_contact_point: '1'
+        has_public_org_activity_type: '1'
+        has_spatial_coverage: '1'
+        help: '1'
+        hold_employment: '1'
+        holds_role_in_time: '1'
+        ipacode: '1'
+        is_part_of: '1'
+        is_public_organization_of: '1'
+        legal_status_code: '1'
+        main_function: '1'
+        more_information: '1'
+        public_organization_category: '1'
+        responsabile: '1'
+        servizi_offerti: '1'
+        support_unit: '1'
+        tax_code_e_invoice_service: '1'
+    show_label:
+        assessore: '1'
+        has_balance_sheet: '1'
+        has_public_org_activity_type: '1'
+        hold_employment: '1'
+        holds_role_in_time: '1'
+        ipacode: '1'
+        is_part_of: '1'
+        legal_status_code: '1'
+        public_organization_category: '1'
+        responsabile: '1'
+        servizi_offerti: '1'
+        support_unit: '1'
+        tax_code_e_invoice_service: '1'
+    show_link:
+        allegati: '1'
+        assessore: '1'
+        dipendenti: '1'
+        has_online_contact_point: '1'
+        has_spatial_coverage: '1'
+        hold_employment: '1'
+        holds_role_in_time: '1'
+        is_part_of: '1'
+        is_public_organization_of: '1'
+        responsabile: '1'
+        servizi_offerti: '1'
+        support_unit: '1'

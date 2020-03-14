@@ -1,0 +1,26 @@
+metadata:
+    remoteId: 47dd6ba753c3ad8963279dea8d8d1835
+    classIdentifier: pagina_trasparenza
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        titolo: 'Dati sui pagamenti'
+        contenuto_obbligo: '<p>Dati sui propri pagamenti in relazione alla tipologia di spesa sostenuta, all''ambito temporale di riferimento e ai beneficiari</p>'
+        riferimenti_normativi: 'Art. 4-bis, co. 2, d.lgs n. 33/2013 e ss.mm.'
+        applicabilita: ''
+        denominazione_degli_obblighi: ''
+        guida_alla_compilazione: ''
+        messaggio_di_consiglio: "<p>Per la strutturazione dei dati da pubblicare si rinvia al paragrafo 6.1 delle Linee guida ANAC (Del. n 1310/2016)</p><p>Ai fini della individuazione della “tipologia di spesa sostenuta”, è opportuno, per il momento, che ciascuna Amministrazione si riferisca alle seguenti tipologie di spesa, in quanto afferenti a risorse tecniche e strumentali strettamente connesse al perseguimento della propria attività istituzionale:</p>\n<ul>\n\n<li>Uscite correnti \n<ul>\n\n<li>Acquisto di beni e di servizi </li>\n\n<li>Trasferimenti correnti </li>\n\n<li>Interessi passivi </li>\n\n<li>Altre spese per redditi da capitale </li>\n\n<li>Altre spese correnti </li>\n\n</ul>\n</li>\n\n<li>Uscite in conto capitale \n<ul>\n\n<li>Investimenti fissi lordi e acquisto di terreni </li>\n\n<li>Contributi agli investimenti </li>\n\n<li>Altri trasferimenti in conto capitale </li>\n\n<li>Altre spese in conto capitale </li>\n\n<li>Acquisizioni di attività finanziarie </li>\n\n</ul>\n</li>\n\n</ul>\n<p>Per ciascuna di tali tipologie di spesa, l’Amministrazione individua la natura economica delle spese e pubblica un prospetto con i dati sui propri pagamenti, evidenziando i nominativi dei “beneficiari” e, quale “ambito temporale di riferimento”, la data di effettivo pagamento.</p><p>L'aggiornamento dei dati è in fase di prima attuazione semestrale.</p>"
+        decorrenza_di_pubblicazione:
+            - Tempestiva
+        aggiornamento:
+            - Trimestrale
+        termine_pubblicazione:
+            - '5 anni a decorrere dal primo gennaio dell''anno successivo a quello da cui decorre l''obbligo di pubblicazione'
+        fields: null
+sort_data:
+    sort_field: 8
+    sort_order: 1
+    priority: 0

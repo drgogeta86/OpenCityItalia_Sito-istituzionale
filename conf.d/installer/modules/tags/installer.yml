@@ -1,0 +1,47 @@
+name: 'OpenCity Tags'
+type: module
+version: 0.0.1
+variables: null
+steps:
+    -
+        type: tagtree
+        identifier: Comunicazione
+    -
+        type: tagtree
+        identifier: Costi-e-prezzi
+    -
+        type: tagtree
+        identifier: Data-themes-eurovocs
+    -
+        type: tagtree
+        identifier: Dataset
+    -
+        type: tagtree
+        identifier: Documenti
+    -
+        type: tagtree
+        identifier: Esito-servizi-al-cittadino
+    -
+        type: tagtree
+        identifier: Eventi
+    -
+        type: tagtree
+        identifier: Licenze
+    -
+        type: tagtree
+        identifier: Lingue-in-cui-e-disponibile-un-servizio-un-evento
+    -
+        type: tagtree
+        identifier: Luoghi
+    -
+        type: tagtree
+        identifier: Organizzazione
+    -
+        type: tagtree
+        identifier: Parole-chiave-generali
+    -
+        type: tagtree
+        identifier: Persone
+    -
+        type: tagtree
+        identifier: Servizi-pubblici

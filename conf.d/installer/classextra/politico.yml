@@ -1,0 +1,149 @@
+attribute_group:
+    contatti:
+        '*': Contatti
+        email: '1'
+        mobile_phone: '1'
+        phone: '1'
+        ricevimento: '1'
+    documenti:
+        '*': Documenti
+        assunzione_cariche: '1'
+        atto_nomina: '1'
+        atto_surroga: '1'
+        compensi: '1'
+        curriculum: '1'
+        dichiarazione_incompatibilita: '1'
+        eventuali_incarichi: '1'
+        importi: '1'
+    enabled:
+        '*': '1'
+    ruolo:
+        '*': Ruolo
+        abstract: '1'
+        competenze: '1'
+        has_role: '1'
+    'sort::contatti':
+        '*': '2'
+    'sort::documenti':
+        '*': '3'
+    'sort::ruolo':
+        '*': '1'
+    'sort::ulteriori_informazioni':
+        '*': '4'
+    ulteriori_informazioni:
+        '*': 'Ulteriori informazioni'
+        data_finemandato: '1'
+        data_iniziomandato: '1'
+        decorrenza_carica: '1'
+        gruppo_politico: '1'
+        lista_elettorale: '1'
+        maggioranza_minoranza: '1'
+        nota: '1'
+        office: '1'
+        voti: '1'
+bootstrapitalia_icon:
+    enabled:
+        '*': '1'
+    icon:
+        '*': it-user
+card_small_view:
+    enabled:
+        '*': '1'
+    show:
+        content_show_read_more: '1'
+        has_role: '1'
+        image: '1'
+line_view:
+    enabled:
+        '*': '1'
+    show:
+        abstract: '1'
+        competenze: '1'
+        gruppo_politico: '1'
+        has_role: '1'
+    show_label:
+        competenze: '1'
+        gruppo_politico: '1'
+search_form:
+    enabled:
+        '*': '1'
+    show:
+        abstract: '1'
+        assunzione_cariche: '1'
+        atto_nomina: '1'
+        atto_nomina2: '1'
+        atto_surroga: '1'
+        cognome: '1'
+        compensi: '1'
+        competenze: '1'
+        curriculum: '1'
+        data_finemandato: '1'
+        data_iniziomandato: '1'
+        decorrenza_carica: '1'
+        descrizione: '1'
+        documento_istitutivo: '1'
+        email: '1'
+        eventuali_incarichi: '1'
+        gruppo_politico: '1'
+        image: '1'
+        importi: '1'
+        lista_elettorale: '1'
+        maggioranza_minoranza: '1'
+        nome: '1'
+        nota: '1'
+        ricevimento: '1'
+        ruolo: '1'
+        ruolo2: '1'
+        servizio: '1'
+        userid: '1'
+        voti: '1'
+table_view:
+    enabled:
+        '*': '1'
+    in_overview:
+        has_role: '1'
+        image: '1'
+    show:
+        abstract: '1'
+        assunzione_cariche: '1'
+        atto_nomina: '1'
+        atto_surroga: '1'
+        compensi: '1'
+        competenze: '1'
+        curriculum: '1'
+        data_finemandato: '1'
+        data_iniziomandato: '1'
+        decorrenza_carica: '1'
+        dichiarazione_incompatibilita: '1'
+        email: '1'
+        eventuali_incarichi: '1'
+        gruppo_politico: '1'
+        has_role: '1'
+        image: '1'
+        importi: '1'
+        lista_elettorale: '1'
+        maggioranza_minoranza: '1'
+        mobile_phone: '1'
+        nota: '1'
+        phone: '1'
+        ricevimento: '1'
+    show_label:
+        assunzione_cariche: '1'
+        atto_nomina: '1'
+        atto_surroga: '1'
+        compensi: '1'
+        competenze: '1'
+        curriculum: '1'
+        data_finemandato: '1'
+        data_iniziomandato: '1'
+        decorrenza_carica: '1'
+        dichiarazione_incompatibilita: '1'
+        email: '1'
+        eventuali_incarichi: '1'
+        gruppo_politico: '1'
+        importi: '1'
+        lista_elettorale: '1'
+        maggioranza_minoranza: '1'
+        mobile_phone: '1'
+        phone: '1'
+        ricevimento: '1'

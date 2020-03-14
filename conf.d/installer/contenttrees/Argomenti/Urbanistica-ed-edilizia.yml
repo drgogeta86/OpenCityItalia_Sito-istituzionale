@@ -1,0 +1,24 @@
+metadata:
+    remoteId: topic_39
+    classIdentifier: topic
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        name: 'Urbanistica ed edilizia'
+        managed_by_area: {  }
+        managed_by_political_body: {  }
+        type: null
+        description: null
+        eu: 'https://publications.europa.eu/en/web/eu-vocabularies/th-concept-scheme/-/resource/eurovoc/100216?target=Browse'
+        theme: null
+        data_themes_eurovocs: {  }
+        image: {  }
+        abstract: ''
+        icon: null
+        help: {  }
+sort_data:
+    sort_field: 1
+    sort_order: 1
+    priority: 0

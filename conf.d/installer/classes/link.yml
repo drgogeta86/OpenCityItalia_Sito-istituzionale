@@ -1,0 +1,122 @@
+identifier: link
+contentobject_name: '<short_name|name> '
+serialized_name_list:
+    always-available: ita-IT
+    ita-IT: Link
+serialized_description_list:
+    ita-IT: 'Struttura dati necessaria al funzionamento della piattaforma'
+data_map:
+    name:
+        identifier: name
+        serialized_description_list:
+            ita-IT: 'Nome del link'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Nome
+        data_type_string: ezstring
+        placement: 1
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        data_int1: 255
+        serialized_data_text: {  }
+    short_name:
+        identifier: short_name
+        serialized_description_list:
+            ita-IT: 'Nome sintetico del link'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Nome breve'
+        data_type_string: ezstring
+        placement: 2
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 100
+        serialized_data_text: {  }
+    abstract:
+        identifier: abstract
+        serialized_description_list:
+            ita-IT: 'Breve descrizione del link'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Descrizione breve'
+        data_type_string: ezxmltext
+        placement: 3
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 5
+        serialized_data_text: {  }
+    location:
+        identifier: location
+        serialized_description_list:
+            ita-IT: 'Indirizzo del sito web a cui rimanda il link'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Link esterno'
+        data_type_string: ezurl
+        placement: 4
+        can_translate: 1
+        serialized_data_text: {  }
+    internal_location:
+        identifier: internal_location
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Link interno'
+        data_type_string: ezobjectrelationlist
+        placement: 5
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list: {  }
+            default_placement: false
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    descrizione:
+        identifier: descrizione
+        serialized_description_list:
+            ita-IT: 'Descrizione completa del link'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Descrizione
+        data_type_string: ezxmltext
+        placement: 6
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 5
+        serialized_data_text: {  }
+    image:
+        identifier: image
+        serialized_description_list:
+            ita-IT: 'Immagine principale del link'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Immagine
+        data_type_string: ezimage
+        placement: 7
+        can_translate: 1
+        serialized_data_text: {  }
+    data_archiviazione:
+        identifier: data_archiviazione
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Data in cui l''informazione va archiviata'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Data di archiviazione'
+        data_type_string: ezdate
+        placement: 8
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+groups:
+    - Media
+    - 'Amministrazione trasparente'

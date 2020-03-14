@@ -109,4 +109,23 @@ AvailableClasses[]
 [literal]
 AvailableClasses[]
 AvailableClasses[]=html
+
+[embed]
+AvailableViewModes[]
+AvailableViewModes[]=embed
+AvailableViewModes[]=embed-inline
+AvailableViewModes[]=banner
+AvailableClasses[]
+AvailableClasses[]=primary
+AvailableClasses[]=secondary
+AvailableClasses[]=success
+AvailableClasses[]=info
+AvailableClasses[]=warning
+AvailableClasses[]=danger
+AvailableClasses[]=dark
+AvailableClasses[]=black
+
+[embed-inline]
+AvailableViewModes[]
+AvailableViewModes[]=embed-inline
 */ ?>

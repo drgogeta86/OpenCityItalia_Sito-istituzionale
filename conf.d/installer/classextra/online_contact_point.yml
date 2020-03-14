@@ -1,0 +1,17 @@
+bootstrapitalia_icon:
+    enabled:
+        '*': '1'
+    icon:
+        '*': it-share
+card_small_view:
+    show:
+        contact: '1'
+table_view:
+    enabled:
+        '*': '1'
+    show:
+        contact: '1'
+        is_contact_point_of_organizations: '1'
+        note: '1'
+    show_label:
+        contact: '1'

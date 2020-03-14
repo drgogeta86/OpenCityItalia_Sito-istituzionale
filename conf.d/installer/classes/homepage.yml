@@ -1,0 +1,218 @@
+identifier: homepage
+contentobject_name: '<name>'
+serialized_name_list:
+    always-available: ita-IT
+    ita-IT: Homepage
+serialized_description_list:
+    always-available: ita-IT
+    ita-IT: 'Struttura dati necessaria al funzionamento della piattaforma'
+always_available: 1
+sort_field: 8
+is_container: 1
+data_map:
+    name:
+        identifier: name
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Titolo
+        data_type_string: ezstring
+        placement: 1
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    page:
+        identifier: page
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Layout
+        data_type_string: ezpage
+        placement: 2
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    logo:
+        identifier: logo
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Logo
+        data_type_string: ezimage
+        placement: 3
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    link_al_menu_orizzontale:
+        identifier: link_al_menu_orizzontale
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Link al menu orizzontale'
+        data_type_string: ezobjectrelationlist
+        placement: 4
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list: {  }
+            default_placement: false
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    link_nell_header:
+        identifier: link_nell_header
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Link nell''header'
+        data_type_string: ezobjectrelationlist
+        placement: 5
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list: {  }
+            default_placement: false
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    link_nel_footer:
+        identifier: link_nel_footer
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Link nel footer'
+        data_type_string: ezobjectrelationlist
+        placement: 6
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list: {  }
+            default_placement: false
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    note_footer:
+        identifier: note_footer
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Informazioni nel footer'
+        data_type_string: ezxmltext
+        placement: 7
+        can_translate: 1
+        data_int1: 5
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    contacts:
+        identifier: contacts
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Contatti
+        data_type_string: ezmatrix
+        placement: 8
+        is_searchable: 1
+        can_translate: 1
+        data_text5: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<ezmatrix><column-name id=\"media\" idx=\"0\">Media</column-name><column-name id=\"value\" idx=\"1\">Valore</column-name></ezmatrix>\n"
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    stemma:
+        identifier: stemma
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Stemma ufficiale'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Stemma
+        data_type_string: ezimage
+        placement: 9
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    colorize_logo:
+        identifier: colorize_logo
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Colora il logo di bianco'
+        data_type_string: ezboolean
+        placement: 10
+        is_searchable: 1
+        can_translate: 1
+        category: hidden
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    only_logo:
+        identifier: only_logo
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Solo logo'
+        data_type_string: ezboolean
+        placement: 11
+        can_translate: 1
+        category: hidden
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    topics:
+        identifier: topics
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Menu argomenti '
+        data_type_string: ezobjectrelationlist
+        placement: 12
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '3'
+            type: '2'
+            class_constraint_list: {  }
+            default_placement:
+                node_id: $contenttree_OpenCity_Argomenti_node
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+groups:
+    - Content

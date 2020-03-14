@@ -1,0 +1,44 @@
+keyword: 'Costi e prezzi'
+locale: ita-IT
+alwaysAvailable: true
+synonyms: {  }
+keywordTranslations:
+    ita-IT: 'Costi e prezzi'
+children:
+    -
+        keyword: Valute
+        locale: ita-IT
+        alwaysAvailable: true
+        synonyms: {  }
+        keywordTranslations:
+            ita-IT: Valute
+        children:
+            -
+                keyword: Dollari
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Dollari
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Euro
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Euro
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Sterline
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Sterline
+                children: {  }
+                hasChildren: false
+        hasChildren: true
+hasChildren: true

@@ -1,0 +1,100 @@
+attribute_group:
+    contatti:
+        '*': Contatti
+        help: '1'
+    corpo:
+        '*': Corpo
+        audio: '1'
+        body: '1'
+        video: '1'
+    dataset:
+        '*': Dataset
+        dataset: '1'
+    documenti:
+        '*': Documenti
+        attachment: '1'
+        image: '1'
+    enabled:
+        '*': '1'
+    'ita-IT::contatti':
+        '*': Contatti
+    'ita-IT::corpo':
+        '*': Descrizione
+    'ita-IT::dataset':
+        '*': Dataset
+    'ita-IT::documenti':
+        '*': Documenti
+    'ita-IT::ulteriori_informazioni':
+        '*': 'Ulteriori informazioni'
+    'sort::contatti':
+        '*': '4'
+    'sort::corpo':
+        '*': '1'
+    'sort::dataset':
+        '*': '3'
+    'sort::documenti':
+        '*': '2'
+    'sort::ulteriori_informazioni':
+        '*': '5'
+    ulteriori_informazioni:
+        '*': 'Ulteriori informazioni'
+        content_show_modified: '1'
+        license: '1'
+bootstrapitalia_icon:
+    enabled:
+        '*': '1'
+    icon:
+        '*': it-note
+line_view:
+    enabled:
+        '*': '1'
+    show:
+        intro: '1'
+search_form:
+    enabled:
+        '*': '1'
+    show:
+        author: '1'
+        body: '1'
+        caption: '1'
+        enable_comments: '1'
+        file: '1'
+        image: '1'
+        intro: '1'
+        publish_date: '1'
+        short_title: '1'
+        tags: '1'
+        title: '1'
+        unpublish_date: '1'
+table_view:
+    enabled:
+        '*': '1'
+    in_overview:
+        abstract: '1'
+        content_show_published: '1'
+        location: '1'
+    main_image:
+        image: '1'
+    show:
+        abstract: '1'
+        attachment: '1'
+        audio: '1'
+        author: '1'
+        body: '1'
+        content_show_modified: '1'
+        content_show_published: '1'
+        content_tree_related: '1'
+        dataset: '1'
+        help: '1'
+        image: '1'
+        license: '1'
+        location: '1'
+        people: '1'
+        published: '1'
+        video: '1'
+    show_label:
+        license: '1'
+        title: '1'
+    show_link:
+        attachment: '1'
+        location: '1'

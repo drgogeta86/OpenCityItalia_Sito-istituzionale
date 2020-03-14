@@ -1,0 +1,175 @@
+identifier: time_indexed_role
+contentobject_name: 'Ruolo "<role>" di <for_entity>'
+serialized_name_list:
+    always-available: ita-IT
+    ita-IT: 'Ruolo di una persona nel tempo'
+serialized_description_list:
+    always-available: ita-IT
+    ita-IT: 'Rappresentazione di un ruolo di un dipendente o di un politico associato ad un intervallo temporale determinato'
+data_map:
+    person:
+        identifier: person
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Puoi selezionare un politico o un dipendente'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Persona che ha il ruolo'
+        data_type_string: ezobjectrelationlist
+        placement: 1
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '1'
+            type: '2'
+            class_constraint_list:
+                - employee
+                - politico
+            default_placement:
+                node_id: $contenttree_OpenCity_Amministrazione_node
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    for_entity:
+        identifier: for_entity
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Puoi selezionare un ufficio, un''area, una organizzazione pubblica, un''organizzazione privata'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Ha un ruolo rispetto a:'
+        data_type_string: ezobjectrelationlist
+        placement: 2
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '1'
+            type: '2'
+            class_constraint_list:
+                - administrative_area
+                - private_organization
+                - public_organization
+                - political_body
+                - office
+            default_placement:
+                node_id: $contenttree_OpenCity_Amministrazione_node
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    role:
+        identifier: role
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Ruolo
+        data_type_string: eztags
+        placement: 3
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        data_int1: 'tag(Persone / Ruoli)'
+        data_int3: 1
+        data_int4: 1
+        data_text1: Tree
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    start_time:
+        identifier: start_time
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Indica la data in cui inizia questo ruolo (es. incarico)'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Data inizio incarico'
+        data_type_string: ezdate
+        placement: 4
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    end_time:
+        identifier: end_time
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Indica la data in cui scade questo ruolo (es. incarico)'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Data conclusione incarico'
+        data_type_string: ezdate
+        placement: 5
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    competences:
+        identifier: competences
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Indicare le competenze della persona, specificandone una per riga'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Competenze
+        data_type_string: ezmatrix
+        placement: 6
+        is_searchable: 1
+        can_translate: 1
+        data_text5: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<ezmatrix><column-name id=\"competence\" idx=\"0\">Competenza</column-name></ezmatrix>\n"
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    delegations:
+        identifier: delegations
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Indicare le deleghe della persona, specificandone una per riga'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Deleghe
+        data_type_string: ezmatrix
+        placement: 7
+        is_searchable: 1
+        can_translate: 1
+        data_text5: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<ezmatrix><column-name id=\"delega\" idx=\"0\">Delega</column-name></ezmatrix>\n"
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    organizational_position:
+        identifier: organizational_position
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Incarichi di posizione organizzativa'
+        data_type_string: ezboolean
+        placement: 8
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    incarico_dirigenziale:
+        identifier: incarico_dirigenziale
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Incarico dirigenziale'
+        data_type_string: ezboolean
+        placement: 9
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+groups:
+    - 'Ruoli - RO'

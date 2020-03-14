@@ -1,0 +1,61 @@
+identifier: restriced_area
+contentobject_name: '<name>'
+serialized_name_list:
+    always-available: ita-IT
+    ita-IT: 'Area riservata'
+serialized_description_list:
+    always-available: ita-IT
+    ita-IT: 'Alberatura riservata a un gruppo di utenti '
+sort_field: 2
+sort_order: 0
+is_container: 1
+data_map:
+    name:
+        identifier: name
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Area riservata'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Titolo
+        data_type_string: ezstring
+        placement: 1
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    short_description:
+        identifier: short_description
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Descrizione breve'
+        data_type_string: eztext
+        placement: 2
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 5
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    restricted_users:
+        identifier: restricted_users
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Utenti e/o gruppi abilitati all''accesso'
+        data_type_string: openparestrictedarea
+        placement: 3
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+groups:
+    - Content

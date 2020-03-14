@@ -1,0 +1,22 @@
+metadata:
+    remoteId: 0d2dfc4f599bef991f37e1e043d62032
+    classIdentifier: pagina_trasparenza
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        titolo: 'Dirigenti cessati'
+        contenuto_obbligo: '<p>Per ciascun titolare di incarico dirigenziale o di posizione organizzativa con funzione dirigenziale cessato dal servizio si pubblicano le informazioni già previste per le corrispondenti categorie</p>'
+        riferimenti_normativi: "Ai sensi della l.r. n. 10/2014 e ss.mm., art.14 del d.lgs. n. 33/2013 e ss.mm.\r\nArt. 20, co.3, d.lgs. n. 39/2013\r\nDelibere ANAC n. 241/2017 e n. 586/2019"
+        applicabilita: ''
+        denominazione_degli_obblighi: ''
+        guida_alla_compilazione: '<p>Per inserire le informazioni nella presente sezione è possibile spostare il dipendente dalla sezione &quot;Comune&quot; a questa sezione</p>'
+        messaggio_di_consiglio: '<p>Per gli obblighi relativi alla situazione patrimoniale (solo per gli Enti con popolazione superiore ai 15.000 abitanti) l''attestazione concernente le variazioni della situazione patrimoniale e la copia della dichiarazione dei redditi è da pubblicare entro un mese dal termine per la presentazione della dichiarazione stessa (ai sensi della l. n. 441/1982)</p>'
+        termine_pubblicazione:
+            - '3 anni successivi alla cessazione dell''incarico'
+        fields: null
+sort_data:
+    sort_field: 8
+    sort_order: 1
+    priority: 2

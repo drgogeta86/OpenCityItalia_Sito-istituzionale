@@ -2,22 +2,13 @@
 
 [DashboardSettings]
 DashboardBlocks[]
-DashboardBlocks[]=pending_list
 DashboardBlocks[]=drafts
 DashboardBlocks[]=latest_content
-DashboardBlocks[]=all_latest_content
-DashboardBlocks[]=rss
-DashboardBlocks[]=pending_events
+#DashboardBlocks[]=all_latest_content
+#DashboardBlocks[]=rss
 DashboardBlocks[]=usage_metrics
 DashboardBlocks[]=bookmarks
-
-[DashboardBlock_pending_list]
-Priority=10
-NumberOfItems=10
-PolicyList[]=content/pendinglist
-
-[DashboardBlock_maintenance]
-Priority=20
+DashboardBlocks[]=editorialstuff
 
 [DashboardBlock_drafts]
 Priority=30

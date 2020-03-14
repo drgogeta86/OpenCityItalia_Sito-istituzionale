@@ -1,0 +1,73 @@
+name: Anonymous
+policies:
+    -
+        ModuleName: content
+        FunctionName: read
+        Limitation:
+            Section:
+                - $section_standard
+            StateGroup_albotelematico:
+                - $state_albotelematico_visibile
+                - $state_albotelematico_archivioricercabile
+                - $state_albotelematico_archiviononricercabile
+            StateGroup_moderation:
+                - $state_moderation_accepted
+                - $state_moderation_skipped
+            StateGroup_privacy:
+                - $state_privacy_public
+    -
+        ModuleName: content
+        FunctionName: read
+        Limitation:
+            Class:
+                - $class_place
+            StateGroup_privacy:
+                - $state_privacy_private
+    -
+        ModuleName: content
+        FunctionName: read
+        Limitation:
+            Class:
+                - $class_file
+                - $class_image
+                - $class_gallery
+                - $class_banner
+                - $class_link
+                - $class_chart
+            Section:
+                - $section_media
+    -
+        ModuleName: exportas
+        FunctionName: csv
+        Limitation: {  }
+    -
+        ModuleName: ezjscore
+        FunctionName: call
+        Limitation:
+            FunctionList:
+                - ezjsctemplate
+                - ezstarrating_rate
+                - openpaajax
+    -
+        ModuleName: opendata
+        FunctionName: api
+        Limitation: {  }
+    -
+        ModuleName: opendata
+        FunctionName: environment
+        Limitation:
+            PresetList:
+                - content
+                - datatable
+                - geo
+    -
+        ModuleName: tags
+        FunctionName: view
+        Limitation: {  }
+    -
+        ModuleName: user
+        FunctionName: login
+        Limitation:
+            SiteAccess:
+                - ezcrc32(frontend)
+    

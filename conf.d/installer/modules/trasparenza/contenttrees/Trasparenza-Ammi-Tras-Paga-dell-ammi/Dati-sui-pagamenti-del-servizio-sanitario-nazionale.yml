@@ -1,0 +1,20 @@
+metadata:
+    remoteId: 167c05fa76f7a38fb27c9d0c23a1da42
+    classIdentifier: pagina_trasparenza
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        titolo: 'Dati sui pagamenti del servizio sanitario nazionale'
+        contenuto_obbligo: '<p>Dati relativi a tutte le spese e a tutti i pagamenti effettuati, distinti per tipologia di lavoro, bene o servizio in relazione alla tipologia di spesa sostenuta, all’ambito temporale di riferimento e ai beneficiari</p>'
+        riferimenti_normativi: 'Art. 41, co. 1-bis, d.lgs n. 33/2013 e ss.mm.'
+        applicabilita: '<p>L’obbligo di pubblicazione di cui alla presente sezione non si applica all’Ente</p>'
+        denominazione_degli_obblighi: ''
+        guida_alla_compilazione: ''
+        messaggio_di_consiglio: ''
+        fields: null
+sort_data:
+    sort_field: 8
+    sort_order: 1
+    priority: 1

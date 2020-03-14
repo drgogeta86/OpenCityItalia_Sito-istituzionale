@@ -1,0 +1,188 @@
+identifier: pagina_trasparenza
+contentobject_name: '<titolo>'
+serialized_name_list:
+    always-available: ita-IT
+    ita-IT: 'Pagina trasparenza'
+serialized_description_list:
+    always-available: ita-IT
+    ita-IT: ''
+is_container: 1
+data_map:
+    titolo:
+        identifier: titolo
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Titolo della pagina'
+        data_type_string: ezstring
+        placement: 1
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    contenuto_obbligo:
+        identifier: contenuto_obbligo
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Contenuto dell''obbligo'
+        data_type_string: ezxmltext
+        placement: 2
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 5
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    riferimenti_normativi:
+        identifier: riferimenti_normativi
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Riferimenti normativi'
+        data_type_string: eztext
+        placement: 3
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 2
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    applicabilita:
+        identifier: applicabilita
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Applicabilità
+        data_type_string: ezxmltext
+        placement: 4
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 2
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    denominazione_degli_obblighi:
+        identifier: denominazione_degli_obblighi
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Denominazione degli obblighi'
+        data_type_string: ezxmltext
+        placement: 5
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 5
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    guida_alla_compilazione:
+        identifier: guida_alla_compilazione
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Guida alla compilazione'
+        data_type_string: ezxmltext
+        placement: 6
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 5
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    messaggio_di_consiglio:
+        identifier: messaggio_di_consiglio
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Messaggio di consiglio'
+        data_type_string: ezxmltext
+        placement: 7
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 2
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    decorrenza_di_pubblicazione:
+        identifier: decorrenza_di_pubblicazione
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Decorrenza di pubblicazione'
+        data_type_string: ezselection
+        placement: 8
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 1
+        data_text5: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<ezselection><options><option id=\"0\" name=\"Non specificato\"/><option id=\"1\" name=\"3 mesi dalla elezione o dalla nomina\"/><option id=\"2\" name=\"Anno successivo a quello di riferimento\"/><option id=\"3\" name=\"Da adozione\"/><option id=\"4\" name=\"Da entrata in vigore\"/><option id=\"5\" name=\"Da entrata in vigore provvedimento di adozione\"/><option id=\"6\" name=\"Immediata\"/><option id=\"7\" name=\"Immediata per i provvedimenti concessione e attribuzione di importo maggiore di € 1.000,00 \"/><option id=\"8\" name=\"Tempestiva\"/></options></ezselection>\n"
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    aggiornamento:
+        identifier: aggiornamento
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Aggiornamento
+        data_type_string: ezselection
+        placement: 9
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 1
+        data_text5: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<ezselection><options><option id=\"1\" name=\"Annuale\"/><option id=\"2\" name=\"Annuale  (art. 10, c. 1, D.Lgs. n. 33/2013)\"/><option id=\"3\" name=\"Annuale e in relazione a delibere ANAC\"/><option id=\"4\" name=\"Tempestivo\"/><option id=\"5\" name=\"Tempestivo  (ex art. 8, D.Lgs. n. 33/2013)\"/><option id=\"6\" name=\"Trimestrale\"/><option id=\"7\" name=\"Da pubblicare secondo le modalità e le specifiche previste dal D.Lgs. n. 163/2006\"/><option id=\"8\" name=\"Semestrale\"/><option id=\"9\" name=\"Da pubblicare secondo le modalità e le specifiche previste dal D.Lgs. n. 163/2006  e dalla L.P. n. 26/1993\"/></options></ezselection>\n"
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    termine_pubblicazione:
+        identifier: termine_pubblicazione
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Termine pubblicazione'
+        data_type_string: ezselection
+        placement: 10
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 1
+        data_text5: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<ezselection><options><option id=\"0\" name=\"Non specificato\"/><option id=\"1\" name=\"Scadenza specificata nel documento\"/><option id=\"2\" name=\"5 anni per le Sovvenzioni, contributi, sussidi e vantaggi economici a decorrere dall'anno successivo alla pubblicazione\"/><option id=\"3\" name=\"7 anni a decorrere dall'anno successivo alla pubblicazione del Bilancio consuntivo\"/><option id=\"4\" name=\"6 anni a decorrere dall'anno successivo alla pubblicazione del Bilancio preventivo\"/><option id=\"5\" name=\"5 anni a decorrere dall'anno successivo alla pubblicazione dell'Albo dei beneficiari\"/><option id=\"6\" name=\"3 anni successivi alla cessazione dell'incarico\"/><option id=\"7\" name=\"5 anni a decorrere dal primo gennaio dell'anno successivo a quello da cui decorre l'obbligo di pubblicazione\"/><option id=\"8\" name=\"Annuale\"/><option id=\"9\" name=\"3 anni a decorrere dal primo gennaio dell'anno successivo a quello da cui decorre l'obbligo di pubblicazione\"/></options></ezselection>\n"
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    fields:
+        identifier: fields
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'class!attribute1,attribute2 (a cura di Opencontent)'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Regole di rappresentazione dei dati'
+        data_type_string: ezstring
+        placement: 11
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+groups:
+    - 'Amministrazione Trasparenza'

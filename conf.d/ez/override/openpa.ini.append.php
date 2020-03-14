@@ -1,41 +1,44 @@
 <?php /* #?ini charset="utf-8"?
 
-
-[NetworkSettings]
-PrototypeUrl=http://saasopenpa.opencontent.it/openpa/classdefinition/
-
 [InstanceSettings]
+NomeAmministrazioneAfferente=
+UrlAmministrazioneAfferente=
 LiveIPList[]
 
+[GeneralSettings]
+tag_line=
+theme=cagliari
+
+[NetworkSettings]
+PrototypeUrl=
+
 [CreditsSettings]
-Name=OpenPa
-Url=http://www.opencontent.it/openpa
-Title=OpenPA: dialogare tra enti e cittadini è più facile
-
-[Accessibilita]
-BrowserDeprecato[]
-
-[GestioneClassi]
-escludi_da_riferimenti[]=banner
-escludi_da_riferimenti[]=link
+Name=OpenCity
+Url=http://www.opencontent.it/opencity
+Title=OpenCity: dialogare tra enti e cittadini è più facile
+CodeUrl=https://gitlab.com/opencontent/opencity
+CodeVersion=2.0.0
 
 [ViewSettings]
-AvailableView[]=full_block
+AvailableView[]=card
+AvailableView[]=card_children
+AvailableView[]=banner
+AvailableView[]=card_teaser
+AvailableView[]=card_image
 
-[MotoreDiRicerca]
-RicercaAvanzataSelezionaAnni[]
-RicercaAvanzataSelezionaAnni[]=2019
-RicercaAvanzataSelezionaAnni[]=2018
-RicercaAvanzataSelezionaAnni[]=2017
-RicercaAvanzataSelezionaAnni[]=2016
-RicercaAvanzataSelezionaAnni[]=2015
-RicercaAvanzataSelezionaAnni[]=2014
-RicercaAvanzataSelezionaAnni[]=2013
-RicercaAvanzataSelezionaAnni[]=2012
-RicercaAvanzataSelezionaAnni[]=2011
-RicercaAvanzataSelezionaAnni[]=2010
-RicercaAvanzataSelezionaAnni[]=2009
-RicercaAvanzataSelezionaAnni[]=2008
-RicercaAvanzataSelezionaAnni[]=2007
+[Stili]
+UsaNeiBlocchi=enabled
+Nodo_NomeStile[]
+Nodo_NomeStile[]=0;bg-100
+Nodo_NomeStile[]=0;section section-muted section-inset-shadow pb-5
+
+[TopMenu]
+NodiAreeCustomMenu[]
+MaxRecursion=3
+
+[WebsiteToolbar]
+ShowMediaRoot=enabled
+ShowUsersRoot=disabled
+ShowEditorRoles=enabled
 
 */?>

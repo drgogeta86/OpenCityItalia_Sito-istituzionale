@@ -1,0 +1,75 @@
+name: "Editor Classificazioni"
+policies:
+    -
+        ModuleName: content
+        FunctionName: create
+        Limitation:
+            Subtree:
+                - $contenttree_Classificazioni_Regole-leggi-riferimenti-normativi-e-linee-guida-per-i-servizi_path_string
+            Class:
+                - $class_rule
+    
+    -
+        ModuleName: content
+        FunctionName: create
+        Limitation:
+            Subtree:
+                - $contenttree_Classificazioni_Canali-digitali_path_string
+            Class:
+                - $class_channel
+    -
+        ModuleName: content
+        FunctionName: create
+        Limitation:
+            Subtree:
+                - $contenttree_Classificazioni_Cosa-puoi-richiedere_path_string
+            Class:
+                - $class_output
+    -
+        ModuleName: content
+        FunctionName: create
+        Limitation:
+            Subtree:
+                - $contenttree_Classificazioni_Punti-di-contatto_path_string
+            Class:
+                - $class_online_contact_point
+    -
+        ModuleName: content
+        FunctionName: create
+        Limitation:
+            Subtree:
+                - $contenttree_Classificazioni_Orari-servizi_path_string
+                - $contenttree_Classificazioni_Orari-strutture_path_string
+                - $contenttree_Classificazioni_Estensioni-temporali-dei-dataset_path_string
+            Class:
+                - $class_opening_hours_specification
+    -
+        ModuleName: content
+        FunctionName: create
+        Limitation:
+            Subtree:
+                - $contenttree_Classificazioni_Costi-e-tariffe_path_string
+            Class:
+                - $class_offer
+    -
+        ModuleName: content
+        FunctionName: edit
+        Limitation:
+            Class:
+                - $class_rule
+                - $class_channel
+                - $class_output
+                - $class_online_contact_point
+                - $class_opening_hours_specification
+
+    -
+        ModuleName: content
+        FunctionName: remove
+        Limitation:
+            Class:
+                - $class_rule
+                - $class_channel
+                - $class_output
+                - $class_online_contact_point
+                - $class_opening_hours_specification
+                

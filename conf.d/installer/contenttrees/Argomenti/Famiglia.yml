@@ -1,0 +1,24 @@
+metadata:
+    remoteId: 2eb5ffa8cfbb467dee3026fd6ab7464c
+    classIdentifier: topic
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        name: Famiglia
+        managed_by_area: {  }
+        managed_by_political_body: {  }
+        type: 'target utente'
+        description: null
+        eu: 'famiglia - https://publications.europa.eu/en/web/eu-vocabularies/th-concept-scheme/-/resource/eurovoc/100208?target=Browse'
+        theme: 'Popolazione e società - https://publications.europa.eu/en/web/eu-vocabularies/at-concept/-/resource/authority/data-theme/SOCI/'
+        data_themes_eurovocs: {  }
+        image: {  }
+        abstract: '<p>Iniziative per e con le famiglie, favorendo la creazione di una rete di opportunità costruite nell''ottica di un reciproco scambio.</p>'
+        icon: it-user
+        help: {  }
+sort_data:
+    sort_field: 1
+    sort_order: 1
+    priority: 0

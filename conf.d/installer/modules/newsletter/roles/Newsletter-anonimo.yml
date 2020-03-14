@@ -1,0 +1,24 @@
+name: 'Newsletter anonimo'
+policies:
+    -
+        ModuleName: content
+        FunctionName: read
+        Limitation:
+            Section:
+                - $section_cjw_newsletter
+    -
+        ModuleName: newsletter
+        FunctionName: archive
+        Limitation: {  }
+    -
+        ModuleName: newsletter
+        FunctionName: configure
+        Limitation: {  }
+    -
+        ModuleName: newsletter
+        FunctionName: subscribe
+        Limitation: {  }
+    -
+        ModuleName: newsletter
+        FunctionName: unsubscribe
+        Limitation: {  }

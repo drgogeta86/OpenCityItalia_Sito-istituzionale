@@ -1,0 +1,205 @@
+identifier: person
+contentobject_name: '<given_name>'
+serialized_name_list:
+    always-available: ita-IT
+    ita-IT: Persona
+serialized_description_list:
+    always-available: ita-IT
+    ita-IT: 'Profilo di un cittadino che richiede un servizio o apre un''istanza presso l''ente'
+data_map:
+    given_name:
+        identifier: given_name
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Nome
+        data_type_string: ezstring
+        placement: 1
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    family_name:
+        identifier: family_name
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Cognome
+        data_type_string: ezstring
+        placement: 2
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    alt_name:
+        identifier: alt_name
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Inserire il nome alternativo o secondo nome di una persona. Per esempio Anne è il secondo nome di "Mary Anne Clarke".'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Nome alternativo / secondo nome'
+        data_type_string: ezstring
+        placement: 3
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    tax_code:
+        identifier: tax_code
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Codice fiscale'
+        data_type_string: ezstring
+        placement: 4
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    date_of_birth:
+        identifier: date_of_birth
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Data di nascita'
+        data_type_string: ezdate
+        placement: 5
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    has_sex:
+        identifier: has_sex
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Sesso
+        data_type_string: eztags
+        placement: 6
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 'tag(Persone / Sesso)'
+        data_int3: 1
+        data_int4: 1
+        data_text1: Tree
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    has_birth_place:
+        identifier: has_birth_place
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Luogo di nascita'
+        data_type_string: ezstring
+        placement: 7
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    resident_in:
+        identifier: resident_in
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Residente in'
+        data_type_string: ezstring
+        placement: 8
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    has_address:
+        identifier: has_address
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Indirizzo di domicilio'
+        data_type_string: ezstring
+        placement: 9
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    has_level_of_education:
+        identifier: has_level_of_education
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Grado di istruzione'
+        data_type_string: eztags
+        placement: 10
+        is_searchable: 1
+        can_translate: 1
+        data_text1: Default
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    has_parental_relationship_with:
+        identifier: has_parental_relationship_with
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Relazioni parentali'
+        data_type_string: ezobjectrelationlist
+        placement: 11
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - person
+            default_placement: false
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    age:
+        identifier: age
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Età
+        data_type_string: ezinteger
+        placement: 12
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+groups:
+    - 'Persone (CPV)'

@@ -1,0 +1,25 @@
+metadata:
+    remoteId: f1c1c3e7404f162fa27d7accbe742f3d
+    classIdentifier: pagina_sito
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        name: 'Cosa puoi richiedere'
+        short_name: null
+        menu_name: null
+        abstract: ''
+        description: ''
+        image: {  }
+        show_children: 1
+        layout: {  }
+        icon: null
+        show_topics: 0
+        show_search_form: 1
+        tag_menu: {  }
+        publish_date: null
+sort_data:
+    sort_field: 2
+    sort_order: 0
+    priority: 0

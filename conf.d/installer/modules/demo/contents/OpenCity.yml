@@ -1,0 +1,126 @@
+metadata:
+    remoteId: 8a9c9c761004866fb458d89910f52bee
+    classIdentifier: homepage
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        page:
+            zone_layout: desItaGlobal
+            global:
+                zone_id: 06d9aba14167859d35d8f8023e2e1c12
+                blocks:
+                    -
+                        block_id: 564803b7ce97a9f99e42d0d2ef086164
+                        name: ''
+                        type: Singolo
+                        view: default
+                        custom_attributes:
+                            color_style: ''
+                            container_style: ''
+                        valid_items:
+                            - 4942f12bf4b77e301030878aeba0cbfc
+                    -
+                        block_id: 3213d4722665b8ca7155847fb767eb62
+                        name: ''
+                        type: ListaManuale
+                        view: lista_card_alt
+                        custom_attributes:
+                            elementi_per_riga: '3'
+                            color_style: bg-100
+                            container_style: overlay
+                        valid_items:
+                            - 37e90c85e11e1c2b7889c74cfb54845e
+                            - b04a731ca8cc79de8b7cf9f6c2f37705
+                            - organi_politici
+                    -
+                        block_id: a419663d8c23c8e9239dc6813b845538
+                        name: 'Argomenti in evidenza'
+                        type: Argomenti
+                        view: lista_card
+                        custom_attributes:
+                            color_style: bg-white
+                            container_style: ''
+                            image: ''
+                        valid_items:
+                            - topic_4
+                            - topic_3
+                            - topic_2
+                            - topic_1
+        contacts:
+            -
+                media: Telefono
+                value: '123456798'
+            -
+                media: Fax
+                value: '123456798'
+            -
+                media: Email
+                value: 'info@opencity.localtest.me'
+            -
+                media: PEC
+                value: 'info@opencity.localtest.me'
+            -
+                media: Indirizzo
+                value: 'Via Galileo Galilei, Trento, 38122, Italia'
+            -
+                media: Facebook
+                value: 'https://www.facebook.com/pages/opencontent/1388790461404074'
+            -
+                media: Twitter
+                value: 'https://twitter.com/OpenContent_IT'
+            -
+                media: Web
+                value: 'https://opencity.localtest.me/'
+            -
+                media: 'Codice fiscale'
+                value: 'PNCPCT10T11L378P'
+            -
+                media: 'Partita IVA'
+                value: '13245678910'
+            -
+                media: 'Codice iPA'
+                value: 'open_city'
+            -
+                media: Via
+                value: 'Via Galileo Galilei'
+            -
+                media: 'Numero Civico'
+                value: '28'
+            -
+                media: CAP
+                value: '38122'
+            -
+                media: Comune
+                value: 'Trento'
+            -
+                media: Latitudine
+                value: '46.06784'
+            -
+                media: Longitudine
+                value: '11.125604'
+            -
+                media: Linkedin
+                value: 'https://www.linkedin.com/company/2571672/'
+            -
+                media: Instagram
+                value: 'https://www.instagram.com/'
+            -
+                media: Newsletter
+                value: 'https://opencity.localtest.me/newsletter/subscribe'
+            -
+                media: Youtube
+                value: 'https://www.youtube.com/channel/UCKh3rkjL9rJX6t1UL-XzrFA'
+            -
+                media: WhatsApp
+                value: 'https://wa.me/'
+            -
+                media: Telegram
+                value: 'https://web.telegram.org/'
+            -
+                media: 'Codice SDI'
+                value: '132456789'
+            -
+                media: TikTok
+                value: 'https://www.tiktok.com/it/'

@@ -1,0 +1,186 @@
+identifier: channel
+contentobject_name: '<object>'
+serialized_name_list:
+    always-available: ita-IT
+    ita-IT: 'Canale di erogazione del servizio'
+serialized_description_list:
+    always-available: ita-IT
+    ita-IT: 'Canale attraverso cui il servizio pubblico è erogato agli utenti finali'
+data_map:
+    object:
+        identifier: object
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Ad esempio (download App Android, download App iOS, prenotazione appuntamento, pagamento online, contatto telefonico, ...)'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Funzione del canale'
+        data_type_string: ezstring
+        placement: 1
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    has_channel_type:
+        identifier: has_channel_type
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Tipo di canale di erogazione'
+        data_type_string: eztags
+        placement: 2
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        data_int1: 'tag(Servizi pubblici / Tipologia del canale del servizio)'
+        data_int3: 1
+        data_int4: 1
+        data_text1: Tree
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    abstract:
+        identifier: abstract
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Indicare una sintetica descrizione del canale di erogazione (max 160 caratteri) utilizzando un linguaggio semplice che possa aiutare l''utente. Non utilizzare un linguaggio ricco di riferimenti normativi.'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Descrizione breve'
+        data_type_string: ezxmltext
+        placement: 3
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 10
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    description:
+        identifier: description
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Descrizione generica del canale ed eventuali condizioni particolari di pagamento'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Descrizione
+        data_type_string: ezxmltext
+        placement: 4
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 2
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    channel_url:
+        identifier: channel_url
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Nel caso si tratti di un indirizzo web'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Valore del canale (url)'
+        data_type_string: ezurl
+        placement: 5
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    channel:
+        identifier: channel
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Ad esempio indirizzo email, numero di telefono'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Valore del canale '
+        data_type_string: ezstring
+        placement: 6
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    has_cost:
+        identifier: has_cost
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Costo
+        data_type_string: ezmatrix
+        placement: 7
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 1
+        data_text5: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<ezmatrix><column-name id=\"characteristic\" idx=\"0\">Tipo di spesa (es. marca da bollo)</column-name><column-name id=\"description\" idx=\"1\">Descrizione (eventuali vincoli, condizioni, esenzioni)</column-name><column-name id=\"value\" idx=\"2\">Importo</column-name><column-name id=\"currency\" idx=\"3\">Valuta</column-name></ezmatrix>\n"
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    has_access_condition:
+        identifier: has_access_condition
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Condizioni di accesso'
+        data_type_string: ezobjectrelationlist
+        placement: 8
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list: {  }
+            default_placement:
+                node_id: $contenttree_Classificazioni_Condizioni-di-accesso_node
+        category: hidden
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    image:
+        identifier: image
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Immagini rappresentative del canale'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Immagini
+        data_type_string: ezobjectrelationlist
+        placement: 9
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - image
+            default_placement:
+                node_id: $content_Images_node
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    files:
+        identifier: files
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Files rappresentative del canale (fac-simile)'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Files
+        data_type_string: ocmultibinary
+        placement: 10
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+groups:
+    - CPSV-AP_IT

@@ -1,0 +1,21 @@
+metadata:
+    remoteId: OpenPaRuoli
+    classIdentifier: folder
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+    parentNodes:
+        - 43
+data:
+    ita-IT:
+        name: Ruoli
+        short_name: null
+        short_description: ''
+        description: ''
+        show_children: 1
+        tags: {  }
+        publish_date: null
+sort_data:
+    sort_field: 9
+    sort_order: 1
+    priority: 0

@@ -2,110 +2,180 @@ image: docker:latest
 
 stages:
     - build
+    - build_nginx
     - push
-    - integration 
 
 variables:
-    CONTAINER_TMP_IMAGE: "$CI_REGISTRY_IMAGE:$CI_COMMIT_SHORT_SHA"
-    # $AWS_ECR_IMAGE is in CI Settings of GitLab
+    DOCKER_BUILDKIT: 1
+    PHP_IMAGE: "${CI_REGISTRY_IMAGE}/php"
+    PHP_TMP_IMAGE: "${CI_REGISTRY_IMAGE}/php:${CI_COMMIT_SHORT_SHA}"
+    NGINX_IMAGE: "${CI_REGISTRY_IMAGE}/nginx"
+    NGINX_TMP_IMAGE: "${CI_REGISTRY_IMAGE}/nginx:${CI_COMMIT_SHORT_SHA}"
+    SOLR_IMAGE: "${CI_REGISTRY_IMAGE}/solr"
+    SOLR_TMP_IMAGE: "${CI_REGISTRY_IMAGE}/solr:${CI_COMMIT_SHORT_SHA}"
+    VARNISH_IMAGE: "${CI_REGISTRY_IMAGE}/varnish"
+    VARNISH_TMP_IMAGE: "${CI_REGISTRY_IMAGE}/varnish:${CI_COMMIT_SHORT_SHA}"
 
 services:
-  - docker:dind
+    - docker:dind
 
 before_script:
-  - docker login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD" $CI_REGISTRY
+    - docker login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD" $CI_REGISTRY
 
-    
-# GitHub token is set in GitLab CI Variables
-common_build:
+tmp_build_php:
     stage: build
     script:
-        - docker pull  $CONTAINER_TMP_IMAGE || docker build --build-arg GITHUB_TOKEN=$GITHUB_TOKEN --pull -t $CONTAINER_TMP_IMAGE . 
-        - docker push  $CONTAINER_TMP_IMAGE
-    only:
-      - branches
-      - tags
-
-push_branches:
-    stage: push
-    script:
-        - docker pull  $CONTAINER_TMP_IMAGE
-        - docker tag $CONTAINER_TMP_IMAGE "$CI_REGISTRY_IMAGE:${CI_COMMIT_REF_NAME/\//-}" 
-        - docker push "$CI_REGISTRY_IMAGE:${CI_COMMIT_REF_NAME/\//-}"
+        - docker pull $PHP_IMAGE:latest || true
+        - docker pull  $PHP_TMP_IMAGE || docker build --build-arg CI_COMMIT_REF_NAME=$CI_COMMIT_REF_NAME --build-arg CI_COMMIT_TAG=$CI_COMMIT_TAG --build-arg CI_COMMIT_SHORT_SHA=$CI_COMMIT_SHORT_SHA --pull -t $PHP_TMP_IMAGE .
+        - docker push  $PHP_TMP_IMAGE
     only:
         - branches
+        - tags
 
-push_tags:
+tmp_build_nginx:
+    stage: build_nginx
+    script:
+        - docker pull $NGINX_IMAGE:latest || true
+        - docker pull $NGINX_TMP_IMAGE || docker build --pull --build-arg php_image=$PHP_TMP_IMAGE -t $NGINX_TMP_IMAGE -f Dockerfile.nginx .
+        - docker push $NGINX_TMP_IMAGE
+    only:
+        - branches
+        - tags
+
+tmp_build_solr:
+    stage: build
+    script:
+        - docker pull $SOLR_IMAGE:latest || true
+        - docker pull $SOLR_TMP_IMAGE || docker build --pull -t $SOLR_TMP_IMAGE -f Dockerfile.solr .
+        - docker push $SOLR_TMP_IMAGE
+    only:
+        - branches
+        - tags
+
+tmp_build_varnish:
+    stage: build
+    script:
+        - docker pull $VARNISH_IMAGE:latest || true
+        - docker pull $VARNISH_TMP_IMAGE || docker build --pull -t $VARNISH_TMP_IMAGE -f Dockerfile.varnish .
+        - docker push $VARNISH_TMP_IMAGE
+    only:
+        - branches
+        - tags
+
+push_php_branches:
     stage: push
     script:
-        - docker pull  $CONTAINER_TMP_IMAGE
-        - docker tag $CONTAINER_TMP_IMAGE "$CI_REGISTRY_IMAGE:$CI_COMMIT_TAG"
-        - docker push "$CI_REGISTRY_IMAGE:$CI_COMMIT_TAG"
+        - docker pull  $PHP_TMP_IMAGE
+        - docker tag   $PHP_TMP_IMAGE "$PHP_IMAGE:$CI_COMMIT_REF_NAME"
+        - docker push "$PHP_IMAGE:$CI_COMMIT_REF_NAME"
+    only:
+        - branches
+    except:
+        - master
+
+push_php_tags:
+    stage: push
+    script:
+        - docker pull  $PHP_TMP_IMAGE
+        - docker tag   $PHP_TMP_IMAGE "$PHP_IMAGE:$CI_COMMIT_TAG"
+        - docker push "$PHP_IMAGE:$CI_COMMIT_TAG"
     only:
         - tags
 
-
-push_latest:
+push_php_latest:
     stage: push
     script:
-        - docker pull  $CONTAINER_TMP_IMAGE
-        - docker tag $CONTAINER_TMP_IMAGE "$CI_REGISTRY_IMAGE:latest"
-        - docker push "$CI_REGISTRY_IMAGE:latest"
+        - docker pull  $PHP_TMP_IMAGE
+        - docker tag   $PHP_TMP_IMAGE "$PHP_IMAGE:latest"
+        - docker push "$PHP_IMAGE:latest"
     only:
         - master
 
-
-push_branches_to_ecr:
+push_nginx_branches:
     stage: push
     script:
-        - apk add --no-cache curl jq python py-pip
-        - pip install awscli
-        - $(aws ecr get-login --no-include-email --region eu-west-1 | sed 's|https://||')
-        - docker pull  $CONTAINER_TMP_IMAGE
-        - docker tag $CONTAINER_TMP_IMAGE "$AWS_ECR_IMAGE:${CI_COMMIT_REF_NAME/\//-}"
-        - docker push "$AWS_ECR_IMAGE:${CI_COMMIT_REF_NAME/\//-}"
+        - docker pull  $NGINX_TMP_IMAGE
+        - docker tag   $NGINX_TMP_IMAGE "$NGINX_IMAGE:$CI_COMMIT_REF_NAME"
+        - docker push "$NGINX_IMAGE:$CI_COMMIT_REF_NAME"
     only:
         - branches
+    except:
+        - master
 
-push_tags_to_ecr:
+push_nginx_tags:
     stage: push
     script:
-        - apk add --no-cache curl jq python py-pip
-        - pip install awscli
-        - $(aws ecr get-login --no-include-email --region eu-west-1 | sed 's|https://||')
-        - docker pull  $CONTAINER_TMP_IMAGE
-        - docker tag $CONTAINER_TMP_IMAGE "$AWS_ECR_IMAGE:$CI_COMMIT_TAG"
-        - docker push "$AWS_ECR_IMAGE:$CI_COMMIT_TAG"
+        - docker pull  $NGINX_TMP_IMAGE
+        - docker tag   $NGINX_TMP_IMAGE "$NGINX_IMAGE:$CI_COMMIT_TAG"
+        - docker push "$NGINX_IMAGE:$CI_COMMIT_TAG"
     only:
         - tags
 
-push_latest_to_ecr:
+push_nginx_latest:
     stage: push
     script:
-        - apk add --no-cache curl jq python py-pip
-        - pip install awscli
-        - $(aws ecr get-login --no-include-email --region eu-west-1 | sed 's|https://||')
-        - docker pull  $CONTAINER_TMP_IMAGE
-        - docker tag $CONTAINER_TMP_IMAGE "$AWS_ECR_IMAGE:latest"
-        - docker push "$AWS_ECR_IMAGE:latest"
+        - docker pull  $NGINX_TMP_IMAGE
+        - docker tag   $NGINX_TMP_IMAGE "$NGINX_IMAGE:latest"
+        - docker push "$NGINX_IMAGE:latest"
     only:
         - master
 
-       
-zap_baseline:
-    stage: integration
-    allow_failure: true
+push_solr_branches:
+    stage: push
     script:
-      - docker run -v $(pwd):/zap/wrk/:rw -t owasp/zap2docker-stable zap-baseline.py -c .zap.conf -p .zap-progress-file.json -t https://opencity.openpa.opencontent.io
-     # -z -config rules.csrf.ignorelist=search,login then ZAP will not fail the scan if forms with an ID of "search" or "login" do not have anti CSRF tokens.
-     # - docker run -t owasp/zap2docker-stable zap-baseline.py -j -t https://10.0.1.22/ # with ajax scanning
-     #
+        - docker pull  $SOLR_TMP_IMAGE
+        - docker tag   $SOLR_TMP_IMAGE "$SOLR_IMAGE:${CI_COMMIT_REF_NAME/\//-}"
+        - docker push "$SOLR_IMAGE:${CI_COMMIT_REF_NAME/\//-}"
+    only:
+        - branches
+    except:
+        - master
 
-publiccode:
-    stage: integration
-    allow_failure: false 
+push_solr_tags:
+    stage: push
     script:
-      - docker run -v $(pwd):/var/tmp:ro -t --rm golang sh -c "go get github.com/italia/publiccode-parser-go/pcvalidate; cd /var/tmp; /go/bin/pcvalidate -remote-base-url https://gitlab.com/opencontent/opencity/raw/master publiccode.yml"
+        - docker pull  $SOLR_TMP_IMAGE
+        - docker tag   $SOLR_TMP_IMAGE "$SOLR_IMAGE:$CI_COMMIT_TAG"
+        - docker push "$SOLR_IMAGE:$CI_COMMIT_TAG"
+    only:
+        - tags
 
+push_solr_latest:
+    stage: push
+    script:
+        - docker pull  $SOLR_TMP_IMAGE
+        - docker tag   $SOLR_TMP_IMAGE "$SOLR_IMAGE:latest"
+        - docker push "$SOLR_IMAGE:latest"
+    only:
+        - master
 
-# vim: set noet sw=4 ts=4:        
+push_varnish_branches:
+    stage: push
+    script:
+        - docker pull  $VARNISH_TMP_IMAGE
+        - docker tag   $VARNISH_TMP_IMAGE "$VARNISH_IMAGE:${CI_COMMIT_REF_NAME/\//-}"
+        - docker push "$VARNISH_IMAGE:${CI_COMMIT_REF_NAME/\//-}"
+    only:
+        - branches
+    except:
+        - master
+
+push_varnish_tags:
+    stage: push
+    script:
+        - docker pull  $VARNISH_TMP_IMAGE
+        - docker tag   $VARNISH_TMP_IMAGE "$VARNISH_IMAGE:$CI_COMMIT_TAG"
+        - docker push "$VARNISH_IMAGE:$CI_COMMIT_TAG"
+    only:
+        - tags
+
+push_varnish_latest:
+    stage: push
+    script:
+        - docker pull  $VARNISH_TMP_IMAGE
+        - docker tag   $VARNISH_TMP_IMAGE "$VARNISH_IMAGE:latest"
+        - docker push "$VARNISH_IMAGE:latest"
+    only:
+        - master
+
+# vim: set noet sw=4 ts=4:

@@ -1,0 +1,594 @@
+identifier: politico
+contentobject_name: '<family_name> <given_name>'
+serialized_name_list:
+    always-available: ita-IT
+    ita-IT: Politico
+serialized_description_list:
+    ita-IT: 'Profilo pubblico di un amministratore locale'
+always_available: 1
+sort_field: 9
+data_map:
+    family_name:
+        identifier: family_name
+        serialized_description_list:
+            ita-IT: 'Cognome del politico'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Cognome
+        data_type_string: ezstring
+        placement: 1
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        serialized_data_text: {  }
+    given_name:
+        identifier: given_name
+        serialized_description_list:
+            ita-IT: 'Nome del politico'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Nome
+        data_type_string: ezstring
+        placement: 2
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        serialized_data_text: {  }
+    alt_name:
+        identifier: alt_name
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Nome alternativo / secondo nome'
+        data_type_string: ezstring
+        placement: 3
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    has_role:
+        identifier: has_role
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Ruolo
+        data_type_string: openparole
+        placement: 4
+        can_translate: 1
+        data_text5: '{"roletype_root_tag":"Persone\/Ruoli","select":1,"view":2,"filter":[],"sort":2}'
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    userid:
+        identifier: userid
+        serialized_description_list:
+            ita-IT: 'Credenziali di accesso  del politico per accedere alle aree riservate'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Account utente'
+        data_type_string: ezuser
+        placement: 5
+        is_searchable: 1
+        serialized_data_text: {  }
+    abstract:
+        identifier: abstract
+        serialized_description_list:
+            ita-IT: 'Breve descrizione della biografia del politico'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Biografia
+        data_type_string: ezxmltext
+        placement: 6
+        can_translate: 1
+        data_int1: 5
+        serialized_data_text: {  }
+    competenze:
+        identifier: competenze
+        serialized_description_list:
+            ita-IT: 'Elenco/descrizione delle competenze assegnate al politico'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Competenze
+        data_type_string: ezxmltext
+        placement: 7
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 10
+        serialized_data_text: {  }
+    ricevimento:
+        identifier: ricevimento
+        serialized_description_list:
+            ita-IT: 'Modalità di ricevimento del politico: contatti e orari'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Modalità di ricevimento'
+        data_type_string: ezxmltext
+        placement: 8
+        can_translate: 1
+        data_int1: 10
+        serialized_data_text: {  }
+    email:
+        identifier: email
+        serialized_description_list:
+            ita-IT: 'Indirizzo di posta elettronica del politico'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Indirizzo e-mail'
+        data_type_string: ezemail
+        placement: 9
+        can_translate: 1
+        serialized_data_text: {  }
+    phone:
+        identifier: phone
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Telefono
+        data_type_string: ezstring
+        placement: 10
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    mobile_phone:
+        identifier: mobile_phone
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Telefono cellulare'
+        data_type_string: ezstring
+        placement: 11
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    atto_nomina:
+        identifier: atto_nomina
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Atto di nomina del politico'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Atto di convalida e/o nomina'
+        data_type_string: ezbinaryfile
+        placement: 12
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    atto_surroga:
+        identifier: atto_surroga
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Atto di surroga'
+        data_type_string: ezbinaryfile
+        placement: 13
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    decorrenza_carica:
+        identifier: decorrenza_carica
+        serialized_description_list:
+            ita-IT: 'Decorrenza della carica del politico'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Decorrenza carica'
+        data_type_string: ezstring
+        placement: 14
+        can_translate: 1
+        category: details
+        serialized_data_text: {  }
+    curriculum:
+        identifier: curriculum
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Curriculum vitae del politico'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Curriculum vitae'
+        data_type_string: ezbinaryfile
+        placement: 15
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    voti:
+        identifier: voti
+        serialized_description_list:
+            ita-IT: 'Numero di voti ricevuti dal politico'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Numero voti'
+        data_type_string: ezinteger
+        placement: 16
+        can_translate: 1
+        category: details
+        serialized_data_text: {  }
+    image:
+        identifier: image
+        serialized_description_list:
+            ita-IT: 'Fotografia del politico'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Fotografia
+        data_type_string: ezimage
+        placement: 17
+        can_translate: 1
+        serialized_data_text: {  }
+    compensi:
+        identifier: compensi
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Compensi di qualsiasi natura connessi all''assunzione della carica del politico'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Compensi di qualsiasi natura connessi all''assunzione della carica'
+        data_type_string: ocmultibinary
+        placement: 18
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    importi:
+        identifier: importi
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Importi e i viaggi di servizio e missioni del politico pagati con fondi pubblici'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Importi e i viaggi di servizio e missioni pagati con fondi pubblici'
+        data_type_string: ocmultibinary
+        placement: 19
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    assunzione_cariche:
+        identifier: assunzione_cariche
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Dati relativi all''assunzione di altre cariche, presso enti pubblici o privati, ed i relativi compensi a qualsiasi titolo corrisposti al politico'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Dati relativi all''assunzione di altre cariche, presso enti pubblici o privati, ed i relativi compensi a qualsiasi titolo corrisposti'
+        data_type_string: ocmultibinary
+        placement: 20
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    eventuali_incarichi:
+        identifier: eventuali_incarichi
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Altri eventuali incarichi con oneri a carico della finanza pubblica e l''indicazione dei compensi spettanti al politico'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Altri eventuali incarichi con oneri a carico della finanza pubblica e l''indicazione dei compensi spettanti'
+        data_type_string: ocmultibinary
+        placement: 21
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    dichiarazione_incompatibilita:
+        identifier: dichiarazione_incompatibilita
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Dichiarazione/i di incompatibilità e inconferibilità degli incarichi degli amministratori di una società partecipata'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Dichiarazione incompatibilità e inconferibilità'
+        data_type_string: ezbinaryfile
+        placement: 22
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    lista_elettorale:
+        identifier: lista_elettorale
+        serialized_description_list:
+            ita-IT: 'Lista elettorale di cui fa parte il politico'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Lista elettorale'
+        data_type_string: ezobjectrelationlist
+        placement: 23
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '1'
+            type: '2'
+            class_constraint_list:
+                - lista_elettorale
+            default_placement: false
+        category: details
+        serialized_data_text: {  }
+    gruppo_politico:
+        identifier: gruppo_politico
+        serialized_description_list:
+            ita-IT: 'Gruppo politico di cui fa parte il politico'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Gruppo di appartenenza'
+        data_type_string: ezobjectrelationlist
+        placement: 24
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '3'
+            type: '2'
+            class_constraint_list:
+                - gruppo_consiliare
+            default_placement: false
+        category: details
+        serialized_data_text: {  }
+    maggioranza_minoranza:
+        identifier: maggioranza_minoranza
+        serialized_description_list:
+            ita-IT: 'Parte del Consiglio comunale a cui appartiene il politico'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Parte del Consiglio'
+        data_type_string: ezobjectrelationlist
+        placement: 25
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '1'
+            type: '2'
+            class_constraint_list:
+                - maggioranza_minoranza
+            default_placement: false
+        category: details
+        serialized_data_text: {  }
+    office:
+        identifier: office
+        serialized_description_list:
+            ita-IT: 'Uffici di riferimento per l''attività svolta dal politico'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Uffici di riferimento'
+        data_type_string: ezobjectrelationlist
+        placement: 26
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '3'
+            type: '2'
+            class_constraint_list:
+                - office
+            default_placement:
+                node_id: $contenttree_Amministrazione_Uffici_node
+        category: details
+        serialized_data_text: {  }
+    dichiarazioni_patrimoniali_soggetto:
+        identifier: dichiarazioni_patrimoniali_soggetto
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Dichiarazioni patrimoniali del soggetto'
+        data_type_string: ocmultibinary
+        placement: 27
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    dichiarazioni_patrimoniali_parenti:
+        identifier: dichiarazioni_patrimoniali_parenti
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Dichiarazioni patrimoniali del coniuge non separato e parenti entro il secondo grado'
+        data_type_string: ocmultibinary
+        placement: 28
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    data_iniziomandato:
+        identifier: data_iniziomandato
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Data in cui ha inizio il mandato del politico'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Data di inizio mandato'
+        data_type_string: ezdate
+        placement: 29
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    data_finemandato:
+        identifier: data_finemandato
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Data in cui cessa il mandato del politico'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Data di fine mandato'
+        data_type_string: ezdate
+        placement: 30
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    nota:
+        identifier: nota
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Annotazioni riguardanti il politico'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Note
+        data_type_string: ezxmltext
+        placement: 31
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 10
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    tax_code:
+        identifier: tax_code
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Codice fiscale'
+        data_type_string: ezstring
+        placement: 32
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    date_of_birth:
+        identifier: date_of_birth
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Data di nascita'
+        data_type_string: ezdate
+        placement: 33
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    has_birth_place:
+        identifier: has_birth_place
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Luogo di nascita'
+        data_type_string: ezstring
+        placement: 34
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    resident_in:
+        identifier: resident_in
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Indirizzo di residenza'
+        data_type_string: ezstring
+        placement: 35
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    has_sex:
+        identifier: has_sex
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Sesso
+        data_type_string: eztags
+        placement: 36
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 'tag(Persone / Sesso)'
+        data_int3: 1
+        data_int4: 1
+        data_text1: Tree
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    grado_di_istruzione:
+        identifier: grado_di_istruzione
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Grado di istruzione'
+        data_type_string: eztags
+        placement: 37
+        is_searchable: 1
+        can_translate: 1
+        data_text1: Default
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    age:
+        identifier: age
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Età
+        data_type_string: ezinteger
+        placement: 38
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    spese_elettorali:
+        identifier: spese_elettorali
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Spese elettorali'
+        data_type_string: ezxmltext
+        placement: 39
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 5
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+groups:
+    - 'Persone (CPV)'

@@ -1,0 +1,9 @@
+FROM registry.gitlab.com/opencontent/solr:4.10.4
+COPY ./conf.d/solr /opt/ez/
+USER root
+RUN mkdir -p /opt/ez/ezp-default/data
+RUN chown solr -R /opt/ez
+COPY ./scripts/instance_solr_core.sh /docker-entrypoint-initdb.d/
+USER solr
+ 
+VOLUME ['/opt/ez/ezp-default/data']

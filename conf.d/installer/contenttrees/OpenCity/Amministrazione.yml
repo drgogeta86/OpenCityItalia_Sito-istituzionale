@@ -1,0 +1,47 @@
+metadata:
+    remoteId: amministrazione
+    classIdentifier: frontpage
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        name: Amministrazione
+        short_name: null
+        menu_name: 'Tutta l''amministrazione'
+        abstract: '<p>Tutte le informazioni sulla Giunta e sul Consiglio comunale, uffici, aree di competenza e personale, luoghi e servizi per il cittadino.</p>'
+        description: ''
+        image: {  }
+        show_children: 1
+        layout:
+            zone_layout: desItaGlobal
+            right:
+                zone_id: 00aa1e942ceff430485a893773105810
+                blocks:
+                    -
+                        block_id: b4a168996ab39eb87b903f922945f1ed
+                        name: 'Le strutture interne'
+                        type: ListaAutomatica
+                        view: lista_banner
+                        custom_attributes:
+                            limite: '20'
+                            elementi_per_riga: '3'
+                            includi_classi: office
+                            escludi_classi: ''
+                            ordinamento: name
+                            livello_profondita: ''
+                            state_id: ''
+                            color_style: bg-white
+                            node_id: $root_node
+                            container_style: ''
+                            topic_node_id: ''
+                        valid_items: {  }
+        icon: it-pa
+        show_topics: 1
+        show_search_form: 1
+        tag_menu: {  }
+        publish_date: null
+sort_data:
+    sort_field: 8
+    sort_order: 1
+    priority: 1

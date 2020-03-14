@@ -1,0 +1,127 @@
+identifier: rule
+contentobject_name: '<name>'
+serialized_name_list:
+    always-available: ita-IT
+    ita-IT: Regola
+serialized_description_list:
+    always-available: ita-IT
+    ita-IT: 'Struttura dati necessaria al funzionamento della piattaforma'
+data_map:
+    name:
+        identifier: name
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Nome
+        data_type_string: ezstring
+        placement: 1
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    identifier:
+        identifier: identifier
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Identificatore unico'
+        data_type_string: ezstring
+        placement: 2
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    description:
+        identifier: description
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Descrizione
+        data_type_string: ezxmltext
+        placement: 3
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 5
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    is_followed_by_service:
+        identifier: is_followed_by_service
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'E'' rispettata dal servizio:'
+        data_type_string: ezobjectrelationlist
+        placement: 4
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - public_service
+            default_placement:
+                node_id: $contenttree_OpenCity_Servizi_node
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    implements_formal_framework:
+        identifier: implements_formal_framework
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Legge a cui si riferisce'
+        data_type_string: ezurl
+        placement: 5
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    reference_documentation:
+        identifier: reference_documentation
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Indicare link a quadri normativi, standard tecnici, linee guida e regole tecniche'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Documentazione di riferimento'
+        data_type_string: ezmatrix
+        placement: 6
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 1
+        data_text5: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<ezmatrix><column-name id=\"url_name\" idx=\"0\">Nome del sito</column-name><column-name id=\"link\" idx=\"1\">Link al sito</column-name></ezmatrix>\n"
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    specifies_requirements:
+        identifier: specifies_requirements
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Indicare particolari requisiti per il servizio'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Requisiti per il servizio'
+        data_type_string: ezxmltext
+        placement: 7
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 5
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+groups:
+    - CPSV-AP_IT

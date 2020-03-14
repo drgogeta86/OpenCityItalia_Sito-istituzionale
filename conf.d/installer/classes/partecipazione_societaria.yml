@@ -1,0 +1,290 @@
+identifier: partecipazione_societaria
+contentobject_name: 'Partecipazione <organizzazione> (<anno>)'
+serialized_name_list:
+    always-available: ita-IT
+    ita-IT: 'Partecipazione societaria'
+serialized_description_list:
+    always-available: ita-IT
+    ita-IT: ''
+data_map:
+    anno:
+        identifier: anno
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Anno di riferimento'
+        data_type_string: ezinteger
+        placement: 1
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    organizzazione:
+        identifier: organizzazione
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Scheda dell''ente controllato'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Organizzazione
+        data_type_string: ezobjectrelationlist
+        placement: 2
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - private_organization
+                - public_organization
+            default_placement:
+                node_id: $contenttree_Amministrazione_Enti-e-fondazioni_node
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    tipologia:
+        identifier: tipologia
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Tipologia di ente controllato'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Tipologia
+        data_type_string: ezselection
+        placement: 3
+        is_searchable: 1
+        can_translate: 1
+        data_text5: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<ezselection><options><option id=\"0\" name=\"Ente pubblico vigilato\"/><option id=\"1\" name=\"Società partecipata\"/><option id=\"2\" name=\"Ente di diritto privato controllato\"/></options></ezselection>\n"
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    funzioni_attribuite:
+        identifier: funzioni_attribuite
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Funzioni attribuite'
+        data_type_string: ezstring
+        placement: 4
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    percentuale_partecipazione:
+        identifier: percentuale_partecipazione
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Percentuale di partecipazione da parte del Comune'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Percentuale di partecipazione'
+        data_type_string: ezfloat
+        placement: 5
+        is_required: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    partecipazione:
+        identifier: partecipazione
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Partecipazione
+        data_type_string: ezselection
+        placement: 6
+        is_searchable: 1
+        can_translate: 1
+        data_text5: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<ezselection><options><option id=\"0\" name=\"Diretta\"/><option id=\"1\" name=\"Indiretta\"/></options></ezselection>\n"
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    durata_impegno:
+        identifier: durata_impegno
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Durata dell''impegno da parte del Comune'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Durata dell''impegno'
+        data_type_string: ezdate
+        placement: 7
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    onere_complessivo:
+        identifier: onere_complessivo
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Onere complessivo a qualsiasi titolo gravante per l''anno sul bilancio dell''amministrazione dovuto alla partecipazione nell''ente'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Onere complessivo a qualsiasi titolo gravante per l''anno sul bilancio dell''amministrazione'
+        data_type_string: ezinteger
+        placement: 8
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    numero_rappresentanti:
+        identifier: numero_rappresentanti
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Numero dei rappresentanti dell''amministrazione negli organi di governo dell''ente controllato'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Numero dei rappresentanti dell''amministrazione negli organi di governo'
+        data_type_string: ezinteger
+        placement: 9
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    amministratori_ente_locale:
+        identifier: amministratori_ente_locale
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Trattamento economico complessivo spettante a ciascun rappresentante dell''amministrazione perchè facente parte dell''ente controllato'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Trattamento economico complessivo spettante a ciascun rappresentante dell''amministrazione'
+        data_type_string: ezmatrix
+        placement: 10
+        is_searchable: 1
+        can_translate: 1
+        data_text5: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<ezmatrix><column-name id=\"nome\" idx=\"0\">Nome e cognome</column-name><column-name id=\"ruolo\" idx=\"1\">Ruolo</column-name><column-name id=\"compenso\" idx=\"2\">Compenso (in Euro)</column-name></ezmatrix>\n"
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    rappresentante:
+        identifier: rappresentante
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Rappresentante dell''amministrazione che riceve compensi perché partecipa all''attività dell''ente controllato'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Rappresentante dell''amministrazione che riceve compensi'
+        data_type_string: ezobjectrelationlist
+        placement: 11
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - employee
+                - person
+                - politico
+            default_placement: false
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    amministratori_societa:
+        identifier: amministratori_societa
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Dati relativi agli incarichi di amministratore dell''ente (Società) e il relativo trattamento economico complessivo'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Dati relativi agli incarichi di amministratore dell''ente (Società) e il relativo trattamento economico complessivo'
+        data_type_string: ezmatrix
+        placement: 12
+        is_searchable: 1
+        can_translate: 1
+        data_text5: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<ezmatrix><column-name id=\"nome\" idx=\"0\">Nome e cognome</column-name><column-name id=\"ruolo\" idx=\"1\">Ruolo</column-name><column-name id=\"compenso\" idx=\"2\">Compenso (in Euro)</column-name></ezmatrix>\n"
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    amministratori_societa_url:
+        identifier: amministratori_societa_url
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Dati relativi agli incarichi di amministratore dell''ente (Società) e il relativo trattamento economico complessivo'
+        data_type_string: ezurl
+        placement: 13
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    bilanci_recenti:
+        identifier: bilanci_recenti
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Risultati di bilancio degli ultimi tre esercizi finanziari'
+        data_type_string: ezmatrix
+        placement: 14
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 3
+        data_text5: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<ezmatrix><column-name id=\"anno\" idx=\"0\">Anno</column-name><column-name id=\"importo\" idx=\"1\">Importo (in Euro)</column-name></ezmatrix>\n"
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    url:
+        identifier: url
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Link al sito dell''ente controllato'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Collegamento al sito istituzionale della società partecipata nel quale sono pubblicati i dati relativi ai componenti degli organi di indirizzo politico e ai soggetti titolari di incarichi dirigenziali, di collaborazione o consulenza'
+        data_type_string: ezurl
+        placement: 15
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    data_di_inizio_partecipazione:
+        identifier: data_di_inizio_partecipazione
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Data di inizio della partecipazione comunale nell''ente'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Data di inizio partecipazione'
+        data_type_string: ezdate
+        placement: 16
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    data_di_fine_partecipazione:
+        identifier: data_di_fine_partecipazione
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Data in cui la partecipazione del Comune nell''ente finisce'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Data di fine partecipazione'
+        data_type_string: ezdate
+        placement: 17
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+groups:
+    - 'Amministrazione trasparente'

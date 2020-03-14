@@ -1,0 +1,148 @@
+identifier: output
+contentobject_name: '<short_name|name>'
+serialized_name_list:
+    always-available: ita-IT
+    ita-IT: 'Output del servizio (cosa si ottiene)'
+serialized_description_list:
+    ita-IT: 'Qualsiasi risorsa (e.g., documenti, certificazioni, ecc.) prodotta da un servizio pubblico'
+always_available: 1
+sort_field: 2
+sort_order: 0
+is_container: 1
+data_map:
+    name:
+        identifier: name
+        serialized_description_list:
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Nome
+        data_type_string: ezstring
+        placement: 1
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        data_int1: 255
+        serialized_data_text: {  }
+    short_name:
+        identifier: short_name
+        serialized_description_list:
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Nome breve'
+        data_type_string: ezstring
+        placement: 2
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 100
+        serialized_data_text: {  }
+    abstract:
+        identifier: abstract
+        serialized_description_list:
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Abstract (Descrizione breve)'
+        data_type_string: ezxmltext
+        placement: 3
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 5
+        serialized_data_text: {  }
+    description:
+        identifier: description
+        serialized_description_list:
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Descrizione
+        data_type_string: ezxmltext
+        placement: 4
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 10
+        serialized_data_text: {  }
+    image:
+        identifier: image
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Immagini rappresentative dell''output'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Immagini
+        data_type_string: ezobjectrelationlist
+        placement: 5
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - image
+            default_placement:
+                node_id: $content_Images_node
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    has_service_input_output_type:
+        identifier: has_service_input_output_type
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Tipologia di output/esito'
+        data_type_string: eztags
+        placement: 6
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        data_int1: 'tag(Servizi pubblici / Input-Output)'
+        data_int3: 1
+        data_int4: 1
+        data_text1: Tree
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    topics:
+        identifier: topics
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Argomento
+        data_type_string: ezobjectrelationlist
+        placement: 7
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - topic
+            default_placement:
+                node_id: $contenttree_OpenCity_Argomenti_node
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    files:
+        identifier: files
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Files rappresentative dell''output (fac-simile)'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'File di esempio'
+        data_type_string: ocmultibinary
+        placement: 8
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+groups:
+    - CPSV-AP_IT

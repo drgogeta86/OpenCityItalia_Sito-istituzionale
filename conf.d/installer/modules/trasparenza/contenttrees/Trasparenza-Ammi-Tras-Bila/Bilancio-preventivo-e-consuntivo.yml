@@ -1,0 +1,20 @@
+metadata:
+    remoteId: a9d59c0a74d2a7e03448e2bbea8e8458
+    classIdentifier: pagina_trasparenza
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        titolo: 'Bilancio preventivo e consuntivo'
+        contenuto_obbligo: ''
+        riferimenti_normativi: null
+        applicabilita: ''
+        denominazione_degli_obblighi: ''
+        guida_alla_compilazione: ''
+        messaggio_di_consiglio: ''
+        fields: null
+sort_data:
+    sort_field: 8
+    sort_order: 1
+    priority: 0

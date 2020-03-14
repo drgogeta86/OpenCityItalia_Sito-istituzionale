@@ -1,0 +1,356 @@
+identifier: place
+contentobject_name: '<name>'
+serialized_name_list:
+    always-available: ita-IT
+    ita-IT: Luogo
+serialized_description_list:
+    always-available: ita-IT
+    ita-IT: 'Punto di interesse per il cittadino o per il turista: ad esempio chiesa, percorso ciclabile, panorama, ...'
+data_map:
+    name:
+        identifier: name
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Nome principale del luogo o nome con il quale il luogo è conosciuto (ad es. Colosseo)'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Nome del luogo'
+        data_type_string: ezstring
+        placement: 1
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        serialized_data_text: {  }
+    alternative_name:
+        identifier: alternative_name
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Nome alternativo o secondario del luogo (ad es. Anfiteatro Flavio)'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Nome alternativo'
+        data_type_string: ezstring
+        placement: 2
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    topics:
+        identifier: topics
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Argomenti di interesse per il cittadino '
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Argomenti
+        data_type_string: ezobjectrelationlist
+        placement: 3
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '4'
+            type: '2'
+            class_constraint_list:
+                - topic
+            default_placement:
+                node_id: $contenttree_OpenCity_Argomenti_node
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    abstract:
+        identifier: abstract
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Breve descrizione del punto di interesse'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Descrizione breve'
+        data_type_string: ezxmltext
+        placement: 4
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 2
+        serialized_data_text: {  }
+    description:
+        identifier: description
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Descrizione completa del punto di interesse'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Descrizione
+        data_type_string: ezxmltext
+        placement: 5
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 10
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    image:
+        identifier: image
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Galleria fotografica dedicata al punto di interesse'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Galleria immagini'
+        data_type_string: ezobjectrelationlist
+        placement: 6
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - image
+            default_placement:
+                node_id: $content_Images_node
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    type:
+        identifier: type
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Tipo di luogo'
+        data_type_string: eztags
+        placement: 7
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        data_int1: 'tag(Luoghi / Tipi di luogo)'
+        data_int3: 1
+        data_int4: 1
+        data_text1: Tree
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    has_address:
+        identifier: has_address
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Indirizzo
+        data_type_string: ezgmaplocation
+        placement: 8
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    contains_place:
+        identifier: contains_place
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Indicare quali altri punti di interesse sono presenti presso questo luogo'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Elementi di interesse'
+        data_type_string: ezobjectrelationlist
+        placement: 9
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - place
+            default_placement:
+                node_id: $contenttree_Amministrazione_Luoghi_node
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    has_video:
+        identifier: has_video
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Eventuale video di presentazione del luogo'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Video
+        data_type_string: ezstring
+        placement: 10
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    accessibility:
+        identifier: accessibility
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Servizi disponibili sulle modalità di accesso al luogo con particolare attenzione agli accessi per disabili'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Accessibilità
+        data_type_string: ezxmltext
+        placement: 11
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 5
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    opening_hours_specification:
+        identifier: opening_hours_specification
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Orario di apertura al pubblico del luogo'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Orari al pubblico'
+        data_type_string: ezobjectrelationlist
+        placement: 12
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - opening_hours_specification
+            default_placement:
+                node_id: $contenttree_Classificazioni_Orari-servizi_node
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    has_office:
+        identifier: has_office
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Se è sede comunale di una struttura, indicare la struttura (ufficio)'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Struttura di riferimento'
+        data_type_string: ezobjectrelationlist
+        placement: 13
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - office
+            default_placement:
+                node_id: $contenttree_Amministrazione_Uffici_node
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    external_contact_point:
+        identifier: external_contact_point
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Indicare il link al sito web dove si trovano queste informazioni'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Struttura esterna responsabile'
+        data_type_string: ezstring
+        placement: 14
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    more_information:
+        identifier: more_information
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Ulteriori informazioni sul Servizio, FAQ ed eventuali riferimenti normativi'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Ulteriori informazioni'
+        data_type_string: ezxmltext
+        placement: 15
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 5
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    main_category:
+        identifier: main_category
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Categoria prevalente'
+        data_type_string: eztags
+        placement: 16
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 'tag(Luoghi / Categorie prevalenti)'
+        data_int3: 1
+        data_int4: 1
+        data_text1: Tree
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    help:
+        identifier: help
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Eventuali contatti di supporto all''utente. Per esempio i riferimenti dell''URP'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Box d''aiuto'
+        data_type_string: ezobjectrelationlist
+        placement: 17
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - online_contact_point
+            default_placement:
+                node_id: $contenttree_Classificazioni_Punti-di-contatto_node
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    identifier:
+        identifier: identifier
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Riportare il codice del DBUnico per i luoghi della cultura definito da MiBACT e il codice ISIL per le biblioteche'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Codice univoco'
+        data_type_string: ezstring
+        placement: 18
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    sede_di:
+        identifier: sede_di
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Sede di'
+        data_type_string: openpareverserelationlist
+        placement: 19
+        can_translate: 1
+        data_text5: '{"attribute_id_list":[5914,5638,4885,5705,5882],"sort":"name","order":"asc","limit":4}'
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+groups:
+    - 'Luoghi (CLV)'

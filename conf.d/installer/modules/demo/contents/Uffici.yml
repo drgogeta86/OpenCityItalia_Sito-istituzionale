@@ -1,0 +1,25 @@
+metadata:
+    remoteId: a9d783ef0712ac3e37edb23796990714
+    classIdentifier: pagina_sito
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        name: Uffici
+        short_name: null
+        menu_name: null
+        abstract: '<p>L''organigramma del comune per trovare recapiti, competenze, orari</p>'
+        description: '<p> </p>'
+        image: {  }
+        show_children: 1
+        layout: {  }
+        icon: it-pa
+        show_topics: 0
+        show_search_form: 1
+        tag_menu: {  }
+        publish_date: null
+sort_data:
+    sort_field: 9
+    sort_order: 1
+    priority: 20

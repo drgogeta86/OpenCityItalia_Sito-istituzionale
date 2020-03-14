@@ -1,0 +1,15 @@
+metadata:
+    remoteId: $identifier_newsletter_system
+    classIdentifier: cjw_newsletter_system
+    sectionIdentifier: cjw_newsletter
+    languages:
+        - ita-IT
+    parentNodes:
+        - $content_Newsletter-Root_node
+data:
+    ita-IT:
+        title: 'Sistema Newsletter'
+sort_data:
+    sort_field: 1
+    sort_order: 1
+    priority: 0

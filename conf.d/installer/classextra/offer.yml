@@ -1,0 +1,9 @@
+table_view:
+    show:
+        description: '1'
+        end_time: '1'
+        has_currency: '1'
+        has_eligible_user: '1'
+        has_price_specification: '1'
+        note: '1'
+        start_time: '1'

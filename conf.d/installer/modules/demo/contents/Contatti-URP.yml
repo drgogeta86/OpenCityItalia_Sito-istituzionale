@@ -1,0 +1,20 @@
+metadata:
+    remoteId: 68aa77e31ed4a7483c13abb96454c24e
+    classIdentifier: online_contact_point
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+    parentNodes:
+        - $content_Punti-di-contatto_node
+data:
+    ita-IT:
+        name: 'Contatti URP'
+        contact:
+            -
+                type: Telefono
+                value: '0461 917437'
+                contact: ''
+            -
+                type: Fax
+                value: '0461 917437'
+                contact: ''

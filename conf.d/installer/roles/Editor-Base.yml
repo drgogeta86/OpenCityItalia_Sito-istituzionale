@@ -1,0 +1,182 @@
+name: "Editor Base"
+policies:
+    -
+        ModuleName: forms
+        FunctionName: use
+        Limitation: {}
+    -
+        ModuleName: ezjscore
+        FunctionName: '*'
+        Limitation: {}
+    -
+        ModuleName: ocbtools
+        FunctionName: editor_tools
+        Limitation: {}
+    -
+        ModuleName: recurrence
+        FunctionName: use
+        Limitation: {}
+    -
+        ModuleName: gdpr
+        FunctionName: acceptance
+        Limitation: {}
+    -
+        ModuleName: user
+        FunctionName: password
+        Limitation: {}
+    -
+        ModuleName: user
+        FunctionName: preferences
+        Limitation: {}
+    -
+        ModuleName: user
+        FunctionName: selfedit
+        Limitation: {}
+    -
+        ModuleName: content
+        FunctionName: browse
+        Limitation: {}
+    -
+        ModuleName: content
+        FunctionName: draft
+        Limitation: {}
+    -
+        ModuleName: content
+        FunctionName: trash
+        Limitation: {}
+    -
+        ModuleName: content
+        FunctionName: bookmark
+        Limitation: {}
+    -
+        ModuleName: content
+        FunctionName: versionread
+        Limitation: {  }
+    -
+        ModuleName: ezoe
+        FunctionName: '*'
+        Limitation: {  }
+    -
+        ModuleName: content
+        FunctionName: manage_locations
+        Limitation: {  }
+    -
+        ModuleName: content
+        FunctionName: move
+        Limitation: {  }
+    -
+        ModuleName: content
+        FunctionName: dashboard
+        Limitation: {  }
+    -
+        ModuleName: opendata
+        FunctionName: '*'
+        Limitation: {  }
+    -
+        ModuleName: openpa
+        FunctionName: '*'
+        Limitation: {  }
+    -
+        ModuleName: websitetoolbar
+        FunctionName: '*'
+        Limitation: {  }
+
+    -
+        ModuleName: ezflow
+        FunctionName: '*'
+        Limitation: {  }
+    -
+        ModuleName: add
+        FunctionName: add
+        Limitation: {  }
+    -
+        ModuleName: content
+        FunctionName: read
+        Limitation:
+            Section:
+                - $section_standard
+                - $section_media
+    -
+        ModuleName: content
+        FunctionName: edit
+        Limitation:
+            Class:
+                - $class_image
+            Section:
+                - $section_media
+    -
+        ModuleName: content
+        FunctionName: edit
+        Limitation:
+            Owner:
+                - 1
+    -
+        ModuleName: content
+        FunctionName: remove
+        Limitation:
+            Owner:
+                - 1
+    -
+        ModuleName: content
+        FunctionName: create
+        Limitation:
+            Node:
+                - $content_Images_node
+            Class:
+                - $class_image
+    -
+        ModuleName: content
+        FunctionName: create
+        Limitation:
+            Subtree:
+                - $content_Multimedia_path_string
+            Class:
+                - $class_audio
+    -
+        ModuleName: content
+        FunctionName: create
+        Limitation:
+            Subtree:
+                - $content_Multimedia_path_string
+            Class:
+                - $class_chart
+    -
+        ModuleName: content
+        FunctionName: create
+        Limitation:
+            Subtree:
+                - $content_Files_path_string
+            Class:
+                - $class_file
+    -
+        ModuleName: content
+        FunctionName: create
+        Limitation:
+            Node:
+                - $contenttree_Documenti-e-dati_Documenti-tecnici-di-supporto_node
+            Class:
+                - $class_document
+    -
+        ModuleName: content
+        FunctionName: edit
+        Limitation:
+            Class:
+                - $class_topic
+    -
+        ModuleName: content
+        FunctionName: create
+        Limitation:
+            Subtree:
+                - $content_Banner_path_string
+            Class:
+                - $class_banner
+                - $class_link
+    -
+        ModuleName: content
+        FunctionName: edit
+        Limitation:
+            Subtree:
+                - $content_Banner_path_string
+            Class:
+                - $class_banner
+                - $class_link

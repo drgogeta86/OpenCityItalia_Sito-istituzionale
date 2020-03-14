@@ -1,0 +1,25 @@
+metadata:
+    remoteId: 931779762484010404cf5fa08f77d978
+    classIdentifier: pagina_sito
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        name: 'Note legali'
+        short_name: null
+        menu_name: null
+        abstract: ''
+        description: '<h4>Marchi, domini e segni distintivi</h4><p>Tutti i marchi registrati e non, di prodotti o servizi, i loghi, i banner, le testate, le rubriche, i domini, e ogni altro segno distintivo che compaiono in questo sito sono di proprietà del Comune. Tutti i diritti riservati. Essi possono essere utilizzati esclusivamente con il preventivo consenso scritto del titolare.</p><p>Ogni azione riservata al titolare dei diritti dalle leggi nazionali e internazionali in materia di marchi e segni distintivi compiuta senza la sua autorizzazione sarà perseguibile civilmente e penalmente.</p><h4>Utilizzo del portale</h4><p>In nessun caso il Comune potrà essere ritenuto responsabile dei danni di qualsiasi natura causati direttamente o indirettamente dall''accesso al sito, dall''incapacità o impossibilità di accedervi, dall’affidamento e utilizzo in merito alle notizie in esso contenute.</p><p>Il Comune provvederà ad inserire nel sito informazioni aggiornate, ma non garantisce circa la loro completezza o accuratezza. Il Comune si riserva il diritto di modificare i contenuti del sito e delle note legali in qualsiasi momento e senza alcun preavviso.</p><h4>Siti esterni collegati</h4><p>Il Comune non ha alcuna responsabilità per quanto riguarda i siti ai quali è possibile accedere tramite i collegamenti posti all''interno del portale stesso, forniti come semplice servizio agli utenti della rete.</p><p>Il fatto che il Comune fornisca questi collegamenti non implica l''approvazione dei siti stessi, sulla cui qualità, contenuti e grafica il Comune declina ogni responsabilità.</p><p>Il Comune non è responsabile in merito alla completezza e precisione delle informazioni ottenute dall''utente tramite l''accesso ai siti esterni collegati al suo portale.</p><p>Il Comune non offre alcuna assicurazione sul software eventualmente presente sul proprio portale o su siti esterni e non può garantirne qualità, sicurezza e compatibilità con i sistemi in uso.</p><h4>Download</h4><p>Gli oggetti, prodotti, programmi e routine eventualmente presenti nel portale per lo scaricamento (download) – per esempio documentazione tecnica, modulistica, software, …-  salvo diversa indicazione sono liberamente e gratuitamente disponibili alle condizioni stabilite dal titolare.</p><p>Il Comune non si assume alcuna responsabilità in merito al contenuto dei documenti o alle caratteristiche dei prodotti documentati, né al funzionamento dei programmi.</p><p>Quanto reperibile via download nel portale può essere coperto da copyright, diritti d''uso e/o copia dei rispettivi proprietari; pertanto il Comune invita a verificare condizioni di utilizzo e diritti e si ritiene esplicitamente sollevata da qualsiasi responsabilità in merito.</p><h4>Virus informatici</h4><p>Il Comune non garantisce che il sito sia privo di errori o virus. Il Comune e i suoi fornitori non sono responsabili per i danni subiti dall''utente a causa di tali agenti distruttivi.</p>'
+        image: {  }
+        show_children: 0
+        layout: {  }
+        icon: null
+        show_topics: 0
+        show_search_form: 1
+        tag_menu: {  }
+        publish_date: null
+sort_data:
+    sort_field: 1
+    sort_order: 1
+    priority: 0

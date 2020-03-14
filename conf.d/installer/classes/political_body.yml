@@ -1,0 +1,363 @@
+identifier: political_body
+contentobject_name: '<legal_name>'
+serialized_name_list:
+    always-available: ita-IT
+    ita-IT: 'Soggetto / Organo politico'
+serialized_description_list:
+    ita-IT: 'Organo di indirizzo politico-amministrativo che definisce gli obiettivi e i programmi da attivare'
+always_available: 1
+sort_field: 9
+is_container: 1
+data_map:
+    type_political_body:
+        identifier: type_political_body
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Specificare la tipologia di soggetto / organo politico'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Tipo di soggetto / organo politico'
+        data_type_string: eztags
+        placement: 1
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        data_int1: 'tag(Organizzazione / Tipo di organo politico)'
+        data_int3: 1
+        data_int4: 1
+        data_text1: Tree
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    legal_name:
+        identifier: legal_name
+        serialized_description_list:
+            ita-IT: 'Nome primario o il nome legale del soggetto / organo politico'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Nome
+        data_type_string: ezstring
+        placement: 2
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text: {  }
+    alt_name:
+        identifier: alt_name
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'un nome alternativo del soggetto / organo politico (e.g., un nome colloquiale)'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Nome alternativo'
+        data_type_string: ezstring
+        placement: 3
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    description:
+        identifier: description
+        serialized_description_list:
+            ita-IT: 'Descrizione completa del soggetto / organo politico'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Descrizione
+        data_type_string: ezxmltext
+        placement: 4
+        can_translate: 1
+        data_int1: 5
+        serialized_data_text: {  }
+    main_function:
+        identifier: main_function
+        serialized_description_list:
+            ita-IT: 'Funzione del soggetto / organo politico ed elenco dei compiti assegnati'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Competenze e funzioni'
+        data_type_string: ezxmltext
+        placement: 5
+        can_translate: 1
+        data_int1: 5
+        serialized_data_text: {  }
+    has_logo:
+        identifier: has_logo
+        serialized_description_list:
+            ita-IT: 'Logo del soggetto / organo politico'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Logo
+        data_type_string: ezimage
+        placement: 6
+        can_translate: 1
+        serialized_data_text: {  }
+    image:
+        identifier: image
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Immagine/i principale/i del soggetto / organo politico'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Immagini
+        data_type_string: ezobjectrelationlist
+        placement: 7
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - image
+            default_placement:
+                node_id: $content_Images_node
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    start_time:
+        identifier: start_time
+        serialized_description_list:
+            ita-IT: 'Data a partire dalla quale il soggetto / organo politico è attivo'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Data inizio validità'
+        data_type_string: ezdate
+        placement: 8
+        can_translate: 1
+        serialized_data_text: {  }
+    end_time:
+        identifier: end_time
+        serialized_description_list:
+            ita-IT: 'Data di fine attività del soggetto / organo politico'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Data fine validità'
+        data_type_string: ezdate
+        placement: 9
+        can_translate: 1
+        serialized_data_text: {  }
+    has_spatial_coverage:
+        identifier: has_spatial_coverage
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Sedi
+        data_type_string: ezobjectrelationlist
+        placement: 10
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - place
+            default_placement:
+                node_id: $contenttree_Amministrazione_Luoghi_node
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    has_online_contact_point:
+        identifier: has_online_contact_point
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Punti di contatto'
+        data_type_string: ezobjectrelationlist
+        placement: 11
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - online_contact_point
+            default_placement:
+                node_id: $contenttree_Classificazioni_Punti-di-contatto_node
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    foundation_date:
+        identifier: foundation_date
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'la data di costituzione del soggetto / organo politico'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Data di costituzione'
+        data_type_string: ezdate
+        placement: 12
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    has_public_org_activity_type:
+        identifier: has_public_org_activity_type
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Tipo di attività'
+        data_type_string: eztags
+        placement: 13
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 'tag(Organizzazione / COFOG)'
+        data_int4: 2
+        data_text1: Tree
+        category: hidden
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    hold_employment:
+        identifier: hold_employment
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Struttura organizzativa da cui dipende (livello più alto)'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Legami con altre strutture'
+        data_type_string: ezobjectrelationlist
+        placement: 14
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - office
+            default_placement:
+                node_id: $contenttree_Amministrazione_Uffici_node
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    topics:
+        identifier: topics
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'tematiche trattate da questa organizzazione'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Argomenti
+        data_type_string: ezobjectrelationlist
+        placement: 15
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - argomento
+            default_placement:
+                node_id: $contenttree_OpenCity_Argomenti_node
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    attachments:
+        identifier: attachments
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Allegati
+        data_type_string: ezobjectrelationlist
+        placement: 16
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - document
+            default_placement:
+                node_id: $contenttree_Documenti-e-dati_Documenti-tecnici-di-supporto_node
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    more_information:
+        identifier: more_information
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Ulteriori informazioni sul soggetto / organo politico non contemplate dai campi precedenti'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Ulteriori informazioni'
+        data_type_string: ezxmltext
+        placement: 17
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 5
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    help:
+        identifier: help
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Eventuali contatti di supporto all''utente. Per esempio i riferimenti dell''URP'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Box d''aiuto'
+        data_type_string: ezobjectrelationlist
+        placement: 18
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - online_contact_point
+            default_placement:
+                node_id: $contenttree_Classificazioni_Punti-di-contatto_node
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    type:
+        identifier: type
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Indicare la tipologia tradizionale di struttura organizzativa del Comune'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Tipo di struttura organizzativa'
+        data_type_string: eztags
+        placement: 19
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 'tag(Organizzazione / Tipo di struttura organizzativa)'
+        data_int3: 1
+        data_int4: 1
+        data_text1: Tree
+        category: content
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    people:
+        identifier: people
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Persone che compongono la struttura'
+        data_type_string: openparole
+        placement: 20
+        can_translate: 1
+        data_text5: '{"roletype_root_tag":"Persone\/Ruoli","select":2,"view":3,"filter":["Assessore","Consigliere comunale","Membro","Membro della Giunta","Presidente del Consiglio"],"sort":1}'
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+groups:
+    - 'Organizzazione (COV)'

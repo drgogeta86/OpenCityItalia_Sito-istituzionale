@@ -1,0 +1,20 @@
+metadata:
+    remoteId: b9f4596045334c1b6851e5428f39e335
+    classIdentifier: pagina_trasparenza
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        titolo: 'Relazione sulla performance '
+        contenuto_obbligo: '<p>Relazione sulla Performance (art. 10, d.lgs. 150/2009)</p>'
+        riferimenti_normativi: "Art.1, co.1, lett b), l.r. n.10/2014 e ss.mm.\r\n"
+        applicabilita: '<p>Ai sensi dell'' art. 1, co.1 della l.r. n. 10/2014 e ss.mm., non trova applicazione l’obbligo di pubblicazione &quot;Relazione sulla performance&quot; di cui alla presente sezione</p>'
+        denominazione_degli_obblighi: ''
+        guida_alla_compilazione: ''
+        messaggio_di_consiglio: ''
+        fields: null
+sort_data:
+    sort_field: 8
+    sort_order: 1
+    priority: 2

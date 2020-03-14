@@ -1,0 +1,127 @@
+identifier: offer
+contentobject_name: '<description>'
+serialized_name_list:
+    always-available: ita-IT
+    ita-IT: Offerta
+serialized_description_list:
+    always-available: ita-IT
+    ita-IT: 'Descrive un''offerta, ad esempio una riduzione per uno specifico tipo di utenti'
+data_map:
+    description:
+        identifier: description
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Descrizione
+        data_type_string: ezstring
+        placement: 1
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    has_price_specification:
+        identifier: has_price_specification
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Indicare l''importo (IVA inclusa) in numero decimale'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Importo
+        data_type_string: ezfloat
+        placement: 2
+        is_required: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    has_currency:
+        identifier: has_currency
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Valuta
+        data_type_string: eztags
+        placement: 3
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        data_int1: 'tag(Costi e prezzi / Valute)'
+        data_int3: 1
+        data_int4: 1
+        data_text1: Tree
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    has_eligible_user:
+        identifier: has_eligible_user
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Indicare la fascia di popolazione a cui è riservata l''offerta'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Prezzo riservato a'
+        data_type_string: eztags
+        placement: 4
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        data_int1: 'tag(Eventi / Target utenti / Fasce generali di popolazione)'
+        data_int3: 1
+        data_text1: Tree
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    start_time:
+        identifier: start_time
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Primo giorno di validità dell''offerta '
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Valido dal'
+        data_type_string: ezdate
+        placement: 5
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    end_time:
+        identifier: end_time
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Ultimo giorno di validità dell''offerta'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Valido al'
+        data_type_string: ezdate
+        placement: 6
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    note:
+        identifier: note
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Eventuali note in cui indicare particolari condizioni che caratterizzano l''offerta'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Note
+        data_type_string: eztext
+        placement: 7
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 2
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+groups:
+    - 'Costi - POT'

@@ -1,0 +1,25 @@
+metadata:
+    remoteId: topic_6
+    classIdentifier: topic
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        name: 'Area di parcheggio'
+        managed_by_area: {  }
+        managed_by_political_body: {  }
+        type: null
+        description: null
+        eu: 'https://publications.europa.eu/en/web/eu-vocabularies/th-concept/-/resource/eurovoc/5429'
+        theme: null
+        data_themes_eurovocs: {  }
+        image: {  }
+        abstract: ''
+        icon: null
+        layout: {  }
+        help: {  }
+sort_data:
+    sort_field: 1
+    sort_order: 1
+    priority: 0

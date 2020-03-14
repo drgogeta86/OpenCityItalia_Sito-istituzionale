@@ -1,0 +1,26 @@
+metadata:
+    remoteId: 2355030a5852f24d60cb9e93c13e002b
+    classIdentifier: pagina_trasparenza
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        titolo: 'Class action'
+        contenuto_obbligo: "\n<ul>\n\n<li>notizia del ricorso in giudizio proposto dai titolari di interessi giuridicamente rilevanti ed omogenei nei confronti dell'Amministrazione al fine di ripristinare il corretto della funzione o la corretta esecuzione di un servizio</li>\n\n<li>sentenza di definizione del giudizio</li>\n\n<li>misure adottate in ottemperanza alla sentenza</li>\n\n</ul>\n"
+        riferimenti_normativi: 'Art. 1 co. 2 e art. 4 co. 2 e co. 6, d.lgs n. 198/2009'
+        applicabilita: ''
+        denominazione_degli_obblighi: ''
+        guida_alla_compilazione: ''
+        messaggio_di_consiglio: ''
+        decorrenza_di_pubblicazione:
+            - Tempestiva
+        aggiornamento:
+            - Tempestivo
+        termine_pubblicazione:
+            - '5 anni a decorrere dal primo gennaio dell''anno successivo a quello da cui decorre l''obbligo di pubblicazione'
+        fields: null
+sort_data:
+    sort_field: 8
+    sort_order: 1
+    priority: 1

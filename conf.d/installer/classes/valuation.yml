@@ -1,0 +1,128 @@
+identifier: valuation
+contentobject_name: '<titolo>'
+serialized_name_list:
+    always-available: ita-IT
+    ita-IT: Valutazione
+serialized_description_list:
+    ita-IT: 'Questionario di valutazione dell''efficacia dei contenuti del sito web, ad uso del cittadino'
+data_map:
+    titolo:
+        identifier: titolo
+        serialized_description_list:
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Titolo
+        data_type_string: ezstring
+        placement: 1
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        serialized_data_text: {  }
+    receiver:
+        identifier: receiver
+        serialized_description_list:
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'E-mail del destinatario interno al Comune'
+        data_type_string: ezemail
+        placement: 2
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        serialized_data_text: {  }
+    useful:
+        identifier: useful
+        serialized_description_list:
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'E'' stata utile la consultazione della pagina?'
+        data_type_string: ezselection
+        placement: 3
+        is_information_collector: 1
+        can_translate: 1
+        data_text5: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<ezselection><options><option id=\"0\" name=\"per nulla\"/><option id=\"1\" name=\"poco\"/><option id=\"2\" name=\"abbastanza\"/><option id=\"3\" name=\"molto\"/></options></ezselection>\n"
+        serialized_data_text: {  }
+    easy:
+        identifier: easy
+        serialized_description_list:
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'E'' stato facile trovare la pagina?'
+        data_type_string: ezselection
+        placement: 4
+        is_information_collector: 1
+        can_translate: 1
+        data_text5: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<ezselection><options><option id=\"0\" name=\"per nulla\"/><option id=\"1\" name=\"poco\"/><option id=\"2\" name=\"abbastanza\"/><option id=\"3\" name=\"molto\"/></options></ezselection>\n"
+        serialized_data_text: {  }
+    comment:
+        identifier: comment
+        serialized_description_list:
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Segnalo il seguente problema:'
+        data_type_string: ezstring
+        placement: 5
+        is_information_collector: 1
+        can_translate: 1
+        serialized_data_text: {  }
+    email_aiutaci:
+        identifier: email_aiutaci
+        serialized_description_list:
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'La mia e-mail (facoltativa)'
+        data_type_string: ezstring
+        placement: 6
+        is_information_collector: 1
+        can_translate: 1
+        serialized_data_text: {  }
+    nodo:
+        identifier: nodo
+        serialized_description_list:
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'nodo della pagina'
+        data_type_string: ezstring
+        placement: 7
+        is_information_collector: 1
+        can_translate: 1
+        serialized_data_text: {  }
+    link:
+        identifier: link
+        serialized_description_list:
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: link
+        data_type_string: ezstring
+        placement: 8
+        is_information_collector: 1
+        can_translate: 1
+        serialized_data_text: {  }
+    antispam:
+        identifier: antispam
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Antispam
+        data_type_string: ocrecaptcha
+        placement: 9
+        is_required: 1
+        is_information_collector: 1
+        can_translate: 1
+        data_text1: $recaptcha_public
+        data_text2: $recaptcha_private
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+groups:
+    - Content

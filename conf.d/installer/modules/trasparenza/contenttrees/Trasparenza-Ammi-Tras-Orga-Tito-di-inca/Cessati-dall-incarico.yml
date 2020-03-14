@@ -1,0 +1,26 @@
+metadata:
+    remoteId: 01268e2ede40faaa233c64acc189c5cc
+    classIdentifier: pagina_trasparenza
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        titolo: 'Cessati dall''incarico'
+        contenuto_obbligo: "\n<ul>\n\n<li>Organi di indirizzo politico e di amministrazione e gestione, con l'indicazione delle rispettive competenze</li>\n\n<li>Atto di nomina o di proclamazione, con l'indicazione della durata dell'incarico o del mandato elettivo</li>\n\n<li>Curriculum vitae</li>\n\n<li>Compensi di qualsiasi natura connessi all'assunzione della carica</li>\n\n<li>Importi di viaggi di servizio e missioni pagati con fondi pubblici</li>\n\n<li>Dati relativi all'assunzione di altre cariche, presso enti pubblici o privati, ed i relativi compensi a qualsiasi titolo corrisposti</li>\n\n<li>Gli altri eventuali incarichi con oneri a carico della finanza pubblica e l'indicazione dei compensi spettanti</li>\n\n<li>Dichiarazione reddituale e situazione patrimoniale (applicabile solo ai Sindaci e agli Assessori dei Comuni e Presidenti e Assessori delle Comunità con popolazione superiore ai 50.000 abitanti)</li>\n\n</ul>\n"
+        riferimenti_normativi: "Ai sensi della l.r. n. 10/2014 e ss.mm., art.13, co.1, lett. a), art.14 co.1 e co. 2\r\nArt. 47, co.1, d.lgs. n. 33/2013 e ss.mm."
+        applicabilita: ''
+        denominazione_degli_obblighi: ''
+        guida_alla_compilazione: '<p>Per inserire le informazioni nella presente sezione è possibile spostare l''amministratore dalla sezione &quot;Comune&quot; a questa sezione</p>'
+        messaggio_di_consiglio: ''
+        decorrenza_di_pubblicazione:
+            - '3 mesi dalla elezione o dalla nomina'
+        aggiornamento:
+            - Tempestivo
+        termine_pubblicazione:
+            - '3 anni successivi alla cessazione dell''incarico'
+        fields: null
+sort_data:
+    sort_field: 8
+    sort_order: 1
+    priority: 2

@@ -1,0 +1,10 @@
+metadata:
+    remoteId: editors_documenti
+    classIdentifier: user_group
+    languages:
+        - ita-IT
+    parentNodes:
+        - $content_Editor-Base_node
+data:
+    ita-IT:
+        name: Editors Documenti e Dati

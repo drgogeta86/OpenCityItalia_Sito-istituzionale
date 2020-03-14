@@ -1,0 +1,25 @@
+metadata:
+    remoteId: organi_politici
+    classIdentifier: pagina_sito
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        name: 'Organi politici'
+        short_name: null
+        menu_name: null
+        abstract: '<p>Composizione di Giunta e Consiglio, nomine di rappresentanti del Comune, Organo di revisione, convocazioni, video sedute e verbali, notizie.</p>'
+        description: ''
+        image: {  }
+        show_children: 1
+        layout: {  }
+        icon: null
+        show_topics: 0
+        show_search_form: 1
+        tag_menu: {  }
+        publish_date: null
+sort_data:
+    sort_field: 8
+    sort_order: 1
+    priority: 1

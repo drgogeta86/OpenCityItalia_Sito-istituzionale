@@ -1,0 +1,98 @@
+identifier: user
+contentobject_name: '<first_name> <last_name>'
+serialized_name_list:
+    always-available: ita-IT
+    ita-IT: Utente
+serialized_description_list:
+    0: ''
+    always-available: false
+    ita-IT: "Utente tecnico; struttura dati necessaria al funzionamento della piattaforma\t"
+always_available: 1
+data_map:
+    first_name:
+        identifier: first_name
+        serialized_description_list:
+            0: ''
+            always-available: false
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Nome
+        data_type_string: ezstring
+        placement: 1
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        data_int1: 255
+        serialized_data_text:
+            0: ''
+            always-available: false
+    last_name:
+        identifier: last_name
+        serialized_description_list:
+            0: ''
+            always-available: false
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Cognome
+        data_type_string: ezstring
+        placement: 2
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        data_int1: 255
+        serialized_data_text:
+            0: ''
+            always-available: false
+    user_account:
+        identifier: user_account
+        serialized_description_list:
+            0: ''
+            always-available: false
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Account
+        data_type_string: ezuser
+        placement: 3
+        is_searchable: 1
+        is_required: 1
+        serialized_data_text:
+            0: ''
+            always-available: false
+    password_expiry:
+        identifier: password_expiry
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Scadenza password'
+        data_type_string: ezpaex
+        placement: 4
+        is_searchable: 1
+        category: hidden
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    gdpr_acceptance:
+        identifier: gdpr_acceptance
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Accettazione termini di utilizzo'
+        data_type_string: ocgdpr
+        placement: 5
+        is_required: 1
+        can_translate: 1
+        data_text3: 'Leggi l''informativa completa'
+        data_text4: /Informativa-Privacy
+        data_text5: 'Ho letto e accettato i termini di utilizzo del servizio'
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+groups:
+    - Users

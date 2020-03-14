@@ -1,0 +1,25 @@
+group_name:
+    ita-IT: 'Albo telematico'
+group_identifier: albotelematico
+states:
+    -
+        identifier: visibile
+        name:
+            ita-IT: Visibile
+    -
+        identifier: archivioricercabile
+        name:
+            ita-IT: 'Archivio ricercabile'
+    -
+        identifier: archiviononricercabile
+        name:
+            ita-IT: 'Archivio non ricercabile'
+    -
+        identifier: nonvisibile
+        name:
+            ita-IT: 'Non visibile'
+    -
+        identifier: annullato
+        name:
+            ita-IT: Annullato
+            eng-GB: Annullato

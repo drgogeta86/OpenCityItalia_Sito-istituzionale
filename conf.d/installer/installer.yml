@@ -1,0 +1,468 @@
+name: OpenCity
+version: 2.0.3
+variables:
+    -
+        name: identifier
+        value: 'OpenPABase::getCurrentSiteaccessIdentifier'
+    -
+        name: root_node
+        value: 'ini(NodeSettings,RootNode,content.ini)'
+    -
+        name: anonymous_user
+        value: 'ini(UserSettings,AnonymousUserID,site.ini)'
+    -
+        name: members
+        value: 11
+    -
+        name: members_node
+        value: 12
+    -
+        name: users
+        value: 5
+    -
+        name: recaptcha_public
+        value: env(RECAPTCHA_PUBLIC)
+    -
+        name: recaptcha_private
+        value: env(RECAPTCHA_PRIVATE)
+    -
+        name: section_standard
+        value: 1
+    -
+        name: section_media
+        value: 3
+    -
+        name: content_Files_node
+        value: 52
+    -
+        name: content_Files_path_string
+        value: /1/43/52/
+    -
+        name: content_Images_node
+        value: 51
+    -
+        name: content_Multimedia_node
+        value: 53
+    -
+        name: content_Multimedia_path_string
+        value: /1/43/53/
+steps:
+    -
+        type: sql_copy_from_tsv
+        identifier: eztags
+        table: eztags
+        condition: $is_install_from_scratch
+    -
+        type: sql_copy_from_tsv
+        identifier: eztags_keyword
+        table: eztags_keyword
+        condition: $is_install_from_scratch
+    -
+        type: state
+        identifier: albotelematico
+    -
+        type: state
+        identifier: moderation
+    -
+        type: state
+        identifier: privacy
+    -
+        type: section
+        identifier: intranet
+    -
+        type: section
+        identifier: oggetti_scaduti
+    -
+        type: section
+        identifier: cjw_newsletter
+    -
+        type: class
+        identifier: folder
+    -
+        type: classextra
+        identifier: folder
+    -
+        type: class
+        identifier: pagina_sito
+    -
+        type: classextra
+        identifier: pagina_sito
+    -
+        type: class
+        identifier: frontpage
+    -
+        type: classextra
+        identifier: frontpage
+    -
+        type: contenttree
+        identifier: OpenCity
+        parent: $root_node
+    -
+        type: contenttree
+        identifier: Privacy
+        parent: $contenttree_OpenCity_Privacy_node
+    -
+        type: contenttree
+        identifier: Amministrazione
+        parent: $contenttree_OpenCity_Amministrazione_node
+    -
+        type: contenttree
+        identifier: Novita
+        parent: $contenttree_OpenCity_Novita_node
+    -
+        type: contenttree
+        identifier: Documenti-e-dati
+        parent: $contenttree_OpenCity_Documenti-e-dati_node
+    -
+        type: contenttree
+        identifier: Classificazioni
+        parent: $contenttree_OpenCity_Classificazioni_node
+    -
+        type: class
+        identifier: topic
+    -
+        type: classextra
+        identifier: topic
+    -
+        type: contenttree
+        identifier: Argomenti
+        parent: $contenttree_OpenCity_Argomenti_node
+    -
+        type: content
+        identifier: Ruoli
+    -
+        type: content
+        identifier: Banner
+    -
+        type: class
+        identifier: homepage
+    -
+        type: classextra
+        identifier: homepage
+    -
+        type: content
+        identifier: OpenCity
+        swap_with: $root_node
+        remove_swapped: true
+    -
+        type: class
+        identifier: user_group
+    -
+        type: classextra
+        identifier: user_group
+    -
+        type: class
+        identifier: user
+        remove_extra: true
+    -
+        type: classextra
+        identifier: user
+    -
+        type: class
+        identifier: link
+    -
+        type: classextra
+        identifier: link
+    -
+        type: class
+        identifier: file
+    -
+        type: classextra
+        identifier: file
+    -
+        type: class
+        identifier: chart
+    -
+        type: classextra
+        identifier: chart
+    -
+        type: class
+        identifier: image
+    -
+        type: classextra
+        identifier: image
+    -
+        type: class
+        identifier: gallery
+    -
+        type: classextra
+        identifier: gallery
+    -
+        type: class
+        identifier: banner
+    -
+        type: classextra
+        identifier: banner
+    -
+        type: class
+        identifier: valuation
+    -
+        type: classextra
+        identifier: valuation
+    -
+        type: class
+        identifier: audio
+    -
+        type: classextra
+        identifier: audio
+    -
+        type: class
+        identifier: apps_container
+    -
+        type: classextra
+        identifier: apps_container
+    -
+        type: class
+        identifier: public_service
+    -
+        type: classextra
+        identifier: public_service
+    -
+        type: class
+        identifier: channel
+    -
+        type: classextra
+        identifier: channel
+    -
+        type: class
+        identifier: output
+    -
+        type: classextra
+        identifier: output
+    -
+        type: class
+        identifier: document
+    -
+        type: classextra
+        identifier: document
+    -
+        type: class
+        identifier: opening_hours_specification
+    -
+        type: classextra
+        identifier: opening_hours_specification
+    -
+        type: class
+        identifier: rule
+    -
+        type: classextra
+        identifier: rule
+    -
+        type: class
+        identifier: office
+    -
+        type: classextra
+        identifier: office
+    -
+        type: class
+        identifier: homogeneous_organizational_area
+    -
+        type: classextra
+        identifier: homogeneous_organizational_area
+    -
+        type: class
+        identifier: online_contact_point
+    -
+        type: classextra
+        identifier: online_contact_point
+    -
+        type: class
+        identifier: time_indexed_role
+    -
+        type: classextra
+        identifier: time_indexed_role
+    -
+        type: class
+        identifier: offer
+    -
+        type: classextra
+        identifier: offer
+    -
+        type: class
+        identifier: place
+    -
+        type: classextra
+        identifier: place
+    -
+        type: class
+        identifier: politico
+    -
+        type: classextra
+        identifier: politico
+    -
+        type: class
+        identifier: public_organization
+    -
+        type: classextra
+        identifier: public_organization
+    -
+        type: class
+        identifier: event
+    -
+        type: classextra
+        identifier: event
+    -
+        type: class
+        identifier: private_organization
+    -
+        type: classextra
+        identifier: private_organization
+    -
+        type: class
+        identifier: employee
+    -
+        type: classextra
+        identifier: employee
+    -
+        type: class
+        identifier: article
+    -
+        type: classextra
+        identifier: article
+    -
+        type: class
+        identifier: person
+    -
+        type: classextra
+        identifier: person
+    -
+        type: class
+        identifier: dataset
+    -
+        type: classextra
+        identifier: dataset
+    -
+        type: class
+        identifier: political_body
+    -
+        type: classextra
+        identifier: political_body
+    -
+        type: class
+        identifier: administrative_area
+    -
+        type: classextra
+        identifier: administrative_area
+    -
+        type: class
+        identifier: partecipazione_societaria
+    -
+        type: classextra
+        identifier: partecipazione_societaria
+    -
+        type: class
+        identifier: restriced_area
+    -
+        type: classextra
+        identifier: restriced_area
+    -
+        type: workflow
+        identifier: Post-pubblicazione
+        trigger:
+            module: content
+            function: publish
+            connection_type: after
+    -
+        type: workflow
+        identifier: Pre-pubblicazione
+        trigger:
+            module: content
+            function: publish
+            connection_type: before
+    -
+        type: workflow
+        identifier: Post-pubblicazione
+        trigger:
+            module: content
+            function: publish
+            connection_type: after
+    -
+        type: workflow
+        identifier: Pre-pubblicazione
+        trigger:
+            module: content
+            function: publish
+            connection_type: before
+    -
+        type: content
+        identifier: Editor-Base
+    -
+        type: content
+        identifier: Editor-Amministrazione
+    -
+        type: content
+        identifier: Editor-Documenti
+    -
+        type: content
+        identifier: Editor-Novita
+    -
+        type: content
+        identifier: Editor-Servizi
+    -
+        type: content
+        identifier: Editor-Utenti
+    -
+        type: role
+        identifier: Anonymous
+        apply_to:
+            - $anonymous_user
+            - $members
+            - $content_Editor-Amministrazione_object
+            - $content_Editor-Base_object
+            - $content_Editor-Documenti_object
+            - $content_Editor-Novita_object
+            - $content_Editor-Servizi_object
+            - $content_Editor-Utenti_object
+    -
+        type: role
+        identifier: Members
+        apply_to:
+            - $members
+            - $content_Editor-Amministrazione_object
+            - $content_Editor-Base_object
+            - $content_Editor-Documenti_object
+            - $content_Editor-Novita_object
+            - $content_Editor-Servizi_object
+            - $content_Editor-Utenti_object
+    -
+        type: role
+        identifier: Editor-Base
+        apply_to:
+            - $content_Editor-Base_object
+    -
+        type: role
+        identifier: Editor-Amministrazione
+        apply_to:
+            - $content_Editor-Amministrazione_object
+    -
+        type: role
+        identifier: Editor-Classificazioni
+        apply_to:
+            - $content_Editor-Base_object
+    -
+        type: role
+        identifier: Editor-Documenti
+        apply_to:
+            - $content_Editor-Documenti_object
+    -
+        type: role
+        identifier: Editor-Novita
+        apply_to:
+            - $content_Editor-Novita_object
+    -
+        type: role
+        identifier: Editor-Servizi
+        apply_to:
+            - $content_Editor-Servizi_object
+    -
+        type: role
+        identifier: Editor-Utenti
+        apply_to:
+            - $content_Editor-Utenti_object
+    -
+        type: role
+        identifier: Gestione-Area-riservata
+    -
+        type: openparecaptcha
+        public: $recaptcha_public
+        private: $recaptcha_private

@@ -1,0 +1,47 @@
+metadata:
+    remoteId: 3da91bfec50abc9740f0f3d62c8aaac4
+    classIdentifier: pagina_sito
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        name: 'Personale amministrativo'
+        short_name: null
+        menu_name: null
+        abstract: '<p>Rubrica del personale con possibilità di effettuare ricerche per nominativo, ruolo o struttura di appartenenza.</p>'
+        description: ''
+        image: {  }
+        show_children: 0
+        layout:
+            zone_layout: desItaGlobal
+            right:
+                zone_id: f05047ba71e02b7e2a9251e508a4060d
+                blocks:
+                    -
+                        block_id: 5f7af6c7c5796513b3e72b7b76b8661c
+                        name: ''
+                        type: ListaAutomatica
+                        view: lista_banner
+                        custom_attributes:
+                            limite: '200'
+                            elementi_per_riga: '4'
+                            includi_classi: employee
+                            escludi_classi: ''
+                            ordinamento: name
+                            livello_profondita: ''
+                            state_id: ''
+                            topic_node_id: ''
+                            color_style: ''
+                            container_style: ''
+                            node_id: $root_node
+                        valid_items: {  }
+        icon: it-user
+        show_topics: 0
+        show_search_form: 1
+        tag_menu: {  }
+        publish_date: null
+sort_data:
+    sort_field: 9
+    sort_order: 1
+    priority: 40

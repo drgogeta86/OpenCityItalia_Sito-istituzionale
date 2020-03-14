@@ -1,0 +1,208 @@
+attribute_group:
+    a_chi_si_rivolge:
+        '*': 'A chi si rivolge'
+        applicants: '1'
+        audience: '1'
+        has_spatial_coverage: '1'
+    accedere_al_servizio:
+        '*': 'Accedere al servizio'
+        has_authentication_method: '1'
+        has_channel: '1'
+        how_to: '1'
+        produces_output: '1'
+    casi_particolari:
+        '*': 'Casi particolari'
+        exceptions: '1'
+    contatti:
+        '*': Contatti
+        has_online_contact_point: '1'
+        holds_role_in_time_area: '1'
+        holds_role_in_time_ufficio: '1'
+    cos_e:
+        '*': 'Cos''è'
+        description: '1'
+    cosa_serve:
+        '*': 'Cosa serve'
+        has_input: '1'
+        has_module_input: '1'
+    costi_e_vincoli:
+        '*': 'Costi e vincoli'
+        conditions: '1'
+        has_cost: '1'
+    documenti:
+        '*': Documenti
+        is_compliant_with_rule: '1'
+    enabled:
+        '*': '1'
+    'eng-GB::a_chi_si_rivolge':
+        '*': 'A chi si rivolge'
+    'eng-GB::accedere_al_servizio':
+        '*': 'Accedere al servizio'
+    'eng-GB::casi_particolari':
+        '*': 'Casi particolari'
+    'eng-GB::contatti':
+        '*': Contatti
+    'eng-GB::cos_e':
+        '*': 'Cos''è'
+    'eng-GB::cosa_serve':
+        '*': 'Cosa serve'
+    'eng-GB::costi_e_vincoli':
+        '*': 'Costi e vincoli'
+    'eng-GB::documenti':
+        '*': Documenti
+    'eng-GB::siti_esterni':
+        '*': 'Siti esterni'
+    'eng-GB::tempi_e_scadenze':
+        '*': 'Tempi e scadenze'
+    'eng-GB::ulteriori_informazioni':
+        '*': 'Ulteriori informazioni'
+    'ger-DE::a_chi_si_rivolge':
+        '*': 'A chi si rivolge'
+    'ger-DE::accedere_al_servizio':
+        '*': 'Accedere al servizio'
+    'ger-DE::casi_particolari':
+        '*': 'Casi particolari'
+    'ger-DE::contatti':
+        '*': Contatti
+    'ger-DE::cos_e':
+        '*': 'Cos''è'
+    'ger-DE::cosa_serve':
+        '*': 'Cosa serve'
+    'ger-DE::costi_e_vincoli':
+        '*': 'Costi e vincoli'
+    'ger-DE::documenti':
+        '*': Documenti
+    'ger-DE::siti_esterni':
+        '*': 'Siti esterni'
+    'ger-DE::tempi_e_scadenze':
+        '*': 'Tempi e scadenze'
+    'ger-DE::ulteriori_informazioni':
+        '*': 'Ulteriori informazioni'
+    'ita-IT::a_chi_si_rivolge':
+        '*': 'A chi si rivolge'
+    'ita-IT::accedere_al_servizio':
+        '*': 'Accedere al servizio'
+    'ita-IT::casi_particolari':
+        '*': 'Casi particolari'
+    'ita-IT::contatti':
+        '*': Contatti
+    'ita-IT::cos_e':
+        '*': 'Cos''è'
+    'ita-IT::cosa_serve':
+        '*': 'Cosa serve'
+    'ita-IT::costi_e_vincoli':
+        '*': 'Costi e vincoli'
+    'ita-IT::documenti':
+        '*': Documenti
+    'ita-IT::siti_esterni':
+        '*': 'Siti esterni'
+    'ita-IT::tempi_e_scadenze':
+        '*': 'Tempi e scadenze'
+    'ita-IT::ulteriori_informazioni':
+        '*': 'Ulteriori informazioni'
+    siti_esterni:
+        '*': 'Siti esterni'
+        link: '1'
+    'sort::a_chi_si_rivolge':
+        '*': '2'
+    'sort::accedere_al_servizio':
+        '*': '3'
+    'sort::casi_particolari':
+        '*': '7'
+    'sort::contatti':
+        '*': '8'
+    'sort::cos_e':
+        '*': '1'
+    'sort::cosa_serve':
+        '*': '4'
+    'sort::costi_e_vincoli':
+        '*': '5'
+    'sort::documenti':
+        '*': '9'
+    'sort::siti_esterni':
+        '*': '10'
+    'sort::tempi_e_scadenze':
+        '*': '6'
+    'sort::ulteriori_informazioni':
+        '*': '11'
+    tempi_e_scadenze:
+        '*': 'Tempi e scadenze'
+        has_processing_time: '1'
+        has_temporal_coverage: '1'
+        requires_service: '1'
+    ulteriori_informazioni:
+        '*': 'Ulteriori informazioni'
+        content_show_history: '1'
+        content_show_modified: '1'
+        help: '1'
+        relation_service: '1'
+bootstrapitalia_icon:
+    enabled:
+        '*': '1'
+    icon:
+        '*': it-settings
+card_small_view:
+    enabled:
+        '*': '1'
+    show:
+        abstract: '1'
+        content_show_read_more: '1'
+table_view:
+    enabled:
+        '*': '1'
+    in_overview:
+        abstract: '1'
+    main_image:
+        image: '1'
+    show:
+        applicants: '1'
+        audience: '1'
+        conditions: '1'
+        content_show_modified: '1'
+        content_tree_related: '1'
+        description: '1'
+        exceptions: '1'
+        has_authentication_method: '1'
+        has_channel: '1'
+        has_cost: '1'
+        has_input: '1'
+        has_module_input: '1'
+        has_online_contact_point: '1'
+        has_processing_time: '1'
+        has_spatial_coverage: '1'
+        has_temporal_coverage: '1'
+        help: '1'
+        holds_role_in_time_area: '1'
+        holds_role_in_time_ufficio: '1'
+        how_to: '1'
+        is_compliant_with_rule: '1'
+        is_physically_available_at: '1'
+        link: '1'
+        on_line_booking: '1'
+        produces_output: '1'
+        relation_service: '1'
+        requires_service: '1'
+        service_keyword: '1'
+        service_theme: '1'
+        type: '1'
+    show_label:
+        applicants: '1'
+        has_authentication_method: '1'
+        has_channel: '1'
+        has_input: '1'
+        has_module_input: '1'
+        has_spatial_coverage: '1'
+        produces_output: '1'
+        service_keyword: '1'
+        service_theme: '1'
+        type: '1'
+    show_link:
+        has_channel: '1'
+        has_online_contact_point: '1'
+        has_temporal_coverage: '1'
+        help: '1'
+        holds_role_in_time_area: '1'
+        holds_role_in_time_ufficio: '1'
+        produces_output: '1'
+        relation_service: '1'
+        requires_service: '1'

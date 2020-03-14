@@ -1,0 +1,15 @@
+metadata:
+    remoteId: informativa_newsletter
+    classIdentifier: pagina_sito
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        name: 'Informativa newsletter'
+        abstract: "<p>Testo dell'informativa per l'iscrizione alla newsletter</p>"
+        description: "<p>Dichiaro di essere informato, ai sensi e per gli effetti degli artt. 13 e 14 del Regolamento UE 2016/679 e dell’art. 13 del D.Lgs. 196/2003, che i dati personali raccolti saranno trattati, con strumenti cartacei e con strumenti informatici, esclusivamente nell’ambito del servizio per il quale la presente dichiarazione viene resa, in esecuzione di un compito o di una funzione di interesse pubblico.</p><p>Titolare del trattamento è il TITOLARE-TRATTAMENTO, Responsabile della Protezione dei Dati è il RPD, con sede a SEDE-RPD (e-mail ​EMAIL-RPD, sito internet SITO-RPD. Dichiaro di essere a conoscenza di poter esercitare il diritto di accesso e gli altri diritti di cui agli artt. 15 e seguenti del Regolamento UE 2016/679 e dell’art. 7 e seguenti del D.Lgs. 196/2003.</p>"
+sort_data:
+    sort_field: 2
+    sort_order: 0
+    priority: 0

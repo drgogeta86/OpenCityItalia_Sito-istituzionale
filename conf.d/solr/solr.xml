@@ -29,6 +29,6 @@
     If 'null' (or absent), cores will not be manageable via request handler
   -->
     <cores adminPath="/admin/cores">
-         <core name="prototipo" instanceDir="prototipo" />         
+         <core name="ezp-default" instanceDir="ezp-default" />
     </cores>
 </solr>

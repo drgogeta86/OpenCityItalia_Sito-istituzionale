@@ -1,0 +1,29 @@
+name: 'Gestione Area riservata'
+policies:
+    -
+        ModuleName: content
+        FunctionName: create
+        Limitation:
+            Class:
+                - $class_document
+            ParentClass:
+                - $class_restriced_area
+    -
+        ModuleName: content
+        FunctionName: read
+        Limitation:
+            Class:
+                - $class_document
+                - $class_restriced_area
+    -
+        ModuleName: content
+        FunctionName: remove
+        Limitation:
+            Owner:
+                - '1'
+    -
+        ModuleName: content
+        FunctionName: edit
+        Limitation:
+            Class:
+                - $class_restriced_area

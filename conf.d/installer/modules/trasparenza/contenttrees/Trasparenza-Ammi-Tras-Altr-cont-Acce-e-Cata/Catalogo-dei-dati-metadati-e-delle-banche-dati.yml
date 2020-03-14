@@ -1,0 +1,26 @@
+metadata:
+    remoteId: 8bdf6887111dd235013a6c9692e7f27c
+    classIdentifier: pagina_trasparenza
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        titolo: 'Catalogo dei dati, metadati e delle banche dati'
+        contenuto_obbligo: '<p>Catalogo dei dati, dei metadati definitivi e delle relative banche dati in possesso delle amministrazioni, da pubblicare anche tramite link al Repertorio nazionale dei dati territoriali (<a  href="http://www.rndt.gov.it/RNDT/home/index.php" title="Link a www.rndt.gov.it" >www.rndt.gov.it</a>), al catalogo dei dati della PA e delle banche dati, <a  href="http://www.dati.gov.it/" title="Link a www.dati.gov.it" >www.dati.gov.it</a> e <a  href="http://basidati.agid.gov.it/catalogo/" title="Link a http://basidati.agid.gov.it/catalogo" >http://basidati.agid.gov.it/catalogo</a> gestiti da AGID</p>'
+        riferimenti_normativi: "Art. 53, co. 1-bis, d.lgs. 82/2005 modificato dall’art. 43 del d.lgs. 179/16 \r\nl.p. 16/2012"
+        applicabilita: ''
+        denominazione_degli_obblighi: ''
+        guida_alla_compilazione: ''
+        messaggio_di_consiglio: ''
+        decorrenza_di_pubblicazione:
+            - Tempestiva
+        aggiornamento:
+            - Tempestivo
+        termine_pubblicazione:
+            - '5 anni a decorrere dal primo gennaio dell''anno successivo a quello da cui decorre l''obbligo di pubblicazione'
+        fields: null
+sort_data:
+    sort_field: 8
+    sort_order: 1
+    priority: 0

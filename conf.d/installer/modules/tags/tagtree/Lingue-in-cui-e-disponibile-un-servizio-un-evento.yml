@@ -1,0 +1,107 @@
+keyword: 'Lingue in cui è disponibile (un servizio, un evento, ...)'
+locale: ita-IT
+alwaysAvailable: true
+synonyms: {  }
+keywordTranslations:
+    ita-IT: 'Lingue in cui è disponibile (un servizio, un evento, ...)'
+children:
+    -
+        keyword: Arabo
+        locale: ita-IT
+        alwaysAvailable: true
+        synonyms: {  }
+        keywordTranslations:
+            ita-IT: Arabo
+        children: {  }
+        hasChildren: false
+    -
+        keyword: Cinese
+        locale: ita-IT
+        alwaysAvailable: true
+        synonyms: {  }
+        keywordTranslations:
+            ita-IT: Cinese
+        children: {  }
+        hasChildren: false
+    -
+        keyword: Francese
+        locale: ita-IT
+        alwaysAvailable: true
+        synonyms: {  }
+        keywordTranslations:
+            ita-IT: Francese
+        children: {  }
+        hasChildren: false
+    -
+        keyword: Giapponese
+        locale: ita-IT
+        alwaysAvailable: true
+        synonyms: {  }
+        keywordTranslations:
+            ita-IT: Giapponese
+        children: {  }
+        hasChildren: false
+    -
+        keyword: Inglese
+        locale: ita-IT
+        alwaysAvailable: true
+        synonyms: {  }
+        keywordTranslations:
+            ita-IT: Inglese
+        children: {  }
+        hasChildren: false
+    -
+        keyword: Italiano
+        locale: ita-IT
+        alwaysAvailable: true
+        synonyms: {  }
+        keywordTranslations:
+            ita-IT: Italiano
+        children: {  }
+        hasChildren: false
+    -
+        keyword: Olandese
+        locale: ita-IT
+        alwaysAvailable: true
+        synonyms: {  }
+        keywordTranslations:
+            ita-IT: Olandese
+        children: {  }
+        hasChildren: false
+    -
+        keyword: Portoghese
+        locale: ita-IT
+        alwaysAvailable: true
+        synonyms: {  }
+        keywordTranslations:
+            ita-IT: Portoghese
+        children: {  }
+        hasChildren: false
+    -
+        keyword: Russo
+        locale: ita-IT
+        alwaysAvailable: true
+        synonyms: {  }
+        keywordTranslations:
+            ita-IT: Russo
+        children: {  }
+        hasChildren: false
+    -
+        keyword: Spagnolo
+        locale: ita-IT
+        alwaysAvailable: true
+        synonyms: {  }
+        keywordTranslations:
+            ita-IT: Spagnolo
+        children: {  }
+        hasChildren: false
+    -
+        keyword: Tedesco
+        locale: ita-IT
+        alwaysAvailable: true
+        synonyms: {  }
+        keywordTranslations:
+            ita-IT: Tedesco
+        children: {  }
+        hasChildren: false
+hasChildren: true

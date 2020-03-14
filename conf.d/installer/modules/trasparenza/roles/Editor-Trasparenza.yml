@@ -1,0 +1,73 @@
+name: 'Editor Trasparenza'
+policies:
+    -
+        ModuleName: content
+        FunctionName: create
+        Limitation:
+            Subtree:
+                - $contenttree_Trasparenza-Ammi-Tras_Enti-controllati_node
+            Class:
+                - partecipazione_societaria
+    -
+        ModuleName: content
+        FunctionName: create
+        Limitation:
+            Subtree:
+                - $content_Amministrazione-Trasparente_path_string
+            Class:
+                - link
+                - document
+                - politico
+                - employee
+                - $class_nota_trasparenza
+                - $class_pagina_trasparenza
+                - folder
+            ParentClass:
+                - $class_pagina_trasparenza
+    -
+        ModuleName: content
+        FunctionName: edit
+        Limitation:
+            Subtree:
+                - $content_Amministrazione-Trasparente_path_string
+            Class:
+                - link
+                - document
+                - politico
+                - employee
+                - $class_nota_trasparenza
+                - $class_pagina_trasparenza
+                - folder
+
+    -
+        ModuleName: content
+        FunctionName: remove
+        Limitation:
+            Subtree:
+                - $content_Amministrazione-Trasparente_path_string
+            Class:
+                - link
+                - document
+                - politico
+                - employee
+                - $class_nota_trasparenza
+                - folder
+    -
+        ModuleName: content
+        FunctionName: remove
+        Limitation:
+            Subtree:
+                - $content_Amministrazione-Trasparente_path_string
+            Class:
+                - $class_pagina_trasparenza
+            Owner:
+                - 1
+    -
+        ModuleName: content
+        FunctionName: create
+        Limitation:
+            Node:
+                - $content_Enti-e-fondazioni_node
+            Class:
+                - public_organization
+                - private_organization

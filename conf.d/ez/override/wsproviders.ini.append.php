@@ -1,7 +1,0 @@
-<?php /*
-
-[GeneralSettings]
-Logging=none
-
-
-*/ ?>

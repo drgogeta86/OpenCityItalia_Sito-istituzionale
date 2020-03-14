@@ -1,0 +1,373 @@
+identifier: article
+contentobject_name: '<title>'
+serialized_name_list:
+    always-available: ita-IT
+    ita-IT: 'Avviso - Notizia - Comunicato'
+serialized_description_list:
+    always-available: ita-IT
+    ita-IT: 'Format che consente di pubblicare una notizia, un comunicato stampa, un avviso'
+always_available: 1
+data_map:
+    title:
+        identifier: title
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Titolo della notizia, comunicato stampa o avviso'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Titolo
+        data_type_string: ezstring
+        placement: 1
+        is_required: 1
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    abstract:
+        identifier: abstract
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Descrizione sintetica del contenuto, inferiore a 160 caratteri'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Breve descrizione'
+        data_type_string: eztext
+        placement: 2
+        is_required: 1
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 2
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    content_type:
+        identifier: content_type
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Specificare la tipologia di contenuto trattato'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Tipologia di contenuto'
+        data_type_string: eztags
+        placement: 3
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        data_int1: 'tag(Comunicazione / Tipologia di articolo)'
+        data_int3: 1
+        data_int4: 1
+        data_text1: Tree
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    id_comunicato:
+        identifier: id_comunicato
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Se è un comunicato stampa, indica un''eventuale numero progressivo del comunicato stampa'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Numero comunicato'
+        data_type_string: ezstring
+        placement: 4
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    author:
+        identifier: author
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Ufficio responsabile del contenuto e/o autore della comunicazione'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'A cura di'
+        data_type_string: ezobjectrelationlist
+        placement: 5
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - office
+            default_placement:
+                node_id: $contenttree_Amministrazione_Uffici_node
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    image:
+        identifier: image
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Immagini relative al contenuto pubblicato'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Immagini
+        data_type_string: ezobjectrelationlist
+        placement: 6
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - image
+            default_placement:
+                node_id: $content_Images_node
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    published:
+        identifier: published
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Indica la data di pubblicazione del contenuto sul sito'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Data di pubblicazione'
+        data_type_string: ezdate
+        placement: 7
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        data_int1: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    dead_line:
+        identifier: dead_line
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Indica un''eventuale data di scadenza dell''avviso pubblicato'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Data di scadenza (per gli avvisi)'
+        data_type_string: ezdate
+        placement: 8
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    topics:
+        identifier: topics
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Argomenti che caratterizzano il contenuto trattato; IMPORTANTE: gli argomenti accompagnano il cittadino nella navigazione del sito'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Argomenti
+        data_type_string: ezobjectrelationlist
+        placement: 9
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '3'
+            type: '2'
+            class_constraint_list:
+                - topic
+            default_placement:
+                node_id: $contenttree_OpenCity_Argomenti_node
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    people:
+        identifier: people
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Indicare uno o più politici interessati o citati nel contenuto'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Persone dell''amministrazione'
+        data_type_string: ezobjectrelationlist
+        placement: 10
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '4'
+            type: '2'
+            class_constraint_list:
+                - politico
+            default_placement:
+                node_id: $contenttree_Amministrazione_Politici_node
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    location:
+        identifier: location
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Luoghi a cui si riferisce il contenuto'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Luoghi di riferimento'
+        data_type_string: ezobjectrelationlist
+        placement: 11
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - place
+            default_placement:
+                node_id: $contenttree_Amministrazione_Luoghi_node
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    body:
+        identifier: body
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Testo principale della news; è possibile inserire citazioni usando il pulsante <quote>'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Corpo della news'
+        data_type_string: ezxmltext
+        placement: 12
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        data_int1: 10
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    video:
+        identifier: video
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Link ad un video esterno'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Video
+        data_type_string: ezurl
+        placement: 13
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    audio:
+        identifier: audio
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Audio riferite alla notizia o comunicato stampa'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Audio
+        data_type_string: ezobjectrelationlist
+        placement: 14
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - audio
+            default_placement:
+                node_id: $content_Multimedia_node
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    attachment:
+        identifier: attachment
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Documenti allegati'
+        data_type_string: ezobjectrelationlist
+        placement: 15
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - document
+            default_placement:
+                node_id: $contenttree_Documenti-e-dati_Documenti-tecnici-di-supporto_node
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    dataset:
+        identifier: dataset
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Indicare eventuali dati (ad esempio, in formato tabellare)'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Dataset
+        data_type_string: ezobjectrelationlist
+        placement: 16
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - dataset
+            default_placement:
+                node_id: $contenttree_Documenti-e-dati_Dataset_node
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    help:
+        identifier: help
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Indicare il punto di contatto per maggiori informazioni'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Per informazioni'
+        data_type_string: ezobjectrelationlist
+        placement: 17
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - office
+            default_placement:
+                node_id: $contenttree_Amministrazione_Uffici_node
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    license:
+        identifier: license
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Indicare la licenza con cui i materiali vengono rilasciati (allegati inclusi)'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Licenza d''uso'
+        data_type_string: eztags
+        placement: 18
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        data_int1: tag(Licenze)
+        data_int3: 1
+        data_int4: 1
+        data_text1: Tree
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+groups:
+    - Content

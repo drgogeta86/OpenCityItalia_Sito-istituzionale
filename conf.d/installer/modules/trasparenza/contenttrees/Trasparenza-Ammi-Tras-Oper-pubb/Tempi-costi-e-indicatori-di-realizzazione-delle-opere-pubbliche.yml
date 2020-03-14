@@ -1,0 +1,20 @@
+metadata:
+    remoteId: a070d59a69ce0f4dfade61241b79af43
+    classIdentifier: pagina_trasparenza
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        titolo: 'Tempi costi e indicatori di realizzazione delle opere pubbliche'
+        contenuto_obbligo: '<p>Informazioni relative ai tempi e agli indicatori di realizzazione delle opere pubbliche in corso o completate</p><p>Informazioni relative ai costi unitari di realizzazione delle opere pubbliche in corso o completate</p>'
+        riferimenti_normativi: 'Art. 38, co. 2, d.lgs 33/2013 e ss.m..'
+        applicabilita: '<p>Ai sensi dell'' art. 1, co.1, della l.r. n. 10/2014 e ss.mm., non trova applicazione l’obbligo di pubblicazione &quot;Tempi costi e indicatori di realizzazione delle opere pubbliche&quot; di cui alla presente sezione</p>'
+        denominazione_degli_obblighi: ''
+        guida_alla_compilazione: ''
+        messaggio_di_consiglio: ''
+        fields: null
+sort_data:
+    sort_field: 8
+    sort_order: 1
+    priority: 2

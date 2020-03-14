@@ -1,0 +1,26 @@
+metadata:
+    remoteId: caf2ef64f0da331b8895ffd2c8032ad6
+    classIdentifier: pagina_trasparenza
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        titolo: 'Atti relativi alle procedure per l’affidamento di appalti pubblici di servizi, forniture, lavori e opere, di concorsi pubblici di progettazione, di concorsi di idee e di concessioni. Compresi quelli tra enti nell''mabito del settore pubblico di cui all''art. 5 del dlgs n. 50/2016'
+        contenuto_obbligo: "<p>Per ciascuna procedura:</p>\n<ul>\n\n<li>Avvisi di preinformazione</li>\n\n<li>Delibera a contrarre o atto equivalente (per tutte le procedure)</li>\n\n<li>Avvisi e bandi</li>\n\n<li>Avviso sui risultati della procedura di affidamento</li>\n\n<li>Avvisi sistema di qualificazione</li>\n\n<li>Affidamenti diretti di lavori, servizi e forniture di somma urgenza e di protezione civile e affidamenti in house</li>\n\n<li>Provvedimenti di esclusione e di ammissione (entro 2 giorni dalla loro adozione)</li>\n\n<li>Composizione della commissione giudicatrice e i curricula dei suoi componenti</li>\n\n<li>Resoconti della gestione finanziaria dei contratti al termine della loro esecuzione</li>\n\n</ul>\n"
+        riferimenti_normativi: "Ai sensi della l.r. n. 10/2014 e ss.mm., art. 29, d.lgs. n. 50/2016 secondo quanto disposto dalla l.p. 19/2016\r\n"
+        applicabilita: ''
+        denominazione_degli_obblighi: ''
+        guida_alla_compilazione: '<p>Per inserire le informazioni di questa sezione si consiglia di utilizzare la classe di tipo &quot;Bando di gara&quot;, eventualmente strutturata all''interno di un contenitore di tipo &quot;Cartella&quot;</p>'
+        messaggio_di_consiglio: ''
+        decorrenza_di_pubblicazione:
+            - Tempestiva
+        aggiornamento:
+            - Tempestivo
+        termine_pubblicazione:
+            - '5 anni a decorrere dal primo gennaio dell''anno successivo a quello da cui decorre l''obbligo di pubblicazione'
+        fields: null
+sort_data:
+    sort_field: 8
+    sort_order: 1
+    priority: 1

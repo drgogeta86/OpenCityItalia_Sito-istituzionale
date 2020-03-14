@@ -1,0 +1,133 @@
+identifier: folder
+contentobject_name: '<short_name|name>'
+serialized_name_list:
+    always-available: ita-IT
+    ita-IT: Cartella
+serialized_description_list:
+    0: ''
+    always-available: false
+    ita-IT: 'Struttura dati necessaria al funzionamento della piattaforma'
+always_available: 1
+sort_field: 9
+is_container: 1
+data_map:
+    name:
+        identifier: name
+        serialized_description_list:
+            always-available: eng-GB
+            eng-GB: ''
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Titolo
+        data_type_string: ezstring
+        placement: 1
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        data_int1: 255
+        data_text1: Folder
+        serialized_data_text:
+            always-available: eng-GB
+            eng-GB: ''
+    short_name:
+        identifier: short_name
+        serialized_description_list:
+            always-available: eng-GB
+            eng-GB: ''
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Titolo breve'
+        data_type_string: ezstring
+        placement: 2
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 100
+        serialized_data_text:
+            always-available: eng-GB
+            eng-GB: ''
+    short_description:
+        identifier: short_description
+        serialized_description_list:
+            always-available: eng-GB
+            eng-GB: ''
+            ita-IT: 'Sintesi del contenuto: massimo tre righe'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Descrizione breve'
+        data_type_string: ezxmltext
+        placement: 3
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 5
+        serialized_data_text:
+            always-available: eng-GB
+            eng-GB: ''
+    description:
+        identifier: description
+        serialized_description_list:
+            always-available: eng-GB
+            eng-GB: ''
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Descrizione
+        data_type_string: ezxmltext
+        placement: 4
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 20
+        serialized_data_text:
+            always-available: eng-GB
+            eng-GB: ''
+    show_children:
+        identifier: show_children
+        serialized_description_list:
+            always-available: eng-GB
+            eng-GB: ''
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Visualizza elementi contenuti'
+        data_type_string: ezboolean
+        placement: 5
+        data_int3: 1
+        category: meta
+        serialized_data_text:
+            always-available: eng-GB
+            eng-GB: ''
+    tags:
+        identifier: tags
+        serialized_description_list:
+            always-available: eng-GB
+            eng-GB: ''
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Parole chiave'
+        data_type_string: ezkeyword
+        placement: 6
+        can_translate: 1
+        category: taxonomy
+        serialized_data_text:
+            always-available: eng-GB
+            eng-GB: ''
+    publish_date:
+        identifier: publish_date
+        serialized_description_list:
+            always-available: eng-GB
+            eng-GB: ''
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Data di inizio pubblicazione'
+        data_type_string: ezdatetime
+        placement: 7
+        can_translate: 1
+        category: meta
+        serialized_data_text:
+            always-available: eng-GB
+            eng-GB: ''
+groups:
+    - Content

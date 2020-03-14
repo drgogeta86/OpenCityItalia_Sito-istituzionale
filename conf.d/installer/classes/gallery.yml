@@ -1,0 +1,63 @@
+identifier: gallery
+contentobject_name: '<name>'
+serialized_name_list:
+    always-available: ita-IT
+    ita-IT: 'Galleria fotografica'
+serialized_description_list:
+    ita-IT: 'Collezione di materiale fotografico'
+is_container: 1
+data_map:
+    name:
+        identifier: name
+        serialized_description_list:
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Titolo
+        data_type_string: ezstring
+        placement: 1
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        serialized_data_text: {  }
+    short_description:
+        identifier: short_description
+        serialized_description_list:
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Descrizione breve'
+        data_type_string: ezxmltext
+        placement: 2
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 10
+        serialized_data_text: {  }
+    description:
+        identifier: description
+        serialized_description_list:
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Descrizione
+        data_type_string: ezxmltext
+        placement: 3
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 10
+        serialized_data_text: {  }
+    image:
+        identifier: image
+        serialized_description_list:
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Immagine
+        data_type_string: ezobjectrelation
+        placement: 4
+        is_searchable: 1
+        can_translate: 1
+        data_text5: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<related-object><constraints/></related-object>\n"
+        serialized_data_text: {  }
+groups:
+    - Media

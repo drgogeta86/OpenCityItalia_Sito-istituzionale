@@ -1,0 +1,26 @@
+metadata:
+    remoteId: 4223c7aea578a5e5beabc5369deb3cb3
+    classIdentifier: pagina_trasparenza
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        titolo: 'Accesso civico "semplice" concernente dati, documenti e informazioni soggetti a pubblicazione obbligatoria'
+        contenuto_obbligo: '<p>Nome del Responsabile della prevenzione della corruzione e della trasparenza cui è presentata la richiesta di accesso civico, nonché modalità per l''esercizio di tale diritto, con indicazione dei recapiti telefonici e delle caselle di posta elettronica istituzionale e nome del titolare del potere sostitutivo, attivabile nei casi di ritardo o mancata risposta, con indicazione dei recapiti telefonici e delle caselle di posta elettronica istituzionale.</p>'
+        riferimenti_normativi: "Ai sensi della l.r. n. 10/2014 e ss.mm., art. 5, co. 1 e 3, d.lgs. n. 33/2013 e ss.mm.\r\nArt. 3, co. 7-bis, l.p. n. 23/1992\r\n"
+        applicabilita: ''
+        denominazione_degli_obblighi: ''
+        guida_alla_compilazione: '<p>Si consiglia di utilizzare la classe &quot;modulo&quot; per la modulistica e di utilizzare la classe &quot;procedimento amministrativo&quot; per inserire le informazioni circa le modalità </p>'
+        messaggio_di_consiglio: '<p>In attesa dell''adozione di un atto regolamentare si consiglia di pubblicare la modulistica per l''esercizio del diritto di accesso e le informazioni circa modalità per l''accesso</p>'
+        decorrenza_di_pubblicazione:
+            - Tempestiva
+        aggiornamento:
+            - Tempestivo
+        termine_pubblicazione:
+            - 'Non specificato'
+        fields: null
+sort_data:
+    sort_field: 8
+    sort_order: 1
+    priority: 1

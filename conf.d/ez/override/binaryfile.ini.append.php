@@ -1,8 +1,7 @@
-<?php #?ini charset="utf-8"?
-/*
+<?php /* #?ini charset="utf-8"?
+
 
 [HandlerSettings]
-
 ExtensionRepositories[]=ocbinarynullparser/classes/datatypes/ezbinaryfile
 
 MetaDataExtractor[application/pdf]=ocnull

@@ -1,0 +1,531 @@
+keyword: Licenze
+locale: ita-IT
+alwaysAvailable: true
+synonyms: {  }
+keywordTranslations:
+    ita-IT: Licenze
+children:
+    -
+        keyword: Attribuzione
+        locale: ita-IT
+        alwaysAvailable: true
+        synonyms: {  }
+        keywordTranslations:
+            ita-IT: Attribuzione
+        children:
+            -
+                keyword: 'Creative Commons Attribution 1.0 Generic (CC BY 1.0)'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Creative Commons Attribution 1.0 Generic (CC BY 1.0)'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'Creative Commons Attribution 2.0 Generic (CC BY 2.0)'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Creative Commons Attribution 2.0 Generic (CC BY 2.0)'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'Creative Commons Attribution 2.5 Generic (CC BY 2.5)'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Creative Commons Attribution 2.5 Generic (CC BY 2.5)'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'Creative Commons Attribution 3.0 Unported (CC BY 3.0)'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Creative Commons Attribution 3.0 Unported (CC BY 3.0)'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'Creative Commons Attribution 4.0 International (CC BY 4.0)'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Creative Commons Attribution 4.0 International (CC BY 4.0)'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'Creative Commons Attribuzione 2.0 Italia (CC BY 2.0 IT)'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Creative Commons Attribuzione 2.0 Italia (CC BY 2.0 IT)'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'Creative Commons Attribuzione 2.5 Italia (CC BY 2.5 IT)'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Creative Commons Attribuzione 2.5 Italia (CC BY 2.5 IT)'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'Creative Commons Attribuzione Italia 3.0 (CC BY 3.0 IT)'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Creative Commons Attribuzione Italia 3.0 (CC BY 3.0 IT)'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'Italian Open Data License 2.0 (IODL 2.0)'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Italian Open Data License 2.0 (IODL 2.0)'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'Open Data Commons Attribution License (ODC_BY)'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Open Data Commons Attribution License (ODC_BY)'
+                children: {  }
+                hasChildren: false
+        hasChildren: true
+    -
+        keyword: 'Dominio pubblico'
+        locale: ita-IT
+        alwaysAvailable: true
+        synonyms: {  }
+        keywordTranslations:
+            ita-IT: 'Dominio pubblico'
+        children:
+            -
+                keyword: 'Creative Commons CC0 1.0 Universal - Public Domain Dedication (CC0 1.0)'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Creative Commons CC0 1.0 Universal - Public Domain Dedication (CC0 1.0)'
+                    ita-PA: 'https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'ODC Public Domain Dedication and License (PDDL)'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'ODC Public Domain Dedication and License (PDDL)'
+                children: {  }
+                hasChildren: false
+        hasChildren: true
+    -
+        keyword: 'Effetto Virale (a.k.a. Condivisione allo stesso modo)'
+        locale: ita-IT
+        alwaysAvailable: true
+        synonyms: {  }
+        keywordTranslations:
+            ita-IT: 'Effetto Virale (a.k.a. Condivisione allo stesso modo)'
+        children:
+            -
+                keyword: 'Creative Commons Attribution - ShareAlike 1.0 Generic (CC BY-SA 1.0)'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Creative Commons Attribution - ShareAlike 1.0 Generic (CC BY-SA 1.0)'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'Creative Commons Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Creative Commons Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'Creative Commons Attribution-ShareAlike 2.5 Generic (CC BY-SA 2.5)'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Creative Commons Attribution-ShareAlike 2.5 Generic (CC BY-SA 2.5)'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'Creative Commons Attributon–ShareAlike 4.0 International (CC BY-SA 4.0)'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Creative Commons Attributon–ShareAlike 4.0 International (CC BY-SA 4.0)'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'Creative Commons Attribuzione - Condividi allo stesso modo 2.0 Italia (CC BY-SA 2.0 IT)'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Creative Commons Attribuzione - Condividi allo stesso modo 2.0 Italia (CC BY-SA 2.0 IT)'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'Creative Commons Attribuzione - Condividi allo stesso modo 2.5 Italia (CC-BY-SA 2.5 IT)'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Creative Commons Attribuzione - Condividi allo stesso modo 2.5 Italia (CC-BY-SA 2.5 IT)'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'Creative Commons Attribuzione - Condividi allo stesso modo 3.0 Italia (CC BY-SA 3.0 IT)'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Creative Commons Attribuzione - Condividi allo stesso modo 3.0 Italia (CC BY-SA 3.0 IT)'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'GNU Free Documentation License 1.3 (GFDL 1.3)'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'GNU Free Documentation License 1.3 (GFDL 1.3)'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'Italian Open Data License 1.0 (IODL 1.0)'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Italian Open Data License 1.0 (IODL 1.0)'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'Open Data Commons Open Database License 1.0 (ODbL)'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Open Data Commons Open Database License 1.0 (ODbL)'
+                children: {  }
+                hasChildren: false
+        hasChildren: true
+    -
+        keyword: 'Effetto Virale / copyleft non compatibile'
+        locale: ita-IT
+        alwaysAvailable: true
+        synonyms: {  }
+        keywordTranslations:
+            ita-IT: 'Effetto Virale / copyleft non compatibile'
+        children:
+            -
+                keyword: 'Against DRM (2.0)'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Against DRM (2.0)'
+                children: {  }
+                hasChildren: false
+        hasChildren: true
+    -
+        keyword: 'Licenza proprietaria'
+        locale: ita-IT
+        alwaysAvailable: true
+        synonyms: {  }
+        keywordTranslations:
+            ita-IT: 'Licenza proprietaria'
+        children: {  }
+        hasChildren: false
+    -
+        keyword: 'Licenza sconosciuta'
+        locale: ita-IT
+        alwaysAvailable: true
+        synonyms: {  }
+        keywordTranslations:
+            ita-IT: 'Licenza sconosciuta'
+        children: {  }
+        hasChildren: false
+    -
+        keyword: 'Non opere derivate'
+        locale: ita-IT
+        alwaysAvailable: true
+        synonyms: {  }
+        keywordTranslations:
+            ita-IT: 'Non opere derivate'
+        children:
+            -
+                keyword: 'Creative Commons Attribution-NoDerivs 2.0 Generic (CC BY-ND 2.0)'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Creative Commons Attribution-NoDerivs 2.0 Generic (CC BY-ND 2.0)'
+                    ita-PA: 'https://w3id.org/italia/controlled-vocabulary/licences/B26_CCBYND20'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'Creative Commons Attribution-NoDerivs 2.5 Generic (CC BY-ND 2.5)'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Creative Commons Attribution-NoDerivs 2.5 Generic (CC BY-ND 2.5)'
+                    ita-PA: 'https://w3id.org/italia/controlled-vocabulary/licences/B24_CCBYND25'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'Creative Commons Attribution-NoDerivs 3.0 Unported (CC BY-ND 3.0)'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Creative Commons Attribution-NoDerivs 3.0 Unported (CC BY-ND 3.0)'
+                    ita-PA: 'https://w3id.org/italia/controlled-vocabulary/licences/B22_CCBYND30'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'Creative Commons Attribution–NoDerivs 4.0 International (CC BY-ND 4.0)'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Creative Commons Attribution–NoDerivs 4.0 International (CC BY-ND 4.0)'
+                    ita-PA: 'https://w3id.org/italia/controlled-vocabulary/licences/B21_CCBYND40'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'Creative Commons Attribution–NoDerivs-NonCommercial 1.0 Generic (CC BY-ND-NC 1.0)'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Creative Commons Attribution–NoDerivs-NonCommercial 1.0 Generic (CC BY-ND-NC 1.0)'
+                    ita-PA: 'https://w3id.org/italia/controlled-vocabulary/licences/B29_CCBYNDNC10'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'Creative Commons Attribution–Non opere derivate 2.0 italia (CC BY-ND 2.0 IT)'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Creative Commons Attribution–Non opere derivate 2.0 italia (CC BY-ND 2.0 IT)'
+                    ita-PA: 'https://w3id.org/italia/controlled-vocabulary/licences/B27_CCBYND20IT'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'Creative Commons Attribution–Non opere derivate 2.5 Italia (CC BY-ND 2.5 IT)'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Creative Commons Attribution–Non opere derivate 2.5 Italia (CC BY-ND 2.5 IT)'
+                    ita-PA: 'https://w3id.org/italia/controlled-vocabulary/licences/B25_CCBYND25IT'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'Creative Commons Attribution–NonDerivs 1.0 Generic (CC BY-ND 1.0)'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Creative Commons Attribution–NonDerivs 1.0 Generic (CC BY-ND 1.0)'
+                    ita-PA: 'https://w3id.org/italia/controlled-vocabulary/licences/B28_CCBYND10'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'Creative Commons Attribuzione–Non opere derivate 3.0 Italia (CC BY-ND 3.0 IT)'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Creative Commons Attribuzione–Non opere derivate 3.0 Italia (CC BY-ND 3.0 IT)'
+                    ita-PA: 'https://w3id.org/italia/controlled-vocabulary/licences/B23_CCBYND30IT'
+                children: {  }
+                hasChildren: false
+        hasChildren: true
+    -
+        keyword: 'Solo uso non commerciale'
+        locale: ita-IT
+        alwaysAvailable: true
+        synonyms: {  }
+        keywordTranslations:
+            ita-IT: 'Solo uso non commerciale'
+        children:
+            -
+                keyword: 'Creative Commons Attribution - NonCommercial 1.0 Generic (CC BY-NC 1.0)'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Creative Commons Attribution - NonCommercial 1.0 Generic (CC BY-NC 1.0)'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'Creative Commons Attribution-NonCommercial - ShareAlike 3.0 Unported (CC BY-NC-SA 3.0)'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Creative Commons Attribution-NonCommercial - ShareAlike 3.0 Unported (CC BY-NC-SA 3.0)'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'Creative Commons Attribution-NonCommercial 2.0 Generic (CC BY-NC 2.0)'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Creative Commons Attribution-NonCommercial 2.0 Generic (CC BY-NC 2.0)'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'Creative Commons Attribution-NonCommercial 2.5 Generic (CC BY-NC 2.5)'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Creative Commons Attribution-NonCommercial 2.5 Generic (CC BY-NC 2.5)'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'Creative Commons Attribution-NonCommercial 3.0 Unported (CC BY-NC 3.0)'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Creative Commons Attribution-NonCommercial 3.0 Unported (CC BY-NC 3.0)'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Generic (CC BY-NC-SA 2.0)'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Generic (CC BY-NC-SA 2.0)'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'Creative Commons Attribution-NonCommercial-ShareAlike 2.5 Generic (CC BY-NC-SA 2.5)'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Creative Commons Attribution-NonCommercial-ShareAlike 2.5 Generic (CC BY-NC-SA 2.5)'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'Creative Commons Attribution–NonCommercial - ShareAlike 1.0 Generic (CC-BY-NC-SA 1.0)'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Creative Commons Attribution–NonCommercial - ShareAlike 1.0 Generic (CC-BY-NC-SA 1.0)'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'Creative Commons Attribution–NonCommercial - ShareAlike 4.0 International (CC BY-NC-SA 4.0)'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Creative Commons Attribution–NonCommercial - ShareAlike 4.0 International (CC BY-NC-SA 4.0)'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'Creative Commons Attribution–NonCommercial 4.0 International (CC BY-NC 4.0)'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Creative Commons Attribution–NonCommercial 4.0 International (CC BY-NC 4.0)'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'Creative Commons Attribuzione - Non Commerciale 2.0 Italia (CC BY-NC 2.0 IT)'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Creative Commons Attribuzione - Non Commerciale 2.0 Italia (CC BY-NC 2.0 IT)'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'Creative Commons Attribuzione - Non Commerciale 2.5 Italia (CC BY-NC 2.5 IT)'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Creative Commons Attribuzione - Non Commerciale 2.5 Italia (CC BY-NC 2.5 IT)'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'Creative Commons Attribuzione - Non Commerciale 3.0 Italia (CC BY-NC 3.0 IT)'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Creative Commons Attribuzione - Non Commerciale 3.0 Italia (CC BY-NC 3.0 IT)'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'Creative Commons Attribuzione–Non Commerciale - Condivisione allo stesso modo 2.0 Italia (CC BY-NC-SA 2.0 IT)'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Creative Commons Attribuzione–Non Commerciale - Condivisione allo stesso modo 2.0 Italia (CC BY-NC-SA 2.0 IT)'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'Creative Commons Attribuzione–Non Commerciale - Condivisione allo stesso modo 2.5 Italia (CC BY-NC-SA 2.5 IT)'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Creative Commons Attribuzione–Non Commerciale - Condivisione allo stesso modo 2.5 Italia (CC BY-NC-SA 2.5 IT)'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'Creative Commons Attribuzione–Non Commerciale - Condivisione allo stesso modo 3.0 Italia (CC BY-NC-SA 3.0 IT)'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Creative Commons Attribuzione–Non Commerciale - Condivisione allo stesso modo 3.0 Italia (CC BY-NC-SA 3.0 IT)'
+                children: {  }
+                hasChildren: false
+        hasChildren: true
+hasChildren: true

@@ -1,0 +1,25 @@
+metadata:
+    remoteId: c2b8c6d1daec0986bcfc806e7b179e25
+    classIdentifier: pagina_sito
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        name: 'Dati di contatto del Responsabile per la Protezione dei Dati (RPD)'
+        short_name: null
+        menu_name: null
+        abstract: ''
+        description: '<p><b>Chi è il “Responsabile della Protezione dei Dati (RPD)”?</b></p><p>Qualità, caratteristiche e compiti del Responsabile della Protezione dei Dati sono previsti e disciplinati dagli articoli 37, 38 e 39 del Regolamento europeo n. 679/2016 e ben chiariti dalle Linee-guida sui responsabili della protezione dei dati adottate in data 13 dicembre 2016 dal Gruppo di lavoro Articolo 29 in materia di protezione dei dati personali oltreché da diverse recenti FAQ del Garante per la protezione dei dati personali.</p><p>Il Responsabile della Protezione dei Dati (RPD) ha una funzione generale di sorvegliare che l''Ente svolga la sua attività nel rispetto della normativa in materia di protezione dei dati personali.</p><p>In particolare, ha anche una funzione di punto di contatto-riferimento per i cittadini rispetto a problematiche e questioni relative al trattamento dei loro dati personali da parte dell''Ente e al rispetto dei loro diritti in materia.</p><p>Dati del Responsabile della Protezione dei Dati:</p>'
+        image: {  }
+        show_children: 0
+        layout: {  }
+        icon: null
+        show_topics: 0
+        show_search_form: 1
+        tag_menu: {  }
+        publish_date: null
+sort_data:
+    sort_field: 2
+    sort_order: 0
+    priority: 0

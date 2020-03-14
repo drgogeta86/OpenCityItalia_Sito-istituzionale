@@ -1,0 +1,26 @@
+metadata:
+    remoteId: 90a35849b84c43d797499359415aec37
+    classIdentifier: pagina_trasparenza
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        titolo: 'Servizi in rete'
+        contenuto_obbligo: '<p>Risultati delle rilevazioni sulla soddisfazione da parte degli utenti rispetto alla qualità dei servizi in rete resi all’utente, anche in termini di fruibilità, accessibilità e tempestività, statistiche di utilizzo dei servizi in rete</p>'
+        riferimenti_normativi: 'Art. 7, co. 3, d.lgs 82/2005 e ss.mm.'
+        applicabilita: ''
+        denominazione_degli_obblighi: ''
+        guida_alla_compilazione: ''
+        messaggio_di_consiglio: ''
+        decorrenza_di_pubblicazione:
+            - Tempestiva
+        aggiornamento:
+            - Tempestivo
+        termine_pubblicazione:
+            - '5 anni a decorrere dal primo gennaio dell''anno successivo a quello da cui decorre l''obbligo di pubblicazione'
+        fields: null
+sort_data:
+    sort_field: 8
+    sort_order: 1
+    priority: 4

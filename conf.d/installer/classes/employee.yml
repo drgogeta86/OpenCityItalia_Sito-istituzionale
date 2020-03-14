@@ -1,0 +1,325 @@
+identifier: employee
+contentobject_name: '<cognome> <nome>'
+serialized_name_list:
+    always-available: ita-IT
+    ita-IT: Dipendente
+serialized_description_list:
+    always-available: ita-IT
+    ita-IT: 'Persona che lavora per l''organizzazione pubblica, con contratto da dipendente'
+always_available: 1
+sort_field: 9
+is_container: 1
+data_map:
+    cognome:
+        identifier: cognome
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Cognome del dipendente'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Cognome
+        data_type_string: ezstring
+        placement: 1
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    nome:
+        identifier: nome
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Nome del dipendente'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Nome
+        data_type_string: ezstring
+        placement: 2
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    abstract:
+        identifier: abstract
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Breve descrizione del dipendente'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Breve descrizione della persona'
+        data_type_string: ezxmltext
+        placement: 3
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 5
+        serialized_data_text: {  }
+    image:
+        identifier: image
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Fotografia del dipendente'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Fotografia
+        data_type_string: ezimage
+        placement: 4
+        can_translate: 1
+        category: details
+        serialized_data_text: {  }
+    userid:
+        identifier: userid
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Account utente riservato al dipendente'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Account utente'
+        data_type_string: ezuser
+        placement: 5
+        is_searchable: 1
+        serialized_data_text: {  }
+    phone:
+        identifier: phone
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Numero di telefono del dipendente'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Telefono
+        data_type_string: ezstring
+        placement: 6
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        serialized_data_text: {  }
+    mobile_phone:
+        identifier: mobile_phone
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Numero di cellulare del dipendente'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Telefono cellulare'
+        data_type_string: ezstring
+        placement: 7
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    fax:
+        identifier: fax
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Numero di fax del dipendente'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Fax
+        data_type_string: ezstring
+        placement: 8
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text: {  }
+    email:
+        identifier: email
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Indirizzo email del dipendente'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Indirizzo email'
+        data_type_string: ezemail
+        placement: 9
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        serialized_data_text: {  }
+    atto_nomina:
+        identifier: atto_nomina
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Atti relativi al conferimento dell''incarico del dipendente'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Atti relativo al conferimento dell''incarico'
+        data_type_string: ocmultibinary
+        placement: 10
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    curriculum_vitae:
+        identifier: curriculum_vitae
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Curriculum Vitae del dipendente, aggiornato'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Curriculum Vitae'
+        data_type_string: ezbinaryfile
+        placement: 11
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    dichiarazione_incompatibilita:
+        identifier: dichiarazione_incompatibilita
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Dichiarazione di incompatibilità e inconferibilità del dipendente'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Dichiarazione incompatibilità e inconferibilità'
+        data_type_string: ocmultibinary
+        placement: 12
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    compensi:
+        identifier: compensi
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Compensi del dipendente NB: l''obbligo è sospeso'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Compensi
+        data_type_string: ezmatrix
+        placement: 13
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 1
+        data_text5: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<ezmatrix><column-name id=\"anno\" idx=\"0\">Anno</column-name><column-name id=\"stipendio_tabellare\" idx=\"1\">Stipendio tabellare|**|compresa 13^ mensilità</column-name><column-name id=\"posizione_parte_fissa\" idx=\"2\">Posizione parte fissa|**|compresa 13^ mensilità</column-name><column-name id=\"posizione_parte_variabile\" idx=\"3\">Posizione parte variabile</column-name><column-name id=\"retribuzione_risultato\" idx=\"4\">Retribuzione di risultato</column-name><column-name id=\"altro\" idx=\"5\">Altro|*|ogni altro emolumento retributivo non ricompreso nelle voci precedenti</column-name><column-name id=\"totale\" idx=\"6\">Totale annuo</column-name></ezmatrix>\n"
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    atti_testo:
+        identifier: atti_testo
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Estremi dell''atto di conferimento del dipendente'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Estremi dell''atto di conferimento'
+        data_type_string: ezstring
+        placement: 14
+        is_searchable: 1
+        can_translate: 1
+        category: details
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    matricola:
+        identifier: matricola
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Numero di matricola del dipendente'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Matricola
+        data_type_string: ezstring
+        placement: 15
+        is_searchable: 1
+        can_translate: 1
+        category: details
+        serialized_data_text: {  }
+    importi:
+        identifier: importi
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'File degli importi e dei viaggi di servizio e missioni del dipendente pagati con fondi pubblici'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Importi e i viaggi di servizio e missioni pagati con fondi pubblici'
+        data_type_string: ocmultibinary
+        placement: 16
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    assunzione_cariche:
+        identifier: assunzione_cariche
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'File dei dati relativi all''assunzione di altre cariche, presso enti pubblici o privati, ed i relativi compensi a qualsiasi titolo corrisposti al politico'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Dati relativi all''assunzione di altre cariche, presso enti pubblici o privati, ed i relativi compensi a qualsiasi titolo corrisposti'
+        data_type_string: ocmultibinary
+        placement: 17
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    dichiarazioni_patrimoniali_soggetto:
+        identifier: dichiarazioni_patrimoniali_soggetto
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Dichiarazioni patrimoniali del soggetto'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Dichiarazioni patrimoniali del soggetto'
+        data_type_string: ocmultibinary
+        placement: 18
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    dichiarazioni_patrimoniali_parenti:
+        identifier: dichiarazioni_patrimoniali_parenti
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Dichiarazioni patrimoniali del coniuge non separato e parenti entro il secondo grado'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Dichiarazioni patrimoniali del coniuge non separato e parenti entro il secondo grado'
+        data_type_string: ocmultibinary
+        placement: 19
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    data_archiviazione:
+        identifier: data_archiviazione
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Data in cui il dipendente cessato va archiviato (3 anni successivi alla cessazione dell''incarico)'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Data di archiviazione'
+        data_type_string: ezdate
+        placement: 20
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    has_role:
+        identifier: has_role
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Ruolo
+        data_type_string: openparole
+        placement: 21
+        can_translate: 1
+        data_text5: '{"roletype_root_tag":"Persone\/Ruoli","select":1,"view":2,"filter":["Direttore generale","Dirigente","Membro","Responsabile","Segretario comunale","Segretario generale"],"sort":2}'
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+groups:
+    - 'Persone (CPV)'
+    - Users
+    - 'Amministrazione trasparente'

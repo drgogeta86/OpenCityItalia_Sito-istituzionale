@@ -1,0 +1,26 @@
+metadata:
+    remoteId: 47b6cf9a122fde963b54f1c79a3d033b
+    classIdentifier: pagina_trasparenza
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        titolo: 'Pianificazione e governo del territorio'
+        contenuto_obbligo: "\n<ul>\n\n<li>Piani territoriali e urbanistici e loro varianti</li>\n\n<li>Specifiche pubblicazioni secondo le tempistiche previste da ciascuna disposizione normativa (avviso di avvio del procedimento di adozione del PRG, avviso di adozione del PRG, documentazione integrale del PRG adottato, elenco degli articoli delle norme di attuazione del PRG interessate dalle osservazioni e una planimetria con le indicazioni delle parti di territorio oggetto di osservazioni, notizia dell'avvenuto adeguamento d'ufficio delle rappresentazioni grafiche e degli elaborati, piani di riqualificazione urbanistica e piani attuativi per specifiche finalità di iniziativa pubblica)</li>\n\n</ul>\n"
+        riferimenti_normativi: "Art.1, co.1, lett. b), l.r. n. 10/2014\r\nArt. 19, co.2, art.32, co.3, art. 33. co. 3, art. 37 co. 1, 3 e 4, art. 38, co. 3, art. 44, co. 1 e 4, art. 51, co. 2, l.p. n. 15/2015"
+        applicabilita: ''
+        denominazione_degli_obblighi: ''
+        guida_alla_compilazione: '<p>Per inserire le informazioni in questa sezione è possibile aggiungere la collocazione dei documenti già presenti nel sito</p>'
+        messaggio_di_consiglio: ''
+        decorrenza_di_pubblicazione:
+            - Tempestiva
+        aggiornamento:
+            - Tempestivo
+        termine_pubblicazione:
+            - 'Non specificato'
+        fields: null
+sort_data:
+    sort_field: 8
+    sort_order: 1
+    priority: 18

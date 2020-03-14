@@ -1,0 +1,161 @@
+keyword: Persone
+locale: ita-IT
+alwaysAvailable: true
+synonyms: {  }
+keywordTranslations:
+    ita-IT: Persone
+children:
+    -
+        keyword: Ruoli
+        locale: ita-IT
+        alwaysAvailable: true
+        synonyms: {  }
+        keywordTranslations:
+            ita-IT: Ruoli
+        children:
+            -
+                keyword: Assessore
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Assessore
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'Consigliere comunale'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Consigliere comunale'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'Direttore generale'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Direttore generale'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Dirigente
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Dirigente
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Membro
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Membro
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'Membro della Giunta'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Membro della Giunta'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'Presidente del Consiglio'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Presidente del Consiglio'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Responsabile
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Responsabile
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'Segretario comunale'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Segretario comunale'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'Segretario generale'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Segretario generale'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Sindaco
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Sindaco
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Vicepresidente
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Vicepresidente
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Vicesindaco
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Vicesindaco
+                children: {  }
+                hasChildren: false
+        hasChildren: true
+    -
+        keyword: Sesso
+        locale: ita-IT
+        alwaysAvailable: true
+        synonyms: {  }
+        keywordTranslations:
+            ita-IT: Sesso
+        children:
+            -
+                keyword: Femmina
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Femmina
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Maschio
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Maschio
+                children: {  }
+                hasChildren: false
+        hasChildren: true
+hasChildren: true

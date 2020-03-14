@@ -1,0 +1,19 @@
+bootstrapitalia_icon:
+    enabled:
+        '*': '1'
+    icon:
+        '*': it-user
+card_small_view:
+    enabled:
+        '*': '1'
+    show:
+        content_show_read_more: '1'
+table_view:
+    enabled:
+        '*': '1'
+    show:
+        end_time: '1'
+        for_entity: '1'
+        person: '1'
+        role: '1'
+        start_time: '1'

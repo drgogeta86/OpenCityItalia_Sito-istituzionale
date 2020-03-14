@@ -1,0 +1,24 @@
+metadata:
+    remoteId: cf8eb21cf8b5c6743ae1caa2bc050c88
+    classIdentifier: topic
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        name: Comune
+        managed_by_area: {  }
+        managed_by_political_body: {  }
+        type: '-'
+        description: '-'
+        eu: 'https://publications.europa.eu/en/web/eu-vocabularies/th-concept/-/resource/eurovoc/27'
+        theme: '-'
+        data_themes_eurovocs: {  }
+        image: {  }
+        abstract: ''
+        icon: it-pa
+        help: {  }
+sort_data:
+    sort_field: 1
+    sort_order: 1
+    priority: 0

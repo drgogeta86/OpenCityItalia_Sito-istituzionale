@@ -3,4 +3,6 @@
 [AuditSettings]
 Audit=enabled
 
+AuditFileNames[gdpr-acceptance]=gdpr-acceptance.log
+
 */ ?>

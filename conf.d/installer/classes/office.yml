@@ -1,0 +1,493 @@
+identifier: office
+contentobject_name: '<legal_name>'
+serialized_name_list:
+    always-available: ita-IT
+    ita-IT: Ufficio
+serialized_description_list:
+    ita-IT: 'Un ufficio dell''organizzazione; nell''ambito delle organizzazioni pubbliche è anche detto unità organizzativa o struttura'
+always_available: 1
+sort_field: 9
+data_map:
+    legal_name:
+        identifier: legal_name
+        serialized_description_list:
+            ita-IT: 'Nome primario o il nome legale dell''ufficio'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Nome
+        data_type_string: ezstring
+        placement: 1
+        is_required: 1
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text: {  }
+    alt_name:
+        identifier: alt_name
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'un nome alternativo dell''ufficio (e.g., un nome colloquiale)'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Nome alternativo'
+        data_type_string: ezstring
+        placement: 2
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    acronym:
+        identifier: acronym
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'eventuale acronimo dell''organizzazione'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Acronimo
+        data_type_string: ezstring
+        placement: 3
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    description:
+        identifier: description
+        serialized_description_list:
+            ita-IT: 'Descrizione completa dell''ufficio'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Descrizione
+        data_type_string: ezxmltext
+        placement: 4
+        can_translate: 1
+        data_int1: 5
+        serialized_data_text: {  }
+    main_function:
+        identifier: main_function
+        serialized_description_list:
+            ita-IT: 'Funzione dell''ufficio ed elenco dei compiti assegnati'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Competenze e funzioni'
+        data_type_string: ezxmltext
+        placement: 5
+        can_translate: 1
+        data_int1: 5
+        serialized_data_text: {  }
+    has_logo:
+        identifier: has_logo
+        serialized_description_list:
+            ita-IT: 'Logo dell''ufficio'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Logo
+        data_type_string: ezimage
+        placement: 6
+        can_translate: 1
+        serialized_data_text: {  }
+    image:
+        identifier: image
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Immagine/i principale/i dell''ufficio'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Immagini
+        data_type_string: ezobjectrelationlist
+        placement: 7
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - image
+            default_placement:
+                node_id: $content_Images_node
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    start_time:
+        identifier: start_time
+        serialized_description_list:
+            ita-IT: 'Data a partire dalla quale l''ufficio è attivo'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Data inizio validità'
+        data_type_string: ezdate
+        placement: 8
+        can_translate: 1
+        serialized_data_text: {  }
+    end_time:
+        identifier: end_time
+        serialized_description_list:
+            ita-IT: 'Data di fine attività dell''ufficio'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Data fine validità'
+        data_type_string: ezdate
+        placement: 9
+        can_translate: 1
+        serialized_data_text: {  }
+    has_spatial_coverage:
+        identifier: has_spatial_coverage
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Sedi
+        data_type_string: ezobjectrelationlist
+        placement: 10
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - place
+            default_placement:
+                node_id: $contenttree_Amministrazione_Luoghi_node
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    accreditation_date:
+        identifier: accreditation_date
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'data di accreditamento dell''ufficio nel pubblico registro IndicePA'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Data di accreditamento'
+        data_type_string: ezdate
+        placement: 11
+        is_searchable: 1
+        can_translate: 1
+        category: meta
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    has_online_contact_point:
+        identifier: has_online_contact_point
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Punti di contatto per avere informazioni'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Punti di contatto'
+        data_type_string: ezobjectrelationlist
+        placement: 12
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - online_contact_point
+            default_placement:
+                node_id: $contenttree_Classificazioni_Punti-di-contatto_node
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    hold_employment:
+        identifier: hold_employment
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Struttura organizzativa da cui dipende (livello più alto; ad esempio il servizio interno da cui l''ufficio dipende)'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Legami con altre strutture'
+        data_type_string: ezobjectrelationlist
+        placement: 13
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - administrative_area
+                - office
+            default_placement:
+                node_id: $contenttree_OpenCity_Amministrazione_node
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    is_part_of:
+        identifier: is_part_of
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Questa proprietà lega un ufficio (o unità organizzativa) alla sua AOO (area organizzativa omogenea, es. Protocollo) di riferimento'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'AOO di riferimento'
+        data_type_string: ezobjectrelationlist
+        placement: 14
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - office
+            default_placement:
+                node_id: $contenttree_Amministrazione_Uffici_node
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    topics:
+        identifier: topics
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'tematiche trattate da questa organizzazione'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Argomenti
+        data_type_string: ezobjectrelationlist
+        placement: 15
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '3'
+            type: '2'
+            class_constraint_list:
+                - topic
+            default_placement:
+                node_id: $contenttree_OpenCity_Argomenti_node
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    attachments:
+        identifier: attachments
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Allegati
+        data_type_string: ezobjectrelationlist
+        placement: 16
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - document
+            default_placement:
+                node_id: $contenttree_Documenti-e-dati_Documenti-tecnici-di-supporto_node
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    more_information:
+        identifier: more_information
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Ulteriori informazioni sulla struttura non contemplate dai campi precedenti'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Ulteriori informazioni'
+        data_type_string: ezxmltext
+        placement: 17
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 5
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    help:
+        identifier: help
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Eventuali contatti di supporto all''utente. Per esempio i riferimenti dell''URP'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Box d''aiuto'
+        data_type_string: ezobjectrelationlist
+        placement: 18
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - online_contact_point
+            default_placement:
+                node_id: $contenttree_Classificazioni_Punti-di-contatto_node
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    type:
+        identifier: type
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Indicare la tipologia tradizionale di struttura organizzativa del Comune'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Tipo di struttura organizzativa'
+        data_type_string: eztags
+        placement: 19
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 'tag(Organizzazione / Tipo di struttura organizzativa)'
+        data_int3: 1
+        data_int4: 2
+        data_text1: Tree
+        category: content
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    political_reference:
+        identifier: political_reference
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Assessore di riferimento'
+        data_type_string: openparole
+        placement: 20
+        can_translate: 1
+        data_text5: '{"roletype_root_tag":"Persone\/Ruoli","select":1,"view":3,"filter":["Assessore"],"sort":1}'
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    office_manager:
+        identifier: office_manager
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Responsabile della struttura'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Responsabile
+        data_type_string: openparole
+        placement: 21
+        can_translate: 1
+        data_text5: '{"roletype_root_tag":"Persone\/Ruoli","select":2,"view":3,"filter":["Responsabile"],"sort":1}'
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    people:
+        identifier: people
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Riferimenti alle schede persona per ciascuno dei componenti della struttura (lista funzionari)'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Persone che compongono la struttura'
+        data_type_string: openparole
+        placement: 22
+        can_translate: 1
+        data_text5: '{"roletype_root_tag":"Persone\/Ruoli","select":2,"view":3,"filter":["Membro","Responsabile"],"sort":1}'
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    office_identifier:
+        identifier: office_identifier
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Codice definito da Indice PA'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Codice univoco ufficio'
+        data_type_string: ezstring
+        placement: 23
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    identifier:
+        identifier: identifier
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Codice stabilito dal Comune, ad uso interno'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Identificatore univoco interno'
+        data_type_string: ezstring
+        placement: 24
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    a_o_o_identifier:
+        identifier: a_o_o_identifier
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Se l''ufficio funge da Area Organizzativa Omogenea, indicare l''identificatore AOO specificato su IndecePA'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Identificatore AOO'
+        data_type_string: ezstring
+        placement: 25
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    is_public_organization_of:
+        identifier: is_public_organization_of
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'E'' un''organizzazione pubblica appartenente a'
+        data_type_string: ezobjectrelationlist
+        placement: 26
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - public_organization
+            default_placement:
+                node_id: $contenttree_Amministrazione_Enti-e-fondazioni_node
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    tax_code_e_invoice_service:
+        identifier: tax_code_e_invoice_service
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Codice fiscale servizio di fatturazione elettronica'
+        data_type_string: ezstring
+        placement: 27
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    servizi_erogati:
+        identifier: servizi_erogati
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Servizi erogati'
+        data_type_string: openpareverserelationlist
+        placement: 28
+        can_translate: 1
+        data_text5: '{"attribute_id_list":[5501],"sort":"published","order":"asc","limit":4}'
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+groups:
+    - 'Organizzazione (COV)'

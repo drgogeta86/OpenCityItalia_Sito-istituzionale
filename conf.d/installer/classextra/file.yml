@@ -1,0 +1,24 @@
+search_form:
+    enabled:
+        '*': '1'
+    show:
+        description: '1'
+        file: '1'
+        name: '1'
+        percorso_univoco: '1'
+        tags: '1'
+table_view:
+    enabled:
+        '*': '1'
+    highlight:
+        file: '1'
+    show:
+        description: '1'
+        file: '1'
+        percorso_univoco: '1'
+    show_label:
+        description: '1'
+        file: '1'
+        name: '1'
+        percorso_univoco: '1'
+        tags: '1'

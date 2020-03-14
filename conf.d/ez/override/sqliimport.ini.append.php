@@ -7,6 +7,7 @@ RobotUserID=14
 DiffHandlerMap[ezbinaryfile]=SQLIBinaryFileIgnoreDiffHandler
 
 [ImportSettings]
+AvailableSourceHandlers[]
 AvailableSourceHandlers[]=csvimporthandler
 AvailableSourceHandlers[]=googlespreadsheetimporthandler
 

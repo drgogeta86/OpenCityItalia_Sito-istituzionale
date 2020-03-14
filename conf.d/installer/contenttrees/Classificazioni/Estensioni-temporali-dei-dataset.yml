@@ -1,0 +1,25 @@
+metadata:
+    remoteId: bd36e34973d23b79f2d5a02082d7d8e1
+    classIdentifier: pagina_sito
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        name: 'Estensioni temporali dei dataset'
+        short_name: null
+        menu_name: null
+        abstract: ''
+        description: ''
+        image: {  }
+        show_children: 0
+        layout: {  }
+        icon: null
+        show_topics: 0
+        show_search_form: 1
+        tag_menu: {  }
+        publish_date: null
+sort_data:
+    sort_field: 2
+    sort_order: 0
+    priority: 0

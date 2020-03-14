@@ -1,0 +1,25 @@
+metadata:
+    remoteId: 25cd509e30c449f14d0c37cc70c424e7
+    classIdentifier: pagina_sito
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        name: Privacy
+        short_name: null
+        menu_name: null
+        abstract: '<p>In questa sezione si posso trovare i modelli generali di informativa in uso alle nostre Strutture comunali oltre ai riferimenti del Responsabile Protezione Dati.</p>'
+        description: ''
+        image: {  }
+        show_children: 1
+        layout: {  }
+        icon: null
+        show_topics: 1
+        show_search_form: 1
+        tag_menu: {  }
+        publish_date: null
+sort_data:
+    sort_field: 8
+    sort_order: 1
+    priority: 0

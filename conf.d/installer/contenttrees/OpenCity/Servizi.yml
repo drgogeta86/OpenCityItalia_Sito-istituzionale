@@ -1,0 +1,25 @@
+metadata:
+    remoteId: b04a731ca8cc79de8b7cf9f6c2f37705
+    classIdentifier: frontpage
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        name: Servizi
+        short_name: null
+        menu_name: 'Tutti i servizi'
+        abstract: '<p>Pagamenti, domande e iscrizioni, contributi e graduatorie, segnalazioni, autorizzazioni e concessioni, certificati e dichiarazioni, servizi pubblici.</p>'
+        description: ''
+        image: {  }
+        show_children: 1
+        icon: it-settings
+        show_topics: 1
+        show_search_form: 1
+        tag_menu:
+            - 'Tipologia del servizio (TD)'
+        publish_date: null
+sort_data:
+    sort_field: 8
+    sort_order: 1
+    priority: 10

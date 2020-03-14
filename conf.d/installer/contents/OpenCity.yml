@@ -1,0 +1,30 @@
+metadata:
+    remoteId: 8a9c9c761004866fb458d89910f52bee
+    classIdentifier: homepage
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+    parentNodes:
+        - $root_node
+data:
+    ita-IT:
+        name: OpenCity
+        logo:
+            filename: logo.png
+            url: https://via.placeholder.com/180x180/FFFFFF/000000/?text=LOGO
+        link_al_menu_orizzontale:
+            - $contenttree_OpenCity_Amministrazione_object
+            - $contenttree_OpenCity_Servizi_object
+            - $contenttree_OpenCity_Novita_object
+            - $contenttree_OpenCity_Documenti-e-dati_object
+        
+        link_nel_footer:
+            - $contenttree_OpenCity_Privacy_object
+            - $contenttree_OpenCity_Note-legali_object
+            - $contenttree_Documenti-e-dati_Dataset_object
+        
+        note_footer: ''
+sort_data:
+    sort_field: 8
+    sort_order: 1
+    priority: 0

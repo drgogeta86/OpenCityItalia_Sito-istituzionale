@@ -1,0 +1,26 @@
+metadata:
+    remoteId: 214e625b575f2546b314d0996d02fdff
+    classIdentifier: pagina_trasparenza
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        titolo: 'Piano della performance '
+        contenuto_obbligo: '<p>Piano esecutivo di gestione o analogo atto di programmazione della gestione </p>'
+        riferimenti_normativi: "Art.1, co.1, lett b) della l.r. n. 10/2014 e ss.mm.\r\n\r\n"
+        applicabilita: ''
+        denominazione_degli_obblighi: ''
+        guida_alla_compilazione: "<p>Per inserire le informazioni è possibile:</p>\n<ul>\n\n<li>utilizzare la classe &quot;piani e progetti&quot; per inserire Piano esecutivo di gestione o atto di indirizzo</li>\n\n<li>aggiungere la collocazione del Bilancio</li>\n\n</ul>\n"
+        messaggio_di_consiglio: ''
+        decorrenza_di_pubblicazione:
+            - 'Da entrata in vigore provvedimento di adozione'
+        aggiornamento:
+            - Annuale
+        termine_pubblicazione:
+            - '5 anni a decorrere dal primo gennaio dell''anno successivo a quello da cui decorre l''obbligo di pubblicazione'
+        fields: null
+sort_data:
+    sort_field: 8
+    sort_order: 1
+    priority: 1

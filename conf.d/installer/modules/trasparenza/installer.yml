@@ -1,0 +1,517 @@
+name: 'OpenCity Trasparenza'
+type: module
+version: 0.0.1
+variables:
+    -
+        name: identifier
+        value: 'OpenPABase::getCurrentSiteaccessIdentifier'
+    -
+        name: root_node
+        value: 'ini(NodeSettings,RootNode,content.ini)'
+    -
+        name: anonymous_user
+        value: 'ini(UserSettings,AnonymousUserID,site.ini)'
+steps:
+    -
+        type: class
+        identifier: trasparenza
+    -
+        type: classextra
+        identifier: trasparenza
+    -
+        type: class
+        identifier: pagina_trasparenza
+    -
+        type: classextra
+        identifier: pagina_trasparenza
+    -
+        type: class
+        identifier: nota_trasparenza
+    -
+        type: classextra
+        identifier: nota_trasparenza
+    -
+        type: content
+        identifier: Amministrazione-Trasparente
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras
+        parent: $content_Amministrazione-Trasparente_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Disp-gene
+        parent: $contenttree_Trasparenza-Ammi-Tras_Disposizioni-generali_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Disp-gene-Pian-trie-per
+        parent: $contenttree_Trasparenza-Ammi-Tras-Disp-gene_Piano-triennale-per-la-prevenzione-della-corruzione-e-della-trasparenza_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Disp-gene-Atti-gene
+        parent: $contenttree_Trasparenza-Ammi-Tras-Disp-gene_Atti-generali_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Disp-gene-Atti-gene-Rife-norm-su
+        parent: $contenttree_Trasparenza-Ammi-Tras-Disp-gene-Atti-gene_Riferimenti-normativi-su-organizzazione-e-attivita_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Disp-gene-Atti-gene-Atti-ammi-gene
+        parent: $contenttree_Trasparenza-Ammi-Tras-Disp-gene-Atti-gene_Atti-amministrativi-generali_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Disp-gene-Atti-gene-Docu-di-prog
+        parent: $contenttree_Trasparenza-Ammi-Tras-Disp-gene-Atti-gene_Documenti-di-programmazione-strategico-gestionale_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Disp-gene-Atti-gene-Stat-e-legg
+        parent: $contenttree_Trasparenza-Ammi-Tras-Disp-gene-Atti-gene_Statuti-e-leggi-regionali_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Disp-gene-Atti-gene-Codi-disc-e
+        parent: $contenttree_Trasparenza-Ammi-Tras-Disp-gene-Atti-gene_Codice-disciplinare-e-codice-di-condotta_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Disp-gene-Oner-info-per
+        parent: $contenttree_Trasparenza-Ammi-Tras-Disp-gene_Oneri-informativi-per-cittadini-e-imprese_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Disp-gene-Buro-zero
+        parent: $contenttree_Trasparenza-Ammi-Tras-Disp-gene_Burocrazia-zero_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Orga
+        parent: $contenttree_Trasparenza-Ammi-Tras_Organizzazione_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Orga-Tito-di-inca
+        parent: $contenttree_Trasparenza-Ammi-Tras-Orga_Titolari-di-incarichi-politici-di-amministrazione-di-direzione-o-di-governo_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Orga-Tito-di-inca-Tito-di-inca
+        parent: $contenttree_Trasparenza-Ammi-Tras-Orga-Tito-di-inca_Titolari-di-incarichi-politici-di-cui-all-art.14-co.1-del-d.lgs-n.-33-2013_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Orga-Tito-di-inca-Tito-di-inca2
+        parent: $contenttree_Trasparenza-Ammi-Tras-Orga-Tito-di-inca_Titolari-di-incarichi-di-amministrazione-di-direzione-o-di-governo-di-cui-all-art.14-co.-1-bis-del-d.lgs-n.33-2013_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Orga-Tito-di-inca-Cess-dall-inca
+        parent: $contenttree_Trasparenza-Ammi-Tras-Orga-Tito-di-inca_Cessati-dall-incarico_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Orga-Sanz-per-manc
+        parent: $contenttree_Trasparenza-Ammi-Tras-Orga_Sanzioni-per-mancata-comunicazione-dei-dati_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Orga-Rend-grup-cons
+        parent: $contenttree_Trasparenza-Ammi-Tras-Orga_Rendiconti-gruppi-consiliari-regionali-provinciali_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Orga-Arti-degl-uffi
+        parent: $contenttree_Trasparenza-Ammi-Tras-Orga_Articolazione-degli-uffici_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Orga-Tele-e-post
+        parent: $contenttree_Trasparenza-Ammi-Tras-Orga_Telefono-e-posta-elettronica_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Cons-e-coll
+        parent: $contenttree_Trasparenza-Ammi-Tras_Consulenti-e-collaboratori_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Cons-e-coll-Tito-di-inca
+        parent: $contenttree_Trasparenza-Ammi-Tras-Cons-e-coll_Titolari-di-incarichi-di-collaborazione-o-consulenza_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Pers
+        parent: $contenttree_Trasparenza-Ammi-Tras_Personale_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Pers-Tito-di-inca
+        parent: $contenttree_Trasparenza-Ammi-Tras-Pers_Titolari-di-incarichi-dirigenziali-amministrativi-di-vertice_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Pers-Tito-di-inca2
+        parent: $contenttree_Trasparenza-Ammi-Tras-Pers_Titolari-di-incarichi-dirigenziali-dirigenti-non-generali_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Pers-Diri-cess
+        parent: $contenttree_Trasparenza-Ammi-Tras-Pers_Dirigenti-cessati_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Pers-Sanz-per-manc
+        parent: $contenttree_Trasparenza-Ammi-Tras-Pers_Sanzioni-per-mancata-comunicazione-dei-dati_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Pers-Posi-orga
+        parent: $contenttree_Trasparenza-Ammi-Tras-Pers_Posizioni-organizzative_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Pers-Dota-orga
+        parent: $contenttree_Trasparenza-Ammi-Tras-Pers_Dotazione-organica_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Pers-Pers-non-a
+        parent: $contenttree_Trasparenza-Ammi-Tras-Pers_Personale-non-a-tempo-indeterminato_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Pers-Tass-di-asse
+        parent: $contenttree_Trasparenza-Ammi-Tras-Pers_Tassi-di-assenza_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Pers-Inca-conf-e
+        parent: $contenttree_Trasparenza-Ammi-Tras-Pers_Incarichi-conferiti-e-autorizzati-ai-dipendenti-dirigenti-e-non-dirigenti_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Pers-Cont-coll
+        parent: $contenttree_Trasparenza-Ammi-Tras-Pers_Contrattazione-collettiva_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Band-di-conc
+        parent: $contenttree_Trasparenza-Ammi-Tras_Bandi-di-concorso_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Perf
+        parent: $contenttree_Trasparenza-Ammi-Tras_Performance_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Perf-Sist-di-misu
+        parent: $contenttree_Trasparenza-Ammi-Tras-Perf_Sistema-di-misurazione-e-valutazione-della-Performance_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Perf-Pian-dell-perf
+        parent: $contenttree_Trasparenza-Ammi-Tras-Perf_Piano-della-performance_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Perf-Rela-sull-perf
+        parent: $contenttree_Trasparenza-Ammi-Tras-Perf_Relazione-sulla-performance_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Perf-Ammo-comp-dei
+        parent: $contenttree_Trasparenza-Ammi-Tras-Perf_Ammontare-complessivo-dei-premi_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Perf-Dati-rela-ai
+        parent: $contenttree_Trasparenza-Ammi-Tras-Perf_Dati-relativi-ai-premi_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Perf-Bene-orga
+        parent: $contenttree_Trasparenza-Ammi-Tras-Perf_Benessere-organizzativo_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Enti-cont
+        parent: $contenttree_Trasparenza-Ammi-Tras_Enti-controllati_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Enti-cont-Enti-pubb-vigi
+        parent: $contenttree_Trasparenza-Ammi-Tras-Enti-cont_Enti-pubblici-vigilati_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Enti-cont-Soci-part
+        parent: $contenttree_Trasparenza-Ammi-Tras-Enti-cont_Societa-partecipate_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Enti-cont-Soci-part-Dati-soci-part
+        parent: $contenttree_Trasparenza-Ammi-Tras-Enti-cont-Soci-part_Dati-societa-partecipate_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Enti-cont-Soci-part-Prov
+        parent: $contenttree_Trasparenza-Ammi-Tras-Enti-cont-Soci-part_Provvedimenti_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Enti-cont-Enti-di-diri
+        parent: $contenttree_Trasparenza-Ammi-Tras-Enti-cont_Enti-di-diritto-privato-controllati_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Enti-cont-Rapp-graf
+        parent: $contenttree_Trasparenza-Ammi-Tras-Enti-cont_Rappresentazione-grafica_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Atti-e-proc
+        parent: $contenttree_Trasparenza-Ammi-Tras_Attivita-e-procedimenti_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Atti-e-proc-Dati-aggr-atti
+        parent: $contenttree_Trasparenza-Ammi-Tras-Atti-e-proc_Dati-aggregati-attivita-amministrativa_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Atti-e-proc-Tipo-di-proc
+        parent: $contenttree_Trasparenza-Ammi-Tras-Atti-e-proc_Tipologie-di-procedimento_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Atti-e-proc-Moni-temp-proc
+        parent: $contenttree_Trasparenza-Ammi-Tras-Atti-e-proc_Monitoraggio-tempi-procedimentali_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Atti-e-proc-Dich-sost-e
+        parent: $contenttree_Trasparenza-Ammi-Tras-Atti-e-proc_Dichiarazioni-sostitutive-e-acquisizione-d-ufficio-dei-dati_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Prov
+        parent: $contenttree_Trasparenza-Ammi-Tras_Provvedimenti_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Prov-Prov-orga-indi
+        parent: $contenttree_Trasparenza-Ammi-Tras-Prov_Provvedimenti-organi-indirizzo-politico_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Prov-Prov-diri
+        parent: $contenttree_Trasparenza-Ammi-Tras-Prov_Provvedimenti-dirigenti_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Cont-sull-impr
+        parent: $contenttree_Trasparenza-Ammi-Tras_Controlli-sulle-imprese_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Band-di-gara
+        parent: $contenttree_Trasparenza-Ammi-Tras_Bandi-di-gara-e-contratti_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Band-di-gara-Info-sull-sing
+        parent: $contenttree_Trasparenza-Ammi-Tras-Band-di-gara_Informazioni-sulle-singole-procedure-in-formato-tabellare_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Band-di-gara-Atti-dell-ammi
+        parent: $contenttree_Trasparenza-Ammi-Tras-Band-di-gara_Atti-delle-amministrazioni-aggiudicatrici-e-degli-enti-aggiudicatori-distintamente-per-ogni-procedura_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Band-di-gara-Atti-dell-ammi-Atti-rela-alla
+        parent: $contenttree_Trasparenza-Ammi-Tras-Band-di-gara-Atti-dell-ammi_Atti-relativi-alla-programmazione-di-lavori-opere-servizi-e-forniture_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Band-di-gara-Atti-dell-ammi-Atti-rela-alle
+        parent: $contenttree_Trasparenza-Ammi-Tras-Band-di-gara-Atti-dell-ammi_Atti-relativi-alle-procedure-per-l-affidamento-di-appalti-pubblici-di-servizi-forniture-lavori-e-opere-di-concorsi-pubblici-di-progettazione-di-concorsi-di-idee-e-di-concessioni.-Compresi-quelli-t_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Sovv-cont-suss
+        parent: $contenttree_Trasparenza-Ammi-Tras_Sovvenzioni-contributi-sussidi-vantaggi-economici_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Sovv-cont-suss-Crit-e-moda
+        parent: $contenttree_Trasparenza-Ammi-Tras-Sovv-cont-suss_Criteri-e-modalita_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Sovv-cont-suss-Atti-di-conc
+        parent: $contenttree_Trasparenza-Ammi-Tras-Sovv-cont-suss_Atti-di-concessione_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Bila
+        parent: $contenttree_Trasparenza-Ammi-Tras_Bilanci_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Bila-Bila-prev-e
+        parent: $contenttree_Trasparenza-Ammi-Tras-Bila_Bilancio-preventivo-e-consuntivo_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Bila-Bila-prev-e-Bila-prev
+        parent: $contenttree_Trasparenza-Ammi-Tras-Bila-Bila-prev-e_Bilancio-preventivo_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Bila-Bila-prev-e-Bila-cons
+        parent: $contenttree_Trasparenza-Ammi-Tras-Bila-Bila-prev-e_Bilancio-consuntivo_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Bila-Pian-degl-indi
+        parent: $contenttree_Trasparenza-Ammi-Tras-Bila_Piano-degli-indicatori-e-dei-risultati-attesi-di-bilancio_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Beni-immo-e
+        parent: $contenttree_Trasparenza-Ammi-Tras_Beni-immobili-e-gestione-patrimonio_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Beni-immo-e-Patr-immo
+        parent: $contenttree_Trasparenza-Ammi-Tras-Beni-immo-e_Patrimonio-immobiliare_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Beni-immo-e-Cano-di-loca
+        parent: $contenttree_Trasparenza-Ammi-Tras-Beni-immo-e_Canoni-di-locazione-o-affitto_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Beni-immo-e-Cens-auto
+        parent: $contenttree_Trasparenza-Ammi-Tras-Beni-immo-e_Censimento-autovetture_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Cont-e-rili
+        parent: $contenttree_Trasparenza-Ammi-Tras_Controlli-e-rilievi-sull-amministrazione_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Cont-e-rili-Orga-indi-di
+        parent: $contenttree_Trasparenza-Ammi-Tras-Cont-e-rili_Organismi-indipendenti-di-valutazione-nuclei-di-valutazione-o-altri-organismi-con-funzioni-analoghe_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Cont-e-rili-Orga-di-revi
+        parent: $contenttree_Trasparenza-Ammi-Tras-Cont-e-rili_Organi-di-revisione-amministrativa-e-contabile_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Cont-e-rili-Cort-dei-cont
+        parent: $contenttree_Trasparenza-Ammi-Tras-Cont-e-rili_Corte-dei-conti_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Serv-erog
+        parent: $contenttree_Trasparenza-Ammi-Tras_Servizi-erogati_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Serv-erog-Cart-dei-serv
+        parent: $contenttree_Trasparenza-Ammi-Tras-Serv-erog_Carta-dei-servizi-e-standard-di-qualita_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Serv-erog-Clas-acti
+        parent: $contenttree_Trasparenza-Ammi-Tras-Serv-erog_Class-action_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Serv-erog-Cost-cont
+        parent: $contenttree_Trasparenza-Ammi-Tras-Serv-erog_Costi-contabilizzati_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Serv-erog-List-di-atte
+        parent: $contenttree_Trasparenza-Ammi-Tras-Serv-erog_Liste-di-attesa_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Serv-erog-Serv-in-rete
+        parent: $contenttree_Trasparenza-Ammi-Tras-Serv-erog_Servizi-in-rete_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Paga-dell-ammi
+        parent: $contenttree_Trasparenza-Ammi-Tras_Pagamenti-dell-amministrazione_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Paga-dell-ammi-Dati-sui-paga
+        parent: $contenttree_Trasparenza-Ammi-Tras-Paga-dell-ammi_Dati-sui-pagamenti_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Paga-dell-ammi-Dati-sui-paga2
+        parent: $contenttree_Trasparenza-Ammi-Tras-Paga-dell-ammi_Dati-sui-pagamenti-del-servizio-sanitario-nazionale_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Paga-dell-ammi-Indi-di-temp
+        parent: $contenttree_Trasparenza-Ammi-Tras-Paga-dell-ammi_Indicatore-di-tempestivita-dei-pagamenti_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Paga-dell-ammi-Indi-di-temp-Indi-di-temp
+        parent: $contenttree_Trasparenza-Ammi-Tras-Paga-dell-ammi-Indi-di-temp_Indicatore-di-tempestivita-dei-pagamenti_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Paga-dell-ammi-Indi-di-temp-Ammo-comp-dei
+        parent: $contenttree_Trasparenza-Ammi-Tras-Paga-dell-ammi-Indi-di-temp_Ammontare-complessivo-dei-debiti_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Paga-dell-ammi-IBAN-e-paga
+        parent: $contenttree_Trasparenza-Ammi-Tras-Paga-dell-ammi_IBAN-e-pagamenti-informatici_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Oper-pubb
+        parent: $contenttree_Trasparenza-Ammi-Tras_Opere-pubbliche_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Oper-pubb-Nucl-di-valu
+        parent: $contenttree_Trasparenza-Ammi-Tras-Oper-pubb_Nuclei-di-valutazione-e-verifica-degli-investimenti-pubblici_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Oper-pubb-Atti-di-prog
+        parent: $contenttree_Trasparenza-Ammi-Tras-Oper-pubb_Atti-di-programmazione-delle-opere-pubbliche_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Oper-pubb-Temp-cost-e
+        parent: $contenttree_Trasparenza-Ammi-Tras-Oper-pubb_Tempi-costi-e-indicatori-di-realizzazione-delle-opere-pubbliche_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Pian-e-gove
+        parent: $contenttree_Trasparenza-Ammi-Tras_Pianificazione-e-governo-del-territorio_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Info-ambi
+        parent: $contenttree_Trasparenza-Ammi-Tras_Informazioni-ambientali_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Stru-sani-priv
+        parent: $contenttree_Trasparenza-Ammi-Tras_Strutture-sanitarie-private-accreditate_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Inte-stra-e
+        parent: $contenttree_Trasparenza-Ammi-Tras_Interventi-straordinari-e-di-emergenza_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Altr-cont
+        parent: $contenttree_Trasparenza-Ammi-Tras_Altri-contenuti_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Altr-cont-Prev-dell-Corr
+        parent: $contenttree_Trasparenza-Ammi-Tras-Altr-cont_Prevenzione-della-Corruzione_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Altr-cont-Prev-dell-Corr-Pian-trie-per
+        parent: $contenttree_Trasparenza-Ammi-Tras-Altr-cont-Prev-dell-Corr_Piano-triennale-per-la-prevenzione-della-corruzione-e-della-trasparenza_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Altr-cont-Prev-dell-Corr-Resp-dell-prev
+        parent: $contenttree_Trasparenza-Ammi-Tras-Altr-cont-Prev-dell-Corr_Responsabile-della-prevenzione-della-corruzione-e-della-trasparenza_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Altr-cont-Prev-dell-Corr-Rela-del-resp
+        parent: $contenttree_Trasparenza-Ammi-Tras-Altr-cont-Prev-dell-Corr_Relazione-del-responsabile-della-prevenzione-della-corruzione-e-della-trasparenza_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Altr-cont-Prev-dell-Corr-Atti-di-acce
+        parent: $contenttree_Trasparenza-Ammi-Tras-Altr-cont-Prev-dell-Corr_Atti-di-accertamento-delle-violazioni_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Altr-cont-Prev-dell-Corr-Prov-adot-dall
+        parent: $contenttree_Trasparenza-Ammi-Tras-Altr-cont-Prev-dell-Corr_Provvedimenti-adottati-dall-A.N.AC.-ed-atti-di-adeguamento-a-tali-provvedimenti_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Altr-cont-Acce-civi
+        parent: $contenttree_Trasparenza-Ammi-Tras-Altr-cont_Accesso-civico_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Altr-cont-Acce-civi-Acce-civi-semp
+        parent: $contenttree_Trasparenza-Ammi-Tras-Altr-cont-Acce-civi_Accesso-civico-semplice-concernente-dati-documenti-e-informazioni-soggetti-a-pubblicazione-obbligatoria_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Altr-cont-Acce-civi-Acce-civi-gene
+        parent: $contenttree_Trasparenza-Ammi-Tras-Altr-cont-Acce-civi_Accesso-civico-generalizzato-concernente-documenti-ulteriori-rispetto-a-quelli-oggetto-di-pubblicazione-obbligatoria_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Altr-cont-Acce-civi-Regi-degl-acce
+        parent: $contenttree_Trasparenza-Ammi-Tras-Altr-cont-Acce-civi_Registro-degli-accessi_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Altr-cont-Acce-e-Cata
+        parent: $contenttree_Trasparenza-Ammi-Tras-Altr-cont_Accessibilita-e-Catalogo-di-dati-metadati-e-banche-dati_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Altr-cont-Acce-e-Cata-Cata-dei-dati
+        parent: $contenttree_Trasparenza-Ammi-Tras-Altr-cont-Acce-e-Cata_Catalogo-dei-dati-metadati-e-delle-banche-dati_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Altr-cont-Acce-e-Cata-Rego
+        parent: $contenttree_Trasparenza-Ammi-Tras-Altr-cont-Acce-e-Cata_Regolamenti_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Altr-cont-Acce-e-Cata-Obie-di-acce
+        parent: $contenttree_Trasparenza-Ammi-Tras-Altr-cont-Acce-e-Cata_Obiettivi-di-accessibilita_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Altr-cont-Dati-ulte
+        parent: $contenttree_Trasparenza-Ammi-Tras-Altr-cont_Dati-ulteriori_node
+    -
+        type: contenttree
+        identifier: Trasparenza-Ammi-Tras-Altr-cont-Dati-ulte-Spes-di-rapp
+        parent: $contenttree_Trasparenza-Ammi-Tras-Altr-cont-Dati-ulte_Spese-di-rappresentanza_node
+    -
+        type: content
+        identifier: OpenCity
+        update: 1
+    -
+        type: content
+        identifier: Enti-e-fondazioni
+    -
+        type: content
+        identifier: Editor-Base
+    -
+        type: content
+        identifier: Editor-Trasparenza
+    -
+        type: role
+        identifier: Editor-Trasparenza
+        apply_to:
+            - $content_Editor-Trasparenza_object

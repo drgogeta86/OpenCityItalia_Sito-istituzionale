@@ -1,4 +1,4 @@
-FROM opencontentcoop/ezpublish:0.0.5
+FROM registry.gitlab.com/opencontent/ezpublish/php:0.0.9
 
 COPY composer.json composer.lock /var/www/
 
@@ -6,7 +6,7 @@ COPY composer.json composer.lock /var/www/
 # pass the correct value during build:
 #     $ docker build --build-arg github_token=abcdef123456 # [...]
 #
-ARG GITHUB_TOKEN=abcdef123456
+#ARG GITHUB_TOKEN=123456
 # Avoid the following line, because leave the environment variable
 # in the final image
 # ENV GITHUB_TOKEN=$github_token
@@ -14,7 +14,7 @@ ARG GITHUB_TOKEN=abcdef123456
 ENV COMPOSER_ALLOW_SUPERUSER=1
 RUN echo "Running composer"  \
 	&& composer global require hirak/prestissimo \
-	&& composer global config github-oauth.github.com "$GITHUB_TOKEN" \
+	#&& composer global config github-oauth.github.com "$GITHUB_TOKEN" \
 	&& composer install --prefer-dist --no-scripts --no-dev \ 
 	&& rm -rf /root/.composer 
 	
@@ -23,17 +23,33 @@ RUN echo "Running composer"  \
 # otherwise change it in the base-image
 # COPY conf.d/php.ini ${PHP_INI_DIR}/conf.d/php.ini
 
-# Add custom settings of prototipo
-COPY conf.d/ez /var/www/html/settings
+# Add default settings
+COPY conf.d/ez/override /var/www/html/settings/override
+COPY conf.d/ez/siteaccess /var/www/html/settings/siteaccess
+COPY conf.d/ez/config.cluster.php /var/www/html/config.cluster.php
+
+# Add installer
+COPY conf.d/installer /var/www/installer
 
 COPY security.txt /var/www/html/.well-known/security.txt
 
+# Copy install script to default entrypoint script dir to extend base entrypoint without modifying it
+# @see https://github.com/OpencontentCoop/docker-ezpublish/blob/master/scripts/docker-entrypoint.sh#L84
+COPY scripts/install.sh /docker-entrypoint-initdb.d/
+
 WORKDIR /var/www/html
 
-RUN php bin/php/ezcache.php --clear-id=global_ini --allow-root-user \
-    && php bin/php/ezpgenerateautoloads.php -e 
+RUN php bin/php/ezpgenerateautoloads.php -e
 
-WORKDIR /var/www
+# Add version file
+ARG CI_COMMIT_REF_NAME=no-branch
+ARG CI_COMMIT_SHORT_SHA=1234567
+ARG CI_COMMIT_TAG
+
+COPY scripts/get-version.sh /bin/
+RUN /bin/get-version.sh > /var/www/html/VERSION
+
+WORKDIR /var/www/html
 
 # The following directives are already present in the base-image
 # don't change them here unless for debugging or improvement of the

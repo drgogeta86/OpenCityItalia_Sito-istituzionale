@@ -1,0 +1,44 @@
+keyword: Comunicazione
+locale: ita-IT
+alwaysAvailable: true
+synonyms: {  }
+keywordTranslations:
+    ita-IT: Comunicazione
+children:
+    -
+        keyword: 'Tipologia di articolo'
+        locale: ita-IT
+        alwaysAvailable: true
+        synonyms: {  }
+        keywordTranslations:
+            ita-IT: 'Tipologia di articolo'
+        children:
+            -
+                keyword: Avviso
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Avviso
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'Comunicato stampa'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Comunicato stampa'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Notizia
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Notizia
+                children: {  }
+                hasChildren: false
+        hasChildren: true
+hasChildren: true

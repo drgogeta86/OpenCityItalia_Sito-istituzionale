@@ -1,0 +1,17 @@
+name: Members
+policies:
+    -
+        ModuleName: user
+        FunctionName: password
+        Limitation: {  }
+    -
+        ModuleName: user
+        FunctionName: selfedit
+        Limitation: {  }
+
+    -
+        ModuleName: ezjscore
+        FunctionName: call
+        Limitation:
+            FunctionList:
+                - ezstarrating_user_has_rated

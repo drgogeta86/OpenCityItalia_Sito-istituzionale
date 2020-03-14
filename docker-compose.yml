@@ -1,87 +1,165 @@
 version: '3.7'
 services:
-
-  php:
-    image: registry.gitlab.com/opencontent/opencity
-    restart: unless-stopped
-    depends_on:
-      - postgres
-      - solr
-    volumes:
-      - 'html:/var/www/html'
-    environment:
-      EZ_ROOT: /var/www/html
-
-  nginx:
-    image: 'nginx:alpine'
-    restart: unless-stopped
-    labels:
-      traefik.frontend.rule: 'Host:opencity.localtest.me'
-    depends_on:
-      - php
-    volumes:
-      - './conf.d/nginx-vhost.conf:/etc/nginx/conf.d/default.conf'
-      - 'html:/var/www/html'
-    #healthcheck:
-    #  test: ["CMD", "curl", "-f", "http://localhost/ezinfo/is_alive"]
-    #  interval: 1m30s
-    #  start_period: 5s
-
-  varnish:
-    image: wodby/varnish
-    restart: unless-stopped
-    depends_on:
-      - nginx
-    environment:
-      VARNISH_BACKEND_GRACE: 10m
-      VARNISH_BACKEND_HOST: nginx
-      VARNISH_CACHE_STATIC_FILES: 1
-      VARNISH_DEFAULT_TTL: 300s
-      VARNISH_ERRORS_GRACE: 60s
-
-  solr:
-    image: 'registry.gitlab.com/opencontent/solr:4.10.4'
-    command: '-s /opt/ez'
-    restart: unless-stopped
-    volumes:
-      - './conf.d/solr:/opt/ez/'
-    # FixMe: must be enabled in config: https://stackoverflow.com/questions/19248746/configure-health-check-in-solr-4
-    #healthcheck:
-    #  test: ["CMD", "curl", "-f", "localhost:7983/solr/prototipo/admin/ping"]
-
-  postgres:
-    image: 'postgres:9.6-alpine'
-    restart: unless-stopped
-    labels:
-      traefik.enable: false
-    environment:
-      POSTGRES_DB: openpa_prototipo
-      POSTGRES_USER: openpa
-      POSTGRES_PASSWORD: openp4ssword
-    volumes:
-      - './sql:/docker-entrypoint-initdb.d'
-      - 'pgdata:/var/lib/postgresql/data'
-    healthcheck:
-      test: ["CMD-SHELL", "pg_isready --user openpa --dbname openpa_prototipo"]
-      interval: 10s
-      timeout: 5s
-      retries: 5
-
-  traefik:
-    image: traefik
-    command: -c /etc/traefik.toml 
-    restart: unless-stopped
-    ports:
-      - '80:80'
-      - '443:443'
-      - '8080:8080' # Dashboard
-    volumes:
-      - /var/run/docker.sock:/var/run/docker.sock
-      - ./conf.d/certs:/ssl
-      - ./conf.d/traefik.toml:/etc/traefik.toml
+    
+    php:
+        image: registry.gitlab.com/opencontent/opencity/php:latest
+        restart: unless-stopped
+        depends_on:
+            - postgres
+            - solr
+        volumes:
+            - dfs:/mnt/efs/cluster-opencity
+        environment:
+            EZ_ROOT: /var/www/html
+            EZ_INSTANCE: opencity
+            NO_FORCE_CONTAINER_REFRESH: 1
+            RUN_INSTALLER: 'true'
+            RUN_INSTALLER_TRASPARENZA: 'true'
+            RUN_INSTALLER_NEWSLETTER: 'true'
+            RUN_INSTALLER_DEMO: 'true'
+            RUN_REINDEX_CONTENT: 'false'
+            
+            #### Chiavi recaptcha
+            RECAPTCHA_PUBLIC: 6LctC7oUAAAAAKHOT1O4ifUBJd-Wedt5F8NsisG7
+            RECAPTCHA_PRIVATE: 6LctC7oUAAAAAN7nNSTwtCY3GP4rpq1AvvA6u7B4
+    
+            #### per stringhe: EZINI_FILE__SECTION__VARIABLE: VALUE
+            #### per array o hash: EZINI_FILE__SECTION__VARIABLE__KEY: VALUE
+            
+            #### Impostazioni nome sito e corollari
+            EZINI_site__SiteSettings__SiteName: "OpenCity"
+            EZINI_site__SiteSettings__SiteURL: "opencity.localtest.me"
+            EZINI_openpa__InstanceSettings__NomeAmministrazioneAfferente: "OpenContent"
+            EZINI_openpa__InstanceSettings__UrlAmministrazioneAfferente: "https://www.opencontent.it/opencity"
+            EZINI_openpa__GeneralSettings__tag_line: "Il sito web per l'ente pubblico"
+            EZINI_openpa__GeneralSettings__theme: cagliari
+    
+            #### Impostazioni var dir (unica per istanza)
+            EZINI_site__FileSettings__VarDir: var/opencity
+    
+            #### Impostazioni varnish
+            EZINI_site__HTTPHeaderSettings__CustomHeader: 'enabled' #enabled/disabled html varnish cache
+            EZINI_site__VarnishSettings__VarnishHostName: 'varnish' #vedi conf.d/varnish/default.vcl.tmpl#L9
+            EZINI_site__VarnishSettings__VarnishPort: '6081'
+    
+            #### Impostazioni db
+            EZINI_site__DatabaseSettings__Server: postgres
+            EZINI_site__DatabaseSettings__Port: 5432
+            EZINI_site__DatabaseSettings__User: openpa
+            EZINI_site__DatabaseSettings__Password: openp4ssword
+            EZINI_site__DatabaseSettings__Database: opencity
+    
+            #### Impostazioni db cluster (da impostare come db)
+            EZINI_file__eZDFSClusteringSettings__DBBackend: eZDFSFileHandlerPostgresqlBackend
+            EZINI_file__eZDFSClusteringSettings__DFSBackend: eZDFSFileHandlerDFSBackend
+            #EZINI_file__eZDFSClusteringSettings__DFSBackend: OpenPADFSFileHandlerDFSDispatcher
+            EZINI_file__eZDFSClusteringSettings__DBHost: postgres
+            EZINI_file__eZDFSClusteringSettings__DBPort: 5432
+            EZINI_file__eZDFSClusteringSettings__DBUser: openpa
+            EZINI_file__eZDFSClusteringSettings__DBPassword: openp4ssword
+            EZINI_file__eZDFSClusteringSettings__DBName: opencity
+            EZINI_file__eZDFSClusteringSettings__MountPointPath: '/mnt/efs/cluster-opencity'
+            CLUSTER_STORAGE_GATEWAY_PATH: "extension/ezpostgresqlcluster/clustering/dfs/gateway.php"
+            #CLUSTER_STORAGE_GATEWAY_PATH: "extension/openpa/classes/clustering/gateway.php"
+    
+            #### Impostazioni solr
+            EZINI_solr__SolrBase__SearchServerURI: 'http://solr:8983/solr/opencity'
+    
+            #### Impostazioni mail
+            EZINI_site__MailSettings__AdminEmail: 'no-reply@opencontent.it'
+            EZINI_site__MailSettings__EmailSender: ''
+            EZINI_site__MailSettings__TransportServer: ''
+            EZINI_site__MailSettings__TransportPort: ''
+            EZINI_site__MailSettings__TransportUser: ''
+            EZINI_site__MailSettings__TransportPassword: ''
+            ## The FQDN, used by extended HELO See part "4.1.1.1  Extended HELLO (EHLO) or HELLO (HELO)" of http://www.faqs.org/rfcs/rfc2821.html
+            EZINI_site__MailSettings__SenderHost: localhost
+            EZINI_cjw_newsletter__NewsletterMailSettings__SmtpTransportPort: ''
+            EZINI_cjw_newsletter__NewsletterMailSettings__SmtpTransportServer: ''
+            EZINI_cjw_newsletter__NewsletterMailSettings__SmtpTransportUser: ''
+            EZINI_cjw_newsletter__NewsletterMailSettings__SmtpTransportPassword: ''
+            EZINI_cjw_newsletter__NewsletterMailSettings__EmailSubjectPrefix: ''
+            EZINI_cjw_newsletter__NewsletterMailSettings__EmailSender: ''
+            
+            #### Impostazioni avanzate per il cluster con DFSBackend: OpenPADFSFileHandlerDFSDispatcher
+            ## Endpoint del server Redis
+            #EZINI_openpa_cluster__RedisDFSBackendSettings__Endpoint: 'unix:/tmp/redis.sock'
+            
+            ## Bucket e Regione S3
+            #EZINI_openpa_cluster__AWSS3DFSBackendSettings__Region: ''
+            #EZINI_openpa_cluster__AWSS3DFSBackendSettings__Bucket: ''
+            # Dominio che serve le immagini pubbliche: se non configurato è s3-<Region>.amazonaws.com
+            #EZINI_openpa_cluster__AWSS3DFSBackendSettings__ServerUri: 'localhost:4567'
+    
+            ## Se non si utilizza la strategia ec2_instance-profiles (https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_switch-role-ec2_instance-profiles.html)
+            ## occorre configurare AWS_PROFILE oppure AWS_ACCESS_KEY_ID,AWS_SECRET_ACCESS_KEY,AWS_SESSION_TOKEN:
+            
+            ## Solo per configurazioni di emulatori di S3
+            #EZINI_openpa_cluster__AWSS3DFSBackendSettings__Endpoint: 'http://localhost:4567'
+            #EZINI_openpa_cluster__AWSS3DFSBackendSettings__UsePathStyleEndpoint: 'enabled'
+            
+    
+    nginx:
+        image: registry.gitlab.com/opencontent/opencity/nginx:latest
+        restart: unless-stopped
+        depends_on:
+            - php
+        environment:
+            EZ_INSTANCE: opencity
+    
+    varnish:
+        image: registry.gitlab.com/opencontent/opencity/varnish:latest
+        restart: unless-stopped
+        labels:
+            traefik.frontend.rule: 'Host:opencity.localtest.me'
+        depends_on:
+            - nginx
+        environment:
+            VARNISH_BACKEND_GRACE: 10m
+            VARNISH_BACKEND_HOST: nginx
+            VARNISH_CACHE_STATIC_FILES: 1 #attivo ma non gestibile dal vcl iniettato
+            VARNISH_DEFAULT_TTL: 300s
+            VARNISH_ERRORS_GRACE: 60s
+    
+    solr:
+        image: registry.gitlab.com/opencontent/opencity/solr:latest
+        command: '-s /opt/ez'
+        restart: unless-stopped
+        volumes:
+            - 'solrdata:/opt/ez/ezp-default/data'
+        environment:
+            EZ_INSTANCE: opencity
+    
+    postgres:
+        image: 'postgres:9.6-alpine'
+        restart: unless-stopped
+        labels:
+            traefik.enable: false
+        environment:
+            POSTGRES_DB: opencity
+            POSTGRES_USER: openpa
+            POSTGRES_PASSWORD: openp4ssword
+        volumes:
+            - './sql:/docker-entrypoint-initdb.d'
+            - 'pgdata:/var/lib/postgresql/data'
+        healthcheck:
+            test: ["CMD-SHELL", "pg_isready --user openpa --dbname opencity"]
+            interval: 10s
+            timeout: 5s
+            retries: 5
+    
+    traefik:
+        image: registry.gitlab.com/opencontent/traefik-localtestme:latest
+        command: -c /etc/traefik.toml
+        restart: unless-stopped
+        ports:
+            - '80:80'
+            - '443:443'
+            - '8080:8080' # Dashboard
+        volumes:
+            - /var/run/docker.sock:/var/run/docker.sock
 
 volumes:
-  html:
-  dfs:
-  solrdata:
-  pgdata:
+    dfs:
+    solrdata:
+    pgdata:

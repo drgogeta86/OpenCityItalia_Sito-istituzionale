@@ -1,0 +1,22 @@
+table_view:
+    enabled:
+        '*': '1'
+    show:
+        amministratori_ente_locale: '1'
+        amministratori_societa: '1'
+        amministratori_societa_url: '1'
+        bilanci_recenti: '1'
+        data_di_fine_partecipazione: '1'
+        data_di_inizio_partecipazione: '1'
+        durata_impegno: '1'
+        funzioni_attribuite: '1'
+        numero_rappresentanti: '1'
+        onere_complessivo: '1'
+        organizzazione: '1'
+        partecipazione: '1'
+        percentuale_partecipazione: '1'
+        rappresentante: '1'
+        tipologia: '1'
+        url: '1'
+    show_link:
+        organizzazione: '1'

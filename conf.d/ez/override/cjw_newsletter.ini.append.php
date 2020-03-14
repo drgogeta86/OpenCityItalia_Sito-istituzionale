@@ -1,31 +1,26 @@
 <?php /*#?ini charset="utf-8"?
-# cjw_newsletter.ini contains settings for the newsletter
 
 [NewsletterSettings]
 RecaptchaHandler=OpenPARecaptcha
 PhpCli=php
 AvailableSkinArray[]
-AvailableSkinArray[]=openpa
-AvailableSkinArray[]=entilocali
-AvailableClasses[]=avviso
-AvailableClasses[]=event
-AvailableClasses[]=comunicato_stampa
-AvailableClasses[]=pubblicazione
-AvailableClasses[]=cjw_newsletter_article
-AvailableTitleFields[]=title
-AvailableDescriptionFields[]=intro
-AvailableDescriptionFields[]=abstract
-AvailableDescriptionFields[]=short_description
+AvailableSkinArray[]=bootstrapitalia
 
 [NewsletterMailSettings]
-TransportMethodCronjob=file
-TransportMethodPreview=file
-TransportMethodDirectly=file
+TransportMethodCronjob=openpasmtp
+TransportMethodPreview=openpasmtp
+TransportMethodDirectly=openpasmtp
 FileTransportMailDir=var/log/mail
 HeaderLineEnding=auto
+SmtpTransportPort=
+SmtpTransportServer=
+SmtpTransportUser=
+SmtpTransportPassword=
+SmtpTransportConnectionType=tls
 ImageInclude=disabled
 EmailSenderName=Impostazioni Newsletter
-EmailSender=no-reply@opencontent.it
+EmailSubjectPrefix=
+EmailSender=
 
 [BounceSettings]
 BounceThresholdValue=3

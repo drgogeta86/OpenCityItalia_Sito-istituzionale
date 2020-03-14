@@ -1,0 +1,84 @@
+name: 'Editor Novita'
+policies:
+
+    -
+        ModuleName: content
+        FunctionName: create
+        Limitation:
+            Node:
+                - $contenttree_Novita_Avvisi_node
+            Class:
+                - $class_article
+    -
+        ModuleName: content
+        FunctionName: create
+        Limitation:
+            Node:
+                - $contenttree_Novita_Eventi_node
+            Class:
+                - $class_event
+    -
+        ModuleName: content
+        FunctionName: create
+        Limitation:
+            Node:
+                - $contenttree_Novita_Comunicati-stampa_node
+            Class:
+                - $class_article
+    -
+        ModuleName: content
+        FunctionName: create
+        Limitation:
+            Node:
+                - $contenttree_Novita_Notizie_node
+            Class:
+                - $class_article
+    -
+        ModuleName: content
+        FunctionName: create
+        Limitation:
+            Node:
+                - $contenttree_Amministrazione_Luoghi_node
+            Class:
+                - $class_place
+    -
+        ModuleName: content
+        FunctionName: create
+        Limitation:
+            Node:
+                - $contenttree_Amministrazione_Enti-e-fondazioni_node
+            Class:
+                - $class_public_organization
+                - $class_private_organization
+    -
+        ModuleName: content
+        FunctionName: edit
+        Limitation:
+            Class:
+                - $class_article
+                - $class_event
+                - $class_homepage
+    -
+        ModuleName: state
+        FunctionName: assign
+        Limitation:
+            Class:
+                - $class_article
+                - $class_event
+                - $class_homepage
+                - $class_place
+    -
+        ModuleName: content
+        FunctionName: remove
+        Limitation:
+            Class:
+                - $class_article
+                - $class_event
+    -
+        ModuleName: content
+        FunctionName: edit
+        Limitation:
+            Class:
+                - $class_pagina_sito
+            Subtree:
+                - $contenttree_OpenCity_Novita_path_string

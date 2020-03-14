@@ -1,0 +1,26 @@
+identifier: apps_container
+contentobject_name: '<titolo>'
+serialized_name_list:
+    always-available: ita-IT
+    ita-IT: 'Contenitore Apps '
+serialized_description_list:
+    always-available: ita-IT
+    ita-IT: 'Struttura dati necessaria al funzionamento della piattaforma'
+is_container: 1
+data_map:
+    titolo:
+        identifier: titolo
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Titolo
+        data_type_string: ezstring
+        placement: 1
+        is_required: 1
+        can_translate: 1
+        data_text1: 'Alberatura Comune in tasca'
+        serialized_data_text: {  }
+groups:
+    - Content

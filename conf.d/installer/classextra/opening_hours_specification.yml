@@ -1,0 +1,27 @@
+card_small_view:
+    enabled:
+        '*': '1'
+    show:
+        closure: '1'
+        note: '1'
+        opening_hours: '1'
+        valid_from: '1'
+        valid_through: '1'
+    show_label:
+        closure: '1'
+        valid_from: '1'
+        valid_through: '1'
+table_view:
+    enabled:
+        '*': '1'
+    show:
+        closure: '1'
+        note: '1'
+        opening_hours: '1'
+        place: '1'
+        stagionalita: '1'
+        valid_from: '1'
+        valid_through: '1'
+    show_label:
+        valid_from: '1'
+        valid_through: '1'

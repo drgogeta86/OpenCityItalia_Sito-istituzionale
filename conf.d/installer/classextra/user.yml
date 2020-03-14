@@ -1,0 +1,31 @@
+search_form:
+    enabled:
+        '*': '1'
+    show:
+        first_name: '1'
+        image: '1'
+        last_name: '1'
+        phone: '1'
+        signature: '1'
+        user_account: '1'
+table_view:
+    enabled:
+        '*': '1'
+    show:
+        atti: '1'
+        atti_testo: '1'
+        cellulare: '1'
+        compensi: '1'
+        curriculum_vitae: '1'
+        dichiarazione_incompatibilita: '1'
+        email: '1'
+        fax: '1'
+        phone: '1'
+        signature: '1'
+        telefono: '1'
+    show_label:
+        first_name: '1'
+        last_name: '1'
+        phone: '1'
+        signature: '1'
+        user_account: '1'

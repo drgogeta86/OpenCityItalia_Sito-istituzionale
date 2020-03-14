@@ -1,0 +1,26 @@
+metadata:
+    remoteId: 9676707d6712259e25a40c16dae3a763
+    classIdentifier: pagina_trasparenza
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        titolo: 'Ammontare complessivo dei debiti'
+        contenuto_obbligo: '<p>Ammontare complessivo dei debiti scaduti e il numero delle imprese creditrici</p>'
+        riferimenti_normativi: 'Art. 33, d.lgs. n. 33/2013 e ss.mm.'
+        applicabilita: ''
+        denominazione_degli_obblighi: ''
+        guida_alla_compilazione: ''
+        messaggio_di_consiglio: '<p>A fronte della precisazione contenuta nella Legge 145/2018, art. 1 comma 867, per ammontare complessivo del debito deve intendersi unicamente il debito scaduto.</p>'
+        decorrenza_di_pubblicazione:
+            - 'Anno successivo a quello di riferimento'
+        aggiornamento:
+            - Annuale
+        termine_pubblicazione:
+            - '5 anni a decorrere dal primo gennaio dell''anno successivo a quello da cui decorre l''obbligo di pubblicazione'
+        fields: null
+sort_data:
+    sort_field: 8
+    sort_order: 1
+    priority: 1

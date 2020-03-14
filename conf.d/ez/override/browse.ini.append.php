@@ -13,13 +13,8 @@ SelectionType=multiple
 ReturnType=ObjectID
 Class[]
 Class[]=user
-Class[]=dipendente
-Class[]=personale
-Class[]=persona
-Class[]=sensor_operator
+Class[]=employee
 Class[]=user_group
-Class[]=politici
-Class[]=politico
 TopLevelNodes[]
 TopLevelNodes[]=users
 

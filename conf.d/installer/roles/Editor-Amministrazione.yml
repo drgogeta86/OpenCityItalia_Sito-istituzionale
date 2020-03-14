@@ -1,0 +1,124 @@
+name: 'Editor Amministrazione'
+policies:
+    -
+        ModuleName: content
+        FunctionName: create
+        Limitation:
+            Node:
+                - $contenttree_Amministrazione_Organi-politici_node
+            Class:
+                - $class_political_body
+    -
+        ModuleName: content
+        FunctionName: create
+        Limitation:
+            Class:
+                - $class_political_body
+            ParentClass:
+                - $class_political_body
+            ParentDepth:
+                - '4'
+    -
+        ModuleName: content
+        FunctionName: create
+        Limitation:
+            Node:
+                - $contenttree_Amministrazione_Uffici_node
+            Class:
+                - $class_office
+    -
+        ModuleName: content
+        FunctionName: create
+        Limitation:
+            Node:
+                - $contenttree_Amministrazione_Politici_node
+            Class:
+                - $class_politico
+    -
+        ModuleName: content
+        FunctionName: create
+        Limitation:
+            Node:
+                - $contenttree_Amministrazione_Luoghi_node
+            Class:
+                - $class_place
+    -
+        ModuleName: content
+        FunctionName: create
+        Limitation:
+            Node:
+                - $contenttree_Amministrazione_Personale-amministrativo_node
+            Class:
+                - $class_employee
+    -
+        ModuleName: content
+        FunctionName: create
+        Limitation:
+            Node:
+                - $contenttree_Amministrazione_Enti-e-fondazioni_node
+            Class:
+                - $class_public_organization
+                - $class_private_organization
+    -
+        ModuleName: content
+        FunctionName: create
+        Limitation:
+            Subtree:
+                - $content_Ruoli_path_string
+            Class:
+                - $class_time_indexed_role
+    -
+        ModuleName: content
+        FunctionName: create
+        Limitation:
+            Node:
+                - $contenttree_Amministrazione_Aree-amministrative_node
+            Class:
+                - $class_administrative_area
+    -
+        ModuleName: content
+        FunctionName: edit
+        Limitation:
+            Class:
+                - $class_political_body
+                - $class_office
+                - $class_politico
+                - $class_place
+                - $class_public_organization
+                - $class_private_organization
+                - $class_time_indexed_role
+                - $class_administrative_area
+    -
+        ModuleName: state
+        FunctionName: assign
+        Limitation:
+            Class:
+                - $class_political_body
+                - $class_office
+                - $class_politico
+                - $class_place
+                - $class_public_organization
+                - $class_private_organization
+                - $class_administrative_area
+    -
+        ModuleName: content
+        FunctionName: remove
+        Limitation:
+            Class:
+                - $class_political_body
+                - $class_office
+                - $class_politico
+                - $class_place
+                - $class_employee
+                - $class_public_organization
+                - $class_private_organization
+                - $class_time_indexed_role
+                - $class_administrative_area
+    -
+        ModuleName: content
+        FunctionName: edit
+        Limitation:
+            Class:
+                - $class_pagina_sito
+            Subtree:
+                - $contenttree_OpenCity_Amministrazione_path_string

@@ -1,0 +1,50 @@
+attribute_group:
+    canale:
+        '*': Canale
+        channel: '1'
+        channel_url: '1'
+    costi_e_vincoli:
+        '*': 'Costi e vincoli'
+        has_access_condition: '1'
+        has_cost: '1'
+    descrizione:
+        '*': Descrizione
+        description: '1'
+    enabled:
+        '*': '1'
+    'sort::canale':
+        '*': '2'
+    'sort::costi_e_vincoli':
+        '*': '3'
+    'sort::descrizione':
+        '*': '1'
+    'sort::ulteriori_informazioni':
+        '*': '4'
+    ulteriori_informazioni:
+        '*': 'Ulteriori informazioni'
+        files: '1'
+card_small_view:
+    enabled:
+        '*': '1'
+    show:
+        channel: '1'
+        channel_url: '1'
+        description: '1'
+table_view:
+    enabled:
+        '*': '1'
+    in_overview:
+        abstract: '1'
+        has_channel_type: '1'
+    main_image:
+        image: '1'
+    show:
+        channel: '1'
+        channel_url: '1'
+        description: '1'
+        files: '1'
+        has_access_condition: '1'
+        has_cost: '1'
+    show_label:
+        has_access_condition: '1'
+        has_cost: '1'

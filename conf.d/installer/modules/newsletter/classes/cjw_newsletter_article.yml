@@ -1,0 +1,52 @@
+identifier: cjw_newsletter_article
+contentobject_name: '<title>'
+serialized_name_list:
+    always-available: ita-IT
+    ita-IT: 'Articolo Newsletter'
+serialized_description_list:
+    ita-IT: ''
+always_available: 1
+is_container: 1
+data_map:
+    title:
+        identifier: title
+        serialized_description_list:
+            eng-GB: ''
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Titolo
+        data_type_string: ezstring
+        placement: 1
+        is_searchable: 1
+        is_required: 1
+        data_int1: 150
+        serialized_data_text: {  }
+    short_description:
+        identifier: short_description
+        serialized_description_list:
+            eng-GB: ''
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Testo
+        data_type_string: ezxmltext
+        placement: 2
+        is_searchable: 1
+        is_required: 1
+        data_int1: 25
+        serialized_data_text: {  }
+    image:
+        identifier: image
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Immagine
+        data_type_string: ezimage
+        placement: 3
+        can_translate: 1
+        serialized_data_text: {  }
+groups:
+    - 'CJW Newsletter'

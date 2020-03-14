@@ -1,0 +1,86 @@
+attribute_group:
+    dataset:
+        '*': Dataset
+        download_file: '1'
+        download_url: '1'
+        license: '1'
+    enabled:
+        '*': '1'
+    'eng-GB::dataset':
+        '*': Dataset
+    'eng-GB::informazioni_sul_dataset':
+        '*': 'Informazioni sul dataset'
+    'ger-DE::dataset':
+        '*': Dataset
+    'ger-DE::informazioni_sul_dataset':
+        '*': 'Informazioni sul dataset'
+    informazioni_sul_dataset:
+        '*': 'Informazioni sul dataset'
+        accrualperiodicity: '1'
+        conforms_to: '1'
+        language: '1'
+        modified: '1'
+        rights_holder: '1'
+        version_info: '1'
+    'ita-IT::dataset':
+        '*': Dataset
+    'ita-IT::informazioni_sul_dataset':
+        '*': 'Informazioni sul dataset'
+    'sort::dataset':
+        '*': '1'
+    'sort::informazioni_sul_dataset':
+        '*': '2'
+table_view:
+    collapse_label:
+        spatial: '1'
+    enabled:
+        '*': '1'
+    in_overview:
+        description: '1'
+        theme: '1'
+    show:
+        accrualperiodicity: '1'
+        conforms_to: '1'
+        contact_point: '1'
+        content_show_history: '1'
+        content_show_modified: '1'
+        content_show_published: '1'
+        content_tree_related: '1'
+        creator: '1'
+        description: '1'
+        download_file: '1'
+        download_url: '1'
+        identifier: '1'
+        issued: '1'
+        keyword: '1'
+        language: '1'
+        license: '1'
+        modified: '1'
+        publisher: '1'
+        rights_holder: '1'
+        spatial: '1'
+        temporal: '1'
+        theme: '1'
+        version_info: '1'
+    show_label:
+        accrualperiodicity: '1'
+        conforms_to: '1'
+        contact_point: '1'
+        content_show_history: '1'
+        content_show_modified: '1'
+        content_show_published: '1'
+        content_tree_related: '1'
+        creator: '1'
+        download_file: '1'
+        download_url: '1'
+        issued: '1'
+        keyword: '1'
+        language: '1'
+        license: '1'
+        modified: '1'
+        publisher: '1'
+        rights_holder: '1'
+        spatial: '1'
+        temporal: '1'
+        theme: '1'
+        version_info: '1'

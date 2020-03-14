@@ -1,0 +1,20 @@
+metadata:
+    remoteId: e3272af2c0322bd9cef702214a0f7b4b
+    classIdentifier: pagina_trasparenza
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        titolo: 'Burocrazia zero '
+        contenuto_obbligo: "\n<ul>\n\n<li>Casi in cui il rilascio delle autorizzazioni di competenza è sostituito da una comunicazione dell'interessato</li>\n\n</ul>\n\n<ul>\n\n<li>Elenco delle attività delle imprese soggette a controllo (ovvero per le quali le pubbliche amministrazioni competenti ritengono necessarie l'autorizzazione, la segnalazione certificata di inizio attività o la mera comunicazione)</li>\n\n</ul>\n"
+        riferimenti_normativi: "Art. 37, d.l. n. 69/2013 abrogato dal d.lgs. 10/2016\r\n"
+        applicabilita: '<p>L’obbligo di pubblicazione di cui alla presente sezione è stato abrogato dal d.lgs. 10/2016; precedentemente la norma e il relativo obbligo di pubblicazione non trovavano applicazione nell''ordinamento locale in virtù dell''art. 37, comma 3-bis del DL 69/2013</p>'
+        denominazione_degli_obblighi: ''
+        guida_alla_compilazione: ''
+        messaggio_di_consiglio: ''
+        fields: null
+sort_data:
+    sort_field: 8
+    sort_order: 1
+    priority: 3

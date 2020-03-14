@@ -1,0 +1,26 @@
+metadata:
+    remoteId: ae441f5d2f78bf88f0b3e39a36743bdd
+    classIdentifier: pagina_trasparenza
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        titolo: 'Articolazione degli uffici'
+        contenuto_obbligo: "\n<ul>\n\n<li>Indicazione delle competenze di ciascun ufficio con i nomi dei responsabili dei singoli uffici</li>\n\n<li>Illustrazione in forma semplificata, ai fini della piena accessibilità e comprensibilità dei dati, dell'organizzazione dell'amministrazione, mediante l'organigramma o analoghe rappresentazioni grafiche</li>\n\n</ul>\n"
+        riferimenti_normativi: "Ai sensi della l.r. n. 10/2014 e ss.mm., art.13, co.1, lett. b) e lett. c), d.lgs. n. 33/2013 e ss.mm.\r\nArt. 4, l.r. n. 2/2012"
+        applicabilita: ''
+        denominazione_degli_obblighi: ''
+        guida_alla_compilazione: '<p>Per inserire le informazioni in questa sezione è possibile aggiungere la collocazione dell''organigramma già presente nel sito</p>'
+        messaggio_di_consiglio: ''
+        decorrenza_di_pubblicazione:
+            - Tempestiva
+        aggiornamento:
+            - Tempestivo
+        termine_pubblicazione:
+            - 'Non specificato'
+        fields: null
+sort_data:
+    sort_field: 8
+    sort_order: 1
+    priority: 3

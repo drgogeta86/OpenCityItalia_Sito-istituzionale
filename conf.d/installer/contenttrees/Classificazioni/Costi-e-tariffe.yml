@@ -1,0 +1,25 @@
+metadata:
+    remoteId: 8298770673aeabc162e032b9edd5feac
+    classIdentifier: pagina_sito
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        name: 'Costi e tariffe'
+        short_name: null
+        menu_name: null
+        abstract: ''
+        description: ''
+        image: {  }
+        show_children: 0
+        layout: {  }
+        icon: null
+        show_topics: 0
+        show_search_form: 1
+        tag_menu: {  }
+        publish_date: null
+sort_data:
+    sort_field: 2
+    sort_order: 0
+    priority: 0

@@ -1,0 +1,740 @@
+identifier: event
+contentobject_name: '<event_title>'
+serialized_name_list:
+    always-available: ita-IT
+    eng-GB: Evento
+    ita-IT: Evento
+serialized_description_list:
+    eng-GB: ''
+    ita-IT: 'Un evento di interesse pubblico'
+always_available: 1
+data_map:
+    event_title:
+        identifier: event_title
+        serialized_description_list:
+            eng-GB: 'Specificare il titolo dell''evento'
+            ita-IT: 'Specificare il titolo dell''evento'
+        serialized_name_list:
+            always-available: ita-IT
+            eng-GB: Titolo
+            ita-IT: Titolo
+        data_type_string: ezstring
+        placement: 1
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        serialized_data_text:
+            eng-GB: ''
+    short_event_title:
+        identifier: short_event_title
+        serialized_description_list:
+            eng-GB: 'Eventuale sottotitolo o titolo abbreviato dell''evento (massimo 100 caratteri, spazi inclusi)'
+            ita-IT: 'Eventuale sottotitolo o titolo abbreviato dell''evento (massimo 100 caratteri, spazi inclusi)'
+        serialized_name_list:
+            always-available: ita-IT
+            eng-GB: 'Eventuale sottotitolo'
+            ita-IT: 'Eventuale sottotitolo'
+        data_type_string: ezstring
+        placement: 2
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 100
+        serialized_data_text:
+            eng-GB: ''
+    identifier:
+        identifier: identifier
+        serialized_description_list:
+            eng-GB: 'codice che identifica univocamente l''evento'
+            ita-IT: 'codice che identifica univocamente l''evento'
+        serialized_name_list:
+            always-available: ita-IT
+            eng-GB: 'Identificativo dell''evento'
+            ita-IT: 'Identificativo dell''evento'
+        data_type_string: ezstring
+        placement: 3
+        is_searchable: 1
+        can_translate: 1
+        category: altre_info
+        serialized_data_text:
+            eng-GB: ''
+    has_public_event_typology:
+        identifier: has_public_event_typology
+        serialized_description_list:
+            always-available: ita-IT
+            eng-GB: 'Indicare le tematiche dell''evento. Importante: le tipologie proposte sono standard e garantiscono una miglior visibilità all''evento sul web. Selezionare al massimo 3 temi'
+            ita-IT: 'Indicare le tematiche dell''evento. Importante: le tipologie proposte sono standard e garantiscono una miglior visibilità all''evento sul web. Selezionare al massimo 3 temi'
+        serialized_name_list:
+            always-available: ita-IT
+            eng-GB: 'Tipo di evento'
+            ita-IT: 'Tipo di evento'
+        data_type_string: eztags
+        placement: 4
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        data_int1: 'tag(Eventi / Tematiche eventi)'
+        data_int3: 1
+        data_int4: 3
+        data_text1: Tree
+        category: taxonomy
+        serialized_data_text:
+            always-available: ita-IT
+            eng-GB: ''
+            ita-IT: ''
+    topics:
+        identifier: topics
+        serialized_description_list:
+            always-available: ita-IT
+            eng-GB: 'Argomenti che caratterizzano il servizio; IMPORTANTE: gli argomenti accompagnano i cittadini nella navigazione di tutto il sito'
+            ita-IT: 'Argomenti che caratterizzano il servizio; IMPORTANTE: gli argomenti accompagnano i cittadini nella navigazione di tutto il sito'
+        serialized_name_list:
+            always-available: ita-IT
+            eng-GB: Argomenti
+            ita-IT: Argomenti
+        data_type_string: ezobjectrelationlist
+        placement: 5
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '3'
+            type: '2'
+            class_constraint_list:
+                - topic
+            default_placement:
+                node_id: $contenttree_OpenCity_Argomenti_node
+        category: taxonomy
+        serialized_data_text:
+            always-available: ita-IT
+            eng-GB: ''
+            ita-IT: ''
+    sub_event_of:
+        identifier: sub_event_of
+        serialized_description_list:
+            eng-GB: 'Indicare l''iniziativa più ampia di cui l''evento è parte'
+            ita-IT: 'Indicare l''iniziativa più ampia di cui l''evento è parte'
+        serialized_name_list:
+            always-available: ita-IT
+            eng-GB: 'Iniziativa di cui fa parte'
+            ita-IT: 'Iniziativa di cui fa parte'
+        data_type_string: ezobjectrelationlist
+        placement: 6
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - event
+            default_placement: false
+        serialized_data_text:
+            eng-GB: ''
+    reading_time:
+        identifier: reading_time
+        serialized_description_list:
+            always-available: ita-IT
+            eng-GB: 'Stima del tempo di lettura della pagina evento, in minuti primi'
+            ita-IT: 'Stima del tempo di lettura della pagina evento, in minuti primi'
+        serialized_name_list:
+            always-available: ita-IT
+            eng-GB: 'Tempo di lettura'
+            ita-IT: 'Tempo di lettura'
+        data_type_string: ezinteger
+        placement: 7
+        is_searchable: 1
+        can_translate: 1
+        data_int3: 2
+        serialized_data_text:
+            always-available: ita-IT
+            eng-GB: ''
+            ita-IT: ''
+    event_abstract:
+        identifier: event_abstract
+        serialized_description_list:
+            eng-GB: 'Descrizione breve dell''evento'
+            ita-IT: 'Descrizione breve dell''evento'
+        serialized_name_list:
+            always-available: ita-IT
+            eng-GB: 'Descrizione breve'
+            ita-IT: 'Descrizione breve'
+        data_type_string: ezxmltext
+        placement: 8
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        data_int1: 5
+        category: content
+        serialized_data_text:
+            eng-GB: ''
+    description:
+        identifier: description
+        serialized_description_list:
+            eng-GB: 'Descrizione esaustiva dell''evento'
+            ita-IT: 'Descrizione esaustiva dell''evento'
+        serialized_name_list:
+            always-available: ita-IT
+            eng-GB: 'Descrizione completa'
+            ita-IT: 'Descrizione completa'
+        data_type_string: ezxmltext
+        placement: 9
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 10
+        serialized_data_text:
+            eng-GB: ''
+    image:
+        identifier: image
+        serialized_description_list:
+            always-available: ita-IT
+            eng-GB: 'Predisporre una galleria di immagini corredate da didascalia'
+            ita-IT: 'Predisporre una galleria di immagini corredate da didascalia'
+        serialized_name_list:
+            always-available: ita-IT
+            eng-GB: 'Galleria immagini'
+            ita-IT: 'Galleria immagini'
+        data_type_string: ezobjectrelationlist
+        placement: 10
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - image
+            default_placement:
+                node_id: $content_Images_node
+        category: content
+        serialized_data_text:
+            always-available: ita-IT
+            eng-GB: ''
+            ita-IT: ''
+    has_video:
+        identifier: has_video
+        serialized_description_list:
+            always-available: ita-IT
+            eng-GB: 'Link a video esterno di presentazione dell''evento'
+            ita-IT: 'Link a video esterno di presentazione dell''evento'
+        serialized_name_list:
+            always-available: ita-IT
+            eng-GB: Video
+            ita-IT: Video
+        data_type_string: ezstring
+        placement: 11
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            eng-GB: ''
+            ita-IT: ''
+    target_audience:
+        identifier: target_audience
+        serialized_description_list:
+            always-available: ita-IT
+            eng-GB: 'Un gruppo di utenti per il quale l''evento è di interesse o utile; utente target'
+            ita-IT: 'Un gruppo di utenti per il quale l''evento è di interesse o utile; utente target'
+        serialized_name_list:
+            always-available: ita-IT
+            eng-GB: Destinatari
+            ita-IT: Destinatari
+        data_type_string: eztags
+        placement: 12
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        data_int1: 'tag(Eventi / Target utenti)'
+        data_int3: 1
+        data_text1: Tree
+        category: taxonomy
+        serialized_data_text:
+            always-available: ita-IT
+            eng-GB: ''
+            ita-IT: ''
+    about_target_audience:
+        identifier: about_target_audience
+        serialized_description_list:
+            eng-GB: 'Descrizione testuale dei principali interlocutori dell''Evento'
+            ita-IT: 'Descrizione testuale dei principali interlocutori dell''Evento'
+        serialized_name_list:
+            always-available: ita-IT
+            eng-GB: 'Informazioni sui destinatari'
+            ita-IT: 'Informazioni sui destinatari'
+        data_type_string: eztext
+        placement: 13
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 2
+        category: taxonomy
+        serialized_data_text:
+            eng-GB: ''
+    takes_place_in:
+        identifier: takes_place_in
+        serialized_description_list:
+            always-available: ita-IT
+            eng-GB: 'Luogo o indirizzo in cui si svolge l''evento'
+            ita-IT: 'Luogo o indirizzo in cui si svolge l''evento'
+        serialized_name_list:
+            always-available: ita-IT
+            eng-GB: 'Luogo dell''evento'
+            ita-IT: 'Luogo dell''evento'
+        data_type_string: ezobjectrelationlist
+        placement: 14
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - place
+            default_placement:
+                node_id: $contenttree_Amministrazione_Luoghi_node
+        category: geo
+        serialized_data_text:
+            always-available: ita-IT
+            eng-GB: ''
+            ita-IT: ''
+    event_content_keyword:
+        identifier: event_content_keyword
+        serialized_description_list:
+            eng-GB: 'Concetti più significativi riguardanti il contenuto (separati da virgola)'
+            ita-IT: 'Concetti più significativi riguardanti il contenuto (separati da virgola)'
+        serialized_name_list:
+            always-available: ita-IT
+            eng-GB: 'Parole chiave'
+            ita-IT: 'Parole chiave'
+        data_type_string: ezkeyword
+        placement: 15
+        is_searchable: 1
+        can_translate: 1
+        category: taxonomy
+        serialized_data_text:
+            eng-GB: ''
+    has_playbill:
+        identifier: has_playbill
+        serialized_description_list:
+            eng-GB: 'Locandina/manifesto dell''evento'
+            ita-IT: 'Locandina/manifesto dell''evento'
+        serialized_name_list:
+            always-available: ita-IT
+            eng-GB: Locandina
+            ita-IT: Locandina
+        data_type_string: ezbinaryfile
+        placement: 16
+        can_translate: 1
+        category: content
+        serialized_data_text:
+            eng-GB: ''
+    has_online_contact_point:
+        identifier: has_online_contact_point
+        serialized_description_list:
+            always-available: ita-IT
+            eng-GB: 'Indicare i riferimenti da contattare per ricevere informazioni sull''evento (es. Per informazioni sul programma, per informazioni sui biglietti, ecc...)'
+            ita-IT: 'Indicare i riferimenti da contattare per ricevere informazioni sull''evento (es. Per informazioni sul programma, per informazioni sui biglietti, ecc...)'
+        serialized_name_list:
+            always-available: ita-IT
+            eng-GB: 'Punti di contatto'
+            ita-IT: 'Punti di contatto'
+        data_type_string: ezobjectrelationlist
+        placement: 17
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - online_contact_point
+            default_placement:
+                node_id: $contenttree_Classificazioni_Punti-di-contatto_node
+        serialized_data_text:
+            always-available: ita-IT
+            eng-GB: ''
+            ita-IT: ''
+    time_interval:
+        identifier: time_interval
+        serialized_description_list:
+            always-available: ita-IT
+            eng-GB: 'E'' possibile indicare anche eventi ripetuti nel tempo'
+            ita-IT: 'E'' possibile indicare anche eventi ripetuti nel tempo'
+        serialized_name_list:
+            always-available: ita-IT
+            eng-GB: 'Date ed orari dell''evento'
+            ita-IT: 'Date ed orari dell''evento'
+        data_type_string: ocevent
+        placement: 18
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        category: time
+        serialized_data_text:
+            always-available: ita-IT
+            eng-GB: ''
+            ita-IT: ''
+    is_accessible_for_free:
+        identifier: is_accessible_for_free
+        serialized_description_list:
+            always-available: ita-IT
+            eng-GB: 'Spuntare se l''evento è gratuito'
+            ita-IT: 'Spuntare se l''evento è gratuito'
+        serialized_name_list:
+            always-available: ita-IT
+            eng-GB: 'E'' gratuito'
+            ita-IT: 'E'' gratuito'
+        data_type_string: ezboolean
+        placement: 19
+        is_searchable: 1
+        can_translate: 1
+        category: altre_info
+        serialized_data_text:
+            always-available: ita-IT
+            eng-GB: ''
+            ita-IT: ''
+    has_offer:
+        identifier: has_offer
+        serialized_description_list:
+            always-available: ita-IT
+            eng-GB: 'Offerte, (es. prezzo intero), biglietti, condizioni e vincoli'
+            ita-IT: 'Offerte, (es. prezzo intero), biglietti, condizioni e vincoli'
+        serialized_name_list:
+            always-available: ita-IT
+            eng-GB: Offerta
+            ita-IT: Offerta
+        data_type_string: ezobjectrelationlist
+        placement: 20
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - offer
+            default_placement:
+                node_id: $contenttree_Classificazioni_Costi-e-tariffe_node
+        category: altre_info
+        serialized_data_text:
+            always-available: ita-IT
+            eng-GB: ''
+            ita-IT: ''
+    attachment:
+        identifier: attachment
+        serialized_description_list:
+            always-available: ita-IT
+            eng-GB: 'Eventuali documenti allegati'
+            ita-IT: 'Eventuali documenti allegati'
+        serialized_name_list:
+            always-available: ita-IT
+            eng-GB: Allegati
+            ita-IT: Allegati
+        data_type_string: ocmultibinary
+        placement: 21
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            eng-GB: ''
+            ita-IT: ''
+    attendee:
+        identifier: attendee
+        serialized_description_list:
+            eng-GB: 'Rappresentanti dell’amministrazione comunale, strutture comunali o organizzazioni che saranno presenti all’evento'
+            ita-IT: 'Rappresentanti dell’amministrazione comunale, strutture comunali o organizzazioni che saranno presenti all’evento'
+        serialized_name_list:
+            always-available: ita-IT
+            eng-GB: 'Presenti all''evento'
+            ita-IT: 'Presenti all''evento'
+        data_type_string: ezobjectrelationlist
+        placement: 22
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - private_organization
+                - public_organization
+            default_placement:
+                node_id: $contenttree_Amministrazione_Enti-e-fondazioni_node
+        category: altre_info
+        serialized_data_text:
+            eng-GB: ''
+    composer:
+        identifier: composer
+        serialized_description_list:
+            always-available: ita-IT
+            eng-GB: 'Persone o organizzazioni che hanno composto un''opera eseguita durante l’evento'
+            ita-IT: 'Persone o organizzazioni che hanno composto un''opera eseguita durante l’evento'
+        serialized_name_list:
+            always-available: ita-IT
+            eng-GB: 'Persone o organizzazioni che hanno composto un''opera eseguita durante l’evento'
+            ita-IT: 'Persone o organizzazioni che hanno composto un''opera eseguita durante l’evento'
+        data_type_string: ezobjectrelationlist
+        placement: 23
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - private_organization
+                - public_organization
+            default_placement:
+                node_id: $contenttree_Amministrazione_Enti-e-fondazioni_node
+        category: altre_info
+        serialized_data_text:
+            always-available: ita-IT
+            eng-GB: ''
+            ita-IT: ''
+    performer:
+        identifier: performer
+        serialized_description_list:
+            always-available: ita-IT
+            eng-GB: 'Persone, rappresentanti dell’amministrazione comunale, strutture comunali o organizzazioni che hanno un ruolo attivo (es. si esibiscono, svolgono una presentazione) durante l’evento'
+            ita-IT: 'Persone, rappresentanti dell’amministrazione comunale, strutture comunali o organizzazioni che hanno un ruolo attivo (es. si esibiscono, svolgono una presentazione) durante l’evento'
+        serialized_name_list:
+            always-available: ita-IT
+            eng-GB: 'Chi presenta'
+            ita-IT: 'Chi presenta'
+        data_type_string: ezobjectrelationlist
+        placement: 24
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - private_organization
+                - public_organization
+                - politico
+                - office
+            default_placement:
+                node_id: $contenttree_Amministrazione_Enti-e-fondazioni_node
+        category: altre_info
+        serialized_data_text:
+            always-available: ita-IT
+            eng-GB: ''
+            ita-IT: ''
+    organizer:
+        identifier: organizer
+        serialized_description_list:
+            always-available: ita-IT
+            eng-GB: 'Rappresentanti dell’amministrazione comunale, strutture comunali o organizzazioni che organizzano l’evento'
+            ita-IT: 'Rappresentanti dell’amministrazione comunale, strutture comunali o organizzazioni che organizzano l’evento'
+        serialized_name_list:
+            always-available: ita-IT
+            eng-GB: Organizzatori
+            ita-IT: Organizzatori
+        data_type_string: ezobjectrelationlist
+        placement: 25
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - private_organization
+                - public_organization
+                - politico
+                - office
+            default_placement:
+                node_id: $contenttree_Amministrazione_Enti-e-fondazioni_node
+        category: content
+        serialized_data_text:
+            always-available: ita-IT
+            eng-GB: ''
+            ita-IT: ''
+    sponsor:
+        identifier: sponsor
+        serialized_description_list:
+            always-available: ita-IT
+            eng-GB: 'Strutture comunali o organizzazioni che sostengono economicamente l’evento'
+            ita-IT: 'Strutture comunali o organizzazioni che sostengono economicamente l’evento'
+        serialized_name_list:
+            always-available: ita-IT
+            eng-GB: Sponsor
+            ita-IT: Sponsor
+        data_type_string: ezobjectrelationlist
+        placement: 26
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - private_organization
+                - public_organization
+            default_placement:
+                node_id: $contenttree_Amministrazione_Enti-e-fondazioni_node
+        category: altre_info
+        serialized_data_text:
+            always-available: ita-IT
+            eng-GB: ''
+            ita-IT: ''
+    translator:
+        identifier: translator
+        serialized_description_list:
+            always-available: ita-IT
+            eng-GB: 'organizzazioni che si occupano della diffusione dell’evento in altre lingue'
+            ita-IT: 'organizzazioni che si occupano della diffusione dell’evento in altre lingue'
+        serialized_name_list:
+            always-available: ita-IT
+            eng-GB: 'Servizio di traduzione curato da'
+            ita-IT: 'Servizio di traduzione curato da'
+        data_type_string: ezobjectrelationlist
+        placement: 27
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - private_organization
+                - public_organization
+            default_placement:
+                node_id: $contenttree_Amministrazione_Enti-e-fondazioni_node
+        category: altre_info
+        serialized_data_text:
+            always-available: ita-IT
+            eng-GB: ''
+            ita-IT: ''
+    funder:
+        identifier: funder
+        serialized_description_list:
+            always-available: ita-IT
+            eng-GB: 'Organizzazioni che patrocinano l’evento'
+            ita-IT: 'Organizzazioni che patrocinano l’evento'
+        serialized_name_list:
+            always-available: ita-IT
+            eng-GB: Patrocinio
+            ita-IT: Patrocinio
+        data_type_string: ezobjectrelationlist
+        placement: 28
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - private_organization
+                - public_organization
+            default_placement:
+                node_id: $contenttree_Amministrazione_Enti-e-fondazioni_node
+        category: altre_info
+        serialized_data_text:
+            always-available: ita-IT
+            eng-GB: ''
+            ita-IT: ''
+    aggregate_rating:
+        identifier: aggregate_rating
+        serialized_description_list:
+            always-available: ita-IT
+            eng-GB: 'Sistema di valutazione dell''evento'
+            ita-IT: 'Sistema di valutazione dell''evento'
+        serialized_name_list:
+            always-available: ita-IT
+            eng-GB: 'Valutazione dell''evento'
+            ita-IT: 'Valutazione dell''evento'
+        data_type_string: ezsrrating
+        placement: 29
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            eng-GB: ''
+            ita-IT: ''
+    in_language:
+        identifier: in_language
+        serialized_description_list:
+            always-available: ita-IT
+            eng-GB: ''
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            eng-GB: 'Lingue usate all''evento'
+            ita-IT: 'Lingue usate all''evento'
+        data_type_string: eztags
+        placement: 30
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 'tag(Lingue in cui è disponibile (un servizio, un evento, ...))'
+        data_text1: Tree
+        category: taxonomy
+        serialized_data_text:
+            always-available: ita-IT
+            eng-GB: ''
+            ita-IT: ''
+    has_review:
+        identifier: has_review
+        serialized_description_list:
+            always-available: ita-IT
+            eng-GB: ''
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            eng-GB: Recensione
+            ita-IT: Recensione
+        data_type_string: eztext
+        placement: 31
+        is_searchable: 1
+        is_information_collector: 1
+        can_translate: 1
+        data_int1: 5
+        category: hidden
+        serialized_data_text:
+            always-available: ita-IT
+            eng-GB: ''
+            ita-IT: ''
+    typical_age_range:
+        identifier: typical_age_range
+        serialized_description_list:
+            always-available: ita-IT
+            eng-GB: 'Indicare l''età degli utenti per cui l''evento è stato pensato'
+            ita-IT: 'Indicare l''età degli utenti per cui l''evento è stato pensato'
+        serialized_name_list:
+            always-available: ita-IT
+            eng-GB: 'Indicato per'
+            ita-IT: 'Indicato per'
+        data_type_string: eztags
+        placement: 32
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 'tag(Eventi / Target utenti / Età utenti)'
+        data_int3: 1
+        data_text1: Tree
+        category: taxonomy
+        serialized_data_text:
+            always-available: ita-IT
+            eng-GB: ''
+            ita-IT: ''
+    maximum_attendee_capacity:
+        identifier: maximum_attendee_capacity
+        serialized_description_list:
+            always-available: ita-IT
+            eng-GB: 'Numero totale di posti disponibili '
+            ita-IT: 'Numero totale di posti disponibili '
+        serialized_name_list:
+            always-available: ita-IT
+            eng-GB: 'Numero massimo di posti'
+            ita-IT: 'Numero massimo di posti'
+        data_type_string: ezinteger
+        placement: 33
+        is_searchable: 1
+        can_translate: 1
+        category: altre_info
+        serialized_data_text:
+            always-available: ita-IT
+            eng-GB: ''
+            ita-IT: ''
+groups:
+    - 'Eventi (CPEV)'

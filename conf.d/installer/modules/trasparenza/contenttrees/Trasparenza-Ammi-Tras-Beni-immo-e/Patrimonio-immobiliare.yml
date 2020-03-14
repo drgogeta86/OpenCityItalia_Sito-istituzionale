@@ -1,0 +1,26 @@
+metadata:
+    remoteId: 5cbad60a8adb4a40e7e8a6b2900d9ffb
+    classIdentifier: pagina_trasparenza
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        titolo: 'Patrimonio immobiliare'
+        contenuto_obbligo: '<p>Informazioni identificative degli immobili posseduti e detenuti</p>'
+        riferimenti_normativi: "Ai sensi della l.r. n. 10/2014 e ss.mm., art. 30, d.lgs. n. 33/2013\r\n"
+        applicabilita: ''
+        denominazione_degli_obblighi: ''
+        guida_alla_compilazione: ''
+        messaggio_di_consiglio: ''
+        decorrenza_di_pubblicazione:
+            - Tempestiva
+        aggiornamento:
+            - Tempestivo
+        termine_pubblicazione:
+            - '5 anni a decorrere dal primo gennaio dell''anno successivo a quello da cui decorre l''obbligo di pubblicazione'
+        fields: null
+sort_data:
+    sort_field: 8
+    sort_order: 1
+    priority: 0

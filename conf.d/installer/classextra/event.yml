@@ -1,0 +1,247 @@
+attribute_group:
+    appuntamenti:
+        '*': Appuntamenti
+    contatti:
+        '*': Contatti
+        has_online_contact_point: '1'
+        organizer: '1'
+    cos_e:
+        '*': 'Cos''è'
+        about_target_audience: '1'
+        description: '1'
+        event_content_keyword: '1'
+        has_video: '1'
+        image: '1'
+        performer: '1'
+        target_audience: '1'
+        typical_age_range: '1'
+    costi:
+        '*': Costi
+        has_offer: '1'
+        is_accessible_for_free: '1'
+    date_e_orari:
+        '*': 'Date e orari'
+        time_interval: '1'
+    documenti:
+        '*': Documenti
+        attachment: '1'
+        has_playbill: '1'
+    enabled:
+        '*': '1'
+    'eng-GB::appuntamenti':
+        '*': Appuntamenti
+    'eng-GB::contatti':
+        '*': Contatti
+    'eng-GB::cos_e':
+        '*': 'Cos''è'
+    'eng-GB::costi':
+        '*': Costi
+    'eng-GB::date_e_orari':
+        '*': 'Date e orari'
+    'eng-GB::documenti':
+        '*': Documenti
+    'eng-GB::luogo':
+        '*': Luogo
+    'eng-GB::ulteriori_informazioni':
+        '*': 'Ulteriori informazioni'
+    'ger-DE::appuntamenti':
+        '*': Appuntamenti
+    'ger-DE::contatti':
+        '*': Contatti
+    'ger-DE::cos_e':
+        '*': 'Cos''è'
+    'ger-DE::costi':
+        '*': Costi
+    'ger-DE::date_e_orari':
+        '*': 'Date e orari'
+    'ger-DE::documenti':
+        '*': Documenti
+    'ger-DE::luogo':
+        '*': Luogo
+    'ger-DE::ulteriori_informazioni':
+        '*': 'Ulteriori informazioni'
+    'ita-IT::appuntamenti':
+        '*': Appuntamenti
+    'ita-IT::contatti':
+        '*': Contatti
+    'ita-IT::cos_e':
+        '*': 'Cos''è'
+    'ita-IT::costi':
+        '*': Costi
+    'ita-IT::date_e_orari':
+        '*': 'Date e orari'
+    'ita-IT::documenti':
+        '*': Documenti
+    'ita-IT::luogo':
+        '*': Luogo
+    'ita-IT::ulteriori_informazioni':
+        '*': 'Ulteriori informazioni'
+    luogo:
+        '*': Luogo
+        takes_place_in: '1'
+    'sort::appuntamenti':
+        '*': '7'
+    'sort::contatti':
+        '*': '6'
+    'sort::cos_e':
+        '*': '1'
+    'sort::costi':
+        '*': '4'
+    'sort::date_e_orari':
+        '*': '3'
+    'sort::documenti':
+        '*': '5'
+    'sort::luogo':
+        '*': '2'
+    'sort::ulteriori_informazioni':
+        '*': '8'
+    ulteriori_informazioni:
+        '*': 'Ulteriori informazioni'
+        aggregate_rating: '1'
+        attendee: '1'
+        composer: '1'
+        content_show_history: '1'
+        content_show_modified: '1'
+        funder: '1'
+        has_public_event_typology: '1'
+        sponsor: '1'
+        sub_event_of: '1'
+        translator: '1'
+bootstrapitalia_icon:
+    enabled:
+        '*': '1'
+    icon:
+        '*': it-calendar
+card_small_view:
+    enabled:
+        '*': '1'
+    show:
+        event_abstract: '1'
+        event_title: '1'
+        image: '1'
+        short_event_title: '1'
+line_view:
+    enabled:
+        '*': '1'
+    show:
+        circoscrizione: '1'
+        event_abstract: '1'
+        image: '1'
+    show_label:
+        fonte: '1'
+        luogo_svolgimento: '1'
+        periodo_svolgimento: '1'
+    show_link:
+        event_abstract: '1'
+search_form:
+    enabled:
+        '*': '1'
+    show:
+        abstract: '1'
+        argomento: '1'
+        associazione: '1'
+        circoscrizione: '1'
+        costi: '1'
+        destinatari: '1'
+        durata: '1'
+        file: '1'
+        fonte: '1'
+        from_time: '1'
+        geo: '1'
+        image: '1'
+        informazioni: '1'
+        iniziativa: '1'
+        luogo_svolgimento: '1'
+        materia: '1'
+        orario_svolgimento: '1'
+        periodo_svolgimento: '1'
+        short_title: '1'
+        stato: '1'
+        text: '1'
+        tipo_evento: '1'
+        titolo: '1'
+        to_time: '1'
+table_view:
+    enabled:
+        '*': '1'
+    in_overview:
+        event_abstract: '1'
+    main_image:
+        image: '1'
+        takes_place_in: '1'
+    show:
+        about_target_audience: '1'
+        address: '1'
+        aggregate_rating: '1'
+        attachment: '1'
+        attendee: '1'
+        composer: '1'
+        content_show_history: '1'
+        content_show_modified: '1'
+        content_show_published: '1'
+        content_tree_related: '1'
+        costi: '1'
+        description: '1'
+        destinatari: '1'
+        durata: '1'
+        file: '1'
+        funder: '1'
+        has_offer: '1'
+        has_online_contact_point: '1'
+        has_playbill: '1'
+        has_video: '1'
+        image: '1'
+        informazioni: '1'
+        iniziativa: '1'
+        is_accessible_for_free: '1'
+        location: '1'
+        maximum_attendee_capacity: '1'
+        organizer: '1'
+        performer: '1'
+        sponsor: '1'
+        sub_event_of: '1'
+        takes_place_in: '1'
+        target_audience: '1'
+        text: '1'
+        time_interval: '1'
+        translator: '1'
+        typical_age_range: '1'
+    show_empty:
+        aggregate_rating: '1'
+    show_label:
+        address: '1'
+        attendee: '1'
+        circoscrizione: '1'
+        composer: '1'
+        costi: '1'
+        destinatari: '1'
+        durata: '1'
+        file: '1'
+        fonte: '1'
+        from_time: '1'
+        funder: '1'
+        image: '1'
+        informazioni: '1'
+        iniziativa: '1'
+        location: '1'
+        luogo_svolgimento: '1'
+        materia: '1'
+        orario_svolgimento: '1'
+        organizer: '1'
+        periodo_svolgimento: '1'
+        progressivo: '1'
+        short_title: '1'
+        sponsor: '1'
+        stato: '1'
+        sub_event_of: '1'
+        target_audience: '1'
+        tipo_evento: '1'
+        to_time: '1'
+        translator: '1'
+        typical_age_range: '1'
+    show_link:
+        address: '1'
+        has_online_contact_point: '1'
+        location: '1'
+        organizer: '1'
+        takes_place_in: '1'

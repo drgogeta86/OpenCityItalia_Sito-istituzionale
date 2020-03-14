@@ -1,0 +1,132 @@
+attribute_group:
+    contatti:
+        '*': Contatti
+        external_contact_point: '1'
+        has_office: '1'
+        help: '1'
+    descrizione:
+        '*': Descrizione
+        contains_place: '1'
+        description: '1'
+        has_video: '1'
+        image: '1'
+        type: '1'
+    dove:
+        '*': Dove
+        has_address: '1'
+    enabled:
+        '*': '1'
+    'eng-GB::contatti':
+        '*': Contatti
+    'eng-GB::descrizione':
+        '*': Descrizione
+    'eng-GB::dove':
+        '*': Dove
+    'eng-GB::modalita_di_accesso':
+        '*': 'Modalità di accesso '
+    'eng-GB::orari_di_apertura':
+        '*': 'Orari di apertura'
+    'eng-GB::servizi':
+        '*': Servizi
+    'eng-GB::ulteriori_informazioni':
+        '*': 'Ulteriori informazioni'
+    'ger-DE::contatti':
+        '*': Contatti
+    'ger-DE::descrizione':
+        '*': Descrizione
+    'ger-DE::dove':
+        '*': Dove
+    'ger-DE::modalita_di_accesso':
+        '*': 'Modalità di accesso '
+    'ger-DE::orari_di_apertura':
+        '*': 'Orari di apertura'
+    'ger-DE::servizi':
+        '*': Servizi
+    'ger-DE::ulteriori_informazioni':
+        '*': 'Ulteriori informazioni'
+    'ita-IT::contatti':
+        '*': Contatti
+    'ita-IT::descrizione':
+        '*': Descrizione
+    'ita-IT::dove':
+        '*': Dove
+    'ita-IT::modalita_di_accesso':
+        '*': 'Modalità di accesso '
+    'ita-IT::orari_di_apertura':
+        '*': 'Orari di apertura'
+    'ita-IT::servizi':
+        '*': Servizi
+    'ita-IT::ulteriori_informazioni':
+        '*': 'Ulteriori informazioni'
+    modalita_di_accesso:
+        '*': 'Modalità di accesso '
+    orari_di_apertura:
+        '*': 'Orari di apertura'
+        opening_hours_specification: '1'
+    servizi:
+        '*': Servizi
+        accessibility: '1'
+    'sort::contatti':
+        '*': '6'
+    'sort::descrizione':
+        '*': '1'
+    'sort::dove':
+        '*': '4'
+    'sort::modalita_di_accesso':
+        '*': '3'
+    'sort::orari_di_apertura':
+        '*': '5'
+    'sort::servizi':
+        '*': '2'
+    'sort::ulteriori_informazioni':
+        '*': '7'
+    ulteriori_informazioni:
+        '*': 'Ulteriori informazioni'
+        more_information: '1'
+        sede_di: '1'
+bootstrapitalia_icon:
+    enabled:
+        '*': '1'
+    icon:
+        '*': it-pin
+card_small_view:
+    enabled:
+        '*': '1'
+    show:
+        abstract: '1'
+        content_show_read_more: '1'
+        has_address: '1'
+        image: '1'
+        opening_hours_specification: '1'
+    show_label:
+        opening_hours_specification: '1'
+table_view:
+    enabled:
+        '*': '1'
+    in_overview:
+        abstract: '1'
+    main_image:
+        image: '1'
+    show:
+        abstract: '1'
+        accessibility: '1'
+        contains_place: '1'
+        content_tree_related: '1'
+        description: '1'
+        external_contact_point: '1'
+        has_address: '1'
+        has_office: '1'
+        has_video: '1'
+        help: '1'
+        image: '1'
+        more_information: '1'
+        opening_hours_specification: '1'
+        sede_di: '1'
+        topics: '1'
+        type: '1'
+    show_label:
+        sede_di: '1'
+    show_link:
+        contains_place: '1'
+        help: '1'
+        opening_hours_specification: '1'

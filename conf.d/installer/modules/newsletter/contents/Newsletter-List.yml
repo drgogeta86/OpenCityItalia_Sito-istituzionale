@@ -1,0 +1,16 @@
+metadata:
+    remoteId: 5bac2462304103efd304f00be0f2d85a
+    classIdentifier: cjw_newsletter_list
+    sectionIdentifier: cjw_newsletter
+    languages:
+        - ita-IT
+    parentNodes:
+        - $content_Newsletter-System_node
+data:
+    ita-IT:
+        title: Newsletter
+        newsletter_list: 'O:17:"CjwNewsletterList":19:{s:14:"MainSiteAccess";s:0:"";s:21:"SiteAccessArrayString";s:0:"";s:23:"OutputFormatArrayString";s:3:";0;";s:15:"EmailSenderName";s:0:"";s:11:"EmailSender";s:0:"";s:12:"EmailReplyTo";s:0:"";s:15:"EmailReturnPath";s:0:"";s:17:"EmailReceiverTest";s:0:"";s:24:"AutoApproveRegisterdUser";s:1:"0";s:8:"SkinName";s:15:"bootstrapitalia";s:18:"PersonalizeContent";s:1:"0";s:14:"UserDataFields";s:0:"";s:9:"IsVirtual";i:0;s:13:"VirtualFilter";s:0:"";}'
+sort_data:
+    sort_field: 1
+    sort_order: 1
+    priority: 0

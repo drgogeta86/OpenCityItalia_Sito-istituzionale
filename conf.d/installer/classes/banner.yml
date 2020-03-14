@@ -1,0 +1,94 @@
+identifier: banner
+contentobject_name: '<name>'
+serialized_name_list:
+    always-available: eng-GB
+    eng-GB: Banner
+    ita-IT: Banner
+serialized_description_list:
+    eng-GB: ''
+    ita-IT: 'Elemento che consiste di evidenziare un link interno o esterno tramite un''immagine '
+data_map:
+    name:
+        identifier: name
+        serialized_description_list:
+            eng-GB: ''
+            ita-IT: ''
+        serialized_name_list:
+            always-available: eng-GB
+            eng-GB: Nome
+            ita-IT: Nome
+        data_type_string: ezstring
+        placement: 1
+        is_required: 1
+        can_translate: 1
+        serialized_data_text:
+            ita-IT: ''
+    description:
+        identifier: description
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Descrizione
+        data_type_string: ezxmltext
+        placement: 2
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 10
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    image:
+        identifier: image
+        serialized_description_list:
+            eng-GB: ''
+            ita-IT: ''
+        serialized_name_list:
+            always-available: eng-GB
+            eng-GB: Immagine
+            ita-IT: Immagine
+        data_type_string: ezimage
+        placement: 3
+        is_required: 1
+        can_translate: 1
+        serialized_data_text:
+            ita-IT: ''
+    internal_location:
+        identifier: internal_location
+        serialized_description_list:
+            eng-GB: ''
+            ita-IT: ''
+        serialized_name_list:
+            always-available: eng-GB
+            eng-GB: 'Link interno'
+            ita-IT: 'Link interno'
+        data_type_string: ezobjectrelationlist
+        placement: 4
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - link
+            default_placement: false
+        serialized_data_text:
+            ita-IT: ''
+    location:
+        identifier: location
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Link esterno'
+        data_type_string: ezurl
+        placement: 5
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+groups:
+    - Media

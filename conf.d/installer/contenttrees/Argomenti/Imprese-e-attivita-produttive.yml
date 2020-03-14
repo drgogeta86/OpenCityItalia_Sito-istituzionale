@@ -1,0 +1,25 @@
+metadata:
+    remoteId: dfa6ed0f6ceeddbc718c6280e53b9385
+    classIdentifier: topic
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        name: 'Imprese e attività produttive'
+        managed_by_area: {  }
+        managed_by_political_body: {  }
+        type: null
+        description: null
+        eu: 'http://www.opencontent.it'
+        theme: null
+        data_themes_eurovocs: {  }
+        image: {  }
+        abstract: ''
+        icon: null
+        layout: {  }
+        help: {  }
+sort_data:
+    sort_field: 1
+    sort_order: 1
+    priority: 0

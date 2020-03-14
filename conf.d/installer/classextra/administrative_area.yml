@@ -1,0 +1,62 @@
+attribute_group:
+    contatti:
+        '*': Contatti
+        assessore: '1'
+        has_online_contact_point: '1'
+        has_spatial_coverage: '1'
+    cosa_fa:
+        '*': 'Cosa fa'
+        main_function: '1'
+    documenti:
+        '*': Documenti
+        allegati: '1'
+    enabled:
+        '*': '1'
+    servizi:
+        '*': Servizi
+        servizi_offerti: '1'
+    'sort::contatti':
+        '*': '4'
+    'sort::cosa_fa':
+        '*': '1'
+    'sort::documenti':
+        '*': '5'
+    'sort::servizi':
+        '*': '3'
+    'sort::struttura':
+        '*': '2'
+    'sort::ulteriori_informazioni':
+        '*': '6'
+    struttura:
+        '*': Struttura
+        hold_employment: '1'
+        public_organization_category: '1'
+        related_offices: '1'
+        type: '1'
+    ulteriori_informazioni:
+        '*': 'Ulteriori informazioni'
+        help: '1'
+        more_information: '1'
+card_small_view:
+    enabled:
+        '*': '1'
+    show:
+        abstract: '1'
+        content_show_read_more: '1'
+table_view:
+    enabled:
+        '*': '1'
+    show:
+        abstract: '1'
+        content_tree_related: '1'
+        description: '1'
+        has_online_contact_point: '1'
+        has_spatial_coverage: '1'
+        help: '1'
+        hold_employment: '1'
+        legal_status_code: '1'
+        main_function: '1'
+        more_information: '1'
+        related_offices: '1'
+        servizi_offerti: '1'
+        tax_code_e_invoice_service: '1'

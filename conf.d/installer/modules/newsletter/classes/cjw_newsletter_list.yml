@@ -1,0 +1,95 @@
+identifier: cjw_newsletter_list
+contentobject_name: '<short_title|title>'
+serialized_name_list:
+    always-available: ita-IT
+    ita-IT: 'Newsletter'
+serialized_description_list:
+    ita-IT: ''
+always_available: 1
+is_container: 1
+data_map:
+    title:
+        identifier: title
+        serialized_description_list:
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Titolo
+        data_type_string: ezstring
+        placement: 1
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        serialized_data_text: {  }
+    short_title:
+        identifier: short_title
+        serialized_description_list:
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Titolo breve'
+        data_type_string: ezstring
+        placement: 2
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text: {  }
+    short_description:
+        identifier: short_description
+        serialized_description_list:
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Descrizione breve'
+        data_type_string: ezxmltext
+        placement: 3
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 2
+        serialized_data_text: {  }
+    footer_link:
+        identifier: footer_link
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Link nel footer'
+        data_type_string: ezobjectrelationlist
+        placement: 4
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list: {  }
+            default_placement: false
+        serialized_data_text: {  }
+    newsletter_list:
+        identifier: newsletter_list
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Configurazione newsletter'
+        data_type_string: cjwnewsletterlist
+        placement: 5
+        is_required: 1
+        serialized_data_text: {  }
+    banner:
+        identifier: banner
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'L''immagine deve essere larga 700px'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Immagine testata'
+        data_type_string: ezimage
+        placement: 6
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+groups:
+    - 'CJW Newsletter'

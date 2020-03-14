@@ -1,0 +1,73 @@
+name: 'Editor Utenti'
+policies:
+    -
+        ModuleName: content
+        FunctionName: create
+        Limitation:
+            Node:
+                - $members_node
+            Class:
+                - $class_user
+    -
+        ModuleName: content
+        FunctionName: create
+        Limitation:
+            Subtree:
+                - $content_Editor-Base_path_string
+            Class:
+                - $class_user
+    -
+        ModuleName: content
+        FunctionName: read
+        Limitation:
+            Subtree:
+                - $content_Editor-Base_path_string
+            Class:
+                - $class_user_group
+                - $class_user
+                - $class_employee
+    -
+        ModuleName: content
+        FunctionName: remove
+        Limitation:
+            Subtree:
+                - $content_Editor-Base_path_string
+            Class:
+                - $class_user
+                - $class_employee
+    -
+        ModuleName: content
+        FunctionName: edit
+        Limitation:
+            Class:
+                - $class_user
+                - $class_pagina_sito
+                - $class_employee
+    -
+        ModuleName: bootstrapitalia
+        FunctionName: permissions
+        Limitation: {  }
+    -
+        ModuleName: bootstrapitalia
+        FunctionName: theme
+        Limitation: {  }
+    -
+        ModuleName: content
+        FunctionName: create
+        Limitation:
+            Node:
+                - $contenttree_OpenCity_Privacy_node
+            Class:
+                - $class_pagina_sito
+    -
+        ModuleName: content
+        FunctionName: edit
+        Limitation:
+            Subtree:
+                - $contenttree_OpenCity_Privacy_path_string
+    -
+        ModuleName: content
+        FunctionName: edit
+        Limitation:
+            Node:
+                - $contenttree_OpenCity_Note-legali_node

@@ -1,0 +1,102 @@
+identifier: online_contact_point
+contentobject_name: '<name>'
+serialized_name_list:
+    always-available: ita-IT
+    ita-IT: 'Punto di contatto on-line'
+serialized_description_list:
+    always-available: ita-IT
+    ita-IT: 'Raggruppa un insieme di tipi di canali digitali, come email, social network, siti web, ecc...'
+always_available: 1
+is_container: 1
+data_map:
+    name:
+        identifier: name
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Nome del punto di contatto'
+        data_type_string: ezstring
+        placement: 1
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    contact:
+        identifier: contact
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Specificare tutti i contatti '
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Contatti
+        data_type_string: ezmatrix
+        placement: 2
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        data_int1: 2
+        data_text5: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<ezmatrix><column-name id=\"type\" idx=\"0\">Tipo</column-name><column-name id=\"value\" idx=\"1\">Numero o indirizzo</column-name><column-name id=\"contact\" idx=\"2\">Tipo di contatto</column-name></ezmatrix>\n"
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    note:
+        identifier: note
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Note
+        data_type_string: eztext
+        placement: 3
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 2
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    phone_availability_time:
+        identifier: phone_availability_time
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Orari di disponibilità telefonica'
+        data_type_string: ezobjectrelationlist
+        placement: 4
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - opening_hours_specification
+            default_placement:
+                node_id: $contenttree_Classificazioni_Orari-servizi_node
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    is_contact_point_of_organizations:
+        identifier: is_contact_point_of_organizations
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Strutture (uffici, aree, organizzazioni) collegate al Punto di contatto'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Strutture collegate'
+        data_type_string: openpareverserelationlist
+        placement: 5
+        can_translate: 1
+        data_text5: '{"attribute_id_list":[4887,5914,5590],"sort":"name","order":"asc","limit":6}'
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+groups:
+    - Territorio
+    - CPSV-AP_IT
