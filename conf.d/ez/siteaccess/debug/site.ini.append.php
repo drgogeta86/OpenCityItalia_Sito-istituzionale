@@ -47,6 +47,7 @@ ActiveAccessExtensions[]=occhart
 ActiveAccessExtensions[]=cjw_newsletter
 ActiveAccessExtensions[]=openpa_newsletter
 ActiveAccessExtensions[]=oceditorialstuff
+ActiveAccessExtensions[]=ocwebhookserver
 
 [SiteSettings]
 LoginPage=embedded
