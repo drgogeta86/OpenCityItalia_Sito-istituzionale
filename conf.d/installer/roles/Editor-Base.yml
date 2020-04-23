@@ -108,6 +108,14 @@ policies:
         ModuleName: content
         FunctionName: edit
         Limitation:
+            Class:
+                - $class_folder
+            Subtree:
+                - $content_Images_path_string
+    -
+        ModuleName: content
+        FunctionName: edit
+        Limitation:
             Owner:
                 - 1
     -
@@ -120,10 +128,11 @@ policies:
         ModuleName: content
         FunctionName: create
         Limitation:
-            Node:
-                - $content_Images_node
+            Subtree:
+                - $content_Images_path_string
             Class:
                 - $class_image
+                - $class_folder
     -
         ModuleName: content
         FunctionName: create

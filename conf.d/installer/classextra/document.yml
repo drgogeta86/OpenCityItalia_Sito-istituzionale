@@ -12,6 +12,7 @@ attribute_group:
         document_type: '1'
         end_time: '1'
         file: '1'
+        link: '1'
         full_description: '1'
         interroganti: '1'
         start_time: '1'
@@ -54,7 +55,6 @@ attribute_group:
         area: '1'
         end_time: '1'
         images: '1'
-        link: '1'
         topics: '1'
     ulteriori_informazioni:
         '*': 'Ulteriori informazioni'

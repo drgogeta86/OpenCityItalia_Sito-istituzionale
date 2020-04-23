@@ -1,5 +1,5 @@
 name: OpenCity
-version: 2.0.3
+version: 2.0.4
 variables:
     -
         name: identifier
@@ -40,6 +40,9 @@ variables:
     -
         name: content_Images_node
         value: 51
+    -
+        name: content_Images_path_string
+        value: /1/43/51/
     -
         name: content_Multimedia_node
         value: 53

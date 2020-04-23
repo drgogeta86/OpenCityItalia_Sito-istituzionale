@@ -1,6 +1,6 @@
 name: 'OpenCity Newsletter'
 type: module
-version: 0.0.1
+version: 0.0.2
 variables:
     -
         name: identifier
@@ -44,6 +44,7 @@ steps:
         identifier: Newsletter-anonimo
         apply_to:
             - $anonymous_user
+            - editors_base
     -
         type: role
         identifier: Newsletter-editor

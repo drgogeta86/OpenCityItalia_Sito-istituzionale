@@ -81,16 +81,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.135.0",
+            "version": "3.135.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "254f168f90b1846ffb3f70594280e66b9f10a85e"
+                "reference": "0f6f6e8f4a44193908e18b8c7b8530b02f5bc428"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/254f168f90b1846ffb3f70594280e66b9f10a85e",
-                "reference": "254f168f90b1846ffb3f70594280e66b9f10a85e",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/0f6f6e8f4a44193908e18b8c7b8530b02f5bc428",
+                "reference": "0f6f6e8f4a44193908e18b8c7b8530b02f5bc428",
                 "shasum": ""
             },
             "require": {
@@ -161,7 +161,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2020-04-20T18:16:34+00:00"
+            "time": "2020-04-23T18:18:24+00:00"
         },
         {
             "name": "clue/stream-filter",
@@ -2432,16 +2432,16 @@
         },
         {
             "name": "opencontent/ocopendata-ls",
-            "version": "2.24.1",
+            "version": "2.24.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/ocopendata.git",
-                "reference": "5a831fdab6bda5a94b1a0f9f7a2561c08a030849"
+                "reference": "91e57d03bf4bcf3228e2713247906919b022e291"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/ocopendata/zipball/5a831fdab6bda5a94b1a0f9f7a2561c08a030849",
-                "reference": "5a831fdab6bda5a94b1a0f9f7a2561c08a030849",
+                "url": "https://api.github.com/repos/OpencontentCoop/ocopendata/zipball/91e57d03bf4bcf3228e2713247906919b022e291",
+                "reference": "91e57d03bf4bcf3228e2713247906919b022e291",
                 "shasum": ""
             },
             "require": {
@@ -2462,7 +2462,7 @@
                 }
             ],
             "description": "Opencontent OpenData Extension",
-            "time": "2020-04-01T00:46:22+00:00"
+            "time": "2020-04-23T13:09:52+00:00"
         },
         {
             "name": "opencontent/ocopendata_forms-ls",
@@ -2674,12 +2674,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/ocsupport.git",
-                "reference": "49a42aa6c699f589aa7b097e4dc7237cf01fdb25"
+                "reference": "2ee7846a9844dda46e759cb83d38f3bebf9dddc3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/ocsupport/zipball/49a42aa6c699f589aa7b097e4dc7237cf01fdb25",
-                "reference": "49a42aa6c699f589aa7b097e4dc7237cf01fdb25",
+                "url": "https://api.github.com/repos/OpencontentCoop/ocsupport/zipball/2ee7846a9844dda46e759cb83d38f3bebf9dddc3",
+                "reference": "2ee7846a9844dda46e759cb83d38f3bebf9dddc3",
                 "shasum": ""
             },
             "require": {
@@ -2700,7 +2700,7 @@
                 }
             ],
             "description": "OpenContent Support Tools",
-            "time": "2019-04-10T07:11:22+00:00"
+            "time": "2020-04-23T22:20:53+00:00"
         },
         {
             "name": "opencontent/ocwebhookserver-ls",
@@ -2708,12 +2708,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/ocwebhookserver.git",
-                "reference": "32df3cf93b5521efa64b9850f6e78f422788ff5a"
+                "reference": "aabd35a40c4e218769a8731f3cd46c8bb3ae0cbf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/ocwebhookserver/zipball/32df3cf93b5521efa64b9850f6e78f422788ff5a",
-                "reference": "32df3cf93b5521efa64b9850f6e78f422788ff5a",
+                "url": "https://api.github.com/repos/OpencontentCoop/ocwebhookserver/zipball/aabd35a40c4e218769a8731f3cd46c8bb3ae0cbf",
+                "reference": "aabd35a40c4e218769a8731f3cd46c8bb3ae0cbf",
                 "shasum": ""
             },
             "require": {
@@ -2734,7 +2734,7 @@
                 }
             ],
             "description": "Opencontent Webhook Server",
-            "time": "2020-02-19T18:05:00+00:00"
+            "time": "2020-04-23T17:12:18+00:00"
         },
         {
             "name": "opencontent/opencontent-project-installer",
@@ -2775,12 +2775,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/openpa.git",
-                "reference": "5353d99c87bef99f2b868ea08dd23094d01491b7"
+                "reference": "ffa1c9fb5546bf714911fe34bd37ae09dafee7d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/openpa/zipball/5353d99c87bef99f2b868ea08dd23094d01491b7",
-                "reference": "5353d99c87bef99f2b868ea08dd23094d01491b7",
+                "url": "https://api.github.com/repos/OpencontentCoop/openpa/zipball/ffa1c9fb5546bf714911fe34bd37ae09dafee7d6",
+                "reference": "ffa1c9fb5546bf714911fe34bd37ae09dafee7d6",
                 "shasum": ""
             },
             "require": {
@@ -2802,7 +2802,7 @@
                 }
             ],
             "description": "OpenContent OpenPA",
-            "time": "2020-04-08T15:24:44+00:00"
+            "time": "2020-04-23T21:17:38+00:00"
         },
         {
             "name": "opencontent/openpa_bootstrapitalia-ls",
@@ -2810,12 +2810,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/openpa_bootstrapitalia.git",
-                "reference": "8707ce1cc109cf9c51ed770a0b4f031f91bb4c01"
+                "reference": "1fb69327cadb3081e394a31fa21a124ee7227114"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/openpa_bootstrapitalia/zipball/8707ce1cc109cf9c51ed770a0b4f031f91bb4c01",
-                "reference": "8707ce1cc109cf9c51ed770a0b4f031f91bb4c01",
+                "url": "https://api.github.com/repos/OpencontentCoop/openpa_bootstrapitalia/zipball/1fb69327cadb3081e394a31fa21a124ee7227114",
+                "reference": "1fb69327cadb3081e394a31fa21a124ee7227114",
                 "shasum": ""
             },
             "require": {
@@ -2838,20 +2838,20 @@
                 }
             ],
             "description": "Opencontent OpenPA Bootstrap Italia",
-            "time": "2020-04-16T07:54:53+00:00"
+            "time": "2020-04-23T22:24:34+00:00"
         },
         {
             "name": "opencontent/openpa_newsletter-ls",
-            "version": "2.8.1",
+            "version": "2.9.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/openpa_newsletter.git",
-                "reference": "e3cd560716502e71608eaf5d0c264d11dab6721a"
+                "reference": "6dc833362b63d4b015d4486d078a284a19f9d689"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/openpa_newsletter/zipball/e3cd560716502e71608eaf5d0c264d11dab6721a",
-                "reference": "e3cd560716502e71608eaf5d0c264d11dab6721a",
+                "url": "https://api.github.com/repos/OpencontentCoop/openpa_newsletter/zipball/6dc833362b63d4b015d4486d078a284a19f9d689",
+                "reference": "6dc833362b63d4b015d4486d078a284a19f9d689",
                 "shasum": ""
             },
             "require": {
@@ -2874,7 +2874,7 @@
                 }
             ],
             "description": "OpenContent OpenPA Newsletter",
-            "time": "2020-04-17T17:43:38+00:00"
+            "time": "2020-04-23T12:12:14+00:00"
         },
         {
             "name": "opencontent/openpa_userprofile-ls",
@@ -4161,12 +4161,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/options-resolver.git",
-                "reference": "1cfd933f283e2f8991169eef7beeb6e8888347ac"
+                "reference": "0ab7e5a2e271e60dd58b0458c090c1489254a29e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/options-resolver/zipball/1cfd933f283e2f8991169eef7beeb6e8888347ac",
-                "reference": "1cfd933f283e2f8991169eef7beeb6e8888347ac",
+                "url": "https://api.github.com/repos/symfony/options-resolver/zipball/0ab7e5a2e271e60dd58b0458c090c1489254a29e",
+                "reference": "0ab7e5a2e271e60dd58b0458c090c1489254a29e",
                 "shasum": ""
             },
             "require": {
@@ -4209,7 +4209,7 @@
                 "configuration",
                 "options"
             ],
-            "time": "2020-04-06T17:48:46+00:00"
+            "time": "2020-04-21T07:24:21+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -4396,12 +4396,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php72.git",
-                "reference": "37b0976c78b94856543260ce09b460a7bc852747"
+                "reference": "41d115ace412a5a006a92f29a51c7d863e28482b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/37b0976c78b94856543260ce09b460a7bc852747",
-                "reference": "37b0976c78b94856543260ce09b460a7bc852747",
+                "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/41d115ace412a5a006a92f29a51c7d863e28482b",
+                "reference": "41d115ace412a5a006a92f29a51c7d863e28482b",
                 "shasum": ""
             },
             "require": {
@@ -4443,7 +4443,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2020-02-27T09:26:54+00:00"
+            "time": "2020-04-13T15:22:19+00:00"
         },
         {
             "name": "symfony/polyfill-php73",
@@ -4509,12 +4509,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php80.git",
-                "reference": "8854dc880784d2ae32908b75824754339b5c0555"
+                "reference": "cb64c503a89a49bcf6334a57639e244e488b0fe9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/8854dc880784d2ae32908b75824754339b5c0555",
-                "reference": "8854dc880784d2ae32908b75824754339b5c0555",
+                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/cb64c503a89a49bcf6334a57639e244e488b0fe9",
+                "reference": "cb64c503a89a49bcf6334a57639e244e488b0fe9",
                 "shasum": ""
             },
             "require": {
@@ -4563,7 +4563,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2020-03-03T16:59:03+00:00"
+            "time": "2020-04-23T15:16:55+00:00"
         },
         {
             "name": "symfony/service-contracts",

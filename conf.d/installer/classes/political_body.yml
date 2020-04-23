@@ -38,6 +38,7 @@ data_map:
             ita-IT: Nome
         data_type_string: ezstring
         placement: 2
+        is_required: 1
         is_searchable: 1
         can_translate: 1
         serialized_data_text: {  }

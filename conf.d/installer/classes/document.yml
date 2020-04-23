@@ -175,7 +175,19 @@ data_map:
             ita-IT: 'Link al documento vero e proprio'
         data_type_string: ezbinaryfile
         placement: 10
-        is_required: 1
+        is_required: 0
+        can_translate: 1
+        serialized_data_text: {  }
+    link:
+        identifier: link
+        serialized_description_list:
+            ita-IT: 'In alternativa al campo precedente: se il documento è esterno al sito, inserire il collegamento ipertestuale'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Link esterno al documento'
+        data_type_string: ezurl
+        placement: 11
+        is_required: 0
         can_translate: 1
         serialized_data_text: {  }
     attachments:
@@ -187,24 +199,12 @@ data_map:
             always-available: ita-IT
             ita-IT: 'Documenti allegati'
         data_type_string: ocmultibinary
-        placement: 11
+        placement: 12
         is_searchable: 1
         can_translate: 1
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
-    link:
-        identifier: link
-        serialized_description_list:
-            ita-IT: 'Se il documento è esterno al sito, inserire il collegamento ipertestuale '
-        serialized_name_list:
-            always-available: ita-IT
-            ita-IT: 'Link del documento'
-        data_type_string: ezurl
-        placement: 12
-        can_translate: 1
-        category: details
-        serialized_data_text: {  }
     area:
         identifier: area
         serialized_description_list:
