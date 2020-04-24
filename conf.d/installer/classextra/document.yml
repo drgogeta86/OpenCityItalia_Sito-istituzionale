@@ -56,6 +56,7 @@ attribute_group:
         end_time: '1'
         images: '1'
         topics: '1'
+        link: '0'
     ulteriori_informazioni:
         '*': 'Ulteriori informazioni'
         content_show_history: '1'

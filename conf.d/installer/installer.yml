@@ -1,5 +1,5 @@
 name: OpenCity
-version: 2.0.4
+version: 2.0.5
 variables:
     -
         name: identifier
@@ -410,6 +410,11 @@ steps:
         apply_to:
             - $anonymous_user
             - $members
+    -
+        type: role
+        current_version_le: 2.0.5
+        identifier: Anonymous
+        remove_from:
             - $content_Editor-Amministrazione_object
             - $content_Editor-Base_object
             - $content_Editor-Documenti_object
@@ -421,8 +426,13 @@ steps:
         identifier: Members
         apply_to:
             - $members
-            - $content_Editor-Amministrazione_object
             - $content_Editor-Base_object
+    -
+        type: role
+        current_version_le: 2.0.5
+        identifier: Members
+        remove_from:
+            - $content_Editor-Amministrazione_object
             - $content_Editor-Documenti_object
             - $content_Editor-Novita_object
             - $content_Editor-Servizi_object

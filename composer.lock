@@ -2291,12 +2291,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/ocinstaller.git",
-                "reference": "b0c3ec7d52f7d45f608dbaaa07f3a6efa7c77a22"
+                "reference": "7ef45b7e16f104d4c5add71825317b2df941c78b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/ocinstaller/zipball/b0c3ec7d52f7d45f608dbaaa07f3a6efa7c77a22",
-                "reference": "b0c3ec7d52f7d45f608dbaaa07f3a6efa7c77a22",
+                "url": "https://api.github.com/repos/OpencontentCoop/ocinstaller/zipball/7ef45b7e16f104d4c5add71825317b2df941c78b",
+                "reference": "7ef45b7e16f104d4c5add71825317b2df941c78b",
                 "shasum": ""
             },
             "require": {
@@ -2326,7 +2326,7 @@
                 "source": "https://github.com/OpencontentCoop/ocinstaller/tree/master",
                 "issues": "https://github.com/OpencontentCoop/ocinstaller/issues"
             },
-            "time": "2020-04-09T11:09:44+00:00"
+            "time": "2020-04-24T11:37:38+00:00"
         },
         {
             "name": "opencontent/ocmaintenance-ls",
@@ -2810,12 +2810,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/openpa_bootstrapitalia.git",
-                "reference": "1fb69327cadb3081e394a31fa21a124ee7227114"
+                "reference": "a8fbd016dd32bbbf0980e412dd816594fede4108"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/openpa_bootstrapitalia/zipball/1fb69327cadb3081e394a31fa21a124ee7227114",
-                "reference": "1fb69327cadb3081e394a31fa21a124ee7227114",
+                "url": "https://api.github.com/repos/OpencontentCoop/openpa_bootstrapitalia/zipball/a8fbd016dd32bbbf0980e412dd816594fede4108",
+                "reference": "a8fbd016dd32bbbf0980e412dd816594fede4108",
                 "shasum": ""
             },
             "require": {
@@ -2838,7 +2838,7 @@
                 }
             ],
             "description": "Opencontent OpenPA Bootstrap Italia",
-            "time": "2020-04-23T22:24:34+00:00"
+            "time": "2020-04-23T23:32:40+00:00"
         },
         {
             "name": "opencontent/openpa_newsletter-ls",
@@ -4031,12 +4031,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
-                "reference": "d364824a4808d47d7a0a01b61e2ef54703a267d2"
+                "reference": "bc8f774a88ff35f65cb91bc38ef3e31d27d24eb5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/d364824a4808d47d7a0a01b61e2ef54703a267d2",
-                "reference": "d364824a4808d47d7a0a01b61e2ef54703a267d2",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/bc8f774a88ff35f65cb91bc38ef3e31d27d24eb5",
+                "reference": "bc8f774a88ff35f65cb91bc38ef3e31d27d24eb5",
                 "shasum": ""
             },
             "require": {
@@ -4095,7 +4095,7 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
-            "time": "2020-04-05T06:49:38+00:00"
+            "time": "2020-04-23T21:57:44+00:00"
         },
         {
             "name": "symfony/event-dispatcher-contracts",

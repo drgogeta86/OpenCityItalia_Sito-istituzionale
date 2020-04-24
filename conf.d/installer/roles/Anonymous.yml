@@ -69,5 +69,6 @@ policies:
         FunctionName: login
         Limitation:
             SiteAccess:
+                - ezcrc32($identifier_frontend)
                 - ezcrc32(frontend)
     
