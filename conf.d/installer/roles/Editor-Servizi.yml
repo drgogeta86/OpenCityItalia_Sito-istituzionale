@@ -36,3 +36,5 @@ policies:
                 - $class_pagina_sito
             Subtree:
                 - $contenttree_OpenCity_Servizi_path_string
+            Node:
+                - $contenttree_OpenCity_Servizi_node

@@ -82,3 +82,5 @@ policies:
                 - $class_pagina_sito
             Subtree:
                 - $contenttree_OpenCity_Novita_path_string
+            Node:
+                - $contenttree_OpenCity_Novita_node
