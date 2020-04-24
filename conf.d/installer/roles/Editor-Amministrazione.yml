@@ -120,6 +120,7 @@ policies:
         Limitation:
             Class:
                 - $class_pagina_sito
+                - $class_frontpage
             Subtree:
                 - $contenttree_OpenCity_Amministrazione_path_string
             Node:

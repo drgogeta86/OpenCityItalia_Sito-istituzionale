@@ -53,6 +53,7 @@ policies:
         Limitation:
             Class:
                 - $class_pagina_sito
+                - $class_frontpage
             Subtree:
                 - $contenttree_OpenCity_Documenti-e-dati_path_string
             Node:

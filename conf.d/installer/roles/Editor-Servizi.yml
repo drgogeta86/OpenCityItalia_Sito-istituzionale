@@ -34,6 +34,7 @@ policies:
         Limitation:
             Class:
                 - $class_pagina_sito
+                - $class_frontpage
             Subtree:
                 - $contenttree_OpenCity_Servizi_path_string
             Node:
