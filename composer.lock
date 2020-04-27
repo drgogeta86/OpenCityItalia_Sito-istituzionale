@@ -81,16 +81,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.135.3",
+            "version": "3.135.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "0f6f6e8f4a44193908e18b8c7b8530b02f5bc428"
+                "reference": "fb6f4a12d9ad1b8fc1481aef61ed1f8a9fe2164b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/0f6f6e8f4a44193908e18b8c7b8530b02f5bc428",
-                "reference": "0f6f6e8f4a44193908e18b8c7b8530b02f5bc428",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/fb6f4a12d9ad1b8fc1481aef61ed1f8a9fe2164b",
+                "reference": "fb6f4a12d9ad1b8fc1481aef61ed1f8a9fe2164b",
                 "shasum": ""
             },
             "require": {
@@ -161,7 +161,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2020-04-23T18:18:24+00:00"
+            "time": "2020-04-24T18:14:04+00:00"
         },
         {
             "name": "clue/stream-filter",
@@ -2810,12 +2810,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/openpa_bootstrapitalia.git",
-                "reference": "a8fbd016dd32bbbf0980e412dd816594fede4108"
+                "reference": "3fa1bab7e581983310d374520a94f4383b792835"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/openpa_bootstrapitalia/zipball/a8fbd016dd32bbbf0980e412dd816594fede4108",
-                "reference": "a8fbd016dd32bbbf0980e412dd816594fede4108",
+                "url": "https://api.github.com/repos/OpencontentCoop/openpa_bootstrapitalia/zipball/3fa1bab7e581983310d374520a94f4383b792835",
+                "reference": "3fa1bab7e581983310d374520a94f4383b792835",
                 "shasum": ""
             },
             "require": {
@@ -2838,7 +2838,7 @@
                 }
             ],
             "description": "Opencontent OpenPA Bootstrap Italia",
-            "time": "2020-04-23T23:32:40+00:00"
+            "time": "2020-04-27T12:58:09+00:00"
         },
         {
             "name": "opencontent/openpa_newsletter-ls",
@@ -3848,12 +3848,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/cache.git",
-                "reference": "3742983cf06f05b391f96cb2f54d99116ee2f296"
+                "reference": "d37d59f9c67d81cfbf0d50422ddcdf071e936679"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/cache/zipball/3742983cf06f05b391f96cb2f54d99116ee2f296",
-                "reference": "3742983cf06f05b391f96cb2f54d99116ee2f296",
+                "url": "https://api.github.com/repos/symfony/cache/zipball/d37d59f9c67d81cfbf0d50422ddcdf071e936679",
+                "reference": "d37d59f9c67d81cfbf0d50422ddcdf071e936679",
                 "shasum": ""
             },
             "require": {
@@ -3919,7 +3919,7 @@
                 "caching",
                 "psr6"
             ],
-            "time": "2020-04-19T19:54:45+00:00"
+            "time": "2020-04-24T11:56:40+00:00"
         },
         {
             "name": "symfony/cache-contracts",
