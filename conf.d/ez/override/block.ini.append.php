@@ -17,6 +17,10 @@ AllowedTypes[]=GMapItems
 AllowedTypes[]=AreaRiservata
 AllowedTypes[]=Argomenti
 AllowedTypes[]=ListaPaginata
+AllowedTypes[]=RicercaDocumenti
+AllowedTypes[]=RicercaLuoghi
+AllowedTypes[]=HTML
+AllowedTypes[]=EventiRemoti
 
 [Singolo]
 Name=Oggetto singolo
@@ -39,6 +43,7 @@ ContainerStyle[]
 #ContainerStyle[card_children]=py-5
 Wide[]
 Wide[]=card_image
+CanAddShowAllLink=disabled
 
 [ListaAutomatica]
 Name=Lista automatica
@@ -55,6 +60,7 @@ CustomAttributes[]=ordinamento
 CustomAttributes[]=livello_profondita
 CustomAttributes[]=state_id
 CustomAttributes[]=topic_node_id
+CustomAttributes[]=tags
 CustomAttributeNames[]
 CustomAttributeNames[livello_profondita]=Livello di profondità nell'alberatura
 CustomAttributeNames[limite]=Numero di elementi
@@ -64,10 +70,10 @@ CustomAttributeNames[escludi_classi]=Tipologie di contenuto da escludere (altern
 CustomAttributeNames[ordinamento]=Ordina per
 CustomAttributeNames[state_id]=Stato
 CustomAttributeNames[topic_node_id]=Argomenti
+CustomAttributeNames[tags]=Percorsi tag
 CustomAttributeTypes[elementi_per_riga]=select
 CustomAttributeSelection_elementi_per_riga[]
 CustomAttributeSelection_elementi_per_riga[unset]=Non specificato
-CustomAttributeSelection_elementi_per_riga[1]=1
 CustomAttributeSelection_elementi_per_riga[2]=2
 CustomAttributeSelection_elementi_per_riga[3]=3
 CustomAttributeSelection_elementi_per_riga[4]=4
@@ -110,6 +116,7 @@ ContainerStyle[lista_card_children]=py-5
 ContainerStyle[lista_accordion]=py-5
 ContainerStyle[lista_banner]=py-5
 ContainerStyle[lista_carousel]=py-5
+CanAddShowAllLink=enabled
 
 [ListaManuale]
 Name=Lista manuale
@@ -123,7 +130,6 @@ CustomAttributeNames[elementi_per_riga]=Elementi per riga
 CustomAttributeTypes[elementi_per_riga]=select
 CustomAttributeSelection_elementi_per_riga[]
 CustomAttributeSelection_elementi_per_riga[unset]=Non specificato
-CustomAttributeSelection_elementi_per_riga[1]=1
 CustomAttributeSelection_elementi_per_riga[2]=2
 CustomAttributeSelection_elementi_per_riga[3]=3
 CustomAttributeSelection_elementi_per_riga[4]=4
@@ -154,6 +160,7 @@ ContainerStyle[lista_card_children]=py-5
 ContainerStyle[lista_accordion]=py-5
 ContainerStyle[lista_banner]=py-5
 ContainerStyle[lista_carousel]=py-5
+CanAddShowAllLink=disabled
 
 [Eventi]
 Name=Eventi
@@ -189,6 +196,36 @@ ViewList[]=default
 ViewName[default]=Default
 ItemsPerRow[]
 ContainerStyle[default]=py-5
+CanAddShowAllLink=disabled
+
+[EventiRemoti]
+Name=Eventi (sorgente esterna)
+ManualAddingOfItems=disabled
+CustomAttributes[]
+CustomAttributes[]=remote_url
+CustomAttributes[]=api_url
+CustomAttributes[]=size
+CustomAttributes[]=calendar_view
+CustomAttributeNames[]
+CustomAttributeNames[remote_url]=Url del sito remoto
+CustomAttributeNames[api_url]=Url api sorgente (in formato JSON Fullcalendar https://fullcalendar.io/docs/events-json-feed)
+CustomAttributeNames[size]=Ingombro
+CustomAttributeNames[calendar_view]=Visualizzazione
+CustomAttributeTypes[]
+CustomAttributeTypes[size]=select
+CustomAttributeSelection_size[small]=Piccolo
+CustomAttributeSelection_size[medium]=Medio
+CustomAttributeSelection_size[big]=Grande
+CustomAttributeTypes[calendar_view]=select
+CustomAttributeSelection_calendar_view[day_grid_4]=4 giorni
+CustomAttributeSelection_calendar_view[day_grid]=Settimana
+CustomAttributeSelection_calendar_view[month]=Mese
+ViewList[]
+ViewList[]=default
+ViewName[default]=Default
+ItemsPerRow[]
+ContainerStyle[default]=py-5
+CanAddShowAllLink=disabled
 
 [GMapItems]
 Name=Mappa
@@ -211,6 +248,7 @@ ViewName[map_nolist]=Mappa senza lista (OpenStreetMap)
 ViewName[map_wide]=Mappa wide (OpenStreetMap)
 ItemsPerRow[]
 ItemsPerRow[map_wide]=1
+CanAddShowAllLink=disabled
 
 [AreaRiservata]
 Name=Accesso Area Riservata
@@ -226,6 +264,7 @@ ViewList[]
 ViewList[]=accesso_area_riservata
 ViewName[]
 ViewName[accesso_area_riservata]=Accesso area riservata
+CanAddShowAllLink=disabled
 
 [HTML]
 Name=Codice HTML
@@ -233,6 +272,7 @@ ManualAddingOfItems=disabled
 CustomAttributes[]
 CustomAttributes[]=html
 CustomAttributeTypes[html]=text
+CustomAttributeNames[html]=HTML code (With great power comes great responsibility)
 ViewList[]
 ViewList[]=html
 ViewList[]=html_wide
@@ -240,6 +280,7 @@ ViewName[html]=html
 ViewName[html_wide]=html wide
 ItemsPerRow[]
 ItemsPerRow[html_wide]=1
+CanAddShowAllLink=disabled
 
 [Html3Colonne]
 Name=Codice HTML in 3 colonne
@@ -254,6 +295,7 @@ CustomAttributeTypes[htmlCol3]=text
 ViewList[]
 ViewList[]=html_3_colonne
 ViewName[html_3_colonne]=html
+CanAddShowAllLink=disabled
 
 [Argomenti]
 Name=Argomenti
@@ -270,6 +312,7 @@ ViewName[lista_card]=Default
 ItemsPerRow[]
 Wide[]
 Wide[]=lista_card
+CanAddShowAllLink=disabled
 
 [ListaPaginata]
 Name=Lista paginata
@@ -283,6 +326,7 @@ CustomAttributes[]=includi_classi
 CustomAttributes[]=ordinamento
 CustomAttributes[]=state_id
 CustomAttributes[]=topic_node_id
+CustomAttributes[]=tags
 CustomAttributeNames[]
 CustomAttributeNames[limite]=Numero di elementi per pagina
 CustomAttributeNames[includi_classi]=Tipologie di contenuto da includere
@@ -291,12 +335,18 @@ CustomAttributeNames[state_id]=Stato
 CustomAttributeNames[topic_node_id]=Argomenti
 CustomAttributeTypes[ordinamento]=select
 CustomAttributeTypes[includi_classi]=class_select
+CustomAttributeTypes[limite]=select
 CustomAttributeSelection_ordinamento[]
 CustomAttributeSelection_ordinamento[name]=Titolo
 CustomAttributeSelection_ordinamento[pubblicato]=Data di pubblicazione
 CustomAttributeSelection_ordinamento[modificato]=Data di ultima modifica
+CustomAttributeSelection_limite[]
+CustomAttributeSelection_limite[3]=3
+CustomAttributeSelection_limite[6]=6
+CustomAttributeSelection_limite[9]=9
 CustomAttributeTypes[state_id]=state_select
 CustomAttributeTypes[topic_node_id]=topic_select
+CustomAttributeNames[tags]=Percorsi tag
 ManualAddingOfItems=disabled
 ViewList[]
 ViewList[]=lista_paginata
@@ -306,5 +356,54 @@ TTL=3600
 ItemsPerRow[]
 ContainerStyle[]
 ContainerStyle[lista_paginata]=section py-5
+CanAddShowAllLink=enabled
+
+[RicercaDocumenti]
+Name=Ricerca Documenti
+ManualAddingOfItems=disabled
+CustomAttributes[]
+CustomAttributes[]=node_id
+UseBrowseMode[node_id]=true
+CustomAttributes[]=root_tag
+CustomAttributes[]=hide_first_level
+CustomAttributes[]=hide_empty_facets
+CustomAttributeNames[]
+CustomAttributeNames[root_tag]=Percorso tag classificazione
+CustomAttributeNames[hide_first_level]=Nascondi primo livello
+CustomAttributeNames[hide_empty_facets]=Nascondi tag senza contenuti
+CustomAttributeTypes[]
+CustomAttributeTypes[hide_first_level]=checkbox
+CustomAttributeTypes[hide_empty_facets]=checkbox
+ViewList[]=default
+ViewName[]
+ViewName[default]=Default
+ItemsPerRow[]
+ContainerStyle[]
+ContainerStyle[default]=section py-5
+CanAddShowAllLink=disabled
+
+[RicercaLuoghi]
+Name=Ricerca Luoghi
+ManualAddingOfItems=disabled
+CustomAttributes[]
+CustomAttributes[]=node_id
+UseBrowseMode[node_id]=true
+CustomAttributes[]=root_tag
+CustomAttributes[]=hide_first_level
+CustomAttributes[]=hide_empty_facets
+CustomAttributeNames[]
+CustomAttributeNames[root_tag]=Percorso tag classificazione
+CustomAttributeNames[hide_first_level]=Nascondi primo livello
+CustomAttributeNames[hide_empty_facets]=Nascondi tag senza contenuti
+CustomAttributeTypes[]
+CustomAttributeTypes[hide_first_level]=checkbox
+CustomAttributeTypes[hide_empty_facets]=checkbox
+ViewList[]=default
+ViewName[]
+ViewName[default]=Default
+ItemsPerRow[]
+ContainerStyle[]
+ContainerStyle[default]=section py-5
+CanAddShowAllLink=disabled
 
 */ ?>
