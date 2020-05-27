@@ -5,9 +5,9 @@ policies:
         FunctionName: create
         Limitation:
             Subtree:
-                - $contenttree_Trasparenza-Ammi-Tras_Enti-controllati_node
+                - $contenttree_Trasparenza-Ammi-Tras_Enti-controllati_path_string
             Class:
-                - partecipazione_societaria
+                - classid(partecipazione_societaria)
     -
         ModuleName: content
         FunctionName: create
@@ -15,13 +15,13 @@ policies:
             Subtree:
                 - $content_Amministrazione-Trasparente_path_string
             Class:
-                - link
-                - document
-                - politico
-                - employee
+                - classid(link)
+                - classid(document)
+                - classid(politico)
+                - classid(employee)
                 - $class_nota_trasparenza
                 - $class_pagina_trasparenza
-                - folder
+                - classid(folder)
             ParentClass:
                 - $class_pagina_trasparenza
     -
@@ -31,13 +31,13 @@ policies:
             Subtree:
                 - $content_Amministrazione-Trasparente_path_string
             Class:
-                - link
-                - document
-                - politico
-                - employee
+                - classid(link)
+                - classid(document)
+                - classid(politico)
+                - classid(employee)
                 - $class_nota_trasparenza
                 - $class_pagina_trasparenza
-                - folder
+                - classid(folder)
 
     -
         ModuleName: content
@@ -46,12 +46,12 @@ policies:
             Subtree:
                 - $content_Amministrazione-Trasparente_path_string
             Class:
-                - link
-                - document
-                - politico
-                - employee
+                - classid(link)
+                - classid(document)
+                - classid(politico)
+                - classid(employee)
                 - $class_nota_trasparenza
-                - folder
+                - classid(folder)
     -
         ModuleName: content
         FunctionName: remove
@@ -69,5 +69,5 @@ policies:
             Node:
                 - $content_Enti-e-fondazioni_node
             Class:
-                - public_organization
-                - private_organization
+                - classid(public_organization)
+                - classid(private_organization)
