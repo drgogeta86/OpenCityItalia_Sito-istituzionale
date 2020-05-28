@@ -1,5 +1,5 @@
 name: OpenCity
-version: 2.0.7
+version: 2.0.8
 variables:
     -
         name: identifier
@@ -60,6 +60,10 @@ steps:
         identifier: eztags_keyword
         table: eztags_keyword
         condition: $is_install_from_scratch
+    -
+        type: sql
+        current_version_le: 2.0.7
+        identifier: update_dataset_remote_id
     -
         type: state
         identifier: albotelematico

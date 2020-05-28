@@ -214,5 +214,54 @@ data_map:
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
+    organization:
+        identifier: organization
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Organizzazione pubblica che descrive l''ente'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Organizzazione pubblica'
+        data_type_string: ezobjectrelation
+        placement: 13
+        is_searchable: 1
+        can_translate: 1
+        data_text5: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<related-object><constraints><allowed-class contentclass-identifier=\"public_organization\"/></constraints></related-object>\n"
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    contact_point:
+        identifier: contact_point
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Punto di contatto principale dell''ente'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Punto di contatto'
+        data_type_string: ezobjectrelation
+        placement: 14
+        is_searchable: 1
+        can_translate: 1
+        data_text5: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<related-object><constraints><allowed-class contentclass-identifier=\"online_contact_point\"/></constraints></related-object>\n"
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    spatial:
+        identifier: spatial
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Copertura geografica dell''ente'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Copertura geografica'
+        data_type_string: eztags
+        placement: 15
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 'tag(Luoghi/Comuni italiani)'
+        data_text1: Default
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
 groups:
     - Content

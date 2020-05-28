@@ -18,5 +18,17 @@ Converters[opening_hours_specification]=FullRelationsAttributeConverter
 [CkanSettings]
 AliasList[]
 
+[GeneralSettings]
+DatasetClassIdentifier=dataset
+
+[CkanStandard]
+BaseUrl=http://ckan.example.com/api/%d/
+ApiVersion=3
+ApiKey=123456
+OrganizationBuilder=OpenPABootstrapItaliaCkanOrganizationBuilder
+Client=OpenPABootstrapItaliaCkanClient
+Converter=OpenPABootstrapItaliaCkanConverter
+DatasetGenerator=OpenPABootstrapItaliaCkanDatasetGenerator
+
 
 */?>
