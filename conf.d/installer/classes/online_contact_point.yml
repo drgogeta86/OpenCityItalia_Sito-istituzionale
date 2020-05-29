@@ -98,5 +98,4 @@ data_map:
             always-available: ita-IT
             ita-IT: ''
 groups:
-    - Territorio
     - CPSV-AP_IT
