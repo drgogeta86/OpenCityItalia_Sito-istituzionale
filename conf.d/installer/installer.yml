@@ -1,5 +1,5 @@
 name: OpenCity
-version: 2.0.8
+version: 2.0.9
 variables:
     -
         name: identifier
@@ -64,6 +64,10 @@ steps:
         type: sql
         current_version_le: 2.0.7
         identifier: update_dataset_remote_id
+    -
+        type: sql
+        current_version_le: 2.0.8
+        identifier: rename_deprecated_administrative_area_attributes
     -
         type: state
         identifier: albotelematico
@@ -220,12 +224,6 @@ steps:
         identifier: apps_container
     -
         type: class
-        identifier: public_service
-    -
-        type: classextra
-        identifier: public_service
-    -
-        type: class
         identifier: channel
     -
         type: classextra
@@ -238,40 +236,16 @@ steps:
         identifier: output
     -
         type: class
-        identifier: document
-    -
-        type: classextra
-        identifier: document
-    -
-        type: class
-        identifier: opening_hours_specification
-    -
-        type: classextra
-        identifier: opening_hours_specification
-    -
-        type: class
         identifier: rule
     -
         type: classextra
         identifier: rule
     -
         type: class
-        identifier: office
-    -
-        type: classextra
-        identifier: office
-    -
-        type: class
         identifier: homogeneous_organizational_area
     -
         type: classextra
         identifier: homogeneous_organizational_area
-    -
-        type: class
-        identifier: online_contact_point
-    -
-        type: classextra
-        identifier: online_contact_point
     -
         type: class
         identifier: time_indexed_role
@@ -286,16 +260,16 @@ steps:
         identifier: offer
     -
         type: class
-        identifier: place
+        identifier: politico
     -
         type: classextra
-        identifier: place
+        identifier: politico
     -
         type: class
-        identifier: politico
+        identifier: political_body
     -
         type: classextra
-        identifier: politico
+        identifier: political_body
     -
         type: class
         identifier: public_organization
@@ -314,6 +288,48 @@ steps:
     -
         type: classextra
         identifier: private_organization
+    -
+        type: class
+        identifier: public_service
+    -
+        type: classextra
+        identifier: public_service
+    -
+        type: class
+        identifier: office
+    -
+        type: classextra
+        identifier: office
+    -
+        type: class
+        identifier: administrative_area
+    -
+        type: classextra
+        identifier: administrative_area
+    -
+        type: class
+        identifier: document
+    -
+        type: classextra
+        identifier: document
+    -
+        type: class
+        identifier: place
+    -
+        type: classextra
+        identifier: place
+    -
+        type: class
+        identifier: online_contact_point
+    -
+        type: classextra
+        identifier: online_contact_point
+    -
+        type: class
+        identifier: opening_hours_specification
+    -
+        type: classextra
+        identifier: opening_hours_specification
     -
         type: class
         identifier: employee
@@ -338,18 +354,6 @@ steps:
     -
         type: classextra
         identifier: dataset
-    -
-        type: class
-        identifier: political_body
-    -
-        type: classextra
-        identifier: political_body
-    -
-        type: class
-        identifier: administrative_area
-    -
-        type: classextra
-        identifier: administrative_area
     -
         type: class
         identifier: partecipazione_societaria

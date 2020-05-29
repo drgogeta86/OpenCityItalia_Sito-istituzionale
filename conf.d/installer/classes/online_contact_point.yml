@@ -93,9 +93,10 @@ data_map:
         data_type_string: openpareverserelationlist
         placement: 5
         can_translate: 1
-        data_text5: '{"attribute_id_list":[4887,5914,5590],"sort":"name","order":"asc","limit":6}'
+        data_text5: '{"attribute_id_list":[classattributeid_list(administrative_area/has_online_contact_point,place/help,office/has_online_contact_point)],"sort":"name","order":"asc","limit":6}'
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
 groups:
+    - Territorio
     - CPSV-AP_IT

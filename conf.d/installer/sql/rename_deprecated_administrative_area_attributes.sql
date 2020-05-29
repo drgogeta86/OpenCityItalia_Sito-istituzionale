@@ -1,0 +1,2 @@
+UPDATE ezcontentclass_attribute SET identifier = 'removed_assessore', category = 'hidden' WHERE identifier = 'assessore' AND data_type_string = 'ezobjectrelationlist' AND contentclass_id IN (SELECT id FROM ezcontentclass WHERE identifier = 'administrative_area');
+UPDATE ezcontentclass_attribute SET identifier = 'removed_dipendenti', category = 'hidden' WHERE identifier = 'dipendenti' AND data_type_string = 'ezobjectrelationlist' AND contentclass_id IN (SELECT id FROM ezcontentclass WHERE identifier = 'administrative_area');

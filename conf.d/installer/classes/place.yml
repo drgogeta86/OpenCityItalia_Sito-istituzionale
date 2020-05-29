@@ -348,7 +348,7 @@ data_map:
         data_type_string: openpareverserelationlist
         placement: 19
         can_translate: 1
-        data_text5: '{"attribute_id_list":[5914,5638,4885,5705,5882],"sort":"name","order":"asc","limit":4}'
+        data_text5: '{"attribute_id_list":[classattributeid_list(administrative_area/has_spatial_coverage,private_organization/has_spatial_coverage,public_organization/has_spatial_coverage,political_body/has_spatial_coverage,office/has_spatial_coverage)],"sort":"name","order":"asc","limit":4}'
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
