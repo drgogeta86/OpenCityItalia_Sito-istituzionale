@@ -81,16 +81,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.138.9",
+            "version": "3.138.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "aaee8d1639e0f92a9617c4842c4fb8e527281d2a"
+                "reference": "cf197a033ad75cd9e3a90a207cf5ec8935aafa48"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/aaee8d1639e0f92a9617c4842c4fb8e527281d2a",
-                "reference": "aaee8d1639e0f92a9617c4842c4fb8e527281d2a",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/cf197a033ad75cd9e3a90a207cf5ec8935aafa48",
+                "reference": "cf197a033ad75cd9e3a90a207cf5ec8935aafa48",
                 "shasum": ""
             },
             "require": {
@@ -161,7 +161,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2020-05-27T18:13:35+00:00"
+            "time": "2020-05-28T18:12:07+00:00"
         },
         {
             "name": "clue/stream-filter",
@@ -2810,12 +2810,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/openpa_bootstrapitalia.git",
-                "reference": "37b65f3f3a79be8a02bfc7ea930ac72a25741ab7"
+                "reference": "e20d8b52b670fa354178a6bd411d39d3087b4a28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/openpa_bootstrapitalia/zipball/37b65f3f3a79be8a02bfc7ea930ac72a25741ab7",
-                "reference": "37b65f3f3a79be8a02bfc7ea930ac72a25741ab7",
+                "url": "https://api.github.com/repos/OpencontentCoop/openpa_bootstrapitalia/zipball/e20d8b52b670fa354178a6bd411d39d3087b4a28",
+                "reference": "e20d8b52b670fa354178a6bd411d39d3087b4a28",
                 "shasum": ""
             },
             "require": {
@@ -2838,7 +2838,7 @@
                 }
             ],
             "description": "Opencontent OpenPA Bootstrap Italia",
-            "time": "2020-05-28T14:14:11+00:00"
+            "time": "2020-05-28T18:40:01+00:00"
         },
         {
             "name": "opencontent/openpa_newsletter-ls",
