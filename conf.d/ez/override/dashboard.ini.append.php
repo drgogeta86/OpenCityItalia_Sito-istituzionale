@@ -4,7 +4,7 @@
 DashboardBlocks[]
 DashboardBlocks[]=drafts
 DashboardBlocks[]=latest_content
-#DashboardBlocks[]=all_latest_content
+DashboardBlocks[]=all_latest_content
 #DashboardBlocks[]=rss
 DashboardBlocks[]=usage_metrics
 DashboardBlocks[]=bookmarks

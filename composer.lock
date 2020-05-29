@@ -81,16 +81,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.138.8",
+            "version": "3.138.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "bc3d77e84d1589c9536f94043622bf56d1d68809"
+                "reference": "aaee8d1639e0f92a9617c4842c4fb8e527281d2a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/bc3d77e84d1589c9536f94043622bf56d1d68809",
-                "reference": "bc3d77e84d1589c9536f94043622bf56d1d68809",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/aaee8d1639e0f92a9617c4842c4fb8e527281d2a",
+                "reference": "aaee8d1639e0f92a9617c4842c4fb8e527281d2a",
                 "shasum": ""
             },
             "require": {
@@ -161,7 +161,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2020-05-26T18:10:59+00:00"
+            "time": "2020-05-27T18:13:35+00:00"
         },
         {
             "name": "clue/stream-filter",
@@ -1937,12 +1937,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/oceasyontology.git",
-                "reference": "66ff27c641bceb08c6e2ce50e63369829ef6cc89"
+                "reference": "02e06ae0255bc92c2eddd569744371abfa302e19"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/oceasyontology/zipball/66ff27c641bceb08c6e2ce50e63369829ef6cc89",
-                "reference": "66ff27c641bceb08c6e2ce50e63369829ef6cc89",
+                "url": "https://api.github.com/repos/OpencontentCoop/oceasyontology/zipball/02e06ae0255bc92c2eddd569744371abfa302e19",
+                "reference": "02e06ae0255bc92c2eddd569744371abfa302e19",
                 "shasum": ""
             },
             "require": {
@@ -1969,7 +1969,7 @@
                 "source": "https://github.com/OpencontentCoop/oceasyontology/tree/master",
                 "issues": "https://github.com/OpencontentCoop/oceasyontology/issues"
             },
-            "time": "2020-03-31T08:57:12+00:00"
+            "time": "2020-05-28T11:11:22+00:00"
         },
         {
             "name": "opencontent/oceditorialstuff-ls",
@@ -2810,12 +2810,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/openpa_bootstrapitalia.git",
-                "reference": "8b73ee29d623f9f8c43ab783fbdfe4471dfca62e"
+                "reference": "37b65f3f3a79be8a02bfc7ea930ac72a25741ab7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/openpa_bootstrapitalia/zipball/8b73ee29d623f9f8c43ab783fbdfe4471dfca62e",
-                "reference": "8b73ee29d623f9f8c43ab783fbdfe4471dfca62e",
+                "url": "https://api.github.com/repos/OpencontentCoop/openpa_bootstrapitalia/zipball/37b65f3f3a79be8a02bfc7ea930ac72a25741ab7",
+                "reference": "37b65f3f3a79be8a02bfc7ea930ac72a25741ab7",
                 "shasum": ""
             },
             "require": {
@@ -2838,7 +2838,7 @@
                 }
             ],
             "description": "Opencontent OpenPA Bootstrap Italia",
-            "time": "2020-05-13T14:49:03+00:00"
+            "time": "2020-05-28T14:14:11+00:00"
         },
         {
             "name": "opencontent/openpa_newsletter-ls",
@@ -3848,12 +3848,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/cache.git",
-                "reference": "7281e845c955963f71c697734de55b41d9877854"
+                "reference": "aaf9cf1923794c950976bbcc35eb19a26aad95e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/cache/zipball/7281e845c955963f71c697734de55b41d9877854",
-                "reference": "7281e845c955963f71c697734de55b41d9877854",
+                "url": "https://api.github.com/repos/symfony/cache/zipball/aaf9cf1923794c950976bbcc35eb19a26aad95e8",
+                "reference": "aaf9cf1923794c950976bbcc35eb19a26aad95e8",
                 "shasum": ""
             },
             "require": {
@@ -3919,7 +3919,7 @@
                 "caching",
                 "psr6"
             ],
-            "time": "2020-05-23T15:32:20+00:00"
+            "time": "2020-05-28T08:58:00+00:00"
         },
         {
             "name": "symfony/cache-contracts",

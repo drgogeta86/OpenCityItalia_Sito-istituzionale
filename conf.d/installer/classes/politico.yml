@@ -323,10 +323,8 @@ data_map:
             object_class: ''
             selection_type: '1'
             type: '2'
-            class_constraint_list:
-                - lista_elettorale
             default_placement: false
-        category: details
+        category: hidden
         serialized_data_text: {  }
     gruppo_politico:
         identifier: gruppo_politico
@@ -343,10 +341,8 @@ data_map:
             object_class: ''
             selection_type: '3'
             type: '2'
-            class_constraint_list:
-                - gruppo_consiliare
             default_placement: false
-        category: details
+        category: hidden
         serialized_data_text: {  }
     maggioranza_minoranza:
         identifier: maggioranza_minoranza
@@ -363,10 +359,8 @@ data_map:
             object_class: ''
             selection_type: '1'
             type: '2'
-            class_constraint_list:
-                - maggioranza_minoranza
             default_placement: false
-        category: details
+        category: hidden
         serialized_data_text: {  }
     office:
         identifier: office
