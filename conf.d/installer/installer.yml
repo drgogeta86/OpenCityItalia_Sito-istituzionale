@@ -1,5 +1,5 @@
 name: OpenCity
-version: 2.0.9
+version: 2.0.10
 variables:
     -
         name: identifier
@@ -16,6 +16,9 @@ variables:
     -
         name: members_node
         value: 12
+    -
+        name: members_path_string
+        value: /1/5/12/
     -
         name: users
         value: 5
@@ -487,3 +490,15 @@ steps:
         type: openparecaptcha
         public: $recaptcha_public
         private: $recaptcha_private
+    -
+        type: add_tag
+        identifier: Persone_Ruoli_Vicesegretario
+        parent: 'tag(Persone/Ruoli)'
+        tags:
+            -
+                keyword: Vicesegretario
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Vicesegretario

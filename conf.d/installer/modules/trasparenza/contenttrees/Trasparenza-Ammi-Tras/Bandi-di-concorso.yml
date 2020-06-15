@@ -19,7 +19,8 @@ data:
             - Tempestivo
         termine_pubblicazione:
             - '5 anni a decorrere dal primo gennaio dell''anno successivo a quello da cui decorre l''obbligo di pubblicazione'
-        fields: 'parent:2|filters:document_type = ''"Bando di concorso"''|document|publication_start_time,name,abstract,file'
+        fields: 'parent:2|filters:document_type = ''"Bando di concorso"''|order_by:-publication_start_time|document|publication_start_time,name,abstract,file'
+
 sort_data:
     sort_field: 2
     sort_order: 0

@@ -254,7 +254,7 @@ data_map:
         can_translate: 1
         data_text5:
             object_class: ''
-            selection_type: '0'
+            selection_type: '3'
             type: '2'
             class_constraint_list:
                 - argomento
@@ -356,7 +356,7 @@ data_map:
         data_type_string: openparole
         placement: 20
         can_translate: 1
-        data_text5: '{"roletype_root_tag":"Persone\/Ruoli","select":2,"view":3,"filter":["Assessore","Consigliere comunale","Membro","Membro della Giunta","Presidente del Consiglio"],"sort":1}'
+        data_text5: '{"roletype_root_tag":"Persone\/Ruoli","select":2,"view":3,"filter":[],"sort":1}'
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''

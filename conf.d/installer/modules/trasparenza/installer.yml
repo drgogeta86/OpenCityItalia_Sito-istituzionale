@@ -1,6 +1,6 @@
 name: 'OpenCity Trasparenza'
 type: module
-version: 0.0.3
+version: 0.0.4
 variables:
     -
         name: identifier
@@ -499,6 +499,7 @@ steps:
         parent: $contenttree_Trasparenza-Ammi-Tras-Altr-cont-Dati-ulte_Spese-di-rappresentanza_node
     -
         type: content
+        current_version_le: 0.0.1
         identifier: OpenCity
         update: 1
     -
@@ -515,3 +516,9 @@ steps:
         identifier: Editor-Trasparenza
         apply_to:
             - $content_Editor-Trasparenza_object
+    -
+        type: patch_content
+        current_version_le: 0.0.3
+        identifier: ea1e3d5b55670e2e6261f095a20774a5
+        attributes:
+            fields: 'parent:2|filters:document_type = ''"Bando di concorso"''|order_by:-publication_start_time|document|publication_start_time,name,abstract,file'

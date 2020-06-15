@@ -73,6 +73,7 @@ table_view:
         abstract: '1'
         content_show_published: '1'
         location: '1'
+        reading_time: '1'
     main_image:
         image: '1'
     show:
@@ -91,10 +92,12 @@ table_view:
         location: '1'
         people: '1'
         published: '1'
+        reading_time: '1'
         video: '1'
     show_label:
         license: '1'
         title: '1'
     show_link:
         attachment: '1'
+        help: '1'
         location: '1'

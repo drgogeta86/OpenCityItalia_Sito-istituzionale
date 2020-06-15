@@ -228,7 +228,7 @@ data_map:
         can_translate: 1
         data_text5:
             object_class: ''
-            selection_type: '1'
+            selection_type: '3'
             type: '2'
             class_constraint_list:
                 - topic

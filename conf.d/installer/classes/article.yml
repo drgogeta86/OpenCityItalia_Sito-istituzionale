@@ -343,9 +343,9 @@ data_map:
             selection_type: '0'
             type: '2'
             class_constraint_list:
-                - office
+                - online_contact_point
             default_placement:
-                node_id: $contenttree_Amministrazione_Uffici_node
+                node_id: $contenttree_Classificazioni_Punti-di-contatto_node
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
@@ -368,6 +368,24 @@ data_map:
         data_text1: Tree
         serialized_data_text:
             always-available: ita-IT
+            ita-IT: ''
+    reading_time:
+        identifier: reading_time
+        serialized_description_list:
+            always-available: ita-IT
+            eng-GB: 'Stima del tempo di lettura della pagina evento, in minuti primi'
+            ita-IT: 'Stima del tempo di lettura della pagina evento, in minuti primi'
+        serialized_name_list:
+            always-available: ita-IT
+            eng-GB: 'Tempo di lettura'
+            ita-IT: 'Tempo di lettura'
+        data_type_string: ezinteger
+        placement: 19
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            eng-GB: ''
             ita-IT: ''
 groups:
     - Content

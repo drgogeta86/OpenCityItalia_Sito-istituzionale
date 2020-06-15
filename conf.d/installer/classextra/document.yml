@@ -12,28 +12,12 @@ attribute_group:
         document_type: '1'
         end_time: '1'
         file: '1'
-        link: '1'
         full_description: '1'
         interroganti: '1'
+        link: '1'
         start_time: '1'
     enabled:
         '*': '1'
-    'eng-GB::accedere_al_servizio':
-        '*': 'Accedere al servizio'
-    'eng-GB::descrizione':
-        '*': Descrizione
-    'eng-GB::tempi_e_scadenze':
-        '*': 'Tempi e scadenze'
-    'eng-GB::ulteriori_informazioni':
-        '*': 'Ulteriori informazioni'
-    'ger-DE::accedere_al_servizio':
-        '*': 'Accedere al servizio'
-    'ger-DE::descrizione':
-        '*': Descrizione
-    'ger-DE::tempi_e_scadenze':
-        '*': 'Tempi e scadenze'
-    'ger-DE::ulteriori_informazioni':
-        '*': 'Ulteriori informazioni'
     'ita-IT::accedere_al_servizio':
         '*': 'Accedere al servizio'
     'ita-IT::descrizione':
@@ -75,11 +59,13 @@ table_view:
     enabled:
         '*': '1'
     in_overview:
+        content_show_published: '1'
         description: '1'
     main_image:
         image: '1'
     show:
         attachments: '1'
+        content_show_modified: '1'
         content_show_published: '1'
         content_tree_related: '1'
         document_type: '1'

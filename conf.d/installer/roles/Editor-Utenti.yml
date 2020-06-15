@@ -22,10 +22,10 @@ policies:
         Limitation:
             Subtree:
                 - $content_Editor-Base_path_string
-            Class:
-                - $class_user_group
-                - $class_user
-                - $class_employee
+                - $members_path_string
+            Node:
+                - $content_Editor-Base_node
+                - $members_node
     -
         ModuleName: content
         FunctionName: remove

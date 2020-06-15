@@ -263,5 +263,19 @@ data_map:
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
+    image:
+        identifier: image
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Immagine anteprima sito
+        data_type_string: ezimage
+        placement: 16
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
 groups:
     - Content

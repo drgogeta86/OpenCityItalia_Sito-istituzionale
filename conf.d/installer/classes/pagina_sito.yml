@@ -126,6 +126,7 @@ data_map:
         placement: 7
         is_searchable: 1
         can_translate: 1
+        data_int3: 1
         category: meta
         serialized_data_text:
             always-available: ita-IT

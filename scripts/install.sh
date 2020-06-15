@@ -98,7 +98,7 @@ if [[ -n $EZ_INSTANCE ]]; then
         echo "[info] run reindex content on ${EZ_INSTANCE}"
         sudo -E -u $EZ_USER php bin/php/updatesearchindex.php -sbackend --clean --allow-root-user
     else
-        echo "[info] RUN_INSTALLER_DEMO is set to false"
+        echo "[info] RUN_REINDEX_CONTENT is set to false"
     fi
 else
     echo "[warning] EZ_INSTANCE not found"
