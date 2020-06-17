@@ -46,6 +46,10 @@ policies:
         Limitation: {}
     -
         ModuleName: content
+        FunctionName: restore
+        Limitation: {}
+    -
+        ModuleName: content
         FunctionName: bookmark
         Limitation: {}
     -

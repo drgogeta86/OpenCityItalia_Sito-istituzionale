@@ -1,5 +1,5 @@
 name: OpenCity
-version: 2.0.10
+version: 2.0.11
 variables:
     -
         name: identifier
