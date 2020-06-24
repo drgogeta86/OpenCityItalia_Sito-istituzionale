@@ -4,15 +4,37 @@
 
 publiccodeYmlVersion: '0.2'
 name: Comunweb
-releaseDate: '2019-09-01'
+releaseDate: '2020-06-18'
 url: 'https://gitlab.com/comune-di-ala/comunweb'
-softwareVersion: 1.0.2
+softwareVersion: 2.0.0
 developmentStatus: stable
 softwareType: standalone/web
 platforms:
   - web
 usedBy:
   - Comune di Ala (TN)
+  - APSP Giudicarie Esteriori (Bleggio) (TN)
+  - APSP Pellizzano (TN)
+  - Consorzio Comuni Trentini (TN)
+  - Comune di Alfianello (BS)
+  - Comune di Borgo D'Aunania (TN)
+  - Comune di Bovegno (BS)
+  - Comune di Brescello (RE)
+  - Comune di Novella (TN)
+  - Comune di Novellara (RE)
+  - Comune di Ome (BS)
+  - Comune di Orzivecchi (BS)
+  - Comune di Pergine Valsugana (TN)
+  - Comune di Pezzaze (BS)
+  - Comune di Rovato (BS)
+  - Comune di San Michele all'Adige (TN)
+  - Comune di Tavagnacco
+  - Comune di Torbole Casaglia (BS)
+  - Comune di Udine (UD)
+  - Comune di Verolanuova (BS)
+  - Comune di Villachiara (BS)
+  - Comune Ville di Fiemme (TN)
+  - SIA Bassa Reggiana (RE)
 landingURL: 'https://gitlab.com/comune-di-ala/comunweb'
 logo: images/opencontent.png
 categories:
