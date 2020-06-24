@@ -354,7 +354,6 @@
 527	436	0	Siena	3	/202/436/527/	1559831571	611ca907cf88fe380c88d1e041a41c78	2	3
 528	436	0	Siracusa	3	/202/436/528/	1559831571	6c07970b5dd2c6507bf7dc6b55c131ad	2	3
 529	436	0	Sondrio	3	/202/436/529/	1559831571	b1b0e400a5bfbd9d523c4cba57150b6a	2	3
-578	558	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/G	3	/202/558/578/	1567007593	c708a56c4d89c8ce5bd17210b1a489de	2	19
 530	436	0	Taranto	3	/202/436/530/	1559831571	69b7d7493f8b695bb6862c02e0be3341	2	3
 531	436	0	Teramo	3	/202/436/531/	1559831572	ca830eae092a068b2d5f911131e159fa	2	3
 532	436	0	Terni	3	/202/436/532/	1559831572	ce14a70890eb94554512dba256b2c857	2	3
@@ -363,24 +362,19 @@
 535	436	0	Trento	3	/202/436/535/	1559831572	ed597d9be01a933abcd2a5088a46e443	2	3
 536	436	0	Treviso	3	/202/436/536/	1559831573	a514530d47fe6e3d5fa2d412a3aa3a86	2	3
 538	537	0	Abruzzo	3	/202/537/538/	1559831573	29f11055f399ad224b0767fc1a05ef13	2	3
-561	558	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/C	3	/202/558/561/	1567007593	9481690ad8fdacce14d9b6cd5bc11f1c	2	19
 542	537	0	Emilia-Romagna	3	/202/537/542/	1559831573	8017bdde42a278c4872815b224e54743	2	3
 539	537	0	Basilicata	3	/202/537/539/	1559831573	8ce59d509fc4914ce5c01c22c55b0c49	2	3
-564	558	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/H	3	/202/558/564/	1567007593	9985e52a234ed814d04a26cbdadf68c3	2	19
 540	537	0	Calabria	3	/202/537/540/	1559831573	0a32de3bbf9420303513bbf97fa129d9	2	3
-573	558	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/F	3	/202/558/573/	1567007593	613d610e0f60bbbbab19f19a59e5b942	2	19
 541	537	0	Campania	3	/202/537/541/	1559831573	a3e178ad57662ed7159ec5a7ba4bcb34	2	3
 572	566	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D6	4	/202/558/566/572/	1567007593	c3a984bf95aaf08e2bd3faf99f66e5de	2	19
 552	537	0	Sicilia	3	/202/537/552/	1559831573	654bd2f2469d26a729593696f76406a4	2	3
 543	537	0	Friuli-Venezia Giulia	3	/202/537/543/	1559831573	7a009b514021a62b214a768ede349411	2	3
 544	537	0	Lazio	3	/202/537/544/	1559831573	1300ef1cf25e9df0a721ad726a21b6d0	2	3
 545	537	0	Liguria	3	/202/537/545/	1559831573	5eb64e0261e24886e77f23389b8dcf3c	2	3
-575	566	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D7	4	/202/558/566/575/	1567007593	818b8875b8364e1b2fdc41b2e6bd6348	2	19
 546	537	0	Lombardia	3	/202/537/546/	1559831573	1f55e1a05492f3f56ffaa44b432140e4	2	3
 547	537	0	Marche	3	/202/537/547/	1559831573	7806c94ff6da519eca5237fcdc37a2ef	2	3
 553	537	0	Toscana	3	/202/537/553/	1559831573	63f4692109ba32840c5b3ae146cac8f3	2	3
 548	537	0	Molise	3	/202/537/548/	1559831573	d42f32be40fb6aa060308fa663878181	2	3
-559	558	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/B	3	/202/558/559/	1567084852	b10194fb67e1cdfcb7868aa05e2f3d9c	2	19
 549	537	0	Piemonte	3	/202/537/549/	1559831573	238c256fe02b6ee48e5f359fa813a189	2	3
 550	537	0	Puglia	3	/202/537/550/	1559831573	9a600e6fb6344f4abdd720753a6c54d1	2	3
 551	537	0	Sardegna	3	/202/537/551/	1559831573	553eff530891b1b132a2a2972229fac1	2	3
@@ -391,7 +385,12 @@
 557	537	0	Veneto	3	/202/537/557/	1559831574	2eeb9720bd1d56198b82f5dc82481ad8	2	3
 584	566	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D9	4	/202/558/566/584/	1567007593	1f367c3dfb12de8ef083a59377a31033	2	19
 1005	229	0	Albanella	3	/202/229/1005/	1561060407	53060308402d99c849a929cdb37123a3	2	3
-585	559	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/B3	4	/202/558/559/585/	1567007593	91c16b8d780ff01ddc0cb2ab7487b387	2	19
+585	559	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/B3	4	/202/558/559/585/	1593027199	91c16b8d780ff01ddc0cb2ab7487b387	2	19
+575	566	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D7	4	/202/558/566/575/	1593027200	818b8875b8364e1b2fdc41b2e6bd6348	2	19
+561	558	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/C	3	/202/558/561/	1593027199	9481690ad8fdacce14d9b6cd5bc11f1c	2	19
+578	558	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/G	3	/202/558/578/	1593027203	c708a56c4d89c8ce5bd17210b1a489de	2	19
+573	558	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/F	3	/202/558/573/	1593027202	613d610e0f60bbbbab19f19a59e5b942	2	19
+564	558	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/H	3	/202/558/564/	1593027203	9985e52a234ed814d04a26cbdadf68c3	2	19
 2527	229	0	Castell'Alfero	3	/202/229/2527/	1561060740	c6c6aec96873f0ccd4e63b6624da44b4	2	3
 1458	229	0	Basciano	3	/202/229/1458/	1561060500	967ddaa1b79e21e234a8ac244ee9e5fa	2	3
 811	806	0	Chiusura filiale	4	/790/805/806/811/	1559831619	d8ba667f84c1477b87aa149df70f28f3	2	3
@@ -12211,7 +12210,6 @@
 12470	10071	0	64.92.0 - Altre attività creditizie	3	/586/10071/12470/	1563612965	895cf7b7b076eef29559924117050f6d	2	3
 12471	10071	0	64.92.01 - Attività dei consorzi di garanzia collettiva fidi	3	/586/10071/12471/	1563612965	7910799179ea7e3a0bc944bafb87a993	2	3
 12472	10071	0	64.92.09 - Altre attività creditizie nca	3	/586/10071/12472/	1563612965	2066ea8a7fafbc07554b8c211db56fae	2	3
-782	0	0	Persone	1	/782/	1568206735	a36709015529f6e428fd8b972aeacebb	2	3
 12473	10071	0	64.99 - Altre attività di servizi finanziari nca (escluse le assicurazioni e i fondi pensione)	3	/586/10071/12473/	1563612965	ac174689fdd1f54eca6e31ba27cec86c	2	3
 12474	10071	0	64.99.1 - Attività di intermediazione mobiliare	3	/586/10071/12474/	1563612965	dadace5ab5856ed16a882ee339e53a51	2	3
 12475	10071	0	64.99.10 - Attività di intermediazione mobiliare	3	/586/10071/12475/	1563612965	a1c7a707aa06c485436e181f89c61646	2	3
@@ -12226,6 +12224,7 @@
 12484	10071	0	64.99.6 - Altre intermediazioni finanziarie nca	3	/586/10071/12484/	1563612965	b35efd57b8a92d3f2195f07b47275759	2	3
 12485	10071	0	64.99.60 - Altre intermediazioni finanziarie nca	3	/586/10071/12485/	1563612965	fbffdff3752af8a6aa1536913f458274	2	3
 12486	10071	0	65 - ASSICURAZIONI; RIASSICURAZIONI E FONDI PENSIONE (ESCLUSE LE ASSICURAZIONI SOCIALI OBBLIGATORIE)	3	/586/10071/12486/	1563612965	285b30267b9f257badc138450521bda2	2	3
+782	0	0	Persone	1	/782/	1593027106	a36709015529f6e428fd8b972aeacebb	2	3
 12487	10071	0	65.1 - ASSICURAZIONI	3	/586/10071/12487/	1563612965	15896f1d4c0c34fa1fe05eca747e9aa7	2	3
 12488	10071	0	65.11 - Assicurazioni sulla vita	3	/586/10071/12488/	1563612965	c37f032341ba6de3f153a562230fd51a	2	3
 12489	10071	0	65.11.0 - Assicurazioni sulla vita	3	/586/10071/12489/	1563612965	73e1760874b2005d4a49b89696795003	2	3
@@ -12545,7 +12544,6 @@
 12799	10071	0	81.3 - CURA E MANUTENZIONE DEL PAESAGGIO	3	/586/10071/12799/	1563612966	42074afe04de4ed67e1a0a7fe0f5b28c	2	3
 12800	10071	0	81.30 - Cura e manutenzione del paesaggio	3	/586/10071/12800/	1563612966	974e0733b5149fc0fec62939d0dcb371	2	3
 12801	10071	0	81.30.0 - Cura e manutenzione del paesaggio (inclusi parchi; giardini e aiuole)	3	/586/10071/12801/	1563612966	f980b471ddb8534eb69f1a1ba42e83be	2	3
-202	0	0	Luoghi	1	/202/	1567618381	c3966d6effdf4528f0b9c288dfb7f0b5	2	3
 12802	10071	0	81.30.00 - Cura e manutenzione del paesaggio (inclusi parchi; giardini e aiuole)	3	/586/10071/12802/	1563612966	a09dee28f28630b72b3018c076cd17dc	2	3
 12803	10071	0	82 - ATTIVITÀ DI SUPPORTO PER LE FUNZIONI D'UFFICIO E ALTRI SERVIZI DI SUPPORTO ALLE IMPRESE	3	/586/10071/12803/	1563612966	16ef3175e78e841f77783ab4895a3c44	2	3
 12804	10071	0	82.1 - ATTIVITÀ DI SUPPORTO PER LE FUNZIONI D'UFFICIO	3	/586/10071/12804/	1563612966	81573e36ff987add61b6c2391b2cbe81	2	3
@@ -12591,7 +12589,6 @@
 12844	10071	0	O - AMMINISTRAZIONE PUBBLICA E DIFESA; ASSICURAZIONE SOCIALE OBBLIGATORIA	3	/586/10071/12844/	1563612966	309517bcb3d3c59e1e46380ab573b81c	2	3
 12845	10071	0	84 - AMMINISTRAZIONE PUBBLICA E DIFESA; ASSICURAZIONE SOCIALE OBBLIGATORIA	3	/586/10071/12845/	1563612966	7009db04e57e1bd4f839390e4ab355e9	2	3
 12846	10071	0	84.1 - AMMINISTRAZIONE PUBBLICA: AMMINISTRAZIONE GENERALE; ECONOMICA E SOCIALE	3	/586/10071/12846/	1563612966	9302a239286aca8f541a06508bc158fd	2	3
-558	202	0	Tipi di luogo	2	/202/558/	1567618381	a831f1c0d9dbdbb0d7771fc7ad01f543	2	3
 12847	10071	0	84.11 - Attività generali di amministrazione pubblica	3	/586/10071/12847/	1563612966	65316e15f603bc391ca67c1c5eb9274e	2	3
 12848	10071	0	84.11.1 - Attività degli organi legislativi ed esecutivi; centrali e locali; amministrazione finanziaria; amministrazioni regionali; provinciali e comunali	3	/586/10071/12848/	1563612966	3b2dce3cbca9d257dd157f935c0454d5	2	3
 12849	10071	0	84.11.10 - Attività degli organi legislativi ed esecutivi; centrali e locali; amministrazione finanziaria; amministrazioni regionali; provinciali e comunali	3	/586/10071/12849/	1563612966	18d7fb51b902ea6064b716da14ccc62e	2	3
@@ -12704,10 +12701,8 @@
 13062	13056	0	Commissione consiliare	3	/586/13056/13062/	1566467569	047d07009e30e10d9906618ff7b2a19d	2	2
 13063	13056	0	Commissione permanente	3	/586/13056/13063/	1566467604	03c17f7848e6da8bd583a252a193128a	2	2
 13064	13056	0	Difensore civico	3	/586/13056/13064/	1566467621	37b548f7df401799c799b74c67340cfb	2	2
-13074	559	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/B1	4	/202/558/559/13074/	1567084852	b3b1b03f945af841b48cbfd4f553251c	2	19
 13065	13056	0	Presidenza del Consiglio comunale	3	/586/13056/13065/	1566468269	f4d3eb173cbde0d6af887792c615c6fb	2	2
 13056	586	0	Tipo di organo politico	2	/586/13056/	1566985981	939a706c80d1ecc9ee60ac28e8102caf	2	2
-13072	560	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/A4	4	/202/558/560/13072/	1567007593	b734e1980c301265ce079790250b0988	2	19
 13076	561	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/C1	4	/202/558/561/13076/	1567007593	c694b002ed88c189a55635cb1b77b082	2	19
 13077	561	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/C2	4	/202/558/561/13077/	1567007593	c04ed94b9dcdf061515267453554cf1d	2	19
 13078	566	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D1	4	/202/558/566/13078/	1567007593	da6723a2bc8d6f2813d76a0ebe24e0bd	2	19
@@ -12722,18 +12717,18 @@
 13099	570	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E5	4	/202/558/570/13099/	1567007593	440b70aa5431cd2ea1ab91a47aca0339	2	19
 13101	570	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E7	4	/202/558/570/13101/	1567007593	4e0a159208705c24fe54689596b2952b	2	19
 13103	570	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E10	4	/202/558/570/13103/	1567007593	dfd905d56c45bce2769dfe46607d48d4	2	19
-13105	570	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E12	4	/202/558/570/13105/	1567007593	94e1f9b6cc58d8a6934f5f63c15e459e	2	19
 13089	564	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/H1	4	/202/558/564/13089/	1567007593	f13fb03b6810c3c17e93c8b113ad351b	2	19
 13066	564	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/H2	4	/202/558/564/13066/	1567007593	e889c070f2ebcb5022622216ba4fb772	2	19
 13067	564	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/H4	4	/202/558/564/13067/	1567007593	870d84967b4c0d50df70ddf7ff406b3b	2	19
 13068	564	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/H6	4	/202/558/564/13068/	1567007593	d8c584ab9d05095a36c871773b490587	2	19
 13093	564	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/H8	4	/202/558/564/13093/	1567007593	387ddd9180b46d2868f1b2e2bc63a1bd	2	19
-13070	560	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/A2	4	/202/558/560/13070/	1567007593	440fdfbccaee2b12e11e7596d1433246	2	19
+13072	560	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/A4	4	/202/558/560/13072/	1593027198	b734e1980c301265ce079790250b0988	2	19
+13074	559	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/B1	4	/202/558/559/13074/	1593027199	b3b1b03f945af841b48cbfd4f553251c	2	19
+13105	570	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E12	4	/202/558/570/13105/	1593027201	94e1f9b6cc58d8a6934f5f63c15e459e	2	19
 802	791	0	http://publications.europa.eu/resource/authority/data-theme/TECH	2	/791/802/	1567154663	eaf289c4ea390d25f4348df0b73ee7a0	2	19
 803	791	0	http://publications.europa.eu/resource/authority/data-theme/INTR	2	/791/803/	1567154680	da8fe49bd1bee6c37267a0f2d5de4aec	2	19
 13132	13128	0	Creative Commons Attribution 3.0 Unported (CC BY 3.0)	3	/76/13128/13132/	1566913376	d1dc13bd7dcf9b55d3296df805db5007	2	3
 124	13127	0	ODC Public Domain Dedication and License (PDDL)	3	/76/13127/124/	1566913150	2439a33201aed43c1e1966facf84451c	2	3
-13116	558	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/I	3	/202/558/13116/	1567007593	91b355c851a0fe62ee6900a7e1269538	2	19
 13137	13128	0	Italian Open Data License 2.0 (IODL 2.0)	3	/76/13128/13137/	1566913376	8250641b5517e6e9414e0c44e413e565	2	3
 13133	13128	0	Creative Commons Attribution 4.0 International (CC BY 4.0)	3	/76/13128/13133/	1566913376	cd32b56663528a3431421358ed67bd25	2	3
 13129	13128	0	Creative Commons Attribution 1.0 Generic (CC BY 1.0)	3	/76/13128/13129/	1566913376	86de94081e3e499c80c561bdec2f75b6	2	3
@@ -12760,19 +12755,19 @@
 13108	570	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E15	4	/202/558/570/13108/	1567007593	9a5b9f187ef2d4b50624fa74a3f4f3dc	2	19
 13109	570	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E16	4	/202/558/570/13109/	1567007593	7eb80e05836a95793b5be8322b3cb93f	2	19
 76	0	0	Licenze	1	/76/	1566995978	fe49fbb2189273062c03102081ca0425	2	3
-13111	570	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E18	4	/202/558/570/13111/	1567007593	7b468613f9dff79ea313d782a4866646	2	19
 13118	573	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/F1	4	/202/558/573/13118/	1567007593	c7a08a5552f22e1ddc45fa8913ba5723	2	19
 13120	573	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/F3	4	/202/558/573/13120/	1567007593	e6277e7e4c59fb897330d6a3f69e4c00	2	19
 13121	573	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/F4	4	/202/558/573/13121/	1567007593	e94b9d14808f681d154e7db90b4957a2	2	19
 13123	578	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/G1	4	/202/558/578/13123/	1567007593	f4d938dce8844c11d8a2b712f3ce2aef	2	19
 13125	578	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/G3	4	/202/558/578/13125/	1567007593	07493463c845fbe73c44aad670ed2d82	2	19
-13113	558	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/L	3	/202/558/13113/	1567007593	2c32b96f54e473f9c501915b49a09894	2	19
 13107	570	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E14	4	/202/558/570/13107/	1567007593	979cf9eab842331ad8c9a134746ca144	2	19
 13153	13152	0	Creative Commons Attribution–NonCommercial 4.0 International (CC BY-NC 4.0)	3	/76/13152/13153/	1566913756	a7629e9e60ae236dc0778df624992198	2	3
 13154	13152	0	Creative Commons Attribution-NonCommercial 3.0 Unported (CC BY-NC 3.0)	3	/76/13152/13154/	1566913756	fdb50dee35f957ef49ac97a13dbb32ca	2	3
 13155	13152	0	Creative Commons Attribuzione - Non Commerciale 3.0 Italia (CC BY-NC 3.0 IT)	3	/76/13152/13155/	1566913756	f5e84d9ac7137963ffb1bc99deb41e66	2	3
 13165	13152	0	Creative Commons Attribuzione–Non Commerciale - Condivisione allo stesso modo 2.5 Italia (CC BY-NC-SA 2.5 IT)	3	/76/13152/13165/	1566913756	a0d9303cf193cfb4c926ff05ce8b0955	2	3
 13156	13152	0	Creative Commons Attribution-NonCommercial 2.5 Generic (CC BY-NC 2.5)	3	/76/13152/13156/	1566913756	082f392ffdda1a8f5d4535f78edf842d	2	3
+13116	558	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/I	3	/202/558/13116/	1593027204	91b355c851a0fe62ee6900a7e1269538	2	19
+13113	558	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/L	3	/202/558/13113/	1593027204	2c32b96f54e473f9c501915b49a09894	2	19
 13157	13152	0	Creative Commons Attribuzione - Non Commerciale 2.5 Italia (CC BY-NC 2.5 IT)	3	/76/13152/13157/	1566913756	4823a90b580be5db295e6e578b998dd2	2	3
 13158	13152	0	Creative Commons Attribution-NonCommercial 2.0 Generic (CC BY-NC 2.0)	3	/76/13152/13158/	1566913756	5d67d522234b9359f5a57b3aea172a4d	2	3
 13159	13152	0	Creative Commons Attribuzione - Non Commerciale 2.0 Italia (CC BY-NC 2.0 IT)	3	/76/13152/13159/	1566913756	627a8333b31aebf3761f4a4929c5c29c	2	3
@@ -12804,31 +12799,24 @@
 13177	13169	0	https://w3id.org/italia/controlled-vocabulary/licences/B28_CCBYND10	3	/76/13169/13177/	1566995826	0fb191bc551b14a80b7166ef9aad8b1d	2	19
 13178	13169	0	https://w3id.org/italia/controlled-vocabulary/licences/B29_CCBYNDNC10	3	/76/13169/13178/	1566995826	f8b5a25efc655f90f43c2f5ac8a9fcc8	2	19
 13100	570	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E6	4	/202/558/570/13100/	1567007593	004a0e98b741c3754226efc7912af6a7	2	19
-13071	560	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/A3	4	/202/558/560/13071/	1567007593	1a926a13707c4671740cc73a3b30f270	2	19
 13082	566	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D8	4	/202/558/566/13082/	1567007593	e7c36b3bbb5b8b39f7602b41e98102ac	2	19
 13079	566	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D2	4	/202/558/566/13079/	1567007593	b50fc20f6bfbea54dd59d6ece2ebb1af	2	19
-13073	560	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/A5	4	/202/558/560/13073/	1567007593	db87786813ba8a89f95de420b6b9a4a5	2	19
 13087	566	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D14	4	/202/558/566/13087/	1567007593	f7093078c6f2115e02de146c7515e882	2	19
 13075	559	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/B2	4	/202/558/559/13075/	1567007593	643123d2e863b81d7d9aa365a48d097b	2	19
 13106	570	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E13	4	/202/558/570/13106/	1567007593	dda707ad1276ed70fcac34fff272f21e	2	19
 563	566	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D4	4	/202/558/566/563/	1567007593	7010203eabcfd7aa638a849db8513509	2	19
-13095	570	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E1	4	/202/558/570/13095/	1567007593	fae587ee23b225a8f447c4aab6d134b0	2	19
 13122	573	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/F5	4	/202/558/573/13122/	1567007593	7eda483bdc6c8d1a5b5992687cfeea5a	2	19
 13085	566	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D12	4	/202/558/566/13085/	1567007593	c509f129e3ac43f3248da5c71997782a	2	19
 13110	570	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E17	4	/202/558/570/13110/	1567007593	fcb0a5f6d5a5de60c9878922663cbcfc	2	19
+13073	560	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/A5	4	/202/558/560/13073/	1593027198	db87786813ba8a89f95de420b6b9a4a5	2	19
+13095	570	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E1	4	/202/558/570/13095/	1593027200	fae587ee23b225a8f447c4aab6d134b0	2	19
 13098	570	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E4	4	/202/558/570/13098/	1567007593	c74e2dfe437a78143280864fc6c9eceb	2	19
-13102	570	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E9	4	/202/558/570/13102/	1567007593	32e72896f5aadc030bffbeb445b2c8e7	2	19
-566	558	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D	3	/202/558/566/	1567618381	9ebae2d16703abb2d730e574d2f0d58e	2	19
-783	782	0	Ruoli	2	/782/783/	1568206735	5376ded36f7895be423a5efc3d3f791f	2	3
 13124	578	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/G2	4	/202/558/578/13124/	1567007593	411b24a9c6aa556ebdb4be543a1bf2f2	2	19
-13112	570	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E19	4	/202/558/570/13112/	1567007593	44c71d726148299522458507678c09ba	2	19
 13104	570	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E11	4	/202/558/570/13104/	1567007593	3008e8095e315d827ee0ac775baa4d94	2	19
 13119	573	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/F2	4	/202/558/573/13119/	1567007593	0e8b6c56ab7d21368252f908e4000e35	2	19
 13115	13113	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/L2	4	/202/558/13113/13115/	1567007593	d59c6cbe4a724645afb85fc876fa6164	2	19
 13069	560	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/A1	4	/202/558/560/13069/	1567007593	496505a5c89a36cec271bdba84189029	2	19
 13196	9009	9011	Decreto sindacale	6	/69/131/8997/12999/9009/13196/	1567080569	dbd34e2e25854dfb7c040f7c2004c5c8	2	3
-560	558	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/A	3	/202/558/560/	1567007593	e6485b7b8a2c2fe0ae843c1fe89645b0	2	19
-13126	578	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/G4	4	/202/558/578/13126/	1567007593	74b6ff1f79ec11ef6dae4d7a58fb513f	2	19
 13197	9012	9015	Deliberazione consiliare	6	/69/131/8997/12999/9012/13197/	1567080569	9bf4ba5a77b139b6503aba8e569c2806	2	3
 13090	564	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/H3	4	/202/558/564/13090/	1567007593	0d9ae42c06129be9ccd63ba9224a56fe	2	19
 13091	564	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/H5	4	/202/558/564/13091/	1567007593	40e1949b3c2cb714161966da9fe40999	2	19
@@ -12858,9 +12846,12 @@
 804	791	0	Trasporti	2	/791/804/	1567521454	dddc7a20975635c06be77f9b3af7d091	2	19
 71	70	0	JSON	3	/69/70/71/	1567490638	d6cc1c5436dee8049315d21028670034	2	3
 791	0	0	Data themes - eurovocs	1	/791/	1567521454	f40db1db76c7908fa7f871209590aa69	2	3
-570	558	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E	3	/202/558/570/	1567609255	b4aa79ad6a2199d7703adadbcd912831	2	19
-13187	570	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E8	4	/202/558/570/13187/	1567609255	8ef487b209cd3ca6dbcb5c9fb8d24e21	2	19
 13213	570	13187	Chiese	4	/202/558/570/13213/	1567609255	0846aeaee72acb1c4020da4b5ade0e19	2	2
+566	558	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D	3	/202/558/566/	1593027200	9ebae2d16703abb2d730e574d2f0d58e	2	19
+570	558	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E	3	/202/558/570/	1593027202	b4aa79ad6a2199d7703adadbcd912831	2	19
+13126	578	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/G4	4	/202/558/578/13126/	1593027203	74b6ff1f79ec11ef6dae4d7a58fb513f	2	19
+13102	570	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E9	4	/202/558/570/13102/	1593027201	32e72896f5aadc030bffbeb445b2c8e7	2	19
+13112	570	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E19	4	/202/558/570/13112/	1593027202	44c71d726148299522458507678c09ba	2	19
 13224	985	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/7	3	/790/985/13224/	1568280081	840097f71194509c4df93926db1731d7	2	19
 13232	985	986	elezioni	3	/790/985/13232/	1568280081	a1806c65bcb5299169bad49d359f4782	2	3
 986	985	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/1	3	/790/985/986/	1568280081	66d27d4fc449d46051f2369bba215aed	2	19
@@ -13100,3 +13091,73 @@
 13587	143	0	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/5	3	/141/143/13587/	1573036895	fdbabade9b6f9eeef3e0da95edf852d9	2	23
 13589	13587	0	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/51	4	/141/143/13587/13589/	1573036895	08e4d12aea446960ceeb76720aa473e5	2	23
 13602	13589	0	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/516	5	/141/143/13587/13589/13602/	1573036895	69f9bc409c048609dd580645321e2eb0	2	23
+1	783	0	Vicesegretario	3	/782/783/1/	1593027106	af1cf36ff529a4f0f8c1e973155de59c	2	3
+783	782	0	Ruoli	2	/782/783/	1593027106	5376ded36f7895be423a5efc3d3f791f	2	3
+2	558	560	Architettura militare e fortificata	3	/202/558/2/	1593027197	9417f24b862e765a88fc3370d9f0f512	2	3
+3	560	13070	Cassero	4	/202/558/560/3/	1593027198	6a759e5079deae2cb872c9d969e69880	2	3
+5	560	13072	Rocca	4	/202/558/560/5/	1593027198	de286480e65be44c8a4e64f3b832a877	2	3
+13070	560	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/A2	4	/202/558/560/13070/	1593027198	440fdfbccaee2b12e11e7596d1433246	2	19
+4	560	13071	Cinta muraria	4	/202/558/560/4/	1593027198	84bcf784ee4b20099ee69b8fb195ae6a	2	3
+6	560	13073	Torrione	4	/202/558/560/6/	1593027198	8c2e6452155193dd70a3f7a3eb937aa9	2	3
+13071	560	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/A3	4	/202/558/560/13071/	1593027198	1a926a13707c4671740cc73a3b30f270	2	19
+7	558	559	Architettura residenziale	3	/202/558/7/	1593027199	f20f76edbc659cd0afbdd710344d4660	2	3
+560	558	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/A	3	/202/558/560/	1593027198	e6485b7b8a2c2fe0ae843c1fe89645b0	2	19
+202	0	0	Luoghi	1	/202/	1593027206	c3966d6effdf4528f0b9c288dfb7f0b5	2	3
+8	559	13074	Palazzina	4	/202/558/559/8/	1593027199	35435880dd97394fbe5f24c978bdf634	2	3
+9	559	585	Villino	4	/202/558/559/9/	1593027199	b7dd5ee4854d862fc9d6e77977edadc8	2	3
+559	558	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/B	3	/202/558/559/	1593027199	b10194fb67e1cdfcb7868aa05e2f3d9c	2	19
+10	558	561	Area archeologica	3	/202/558/10/	1593027199	265901274842b88ec5ac0428b456da3b	2	3
+11	558	561	AREA ARCHEOLOGICA	3	/202/558/11/	1593027199	7c0b91fce9fe25c406cf431bb1b53cb2	2	3
+21	570	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E14	4	/202/558/570/21/	1593027202	e4cecdbce5300f1309161e0d933d6d0d	2	19
+12	558	566	Centro per la cultura	3	/202/558/12/	1593027199	2984295a58b9032f49ac3e98455c0203	2	3
+13	558	566	ARCHITETTURA PER LA CULTURA, LA RICERCA SCIENTIFICA E LA SCUOLA	3	/202/558/13/	1593027199	a18b908fb39fb64329e9896c93ab9c5a	2	3
+14	566	575	Antiquarium	4	/202/558/566/14/	1593027200	1290c1b5f24157cea7f01bf818cd800c	2	3
+15	558	570	Edificio di culto	3	/202/558/15/	1593027200	0e7c800e32b8faf57c76a475a5acbc0d	2	3
+28	558	578	Parco e giardino	3	/202/558/28/	1593027203	3561950e7ec28f0a629ef175fec87294	2	3
+16	558	570	ARCHITETTURA RELIGIOSA	3	/202/558/16/	1593027200	38861687fd9c148e64402b10aa82a846	2	3
+17	570	13095	Badia	4	/202/558/570/17/	1593027200	324d4f59bef535ea977500ae4d80a3c3	2	3
+18	570	13187	Martyrium	4	/202/558/570/18/	1593027201	d67bcb65e68b6acb0a989eb68288c35b	2	3
+13187	570	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E8	4	/202/558/570/13187/	1593027201	8ef487b209cd3ca6dbcb5c9fb8d24e21	2	19
+19	570	13102	Camposanto	4	/202/558/570/19/	1593027201	70b56940105bf793413c84a113c98fc1	2	3
+20	570	13105	Capitello votivo	4	/202/558/570/20/	1593027201	4c168d92bed2d75da900acc7301d3854	2	3
+23	570	22	Laura	4	/202/558/570/23/	1593027202	724b9cdc1c8c8013ccd3c6101ea47314	2	3
+29	558	578	ARCHITETTURA DEI PARCHI E GIARDINI	3	/202/558/29/	1593027203	47105011ddfc09f8119f4882ed91e8f0	2	3
+22	570	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E15	4	/202/558/570/22/	1593027202	9bde0f221c60630654de126f6c5268b1	2	19
+30	578	13126	Percorsi vari	4	/202/558/578/30/	1593027203	53635ce4da0daa1d28f7c20cc1aa7f7e	2	3
+24	570	13111	Tempietto 	4	/202/558/570/24/	1593027202	b56e2134a1f5cd5892c89b19c61c08de	2	3
+13111	570	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E18	4	/202/558/570/13111/	1593027202	7b468613f9dff79ea313d782a4866646	2	19
+25	570	13112	Tomba	4	/202/558/570/25/	1593027202	faf9686e63b18ee458434151781356fb	2	3
+26	558	573	Monumento e complesso monumentale	3	/202/558/26/	1593027202	5013b611c146a0b2829d6f4f37a1cf50	2	3
+27	558	573	ARCHITETTURA COMMEMORATIVA	3	/202/558/27/	1593027202	e2a68bbc0991fc2c8d8ad79f4ef86abc	2	3
+35	13116	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/I4	4	/202/558/13116/35/	1593027204	437c595f571a8291c0cb07159c482c96	2	19
+31	558	564	Bellezza naturale	3	/202/558/31/	1593027203	83f27369bb05ce14b3a5e9ad68091337	2	3
+38	13116	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/I7	4	/202/558/13116/38/	1593027204	f339f9297e9d68e4319c7e2993e5453b	2	19
+32	558	13116	Luogo per lo sport e il tempo libero	3	/202/558/32/	1593027204	5972b21d885423e5f0af19c0aea96e8f	2	3
+33	13116	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/I2	4	/202/558/13116/33/	1593027204	79f6ef01d7cf05679a6912e50ab144bd	2	19
+34	13116	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/I3	4	/202/558/13116/34/	1593027204	9f9a9474ce1f7eb5c91b05d283944dfc	2	19
+37	13116	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/I6	4	/202/558/13116/37/	1593027204	a16b06446b51287b224aa081d5ecf139	2	19
+36	13116	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/I5	4	/202/558/13116/36/	1593027204	84e3fa29635369ac63aef3260dde6bb8	2	19
+39	558	13113	Architettura commerciale	3	/202/558/39/	1593027204	54dc03f624834baa2cbf4ac558dfca96	2	3
+40	558	13113	ARCHITETTURA COMMERCIALE	3	/202/558/40/	1593027204	49101f228a4a168c0c81889bb5635aa8	2	3
+43	558	41	ARCHITETTURA OSPEDALIERA, ASSISTENZIALE E PER LA TUTELA SOCIALE	3	/202/558/43/	1593027205	5e5648ab7e403163edd2b7b6c500fe86	2	3
+42	558	41	Centro per l'assistenza e la tutela sociale	3	/202/558/42/	1593027205	9bf03d29c079905d4a7f1ec90a86bdef	2	3
+45	41	44	Casa di riposo	4	/202/558/41/45/	1593027205	b8f916e645585bb582d0a0bc74002d25	2	3
+44	41	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/M1	4	/202/558/41/44/	1593027205	e91b51cf24d16fd90a5f14e5704d0814	2	19
+46	41	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/M2	4	/202/558/41/46/	1593027205	ef884e8c957ab9e967e9eca3c48cff92	2	19
+41	558	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/M	3	/202/558/41/	1593027205	06d4e85e745b80000d8be6c762f804cc	2	19
+47	41	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/M3	4	/202/558/41/47/	1593027205	fd57ffeae3de29d4613d61dcd519a88b	2	19
+53	48	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/N3	4	/202/558/48/53/	1593027205	7c970c365e37bbbfdd96d9549b3a207c	2	19
+49	558	48	Infrastruttura e impianto	3	/202/558/49/	1593027205	600fd859cfc063b240a0a03ecdf7dcc0	2	3
+50	558	48	ARCHITETTURA PER LE INFRASTRUTTURE E IMPIANTI	3	/202/558/50/	1593027205	9ab433f298741c5b3457ebb625b2e8f1	2	3
+58	55	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/O1	4	/202/558/55/58/	1593027206	3126fb60974e8cf9fccaf2d147c1b6da	2	19
+48	558	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/N	3	/202/558/48/	1593027206	d1cff0dd6d3d8ebd7cd66856adbce022	2	19
+54	48	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/N4	4	/202/558/48/54/	1593027206	8192693d46c99ce33e9660427d4cef87	2	19
+55	558	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/O	3	/202/558/55/	1593027206	36dfd03389f4228da8bf602160dfd9cd	2	19
+51	48	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/N1	4	/202/558/48/51/	1593027205	cf2f177dbc0ca16d5b649944b9776799	2	19
+61	55	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/O4	4	/202/558/55/61/	1593027206	1d58b9a0c683815683229a4abfa034b5	2	19
+558	202	0	Tipi di luogo	2	/202/558/	1593027206	a831f1c0d9dbdbb0d7771fc7ad01f543	2	3
+56	558	55	Struttura ricettiva	3	/202/558/56/	1593027206	e932d4b3eccef5ad7a0214fb16039ceb	2	3
+52	48	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/N2	4	/202/558/48/52/	1593027205	27579adfd83a8e4d83eb63acc8874e12	2	19
+59	55	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/O2	4	/202/558/55/59/	1593027206	b605ceb6f8e74e07f4376422c891e29a	2	19
+57	558	55	ARCHITETTURA ALBERGHIERA E RICETTIVA	3	/202/558/57/	1593027206	98bd46e78cf60d3b9015074ed4c476f7	2	3
+60	55	0	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/O3	4	/202/558/55/60/	1593027206	07950f638135cc94e9d8334ebb0eeca7	2	19

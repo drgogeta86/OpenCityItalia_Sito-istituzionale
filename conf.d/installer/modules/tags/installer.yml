@@ -35,6 +35,9 @@ steps:
         identifier: Luoghi
     -
         type: tagtree
+        identifier: Tipi-di-luogo
+    -
+        type: tagtree
         identifier: Organizzazione
     -
         type: tagtree

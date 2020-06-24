@@ -1,0 +1,1024 @@
+keyword: Luoghi
+locale: ita-IT
+alwaysAvailable: true
+keywordTranslations:
+    ita-IT: Luoghi
+synonyms: {  }
+children:
+    -
+        keyword: 'Tipi di luogo'
+        locale: ita-IT
+        alwaysAvailable: true
+        keywordTranslations:
+            ita-IT: 'Tipi di luogo'
+        synonyms: {  }
+        children:
+            -
+                keyword: 'Rocche e castelli'
+                locale: ita-IT
+                alwaysAvailable: true
+                keywordTranslations:
+                    ita-IT: 'Rocche e castelli'
+                    ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/A'
+                synonyms:
+                    ita-IT:
+                        - 'Architettura militare e fortificata'
+                children:
+                    -
+                        keyword: Castello
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Castello
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/A1'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: Fortezza
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Fortezza
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/A2'
+                        synonyms:
+                            ita-IT:
+                                - Cassero
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: Mura
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Mura
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/A3'
+                        synonyms:
+                            ita-IT:
+                                - 'Cinta muraria'
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: Roccaforte
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Roccaforte
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/A4'
+                        synonyms:
+                            ita-IT:
+                                - Rocca
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: Torre
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Torre
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/A5'
+                        synonyms:
+                            ita-IT:
+                                - Torrione
+                        hasChildren: false
+                        children: {  }
+                hasChildren: true
+            -
+                keyword: 'Edifici residenziali'
+                locale: ita-IT
+                alwaysAvailable: true
+                keywordTranslations:
+                    ita-IT: 'Edifici residenziali'
+                    ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/B'
+                synonyms:
+                    ita-IT:
+                        - 'Architettura residenziale'
+                children:
+                    -
+                        keyword: Palazzo
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Palazzo
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/B1'
+                        synonyms:
+                            ita-IT:
+                                - Palazzina
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: Trullo
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Trullo
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/B2'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: Villa
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Villa
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/B3'
+                        synonyms:
+                            ita-IT:
+                                - Villino
+                        hasChildren: false
+                        children: {  }
+                hasChildren: true
+            -
+                keyword: 'Aree archeologiche'
+                locale: ita-IT
+                alwaysAvailable: true
+                keywordTranslations:
+                    ita-IT: 'Aree archeologiche'
+                    ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/C'
+                synonyms:
+                    ita-IT:
+                        - 'Area archeologica'
+                        - 'AREA ARCHEOLOGICA'
+                children:
+                    -
+                        keyword: 'Area archeologica'
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: 'Area archeologica'
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/C1'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: 'Sito archeologico'
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: 'Sito archeologico'
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/C2'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                hasChildren: true
+            -
+                keyword: 'Centri per la cultura'
+                locale: ita-IT
+                alwaysAvailable: true
+                keywordTranslations:
+                    ita-IT: 'Centri per la cultura'
+                    ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D'
+                synonyms:
+                    ita-IT:
+                        - 'Centro per la cultura'
+                        - 'ARCHITETTURA PER LA CULTURA, LA RICERCA SCIENTIFICA E LA SCUOLA'
+                children:
+                    -
+                        keyword: Anfiteatro
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Anfiteatro
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D1'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: Archivio
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Archivio
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D2'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: Auditorium
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Auditorium
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D3'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: Biblioteca
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Biblioteca
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D4'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: Cinema
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Cinema
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D5'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: Galleria
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Galleria
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D6'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: Museo
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Museo
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D7'
+                        synonyms:
+                            ita-IT:
+                                - Antiquarium
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: Pinacoteca
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Pinacoteca
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D8'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: Teatro
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Teatro
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D9'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: Acquario
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Acquario
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D10'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: Osservatorio
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Osservatorio
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D11'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: Planetario
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Planetario
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D12'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: Università/Facoltà
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Università/Facoltà
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D13'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: Scuola
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Scuola
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D14'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: 'Parco archeologico'
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: 'Parco archeologico'
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D15'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                hasChildren: true
+            -
+                keyword: 'Edifici di culto'
+                locale: ita-IT
+                alwaysAvailable: true
+                keywordTranslations:
+                    ita-IT: 'Edifici di culto'
+                    ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E'
+                synonyms:
+                    ita-IT:
+                        - 'Edificio di culto'
+                        - 'ARCHITETTURA RELIGIOSA'
+                children:
+                    -
+                        keyword: Abbazia
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Abbazia
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E1'
+                        synonyms:
+                            ita-IT:
+                                - Badia
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: Basilica
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Basilica
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E2'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: Battistero
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Battistero
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E3'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: Campanile
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Campanile
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E4'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: Cappella
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Cappella
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E5'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: Catacomba
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Catacomba
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E6'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: Cattedrale
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Cattedrale
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E7'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: Chiesa
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Chiesa
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E8'
+                        synonyms:
+                            ita-IT:
+                                - Martyrium
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: Cimitero
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Cimitero
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E9'
+                        synonyms:
+                            ita-IT:
+                                - Camposanto
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: Convento
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Convento
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E10'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: Duomo
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Duomo
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E11'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: Edicola
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Edicola
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E12'
+                        synonyms:
+                            ita-IT:
+                                - 'Capitello votivo'
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: Eremo
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Eremo
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E13'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: 'Mausoleo '
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: 'Mausoleo '
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E14'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: 'Monastero '
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: 'Monastero '
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E15'
+                        synonyms:
+                            ita-IT:
+                                - Laura
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: Santuario
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Santuario
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E16'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: Sinagoga
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Sinagoga
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E17'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: Tempio
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Tempio
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E18'
+                        synonyms:
+                            ita-IT:
+                                - 'Tempietto '
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: Sepolcro
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Sepolcro
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E19'
+                        synonyms:
+                            ita-IT:
+                                - Tomba
+                        hasChildren: false
+                        children: {  }
+                hasChildren: true
+            -
+                keyword: Monumenti
+                locale: ita-IT
+                alwaysAvailable: true
+                keywordTranslations:
+                    ita-IT: Monumenti
+                    ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/F'
+                synonyms:
+                    ita-IT:
+                        - 'Monumento e complesso monumentale'
+                        - 'ARCHITETTURA COMMEMORATIVA'
+                children:
+                    -
+                        keyword: Arco
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Arco
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/F1'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: Colonna
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Colonna
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/F2'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: 'Complesso monumentale'
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: 'Complesso monumentale'
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/F3'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: Monumento
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Monumento
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/F4'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: Obelisco
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Obelisco
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/F5'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                hasChildren: true
+            -
+                keyword: 'Parchi e giardini'
+                locale: ita-IT
+                alwaysAvailable: true
+                keywordTranslations:
+                    ita-IT: 'Parchi e giardini'
+                    ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/G'
+                synonyms:
+                    ita-IT:
+                        - 'Parco e giardino'
+                        - 'ARCHITETTURA DEI PARCHI E GIARDINI'
+                children:
+                    -
+                        keyword: Belvedere
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Belvedere
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/G1'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: Giardino
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Giardino
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/G2'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: Parco
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Parco
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/G3'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: Viale
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Viale
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/G4'
+                        synonyms:
+                            ita-IT:
+                                - 'Percorsi vari'
+                        hasChildren: false
+                        children: {  }
+                hasChildren: true
+            -
+                keyword: 'Bellezze naturali'
+                locale: ita-IT
+                alwaysAvailable: true
+                keywordTranslations:
+                    ita-IT: 'Bellezze naturali'
+                    ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/H'
+                synonyms:
+                    ita-IT:
+                        - 'Bellezza naturale'
+                children:
+                    -
+                        keyword: 'Costa marittima'
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: 'Costa marittima'
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/H1'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: Lago
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Lago
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/H2'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: 'Corso d''acqua'
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: 'Corso d''acqua'
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/H3'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: Montagna
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Montagna
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/H4'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: 'Ghiacciaio e circo glaciale'
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: 'Ghiacciaio e circo glaciale'
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/H5'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: 'Riserva naturale'
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: 'Riserva naturale'
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/H6'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: 'Foresta e bosco'
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: 'Foresta e bosco'
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/H7'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: Vulcano
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Vulcano
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/H8'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                hasChildren: true
+            -
+                keyword: 'Luoghi per lo sport e il tempo libero'
+                locale: ita-IT
+                alwaysAvailable: true
+                keywordTranslations:
+                    ita-IT: 'Luoghi per lo sport e il tempo libero'
+                    ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/I'
+                synonyms:
+                    ita-IT:
+                        - 'Luogo per lo sport e il tempo libero'
+                children:
+                    -
+                        keyword: 'Campo sportivo'
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: 'Campo sportivo'
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/I1'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: Piscina
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Piscina
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/I2'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: Stadio
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Stadio
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/I3'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: Terme
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Terme
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/I4'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: 'Casa da gioco'
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: 'Casa da gioco'
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/I5'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: 'Circolo sportivo'
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: 'Circolo sportivo'
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/I6'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: Piazza
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Piazza
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/I7'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                hasChildren: true
+            -
+                keyword: 'Luoghi per il commercio'
+                locale: ita-IT
+                alwaysAvailable: true
+                keywordTranslations:
+                    ita-IT: 'Luoghi per il commercio'
+                    ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/L'
+                synonyms:
+                    ita-IT:
+                        - 'Architettura commerciale'
+                        - 'ARCHITETTURA COMMERCIALE'
+                children:
+                    -
+                        keyword: Mercato
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Mercato
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/L1'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: Farmacia
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Farmacia
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/L2'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                hasChildren: true
+            -
+                keyword: 'Centri per l''assistenza e la tutela sociale'
+                locale: ita-IT
+                alwaysAvailable: true
+                keywordTranslations:
+                    ita-IT: 'Centri per l''assistenza e la tutela sociale'
+                    ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/M'
+                synonyms:
+                    ita-IT:
+                        - 'Centro per l''assistenza e la tutela sociale'
+                        - 'ARCHITETTURA OSPEDALIERA, ASSISTENZIALE E PER LA TUTELA SOCIALE'
+                children:
+                    -
+                        keyword: Ospizio
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Ospizio
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/M1'
+                        synonyms:
+                            ita-IT:
+                                - 'Casa di riposo'
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: 'Centro di accoglienza'
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: 'Centro di accoglienza'
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/M2'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: Ospedale
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Ospedale
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/M3'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                hasChildren: true
+            -
+                keyword: 'Infrastrutture e impianti'
+                locale: ita-IT
+                alwaysAvailable: true
+                keywordTranslations:
+                    ita-IT: 'Infrastrutture e impianti'
+                    ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/N'
+                synonyms:
+                    ita-IT:
+                        - 'Infrastruttura e impianto'
+                        - 'ARCHITETTURA PER LE INFRASTRUTTURE E IMPIANTI'
+                children:
+                    -
+                        keyword: 'Centro di raccolta'
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: 'Centro di raccolta'
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/N1'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: Acquedotto
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Acquedotto
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/N2'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: 'Aeroporto '
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: 'Aeroporto '
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/N3'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: Porto
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Porto
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/N4'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                hasChildren: true
+            -
+                keyword: 'Strutture ricettive'
+                locale: ita-IT
+                alwaysAvailable: true
+                keywordTranslations:
+                    ita-IT: 'Strutture ricettive'
+                    ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/O'
+                synonyms:
+                    ita-IT:
+                        - 'Struttura ricettiva'
+                        - 'ARCHITETTURA ALBERGHIERA E RICETTIVA'
+                children:
+                    -
+                        keyword: Albergo
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Albergo
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/O1'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: Foresteria
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Foresteria
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/O2'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: Rifugio
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Rifugio
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/O3'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: 'Rifugio per animali'
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: 'Rifugio per animali'
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/O4'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                hasChildren: true
+        hasChildren: true
+hasChildren: true
