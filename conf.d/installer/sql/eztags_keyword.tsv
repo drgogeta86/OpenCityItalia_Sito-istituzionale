@@ -13432,3 +13432,86 @@
 13602	4	Sport gathering	eng-GB	1
 13602	3	Raduno sportivo	ita-IT	1
 13602	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/516	ita-PA	1
+1	3	Vicesegretario	ita-IT	1
+2	3	Architettura militare e fortificata	ita-IT	1
+3	3	Cassero	ita-IT	1
+4	3	Cinta muraria	ita-IT	1
+5	3	Rocca	ita-IT	1
+6	3	Torrione	ita-IT	1
+7	3	Architettura residenziale	ita-IT	1
+8	3	Palazzina	ita-IT	1
+9	3	Villino	ita-IT	1
+10	3	Area archeologica	ita-IT	1
+11	3	AREA ARCHEOLOGICA	ita-IT	1
+12	3	Centro per la cultura	ita-IT	1
+13	3	ARCHITETTURA PER LA CULTURA, LA RICERCA SCIENTIFICA E LA SCUOLA	ita-IT	1
+14	3	Antiquarium	ita-IT	1
+15	3	Edificio di culto	ita-IT	1
+16	3	ARCHITETTURA RELIGIOSA	ita-IT	1
+17	3	Badia	ita-IT	1
+18	3	Martyrium	ita-IT	1
+19	3	Camposanto	ita-IT	1
+20	3	Capitello votivo	ita-IT	1
+21	3	Mausoleo 	ita-IT	1
+21	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E14	ita-PA	1
+23	3	Laura	ita-IT	1
+35	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/I4	ita-PA	1
+22	3	Monastero 	ita-IT	1
+22	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E15	ita-PA	1
+24	3	Tempietto 	ita-IT	1
+25	3	Tomba	ita-IT	1
+26	3	Monumento e complesso monumentale	ita-IT	1
+27	3	ARCHITETTURA COMMEMORATIVA	ita-IT	1
+28	3	Parco e giardino	ita-IT	1
+29	3	ARCHITETTURA DEI PARCHI E GIARDINI	ita-IT	1
+30	3	Percorsi vari	ita-IT	1
+31	3	Bellezza naturale	ita-IT	1
+32	3	Luogo per lo sport e il tempo libero	ita-IT	1
+34	3	Stadio	ita-IT	1
+33	3	Piscina	ita-IT	1
+33	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/I2	ita-PA	1
+34	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/I3	ita-PA	1
+35	3	Terme	ita-IT	1
+36	3	Casa da gioco	ita-IT	1
+36	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/I5	ita-PA	1
+37	3	Circolo sportivo	ita-IT	1
+37	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/I6	ita-PA	1
+39	3	Architettura commerciale	ita-IT	1
+38	3	Piazza	ita-IT	1
+38	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/I7	ita-PA	1
+40	3	ARCHITETTURA COMMERCIALE	ita-IT	1
+42	3	Centro per l'assistenza e la tutela sociale	ita-IT	1
+43	3	ARCHITETTURA OSPEDALIERA, ASSISTENZIALE E PER LA TUTELA SOCIALE	ita-IT	1
+41	3	Centri per l'assistenza e la tutela sociale	ita-IT	1
+41	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/M	ita-PA	1
+45	3	Casa di riposo	ita-IT	1
+44	3	Ospizio	ita-IT	1
+44	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/M1	ita-PA	1
+46	3	Centro di accoglienza	ita-IT	1
+46	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/M2	ita-PA	1
+47	3	Ospedale	ita-IT	1
+47	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/M3	ita-PA	1
+49	3	Infrastruttura e impianto	ita-IT	1
+50	3	ARCHITETTURA PER LE INFRASTRUTTURE E IMPIANTI	ita-IT	1
+48	3	Infrastrutture e impianti	ita-IT	1
+48	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/N	ita-PA	1
+51	3	Centro di raccolta	ita-IT	1
+51	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/N1	ita-PA	1
+52	3	Acquedotto	ita-IT	1
+52	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/N2	ita-PA	1
+53	3	Aeroporto 	ita-IT	1
+53	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/N3	ita-PA	1
+54	3	Porto	ita-IT	1
+54	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/N4	ita-PA	1
+56	3	Struttura ricettiva	ita-IT	1
+57	3	ARCHITETTURA ALBERGHIERA E RICETTIVA	ita-IT	1
+55	3	Strutture ricettive	ita-IT	1
+55	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/O	ita-PA	1
+58	3	Albergo	ita-IT	1
+58	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/O1	ita-PA	1
+59	3	Foresteria	ita-IT	1
+59	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/O2	ita-PA	1
+60	3	Rifugio	ita-IT	1
+60	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/O3	ita-PA	1
+61	3	Rifugio per animali	ita-IT	1
+61	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/O4	ita-PA	1

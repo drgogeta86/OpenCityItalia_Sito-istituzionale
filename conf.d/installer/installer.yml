@@ -1,5 +1,5 @@
 name: OpenCity
-version: 2.0.11
+version: 2.0.12
 variables:
     -
         name: identifier
@@ -66,10 +66,12 @@ steps:
     -
         type: sql
         current_version_le: 2.0.7
+        current_version_gt: 0.0.0
         identifier: update_dataset_remote_id
     -
         type: sql
         current_version_le: 2.0.8
+        current_version_gt: 0.0.0
         identifier: rename_deprecated_administrative_area_attributes
     -
         type: state
@@ -424,6 +426,7 @@ steps:
     -
         type: role
         current_version_le: 2.0.5
+        current_version_gt: 0.0.0
         identifier: Anonymous
         remove_from:
             - $content_Editor-Amministrazione_object
@@ -441,6 +444,7 @@ steps:
     -
         type: role
         current_version_le: 2.0.5
+        current_version_gt: 0.0.0
         identifier: Members
         remove_from:
             - $content_Editor-Amministrazione_object
@@ -492,8 +496,10 @@ steps:
         private: $recaptcha_private
     -
         type: add_tag
+        current_version_gt: 0.0.0
+        current_version_lt: 2.0.10
         identifier: Persone_Ruoli_Vicesegretario
-        parent: 'tag(Persone/Ruoli)'
+        parent: tag(Persone/Ruoli)
         tags:
             -
                 keyword: Vicesegretario
@@ -502,3 +508,26 @@ steps:
                 synonyms: {  }
                 keywordTranslations:
                     ita-IT: Vicesegretario
+    -
+        type: patch_content
+        current_version_lt: 2.0.12
+        current_version_gt: 0.0.0
+        identifier: a9d783ef0712ac3e37edb23796990714
+        attributes:
+            name: Uffici
+        sort_data:
+            sort_field: 9
+            sort_order: 1
+            priority: 20
+    -
+        type: patch_content
+        current_version_lt: 2.0.12
+        current_version_gt: 0.0.0
+        identifier: organi_politici
+        attributes:
+            name: 'Organi di governo'
+    -
+        type: tagtree
+        current_version_lt: 2.0.12
+        current_version_gt: 0.0.0
+        identifier: Tipi-di-luogo

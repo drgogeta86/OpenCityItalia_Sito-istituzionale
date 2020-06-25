@@ -194,7 +194,6 @@ data_map:
         placement: 13
         is_searchable: 1
         can_translate: 1
-        data_int1: 1
         data_text5: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<ezmatrix><column-name id=\"anno\" idx=\"0\">Anno</column-name><column-name id=\"stipendio_tabellare\" idx=\"1\">Stipendio tabellare|**|compresa 13^ mensilità</column-name><column-name id=\"posizione_parte_fissa\" idx=\"2\">Posizione parte fissa|**|compresa 13^ mensilità</column-name><column-name id=\"posizione_parte_variabile\" idx=\"3\">Posizione parte variabile</column-name><column-name id=\"retribuzione_risultato\" idx=\"4\">Retribuzione di risultato</column-name><column-name id=\"altro\" idx=\"5\">Altro|*|ogni altro emolumento retributivo non ricompreso nelle voci precedenti</column-name><column-name id=\"totale\" idx=\"6\">Totale annuo</column-name></ezmatrix>\n"
         serialized_data_text:
             always-available: ita-IT

@@ -6,7 +6,7 @@ metadata:
         - ita-IT
 data:
     ita-IT:
-        name: 'Organi politici'
+        name: 'Organi di governo'
         short_name: null
         menu_name: null
         abstract: '<p>Composizione di Giunta e Consiglio, nomine di rappresentanti del Comune, Organo di revisione, convocazioni, video sedute e verbali, notizie.</p>'
