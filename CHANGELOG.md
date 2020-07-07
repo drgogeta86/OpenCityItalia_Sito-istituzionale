@@ -4,14 +4,65 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.2](https://gitlab.com/opencontent/opencity/compare/2.0.1...2.0.2) - 2020-07-07
+
+- Update version in publiccode
+
+#### Installer
+- Update main installer at version 2.0.13
+- Update trasparenza installer at version 0.0.5 
+
+Relevant changes:
+- Add section restricted 
+- Change datatype in public_service/conditions 
+- Fix office class extra 
+- Fix fields in some trasparenza contents 
+- Add role Editor-Backend 
+- Add change section permission to role Editor-Base
+
+#### Code dependencies
+| Changes                               | From    | To      | Compare                                                                             |
+|---------------------------------------|:--------|:--------|:------------------------------------------------------------------------------------|
+| aws/aws-sdk-php                       | 3.143.0 | 3.145.2 | https://github.com/aws/aws-sdk-php/compare/3.143.0...3.145.2                        |
+| easyrdf/easyrdf                       | 1395e5d | 1148be7 | https://github.com/easyrdf/easyrdf/compare/1395e5d...1148be7                        |
+| maxh/php-nominatim                    | 7bd5fd7 | cec1397 | https://github.com/maxhelias/php-nominatim/compare/7bd5fd7...cec1397                |
+| opencontent/ocoperatorscollection-ls  | 2.1.1   | 2.2.0   | https://github.com/OpencontentCoop/ocoperatorscollection/compare/2.1.1...2.2.0      |
+| opencontent/openpa_bootstrapitalia-ls | 6bd731b | aa2c28f | https://github.com/OpencontentCoop/openpa_bootstrapitalia/compare/6bd731b...aa2c28f |
+| opencontent/openpa_newsletter-ls      | 2.9.3   | 2.9.4   | https://github.com/OpencontentCoop/openpa_newsletter/compare/2.9.3...2.9.4          |
+| php-http/client-common                | 7c27fe6 | 75470e5 | https://github.com/php-http/client-common/compare/7c27fe6...75470e5                 |
+| php-http/discovery                    | 1.8.0   | 3cc2bcd | https://github.com/php-http/discovery/compare/1.8.0...3cc2bcd                       |
+| php-http/promise                      | 02ee67f | 4c4c1f9 | https://github.com/php-http/promise/compare/02ee67f...4c4c1f9                       |
+| psr/http-client                       | fd5d37a | 2dfb5f6 | https://github.com/php-fig/http-client/compare/fd5d37a...2dfb5f6                    |
+| semsol/arc2                           | 2.5     | 2.5.1   | https://github.com/semsol/arc2/compare/2.5...2.5.1                                  |
+| symfony/cache-contracts               | 8cdaf96 | 9771a09 | https://github.com/symfony/cache-contracts/compare/8cdaf96...9771a09                |
+| symfony/event-dispatcher-contracts    | 3bf9307 | f6f613d | https://github.com/symfony/event-dispatcher-contracts/compare/3bf9307...f6f613d     |
+| symfony/service-contracts             | fa63c88 | 58c7475 | https://github.com/symfony/service-contracts/compare/fa63c88...58c7475              |
+| psr/http-factory                      | NEW     | 1a2099a |                                                                                     |
+
+Relevant changes by repository:
+
+**[opencontent/ocoperatorscollection-ls changes between 2.1.1 and 2.2.0](https://github.com/OpencontentCoop/ocoperatorscollection/compare/2.1.1...2.2.0)**
+ * Avoid switch to user with admin capabilities
+
+**[opencontent/openpa_bootstrapitalia-ls changes between 6bd731b and aa2c28f](https://github.com/OpencontentCoop/openpa_bootstrapitalia/compare/6bd731b...aa2c28f)**
+ * Corregge il feed di default per le ultime novità
+ * Permette la customizzazione del menu Argomenti (solo in presenza degli attributi topic_menu_label e/o hide_topic_menu)
+ * Corregge un problema per cui veniva caricata un'immagine vuota nel template card default
+ * Apre i link di "siti esterni" in una nuova finestra
+ * Espone all'editor il form per la modifica della sezione di un contenuto di livello maggiore di 3
+ * Corregge la definizione del template del blocco HTML
+
+**[opencontent/openpa_newsletter-ls changes between 2.9.3 and 2.9.4](https://github.com/OpencontentCoop/openpa_newsletter/compare/2.9.3...2.9.4)**
+ * Fix bug in has_newsletter operator
+
 ## [2.0.1](https://gitlab.com/opencontent/opencity/compare/2.0.0...2.0.1) - 2020-06-25
 
 - Update version in publiccode
 
 #### Installer
 - Update main installer at version 2.0.12
-- Update Newsletter installer at version 0.0.2
-- Update Amministrazione-traparente installer at version 0.0.4 
+- Update newsletter installer at version 0.0.2
+- Update trasparenza installer at version 0.0.4 
 
 Relevant changes:
 - Corregge il nome di menu di Uffici e Organi politici 
