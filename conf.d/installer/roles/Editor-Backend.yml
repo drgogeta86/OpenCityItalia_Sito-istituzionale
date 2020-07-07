@@ -9,6 +9,10 @@ policies:
         FunctionName: '*'
         Limitation: {}
     -
+        ModuleName: switch
+        FunctionName: user
+        Limitation: {}
+    -
         ModuleName: user
         FunctionName: login
         Limitation:

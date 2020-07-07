@@ -1,6 +1,6 @@
 name: 'OpenCity Trasparenza'
 type: module
-version: 0.0.4
+version: 0.0.5
 variables:
     -
         name: identifier
@@ -522,3 +522,21 @@ steps:
         identifier: ea1e3d5b55670e2e6261f095a20774a5
         attributes:
             fields: 'parent:2|filters:document_type = ''"Bando di concorso"''|order_by:-publication_start_time|document|publication_start_time,name,abstract,file'
+    -
+        type: patch_content
+        current_version_le: 0.0.4
+        identifier: ab203526bbe9eb8b8fb82c4c48b43f0b
+        attributes:
+            fields: 'parent:2|filters:document_type = ''"Bilancio consuntivo"''|order_by:-publication_start_time|document|name,abstract,publication_start_time'
+    -
+        type: patch_content
+        current_version_le: 0.0.4
+        identifier: d936dcdabc71967dac70995b1dcd0ecf
+        attributes:
+            fields: 'parent:2|filters:document_type = ''"Bilancio preventivo"''|order_by:-publication_start_time|document|name,abstract,publication_start_time'
+    -
+        type: patch_content
+        current_version_le: 0.0.4
+        identifier: efc995388bebdd304f19eef17aab7e0d
+        attributes:
+            fields: 'parent:1|filters:role in [''"Segretario generale"'',''"Segretario comunale"'']|time_indexed_role|person,role,for_entity'

@@ -19,7 +19,7 @@ data:
             - Tempestivo
         termine_pubblicazione:
             - '5 anni a decorrere dal primo gennaio dell''anno successivo a quello da cui decorre l''obbligo di pubblicazione'
-        fields: 'parent:2|filters:document_type = ''"Bilancio preventivo"''|document|name,abstract'
+        fields: 'parent:2|filters:document_type = ''"Bilancio preventivo"''|order_by:-publication_start_time|document|name,abstract,publication_start_time'
 sort_data:
     sort_field: 8
     sort_order: 1

@@ -54,7 +54,7 @@ table_view:
         description: '1'
     main_image:
         has_logo: '1'
-        has_spatial_coverage: '1'
+        has_spatial_coverage: '0'
     show:
         accreditation_date: '1'
         attachments: '1'

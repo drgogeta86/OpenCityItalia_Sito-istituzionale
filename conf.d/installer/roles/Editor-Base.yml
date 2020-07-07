@@ -100,6 +100,8 @@ policies:
             Section:
                 - $section_standard
                 - $section_media
+                - $section_restricted
+                - $section_intranet
     -
         ModuleName: content
         FunctionName: edit
@@ -193,3 +195,12 @@ policies:
             Class:
                 - $class_banner
                 - $class_link
+    -
+        ModuleName: section
+        FunctionName: assign
+        Limitation:
+            NewSection:
+                - $section_standard
+                - $section_media
+                - $section_restricted
+                - $section_intranet

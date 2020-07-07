@@ -19,7 +19,7 @@ data:
             - Tempestivo
         termine_pubblicazione:
             - '3 anni successivi alla cessazione dell''incarico'
-        fields: 'parent:1|filters:role = ''"Segretario generale"''|time_indexed_role|person,role,for_entity'
+        fields: 'parent:1|filters:role in [''"Segretario generale"'',''"Segretario comunale"'']|time_indexed_role|person,role,for_entity'
 sort_data:
     sort_field: 8
     sort_order: 1

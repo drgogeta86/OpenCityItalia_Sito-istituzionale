@@ -516,11 +516,11 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Vincoli
-        data_type_string: eztext
+        data_type_string: ezxmltext
         placement: 28
         is_searchable: 1
         can_translate: 1
-        data_int1: 2
+        data_int1: 5
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''

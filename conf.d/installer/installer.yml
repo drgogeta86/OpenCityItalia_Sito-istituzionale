@@ -1,5 +1,5 @@
 name: OpenCity
-version: 2.0.12
+version: 2.0.13
 variables:
     -
         name: identifier
@@ -85,6 +85,9 @@ steps:
     -
         type: section
         identifier: intranet
+    -
+        type: section
+        identifier: restricted
     -
         type: section
         identifier: oggetti_scaduti
@@ -293,6 +296,11 @@ steps:
     -
         type: classextra
         identifier: private_organization
+    -
+        type: sql
+        current_version_le: 2.0.12
+        current_version_gt: 0.0.0
+        identifier: change_public_service_conditions_to_ezxmltext
     -
         type: class
         identifier: public_service
@@ -531,3 +539,6 @@ steps:
         current_version_lt: 2.0.12
         current_version_gt: 0.0.0
         identifier: Tipi-di-luogo
+    -
+        type: role
+        identifier: Editor-Backend
