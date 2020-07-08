@@ -54,6 +54,7 @@ bootstrapitalia_icon:
         '*': it-file
 card_small_view:
     show:
+        description: '1'
         content_show_read_more: '1'
 table_view:
     enabled:

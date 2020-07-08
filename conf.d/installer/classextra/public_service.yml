@@ -151,6 +151,7 @@ table_view:
     enabled:
         '*': '1'
     in_overview:
+        alternative_name: '1'
         abstract: '1'
     main_image:
         image: '1'
