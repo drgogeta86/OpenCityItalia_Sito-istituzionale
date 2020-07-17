@@ -226,5 +226,21 @@ data_map:
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
+    show_tag_cards:
+        identifier: show_tag_cards
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'In caso di virtualizzazione del menu su un''alberatura di tag, visualizza le card dei tag invece degli elementi figli quando nessun tag è selezionato'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Visualizza elenco tag'
+        data_type_string: ezboolean
+        placement: 14
+        is_searchable: 1
+        can_translate: 1
+        category: meta
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
 groups:
     - Content

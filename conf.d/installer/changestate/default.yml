@@ -1,0 +1,16 @@
+ruleDefinitions:
+    set_public_by_published:
+        CurrentState: privacy.private
+        DestinationState: privacy.public
+        Conditions:
+            - published;lt;NOW
+    set_public_by_publication_start_time:
+        CurrentState: privacy.private
+        DestinationState: privacy.public
+        Conditions:
+            - publication_start_time;lt;NOW
+ruleApplications:
+    article:
+        - set_public_by_published
+    document:
+        - set_public_by_publication_start_time

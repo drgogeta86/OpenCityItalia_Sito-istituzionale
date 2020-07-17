@@ -25,6 +25,7 @@ AvailableView[]=card_children
 AvailableView[]=banner
 AvailableView[]=card_teaser
 AvailableView[]=card_image
+AvailableView[]=banner_color
 
 [Stili]
 UsaNeiBlocchi=enabled

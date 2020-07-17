@@ -66,12 +66,12 @@ steps:
     -
         type: sql
         current_version_le: 2.0.7
-        current_version_gt: 0.0.0
+        current_version_ge: 0.0.0
         identifier: update_dataset_remote_id
     -
         type: sql
         current_version_le: 2.0.8
-        current_version_gt: 0.0.0
+        current_version_ge: 0.0.0
         identifier: rename_deprecated_administrative_area_attributes
     -
         type: state
@@ -299,7 +299,7 @@ steps:
     -
         type: sql
         current_version_le: 2.0.12
-        current_version_gt: 0.0.0
+        current_version_ge: 0.0.0
         identifier: change_public_service_conditions_to_ezxmltext
     -
         type: class
@@ -502,9 +502,10 @@ steps:
         type: openparecaptcha
         public: $recaptcha_public
         private: $recaptcha_private
+        condition: $is_install_from_scratch
     -
         type: add_tag
-        current_version_gt: 0.0.0
+        current_version_ge: 0.0.0
         current_version_lt: 2.0.10
         identifier: Persone_Ruoli_Vicesegretario
         parent: tag(Persone/Ruoli)
@@ -519,7 +520,7 @@ steps:
     -
         type: patch_content
         current_version_lt: 2.0.12
-        current_version_gt: 0.0.0
+        current_version_ge: 0.0.0
         identifier: a9d783ef0712ac3e37edb23796990714
         attributes:
             name: Uffici
@@ -530,15 +531,32 @@ steps:
     -
         type: patch_content
         current_version_lt: 2.0.12
-        current_version_gt: 0.0.0
+        current_version_ge: 0.0.0
         identifier: organi_politici
         attributes:
             name: 'Organi di governo'
     -
         type: tagtree
         current_version_lt: 2.0.12
-        current_version_gt: 0.0.0
+        current_version_ge: 0.0.0
         identifier: Tipi-di-luogo
     -
         type: role
         identifier: Editor-Backend
+    -
+        type: change_state
+        identifier: default
+    -
+        type: change_section
+        identifier: default
+    -
+        type: tag_description
+        identifier: Tipologia-del-servizio
+        root: tag(Servizi pubblici/Tipologia del servizio (TD))
+    -
+        type: patch_content
+        current_version_lt: 2.0.13
+        current_version_ge: 0.0.0
+        identifier: b04a731ca8cc79de8b7cf9f6c2f37705
+        attributes:
+            show_tag_cards: '1'

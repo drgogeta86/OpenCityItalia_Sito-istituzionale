@@ -48,6 +48,7 @@ ActiveAccessExtensions[]=cjw_newsletter
 ActiveAccessExtensions[]=openpa_newsletter
 ActiveAccessExtensions[]=oceditorialstuff
 ActiveAccessExtensions[]=ocwebhookserver
+ActiveAccessExtensions[]=eztagdescription
 
 [SiteSettings]
 LoginPage=embedded

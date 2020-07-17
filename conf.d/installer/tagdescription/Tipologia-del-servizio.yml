@@ -1,0 +1,46 @@
+descriptions:
+    -
+        keyword: Anagrafe e stato civile
+        text: Certificati anagrafici, nascita, residenza, carta d’identità, espatrio, matrimonio, unione civile, separazione, divorzio, cittadinanza, elezioni, morte.
+    -
+        keyword: Cultura e tempo libero
+        text: Biblioteche, musei, gallerie comunali, impianti sportivi, luoghi della cultura e dell’arte, contributi alla cultura, allo spettacolo e allo sport.
+    -
+        keyword: Vita lavorativa
+        text: Lavoro, concorsi e selezioni, licenze e abilitazioni professionali, sicurezza sul lavoro, mobilità volontaria, accesso agli atti del Comune.
+    -
+        keyword: Attività produttive e commercio
+        text: Avvio di un’attività, industria, impresa, commercio, autorizzazioni e concessioni per attività produttive, mercati, incentivi e supporto alle imprese.
+    -
+        keyword: Appalti pubblici
+        text: Gare d’appalto per lavori, servizi,ì e forniture, avvisi ed esiti di gara.
+    -
+        keyword: Catasto e urbanistica
+        text: Piani urbanistici, piani paesaggistici, certificati per immobili, case, terreni, edifici, compatibilità e vincoli paesaggistici, conformità, destinazione d’uso.
+    -
+        keyword: Turismo
+        text: Sostegno e sviluppo del turismo, informazioni turistiche.
+    -
+        keyword: Mobilità e trasporti
+        text: Mobilità e trasporti, parcheggi, automobile, trasporto pubblico.
+    -
+        keyword: Educazione e formazione
+        text: Educazione e formazione - nido, scuola, università
+    -
+        keyword: Giustizia e sicurezza pubblica
+        text: Polizia municipale, sanzioni amministrative, oggetti smarriti, risarcimento danni, Protezione civile.
+    -
+        keyword: Tributi e finanze
+        text: Tasse e tributi locali, tassa sui rifiuti, pubbliche affissioni, imposta comunale sulla pubblicità.
+    -
+        keyword: Ambiente
+        text: Verde urbano, gestione dei rifiuti, inquinamento, igiene urbana, disinfestazione, canile, smarrimento animali domestici, vivaio, acque di balneazione.
+    -
+        keyword: Salute, benessere e assistenza
+        text: Assistenza, supporto e tutela sociale, contributi economici, sostegno ai minori e alle famiglie, alloggi comunali, politiche giovanili, disabilità, anziani.
+    -
+        keyword: Autorizzazioni
+        text: Autorizzazioni, permessi, licenze, concessioni di suolo, passi carrabili, prestito di beni del Comune.
+    -
+        keyword: Agricoltura
+        text: Agricoltura, politiche agricole e alimentari.
