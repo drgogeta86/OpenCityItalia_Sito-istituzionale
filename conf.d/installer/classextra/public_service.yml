@@ -10,6 +10,7 @@ attribute_group:
         has_channel: '1'
         how_to: '1'
         produces_output: '1'
+        is_physically_available_at: '1'
     casi_particolari:
         '*': 'Casi particolari'
         exceptions: '1'
@@ -197,6 +198,7 @@ table_view:
         service_keyword: '1'
         service_theme: '1'
         type: '1'
+        is_physically_available_at: '1'
     show_link:
         has_channel: '1'
         has_online_contact_point: '1'
@@ -207,3 +209,4 @@ table_view:
         produces_output: '1'
         relation_service: '1'
         requires_service: '1'
+        is_physically_available_at: '1'
