@@ -37,6 +37,8 @@ attribute_group:
         is_part_of: '1'
         office_manager: '1'
         type: '1'
+        image: '1'
+        has_logo: '1'
     ulteriori_informazioni:
         '*': 'Ulteriori informazioni'
         help: '1'
@@ -53,7 +55,7 @@ table_view:
     in_overview:
         description: '1'
     main_image:
-        has_logo: '1'
+        image: '1'
         has_spatial_coverage: '0'
     show:
         accreditation_date: '1'
@@ -62,6 +64,7 @@ table_view:
         description: '1'
         end_time: '1'
         has_logo: '1'
+        image: '1'
         has_online_contact_point: '1'
         has_spatial_coverage: '1'
         help: '1'
