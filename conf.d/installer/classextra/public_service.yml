@@ -142,6 +142,8 @@ bootstrapitalia_icon:
         '*': '1'
     icon:
         '*': it-settings
+    icon_label:
+        type: '1'
 card_small_view:
     enabled:
         '*': '1'

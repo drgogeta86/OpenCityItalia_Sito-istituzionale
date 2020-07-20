@@ -15,6 +15,8 @@ Template=default.tpl
 AvailableForClasses[]
 AvailableForClasses[]=topic
 AvailableForClasses[]=homepage
+AvailableForClasses[]=pagina_sito
+AvailableForClasses[]=frontpage
 
 [1ZonesLayoutFolder]
 Zones[]
@@ -24,8 +26,6 @@ Zones[]=global
 ZoneName[global]=Zona unica
 ZoneThumbnail=desitadefault.jpg
 AvailableForClasses[]
-AvailableForClasses[]=pagina_sito
-AvailableForClasses[]=frontpage
 
 
  */ ?>
