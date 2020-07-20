@@ -222,7 +222,7 @@ data_map:
             class_constraint_list:
                 - opening_hours_specification
             default_placement:
-                node_id: $contenttree_Classificazioni_Orari-servizi_node
+                node_id: $contenttree_Classificazioni_Orari-strutture_node
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
