@@ -1,0 +1,17 @@
+metadata:
+    remoteId: demo-sfondo
+    classIdentifier: image
+    languages:
+        - ita-IT
+    parentNodes:
+        - $content_Images_node
+data:
+    ita-IT:
+        name: Sfondo
+        caption: ''
+        image:
+            filename: sfondo.jpg
+            url: https://i.picsum.photos/id/202/1200/400.jpg?hmac=ZN0SDxrYgyPFup2BbwSsUYO6-CJquDfn2yYUT_IZlf4
+        author: 'Picsum Photo'
+        license:
+            - 'Licenza proprietaria'

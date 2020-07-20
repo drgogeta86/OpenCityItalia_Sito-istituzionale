@@ -35,6 +35,18 @@ data:
                             - b04a731ca8cc79de8b7cf9f6c2f37705
                             - organi_politici
                     -
+                        block_id: 9cd237a12fdb73a490fee0b01a3fab9d
+                        name: 'Calendario'
+                        type: Eventi
+                        view: default
+                        custom_attributes:
+                            includi_classi: "event,public_service"
+                            show_facets: 0
+                            size: "small"
+                            calendar_view: "day_grid_4"
+                            color_style: bg-100
+                            container_style: ''
+                    -
                         block_id: a419663d8c23c8e9239dc6813b845538
                         name: 'Argomenti in evidenza'
                         type: Argomenti
@@ -42,12 +54,37 @@ data:
                         custom_attributes:
                             color_style: bg-white
                             container_style: ''
-                            image: ''
+                            image: $content_Sfondo2_node
                         valid_items:
                             - topic_4
                             - topic_3
                             - topic_2
                             - topic_1
+                    -
+                        block_id: d406949b1e96173e51f6a5492c699daf
+                        name: 'Siti tematici'
+                        type: ListaAutomatica
+                        view: lista_banner_color
+                        custom_attributes:
+                            limite: 9
+                            elementi_per_riga: 3
+                            includi_classi:	'banner,link'
+                            color_style: bg-white
+                            container_style: ''
+                            node_id: $content_Banner_node
+                    -
+                        block_id: 2813cdb2a2aa1271e299b1905160c1b4
+                        name: "Cerca servizi, informazioni, persone"
+                        type: Ricerca
+                        view: default
+                        custom_attributes:
+                            color_style: ''
+                            container_style: ''
+                            image: $content_Sfondo_node
+                        valid_items:
+                            - 37e90c85e11e1c2b7889c74cfb54845e
+                            - b04a731ca8cc79de8b7cf9f6c2f37705
+                            - organi_politici
         contacts:
             -
                 media: Telefono

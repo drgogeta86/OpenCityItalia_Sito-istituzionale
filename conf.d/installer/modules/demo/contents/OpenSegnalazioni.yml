@@ -1,0 +1,15 @@
+metadata:
+    remoteId: opensegnalazioni-demo-banner
+    classIdentifier: banner
+    parentNodes:
+        - $content_Banner_node
+data:
+    ita-IT:
+        name: 'OpenSegnalazioni'
+        description: '<p>Il comune in ascolto: insieme per migliorare</p>'
+        image:
+            filename: sfondo-opensegnalazioni.jpg
+            url: https://www.opencontent.it/var/opencontent/storage/images/per-la-pa/openconsultazioni/1616-15-ita-IT/OpenConsultazioni.jpg
+        location: 'https://opensegnalazioni.openpa.opencontent.io/'
+        background_color:
+            - complementary-1-bg-a6

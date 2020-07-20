@@ -1,0 +1,15 @@
+metadata:
+    remoteId: openagenda-demo-banner
+    classIdentifier: banner
+    parentNodes:
+        - $content_Banner_node
+data:
+    ita-IT:
+        name: 'OpenAgenda'
+        description: '<p>Gli eventi e le manifestazioni del comune</p>'
+        image:
+            filename: sfondo-openagenda.jpg
+            url: https://www.opencontent.it/var/opencontent/storage/images/per-la-pa/openagenda/1768-11-ita-IT/OpenAgenda.jpg
+        location: 'https://openagenda.openpa.opencontent.io/'
+        background_color:
+            - complementary-2-bg-a5

@@ -1,6 +1,6 @@
 name: 'OpenCity Demo'
 type: module
-version: 0.0.1
+version: 0.0.2
 variables:
     -
         name: identifier
@@ -35,6 +35,9 @@ steps:
         identifier: Sede-URP
     -
         type: content
+        identifier: Banner
+    -
+        type: content
         identifier: Contatti-URP
     -
         type: content
@@ -42,6 +45,21 @@ steps:
     -
         type: content
         identifier: Kit-Team-Digitale
+    -
+        type: content
+        identifier: Sfondo
+    -
+        type: content
+        identifier: Sfondo2
+    -
+        type: content
+        identifier: OpenAgenda
+    -
+        type: content
+        identifier: OpenSegnalazioni
+    -
+        type: content
+        identifier: SpaziComuni
     -
         type: content
         identifier: Il-nuovo-sito-web-il-cittadino-al-centro

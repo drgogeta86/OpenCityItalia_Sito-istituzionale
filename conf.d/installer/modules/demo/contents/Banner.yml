@@ -1,0 +1,15 @@
+metadata:
+    remoteId: banners
+    classIdentifier: folder
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+    parentNodes:
+        - 43
+data:
+    ita-IT:
+        name: Banner
+sort_data:
+    sort_field: 9
+    sort_order: 1
+    priority: 0
