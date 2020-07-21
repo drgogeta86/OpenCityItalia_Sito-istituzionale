@@ -132,6 +132,12 @@ policies:
                 - 1
     -
         ModuleName: content
+        FunctionName: remove
+        Limitation:
+            Class:
+                - $class_image
+    -
+        ModuleName: content
         FunctionName: create
         Limitation:
             Subtree:
