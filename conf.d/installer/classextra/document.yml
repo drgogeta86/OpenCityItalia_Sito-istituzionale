@@ -5,6 +5,7 @@ attribute_group:
         image: '1'
         publication_start_time: '1'
         related_public_services: '1'
+        has_service: '1'
     descrizione:
         '*': Descrizione
         attachments: '1'
@@ -82,3 +83,4 @@ table_view:
     show_label:
         document_type: '1'
         interroganti: '1'
+        has_service: '1'
