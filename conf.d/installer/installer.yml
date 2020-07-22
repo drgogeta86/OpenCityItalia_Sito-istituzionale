@@ -196,12 +196,6 @@ steps:
         identifier: chart
     -
         type: class
-        identifier: image
-    -
-        type: classextra
-        identifier: image
-    -
-        type: class
         identifier: gallery
     -
         type: classextra
@@ -379,6 +373,12 @@ steps:
     -
         type: classextra
         identifier: restriced_area
+    -
+        type: class
+        identifier: image
+    -
+        type: classextra
+        identifier: image
     -
         type: workflow
         identifier: Post-pubblicazione

@@ -101,3 +101,8 @@ table_view:
         attachment: '1'
         help: '1'
         location: '1'
+card_small_view:
+    enabled:
+        '*': '1'
+    show:
+        content_show_read_more: '1'

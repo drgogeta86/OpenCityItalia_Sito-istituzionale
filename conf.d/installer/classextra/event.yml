@@ -120,6 +120,7 @@ card_small_view:
         event_title: '1'
         image: '1'
         short_event_title: '1'
+        content_show_read_more: '1'
 line_view:
     enabled:
         '*': '1'

@@ -17,7 +17,9 @@ table_view:
         proprietary_license: '1'
         proprietary_license_source: '1'
         tags: '1'
+        used_by: '1'
     show_label:
         caption: '1'
         name: '1'
         tags: '1'
+        used_by: '1'

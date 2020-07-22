@@ -143,5 +143,20 @@ data_map:
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
+    used_by:
+        identifier: used_by
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Utilizzata in'
+        data_type_string: openpareverserelationlist
+        placement: 9
+        can_translate: 1
+        data_text5: '{"attribute_id_list":[classattributeid_list(administrative_area/image,article/image,channel/image,document/images,event/image,frontpage/image,homepage/image,office/image,output/image,pagina_sito/image,place/image,political_body/image,private_organization/image,public_organization/image,public_service/image,topic/image)],"sort":"name","order":"asc","limit":4}'
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
 groups:
     - Media

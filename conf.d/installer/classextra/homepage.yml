@@ -50,3 +50,8 @@ table_view:
         short_title: '1'
         tags: '1'
         twitter: '1'
+card_small_view:
+    enabled:
+        '*': '1'
+    show:
+        content_show_read_more: '1'
