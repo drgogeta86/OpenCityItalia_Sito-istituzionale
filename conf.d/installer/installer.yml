@@ -555,7 +555,7 @@ steps:
         root: tag(Servizi pubblici/Tipologia del servizio (TD))
     -
         type: patch_content
-        current_version_lt: 2.0.13
+        current_version_le: 2.0.13
         current_version_ge: 0.0.0
         identifier: b04a731ca8cc79de8b7cf9f6c2f37705
         attributes:
