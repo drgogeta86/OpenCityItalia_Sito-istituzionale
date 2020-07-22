@@ -1,9 +1,21 @@
 FROM registry.gitlab.com/opencontent/solr:4.10.4
 COPY ./conf.d/solr /opt/ez/
 USER root
+
 RUN mkdir -p /opt/ez/ezp-default/data
 RUN chown solr -R /opt/ez
 COPY ./scripts/instance_solr_core.sh /docker-entrypoint-initdb.d/
+
+RUN apt-get update && \
+  apt-get -y install zip && \
+  rm -rf /var/lib/apt/lists/*
+
+RUN mkdir -p /opt/solr/example/webapps/WEB-INF/lib
+COPY ./solr/jts-1.14.jar /opt/solr/example/webapps/WEB-INF/lib
+RUN cd /opt/solr/example/webapps && \
+    zip solr.war WEB-INF/lib/jts-1.14.jar \
+    cd /opt/solr
+
 USER solr
  
 VOLUME ['/opt/ez/ezp-default/data']

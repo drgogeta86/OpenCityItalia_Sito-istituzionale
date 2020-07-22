@@ -498,47 +498,49 @@
         -->
         <fieldtype name="geohash" class="solr.GeoHashField"/>
 
-        <fieldType name="date_point" class="solr.SpatialRecursivePrefixTreeFieldType" multiValued="true" geo="false"
-                   worldBounds="0 0 2524607999 2524607999" distErrPct="0" maxDistErr="1" units="degrees"/>
+        <fieldType name="location_rpt"
+                   class="solr.SpatialRecursivePrefixTreeFieldType"
+                   spatialContextFactory="com.spatial4j.core.context.jts.JtsSpatialContextFactory"
+                   multiValued="true"
+                   distErrPct="0.025"
+                   maxDistErr="0.000009"
+                   units="degrees"/>
 
+        <fieldType name="date_point"
+                   class="solr.SpatialRecursivePrefixTreeFieldType"
+                   multiValued="true"
+                   geo="false"
+                   worldBounds="0 0 2524607999 2524607999"
+                   distErrPct="0"
+                   maxDistErr="1"
+                   units="degrees"/>
 
     </types>
 
 
     <fields>
-
-        <!-- denormalised fields for hidden and visible path elements -->
-        <field name="meta_visible_path_si" type="sint" indexed="true" stored="true"
-               multiValued="true"/>     <!-- Visible Location path IDs -->
-        <field name="meta_visible_path_string_ms" type="mstring" indexed="true" stored="true"
-               multiValued="true"/> <!-- Visible Location path string -->
-        <field name="meta_hidden_path_si" type="sint" indexed="true" stored="true"
-               multiValued="true"/>     <!-- Hidden Location path IDs -->
-        <field name="meta_hidden_path_string_ms" type="mstring" indexed="true" stored="true"
-               multiValued="true"/> <!-- Hidden Location path string -->
-
         <!-- Valid attributes for fields:
-           name: mandatory - the name for the field
-           type: mandatory - the name of a previously defined type from the
-             <types> section
-           indexed: true if this field should be indexed (searchable or sortable)
-           stored: true if this field should be retrievable
-           multiValued: true if this field may contain multiple values per document
-           omitNorms: (expert) set to true to omit the norms associated with
-             this field (this disables length normalization and index-time
-             boosting for the field, and saves some memory).  Only full-text
-             fields or fields that need an index-time boost need norms.
-           termVectors: [false] set to true to store the term vector for a
-             given field.
-             When using MoreLikeThis, fields used for similarity should be
-             stored for best performance.
-           termPositions: Store position information with the term vector.
-             This will increase storage costs.
-           termOffsets: Store offset information with the term vector. This
-             will increase storage costs.
-           default: a value that should be used if no value is specified
-             when adding a document.
-         -->
+          name: mandatory - the name for the field
+          type: mandatory - the name of a previously defined type from the
+            <types> section
+          indexed: true if this field should be indexed (searchable or sortable)
+          stored: true if this field should be retrievable
+          multiValued: true if this field may contain multiple values per document
+          omitNorms: (expert) set to true to omit the norms associated with
+            this field (this disables length normalization and index-time
+            boosting for the field, and saves some memory).  Only full-text
+            fields or fields that need an index-time boost need norms.
+          termVectors: [false] set to true to store the term vector for a
+            given field.
+            When using MoreLikeThis, fields used for similarity should be
+            stored for best performance.
+          termPositions: Store position information with the term vector.
+            This will increase storage costs.
+          termOffsets: Store offset information with the term vector. This
+            will increase storage costs.
+          default: a value that should be used if no value is specified
+            when adding a document.
+        -->
 
         <!-- include custom fields from external file -->
         &customfields;
@@ -600,6 +602,16 @@
         <field name="meta_is_hidden_b" type="boolean" indexed="true" stored="true" multiValued="true"/>
         <field name="meta_is_invisible_b" type="boolean" indexed="true" stored="true" multiValued="true"/>
         <field name="meta_priority_si" type="sint" indexed="true" stored="true" multiValued="true"/>
+
+        <!-- denormalised fields for hidden and visible path elements -->
+        <field name="meta_visible_path_si" type="sint" indexed="true" stored="true"
+               multiValued="true"/>     <!-- Visible Location path IDs -->
+        <field name="meta_visible_path_string_ms" type="mstring" indexed="true" stored="true"
+               multiValued="true"/> <!-- Visible Location path string -->
+        <field name="meta_hidden_path_si" type="sint" indexed="true" stored="true"
+               multiValued="true"/>     <!-- Hidden Location path IDs -->
+        <field name="meta_hidden_path_string_ms" type="mstring" indexed="true" stored="true"
+               multiValued="true"/> <!-- Hidden Location path string -->
 
         <!-- Here, default is used to create a "timestamp" field indicating
              When each document was indexed.
@@ -761,6 +773,8 @@
         <dynamicField name="*_dp" type="date_point" indexed="true" stored="true"/>
         <dynamicField name="*____dp" type="date_point" indexed="true" stored="true" multiValued="true"/>
 
+        <dynamicField name="*_rpt" type="location_rpt" indexed="true" stored="true" multiValued="true"/>
+        <dynamicField name="*____rpt" type="location_rpt" indexed="true" stored="true" multiValued="true"/>
     </fields>
 
     <!-- Field to use to determine and enforce document uniqueness.
@@ -821,4 +835,3 @@
 
 
 </schema>
-
