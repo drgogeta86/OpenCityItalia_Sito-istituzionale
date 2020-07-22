@@ -4,6 +4,100 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.3](https://gitlab.com/opencontent/opencity/compare/2.0.2...2.0.3) - 2020-07-22
+
+- Update version in publiccode
+- Update main installer, deps and settings
+- Update Docker.solr to include jts lib in solr.war 
+- Update solr schema with spatial search field
+
+#### Installer
+- Update main installer at version 2.0.14
+- Update demo installer at version 0.0.2 
+
+Relevant changes:
+- Corregge un problema di visualizzazione dell'attributo event/takes_place_in
+- Aggiunge alla classe image la visualizzazione dei correlati inversi
+- Corregge le visualizzazioni dell'attributo Canale digitale del servizio collegato della classe documento document/has_service
+- Permette all'editor base di rimuovere immagini
+- Impone il tipo di servizio come etichetta dell'icona dei servizi pubblici
+- Corregge la collocazione degli orari della classe luogo in "Orari strutture" invece di "Orari servizi"
+- Corregge le visualizzazioni di servizio pubblico
+- Corregge le visualizzazioni di ufficio
+- Corregge le visualizzazioni di area amministrativa
+- Visualizza l'abstract nella card teaser dei documenti 
+- Visualizza il titolo alternativo del servizio pubblico
+- Aggiunge la selezione del colore di sfondo nella classe banner
+- Aggiunge il flag show_cards nella pagina_sito e nella frontpage
+- Introduce la descrizione dei tag per le Tipologie di servizio
+- Introduce le definizioni per il cambio stato e il cambio sezione
+- Imposta il workflow di cambio data e il cambio stato per articolo e documento
+
+#### Code dependencies
+| Changes                               | From    | To             | Compare                                                                           |
+|---------------------------------------|:--------|:---------------|:----------------------------------------------------------------------------------|
+| aws/aws-sdk-php                       | 3.145.2 | 3.147.2        | https://github.com/aws/aws-sdk-php/compare/3.145.2...3.147.2                      |
+| easyrdf/easyrdf                       | 1148be7 | 1ad9066        | https://github.com/easyrdf/easyrdf/compare/1148be7...1ad9066                      |
+| friendsofsymfony/http-cache           | e6e9218 | 42c96a0        | https://github.com/FriendsOfSymfony/FOSHttpCache/compare/e6e9218...42c96a0        |
+| maxh/php-nominatim                    | cec1397 | 40e008e        | https://github.com/maxhelias/php-nominatim/compare/cec1397...40e008e              |
+| mtdowling/jmespath.php                | 52168cb | 39d4f63        | https://github.com/jmespath/jmespath.php/compare/52168cb...39d4f63                |
+| opencontent/ocbootstrap-ls            | 1.9.8   | 1.10.0         | https://github.com/OpencontentCoop/ocbootstrap/compare/1.9.8...1.10.0             |
+| opencontent/occhangeobjectdate-ls     | 2.0     | 2.1.0          | https://github.com/OpencontentCoop/occhangeobjectdate/compare/2.0...2.1.0         |
+| opencontent/ocinstaller               | 5a366f4 | 18c4769        | https://github.com/OpencontentCoop/ocinstaller/compare/5a366f4...18c4769          |
+| opencontent/openpa-ls                 | c9105eb | 3.10.3         | https://github.com/OpencontentCoop/openpa/compare/c9105eb...3.10.3                |
+| opencontent/openpa_bootstrapitalia-ls | aa2c28f | 1.0.0          | https://github.com/OpencontentCoop/openpa_bootstrapitalia/compare/aa2c28f...1.0.0 |
+| php-http/client-common                | 75470e5 | e37e46c        | https://github.com/php-http/client-common/compare/75470e5...e37e46c               |
+| php-http/discovery                    | 3cc2bcd | 64a18cc        | https://github.com/php-http/discovery/compare/3cc2bcd...64a18cc                   |
+| php-http/httplug                      | c9b2424 | 191a0a1        | https://github.com/php-http/httplug/compare/c9b2424...191a0a1                     |
+| symfony/options-resolver              | 9ae2b94 | e25bc4b        | https://github.com/symfony/options-resolver/compare/9ae2b94...e25bc4b             |
+| symfony/polyfill-ctype                | 2edd75b | 1c30264        | https://github.com/symfony/polyfill-ctype/compare/2edd75b...1c30264               |
+| symfony/polyfill-intl-idn             | a57f816 | bc6549d        | https://github.com/symfony/polyfill-intl-idn/compare/a57f816...bc6549d            |
+| symfony/polyfill-mbstring             | 7110338 | a6977d6        | https://github.com/symfony/polyfill-mbstring/compare/7110338...a6977d6            |
+| symfony/polyfill-php72                | 3d9c70f | 639447d        | https://github.com/symfony/polyfill-php72/compare/3d9c70f...639447d               |
+| symfony/polyfill-php73                | fa0837f | fffa1a5        | https://github.com/symfony/polyfill-php73/compare/fa0837f...fffa1a5               |
+| symfony/polyfill-php80                | 4a5b6bb | d87d576        | https://github.com/symfony/polyfill-php80/compare/4a5b6bb...d87d576               |
+| opencontent/eztagdescription-ls       | NEW     | 1.0            |                                                                                   |
+| paragonie/random_compat               | NEW     | v9.99.99.x-dev |                                                                                   |
+| symfony/polyfill-intl-normalizer      | NEW     | 37078a8        |                                                                                   |
+| symfony/polyfill-php70                | NEW     | 0dd93f2        |                                                                                   |
+
+Relevant changes by repository:
+
+**[opencontent/ocbootstrap-ls changes between 1.9.10 and 1.10.0](https://github.com/OpencontentCoop/ocbootstrap/compare/1.9.10...1.10.0)**
+ * Introduce i template bootstrap 4 per ezsurvey
+
+**[opencontent/ocinstaller changes between ec5eaf2 and 18c4769](https://github.com/OpencontentCoop/ocinstaller/compare/ec5eaf2...18c4769)**
+ * Add change_state, change_section, tag_description Bugifx
+
+**[opencontent/openpa-ls changes between c9105eb and 3.10.3](https://github.com/OpencontentCoop/openpa/compare/c9105eb...3.10.3)**
+ * Corregge un bug in openpa/object
+ * Corregge la fetch per il controllo degli stati
+
+**[opencontent/openpa_bootstrapitalia-ls changes between aa2c28f and 1.0.0](https://github.com/OpencontentCoop/openpa_bootstrapitalia/compare/aa2c28f...1.0.0)**
+ * Migliora la visualizzazione l'attributo alternative_name in apertura
+ * Aggiunge un livello di cache per le richieste delle alberature di tag
+ * Evita di mostrare nelle card il tempo di lettura se è a zero
+ * Permette di accedere da frontend all'interfaccia di modifica/rimozione per i link e i banner
+ * Evita di duplicare l'immagine principale di un contenuto nella galleria
+ * Permette la visualizzazione dei tag in formato card nelle pagine con menù virtualizzato in alberatura di tag
+ * Corregge un problema di visualizzazione dei link nell'abstract degli elementi di una lista paginata
+ * Introduce il blocco di ricerca (come da template TeamDigitale)
+ * Introduce la vista di blocco banner colorati per l'esposizione dei Siti tematici (come da template TeamDigitale)
+ * Merge branch 'cached_tag_tree'
+ * Previene disallineamenti di elementi flottanti nei testi formattati
+ * Migliora la visualizzazione l'attributo alt_name in apertura
+ * Permette di personalizzare l'etichetta dell'icona in base a un attributo di tipo eztags
+ * Corregge un bug sulla visualizzazione di un link come card
+ * Corregge l'icona di modifica dell'icona per l'accesso alla modifica del link/banner
+ * Corregge la visualizzazione dell'attributo external_contact_point
+ * Evita un possibile errore nell'edit handler
+ * Corregge la traduzione di alcune stringhe statiche
+ * Corregge la traduzione di alcune stringhe statiche
+ * Introduce ezsurvey in websitetoolbar
+ * Permette durante la redazione di un articolo di creare documenti nella cartella "Documenti (tecnici) di supporto" ma di poter navigare e allegare Documenti che stanno anche in altre sezioni
+ * Permettere di nascondere il link di accesso all'area personale (se presente un attributo booleano 'hide_access_menu' in homepage)
+ * Migliora la modalità selezione/inserimento dei luoghi in un evento
+
 ## [2.0.2](https://gitlab.com/opencontent/opencity/compare/2.0.1...2.0.2) - 2020-07-07
 
 - Update version in publiccode

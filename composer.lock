@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b171ef035b00224f0aa1996ec230bc10",
+    "content-hash": "1fa60f0b84dbc124acfdfceff48d280b",
     "packages": [
         {
             "name": "arnebratt/batchtool",
@@ -81,16 +81,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.146.0",
+            "version": "3.147.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "3975a494888375b5bdabf21285f86b47d6e9d531"
+                "reference": "c58688f53c730b74cec1b6cfee8d9ed5bb40d946"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/3975a494888375b5bdabf21285f86b47d6e9d531",
-                "reference": "3975a494888375b5bdabf21285f86b47d6e9d531",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/c58688f53c730b74cec1b6cfee8d9ed5bb40d946",
+                "reference": "c58688f53c730b74cec1b6cfee8d9ed5bb40d946",
                 "shasum": ""
             },
             "require": {
@@ -162,7 +162,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2020-07-15T18:18:08+00:00"
+            "time": "2020-07-21T18:11:40+00:00"
         },
         {
             "name": "clue/stream-filter",
@@ -1347,23 +1347,23 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maxhelias/php-nominatim.git",
-                "reference": "cec13977e8287c6756cd5f23e073f12b322ef8b5"
+                "reference": "40e008eb0052eacbcb9527a5092b5f9c3bb337bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maxhelias/php-nominatim/zipball/cec13977e8287c6756cd5f23e073f12b322ef8b5",
-                "reference": "cec13977e8287c6756cd5f23e073f12b322ef8b5",
+                "url": "https://api.github.com/repos/maxhelias/php-nominatim/zipball/40e008eb0052eacbcb9527a5092b5f9c3bb337bc",
+                "reference": "40e008eb0052eacbcb9527a5092b5f9c3bb337bc",
                 "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
                 "guzzlehttp/guzzle": "@stable",
-                "php": ">=7.0"
+                "php": ">=7.2"
             },
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "dev-master",
                 "phpro/grumphp": "^0.15.2",
-                "phpunit/phpunit": "6.5.*",
+                "phpunit/phpunit": "8.5.*|9.2.*",
                 "squizlabs/php_codesniffer": "dev-master"
             },
             "type": "library",
@@ -1394,7 +1394,7 @@
                 "osm",
                 "web service"
             ],
-            "time": "2020-07-06T12:11:28+00:00"
+            "time": "2020-07-22T10:44:59+00:00"
         },
         {
             "name": "ml/iri",
@@ -1797,16 +1797,16 @@
         },
         {
             "name": "opencontent/ocbootstrap-ls",
-            "version": "1.9.10",
+            "version": "1.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/ocbootstrap.git",
-                "reference": "1a51e9405b79f35bcab3c1c4e50948f6107400ce"
+                "reference": "b9fa0ebe6a0a6ab7eb10eb55561d9cb22b4af059"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/ocbootstrap/zipball/1a51e9405b79f35bcab3c1c4e50948f6107400ce",
-                "reference": "1a51e9405b79f35bcab3c1c4e50948f6107400ce",
+                "url": "https://api.github.com/repos/OpencontentCoop/ocbootstrap/zipball/b9fa0ebe6a0a6ab7eb10eb55561d9cb22b4af059",
+                "reference": "b9fa0ebe6a0a6ab7eb10eb55561d9cb22b4af059",
                 "shasum": ""
             },
             "require": {
@@ -1827,7 +1827,7 @@
                 }
             ],
             "description": "OpenContent Bootstrap Base Design",
-            "time": "2020-07-15T16:19:31+00:00"
+            "time": "2020-07-21T16:51:21+00:00"
         },
         {
             "name": "opencontent/occhangeobjectdate-ls",
@@ -2326,12 +2326,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/ocinstaller.git",
-                "reference": "ec5eaf29762b0bee7d923561618a3d333e354686"
+                "reference": "18c476934d0537114b112be6db5fff692213f648"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/ocinstaller/zipball/ec5eaf29762b0bee7d923561618a3d333e354686",
-                "reference": "ec5eaf29762b0bee7d923561618a3d333e354686",
+                "url": "https://api.github.com/repos/OpencontentCoop/ocinstaller/zipball/18c476934d0537114b112be6db5fff692213f648",
+                "reference": "18c476934d0537114b112be6db5fff692213f648",
                 "shasum": ""
             },
             "require": {
@@ -2361,7 +2361,7 @@
                 "source": "https://github.com/OpencontentCoop/ocinstaller/tree/master",
                 "issues": "https://github.com/OpencontentCoop/ocinstaller/issues"
             },
-            "time": "2020-07-13T20:34:49+00:00"
+            "time": "2020-07-17T13:14:23+00:00"
         },
         {
             "name": "opencontent/ocmaintenance-ls",
@@ -2806,16 +2806,16 @@
         },
         {
             "name": "opencontent/openpa-ls",
-            "version": "dev-version3",
+            "version": "3.10.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/openpa.git",
-                "reference": "c9105eb3d99411291a57ffdefef65fcba7294c67"
+                "reference": "27f0fd533dc74106c6dfc8e24c6c020f5d1b890d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/openpa/zipball/c9105eb3d99411291a57ffdefef65fcba7294c67",
-                "reference": "c9105eb3d99411291a57ffdefef65fcba7294c67",
+                "url": "https://api.github.com/repos/OpencontentCoop/openpa/zipball/27f0fd533dc74106c6dfc8e24c6c020f5d1b890d",
+                "reference": "27f0fd533dc74106c6dfc8e24c6c020f5d1b890d",
                 "shasum": ""
             },
             "require": {
@@ -2837,20 +2837,20 @@
                 }
             ],
             "description": "OpenContent OpenPA",
-            "time": "2020-06-16T22:07:16+00:00"
+            "time": "2020-07-22T17:14:08+00:00"
         },
         {
             "name": "opencontent/openpa_bootstrapitalia-ls",
-            "version": "dev-master",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/openpa_bootstrapitalia.git",
-                "reference": "aa2c28fcf194982679f0580617b342afe7bd9505"
+                "reference": "1df7b68042895e4aa08bbe87458a0411558f3b81"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/openpa_bootstrapitalia/zipball/aa2c28fcf194982679f0580617b342afe7bd9505",
-                "reference": "aa2c28fcf194982679f0580617b342afe7bd9505",
+                "url": "https://api.github.com/repos/OpencontentCoop/openpa_bootstrapitalia/zipball/1df7b68042895e4aa08bbe87458a0411558f3b81",
+                "reference": "1df7b68042895e4aa08bbe87458a0411558f3b81",
                 "shasum": ""
             },
             "require": {
@@ -2873,7 +2873,7 @@
                 }
             ],
             "description": "Opencontent OpenPA Bootstrap Italia",
-            "time": "2020-07-07T19:41:38+00:00"
+            "time": "2020-07-22T16:07:13+00:00"
         },
         {
             "name": "opencontent/openpa_newsletter-ls",
@@ -2993,12 +2993,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-http/client-common.git",
-                "reference": "d70de2f7bf575ef19350b8aab504857943ab2922"
+                "reference": "e37e46c610c87519753135fb893111798c69076a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-http/client-common/zipball/d70de2f7bf575ef19350b8aab504857943ab2922",
-                "reference": "d70de2f7bf575ef19350b8aab504857943ab2922",
+                "url": "https://api.github.com/repos/php-http/client-common/zipball/e37e46c610c87519753135fb893111798c69076a",
+                "reference": "e37e46c610c87519753135fb893111798c69076a",
                 "shasum": ""
             },
             "require": {
@@ -3030,7 +3030,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.2.x-dev"
+                    "dev-master": "2.3.x-dev"
                 }
             },
             "autoload": {
@@ -3056,7 +3056,7 @@
                 "http",
                 "httplug"
             ],
-            "time": "2020-07-13T15:38:36+00:00"
+            "time": "2020-07-21T10:04:13+00:00"
         },
         {
             "name": "php-http/discovery",
@@ -6428,11 +6428,9 @@
     "stability-flags": {
         "ezsystems/ezfind-ls": 20,
         "ezsystems/ezpublish-legacy-installer": 20,
-        "opencontent/openpa-ls": 20,
         "opencontent/ezpostgresqlcluster-ls": 20,
         "opencontent/ocsupport-ls": 20,
         "opencontent/ezuserformtoken-ls": 20,
-        "opencontent/openpa_bootstrapitalia-ls": 20,
         "opencontent/ocfoshttpcache-ls": 20,
         "opencontent/ocinstaller": 20,
         "maxh/php-nominatim": 20,
