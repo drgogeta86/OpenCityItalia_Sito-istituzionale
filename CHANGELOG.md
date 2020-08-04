@@ -4,6 +4,72 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+
+## [2.0.15](https://gitlab.com/opencontent/opencity/compare/2.0.3...2.0.15) - 2020-08-05
+
+**Align the numbering of the repository tags with the version of the main installer**
+
+- Update version in publiccode
+- Update main installer, deps and settings
+- Add all private net to acl invalidators
+- Update OpendataRemoteContents block ini
+
+#### Installer
+- Update to version 2.0.15
+
+Relevant changes:
+- Allow Editor Servizi to edit tag description
+- Add priority and main role attributes to time_indexed_role
+- Set political_body people default role sort to type
+- Fix online_contact_point phone_availability_time default placement
+- Fix document and online_contact_point class extra
+- Fix banner internal location relation constraint
+- Fix typo in tag descriptions
+- Fix version compare in patch content for update
+
+#### Code dependencies
+| Changes                               | From    | To       | Compare                                                                                |
+|---------------------------------------|:--------|:---------|:---------------------------------------------------------------------------------------|
+| aws/aws-sdk-php                       | 3.147.2 | 3.147.12 | https://github.com/aws/aws-sdk-php/compare/3.147.2...3.147.12                          |
+| easyrdf/easyrdf                       | 1ad9066 | 6717db2  | https://github.com/easyrdf/easyrdf/compare/1ad9066...6717db2                           |
+| maxh/php-nominatim                    | 40e008e | 311363b  | https://github.com/maxhelias/php-nominatim/compare/40e008e...311363b                   |
+| mtdowling/jmespath.php                | 39d4f63 | 42dae2c  | https://github.com/jmespath/jmespath.php/compare/39d4f63...42dae2c                     |
+| opencontent/ocbootstrap-ls            | 1.10.0  | 1.10.1   | https://github.com/OpencontentCoop/ocbootstrap/compare/1.10.0...1.10.1                 |
+| opencontent/ocinstaller               | 18c4769 | 8a20be4  | https://github.com/OpencontentCoop/ocinstaller/compare/18c4769...8a20be4               |
+| opencontent/openpa-ls                 | 3.10.3  | 3.10.7   | https://github.com/OpencontentCoop/openpa/compare/3.10.3...3.10.7                      |
+| opencontent/openpa_bootstrapitalia-ls | 1.0.0   | 1.0.4    | https://github.com/OpencontentCoop/openpa_bootstrapitalia/compare/1.0.0...1.0.4        |
+| symfony/event-dispatcher              | 0403953 | bbb461a  | https://github.com/symfony/event-dispatcher/compare/0403953...bbb461a                  |
+| symfony/polyfill-intl-idn             | bc6549d | 5dcab1b  | https://github.com/symfony/polyfill-intl-idn/compare/bc6549d...5dcab1b                 |
+
+Relevant changes by repository:
+
+**[opencontent/ocbootstrap-ls changes between 1.10.0 and 1.10.1](https://github.com/OpencontentCoop/ocbootstrap/compare/1.10.0...1.10.1)**
+ * Corregge la visualizzazione dei form per ezsurvey in bootstrap 4
+
+**[opencontent/ocinstaller changes between 18c4769 and 8a20be4](https://github.com/OpencontentCoop/ocinstaller/compare/18c4769...8a20be4)**
+ * Add reindex step
+
+**[opencontent/openpa-ls changes between 3.10.3 and 3.10.7](https://github.com/OpencontentCoop/openpa/compare/3.10.3...3.10.7)**
+ * Permette a content_link di riconoscere se un link è al nodo o a un nodo/link esterno
+ * Corregge un possibile errore nel calcolo delle aree tematiche
+ * Corregge un typo in cookie
+ * Migliora la visualizzazione della versione del software
+
+**[opencontent/openpa_bootstrapitalia-ls changes between 1.0.0 and 1.0.3](https://github.com/OpencontentCoop/openpa_bootstrapitalia/compare/1.0.0...1.0.3)**
+ * Corregge una regressione riapplicando il font serif ai blocchi di testo nelle visualizzazioni full
+ * Espone gli attributi nell'ordine corretto in visualizzazione full
+ * Corregge l'esposizione degli attributi nell'ordine corretto in visualizzazione full considerando anche i custom attributes
+ * Formatta le card degli oggetti di classe html_content visualizzando solo il contenuto non filtrato dell'attributo html
+ * Migliora il blocco per l'inclusione di contenuti remoti aggiungendo facets e impostazioni avanzate
+ * Corregge un possibile errore nel attributo di tipo reverse relations
+ * Merge branch 'improve-remote-block'
+ * Corregge un errore per cui non era possibile modificare un banner se il link era interno
+ * Considera le date di inizio e fine e migliora la visualizzazione dei ruoli openpa
+ * Permette l'inserimento del link Vedi tutti nel blocco Contenuti remoti
+ * Permette l'edit inline della descrizione del tag
+ * Permettere di attivare il menu esteso (se presente un attributo booleano 'show_extended_menu' in homepage)
+ * Corregge un problema di visualizzazione della descrizione del tag
+
 ## [2.0.3](https://gitlab.com/opencontent/opencity/compare/2.0.2...2.0.3) - 2020-07-22
 
 - Update version in publiccode
