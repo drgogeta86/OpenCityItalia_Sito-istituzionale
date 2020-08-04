@@ -39,3 +39,7 @@ policies:
                 - $contenttree_OpenCity_Servizi_path_string
             Node:
                 - $contenttree_OpenCity_Servizi_node
+    -
+        ModuleName: bootstrapitalia
+        FunctionName: edit_tag_description
+        Limitation: {  }
