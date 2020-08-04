@@ -171,5 +171,37 @@ data_map:
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
+    ruolo_principale:
+        identifier: ruolo_principale
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Viene visualizzato in apertura'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Ruolo principale'
+        data_type_string: ezboolean
+        placement: 10
+        is_searchable: 1
+        can_translate: 1
+        data_int3: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    priorita:
+        identifier: priorita
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Priorità'
+        data_type_string: ezinteger
+        placement: 11
+        is_searchable: 1
+        can_translate: 1
+        data_int3: 0
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
 groups:
     - 'Ruoli - RO'
