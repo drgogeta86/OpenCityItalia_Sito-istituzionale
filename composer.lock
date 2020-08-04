@@ -81,16 +81,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.147.2",
+            "version": "3.147.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "c58688f53c730b74cec1b6cfee8d9ed5bb40d946"
+                "reference": "960f3d34784577e223b294e978a1c6d0e516b081"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/c58688f53c730b74cec1b6cfee8d9ed5bb40d946",
-                "reference": "c58688f53c730b74cec1b6cfee8d9ed5bb40d946",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/960f3d34784577e223b294e978a1c6d0e516b081",
+                "reference": "960f3d34784577e223b294e978a1c6d0e516b081",
                 "shasum": ""
             },
             "require": {
@@ -162,7 +162,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2020-07-21T18:11:40+00:00"
+            "time": "2020-08-04T18:11:18+00:00"
         },
         {
             "name": "clue/stream-filter",
@@ -387,12 +387,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/easyrdf/easyrdf.git",
-                "reference": "1ad9066138f62aac210bcc250cdc45ad9a67b009"
+                "reference": "6717db2d3b8e13250112a2de900b5c4e8f0c7554"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/easyrdf/easyrdf/zipball/1ad9066138f62aac210bcc250cdc45ad9a67b009",
-                "reference": "1ad9066138f62aac210bcc250cdc45ad9a67b009",
+                "url": "https://api.github.com/repos/easyrdf/easyrdf/zipball/6717db2d3b8e13250112a2de900b5c4e8f0c7554",
+                "reference": "6717db2d3b8e13250112a2de900b5c4e8f0c7554",
                 "shasum": ""
             },
             "require": {
@@ -404,7 +404,7 @@
                 "ml/json-ld": "~1.0",
                 "phpunit/phpunit": "^7",
                 "sami/sami": "^4",
-                "semsol/arc2": "~2.2",
+                "semsol/arc2": "^2.4",
                 "squizlabs/php_codesniffer": "3.*",
                 "zendframework/zend-http": "~2.3"
             },
@@ -446,7 +446,7 @@
                 "rdfa",
                 "sparql"
             ],
-            "time": "2020-07-15T00:14:23+00:00"
+            "time": "2020-08-04T00:00:47+00:00"
         },
         {
             "name": "ezsystems/ezautosave-ls",
@@ -1347,12 +1347,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maxhelias/php-nominatim.git",
-                "reference": "40e008eb0052eacbcb9527a5092b5f9c3bb337bc"
+                "reference": "311363b8a724aaa7def5a3002cbc657f18209b07"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maxhelias/php-nominatim/zipball/40e008eb0052eacbcb9527a5092b5f9c3bb337bc",
-                "reference": "40e008eb0052eacbcb9527a5092b5f9c3bb337bc",
+                "url": "https://api.github.com/repos/maxhelias/php-nominatim/zipball/311363b8a724aaa7def5a3002cbc657f18209b07",
+                "reference": "311363b8a724aaa7def5a3002cbc657f18209b07",
                 "shasum": ""
             },
             "require": {
@@ -1363,8 +1363,7 @@
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "dev-master",
                 "phpro/grumphp": "^0.15.2",
-                "phpunit/phpunit": "8.5.*|9.2.*",
-                "squizlabs/php_codesniffer": "dev-master"
+                "phpunit/phpunit": "8.5.*|9.2.*"
             },
             "type": "library",
             "autoload": {
@@ -1394,7 +1393,7 @@
                 "osm",
                 "web service"
             ],
-            "time": "2020-07-22T10:44:59+00:00"
+            "time": "2020-07-22T17:52:30+00:00"
         },
         {
             "name": "ml/iri",
@@ -1498,21 +1497,21 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jmespath/jmespath.php.git",
-                "reference": "39d4f63ecfb006977180c3652039028d4ae466ac"
+                "reference": "42dae2cbd13154083ca6d70099692fef8ca84bfb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jmespath/jmespath.php/zipball/39d4f63ecfb006977180c3652039028d4ae466ac",
-                "reference": "39d4f63ecfb006977180c3652039028d4ae466ac",
+                "url": "https://api.github.com/repos/jmespath/jmespath.php/zipball/42dae2cbd13154083ca6d70099692fef8ca84bfb",
+                "reference": "42dae2cbd13154083ca6d70099692fef8ca84bfb",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.4.0",
+                "php": "^5.4 || ^7.0 || ^8.0",
                 "symfony/polyfill-mbstring": "^1.17"
             },
             "require-dev": {
                 "composer/xdebug-handler": "^1.4",
-                "phpunit/phpunit": "^4.8.36|^7.5.15"
+                "phpunit/phpunit": "^4.8.36 || ^7.5.15"
             },
             "bin": [
                 "bin/jp.php"
@@ -1547,7 +1546,7 @@
                 "json",
                 "jsonpath"
             ],
-            "time": "2020-07-14T22:52:50+00:00"
+            "time": "2020-07-31T21:01:56+00:00"
         },
         {
             "name": "opencontent/cjwnewsletter-ls",
@@ -1797,16 +1796,16 @@
         },
         {
             "name": "opencontent/ocbootstrap-ls",
-            "version": "1.10.0",
+            "version": "1.10.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/ocbootstrap.git",
-                "reference": "b9fa0ebe6a0a6ab7eb10eb55561d9cb22b4af059"
+                "reference": "cb12fa88bf2f794d29805038f70718fa160d77d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/ocbootstrap/zipball/b9fa0ebe6a0a6ab7eb10eb55561d9cb22b4af059",
-                "reference": "b9fa0ebe6a0a6ab7eb10eb55561d9cb22b4af059",
+                "url": "https://api.github.com/repos/OpencontentCoop/ocbootstrap/zipball/cb12fa88bf2f794d29805038f70718fa160d77d2",
+                "reference": "cb12fa88bf2f794d29805038f70718fa160d77d2",
                 "shasum": ""
             },
             "require": {
@@ -1827,7 +1826,7 @@
                 }
             ],
             "description": "OpenContent Bootstrap Base Design",
-            "time": "2020-07-21T16:51:21+00:00"
+            "time": "2020-08-04T08:42:18+00:00"
         },
         {
             "name": "opencontent/occhangeobjectdate-ls",
@@ -2326,12 +2325,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/ocinstaller.git",
-                "reference": "18c476934d0537114b112be6db5fff692213f648"
+                "reference": "8a20be4fe5137b4ad308f310eec2e027f25eda47"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/ocinstaller/zipball/18c476934d0537114b112be6db5fff692213f648",
-                "reference": "18c476934d0537114b112be6db5fff692213f648",
+                "url": "https://api.github.com/repos/OpencontentCoop/ocinstaller/zipball/8a20be4fe5137b4ad308f310eec2e027f25eda47",
+                "reference": "8a20be4fe5137b4ad308f310eec2e027f25eda47",
                 "shasum": ""
             },
             "require": {
@@ -2361,7 +2360,7 @@
                 "source": "https://github.com/OpencontentCoop/ocinstaller/tree/master",
                 "issues": "https://github.com/OpencontentCoop/ocinstaller/issues"
             },
-            "time": "2020-07-17T13:14:23+00:00"
+            "time": "2020-08-04T07:05:49+00:00"
         },
         {
             "name": "opencontent/ocmaintenance-ls",
@@ -2806,16 +2805,16 @@
         },
         {
             "name": "opencontent/openpa-ls",
-            "version": "3.10.3",
+            "version": "3.10.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/openpa.git",
-                "reference": "27f0fd533dc74106c6dfc8e24c6c020f5d1b890d"
+                "reference": "9f9329720845ed9ce95c46502ebc82cb9076cef5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/openpa/zipball/27f0fd533dc74106c6dfc8e24c6c020f5d1b890d",
-                "reference": "27f0fd533dc74106c6dfc8e24c6c020f5d1b890d",
+                "url": "https://api.github.com/repos/OpencontentCoop/openpa/zipball/9f9329720845ed9ce95c46502ebc82cb9076cef5",
+                "reference": "9f9329720845ed9ce95c46502ebc82cb9076cef5",
                 "shasum": ""
             },
             "require": {
@@ -2837,20 +2836,20 @@
                 }
             ],
             "description": "OpenContent OpenPA",
-            "time": "2020-07-22T17:14:08+00:00"
+            "time": "2020-08-04T16:26:25+00:00"
         },
         {
             "name": "opencontent/openpa_bootstrapitalia-ls",
-            "version": "1.0.0",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/openpa_bootstrapitalia.git",
-                "reference": "1df7b68042895e4aa08bbe87458a0411558f3b81"
+                "reference": "0af3aa3e691190d84d777f563c9a1aa52902ef69"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/openpa_bootstrapitalia/zipball/1df7b68042895e4aa08bbe87458a0411558f3b81",
-                "reference": "1df7b68042895e4aa08bbe87458a0411558f3b81",
+                "url": "https://api.github.com/repos/OpencontentCoop/openpa_bootstrapitalia/zipball/0af3aa3e691190d84d777f563c9a1aa52902ef69",
+                "reference": "0af3aa3e691190d84d777f563c9a1aa52902ef69",
                 "shasum": ""
             },
             "require": {
@@ -2873,7 +2872,7 @@
                 }
             ],
             "description": "Opencontent OpenPA Bootstrap Italia",
-            "time": "2020-07-22T16:07:13+00:00"
+            "time": "2020-07-24T09:26:35+00:00"
         },
         {
             "name": "opencontent/openpa_newsletter-ls",
@@ -3981,12 +3980,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/cache.git",
-                "reference": "c8655a6bddc1cae5a9d282e1c41ed1d60684644c"
+                "reference": "b9ae3539a0ecd7bcffe426f7a91401489c069834"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/cache/zipball/c8655a6bddc1cae5a9d282e1c41ed1d60684644c",
-                "reference": "c8655a6bddc1cae5a9d282e1c41ed1d60684644c",
+                "url": "https://api.github.com/repos/symfony/cache/zipball/b9ae3539a0ecd7bcffe426f7a91401489c069834",
+                "reference": "b9ae3539a0ecd7bcffe426f7a91401489c069834",
                 "shasum": ""
             },
             "require": {
@@ -4052,7 +4051,7 @@
                 "caching",
                 "psr6"
             ],
-            "time": "2020-07-12T12:49:36+00:00"
+            "time": "2020-07-23T11:31:42+00:00"
         },
         {
             "name": "symfony/cache-contracts",
@@ -4172,12 +4171,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
-                "reference": "04039530ba77586eaf125de98c63315387190e5b"
+                "reference": "bbb461a02a0cf72e7e3dd832329b5e9652687cf3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/04039530ba77586eaf125de98c63315387190e5b",
-                "reference": "04039530ba77586eaf125de98c63315387190e5b",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/bbb461a02a0cf72e7e3dd832329b5e9652687cf3",
+                "reference": "bbb461a02a0cf72e7e3dd832329b5e9652687cf3",
                 "shasum": ""
             },
             "require": {
@@ -4236,7 +4235,7 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
-            "time": "2020-06-18T19:55:03+00:00"
+            "time": "2020-07-25T21:01:31+00:00"
         },
         {
             "name": "symfony/event-dispatcher-contracts",
@@ -4425,12 +4424,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-idn.git",
-                "reference": "bc6549d068d0160e0f10f7a5a23c7d1406b95ebe"
+                "reference": "5dcab1bc7146cf8c1beaa4502a3d9be344334251"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/bc6549d068d0160e0f10f7a5a23c7d1406b95ebe",
-                "reference": "bc6549d068d0160e0f10f7a5a23c7d1406b95ebe",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/5dcab1bc7146cf8c1beaa4502a3d9be344334251",
+                "reference": "5dcab1bc7146cf8c1beaa4502a3d9be344334251",
                 "shasum": ""
             },
             "require": {
@@ -4488,7 +4487,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2020-07-14T12:35:20+00:00"
+            "time": "2020-08-04T06:02:08+00:00"
         },
         {
             "name": "symfony/polyfill-intl-normalizer",
