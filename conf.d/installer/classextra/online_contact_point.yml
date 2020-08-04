@@ -6,6 +6,7 @@ bootstrapitalia_icon:
 card_small_view:
     show:
         contact: '1'
+        phone_availability_time: '1'
 table_view:
     enabled:
         '*': '1'

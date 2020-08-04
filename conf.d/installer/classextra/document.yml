@@ -17,6 +17,8 @@ attribute_group:
         interroganti: '1'
         link: '1'
         start_time: '1'
+        area: '1'
+        has_organization: '1'
     enabled:
         '*': '1'
     'ita-IT::accedere_al_servizio':
@@ -37,7 +39,7 @@ attribute_group:
         '*': '5'
     tempi_e_scadenze:
         '*': 'Tempi e scadenze'
-        area: '1'
+        area: '0'
         end_time: '1'
         images: '1'
         topics: '1'
@@ -46,7 +48,7 @@ attribute_group:
         '*': 'Ulteriori informazioni'
         content_show_history: '1'
         content_show_modified: '1'
-        has_organization: '1'
+        has_organization: '0'
         other_information: '1'
 bootstrapitalia_icon:
     enabled:
@@ -80,7 +82,13 @@ table_view:
         link: '1'
         other_information: '1'
         related_public_services: '1'
+        area: '1'
+    show_link:
+        area: '1'
+        has_organization: '1'
     show_label:
         document_type: '1'
         interroganti: '1'
         has_service: '1'
+        area: '1'
+        has_organization: '1'
