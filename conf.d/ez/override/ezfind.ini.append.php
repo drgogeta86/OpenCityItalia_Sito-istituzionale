@@ -12,6 +12,7 @@ CustomMap[ezinteger]=ocSolrDocumentFieldInteger
 
 DatatypeMap[ezobjectrelationlist]=string
 DatatypeMap[ezinteger]=sint
+DatatypeMap[ezcountry]=string
 
 DatatypeMapSort[ezstring]=string
 DatatypeMapSort[ezinteger]=sint
