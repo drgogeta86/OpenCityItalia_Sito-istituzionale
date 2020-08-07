@@ -83,6 +83,7 @@ policies:
                 - $class_political_body
                 - $class_office
                 - $class_politico
+                - $class_employee
                 - $class_place
                 - $class_public_organization
                 - $class_private_organization
@@ -96,6 +97,7 @@ policies:
                 - $class_political_body
                 - $class_office
                 - $class_politico
+                - $class_employee
                 - $class_place
                 - $class_public_organization
                 - $class_private_organization
