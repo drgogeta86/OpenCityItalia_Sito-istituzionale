@@ -60,7 +60,7 @@ data_map:
         data_type_string: openparole
         placement: 4
         can_translate: 1
-        data_text5: '{"roletype_root_tag":"Persone\/Ruoli","select":1,"view":2,"filter":[],"sort":2}'
+        data_text5: '{"roletype_root_tag":"Persone\/Ruoli","select":1,"view":2,"filter":[],"sort":3}'
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''

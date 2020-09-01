@@ -387,7 +387,7 @@ data_map:
         data_type_string: openparole
         placement: 22
         can_translate: 1
-        data_text5: '{"roletype_root_tag":"Persone\/Ruoli","select":2,"view":3,"filter":[],"sort":1}'
+        data_text5: '{"roletype_root_tag":"Persone\/Ruoli","select":2,"view":3,"filter":[],"sort":3}'
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
