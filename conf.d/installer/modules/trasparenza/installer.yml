@@ -1,6 +1,6 @@
 name: 'OpenCity Trasparenza'
 type: module
-version: 0.0.5
+version: 0.0.6
 variables:
     -
         name: identifier
@@ -11,6 +11,9 @@ variables:
     -
         name: anonymous_user
         value: 'ini(UserSettings,AnonymousUserID,site.ini)'
+    -
+        name: update_homepage
+        value: env(TRASPARENZA_ADD_LINK_TO_HOMEPAGE)
 steps:
     -
         type: class
@@ -501,7 +504,7 @@ steps:
         type: content
         current_version_le: 0.0.1
         identifier: OpenCity
-        update: 1
+        condition: $update_homepage
     -
         type: content
         identifier: Enti-e-fondazioni
@@ -540,3 +543,9 @@ steps:
         identifier: efc995388bebdd304f19eef17aab7e0d
         attributes:
             fields: 'parent:1|filters:role in [''"Segretario generale"'',''"Segretario comunale"'']|time_indexed_role|person,role,for_entity'
+    -
+        type: patch_content
+        current_version_le: 0.0.6
+        identifier: 9eed77856255692eca75cdb849540c23
+        attributes:
+            fields: 'parent:1|filters:role in [''"Dirigente"'']|time_indexed_role|person,role,for_entity'

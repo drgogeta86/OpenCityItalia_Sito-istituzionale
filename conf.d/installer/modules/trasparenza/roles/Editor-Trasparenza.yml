@@ -10,6 +10,14 @@ policies:
                 - classid(partecipazione_societaria)
     -
         ModuleName: content
+        FunctionName: edit
+        Limitation:
+            Subtree:
+                - $contenttree_Trasparenza-Ammi-Tras_Enti-controllati_path_string
+            Class:
+                - classid(partecipazione_societaria)
+    -
+        ModuleName: content
         FunctionName: create
         Limitation:
             Subtree:
