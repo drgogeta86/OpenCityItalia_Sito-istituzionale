@@ -289,6 +289,7 @@ data_map:
         is_searchable: 1
         is_required: 1
         can_translate: 1
+        data_int1: 1
         category: riferimenti_temporali
         serialized_data_text: {  }
     publication_end_time:
