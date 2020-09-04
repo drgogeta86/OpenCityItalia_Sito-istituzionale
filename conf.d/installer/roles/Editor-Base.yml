@@ -210,3 +210,7 @@ policies:
                 - $section_media
                 - $section_restricted
                 - $section_intranet
+    -
+        ModuleName: ocmultibinary
+        FunctionName: '*'
+        Limitation: {  }
