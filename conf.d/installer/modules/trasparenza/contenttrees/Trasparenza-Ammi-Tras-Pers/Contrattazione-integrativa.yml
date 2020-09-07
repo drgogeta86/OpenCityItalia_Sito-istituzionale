@@ -1,0 +1,20 @@
+metadata:
+    remoteId: 66bd19a29880fec026237d4c9fa71162
+    classIdentifier: pagina_trasparenza
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        titolo: 'Contrattazione integrativa'
+        contenuto_obbligo: '<p>Contratti integrativi stipulati</p>'
+        riferimenti_normativi: "Ai sensi della l.r. n. 10/2014 e ss.mm., art.21, co. 2, d.lgs. n. 33/2013 e ss.mm.\r\n"
+        applicabilita: ''
+        denominazione_degli_obblighi: ''
+        guida_alla_compilazione: ''
+        messaggio_di_consiglio: ''
+        fields: null
+sort_data:
+    sort_field: 8
+    sort_order: 1
+    priority: 10

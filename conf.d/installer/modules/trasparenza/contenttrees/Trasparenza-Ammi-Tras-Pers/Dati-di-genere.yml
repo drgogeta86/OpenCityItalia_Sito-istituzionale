@@ -1,0 +1,20 @@
+metadata:
+    remoteId: 3103431f27a16cdff44fc24f897e69da
+    classIdentifier: pagina_trasparenza
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        titolo: 'Dati di genere'
+        contenuto_obbligo: "<p>Dati statistici sulla proporzione fra i due generi, pubblicati ai sensi dell'art. 27 ter del D.P.Reg. 01.02.2005 n 2/L e ss.mm. (<b>solo per gli enti locali con popolazione superiore ai 30.000 abitanti</b>) per ognuna delle seguenti categorie:</p><p>a) per servizi ovvero per analoghe unità organizzative</p><p>b) per tipo di rapporto lavorativo</p><p>c) per qualifica funzionale o categoria</p><p>d) per funzioni</p><p>e) per tempo pieno e parziale, distinguendo fra le diverse forme</p><p>f) per classi di stipendio, tenendo conto di premi di produttività, indennità e aumenti individuali di stipendio</p><p>g) per monte salari per uomini e donne</p><p>h) per età</p><p>i) per grado di istruzione delle/dei dipendenti</p><p>l) per stato di famiglia nonché numero ed età delle figlie e dei figli delle/dei dipendenti.</p><p>Sono inoltre pubblicati i dati sul numero di donne e di uomini che rispetto all’ultima pubblicazione:</p><p>a) svolgono funzioni di livello apicale</p><p>b) hanno partecipato a iniziative di formazione e aggiornamento</p><p>c) hanno ottenuto premi di produttività, indennità o aumenti individuali di stipendio</p><p>d) hanno cambiato servizio, ufficio o unità organizzativa</p>"
+        riferimenti_normativi: 'Art. 114 del Codice degli enti locali (l.r. 3 maggio 2018, n. 2) \r\n'
+        applicabilita: ''
+        denominazione_degli_obblighi: ''
+        guida_alla_compilazione: ''
+        messaggio_di_consiglio: ''
+        fields: null
+sort_data:
+    sort_field: 8
+    sort_order: 1
+    priority: 12
