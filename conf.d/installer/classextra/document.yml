@@ -19,6 +19,7 @@ attribute_group:
         start_time: '1'
         area: '1'
         has_organization: '1'
+        reference_doc: '1'
     enabled:
         '*': '1'
     'ita-IT::accedere_al_servizio':
@@ -83,6 +84,7 @@ table_view:
         other_information: '1'
         related_public_services: '1'
         area: '1'
+        reference_doc: '1'
     show_link:
         area: '1'
         has_organization: '1'
