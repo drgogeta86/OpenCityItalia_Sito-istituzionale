@@ -4,6 +4,70 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.16](https://gitlab.com/opencontent/opencity/compare/2.0.15...2.0.16) - 2020-09-08
+
+#### Installer
+- Update to version 2.0.16
+
+Relevant changes:
+- Show document/reference_doc
+- Fix administrative_area class extra
+- Add missing pagine trasparenza
+- Add ocmultibinary policy to Editor-Base
+- Set default value to document/publication_start_time
+- Fix role Editor-Trasparenza, add dirigenti query fields
+- Fix openparole sorting in office and politico
+- Fix Editor Amministrazione employee permission
+
+#### Code dependencies
+| Changes                               | From    | To       | Compare                                                                                |
+|---------------------------------------|:--------|:---------|:---------------------------------------------------------------------------------------|
+| aws/aws-sdk-php                       | 3.147.12 | 3.152.0 | [...](https://github.com/aws/aws-sdk-php/compare/3.147.12...3.152.0)                   |
+| easyrdf/easyrdf                       | 6717db2  | 7279d7f | [...](https://github.com/easyrdf/easyrdf/compare/6717db2...7279d7f)                    |
+| mtdowling/jmespath.php                | 42dae2c  | 30dfa00 | [...](https://github.com/jmespath/jmespath.php/compare/42dae2c...30dfa00)              |
+| opencontent/ocbootstrap-ls            | 1.10.1   | 1.10.2  | [...](https://github.com/OpencontentCoop/ocbootstrap/compare/1.10.1...1.10.2)          |
+| opencontent/ocopendata_forms-ls       | 1.6.3    | 1.6.4   | [...](https://github.com/OpencontentCoop/ocopendata_forms/compare/1.6.3...1.6.4)       |
+| opencontent/openpa_bootstrapitalia-ls | 1.0.4    | 1.0.6   | [...](https://github.com/OpencontentCoop/openpa_bootstrapitalia/compare/1.0.4...1.0.6) |
+| php-http/discovery                    | 64a18cc  | 1.10.0  | [...](https://github.com/php-http/discovery/compare/64a18cc...1.10.0)                  |
+| php-http/message                      | 226ba9f  | 1.9.0   | [...](https://github.com/php-http/message/compare/226ba9f...1.9.0)                     |
+| symfony/cache-contracts               | 9771a09  | 8034ca0 | [...](https://github.com/symfony/cache-contracts/compare/9771a09...8034ca0)            |
+| symfony/deprecation-contracts         | 5e20b83  | 5fa56b4 | [...](https://github.com/symfony/deprecation-contracts/compare/5e20b83...5fa56b4)      |
+| symfony/event-dispatcher              | bbb461a  | 98e8d61 | [...](https://github.com/symfony/event-dispatcher/compare/bbb461a...98e8d61)           |
+| symfony/event-dispatcher-contracts    | f6f613d  | 0ba7d54 | [...](https://github.com/symfony/event-dispatcher-contracts/compare/f6f613d...0ba7d54) |
+| symfony/options-resolver              | e25bc4b  | c2565c6 | [...](https://github.com/symfony/options-resolver/compare/e25bc4b...c2565c6)           |
+| symfony/polyfill-intl-idn             | 5dcab1b  | 045643b | [...](https://github.com/symfony/polyfill-intl-idn/compare/5dcab1b...045643b)          |
+| symfony/service-contracts             | 58c7475  | d15da7b | [...](https://github.com/symfony/service-contracts/compare/58c7475...d15da7b)          |
+| symfony/var-exporter                  | 1faf288  | 1203f9c | [...](https://github.com/symfony/var-exporter/compare/1faf288...1203f9c)               |
+| symfony/yaml                          | 90faa84  | a06dfcf | [...](https://github.com/symfony/yaml/compare/90faa84...a06dfcf)                       |
+
+Relevant changes by repository:
+
+**[opencontent/ocbootstrap-ls changes between 1.10.1 and 1.10.2](https://github.com/OpencontentCoop/ocbootstrap/compare/1.10.1...1.10.2)**
+ * Corregge un bug che impediva la visualizzazione dei testi di aiuto nei form dinamici
+
+**[opencontent/ocopendata_forms-ls changes between 1.6.3 and 1.6.4](https://github.com/OpencontentCoop/ocopendata_forms/compare/1.6.3...1.6.4)**
+ * Espone l'indirizzo da geocoder nominatim in modo meno verboso
+
+**[opencontent/openpa_bootstrapitalia-ls changes between 1.0.4 and 1.0.6](https://github.com/OpencontentCoop/openpa_bootstrapitalia/compare/1.0.4...1.0.6)**
+ * Corregge un problema di visualizzazione nelle select chosen
+ * Permette di visualizzare attributi in formato information collector
+ * Revert: Corregge un problema di visualizzazione nelle select chosen
+ * Corregge il colore del testo del banner se nessun colore di sfondo è selezionato
+ * Permette una maggiore customizzazione del blocco Contenuti remoti
+ * Corregge un errore di rendering javascript nel blocco lista paginata
+ * Corregge l'ordinamento dei contenuti extra nella pagina trasparenza
+ * Migliora il form dinamico di inserimento e modifica del Documento inserendo e validando gli attributi file e link
+ * Migliora l'ordinamento delle persone nell'attributo di tipo ruolo
+ * Abilita la possibilità di navigare in tutta l'alberatura per tutti gli attributi di tipo relazioni oggetti con vista "sfoglia"
+ * Permette di di modificare testo del cookie alert
+ * Corregge alcune imprecisioni sull'utilizzo dei font
+ * Corregge l'ordinamento dei ruoli per priorità
+ * Nasconde il titolo nei blocchi relazionati (con vista card teaser) nel caso di un unico oggetto relazionato per gli attributi has_spatial_coverage, has_online_contact_point, opening_hours_specification
+ * Imposta l'immagine originale per i blocchi ricerca e argomenti per evitare la degenerazione dell'immagine
+ * Nasconde il bullet dall'elenco ruoli in caso di ruolo singolo
+ * Corregge alcune stringhe di traduzione
+ * Migliora la paginazione del blocco lista_paginata
+ * Migliora la visualizzazione del pulsante canale digitale
 
 ## [2.0.15](https://gitlab.com/opencontent/opencity/compare/2.0.3...2.0.15) - 2020-08-05
 
