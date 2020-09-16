@@ -408,7 +408,7 @@ data_map:
             selection_type: '0'
             type: '2'
             class_constraint_list:
-                - documento
+                - document
             default_placement:
                 node_id: $contenttree_Documenti-e-dati_Documenti-tecnici-di-supporto_node
         serialized_data_text:
