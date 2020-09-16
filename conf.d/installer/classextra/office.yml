@@ -13,6 +13,7 @@ attribute_group:
         '*': '1'
     persone:
         '*': Persone
+        office_manager: '1'
         people: '1'
     servizi:
         '*': Servizi
@@ -35,7 +36,7 @@ attribute_group:
         '*': Struttura
         hold_employment: '1'
         is_part_of: '1'
-        office_manager: '1'
+        office_manager: '0'
         type: '1'
         image: '1'
         has_logo: '1'
