@@ -1,6 +1,7 @@
 <?php /* #?ini charset="utf-8"?
 
 [ExtensionSettings]
+ActiveAccessExtensions[]=ocopenapi
 ActiveAccessExtensions[]=ezflow
 ActiveAccessExtensions[]=ezgmaplocation
 ActiveAccessExtensions[]=ezjscore

@@ -145,4 +145,5 @@ Rules[]=module;user/register
 [Event]
 Listeners[]=content/download@OpenPADownloadFilter::addXRobotsTagHeader
 
+
 */ ?>

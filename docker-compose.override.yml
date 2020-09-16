@@ -5,13 +5,15 @@ services:
     php:
         build:
             context: .
-#        volumes:
-#            - ./html/kernel:/var/www/html/kernel:rw,cached
-#            - ./html/extension:/var/www/html/extension:rw,cached
-#            - ./html/vendor/opencontent:/var/www/html/vendor/opencontent:rw,cached
-#            - ./conf.d/ez/siteaccess:/var/www/html/settings/siteaccess:rw,cached
-#            - ./conf.d/ez/override:/var/www/html/settings/override:rw,cached
-#            - ./conf.d/installer:/var/www/installer:rw,cached
+        volumes:
+            - ./html/kernel:/var/www/html/kernel:rw,cached
+            - ./html/extension:/var/www/html/extension:rw,cached
+            - ./html/vendor:/var/www/html/vendor:rw,cached
+            - ./conf.d/ez/siteaccess:/var/www/html/settings/siteaccess:rw,cached
+            - ./conf.d/ez/override:/var/www/html/settings/override:rw,cached
+            - ./conf.d/installer:/var/www/installer:rw,cached
+            - ./composer.json:/var/www/composer.json
+            - ./composer.lock:/var/www/composer.lock
 
         depends_on:
             - minio
@@ -21,6 +23,8 @@ services:
         environment:
 #            EZ_CHMOD_VAR: 777
 #            EZ_CHMOD_LOG: 777
+    
+#            EZINI_site__HTTPHeaderSettings__CustomHeader: 'disabled' #enabled/disabled html varnish cache
             
             #### Impostazioni mail
             EZINI_site__MailSettings__TransportServer: mailhog
@@ -46,9 +50,9 @@ services:
             dockerfile: Dockerfile.nginx
             args:
                 php_image: registry.gitlab.com/opencontent/opencity/php:latest
-#        volumes:
-#            - ./html/design:/var/www/html/design:ro,cached
-#            - ./html/extension:/var/www/html/extension:ro,cached
+        volumes:
+            - ./html/design:/var/www/html/design:ro,cached
+            - ./html/extension:/var/www/html/extension:ro,cached
     
     pgweb:
         image: sosedoff/pgweb

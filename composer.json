@@ -61,7 +61,8 @@
     "opencontent/oci18n": "dev-master",
     "opencontent/occhart-ls": "1.*",
     "opencontent/oceditorialstuff-ls": "2.*",
-    "opencontent/eztagdescription-ls": "1.*"
+    "opencontent/eztagdescription-ls": "1.*",
+    "opencontent/ocopenapi-ls": "dev-master"
   },
   "replace": {
     "ezsystems/ezdemo-ls-extension": "*"
