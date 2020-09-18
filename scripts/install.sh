@@ -15,24 +15,38 @@ EZ_CHMOD_VAR=${EZ_CHMOD_VAR:-'775'}
 EZ_CHMOD_LOG=${EZ_CHMOD_LOG:-'660'}
 
 if [ ! -d ${EZ_ROOT}/var/cache/ini ]; then
-    mkdir ${EZ_ROOT}/var/cache/ini
+    mkdir -p ${EZ_ROOT}/var/cache/ini
     echo "[info] created var/cache/ini"
 fi
 
 if [ ! -d ${EZ_ROOT}/var/cache/texttoimage ]; then
-    mkdir ${EZ_ROOT}/var/cache/texttoimage
+    mkdir -p ${EZ_ROOT}/var/cache/texttoimage
     echo "[info] created var/cache/texttoimage"
 fi
 
 if [ ! -d ${EZ_ROOT}/var/cache/codepages ]; then
-    mkdir ${EZ_ROOT}/var/cache/codepages
+    mkdir -p ${EZ_ROOT}/var/cache/codepages
     echo "[info] created var/cache/codepages"
 fi
 
 if [ ! -d ${EZ_ROOT}/var/cache/translation ]; then
-    mkdir ${EZ_ROOT}/var/cache/translation
+    mkdir -p ${EZ_ROOT}/var/cache/translation
     echo "[info] created var/cache/translation"
 fi
+
+if [ ! -d ${EZ_ROOT}/var/log ]; then
+    mkdir -p ${EZ_ROOT}/var/log
+    echo "[info] created dir var/log"
+fi
+
+for logfile in cluster_error debug error ocfoshttpcache storage warning mugo_varnish_purges strict notice; do
+  if [[ ! -f ${EZ_ROOT}/var/log/${logfile}.log ]]; then
+    touch ${EZ_ROOT}/var/log/${logfile}.log && \
+    chown www-data ${EZ_ROOT}/var/log/${logfile}.log
+  fi
+  tail -F --pid $$ ${EZ_ROOT}/var/log/${logfile}.log &
+done
+
 
 #Permesso di scrittura per '$EZ_USER_GROUP' per la directory var/
 echo "[info] chown $EZ_USER.$EZ_USER_GROUP ${EZ_ROOT}/var"

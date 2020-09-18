@@ -2652,12 +2652,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/ocopenapi-ls.git",
-                "reference": "4cedc89d3634877fbbaae31faf8448f185f0b2ae"
+                "reference": "86571b87a9b70f0d6d5a9689104473116665cc01"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/ocopenapi-ls/zipball/4cedc89d3634877fbbaae31faf8448f185f0b2ae",
-                "reference": "4cedc89d3634877fbbaae31faf8448f185f0b2ae",
+                "url": "https://api.github.com/repos/OpencontentCoop/ocopenapi-ls/zipball/86571b87a9b70f0d6d5a9689104473116665cc01",
+                "reference": "86571b87a9b70f0d6d5a9689104473116665cc01",
                 "shasum": ""
             },
             "require": {
@@ -2680,7 +2680,7 @@
                 }
             ],
             "description": "OpenContent OpenApi extension",
-            "time": "2020-09-18T08:34:48+00:00"
+            "time": "2020-09-18T09:22:43+00:00"
         },
         {
             "name": "opencontent/ocopendata-ls",
@@ -5231,6 +5231,7 @@
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "reference": "711292b2b8baeb15165c4c0910cdc47d3f1da26e"
             },
             "dist": {
@@ -5245,6 +5246,14 @@
                 "url": "https://api.github.com/repos/symfony/yaml/zipball/e53b8b6386c7a9bf6f9774d47773de105122d362",
                 "reference": "e53b8b6386c7a9bf6f9774d47773de105122d362",
 >>>>>>> 0a6516a... Add openapi extension to expose openapi 3 rest api
+=======
+                "reference": "55f2c0022d31dde2ede2d653d30115853e96920b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/55f2c0022d31dde2ede2d653d30115853e96920b",
+                "reference": "55f2c0022d31dde2ede2d653d30115853e96920b",
+>>>>>>> 2d16b0f... Use registry.gitlab.com/opencontent/ezpublish/php:php7.2.33-clean as base image
                 "shasum": ""
             },
             "require": {
@@ -5291,10 +5300,14 @@
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2020-09-20T07:20:17+00:00"
 =======
             "time": "2020-09-17T04:53:48+00:00"
 >>>>>>> 0a6516a... Add openapi extension to expose openapi 3 rest api
+=======
+            "time": "2020-09-18T13:54:02+00:00"
+>>>>>>> 2d16b0f... Use registry.gitlab.com/opencontent/ezpublish/php:php7.2.33-clean as base image
         },
         {
             "name": "thingengineer/mysqli-database-class",

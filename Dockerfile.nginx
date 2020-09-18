@@ -1,7 +1,7 @@
 ARG php_image
 FROM ${php_image} as php
 
-FROM registry.gitlab.com/opencontent/ezpublish/nginx:0.0.9
+FROM registry.gitlab.com/opencontent/ezpublish/nginx:php7.2.33-clean
 COPY --from=php /var/www/html /var/www/html
 
 

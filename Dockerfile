@@ -1,4 +1,6 @@
-FROM registry.gitlab.com/opencontent/ezpublish/php:0.0.9
+FROM registry.gitlab.com/opencontent/ezpublish/php:php7.2.33-clean
+
+WORKDIR /var/www
 
 COPY composer.json composer.lock /var/www/
 
