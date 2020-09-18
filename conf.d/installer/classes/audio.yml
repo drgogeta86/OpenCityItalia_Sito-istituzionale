@@ -180,7 +180,7 @@ data_map:
             selection_type: '1'
             type: '2'
             class_constraint_list:
-                - argomento
+                - topic
             default_placement: false
         category: meta
         serialized_data_text:

@@ -245,7 +245,7 @@ data_map:
             selection_type: '3'
             type: '2'
             class_constraint_list:
-                - argomento
+                - topic
             default_placement:
                 node_id: $contenttree_OpenCity_Argomenti_node
         serialized_data_text:
