@@ -547,7 +547,7 @@ data_map:
             selection_type: '0'
             type: '2'
             class_constraint_list:
-                - ufficio
+                - office
             default_placement: false
         serialized_data_text:
             always-available: ita-IT
@@ -569,7 +569,7 @@ data_map:
             selection_type: '0'
             type: '2'
             class_constraint_list:
-                - bilancio_di_settore
+                - document
             default_placement: false
         serialized_data_text:
             always-available: ita-IT
