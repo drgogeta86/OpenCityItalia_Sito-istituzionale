@@ -1,0 +1,14 @@
+metadata:
+    remoteId: solidarieta_internazionale
+    classIdentifier: topic
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        name: 'Solidarietà internazionale'
+        eu: '(riferimento in via di definizione)'
+sort_data:
+    sort_field: 9
+    sort_order: 1
+    priority: 0

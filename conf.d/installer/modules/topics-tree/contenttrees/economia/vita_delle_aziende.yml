@@ -1,0 +1,14 @@
+metadata:
+    remoteId: vita_delle_aziende
+    classIdentifier: topic
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        name: 'Vita delle aziende'
+        eu: '(riferimento in via di definizione)'
+sort_data:
+    sort_field: 9
+    sort_order: 1
+    priority: 0

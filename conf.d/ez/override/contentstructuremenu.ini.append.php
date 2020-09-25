@@ -13,5 +13,6 @@ ShowClasses[]=pagina_sito
 ShowClasses[]=pagina_trasparenza
 ShowClasses[]=trasparenza
 ShowClasses[]=cjw_newsletter_root
+ShowClasses[]=topic
 
 */ ?>

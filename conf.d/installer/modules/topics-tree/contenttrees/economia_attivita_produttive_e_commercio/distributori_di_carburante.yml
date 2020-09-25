@@ -1,0 +1,14 @@
+metadata:
+    remoteId: distributori_di_carburante
+    classIdentifier: topic
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        name: 'Distributori di carburante'
+        eu: '(riferimento in via di definizione)'
+sort_data:
+    sort_field: 9
+    sort_order: 1
+    priority: 0

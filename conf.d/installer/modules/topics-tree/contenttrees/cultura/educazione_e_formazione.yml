@@ -1,0 +1,14 @@
+metadata:
+    remoteId: topic_3
+    classIdentifier: topic
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        name: 'Educazione e formazione'
+        eu: '(riferimento in via di definizione)'
+sort_data:
+    sort_field: 9
+    sort_order: 1
+    priority: 0

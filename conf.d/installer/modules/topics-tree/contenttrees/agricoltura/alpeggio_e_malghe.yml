@@ -1,0 +1,14 @@
+metadata:
+    remoteId: alpeggio_e_malghe
+    classIdentifier: topic
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        name: 'Alpeggio e malghe'
+        eu: '(riferimento in via di definizione)'
+sort_data:
+    sort_field: 9
+    sort_order: 1
+    priority: 0

@@ -1,0 +1,14 @@
+metadata:
+    remoteId: residenza_sanitaria_assistenziale_rsa
+    classIdentifier: topic
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        name: 'Residenza sanitaria assistenziale (rsa)'
+        eu: '(riferimento in via di definizione)'
+sort_data:
+    sort_field: 9
+    sort_order: 1
+    priority: 0
