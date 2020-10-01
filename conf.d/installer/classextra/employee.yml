@@ -77,6 +77,8 @@ table_view:
         curriculum_vitae: '1'
         email: '1'
         phone: '1'
+        fax: '1'
+        mobile_phone: '1'
     enabled:
         '*': '1'
     show:

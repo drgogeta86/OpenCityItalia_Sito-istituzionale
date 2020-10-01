@@ -20,6 +20,7 @@ attribute_group:
         area: '1'
         has_organization: '1'
         reference_doc: '1'
+        images: '1'
     enabled:
         '*': '1'
     'ita-IT::accedere_al_servizio':
@@ -42,7 +43,7 @@ attribute_group:
         '*': 'Tempi e scadenze'
         area: '0'
         end_time: '1'
-        images: '1'
+        images: '0'
         topics: '1'
         link: '0'
     ulteriori_informazioni:
