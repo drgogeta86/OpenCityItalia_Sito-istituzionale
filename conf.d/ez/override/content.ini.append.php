@@ -70,15 +70,14 @@ CustomAttributesDefaults[align]=right
 CustomAttributesDefaults[title]=factbox
 
 [table]
-AvailableClasses[]=list
-AvailableClasses[]=cols
-AvailableClasses[]=comparison
-AvailableClasses[]=default
+AvailableClasses[]=responsive-stack
+AvailableClasses[]=responsive-card
+AvailableClasses[]=responsive-column
 CustomAttributes[]=summary
 CustomAttributes[]=caption
-ClassDescription[list]=List
-ClassDescription[cols]=Timetable
-ClassDescription[comparison]=Comparison Table
+ClassDescription[responsive-stack]=Responsive (stack)
+ClassDescription[responsive-card]=Responsive (card)
+ClassDescription[responsive-column]=Responsive (column
 ClassDescription[default]=Default
 Defaults[rows]=2
 Defaults[cols]=2
