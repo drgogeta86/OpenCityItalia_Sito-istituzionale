@@ -14,6 +14,7 @@ attribute_group:
         '*': Documenti
         attachment: '1'
         image: '1'
+        files: '1'
     enabled:
         '*': '1'
     'ita-IT::contatti':
@@ -94,6 +95,7 @@ table_view:
         published: '1'
         reading_time: '1'
         video: '1'
+        files: '1'
     show_label:
         license: '1'
         title: '1'

@@ -302,6 +302,21 @@ data_map:
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
+    files:
+        identifier: files
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'File allegati'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'File allegati'
+        data_type_string: ocmultibinary
+        placement: 16
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
     dataset:
         identifier: dataset
         serialized_description_list:
@@ -311,7 +326,7 @@ data_map:
             always-available: ita-IT
             ita-IT: Dataset
         data_type_string: ezobjectrelationlist
-        placement: 16
+        placement: 17
         is_searchable: 1
         can_translate: 1
         data_text5:
@@ -334,7 +349,7 @@ data_map:
             always-available: ita-IT
             ita-IT: 'Per informazioni'
         data_type_string: ezobjectrelationlist
-        placement: 17
+        placement: 18
         is_searchable: 1
         is_required: 1
         can_translate: 1
@@ -358,7 +373,7 @@ data_map:
             always-available: ita-IT
             ita-IT: 'Licenza d''uso'
         data_type_string: eztags
-        placement: 18
+        placement: 19
         is_searchable: 1
         is_required: 1
         can_translate: 1
@@ -380,7 +395,7 @@ data_map:
             eng-GB: 'Tempo di lettura'
             ita-IT: 'Tempo di lettura'
         data_type_string: ezinteger
-        placement: 19
+        placement: 20
         is_searchable: 1
         can_translate: 1
         serialized_data_text:
