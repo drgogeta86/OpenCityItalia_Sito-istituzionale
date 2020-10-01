@@ -191,7 +191,7 @@ data_map:
         identifier: priorita
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: ''
+            ita-IT: 'Numero maggiore indica maggiore priorità di visualizzazione (es: 1000 più importante, 1 meno importante)'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Priorità'
