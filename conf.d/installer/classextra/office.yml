@@ -40,6 +40,7 @@ attribute_group:
         type: '1'
         image: '1'
         has_logo: '1'
+        related_offices: '1'
     ulteriori_informazioni:
         '*': 'Ulteriori informazioni'
         help: '1'
@@ -77,6 +78,7 @@ table_view:
         servizi_erogati: '1'
         start_time: '1'
         topics: '1'
+        related_offices: '1'
     show_label:
         office_manager: '1'
         start_time: '1'

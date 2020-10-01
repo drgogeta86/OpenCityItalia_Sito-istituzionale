@@ -1,0 +1,19 @@
+metadata:
+    remoteId: custom_topics
+    classIdentifier: pagina_sito
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+    parentNodes:
+        - $contenttree_OpenCity_Argomenti_node
+data:
+    ita-IT:
+        name: Speciali
+        show_children: 1
+        icon: it-star-full
+        show_topics: 0
+        show_search_form: 0
+sort_data:
+    sort_field: 9
+    sort_order: 1
+    priority: 0

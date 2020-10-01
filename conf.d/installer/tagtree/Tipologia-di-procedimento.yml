@@ -1,0 +1,33 @@
+keyword: Servizi pubblici
+locale: ita-IT
+alwaysAvailable: true
+keywordTranslations:
+    ita-IT: Servizi pubblici
+synonyms: {  }
+hasChildren: true
+children:
+    -
+        keyword: 'Tipologia di procedimento'
+        locale: ita-IT
+        alwaysAvailable: true
+        keywordTranslations:
+            ita-IT: 'Tipi di luogo'
+        synonyms: {  }
+        hasChildren: true
+        children:
+            -
+                keyword: 'Procedimento ad iniziativa privata'
+                locale: ita-IT
+                alwaysAvailable: true
+                keywordTranslations:
+                    ita-IT: 'Procedimento ad iniziativa privata'
+                synonyms: {  }
+                hasChildren: false
+            -
+                keyword: 'Procedimento ad istanza d''ufficio '
+                locale: ita-IT
+                alwaysAvailable: true
+                keywordTranslations:
+                    ita-IT: 'Procedimento ad istanza d''ufficio '
+                synonyms: {  }
+                hasChildren: false

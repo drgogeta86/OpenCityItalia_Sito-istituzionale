@@ -1,0 +1,18 @@
+imports:
+    - { resource: classes/office.yml }
+data_map:
+    related_offices:
+        identifier: related_offices
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Uffici'
+        data_type_string: openpareverserelationlist
+        placement: 29
+        can_translate: 1
+        data_text5: '{"attribute_id_list":[classattributeid(office/hold_employment)],"sort":"name","order":"asc","limit":4}'
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''

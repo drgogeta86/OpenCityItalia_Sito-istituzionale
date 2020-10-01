@@ -148,6 +148,25 @@ data_map:
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
+    process:
+        identifier: process
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Tipologia di procedimento'
+        data_type_string: eztags
+        placement: 8
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        data_int1: 'tag(Servizi pubblici / Tipologia di procedimento)'
+        data_int3: 1
+        data_text1: Tree
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
     service_keyword:
         identifier: service_keyword
         serialized_description_list:
