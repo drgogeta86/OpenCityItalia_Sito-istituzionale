@@ -184,5 +184,19 @@ data_map:
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
+    fields_blocks:
+        identifier: fields_blocks
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Rappresentazione dei dati in base a blocchi di contenuto
+        data_type_string: ezpage
+        placement: 12
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
 groups:
     - 'Amministrazione Trasparenza'
