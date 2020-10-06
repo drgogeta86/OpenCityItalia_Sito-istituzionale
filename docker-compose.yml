@@ -5,10 +5,8 @@ services:
         image: registry.gitlab.com/opencontent/opencity/php:latest
         restart: unless-stopped
         depends_on:
-            - minio
             - postgres
             - solr
-            - redis
         volumes:
             - dfs:/mnt/efs/cluster-opencity
         environment:
@@ -53,7 +51,7 @@ services:
     
             #### Impostazioni db cluster (da impostare come db)
             EZINI_file__eZDFSClusteringSettings__DBBackend: eZDFSFileHandlerPostgresqlBackend
-            #EZINI_file__eZDFSClusteringSettings__DFSBackend: eZDFSFileHandlerDFSBackend
+            EZINI_file__eZDFSClusteringSettings__DFSBackend: eZDFSFileHandlerDFSBackend
             #EZINI_file__eZDFSClusteringSettings__DFSBackend: OpenPADFSFileHandlerDFSDispatcher
             EZINI_file__eZDFSClusteringSettings__DBHost: postgres
             EZINI_file__eZDFSClusteringSettings__DBPort: 5432
@@ -61,7 +59,7 @@ services:
             EZINI_file__eZDFSClusteringSettings__DBPassword: openp4ssword
             EZINI_file__eZDFSClusteringSettings__DBName: opencity
             EZINI_file__eZDFSClusteringSettings__MountPointPath: '/mnt/efs/cluster-opencity'
-            #CLUSTER_STORAGE_GATEWAY_PATH: "extension/ezpostgresqlcluster/clustering/dfs/gateway.php"
+            CLUSTER_STORAGE_GATEWAY_PATH: "extension/ezpostgresqlcluster/clustering/dfs/gateway.php"
             #CLUSTER_STORAGE_GATEWAY_PATH: "extension/openpa/classes/clustering/gateway.php"
     
             #### Impostazioni solr
@@ -70,14 +68,14 @@ services:
             #### Impostazioni mail
             EZINI_site__MailSettings__AdminEmail: 'no-reply@opencontent.it'
             EZINI_site__MailSettings__EmailSender: ''
-            #EZINI_site__MailSettings__TransportServer: ''
-            #EZINI_site__MailSettings__TransportPort: ''
+            EZINI_site__MailSettings__TransportServer: ''
+            EZINI_site__MailSettings__TransportPort: ''
             EZINI_site__MailSettings__TransportUser: ''
             EZINI_site__MailSettings__TransportPassword: ''
             ## The FQDN, used by extended HELO See part "4.1.1.1  Extended HELLO (EHLO) or HELLO (HELO)" of http://www.faqs.org/rfcs/rfc2821.html
             EZINI_site__MailSettings__SenderHost: localhost
-            #EZINI_cjw_newsletter__NewsletterMailSettings__SmtpTransportPort: ''
-            #EZINI_cjw_newsletter__NewsletterMailSettings__SmtpTransportServer: ''
+            EZINI_cjw_newsletter__NewsletterMailSettings__SmtpTransportPort: ''
+            EZINI_cjw_newsletter__NewsletterMailSettings__SmtpTransportServer: ''
             EZINI_cjw_newsletter__NewsletterMailSettings__SmtpTransportUser: ''
             EZINI_cjw_newsletter__NewsletterMailSettings__SmtpTransportPassword: ''
             EZINI_cjw_newsletter__NewsletterMailSettings__EmailSubjectPrefix: ''
@@ -99,26 +97,7 @@ services:
             ## Solo per configurazioni di emulatori di S3
             #EZINI_openpa_cluster__AWSS3DFSBackendSettings__Endpoint: 'http://localhost:4567'
             #EZINI_openpa_cluster__AWSS3DFSBackendSettings__UsePathStyleEndpoint: 'enabled'
-    
-            ###########################################################
-            ### Impostazioni di utilizzo con Mailhog, Minio e Redis ###
-            ###########################################################
-            EZINI_site__MailSettings__TransportServer: mailhog
-            EZINI_site__MailSettings__TransportPort: 1025
-            EZINI_site__MailSettings__TransportConnectionType: '' #Mailhog does not accept the STARTTLS command
-            EZINI_cjw_newsletter__NewsletterMailSettings__SmtpTransportPort: 1025
-            EZINI_cjw_newsletter__NewsletterMailSettings__SmtpTransportServer: mailhog
-            EZINI_file__eZDFSClusteringSettings__DFSBackend: OpenPADFSFileHandlerDFSDispatcher
-            EZINI_openpa_cluster__RedisDFSBackendSettings__Endpoint: 'tcp://redis:6379'
-            AWS_ACCESS_KEY_ID: AKIAIOSFODNN7EXAMPLE
-            AWS_SECRET_ACCESS_KEY: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
-            EZINI_openpa_cluster__AWSS3DFSBackendSettings__Endpoint: 'http://minio:9000'
-            EZINI_openpa_cluster__AWSS3DFSBackendSettings__ServerUri: 'minio.opencity.localtest.me'
-            EZINI_openpa_cluster__AWSS3DFSBackendSettings__UsePathStyleEndpoint: 'enabled'
-            EZINI_openpa_cluster__AWSS3DFSBackendSettings__Bucket: 'opencity-bucket'
-            CLUSTER_STORAGE_GATEWAY_PATH: "extension/openpa/classes/clustering/gateway.php"
-            ###########################################################
-            ###########################################################
+            
     
     nginx:
         image: registry.gitlab.com/opencontent/opencity/nginx:latest
@@ -179,57 +158,8 @@ services:
             - '8080:8080' # Dashboard
         volumes:
             - /var/run/docker.sock:/var/run/docker.sock
-    
-    mailhog:
-        image: mailhog/mailhog
-        # must be explicit about what port to proxy from traefik, because the service expose two ports
-        labels:
-            traefik.port: 8025
-            traefik.frontend.rule: 'Host:mailhog.localtest.me'
-
-    redis:
-        image: redis:latest
-        volumes:
-            - redisdata:/data
-        ports:
-            - 6379:6379
-
-    redisweb:
-        image: marian/rebrow
-        volumes:
-            - redisdata:/data
-        ports:
-            - 5001:5001
-
-
-    minio:
-        image: minio/minio
-        volumes:
-            - miniodata:/data
-        command: server /data
-        environment:
-            MINIO_ACCESS_KEY: AKIAIOSFODNN7EXAMPLE
-            MINIO_SECRET_KEY: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
-        ports:
-            - "9000:9000"
-
-    createbuckets:
-        image: minio/mc
-        depends_on:
-            - minio
-        entrypoint: >
-            /bin/sh -c "
-            while ! nc -z minio 9000; do echo 'Wait minio to startup...' && sleep 0.1; done;
-            sleep 5;
-            /usr/bin/mc config host add minio http://minio:9000 AKIAIOSFODNN7EXAMPLE wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY;
-            /usr/bin/mc mb minio/opencity-bucket;
-            /usr/bin/mc policy set public minio/opencity-bucket;
-            exit 0;
-            "
 
 volumes:
     dfs:
     solrdata:
     pgdata:
-    miniodata:
-    redisdata:
