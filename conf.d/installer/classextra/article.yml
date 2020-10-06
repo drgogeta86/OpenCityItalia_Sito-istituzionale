@@ -107,4 +107,9 @@ card_small_view:
     enabled:
         '*': '1'
     show:
+        abstract: '1'
+        image: '1'
+        published: '1'
         content_show_read_more: '1'
+    show_label:
+        published: '1'

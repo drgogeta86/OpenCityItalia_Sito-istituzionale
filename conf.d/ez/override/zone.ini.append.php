@@ -17,6 +17,7 @@ AvailableForClasses[]=topic
 AvailableForClasses[]=homepage
 AvailableForClasses[]=pagina_sito
 AvailableForClasses[]=frontpage
+AvailableForClasses[]=pagina_trasparenza
 
 [1ZonesLayoutFolder]
 Zones[]

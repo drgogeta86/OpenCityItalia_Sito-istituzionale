@@ -365,6 +365,9 @@ steps:
         type: class
         identifier: article
     -
+        type: class
+        identifier: public_service_with_related
+    -
         type: classextra
         identifier: article
     -

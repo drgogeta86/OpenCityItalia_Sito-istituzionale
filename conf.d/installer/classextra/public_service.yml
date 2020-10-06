@@ -137,6 +137,7 @@ attribute_group:
         content_show_modified: '1'
         help: '1'
         relation_service: '1'
+        news_and_updates: '1'
 bootstrapitalia_icon:
     enabled:
         '*': '1'
@@ -189,6 +190,7 @@ table_view:
         service_keyword: '1'
         service_theme: '1'
         type: '1'
+        news_and_updates: '1'
     show_label:
         applicants: '1'
         has_authentication_method: '1'
@@ -201,6 +203,7 @@ table_view:
         service_theme: '1'
         type: '1'
         is_physically_available_at: '1'
+        news_and_updates: '1'
     show_link:
         has_channel: '1'
         has_online_contact_point: '1'

@@ -402,5 +402,28 @@ data_map:
             always-available: ita-IT
             eng-GB: ''
             ita-IT: ''
+    related_service:
+        identifier: related_service
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT:
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Riferimento al servizio pubblico'
+        data_type_string: ezobjectrelationlist
+        placement: 21
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - public_service
+            default_placement:
+                node_id: $contenttree_OpenCity_Servizi_node
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
 groups:
     - Content
