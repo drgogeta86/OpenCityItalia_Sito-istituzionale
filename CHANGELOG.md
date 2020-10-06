@@ -4,6 +4,110 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.17](https://gitlab.com/opencontent/opencity/compare/2.0.16...2.0.17) - 2020-10-06
+- Use registry.gitlab.com/opencontent/ezpublish/php:php7.2.33-clean as base image Fix install script 
+- Add openapi extension to expose openapi 3 rest api
+
+#### Installer
+- Update to version 2.0.17
+
+Relevant changes:
+- add pagina_trasparenza/fields_blocks
+- add article/related_services and public_service/news_and_updates
+- Fix class extra in document and employee
+- add description to time_indexed_role/priorita
+- add article/files field
+- Add tagtree Tipologia di procedimento, add check_eztags_sequence, Add Speciali content, Add office/related_office field, remove tag "Servizio interno all'ente"
+- add module topic tree v.0.0.1
+- Fix class_constraint_list in public_organization
+- Fix argomento class_constraint in topic
+- Move office/office_manager from group struttura to persone
+- Fix wrong class in administrative_area/allegati
+
+#### Code dependencies
+| Changes                               | From    | To        | Compare                                                                                |
+|---------------------------------------|:--------|:----------|:---------------------------------------------------------------------------------------|
+| aws/aws-sdk-php                       | 3.152.0 | 3.158.2   | [...](https://github.com/aws/aws-sdk-php/compare/3.152.0...3.158.2)                    |
+| clue/stream-filter                    | v1.4.1  | v1.5.0    | [...](https://github.com/clue/php-stream-filter/compare/v1.4.1...v1.5.0)               |
+| easyrdf/easyrdf                       | 7279d7f | a984ecb   | [...](https://github.com/easyrdf/easyrdf/compare/7279d7f...a984ecb)                    |
+| guzzlehttp/promises                   | bbf3b20 | 60d379c   | [...](https://github.com/guzzle/promises/compare/bbf3b20...60d379c)                    |
+| opencontent/ezpostgresqlcluster-ls    | 1c50dd6 | f37c194   | [...](https://github.com/Opencontent/ezpostgresqlcluster/compare/1c50dd6...f37c194)    |
+| opencontent/occhart-ls                | 1.1     | 1.2.0     | [...](https://github.com/OpencontentCoop/occhart/compare/1.1...1.2.0)                  |
+| opencontent/occodicefiscale-ls        | 542aa99 | daac5a8   | [...](https://github.com/OpencontentCoop/occodicefiscale/compare/542aa99...daac5a8)    |
+| opencontent/ocinstaller               | 8a20be4 | f5c1cc8   | [...](https://github.com/OpencontentCoop/ocinstaller/compare/8a20be4...f5c1cc8)        |
+| opencontent/ocopendata-ls             | 2.24.2  | 2.24.3    | [...](https://github.com/OpencontentCoop/ocopendata/compare/2.24.2...2.24.3)           |
+| opencontent/ocopendata_forms-ls       | 1.6.4   | 1.6.6     | [...](https://github.com/OpencontentCoop/ocopendata_forms/compare/1.6.4...1.6.6)       |
+| opencontent/openpa-ls                 | 3.10.7  | 3.10.8    | [...](https://github.com/OpencontentCoop/openpa/compare/3.10.7...3.10.8)               |
+| opencontent/openpa_bootstrapitalia-ls | 1.0.6   | 1.0.9     | [...](https://github.com/OpencontentCoop/openpa_bootstrapitalia/compare/1.0.6...1.0.9) |
+| php-http/discovery                    | 1.10.0  | 1.12.0    | [...](https://github.com/php-http/discovery/compare/1.10.0...1.12.0)                   |
+| psr/container                         | fc1bc36 | b1fbdff   | [...](https://github.com/php-fig/container/compare/fc1bc36...b1fbdff)                  |
+| psr/event-dispatcher                  | 3b1c107 | 3ef040d   | [...](https://github.com/php-fig/event-dispatcher/compare/3b1c107...3ef040d)           |
+| psr/http-client                       | 2dfb5f6 | 22b2ef5   | [...](https://github.com/php-fig/http-client/compare/2dfb5f6...22b2ef5)                |
+| psr/http-factory                      | 1a2099a | 36fa03d   | [...](https://github.com/php-fig/http-factory/compare/1a2099a...36fa03d)               |
+| psr/log                               | 0f73288 | dd738d0   | [...](https://github.com/php-fig/log/compare/0f73288...dd738d0)                        |
+| symfony/cache-contracts               | 8034ca0 | 49a0e7a   | [...](https://github.com/symfony/cache-contracts/compare/8034ca0...49a0e7a)            |
+| symfony/deprecation-contracts         | 5fa56b4 | d940483   | [...](https://github.com/symfony/deprecation-contracts/compare/5fa56b4...d940483)      |
+| symfony/event-dispatcher              | 98e8d61 | 5.x-dev   | [...](https://github.com/symfony/event-dispatcher/compare/98e8d61...5.x-dev)           |
+| symfony/event-dispatcher-contracts    | 0ba7d54 | 5e8ae4d   | [...](https://github.com/symfony/event-dispatcher-contracts/compare/0ba7d54...5e8ae4d) |
+| symfony/options-resolver              | c2565c6 | 5.x-dev   | [...](https://github.com/symfony/options-resolver/compare/c2565c6...5.x-dev)           |
+| symfony/polyfill-mbstring             | a6977d6 | 48928d4   | [...](https://github.com/symfony/polyfill-mbstring/compare/a6977d6...48928d4)          |
+| symfony/polyfill-php72                | 639447d | dc6ef20   | [...](https://github.com/symfony/polyfill-php72/compare/639447d...dc6ef20)             |
+| symfony/polyfill-php80                | d87d576 | c3616e7   | [...](https://github.com/symfony/polyfill-php80/compare/d87d576...c3616e7)             |
+| symfony/service-contracts             | d15da7b | 90388a3   | [...](https://github.com/symfony/service-contracts/compare/d15da7b...90388a3)          |
+| symfony/var-exporter                  | 1203f9c | 5.x-dev   | [...](https://github.com/symfony/var-exporter/compare/1203f9c...5.x-dev)               |
+| symfony/yaml                          | a06dfcf | 4.4.x-dev | [...](https://github.com/symfony/yaml/compare/a06dfcf...4.4.x-dev)                     |
+| erasys/openapi-php                    | NEW     | 9885e8f   |                                                                                        |
+| illuminate/contracts                  | NEW     | 6.x-dev   |                                                                                        |
+| justinrainbow/json-schema             | NEW     | 5.x-dev   |                                                                                        |
+| opencontent/occustomfind-ls           | NEW     | 1.0       |                                                                                        |
+| opencontent/ocopenapi-ls              | NEW     | 1.0       |                                                                                        |
+
+Relevant changes by repository:
+
+**[opencontent/ezpostgresqlcluster-ls changes between 1c50dd6 and f37c194](https://github.com/Opencontent/ezpostgresqlcluster/compare/1c50dd6...f37c194)**
+ * Check OpenPABase class exists
+
+**[opencontent/occhart-ls changes between 1.1 and 1.2.0](https://github.com/OpencontentCoop/occhart/compare/1.1...1.2.0)**
+ * Add export csv in exporting menu
+
+**[opencontent/occodicefiscale-ls changes between 542aa99 and daac5a8](https://github.com/OpencontentCoop/occodicefiscale/compare/542aa99...daac5a8)**
+ * Considera solo gli oggetti pubblicati nel calcolo dei doppioni
+
+**[opencontent/ocinstaller changes between 8a20be4 and f5c1cc8](https://github.com/OpencontentCoop/ocinstaller/compare/8a20be4...f5c1cc8)**
+ * Add remove extra locations feature in content tree installer
+ * Now inside a resource can import another resource
+
+**[opencontent/ocopendata-ls changes between 2.24.2 and 2.24.3](https://github.com/OpencontentCoop/ocopendata/compare/2.24.2...2.24.3)**
+ * Corregge un bug sul parsing dei tag nel AttributeConverter
+
+**[opencontent/ocopendata_forms-ls changes between 1.6.4 and 1.6.6](https://github.com/OpencontentCoop/ocopendata_forms/compare/1.6.4...1.6.6)**
+ * Permette l'utilizzo della libreria UploadFieldConnector in esecuzioni da linea di comando
+ * Rimuove un log di debugging
+
+**[opencontent/openpa-ls changes between 3.10.7 and 3.10.8](https://github.com/OpencontentCoop/openpa/compare/3.10.7...3.10.8)**
+ * Corregge l'id del tree menu in caso di menu virtualizzato su alberatura di tag
+
+**[opencontent/openpa_bootstrapitalia-ls changes between 1.0.6 and 1.0.9](https://github.com/OpencontentCoop/openpa_bootstrapitalia/compare/1.0.6...1.0.9)**
+ * Permette l'utilizzo di un'alberatura di argomenti invece che di una lista piatta
+ * Corregge un problema per cui non veniva visualizzata l'obbligatorietà dei campi relazioni nei form dinamici
+ * Corregge un problema per cui non veniva correttamente visualizzata l'icona nei risultati di ricerca
+ * Aggiornamento delle dipendenze javascript Introduzione del nuovo tema warmred
+ * Corregge un bug nel blocco Contenuti remoti
+ * Imposta lo sfondo grigio nel primo blocco di default nella pagina argomento
+ * Imposta di default lo sfondo esteso al primo blocco inserito da editor negli argomenti
+ * Permette di specificare il formato responsive per le tabelle
+ * Gestisce gli argomenti presenti nell'alberatura custom degli argomenti (custom_topics) negli input di ricerca
+ * Espone i menu virtualizzati su alberatura di tag nei motori di ricerca
+ * Permette di filtrare solo i campi obbligatori nel form di creazione o modifica di un contenuto
+ * Aggiorna le stringhe di traduzione
+ * Rende disponibile l'interfaccia di inserimento luoghi anche per classi diverse da event
+ * Formatta la tabella dei dati dei grafici
+ * Corregge il limite di default per i sotto argomenti
+ * Visualizza document/description nel blocco ricerca_documenti
+ * Imposta le zone e i blocchi per pagina_trasparenza
+ * Imposta come predefinita la visualizzazione a mappa nel blocco ricerca_luoghi
+ * Permette di escludere tipi di contenuto nel blocco argomenti
+
 ## [2.0.16](https://gitlab.com/opencontent/opencity/compare/2.0.15...2.0.16) - 2020-09-08
 
 #### Installer
