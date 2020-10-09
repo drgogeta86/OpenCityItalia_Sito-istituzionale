@@ -1,0 +1,2339 @@
+keyword: Luoghi
+locale: ita-IT
+alwaysAvailable: true
+synonyms: {  }
+keywordTranslations:
+    ita-IT: Luoghi
+children:
+    -
+        keyword: 'Odonimi (toponimi stradali)'
+        locale: ita-IT
+        alwaysAvailable: true
+        synonyms: {  }
+        keywordTranslations:
+            ita-IT: 'Odonimi (toponimi stradali)'
+        children:
+            -
+                keyword: ACCESSO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: ACCESSO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: ALPE
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: ALPE
+                children: {  }
+                hasChildren: false
+            -
+                keyword: ALTO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: ALTO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: ALZAIA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: ALZAIA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: ANDRONA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: ANDRONA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: ANGIPORTO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: ANGIPORTO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: ARCHIVOLTO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: ARCHIVOLTO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: ARCO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: ARCO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'AREA PEDONALE'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'AREA PEDONALE'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: AUTOSTRADA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: AUTOSTRADA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: BALUARDO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: BALUARDO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: BELVEDERE
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: BELVEDERE
+                children: {  }
+                hasChildren: false
+            -
+                keyword: BORGATA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: BORGATA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: BORGHETTO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: BORGHETTO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: BORGO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: BORGO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: CAL
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: CAL
+                children: {  }
+                hasChildren: false
+            -
+                keyword: CALA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: CALA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: CALATA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: CALATA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: CALLE
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: CALLE
+                children: {  }
+                hasChildren: false
+            -
+                keyword: CALLESELLO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: CALLESELLO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: CALTO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: CALTO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: CAMPIELLO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: CAMPIELLO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: CAMPO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: CAMPO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: CANTO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: CANTO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: CANTON
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: CANTON
+                children: {  }
+                hasChildren: false
+            -
+                keyword: CANTONE
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: CANTONE
+                children: {  }
+                hasChildren: false
+            -
+                keyword: CASCINA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: CASCINA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'CASE SPARSE'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'CASE SPARSE'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: CAVALCAVIA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: CAVALCAVIA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'CENTRO ABITATO'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'CENTRO ABITATO'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: CHIASSETTO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: CHIASSETTO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: CHIASSINO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: CHIASSINO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: CHIASSO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: CHIASSO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: CHIASSUOLO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: CHIASSUOLO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: CIRCONVALLAZIONE
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: CIRCONVALLAZIONE
+                children: {  }
+                hasChildren: false
+            -
+                keyword: COLLEGAMENTO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: COLLEGAMENTO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: COMPLANARE
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: COMPLANARE
+                children: {  }
+                hasChildren: false
+            -
+                keyword: CONTRADA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: CONTRADA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: CONTRA’
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: CONTRA’
+                children: {  }
+                hasChildren: false
+            -
+                keyword: CORSETTO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: CORSETTO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: CORSIA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: CORSIA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: CORSO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: CORSO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: CORTE
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: CORTE
+                children: {  }
+                hasChildren: false
+            -
+                keyword: CORTICELLA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: CORTICELLA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: CORTILE
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: CORTILE
+                children: {  }
+                hasChildren: false
+            -
+                keyword: COSTA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: COSTA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: COSTARELLA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: COSTARELLA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: CUPA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: CUPA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: DISCESA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: DISCESA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: EMICICLO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: EMICICLO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: ESEDRA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: ESEDRA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: FONDAMENTA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: FONDAMENTA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: FORNICE
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: FORNICE
+                children: {  }
+                hasChildren: false
+            -
+                keyword: FORO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: FORO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: FRAZIONE
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: FRAZIONE
+                children: {  }
+                hasChildren: false
+            -
+                keyword: GALLERIA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: GALLERIA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: GRADELLE
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: GRADELLE
+                children: {  }
+                hasChildren: false
+            -
+                keyword: GRADINATA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: GRADINATA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: GRADINI
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: GRADINI
+                children: {  }
+                hasChildren: false
+            -
+                keyword: GRADONI
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: GRADONI
+                children: {  }
+                hasChildren: false
+            -
+                keyword: LARGHETTO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: LARGHETTO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: LARGO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: LARGO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: LEA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: LEA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: LEVA’
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: LEVA’
+                children: {  }
+                hasChildren: false
+            -
+                keyword: LITORANEA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: LITORANEA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: LOCALITA’
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: LOCALITA’
+                children: {  }
+                hasChildren: false
+            -
+                keyword: LUNGADDA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: LUNGADDA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: LUNGADIGE
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: LUNGADIGE
+                children: {  }
+                hasChildren: false
+            -
+                keyword: LUNGAGNO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: LUNGAGNO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: LUNGARGINE
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: LUNGARGINE
+                children: {  }
+                hasChildren: false
+            -
+                keyword: LUNGARNO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: LUNGARNO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: LUNGOBISAGNO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: LUNGOBISAGNO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: LUNGOCASTELLANO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: LUNGOCASTELLANO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: LUNGOCELANO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: LUNGOCELANO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: LUNGOCRATI
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: LUNGOCRATI
+                children: {  }
+                hasChildren: false
+            -
+                keyword: LUNGODORA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: LUNGODORA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: LUNGOFERMULLA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: LUNGOFERMULLA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: LUNGOFIUME
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: LUNGOFIUME
+                children: {  }
+                hasChildren: false
+            -
+                keyword: LUNGOFOGLIA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: LUNGOFOGLIA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: LUNGOFRIGIDO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: LUNGOFRIGIDO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: LUNGOGESSO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: LUNGOGESSO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: LUNGOGLIO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: LUNGOGLIO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: LUNGOLAGO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: LUNGOLAGO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: LUNGOLARIO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: LUNGOLARIO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: LUNGOLONA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: LUNGOLONA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: LUNGOMALLERO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: LUNGOMALLERO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: LUNGOMALONE
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: LUNGOMALONE
+                children: {  }
+                hasChildren: false
+            -
+                keyword: LUNGOMARE
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: LUNGOMARE
+                children: {  }
+                hasChildren: false
+            -
+                keyword: LUNGOMAZARO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: LUNGOMAZARO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: LUNGOMELLA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: LUNGOMELLA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: LUNGOMERA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: LUNGOMERA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: LUNGOMINCIO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: LUNGOMINCIO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: LUNGOMONTE
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: LUNGOMONTE
+                children: {  }
+                hasChildren: false
+            -
+                keyword: LUNGONERA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: LUNGONERA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: LUNGOPARCO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: LUNGOPARCO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: LUNGOPESA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: LUNGOPESA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: LUNGOPO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: LUNGOPO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: LUNGORIO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: LUNGORIO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: LUNGOSABATO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: LUNGOSABATO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: LUNGOSILE
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: LUNGOSILE
+                children: {  }
+                hasChildren: false
+            -
+                keyword: LUNGOSTURA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: LUNGOSTURA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: LUNGOTANARO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: LUNGOTANARO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: LUNGOTARTARO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: LUNGOTARTARO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: LUNGOTEVERE
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: LUNGOTEVERE
+                children: {  }
+                hasChildren: false
+            -
+                keyword: LUNGOTORRENTE
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: LUNGOTORRENTE
+                children: {  }
+                hasChildren: false
+            -
+                keyword: LUNGOTRONTO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: LUNGOTRONTO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: MOLO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: MOLO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: MURA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: MURA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: NUCLEO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: NUCLEO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'NUCLEO ABITATO'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'NUCLEO ABITATO'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: PARCHEGGIO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: PARCHEGGIO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: PASSAGGIO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: PASSAGGIO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'PASSAGGIO PEDONALE'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'PASSAGGIO PEDONALE'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'PASSAGGIO PRIVATO'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'PASSAGGIO PRIVATO'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: PASSANTE
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: PASSANTE
+                children: {  }
+                hasChildren: false
+            -
+                keyword: PASSEGGIATA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: PASSEGGIATA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: PASSEGGIO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: PASSEGGIO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: PASSO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: PASSO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: PENDIO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: PENDIO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'PERCORSO CICLABILE'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'PERCORSO CICLABILE'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'PERCORSO CICLOPEDONALE'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'PERCORSO CICLOPEDONALE'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'PERCORSO PEDONALE'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'PERCORSO PEDONALE'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: PIAGGIA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: PIAGGIA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: PIANO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: PIANO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: PIAZZA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: PIAZZA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: PIAZZALE
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: PIAZZALE
+                children: {  }
+                hasChildren: false
+            -
+                keyword: PIAZZALETTO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: PIAZZALETTO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: PIAZZETTA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: PIAZZETTA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: PIAZZOLA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: PIAZZOLA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: PIAZZOLO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: PIAZZOLO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'PISTA CICLABILE'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'PISTA CICLABILE'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: PODERE
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: PODERE
+                children: {  }
+                hasChildren: false
+            -
+                keyword: PONTE
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: PONTE
+                children: {  }
+                hasChildren: false
+            -
+                keyword: PORTA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: PORTA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: PORTICHETTI
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: PORTICHETTI
+                children: {  }
+                hasChildren: false
+            -
+                keyword: PORTICI
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: PORTICI
+                children: {  }
+                hasChildren: false
+            -
+                keyword: PORTICO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: PORTICO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: POSTIERLA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: POSTIERLA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: QUADRATO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: QUADRATO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: QUARTIERE
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: QUARTIERE
+                children: {  }
+                hasChildren: false
+            -
+                keyword: RACCORDO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: RACCORDO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: RAMO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: RAMO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: RAMPA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: RAMPA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: RAMPARI
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: RAMPARI
+                children: {  }
+                hasChildren: false
+            -
+                keyword: RECINTO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: RECINTO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'RECINTO PRIVATO'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'RECINTO PRIVATO'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: REGIONE
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: REGIONE
+                children: {  }
+                hasChildren: false
+            -
+                keyword: RIGASTE
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: RIGASTE
+                children: {  }
+                hasChildren: false
+            -
+                keyword: RIONE
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: RIONE
+                children: {  }
+                hasChildren: false
+            -
+                keyword: RIPA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: RIPA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: RIVA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: RIVA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: RIVIERA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: RIVIERA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: RONCO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: RONCO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: ROTATORIA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: ROTATORIA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: ROTONDA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: ROTONDA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: RUA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: RUA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: RUGA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: RUGA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: SALITA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: SALITA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: SCALA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: SCALA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: SCALE
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: SCALE
+                children: {  }
+                hasChildren: false
+            -
+                keyword: SCALETTA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: SCALETTA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: SCALETTE
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: SCALETTE
+                children: {  }
+                hasChildren: false
+            -
+                keyword: SCALI
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: SCALI
+                children: {  }
+                hasChildren: false
+            -
+                keyword: SCALINATA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: SCALINATA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: SCALONE
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: SCALONE
+                children: {  }
+                hasChildren: false
+            -
+                keyword: SCESA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: SCESA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: SDRUCCIOLO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: SDRUCCIOLO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: SELCIATO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: SELCIATO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: SENTIERO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: SENTIERO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: SLARGO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: SLARGO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: SOPPORTICO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: SOPPORTICO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: SOTTOPASSAGGIO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: SOTTOPASSAGGIO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: SOTTOPASSO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: SOTTOPASSO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: SOTTOPORTICO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: SOTTOPORTICO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: SOTTOVIA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: SOTTOVIA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: SOVRAPASSO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: SOVRAPASSO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: SPALTO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: SPALTO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: SPIANATA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: SPIANATA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: SPIAZZO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: SPIAZZO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: STRADA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: STRADA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'STRADA ANTICA'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'STRADA ANTICA'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'STRADA COMUNALE'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'STRADA COMUNALE'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'STRADA CONSORTILE'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'STRADA CONSORTILE'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'STRADA NUOVA'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'STRADA NUOVA'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'STRADA PANORAMICA'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'STRADA PANORAMICA'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'STRADA PODERALE'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'STRADA PODERALE'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'STRADA PRIVATA'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'STRADA PRIVATA'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'STRADA PROVINCIALE'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'STRADA PROVINCIALE'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'STRADA REGIONALE'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'STRADA REGIONALE'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'STRADA STATALE'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'STRADA STATALE'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'STRADA VECCHIA'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'STRADA VECCHIA'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'STRADA VICINALE'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'STRADA VICINALE'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: STRADELLA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: STRADELLA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: STRADELLO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: STRADELLO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'STRADELLO PRIVATO'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'STRADELLO PRIVATO'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: STRADINA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: STRADINA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: STRADONE
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: STRADONE
+                children: {  }
+                hasChildren: false
+            -
+                keyword: STRETTA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: STRETTA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: STRETTO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: STRETTO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: STRETTOIA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: STRETTOIA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: SUBBORGO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: SUBBORGO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: SUPPORTICO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: SUPPORTICO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: TANGENZIALE
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: TANGENZIALE
+                children: {  }
+                hasChildren: false
+            -
+                keyword: TETTI
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: TETTI
+                children: {  }
+                hasChildren: false
+            -
+                keyword: TRAFORO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: TRAFORO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: TRATTURO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: TRATTURO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: TRAVERSA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: TRAVERSA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'TRAVERSA PRIVATA'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'TRAVERSA PRIVATA'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: TRAZZERA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: TRAZZERA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: TRESANDA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: TRESANDA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: VAGLIO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: VAGLIO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: VANELLA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: VANELLA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: VIA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: VIA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'VIA ANTICA'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'VIA ANTICA'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'VIA BELVEDERE'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'VIA BELVEDERE'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'VIA CENTRALE'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'VIA CENTRALE'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'VIA CIECA'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'VIA CIECA'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'VIA COMUNALE'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'VIA COMUNALE'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'VIA INTERNA'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'VIA INTERNA'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'VIA NAZIONALE'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'VIA NAZIONALE'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'VIA NUOVA'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'VIA NUOVA'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'VIA PANORAMICA'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'VIA PANORAMICA'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'VIA PRIVATA'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'VIA PRIVATA'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'VIA PROVINCIALE'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'VIA PROVINCIALE'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'VIA STATALE'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'VIA STATALE'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'VIA STRETTA'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'VIA STRETTA'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'VIA VECCHIA'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'VIA VECCHIA'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'VIA VICINALE'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'VIA VICINALE'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: VIADOTTO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: VIADOTTO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: VIALE
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: VIALE
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'VIALE BELVEDERE'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'VIALE BELVEDERE'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: VIALETTO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: VIALETTO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: VICO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: VICO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'VICO CHIUSO'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'VICO CHIUSO'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'VICO CIECO'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'VICO CIECO'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'VICO PRIVATO'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'VICO PRIVATO'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'VICO STORTO'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'VICO STORTO'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: VICOLETTO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: VICOLETTO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'VICOLETTO CIECO'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'VICOLETTO CIECO'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: VICOLO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: VICOLO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'VICOLO CHIUSO'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'VICOLO CHIUSO'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'VICOLO CIECO'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'VICOLO CIECO'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'VICOLO DIETRO'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'VICOLO DIETRO'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'VICOLO PRIVATO'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'VICOLO PRIVATO'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'VICOLO STORTO'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'VICOLO STORTO'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: VILLAGGIO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: VILLAGGIO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: VIOTTOLO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: VIOTTOLO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: VIUZZA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: VIUZZA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: VIUZZO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: VIUZZO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: VOCABOLO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: VOCABOLO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: VOLTA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: VOLTA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: VOLTE
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: VOLTE
+                children: {  }
+                hasChildren: false
+            -
+                keyword: VOLTO
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: VOLTO
+                children: {  }
+                hasChildren: false
+            -
+                keyword: VOLTONE
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: VOLTONE
+                children: {  }
+                hasChildren: false
+            -
+                keyword: VO’
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: VO’
+                children: {  }
+                hasChildren: false
+            -
+                keyword: ZONA
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: ZONA
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'ZONA ARTIGIANALE'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'ZONA ARTIGIANALE'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'ZONA INDUSTRIALE'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'ZONA INDUSTRIALE'
+                children: {  }
+                hasChildren: false
+        hasChildren: true
+hasChildren: true

@@ -1,7 +1,10 @@
 name: 'OpenCity Tags'
 type: module
-version: 0.0.1
-variables: null
+version: 0.0.2
+variables:
+    -
+        name: is_full_install
+        value: env(TAG_INSTALL_FULL)
 steps:
     -
         type: tagtree
@@ -35,10 +38,37 @@ steps:
         identifier: Luoghi
     -
         type: tagtree
+        identifier: Comuni-italiani-only_root
+    -
+        type: tagtree
+        identifier: Comuni-italiani
+        condition: $is_full_install
+    -
+        type: tagtree
+        identifier: Province-Regioni
+    -
+        type: tagtree
+        identifier: Odonimi-only_root
+    -
+        type: tagtree
+        identifier: Odonimi
+        condition: $is_full_install
+    -
+        type: tagtree
         identifier: Tipi-di-luogo
     -
         type: tagtree
         identifier: Organizzazione
+    -
+        type: tagtree
+        identifier: Cofog
+    -
+        type: tagtree
+        identifier: Ateco-only_root
+    -
+        type: tagtree
+        identifier: Ateco
+        condition: $is_full_install
     -
         type: tagtree
         identifier: Parole-chiave-generali
@@ -48,3 +78,10 @@ steps:
     -
         type: tagtree
         identifier: Servizi-pubblici
+    -
+        type: tagtree
+        identifier: Nace-only_root
+    -
+        type: tagtree
+        identifier: Nace
+        condition: $is_full_install

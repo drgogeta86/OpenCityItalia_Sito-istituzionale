@@ -1,0 +1,16 @@
+keyword: Luoghi
+locale: ita-IT
+alwaysAvailable: true
+synonyms: {  }
+keywordTranslations:
+    ita-IT: Luoghi
+hasChildren: true
+children:
+    -
+        keyword: 'Odonimi (toponimi stradali)'
+        locale: ita-IT
+        alwaysAvailable: true
+        synonyms: {  }
+        keywordTranslations:
+            ita-IT: 'Odonimi (toponimi stradali)'
+        hasChildren: false

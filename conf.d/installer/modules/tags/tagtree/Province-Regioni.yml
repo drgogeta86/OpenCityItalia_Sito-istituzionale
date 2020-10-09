@@ -1,1186 +1,1195 @@
-keyword: Organizzazione
+keyword: Luoghi
 locale: ita-IT
 alwaysAvailable: true
 synonyms: {  }
 keywordTranslations:
-    ita-IT: Organizzazione
+    ita-IT: Luoghi
 children:
     -
-        keyword: 'Legal status privato'
+        keyword: 'Province italiane'
         locale: ita-IT
         alwaysAvailable: true
         synonyms: {  }
         keywordTranslations:
-            ita-IT: 'Legal status privato'
+            ita-IT: 'Province italiane'
         children:
             -
-                keyword: 'Altra forma di ente privato con personalità giuridica'
+                keyword: Agrigento
                 locale: ita-IT
                 alwaysAvailable: true
                 synonyms: {  }
                 keywordTranslations:
-                    ita-IT: 'Altra forma di ente privato con personalità giuridica'
+                    ita-IT: Agrigento
                 children: {  }
                 hasChildren: false
             -
-                keyword: 'Altra forma di ente privato senza personalità giuridica'
+                keyword: Alessandria
                 locale: ita-IT
                 alwaysAvailable: true
                 synonyms: {  }
                 keywordTranslations:
-                    ita-IT: 'Altra forma di ente privato senza personalità giuridica'
+                    ita-IT: Alessandria
                 children: {  }
                 hasChildren: false
             -
-                keyword: 'Associazione non riconosciuta'
+                keyword: Ancona
                 locale: ita-IT
                 alwaysAvailable: true
                 synonyms: {  }
                 keywordTranslations:
-                    ita-IT: 'Associazione non riconosciuta'
+                    ita-IT: Ancona
                 children: {  }
                 hasChildren: false
             -
-                keyword: 'Associazione o raggruppamento temporaneo di imprese'
+                keyword: Aosta
                 locale: ita-IT
                 alwaysAvailable: true
                 synonyms: {  }
                 keywordTranslations:
-                    ita-IT: 'Associazione o raggruppamento temporaneo di imprese'
+                    ita-IT: Aosta
                 children: {  }
                 hasChildren: false
             -
-                keyword: 'Associazione riconosciuta'
+                keyword: Arezzo
                 locale: ita-IT
                 alwaysAvailable: true
                 synonyms: {  }
                 keywordTranslations:
-                    ita-IT: 'Associazione riconosciuta'
+                    ita-IT: Arezzo
                 children: {  }
                 hasChildren: false
             -
-                keyword: 'Azienda pubblica di servizi alle persone ai sensi del d.lgs n. 207/2001'
+                keyword: 'Ascoli Piceno'
                 locale: ita-IT
                 alwaysAvailable: true
                 synonyms: {  }
                 keywordTranslations:
-                    ita-IT: 'Azienda pubblica di servizi alle persone ai sensi del d.lgs n. 207/2001'
+                    ita-IT: 'Ascoli Piceno'
                 children: {  }
                 hasChildren: false
             -
-                keyword: 'Azienda speciale ai sensi del t.u. 267/2000'
+                keyword: Asti
                 locale: ita-IT
                 alwaysAvailable: true
                 synonyms: {  }
                 keywordTranslations:
-                    ita-IT: 'Azienda speciale ai sensi del t.u. 267/2000'
+                    ita-IT: Asti
                 children: {  }
                 hasChildren: false
             -
-                keyword: Comitato
+                keyword: Avellino
                 locale: ita-IT
                 alwaysAvailable: true
                 synonyms: {  }
                 keywordTranslations:
-                    ita-IT: Comitato
+                    ita-IT: Avellino
                 children: {  }
                 hasChildren: false
             -
-                keyword: Condominio
+                keyword: Bari
                 locale: ita-IT
                 alwaysAvailable: true
                 synonyms: {  }
                 keywordTranslations:
-                    ita-IT: Condominio
+                    ita-IT: Bari
                 children: {  }
                 hasChildren: false
             -
-                keyword: 'Consorzio di diritto privato'
+                keyword: Barletta-Andria-Trani
                 locale: ita-IT
                 alwaysAvailable: true
                 synonyms: {  }
                 keywordTranslations:
-                    ita-IT: 'Consorzio di diritto privato'
+                    ita-IT: Barletta-Andria-Trani
                 children: {  }
                 hasChildren: false
             -
-                keyword: 'Ente ecclesiastico'
+                keyword: Belluno
                 locale: ita-IT
                 alwaysAvailable: true
                 synonyms: {  }
                 keywordTranslations:
-                    ita-IT: 'Ente ecclesiastico'
+                    ita-IT: Belluno
                 children: {  }
                 hasChildren: false
             -
-                keyword: 'Ente pubblico economico'
+                keyword: Benevento
                 locale: ita-IT
                 alwaysAvailable: true
                 synonyms: {  }
                 keywordTranslations:
-                    ita-IT: 'Ente pubblico economico'
+                    ita-IT: Benevento
                 children: {  }
                 hasChildren: false
             -
-                keyword: 'Fondazione (esclusa fondazione bancaria)'
+                keyword: Bergamo
                 locale: ita-IT
                 alwaysAvailable: true
                 synonyms: {  }
                 keywordTranslations:
-                    ita-IT: 'Fondazione (esclusa fondazione bancaria)'
+                    ita-IT: Bergamo
                 children: {  }
                 hasChildren: false
             -
-                keyword: 'Fondazione bancaria'
+                keyword: Biella
                 locale: ita-IT
                 alwaysAvailable: true
                 synonyms: {  }
                 keywordTranslations:
-                    ita-IT: 'Fondazione bancaria'
+                    ita-IT: Biella
                 children: {  }
                 hasChildren: false
             -
-                keyword: 'Gruppo europeo di interesse economico'
+                keyword: Bologna
                 locale: ita-IT
                 alwaysAvailable: true
                 synonyms: {  }
                 keywordTranslations:
-                    ita-IT: 'Gruppo europeo di interesse economico'
+                    ita-IT: Bologna
                 children: {  }
                 hasChildren: false
             -
-                keyword: 'Imprenditore individuale agricolo'
+                keyword: Bolzano
                 locale: ita-IT
                 alwaysAvailable: true
                 synonyms: {  }
                 keywordTranslations:
-                    ita-IT: 'Imprenditore individuale agricolo'
+                    ita-IT: Bolzano
                 children: {  }
                 hasChildren: false
             -
-                keyword: 'Imprenditore individuale non agricolo'
+                keyword: Brescia
                 locale: ita-IT
                 alwaysAvailable: true
                 synonyms: {  }
                 keywordTranslations:
-                    ita-IT: 'Imprenditore individuale non agricolo'
+                    ita-IT: Brescia
                 children: {  }
                 hasChildren: false
             -
-                keyword: 'Impresa o ente privato costituito all''estero non altrimenti classificabile che svolge una attività economica in Italia'
+                keyword: Brindisi
                 locale: ita-IT
                 alwaysAvailable: true
                 synonyms: {  }
                 keywordTranslations:
-                    ita-IT: 'Impresa o ente privato costituito all''estero non altrimenti classificabile che svolge una attività economica in Italia'
+                    ita-IT: Brindisi
                 children: {  }
                 hasChildren: false
             -
-                keyword: 'Lavoratore autonomo'
+                keyword: Cagliari
                 locale: ita-IT
                 alwaysAvailable: true
                 synonyms: {  }
                 keywordTranslations:
-                    ita-IT: 'Lavoratore autonomo'
+                    ita-IT: Cagliari
                 children: {  }
                 hasChildren: false
             -
-                keyword: 'Libero professionista'
+                keyword: Caltanissetta
                 locale: ita-IT
                 alwaysAvailable: true
                 synonyms: {  }
                 keywordTranslations:
-                    ita-IT: 'Libero professionista'
+                    ita-IT: Caltanissetta
                 children: {  }
                 hasChildren: false
             -
-                keyword: 'Società a responsabilità limitata'
+                keyword: Campobasso
                 locale: ita-IT
                 alwaysAvailable: true
                 synonyms: {  }
                 keywordTranslations:
-                    ita-IT: 'Società a responsabilità limitata'
+                    ita-IT: Campobasso
                 children: {  }
                 hasChildren: false
             -
-                keyword: 'Società a responsabilità limitata con un unico socio'
+                keyword: Carbonia-Iglesias
                 locale: ita-IT
                 alwaysAvailable: true
                 synonyms: {  }
                 keywordTranslations:
-                    ita-IT: 'Società a responsabilità limitata con un unico socio'
+                    ita-IT: Carbonia-Iglesias
                 children: {  }
                 hasChildren: false
             -
-                keyword: 'Società consortile'
+                keyword: Caserta
                 locale: ita-IT
                 alwaysAvailable: true
                 synonyms: {  }
                 keywordTranslations:
-                    ita-IT: 'Società consortile'
+                    ita-IT: Caserta
                 children: {  }
                 hasChildren: false
             -
-                keyword: 'Società cooperativa a mutualità prevalente'
+                keyword: Catania
                 locale: ita-IT
                 alwaysAvailable: true
                 synonyms: {  }
                 keywordTranslations:
-                    ita-IT: 'Società cooperativa a mutualità prevalente'
+                    ita-IT: Catania
                 children: {  }
                 hasChildren: false
             -
-                keyword: 'Società cooperativa diversa'
+                keyword: Catanzaro
                 locale: ita-IT
                 alwaysAvailable: true
                 synonyms: {  }
                 keywordTranslations:
-                    ita-IT: 'Società cooperativa diversa'
+                    ita-IT: Catanzaro
                 children: {  }
                 hasChildren: false
             -
-                keyword: 'Società cooperativa sociale'
+                keyword: Chieti
                 locale: ita-IT
                 alwaysAvailable: true
                 synonyms: {  }
                 keywordTranslations:
-                    ita-IT: 'Società cooperativa sociale'
+                    ita-IT: Chieti
                 children: {  }
                 hasChildren: false
             -
-                keyword: 'Società di fatto o irregolare / comunione ereditaria'
+                keyword: Como
                 locale: ita-IT
                 alwaysAvailable: true
                 synonyms: {  }
                 keywordTranslations:
-                    ita-IT: 'Società di fatto o irregolare / comunione ereditaria'
+                    ita-IT: Como
                 children: {  }
                 hasChildren: false
             -
-                keyword: 'Società di mutua assicurazione'
+                keyword: Cosenza
                 locale: ita-IT
                 alwaysAvailable: true
                 synonyms: {  }
                 keywordTranslations:
-                    ita-IT: 'Società di mutua assicurazione'
+                    ita-IT: Cosenza
                 children: {  }
                 hasChildren: false
             -
-                keyword: 'Società di mutuo soccorso'
+                keyword: Cremona
                 locale: ita-IT
                 alwaysAvailable: true
                 synonyms: {  }
                 keywordTranslations:
-                    ita-IT: 'Società di mutuo soccorso'
+                    ita-IT: Cremona
                 children: {  }
                 hasChildren: false
             -
-                keyword: 'Società in accomandita per azioni'
+                keyword: Crotone
                 locale: ita-IT
                 alwaysAvailable: true
                 synonyms: {  }
                 keywordTranslations:
-                    ita-IT: 'Società in accomandita per azioni'
+                    ita-IT: Crotone
                 children: {  }
                 hasChildren: false
             -
-                keyword: 'Società in accomandita semplice'
+                keyword: Cuneo
                 locale: ita-IT
                 alwaysAvailable: true
                 synonyms: {  }
                 keywordTranslations:
-                    ita-IT: 'Società in accomandita semplice'
+                    ita-IT: Cuneo
                 children: {  }
                 hasChildren: false
             -
-                keyword: 'Società in nome collettivo'
+                keyword: Enna
                 locale: ita-IT
                 alwaysAvailable: true
                 synonyms: {  }
                 keywordTranslations:
-                    ita-IT: 'Società in nome collettivo'
+                    ita-IT: Enna
                 children: {  }
                 hasChildren: false
             -
-                keyword: 'Società per azioni'
+                keyword: Fermo
                 locale: ita-IT
                 alwaysAvailable: true
                 synonyms: {  }
                 keywordTranslations:
-                    ita-IT: 'Società per azioni'
+                    ita-IT: Fermo
                 children: {  }
                 hasChildren: false
             -
-                keyword: 'Società semplice'
+                keyword: Ferrara
                 locale: ita-IT
                 alwaysAvailable: true
                 synonyms: {  }
                 keywordTranslations:
-                    ita-IT: 'Società semplice'
+                    ita-IT: Ferrara
                 children: {  }
                 hasChildren: false
             -
-                keyword: 'Studio associato e società di professionisti'
+                keyword: Firenze
                 locale: ita-IT
                 alwaysAvailable: true
                 synonyms: {  }
                 keywordTranslations:
-                    ita-IT: 'Studio associato e società di professionisti'
+                    ita-IT: Firenze
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Foggia
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Foggia
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Forlì-Cesena
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Forlì-Cesena
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Frosinone
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Frosinone
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Genova
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Genova
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Gorizia
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Gorizia
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Grosseto
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Grosseto
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Imperia
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Imperia
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Isernia
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Isernia
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'L''Aquila'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'L''Aquila'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'La Spezia'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'La Spezia'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Latina
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Latina
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Lecce
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Lecce
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Lecco
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Lecco
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Livorno
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Livorno
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Lodi
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Lodi
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Lucca
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Lucca
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Macerata
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Macerata
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Mantova
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Mantova
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Massa-Carrara
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Massa-Carrara
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Matera
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Matera
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'Medio Campidano'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Medio Campidano'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Messina
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Messina
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Milano
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Milano
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Modena
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Modena
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'Monza e della Brianza'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Monza e della Brianza'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Napoli
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Napoli
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Novara
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Novara
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Nuoro
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Nuoro
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Ogliastra
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Ogliastra
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Olbia-Tempio
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Olbia-Tempio
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Oristano
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Oristano
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Padova
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Padova
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Palermo
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Palermo
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Parma
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Parma
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Pavia
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Pavia
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Perugia
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Perugia
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'Pesaro e Urbino'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Pesaro e Urbino'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Pescara
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Pescara
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Piacenza
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Piacenza
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Pisa
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Pisa
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Pistoia
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Pistoia
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Pordenone
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Pordenone
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Potenza
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Potenza
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Prato
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Prato
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Ragusa
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Ragusa
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Ravenna
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Ravenna
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'Reggio Calabria'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Reggio Calabria'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'Reggio Emilia'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Reggio Emilia'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Rieti
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Rieti
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Rimini
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Rimini
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Roma
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Roma
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Rovigo
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Rovigo
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Salerno
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Salerno
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Sassari
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Sassari
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Savona
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Savona
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Siena
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Siena
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Siracusa
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Siracusa
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Sondrio
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Sondrio
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Taranto
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Taranto
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Teramo
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Teramo
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Terni
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Terni
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Torino
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Torino
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Trapani
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Trapani
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Trento
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Trento
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Treviso
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Treviso
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Trieste
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Trieste
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Udine
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Udine
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Varese
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Varese
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Venezia
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Venezia
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Verbano-Cusio-Ossola
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Verbano-Cusio-Ossola
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Vercelli
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Vercelli
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Verona
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Verona
+                children: {  }
+                hasChildren: false
+            -
+                keyword: 'Vibo Valentia'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Vibo Valentia'
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Vicenza
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Vicenza
+                children: {  }
+                hasChildren: false
+            -
+                keyword: Viterbo
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Viterbo
                 children: {  }
                 hasChildren: false
         hasChildren: true
     -
-        keyword: 'Legal status pubblico'
+        keyword: 'Regioni italiane'
         locale: ita-IT
         alwaysAvailable: true
         synonyms: {  }
         keywordTranslations:
-            ita-IT: 'Legal status pubblico'
+            ita-IT: 'Regioni italiane'
         children:
             -
-                keyword: 'Agenzia dello Stato'
+                keyword: Abruzzo
                 locale: ita-IT
                 alwaysAvailable: true
                 synonyms: {  }
                 keywordTranslations:
-                    ita-IT: 'Agenzia dello Stato'
+                    ita-IT: Abruzzo
                 children: {  }
                 hasChildren: false
             -
-                keyword: 'Altro ente pubblico non economico nazionale'
+                keyword: Basilicata
                 locale: ita-IT
                 alwaysAvailable: true
                 synonyms: {  }
                 keywordTranslations:
-                    ita-IT: 'Altro ente pubblico non economico nazionale'
+                    ita-IT: Basilicata
                 children: {  }
                 hasChildren: false
             -
-                keyword: 'Archivio notarile'
+                keyword: Calabria
                 locale: ita-IT
                 alwaysAvailable: true
                 synonyms: {  }
                 keywordTranslations:
-                    ita-IT: 'Archivio notarile'
+                    ita-IT: Calabria
                 children: {  }
                 hasChildren: false
             -
-                keyword: 'Autorità indipendenti'
+                keyword: Campania
                 locale: ita-IT
                 alwaysAvailable: true
                 synonyms: {  }
                 keywordTranslations:
-                    ita-IT: 'Autorità indipendenti'
+                    ita-IT: Campania
                 children: {  }
                 hasChildren: false
             -
-                keyword: 'Azienda o ente del servizio sanitario nazionale'
+                keyword: Emilia-Romagna
                 locale: ita-IT
                 alwaysAvailable: true
                 synonyms: {  }
                 keywordTranslations:
-                    ita-IT: 'Azienda o ente del servizio sanitario nazionale'
+                    ita-IT: Emilia-Romagna
                 children: {  }
                 hasChildren: false
             -
-                keyword: 'Camera di commercio'
+                keyword: 'Friuli-Venezia Giulia'
                 locale: ita-IT
                 alwaysAvailable: true
                 synonyms: {  }
                 keywordTranslations:
-                    ita-IT: 'Camera di commercio'
+                    ita-IT: 'Friuli-Venezia Giulia'
                 children: {  }
                 hasChildren: false
             -
-                keyword: 'Città metropolitana'
+                keyword: Lazio
                 locale: ita-IT
                 alwaysAvailable: true
                 synonyms: {  }
                 keywordTranslations:
-                    ita-IT: 'Città metropolitana'
+                    ita-IT: Lazio
                 children: {  }
                 hasChildren: false
             -
-                keyword: Comune
+                keyword: Liguria
                 locale: ita-IT
                 alwaysAvailable: true
                 synonyms: {  }
                 keywordTranslations:
-                    ita-IT: Comune
+                    ita-IT: Liguria
                 children: {  }
                 hasChildren: false
             -
-                keyword: 'Comunità montana o isolana'
+                keyword: Lombardia
                 locale: ita-IT
                 alwaysAvailable: true
                 synonyms: {  }
                 keywordTranslations:
-                    ita-IT: 'Comunità montana o isolana'
+                    ita-IT: Lombardia
                 children: {  }
                 hasChildren: false
             -
-                keyword: 'Consorzio di diritto pubblico'
+                keyword: Marche
                 locale: ita-IT
                 alwaysAvailable: true
                 synonyms: {  }
                 keywordTranslations:
-                    ita-IT: 'Consorzio di diritto pubblico'
+                    ita-IT: Marche
                 children: {  }
                 hasChildren: false
             -
-                keyword: 'Ente ambientale regionale'
+                keyword: Molise
                 locale: ita-IT
                 alwaysAvailable: true
                 synonyms: {  }
                 keywordTranslations:
-                    ita-IT: 'Ente ambientale regionale'
+                    ita-IT: Molise
                 children: {  }
                 hasChildren: false
             -
-                keyword: 'Ente di sviluppo agricolo regionale o di altro ente locale'
+                keyword: Piemonte
                 locale: ita-IT
                 alwaysAvailable: true
                 synonyms: {  }
                 keywordTranslations:
-                    ita-IT: 'Ente di sviluppo agricolo regionale o di altro ente locale'
+                    ita-IT: Piemonte
                 children: {  }
                 hasChildren: false
             -
-                keyword: 'Ente o autorità portuale'
+                keyword: Puglia
                 locale: ita-IT
                 alwaysAvailable: true
                 synonyms: {  }
                 keywordTranslations:
-                    ita-IT: 'Ente o autorità portuale'
+                    ita-IT: Puglia
                 children: {  }
                 hasChildren: false
             -
-                keyword: 'Ente parco'
+                keyword: Sardegna
                 locale: ita-IT
                 alwaysAvailable: true
                 synonyms: {  }
                 keywordTranslations:
-                    ita-IT: 'Ente parco'
+                    ita-IT: Sardegna
                 children: {  }
                 hasChildren: false
             -
-                keyword: 'Ente per il turismo'
+                keyword: Sicilia
                 locale: ita-IT
                 alwaysAvailable: true
                 synonyms: {  }
                 keywordTranslations:
-                    ita-IT: 'Ente per il turismo'
+                    ita-IT: Sicilia
                 children: {  }
                 hasChildren: false
             -
-                keyword: 'Ente per la ricerca e per l''aggiornamento educativo'
+                keyword: Toscana
                 locale: ita-IT
                 alwaysAvailable: true
                 synonyms: {  }
                 keywordTranslations:
-                    ita-IT: 'Ente per la ricerca e per l''aggiornamento educativo'
+                    ita-IT: Toscana
                 children: {  }
                 hasChildren: false
             -
-                keyword: 'Istituto e scuola pubblica di ogni ordine e grado'
+                keyword: 'Trentino-Alto Adige/Südtirol'
                 locale: ita-IT
                 alwaysAvailable: true
                 synonyms: {  }
                 keywordTranslations:
-                    ita-IT: 'Istituto e scuola pubblica di ogni ordine e grado'
+                    ita-IT: 'Trentino-Alto Adige/Südtirol'
                 children: {  }
                 hasChildren: false
             -
-                keyword: 'Istituto o ente pubblico di ricerca'
+                keyword: Umbria
                 locale: ita-IT
                 alwaysAvailable: true
                 synonyms: {  }
                 keywordTranslations:
-                    ita-IT: 'Istituto o ente pubblico di ricerca'
+                    ita-IT: Umbria
                 children: {  }
                 hasChildren: false
             -
-                keyword: 'Istituto pubblico di assistenza e beneficenza'
+                keyword: 'Valle d''Aosta/Vallée d''Aoste'
                 locale: ita-IT
                 alwaysAvailable: true
                 synonyms: {  }
                 keywordTranslations:
-                    ita-IT: 'Istituto pubblico di assistenza e beneficenza'
+                    ita-IT: 'Valle d''Aosta/Vallée d''Aoste'
                 children: {  }
                 hasChildren: false
             -
-                keyword: Ministero
+                keyword: Veneto
                 locale: ita-IT
                 alwaysAvailable: true
                 synonyms: {  }
                 keywordTranslations:
-                    ita-IT: Ministero
-                children: {  }
-                hasChildren: false
-            -
-                keyword: 'Ordine e collegio professionale'
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: 'Ordine e collegio professionale'
-                children: {  }
-                hasChildren: false
-            -
-                keyword: 'Organo costituzionale o a rilevanza costituzionale'
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: 'Organo costituzionale o a rilevanza costituzionale'
-                children: {  }
-                hasChildren: false
-            -
-                keyword: 'Presidenza del consiglio'
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: 'Presidenza del consiglio'
-                children: {  }
-                hasChildren: false
-            -
-                keyword: Provincia
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: Provincia
-                children: {  }
-                hasChildren: false
-            -
-                keyword: Regione
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: Regione
-                children: {  }
-                hasChildren: false
-            -
-                keyword: 'Unione di comuni'
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: 'Unione di comuni'
-                children: {  }
-                hasChildren: false
-            -
-                keyword: 'Università pubblica'
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: 'Università pubblica'
-                children: {  }
-                hasChildren: false
-        hasChildren: true
-    -
-        keyword: 'Tipo di organizzazione pubblica'
-        locale: ita-IT
-        alwaysAvailable: true
-        synonyms: {  }
-        keywordTranslations:
-            ita-IT: 'Tipo di organizzazione pubblica'
-        children:
-            -
-                keyword: 'Agenzia per il Turismo'
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: 'Agenzia per il Turismo'
-                children: {  }
-                hasChildren: false
-            -
-                keyword: Biblioteca
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: Biblioteca
-                children: {  }
-                hasChildren: false
-            -
-                keyword: 'Centro culturale'
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: 'Centro culturale'
-                children: {  }
-                hasChildren: false
-            -
-                keyword: 'Città Metropolitana'
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: 'Città Metropolitana'
-                children: {  }
-                hasChildren: false
-            -
-                keyword: 'Ente privato'
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: 'Ente privato'
-                children: {  }
-                hasChildren: false
-            -
-                keyword: Fondazione
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: Fondazione
-                children: {  }
-                hasChildren: false
-            -
-                keyword: Museo
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: Museo
-                children: {  }
-                hasChildren: false
-            -
-                keyword: 'Scuola comunale'
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: 'Scuola comunale'
-                children: {  }
-                hasChildren: false
-            -
-                keyword: 'Scuola privata'
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: 'Scuola privata'
-                children: {  }
-                hasChildren: false
-        hasChildren: true
-    -
-        keyword: 'Tipo di organo politico'
-        locale: ita-IT
-        alwaysAvailable: true
-        synonyms: {  }
-        keywordTranslations:
-            ita-IT: 'Tipo di organo politico'
-        children:
-            -
-                keyword: Assessorato
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: Assessorato
-                children: {  }
-                hasChildren: false
-            -
-                keyword: Circoscrizione
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: Circoscrizione
-                children: {  }
-                hasChildren: false
-            -
-                keyword: 'Commissione consiliare'
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: 'Commissione consiliare'
-                children: {  }
-                hasChildren: false
-            -
-                keyword: 'Commissione permanente'
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: 'Commissione permanente'
-                children: {  }
-                hasChildren: false
-            -
-                keyword: 'Consiglio comunale'
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: 'Consiglio comunale'
-                children: {  }
-                hasChildren: false
-            -
-                keyword: 'Difensore civico'
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: 'Difensore civico'
-                children: {  }
-                hasChildren: false
-            -
-                keyword: 'Giunta comunale'
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: 'Giunta comunale'
-                children: {  }
-                hasChildren: false
-            -
-                keyword: 'Gruppo consiliare'
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: 'Gruppo consiliare'
-                children: {  }
-                hasChildren: false
-            -
-                keyword: 'Presidenza del Consiglio comunale'
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: 'Presidenza del Consiglio comunale'
-                children: {  }
-                hasChildren: false
-        hasChildren: true
-    -
-        keyword: 'Tipo di struttura organizzativa'
-        locale: ita-IT
-        alwaysAvailable: true
-        synonyms: {  }
-        keywordTranslations:
-            ita-IT: 'Tipo di struttura organizzativa'
-        children:
-            -
-                keyword: AOO
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: AOO
-                children: {  }
-                hasChildren: false
-            -
-                keyword: 'Altro tipo'
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: 'Altro tipo'
-                children: {  }
-                hasChildren: false
-            -
-                keyword: Incarico
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: Incarico
-                children: {  }
-                hasChildren: false
-            -
-                keyword: Servizio
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: Servizio
-                children: {  }
-                hasChildren: false
-            -
-                keyword: Struttura
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: Struttura
-                children: {  }
-                hasChildren: false
-            -
-                keyword: Ufficio
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: Ufficio
-                children: {  }
-                hasChildren: false
-        hasChildren: true
-    -
-        keyword: 'Tipologia di punti di contatto'
-        locale: ita-IT
-        alwaysAvailable: true
-        synonyms: {  }
-        keywordTranslations:
-            ita-IT: 'Tipologia di punti di contatto'
-        children:
-            -
-                keyword: Amministrazione
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: Amministrazione
-                children: {  }
-                hasChildren: false
-            -
-                keyword: Segreteria
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: Segreteria
-                children: {  }
-                hasChildren: false
-            -
-                keyword: 'Supporto specialistico'
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: 'Supporto specialistico'
-                children: {  }
-                hasChildren: false
-        hasChildren: true
-    -
-        keyword: 'legal status privato'
-        locale: ita-IT
-        alwaysAvailable: true
-        synonyms: {  }
-        keywordTranslations:
-            ita-IT: 'legal status privato'
-        children:
-            -
-                keyword: 'Altra forma di ente privato con personalità giuridica'
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: 'Altra forma di ente privato con personalità giuridica'
-                children: {  }
-                hasChildren: false
-            -
-                keyword: 'Altra forma di ente privato senza personalità giuridica'
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: 'Altra forma di ente privato senza personalità giuridica'
-                children: {  }
-                hasChildren: false
-            -
-                keyword: 'Associazione non riconosciuta'
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: 'Associazione non riconosciuta'
-                children: {  }
-                hasChildren: false
-            -
-                keyword: 'Associazione o raggruppamento temporaneo di imprese'
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: 'Associazione o raggruppamento temporaneo di imprese'
-                children: {  }
-                hasChildren: false
-            -
-                keyword: 'Associazione riconosciuta'
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: 'Associazione riconosciuta'
-                children: {  }
-                hasChildren: false
-            -
-                keyword: 'Azienda pubblica di servizi alle persone ai sensi del d.lgs n. 207/2001'
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: 'Azienda pubblica di servizi alle persone ai sensi del d.lgs n. 207/2001'
-                children: {  }
-                hasChildren: false
-            -
-                keyword: 'Azienda speciale ai sensi del t.u. 267/2000'
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: 'Azienda speciale ai sensi del t.u. 267/2000'
-                children: {  }
-                hasChildren: false
-            -
-                keyword: Comitato
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: Comitato
-                children: {  }
-                hasChildren: false
-            -
-                keyword: Condominio
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: Condominio
-                children: {  }
-                hasChildren: false
-            -
-                keyword: 'Consorzio di diritto privato'
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: 'Consorzio di diritto privato'
-                children: {  }
-                hasChildren: false
-            -
-                keyword: 'Ente ecclesiastico'
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: 'Ente ecclesiastico'
-                children: {  }
-                hasChildren: false
-            -
-                keyword: 'Ente pubblico economico'
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: 'Ente pubblico economico'
-                children: {  }
-                hasChildren: false
-            -
-                keyword: 'Fondazione (esclusa fondazione bancaria)'
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: 'Fondazione (esclusa fondazione bancaria)'
-                children: {  }
-                hasChildren: false
-            -
-                keyword: 'Fondazione bancaria'
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: 'Fondazione bancaria'
-                children: {  }
-                hasChildren: false
-            -
-                keyword: 'Gruppo europeo di interesse economico'
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: 'Gruppo europeo di interesse economico'
-                children: {  }
-                hasChildren: false
-            -
-                keyword: 'Imprenditore individuale agricolo'
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: 'Imprenditore individuale agricolo'
-                children: {  }
-                hasChildren: false
-            -
-                keyword: 'Imprenditore individuale non agricolo'
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: 'Imprenditore individuale non agricolo'
-                children: {  }
-                hasChildren: false
-            -
-                keyword: 'Impresa o ente privato costituito all''estero non altrimenti classificabile che svolge una attività economica in Italia'
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: 'Impresa o ente privato costituito all''estero non altrimenti classificabile che svolge una attività economica in Italia'
-                children: {  }
-                hasChildren: false
-            -
-                keyword: 'Lavoratore autonomo'
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: 'Lavoratore autonomo'
-                children: {  }
-                hasChildren: false
-            -
-                keyword: 'Libero professionista'
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: 'Libero professionista'
-                children: {  }
-                hasChildren: false
-            -
-                keyword: 'Società a responsabilità limitata'
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: 'Società a responsabilità limitata'
-                children: {  }
-                hasChildren: false
-            -
-                keyword: 'Società a responsabilità limitata con un unico socio'
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: 'Società a responsabilità limitata con un unico socio'
-                children: {  }
-                hasChildren: false
-            -
-                keyword: 'Società consortile'
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: 'Società consortile'
-                children: {  }
-                hasChildren: false
-            -
-                keyword: 'Società cooperativa a mutualità prevalente'
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: 'Società cooperativa a mutualità prevalente'
-                children: {  }
-                hasChildren: false
-            -
-                keyword: 'Società cooperativa diversa'
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: 'Società cooperativa diversa'
-                children: {  }
-                hasChildren: false
-            -
-                keyword: 'Società cooperativa sociale'
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: 'Società cooperativa sociale'
-                children: {  }
-                hasChildren: false
-            -
-                keyword: 'Società di fatto o irregolare / comunione ereditaria'
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: 'Società di fatto o irregolare / comunione ereditaria'
-                children: {  }
-                hasChildren: false
-            -
-                keyword: 'Società di mutua assicurazione'
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: 'Società di mutua assicurazione'
-                children: {  }
-                hasChildren: false
-            -
-                keyword: 'Società di mutuo soccorso'
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: 'Società di mutuo soccorso'
-                children: {  }
-                hasChildren: false
-            -
-                keyword: 'Società in accomandita per azioni'
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: 'Società in accomandita per azioni'
-                children: {  }
-                hasChildren: false
-            -
-                keyword: 'Società in accomandita semplice'
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: 'Società in accomandita semplice'
-                children: {  }
-                hasChildren: false
-            -
-                keyword: 'Società in nome collettivo'
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: 'Società in nome collettivo'
-                children: {  }
-                hasChildren: false
-            -
-                keyword: 'Società per azioni'
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: 'Società per azioni'
-                children: {  }
-                hasChildren: false
-            -
-                keyword: 'Società semplice'
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: 'Società semplice'
-                children: {  }
-                hasChildren: false
-            -
-                keyword: 'Studio associato e società di professionisti'
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: 'Studio associato e società di professionisti'
+                    ita-IT: Veneto
                 children: {  }
                 hasChildren: false
         hasChildren: true

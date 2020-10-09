@@ -1,0 +1,1 @@
+ALTER SEQUENCE  ezevent_id_seq RENAME TO  ezevent_s;

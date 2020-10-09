@@ -1,0 +1,15 @@
+keyword: Organizzazione
+locale: ita-IT
+alwaysAvailable: true
+synonyms: {  }
+keywordTranslations:
+    ita-IT: Organizzazione
+children:
+    -
+        keyword: 'Tipo di organizzazione privata (ATECO)'
+        locale: ita-IT
+        alwaysAvailable: true
+        synonyms: {  }
+        keywordTranslations:
+            ita-IT: 'Tipo di organizzazione privata (ATECO)'
+        hasChildren: false

@@ -55,7 +55,6 @@ variables:
     -
         name: check_eztags_sequence
         value: env(CHECK_EZTAGS_SEQUENCE)
-        
 steps:
     -
         type: sql_copy_from_tsv
@@ -400,20 +399,6 @@ steps:
     -
         type: classextra
         identifier: image
-    -
-        type: workflow
-        identifier: Post-pubblicazione
-        trigger:
-            module: content
-            function: publish
-            connection_type: after
-    -
-        type: workflow
-        identifier: Pre-pubblicazione
-        trigger:
-            module: content
-            function: publish
-            connection_type: before
     -
         type: workflow
         identifier: Post-pubblicazione

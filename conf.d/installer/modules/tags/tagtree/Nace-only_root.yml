@@ -1,0 +1,26 @@
+keyword: 'Servizi pubblici'
+locale: ita-IT
+alwaysAvailable: true
+synonyms: {  }
+keywordTranslations:
+    ita-IT: 'Servizi pubblici'
+hasChildren: true
+children:
+    -
+        keyword: NACE
+        locale: ita-IT
+        alwaysAvailable: true
+        synonyms: {  }
+        keywordTranslations:
+            ita-IT: NACE
+        hasChildren: true
+        children:
+            -
+                keyword: '64.1 - Intermediazione monetaria'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: '64.1 - Intermediazione monetaria'
+                children: {  }
+                hasChildren: false
