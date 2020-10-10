@@ -25,6 +25,7 @@ CategoryList[booking_definitions]=Prenotazione
 CategoryList[config]=Configurazioni
 CategoryList[moderation]=Moderazione
 CategoryList[controls]=Abilitazioni
+CategoryList[resource]=Risorse
 
 [RelationAssignmentSettings]
 ClassSpecificAssignment[]=file_pdf;media/files

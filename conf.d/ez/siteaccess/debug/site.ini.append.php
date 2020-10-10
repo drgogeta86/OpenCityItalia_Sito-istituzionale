@@ -50,6 +50,7 @@ ActiveAccessExtensions[]=openpa_newsletter
 ActiveAccessExtensions[]=oceditorialstuff
 ActiveAccessExtensions[]=ocwebhookserver
 ActiveAccessExtensions[]=eztagdescription
+ActiveAccessExtensions[]=occustomfind
 
 [SiteSettings]
 LoginPage=embedded

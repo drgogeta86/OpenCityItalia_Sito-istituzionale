@@ -592,7 +592,7 @@ data_map:
         is_searchable: 1
         can_translate: 1
         data_text5: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<ezselection><options><option id=\"0\" name=\"Orale\"/><option id=\"1\" name=\"Scritta\"/></options></ezselection>\n"
-        category: attivia_politica
+        category: attivita_politica
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
@@ -616,7 +616,7 @@ data_map:
                 - politico
             default_placement:
                 node_id: $contenttree_Amministrazione_Politici_node
-        category: attivia_politica
+        category: attivita_politica
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
@@ -640,7 +640,7 @@ data_map:
                 - political_body
             default_placement:
                 node_id: $contenttree_Amministrazione_Organi-politici_node
-        category: attivia_politica
+        category: attivita_politica
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
@@ -656,7 +656,7 @@ data_map:
         placement: 38
         is_searchable: 1
         can_translate: 1
-        category: attivia_politica
+        category: attivita_politica
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
@@ -672,7 +672,7 @@ data_map:
         placement: 39
         is_searchable: 1
         can_translate: 1
-        category: attivia_politica
+        category: attivita_politica
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
@@ -688,7 +688,7 @@ data_map:
         placement: 40
         is_searchable: 1
         can_translate: 1
-        category: attivia_politica
+        category: attivita_politica
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
@@ -704,7 +704,7 @@ data_map:
         placement: 41
         is_searchable: 1
         can_translate: 1
-        category: attivia_politica
+        category: attivita_politica
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
@@ -720,7 +720,7 @@ data_map:
         placement: 42
         is_searchable: 1
         can_translate: 1
-        category: attivia_politica
+        category: attivita_politica
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
@@ -736,7 +736,7 @@ data_map:
         placement: 43
         is_searchable: 1
         can_translate: 1
-        category: attivia_politica
+        category: attivita_politica
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
