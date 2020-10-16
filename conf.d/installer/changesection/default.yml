@@ -3,7 +3,7 @@ rootNodeIdList:
     document: '$contenttree_OpenCity_Documenti-e-dati_node'
 dataTimeAttributeIdentifierList:
     article: dead_line
-    document: publication_end_time
+    document: expiration_time
 sectionIdList:
     article: restricted
     document: restricted
