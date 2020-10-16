@@ -57,6 +57,9 @@ variables:
         value: env(CHECK_EZTAGS_SEQUENCE)
 steps:
     -
+        type: sql
+        identifier: alter_contentobject_date_interger_type
+    -
         type: sql_copy_from_tsv
         identifier: eztags
         table: eztags
@@ -399,6 +402,20 @@ steps:
     -
         type: classextra
         identifier: image
+    -
+        type: workflow
+        identifier: Post-pubblicazione
+        trigger:
+            module: content
+            function: publish
+            connection_type: after
+    -
+        type: workflow
+        identifier: Pre-pubblicazione
+        trigger:
+            module: content
+            function: publish
+            connection_type: before
     -
         type: workflow
         identifier: Post-pubblicazione
