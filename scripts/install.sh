@@ -11,8 +11,9 @@ fi
 
 EZ_USER='www-data'
 EZ_USER_GROUP='www-data'
-EZ_CHMOD_VAR=${EZ_CHMOD_VAR:-'775'}
+EZ_CHMOD_VAR=${EZ_CHMOD_VAR:-'2775'}
 EZ_CHMOD_LOG=${EZ_CHMOD_LOG:-'660'}
+EZ_CLUSTER_GET_OWNERSHIP=${EZ_CLUSTER_GET_OWNERSHIP:-'true'}
 
 if [ ! -d ${EZ_ROOT}/var/cache/ini ]; then
     mkdir -p ${EZ_ROOT}/var/cache/ini
@@ -68,6 +69,8 @@ echo "[info] chown -R -L $EZ_USER.$EZ_USER_GROUP /var/www/installer"
 if [[ -n $EZINI_file__eZDFSClusteringSettings__MountPointPath ]]; then
     if [[ -d $EZINI_file__eZDFSClusteringSettings__MountPointPath ]]; then
         echo "[info] fixing perms in '${EZINI_file__eZDFSClusteringSettings__MountPointPath}' ..."
+        chown $EZ_USER $EZINI_file__eZDFSClusteringSettings__MountPointPath
+    else
         mkdir -p $EZINI_file__eZDFSClusteringSettings__MountPointPath
         chown $EZ_USER $EZINI_file__eZDFSClusteringSettings__MountPointPath
     fi
