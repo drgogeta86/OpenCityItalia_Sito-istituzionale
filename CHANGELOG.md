@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.18](https://gitlab.com/opencontent/opencity/compare/2.0.17...2.0.18) - 2020-10-17
+- Added fix to ensure that installer starts only if pgcrypto is available
+- Mkdir only if not exists
+
 ## [2.0.17](https://gitlab.com/opencontent/opencity/compare/2.0.16...2.0.17) - 2020-10-06
 - Use registry.gitlab.com/opencontent/ezpublish/php:php7.2.33-clean as base image Fix install script 
 - Add openapi extension to expose openapi 3 rest api
