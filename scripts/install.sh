@@ -84,6 +84,12 @@ RUN_REINDEX_CONTENT=${RUN_REINDEX_CONTENT:-'false'}
 if [[ -n $EZ_INSTANCE ]]; then
     if [[ -f vendor/bin/ocinstall ]]; then
         if [[ $RUN_INSTALLER == 'true' ]]; then
+
+            if [[ -f /tmp/pgcrypto.sql ]]; then
+              echo "[info] ensure pgcrypto is available"
+              sudo -E -u $EZ_USER php extension/openpa/bin/php/install_sql.php -sbackend --run --file=/tmp/pgcrypto.sql || exit 2
+            fi
+
             echo "[info] run installer on ${EZ_INSTANCE}"
             sudo -E -u $EZ_USER php vendor/bin/ocinstall --allow-root-user -sbackend --embed-dfs-schema --no-interaction --languages=ita-IT,ita-PA ../installer/
         else
