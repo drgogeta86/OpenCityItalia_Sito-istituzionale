@@ -38,7 +38,6 @@ COPY security.txt /var/www/html/.well-known/security.txt
 # Copy install script to default entrypoint script dir to extend base entrypoint without modifying it
 # @see https://github.com/OpencontentCoop/docker-ezpublish/blob/master/scripts/docker-entrypoint.sh#L84
 COPY scripts/install.sh /docker-entrypoint-initdb.d/
-COPY scripts/pgcrypto.sql /tmp/
 
 WORKDIR /var/www/html
 

@@ -140,7 +140,6 @@ services:
             POSTGRES_USER: openpa
             POSTGRES_PASSWORD: openp4ssword
         volumes:
-            - './sql:/docker-entrypoint-initdb.d'
             - 'pgdata:/var/lib/postgresql/data'
         healthcheck:
             test: ["CMD-SHELL", "pg_isready --user openpa --dbname opencity"]

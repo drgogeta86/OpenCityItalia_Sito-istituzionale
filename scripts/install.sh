@@ -85,10 +85,8 @@ if [[ -n $EZ_INSTANCE ]]; then
     if [[ -f vendor/bin/ocinstall ]]; then
         if [[ $RUN_INSTALLER == 'true' ]]; then
 
-            if [[ -f /tmp/pgcrypto.sql ]]; then
-              echo "[info] ensure pgcrypto is available"
-              sudo -E -u $EZ_USER php extension/openpa/bin/php/install_sql.php -sbackend --run --file=/tmp/pgcrypto.sql || exit 2
-            fi
+            echo "[info] ensure pgcrypto is available"
+            sudo -E -u $EZ_USER php vendor/opencontent/ocinstaller/bin/install_pgcrypto.php --host=${EZINI_site__DatabaseSettings__Server} --port=${EZINI_site__DatabaseSettings__Port} --user=${EZINI_site__DatabaseSettings__User} --password=${EZINI_site__DatabaseSettings__Password} --database=${EZINI_site__DatabaseSettings__Database}  || exit 2
 
             echo "[info] run installer on ${EZ_INSTANCE}"
             sudo -E -u $EZ_USER php vendor/bin/ocinstall --allow-root-user -sbackend --embed-dfs-schema --no-interaction --languages=ita-IT,ita-PA ../installer/
