@@ -4,6 +4,45 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.19](https://gitlab.com/opencontent/opencity/compare/2.0.18...2.0.19) - 2020-10-18
+- Fix pgcrypto install script 
+- Remove share volume sql
+
+#### Code dependencies
+| Changes                               | From           | To        | Compare                                                                                 |
+|---------------------------------------|:---------------|:----------|:----------------------------------------------------------------------------------------|
+| aws/aws-sdk-php                       | 3.158.2        | 3.158.8   | [...](https://github.com/aws/aws-sdk-php/compare/3.158.2...3.158.8)                     |
+| composer/installers                   | c462a69        | f69761f   | [...](https://github.com/composer/installers/compare/c462a69...f69761f)                 |
+| opencontent/ocinstaller               | f5c1cc8        | 35c8665   | [...](https://github.com/OpencontentCoop/ocinstaller/compare/f5c1cc8...35c8665)         |
+| opencontent/ocopenapi-ls              | 1.0            | 1.0.1     | [...](https://github.com/OpencontentCoop/ocopenapi-ls/compare/1.0...1.0.1)              |
+| opencontent/ocopendata-ls             | 2.24.3         | 2.24.4    | [...](https://github.com/OpencontentCoop/ocopendata/compare/2.24.3...2.24.4)            |
+| opencontent/ocopendata_forms-ls       | 1.6.6          | 1.6.7     | [...](https://github.com/OpencontentCoop/ocopendata_forms/compare/1.6.6...1.6.7)        |
+| opencontent/openpa_bootstrapitalia-ls | 1.0.9          | 1.0.10    | [...](https://github.com/OpencontentCoop/openpa_bootstrapitalia/compare/1.0.9...1.0.10) |
+| paragonie/random_compat               | v9.99.99.x-dev | v9.99.100 | [...](https://github.com/paragonie/random_compat/compare/v9.99.99.x-dev...v9.99.100)    |
+| php-http/message                      | 1.9.0          | 1.9.1     | [...](https://github.com/php-http/message/compare/1.9.0...1.9.1)                        |
+| psr/container                         | b1fbdff        | 381524e   | [...](https://github.com/php-fig/container/compare/b1fbdff...381524e)                   |
+
+Relevant changes by repository:
+**[opencontent/ocinstaller changes between f5c1cc8 and 35c8665](https://github.com/OpencontentCoop/ocinstaller/compare/f5c1cc8...35c8665)**
+ * Make bigint type to ezcontentobject.published and ezcontentobject.modified 
+ * add install pgcrypto script 
+
+**[opencontent/ocopenapi-ls changes between 1.0 and 1.0.1](https://github.com/OpencontentCoop/ocopenapi-ls/compare/1.0...1.0.1)**
+ * Imposta gli errori di database come eccezioni 
+
+**[opencontent/ocopendata-ls changes between 2.24.3 and 2.24.4](https://github.com/OpencontentCoop/ocopendata/compare/2.24.3...2.24.4)**
+ * Aumento il limite massimo di ricerca in env default a 300 (per compatibilità con ocopendata_forms) 
+
+**[opencontent/ocopendata_forms-ls changes between 1.6.6 and 1.6.7](https://github.com/OpencontentCoop/ocopendata_forms/compare/1.6.6...1.6.7)**
+ * Corregge un problema di configurazione 
+
+**[opencontent/openpa_bootstrapitalia-ls changes between 1.0.9 and 1.0.10](https://github.com/OpencontentCoop/openpa_bootstrapitalia/compare/1.0.9...1.0.10)**
+ * Visualizza le lingue disponibili per il contenuto solo se non è presente il language switcher 
+ * Corregge un errore di digitazione 
+ * Imposta le categorie di attributo di default in content.ini 
+ * Corregge un problema di visualizzazione della pagina se non è presente il menu laterale 
+
+
 ## [2.0.18](https://gitlab.com/opencontent/opencity/compare/2.0.17...2.0.18) - 2020-10-17
 - Added fix to ensure that installer starts only if pgcrypto is available
 - Mkdir only if not exists
