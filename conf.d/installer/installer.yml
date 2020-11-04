@@ -222,9 +222,13 @@ steps:
     -
         type: class
         identifier: valuation
+        remove_extra: true
     -
         type: classextra
         identifier: valuation
+    -
+        type: content
+        identifier: Segnala-un-problema
     -
         type: class
         identifier: audio

@@ -1,32 +1,11 @@
-search_form:
-    enabled:
-        '*': '1'
-    show:
-        antispam: '1'
-        comment: '1'
-        easy: '1'
-        email_aiutaci: '1'
-        link: '1'
-        nodo: '1'
-        receiver: '1'
-        titolo: '1'
-        useful: '1'
 table_view:
     enabled:
         '*': '1'
-    highlight:
-        link: '1'
+    in_overview:
+        description: '1'
     show:
-        antispam: '1'
-        comment: '1'
-        easy: '1'
-        email_aiutaci: '1'
-        receiver: '1'
-        useful: '1'
+        receiver: '0'
+        description: '0'
+        content_show_info_collector: '1'
     show_label:
-        antispam: '1'
-        comment: '1'
-        easy: '1'
-        email_aiutaci: '1'
-        receiver: '1'
-        useful: '1'
+        receiver: '0'

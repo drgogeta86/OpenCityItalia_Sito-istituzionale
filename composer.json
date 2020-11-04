@@ -63,7 +63,7 @@
     "opencontent/oceditorialstuff-ls": "2.*",
     "opencontent/eztagdescription-ls": "1.*",
     "opencontent/ocopenapi-ls": "1.*",
-    "opencontent/occustomfind-ls": "1.*"
+    "opencontent/occustomfind-ls": "2.*"
   },
   "replace": {
     "ezsystems/ezdemo-ls-extension": "*"
