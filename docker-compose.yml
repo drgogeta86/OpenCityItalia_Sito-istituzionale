@@ -22,6 +22,8 @@ services:
             #### Chiavi recaptcha
             RECAPTCHA_PUBLIC: 6LctC7oUAAAAAKHOT1O4ifUBJd-Wedt5F8NsisG7
             RECAPTCHA_PRIVATE: 6LctC7oUAAAAAN7nNSTwtCY3GP4rpq1AvvA6u7B4
+            RECAPTCHA_V3_PUBLIC: 6Le5et4ZAAAAAHRY0tdCEZGQsqzthPflql2jC9HQ
+            RECAPTCHA_V3_PRIVATE: 6Le5et4ZAAAAAJlztV_CfEvMUki5ccvWeZUJkPoK
     
             #### per stringhe: EZINI_FILE__SECTION__VARIABLE: VALUE
             #### per array o hash: EZINI_FILE__SECTION__VARIABLE__KEY: VALUE

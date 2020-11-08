@@ -63,6 +63,7 @@ data_map:
         can_translate: 1
         data_int1: 5
         serialized_data_text: {  }
+        is_searchable: 1
     main_function:
         identifier: main_function
         serialized_description_list:
@@ -75,6 +76,7 @@ data_map:
         can_translate: 1
         data_int1: 5
         serialized_data_text: {  }
+        is_searchable: 1
     has_logo:
         identifier: has_logo
         serialized_description_list:
@@ -120,6 +122,7 @@ data_map:
         placement: 8
         can_translate: 1
         serialized_data_text: {  }
+        is_searchable: 1
     end_time:
         identifier: end_time
         serialized_description_list:
@@ -131,6 +134,7 @@ data_map:
         placement: 9
         can_translate: 1
         serialized_data_text: {  }
+        is_searchable: 1
     has_spatial_coverage:
         identifier: has_spatial_coverage
         serialized_description_list:

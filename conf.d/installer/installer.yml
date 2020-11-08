@@ -29,6 +29,12 @@ variables:
         name: recaptcha_private
         value: env(RECAPTCHA_PRIVATE)
     -
+        name: recaptcha_v3_public
+        value: env(RECAPTCHA_V3_PUBLIC)
+    -
+        name: recaptcha_v3_private
+        value: env(RECAPTCHA_V3_PRIVATE)
+    -
         name: section_standard
         value: 1
     -
@@ -324,7 +330,6 @@ steps:
     -
         type: class
         identifier: office
-    # reinstall della classe office per creare l'attributo related_office
     -
         type: class
         identifier: office_with_related
@@ -580,7 +585,7 @@ steps:
         type: tag_description
         current_version_le: 2.0.13
         identifier: Tipologia-del-servizio
-        root: tag(Servizi pubblici/Tipologia del servizio (TD))
+        root: 'tag(Servizi pubblici/Tipologia del servizio (TD))'
     -
         type: patch_content
         current_version_le: 2.0.13
@@ -593,15 +598,24 @@ steps:
         current_version_le: 2.0.14
         current_version_ge: 0.0.1
         identifier: time_indexed_role
-        
     -
         type: remove_tag
-        parent: tag(Servizi pubblici/Stato del servizio)
+        parent: 'tag(Servizi pubblici/Stato del servizio)'
         tags:
             -
-                keyword: Servizio interno all'ente
+                keyword: 'Servizio interno all''ente'
                 locale: ita-IT
                 alwaysAvailable: true
                 synonyms: {  }
                 keywordTranslations:
                     ita-IT: Vicesegretario
+    -
+        type: tagtree
+        identifier: Tipo-di-documento
+        current_version_lt: 2.0.18
+        current_version_ge: 0.0.0
+    -
+        type: openparecaptcha_v3
+        public: $recaptcha_v3_public
+        private: $recaptcha_v3_private
+        condition: $is_install_from_scratch

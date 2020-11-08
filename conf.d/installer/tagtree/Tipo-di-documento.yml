@@ -1,0 +1,823 @@
+keyword: Documenti
+locale: ita-IT
+alwaysAvailable: true
+keywordTranslations:
+    ita-IT: Documenti
+synonyms: {  }
+hasChildren: true
+children:
+    -
+        keyword: 'Tipo di documento'
+        locale: ita-IT
+        alwaysAvailable: true
+        synonyms: {  }
+        keywordTranslations:
+            ita-IT: 'Tipo di documento'
+        children:
+            -
+                keyword: 'Accordi tra enti'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms:
+                    ita-IT:
+                        - 'Accordo tra enti'
+                keywordTranslations:
+                    ita-IT: 'Accordi tra enti'
+                children:
+                    -
+                        keyword: Accordo
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        synonyms:
+                            ita-IT:
+                                - Accordi
+                        keywordTranslations:
+                            ita-IT: Accordo
+                        children: {  }
+                        hasChildren: false
+                    -
+                        keyword: Convenzione
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        synonyms:
+                            ita-IT:
+                                - Convenzioni
+                        keywordTranslations:
+                            ita-IT: Convenzione
+                        children: {  }
+                        hasChildren: false
+                    -
+                        keyword: Parere
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        synonyms:
+                            ita-IT:
+                                - Pareri
+                        keywordTranslations:
+                            ita-IT: Parere
+                        children: {  }
+                        hasChildren: false
+                    -
+                        keyword: Partnership
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        synonyms:
+                            ita-IT:
+                                - Partnerships
+                        keywordTranslations:
+                            ita-IT: Partnership
+                        children: {  }
+                        hasChildren: false
+                hasChildren: true
+            -
+                keyword: 'Attività politica'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Attività politica'
+                children:
+                    -
+                        keyword: Interpellanza
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        synonyms:
+                            ita-IT:
+                                - Interpellanze
+                        keywordTranslations:
+                            ita-IT: Interpellanza
+                        children: {  }
+                        hasChildren: false
+                    -
+                        keyword: Interrogazione
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        synonyms:
+                            ita-IT:
+                                - Interrogazioni
+                        keywordTranslations:
+                            ita-IT: Interrogazione
+                        children: {  }
+                        hasChildren: false
+                    -
+                        keyword: Mozione
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        synonyms:
+                            ita-IT:
+                                - Mozioni
+                        keywordTranslations:
+                            ita-IT: Mozione
+                        children: {  }
+                        hasChildren: false
+                    -
+                        keyword: 'Ordine del giorno'
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        synonyms:
+                            ita-IT:
+                                - OdG
+                        keywordTranslations:
+                            ita-IT: 'Ordine del giorno'
+                        children: {  }
+                        hasChildren: false
+                    -
+                        keyword: 'Seduta del consiglio'
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        synonyms:
+                            ita-IT:
+                                - 'Sedute del consiglio'
+                        keywordTranslations:
+                            ita-IT: 'Seduta del consiglio'
+                        children: {  }
+                        hasChildren: false
+                hasChildren: true
+            -
+                keyword: Comunicazione
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms:
+                    ita-IT:
+                        - Comunicazioni
+                keywordTranslations:
+                    ita-IT: Comunicazione
+                children:
+                    -
+                        keyword: Piano/Progetto
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        synonyms:
+                            ita-IT:
+                                - Progetto
+                        keywordTranslations:
+                            ita-IT: Piano/Progetto
+                        children: {  }
+                        hasChildren: false
+                    -
+                        keyword: Pubblicazione
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        synonyms:
+                            ita-IT:
+                                - Pubblicazioni
+                        keywordTranslations:
+                            ita-IT: Pubblicazione
+                        children: {  }
+                        hasChildren: false
+                    -
+                        keyword: Rapporto
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        synonyms:
+                            ita-IT:
+                                - Rapporti
+                        keywordTranslations:
+                            ita-IT: Rapporto
+                        children: {  }
+                        hasChildren: false
+                hasChildren: true
+            -
+                keyword: 'Documenti Albo Pretorio'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms:
+                    ita-IT:
+                        - 'Documento Albo Pretorio'
+                keywordTranslations:
+                    ita-IT: 'Documenti Albo Pretorio'
+                children:
+                    -
+                        keyword: 'Atto amministrativo'
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        synonyms:
+                            ita-IT:
+                                - 'Atti amministrativi'
+                        keywordTranslations:
+                            ita-IT: 'Atto amministrativo'
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A'
+                        children:
+                            -
+                                keyword: Decreto
+                                locale: ita-IT
+                                alwaysAvailable: true
+                                synonyms:
+                                    ita-IT:
+                                        - Decreti
+                                keywordTranslations:
+                                    ita-IT: Decreto
+                                    ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-01'
+                                children:
+                                    -
+                                        keyword: 'Decreto del Dirigente'
+                                        locale: ita-IT
+                                        alwaysAvailable: true
+                                        synonyms:
+                                            ita-IT: ['Decreti del Dirigente']
+                                        keywordTranslations:
+                                            ita-IT: 'Decreto del Dirigente'
+                                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-01-01'
+                                        children: {  }
+                                        hasChildren: false
+                                    -
+                                        keyword: 'Decreto del Sindaco'
+                                        locale: ita-IT
+                                        alwaysAvailable: true
+                                        synonyms:
+                                            ita-IT: ['Decreto sindacale']
+                                        keywordTranslations:
+                                            ita-IT: 'Decreto del Sindaco'
+                                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-01-02'
+                                        children: {  }
+                                        hasChildren: false
+                                hasChildren: true
+                            -
+                                keyword: Deliberazione
+                                locale: ita-IT
+                                alwaysAvailable: true
+                                synonyms:
+                                    ita-IT:
+                                        - Delibera
+                                keywordTranslations:
+                                    ita-IT: Deliberazione
+                                    ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02'
+                                children:
+                                    -
+                                        keyword: 'Deliberazione del Commissario ad acta'
+                                        locale: ita-IT
+                                        alwaysAvailable: true
+                                        synonyms:
+                                            ita-IT: ['Delibere del Commissario ad acta']
+                                        keywordTranslations:
+                                            ita-IT: 'Deliberazione del Commissario ad acta'
+                                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02-03'
+                                        children: {  }
+                                        hasChildren: false
+                                    -
+                                        keyword: 'Deliberazione del Consiglio circoscrizionale'
+                                        locale: ita-IT
+                                        alwaysAvailable: true
+                                        synonyms:
+                                            ita-IT: ['Delibere del Consiglio circoscrizionale']
+                                        keywordTranslations:
+                                            ita-IT: 'Deliberazione del Consiglio circoscrizionale'
+                                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02-04'
+                                        children: {  }
+                                        hasChildren: false
+                                    -
+                                        keyword: 'Deliberazione del Consiglio comunale'
+                                        locale: ita-IT
+                                        alwaysAvailable: true
+                                        synonyms:
+                                            ita-IT: ['Deliberazione consiliare']
+                                        keywordTranslations:
+                                            ita-IT: 'Deliberazione del Consiglio comunale'
+                                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02-01'
+                                        children: {  }
+                                        hasChildren: false
+                                    -
+                                        keyword: 'Deliberazione della Giunta comunale'
+                                        locale: ita-IT
+                                        alwaysAvailable: true
+                                        synonyms:
+                                            ita-IT: ['Deliberazione giuntale']
+                                        keywordTranslations:
+                                            ita-IT: 'Deliberazione della Giunta comunale'
+                                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02-02'
+                                        children: {  }
+                                        hasChildren: false
+                                    -
+                                        keyword: 'Deliberazione dell''Esecutivo circoscrizionale'
+                                        locale: ita-IT
+                                        alwaysAvailable: true
+                                        synonyms:
+                                            ita-IT: ['Deliberazioni dell''Esecutivo circoscrizionale']
+                                        keywordTranslations:
+                                            ita-IT: 'Deliberazione dell''Esecutivo circoscrizionale'
+                                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02-05'
+                                        children: {  }
+                                        hasChildren: false
+                                    -
+                                        keyword: 'Deliberazione di altri Organi'
+                                        locale: ita-IT
+                                        alwaysAvailable: true
+                                        synonyms:
+                                            ita-IT: ['Delibere di altri Organi']
+                                        keywordTranslations:
+                                            ita-IT: 'Deliberazione di altri Organi'
+                                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02-06'
+                                        children: {  }
+                                        hasChildren: false
+                                hasChildren: true
+                            -
+                                keyword: Determinazione
+                                locale: ita-IT
+                                alwaysAvailable: true
+                                synonyms:
+                                    ita-IT:
+                                        - Determina
+                                keywordTranslations:
+                                    ita-IT: Determinazione
+                                    ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-03'
+                                children:
+                                    -
+                                        keyword: 'Determinazione del Dirigente'
+                                        locale: ita-IT
+                                        alwaysAvailable: true
+                                        synonyms:
+                                            ita-IT: ['Determinazione dirigenziale']
+                                        keywordTranslations:
+                                            ita-IT: 'Determinazione del Dirigente'
+                                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-03-01'
+                                        children: {  }
+                                        hasChildren: false
+                                    -
+                                        keyword: 'Determinazione del Sindaco'
+                                        locale: ita-IT
+                                        alwaysAvailable: true
+                                        synonyms:
+                                            ita-IT: ['Determinazione sindacale']
+                                        keywordTranslations:
+                                            ita-IT: 'Determinazione del Sindaco'
+                                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-03-02'
+                                        children: {  }
+                                        hasChildren: false
+                                hasChildren: true
+                            -
+                                keyword: Ordinanza
+                                locale: ita-IT
+                                alwaysAvailable: true
+                                synonyms:
+                                    ita-IT:
+                                        - Ordinanze
+                                keywordTranslations:
+                                    ita-IT: Ordinanza
+                                    ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-04'
+                                children:
+                                    -
+                                        keyword: 'Ordinanza del Dirigente'
+                                        locale: ita-IT
+                                        alwaysAvailable: true
+                                        synonyms:
+                                            ita-IT: ['Ordinanza dirigenziale']
+                                        keywordTranslations:
+                                            ita-IT: 'Ordinanza del Dirigente'
+                                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-04-01'
+                                        children: {  }
+                                        hasChildren: false
+                                    -
+                                        keyword: 'Ordinanza del Sindaco'
+                                        locale: ita-IT
+                                        alwaysAvailable: true
+                                        synonyms:
+                                            ita-IT: ['Ordinanza sindacale']
+                                        keywordTranslations:
+                                            ita-IT: 'Ordinanza del Sindaco'
+                                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-04-02'
+                                        children: {  }
+                                        hasChildren: false
+                                hasChildren: true
+                        hasChildren: true
+                    -
+                        keyword: 'Atto autorizzativo'
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        synonyms:
+                            ita-IT:
+                                - 'Atti autorizzativi'
+                        keywordTranslations:
+                            ita-IT: 'Atto autorizzativo'
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/B'
+                        children:
+                            -
+                                keyword: 'Permesso a costruire'
+                                locale: ita-IT
+                                alwaysAvailable: true
+                                synonyms:
+                                    ita-IT:
+                                        - Concessioni
+                                keywordTranslations:
+                                    ita-IT: 'Permesso a costruire'
+                                    ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/B-01-01'
+                                children: {  }
+                                hasChildren: false
+                        hasChildren: true
+                    -
+                        keyword: 'Atto dello stato civile'
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        synonyms:
+                            ita-IT:
+                                - 'Atti dello stato civile'
+                        keywordTranslations:
+                            ita-IT: 'Atto dello stato civile'
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C'
+                        children:
+                            -
+                                keyword: 'Provvedimento di cancellazione per irreperibilità'
+                                locale: ita-IT
+                                alwaysAvailable: true
+                                synonyms:
+                                    ita-IT:
+                                        - 'Provvedimenti di cancellazione per irreperibilità'
+                                keywordTranslations:
+                                    ita-IT: 'Provvedimento di cancellazione per irreperibilità'
+                                    ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C-01-01'
+                                children: {  }
+                                hasChildren: false
+                            -
+                                keyword: 'Pubblicazione cambio nome'
+                                locale: ita-IT
+                                alwaysAvailable: true
+                                synonyms:
+                                    ita-IT:
+                                        - 'Pubblicazioni cambio nomi'
+                                keywordTranslations:
+                                    ita-IT: 'Pubblicazione cambio nome'
+                                    ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C-02-01'
+                                children: {  }
+                                hasChildren: false
+                            -
+                                keyword: 'Pubblicazione di matrimonio'
+                                locale: ita-IT
+                                alwaysAvailable: true
+                                synonyms:
+                                    ita-IT:
+                                        - 'Pubblicazioni di matrimonio'
+                                keywordTranslations:
+                                    ita-IT: 'Pubblicazione di matrimonio'
+                                    ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C-03-01'
+                                children: {  }
+                                hasChildren: false
+                        hasChildren: true
+                    -
+                        keyword: 'Atto generico'
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        synonyms:
+                            ita-IT:
+                                - 'Atti generici'
+                        keywordTranslations:
+                            ita-IT: 'Atto generico'
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D'
+                        children:
+                            -
+                                keyword: Avviso
+                                locale: ita-IT
+                                alwaysAvailable: true
+                                synonyms:
+                                    ita-IT:
+                                        - Avvisi
+                                keywordTranslations:
+                                    ita-IT: Avviso
+                                    ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-01'
+                                children:
+                                    -
+                                        keyword: 'Avviso di deposito in casa comunale'
+                                        locale: ita-IT
+                                        alwaysAvailable: true
+                                        synonyms:
+                                            ita-IT: ['Avvisi di deposito in casa comunale']
+                                        keywordTranslations:
+                                            ita-IT: 'Avviso di deposito in casa comunale'
+                                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-01-01'
+                                        children: {  }
+                                        hasChildren: false
+                                    -
+                                        keyword: Avviso/Manifesto
+                                        locale: ita-IT
+                                        alwaysAvailable: true
+                                        synonyms:
+                                            ita-IT: [Manifesto]
+                                        keywordTranslations:
+                                            ita-IT: Avviso/Manifesto
+                                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-01-02'
+                                        children: {  }
+                                        hasChildren: false
+                                hasChildren: true
+                            -
+                                keyword: Bando
+                                locale: ita-IT
+                                alwaysAvailable: true
+                                synonyms:
+                                    ita-IT:
+                                        - Bandi
+                                keywordTranslations:
+                                    ita-IT: Bando
+                                    ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-02'
+                                children:
+                                    -
+                                        keyword: 'Bando di concorso'
+                                        locale: ita-IT
+                                        alwaysAvailable: true
+                                        synonyms:
+                                            ita-IT: ['Bandi di concorso']
+                                        keywordTranslations:
+                                            ita-IT: 'Bando di concorso'
+                                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-02-01'
+                                        children: {  }
+                                        hasChildren: false
+                                    -
+                                        keyword: 'Bando di contributi e vantaggi economici'
+                                        locale: ita-IT
+                                        alwaysAvailable: true
+                                        synonyms:
+                                            ita-IT: ['Bando di contributo e vantaggio economico']
+                                        keywordTranslations:
+                                            ita-IT: 'Bando di contributi e vantaggi economici'
+                                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-02-02'
+                                        children: {  }
+                                        hasChildren: false
+                                    -
+                                        keyword: 'Bando di gara'
+                                        locale: ita-IT
+                                        alwaysAvailable: true
+                                        synonyms:
+                                            ita-IT: ['Bandi di gara']
+                                        keywordTranslations:
+                                            ita-IT: 'Bando di gara'
+                                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-02-03'
+                                        children: {  }
+                                        hasChildren: false
+                                hasChildren: true
+                        hasChildren: true
+                    -
+                        keyword: 'Pubblicazione esterna'
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        synonyms:
+                            ita-IT:
+                                - 'Pubblicazioni esterne'
+                        keywordTranslations:
+                            ita-IT: 'Pubblicazione esterna'
+                            ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/E'
+                        children:
+                            -
+                                keyword: 'Atto di terzi'
+                                locale: ita-IT
+                                alwaysAvailable: true
+                                synonyms:
+                                    ita-IT:
+                                        - 'Atti di terzi'
+                                keywordTranslations:
+                                    ita-IT: 'Atto di terzi'
+                                    ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/E-01-01'
+                                children: {  }
+                                hasChildren: false
+                        hasChildren: true
+                hasChildren: true
+            -
+                keyword: Esiti
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms:
+                    ita-IT:
+                        - Esito
+                keywordTranslations:
+                    ita-IT: Esiti
+                children:
+                    -
+                        keyword: 'Albi, elenchi, graduatorie'
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        synonyms:
+                            ita-IT:
+                                - 'Albo, elenco, graduatorie'
+                        keywordTranslations:
+                            ita-IT: 'Albi, elenchi, graduatorie'
+                        children: {  }
+                        hasChildren: false
+                    -
+                        keyword: 'Conferimento di incarico'
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        synonyms:
+                            ita-IT:
+                                - 'Conferimento di incarichi'
+                        keywordTranslations:
+                            ita-IT: 'Conferimento di incarico'
+                        children: {  }
+                        hasChildren: false
+                    -
+                        keyword: Consulenza
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        synonyms:
+                            ita-IT:
+                                - Consulenze
+                        keywordTranslations:
+                            ita-IT: Consulenza
+                        children: {  }
+                        hasChildren: false
+                    -
+                        keyword: Sovvenzione/contributo
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        synonyms:
+                            ita-IT:
+                                - Sovvenzioni/contributo
+                        keywordTranslations:
+                            ita-IT: Sovvenzione/contributo
+                        children: {  }
+                        hasChildren: false
+                hasChildren: true
+            -
+                keyword: 'Funzionamento interno'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms:
+                    ita-IT:
+                        - 'Funzionamenti interni'
+                keywordTranslations:
+                    ita-IT: 'Funzionamento interno'
+                children:
+                    -
+                        keyword: 'Bilancio consuntivo'
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        synonyms:
+                            ita-IT:
+                                - 'Bilanci consuntivi'
+                        keywordTranslations:
+                            ita-IT: 'Bilancio consuntivo'
+                        children: {  }
+                        hasChildren: false
+                    -
+                        keyword: 'Bilancio preventivo'
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        synonyms:
+                            ita-IT:
+                                - 'Bilanci preventivi'
+                        keywordTranslations:
+                            ita-IT: 'Bilancio preventivo'
+                        children: {  }
+                        hasChildren: false
+                    -
+                        keyword: Circolare
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        synonyms:
+                            ita-IT:
+                                - Circolari
+                        keywordTranslations:
+                            ita-IT: Circolare
+                        children: {  }
+                        hasChildren: false
+                    -
+                        keyword: Disciplinare
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        synonyms:
+                            ita-IT:
+                                - Disciplinari
+                        keywordTranslations:
+                            ita-IT: Disciplinare
+                        children: {  }
+                        hasChildren: false
+                    -
+                        keyword: 'Documento unico di programmazione'
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        synonyms:
+                            ita-IT:
+                                - DUP
+                        keywordTranslations:
+                            ita-IT: 'Documento unico di programmazione'
+                        children: {  }
+                        hasChildren: false
+                    -
+                        keyword: Procedura
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        synonyms:
+                            ita-IT:
+                                - Procedure
+                        keywordTranslations:
+                            ita-IT: Procedura
+                        children: {  }
+                        hasChildren: false
+                    -
+                        keyword: Regolamento
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        synonyms:
+                            ita-IT:
+                                - Regolamenti
+                        keywordTranslations:
+                            ita-IT: Regolamento
+                        children: {  }
+                        hasChildren: false
+                    -
+                        keyword: Rendiconto
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        synonyms:
+                            ita-IT:
+                                - Rendiconti
+                        keywordTranslations:
+                            ita-IT: Rendiconto
+                        children: {  }
+                        hasChildren: false
+                    -
+                        keyword: Statuto
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        synonyms:
+                            ita-IT:
+                                - Statuti
+                        keywordTranslations:
+                            ita-IT: Statuto
+                        children: {  }
+                        hasChildren: false
+                    -
+                        keyword: Trattamento
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        synonyms:
+                            ita-IT:
+                                - Trattamenti
+                        keywordTranslations:
+                            ita-IT: Trattamento
+                        children: {  }
+                        hasChildren: false
+                hasChildren: true
+            -
+                keyword: Modulistica
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms:
+                    ita-IT:
+                        - Modulistiche
+                keywordTranslations:
+                    ita-IT: Modulistica
+                children:
+                    -
+                        keyword: 'Modulo allegato'
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        synonyms:
+                            ita-IT:
+                                - 'Moduli allegati'
+                        keywordTranslations:
+                            ita-IT: 'Modulo allegato'
+                        children: {  }
+                        hasChildren: false
+                    -
+                        keyword: 'Modulo principale'
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        synonyms:
+                            ita-IT:
+                                - 'Moduli principali'
+                        keywordTranslations:
+                            ita-IT: 'Modulo principale'
+                        children: {  }
+                        hasChildren: false
+                    -
+                        keyword: 'Modulo secondario'
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        synonyms:
+                            ita-IT:
+                                - 'Moduli secondari'
+                        keywordTranslations:
+                            ita-IT: 'Modulo secondario'
+                        children: {  }
+                        hasChildren: false
+                hasChildren: true
+            -
+                keyword: Norme
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms:
+                    ita-IT:
+                        - Norma
+                keywordTranslations:
+                    ita-IT: Norme
+                children:
+                    -
+                        keyword: Legge
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        synonyms:
+                            ita-IT:
+                                - Leggi
+                        keywordTranslations:
+                            ita-IT: Legge
+                        children: {  }
+                        hasChildren: false
+                    -
+                        keyword: Normativa
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        synonyms:
+                            ita-IT:
+                                - Normative
+                        keywordTranslations:
+                            ita-IT: Normativa
+                        children: {  }
+                        hasChildren: false
+                hasChildren: true
+        hasChildren: true

@@ -181,7 +181,8 @@ data_map:
             type: '2'
             class_constraint_list:
                 - topic
-            default_placement: false
+            default_placement:
+                node_id: $contenttree_OpenCity_Argomenti_node
         category: meta
         serialized_data_text:
             always-available: ita-IT

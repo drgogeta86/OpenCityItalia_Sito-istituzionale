@@ -23,7 +23,7 @@ PolicyList[]=content/read
 [DashboardBlock_all_latest_content]
 Priority=50
 NumberOfItems=10
-PolicyList[]=content/read
+PolicyList[]=websitetoolbar/use
 
 [DashboardBlock_rss]
 Priority=50

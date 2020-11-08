@@ -514,7 +514,7 @@ data_map:
                 - politico
                 - office
             default_placement:
-                node_id: $contenttree_Amministrazione_Enti-e-fondazioni_node
+                node_id: $contenttree_OpenCity_Amministrazione_node
         category: altre_info
         serialized_data_text:
             always-available: ita-IT
@@ -545,7 +545,7 @@ data_map:
                 - politico
                 - office
             default_placement:
-                node_id: $contenttree_Amministrazione_Enti-e-fondazioni_node
+                node_id: $contenttree_OpenCity_Amministrazione_node
         category: content
         serialized_data_text:
             always-available: ita-IT
