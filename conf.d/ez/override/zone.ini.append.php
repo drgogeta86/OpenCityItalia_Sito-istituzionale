@@ -18,6 +18,7 @@ AvailableForClasses[]=homepage
 AvailableForClasses[]=pagina_sito
 AvailableForClasses[]=frontpage
 AvailableForClasses[]=pagina_trasparenza
+AvailableForClasses[]=politico
 
 [1ZonesLayoutFolder]
 Zones[]
