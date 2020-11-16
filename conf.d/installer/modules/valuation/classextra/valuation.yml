@@ -1,0 +1,11 @@
+table_view:
+    enabled:
+        '*': '1'
+    in_overview:
+        description: '1'
+    show:
+        receiver: '0'
+        description: '0'
+        content_show_info_collector: '1'
+    show_label:
+        receiver: '0'

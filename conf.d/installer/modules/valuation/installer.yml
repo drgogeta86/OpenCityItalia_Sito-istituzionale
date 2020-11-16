@@ -1,0 +1,43 @@
+name: 'OpenCity Valuation'
+type: module
+version: 0.0.1
+variables:
+    -
+        name: identifier
+        value: 'OpenPABase::getCurrentSiteaccessIdentifier'
+    -
+        name: root_node
+        value: 'ini(NodeSettings,RootNode,content.ini)'
+    -
+        name: recaptcha_public
+        value: env(RECAPTCHA_PUBLIC)
+    -
+        name: recaptcha_private
+        value: env(RECAPTCHA_PRIVATE)
+    -
+        name: recaptcha_v3_public
+        value: env(RECAPTCHA_V3_PUBLIC)
+    -
+        name: recaptcha_v3_private
+        value: env(RECAPTCHA_V3_PRIVATE)
+steps:
+    -
+        type: class
+        identifier: valuation
+        remove_extra: true
+    -
+        type: classextra
+        identifier: valuation
+    -
+        type: content
+        identifier: Segnala-un-problema
+    -
+        type: openparecaptcha
+        public: $recaptcha_public
+        private: $recaptcha_private
+        condition: $is_install_from_scratch
+    -
+        type: openparecaptcha_v3
+        public: $recaptcha_v3_public
+        private: $recaptcha_v3_private
+        condition: $is_install_from_scratch
