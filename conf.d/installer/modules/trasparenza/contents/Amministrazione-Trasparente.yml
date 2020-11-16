@@ -15,6 +15,7 @@ data:
 #            filename: Amministrazione_Trasparente.jpg
 #            url: https://opencity.openpa.opencontent.io/var/opencity/storage/images/amministrazione-trasparente/9976-24-ita-IT/Amministrazione-Trasparente.jpg
         destinatario: null
+        icon: it-password-visible
 sort_data:
     sort_field: 8
     sort_order: 1

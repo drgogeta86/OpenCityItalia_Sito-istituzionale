@@ -32,7 +32,7 @@ data:
                             color_style: ''
                             container_style: ''
                         valid_items: {  }
-        icon: null
+        icon: it-calendar
         show_topics: 0
         show_search_form: 1
         tag_menu: {  }

@@ -14,7 +14,7 @@ data:
         image: {  }
         show_children: 1
         layout: {  }
-        icon: null
+        icon: it-horn
         show_topics: 1
         show_search_form: 1
         tag_menu: {  }

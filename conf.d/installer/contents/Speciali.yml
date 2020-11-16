@@ -10,7 +10,7 @@ data:
     ita-IT:
         name: Speciali
         show_children: 1
-        icon: it-star-full
+        icon: it-star-outline
         show_topics: 0
         show_search_form: 0
 sort_data:

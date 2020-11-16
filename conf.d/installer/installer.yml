@@ -619,3 +619,101 @@ steps:
         public: $recaptcha_v3_public
         private: $recaptcha_v3_private
         condition: $is_install_from_scratch
+    -
+        type: patch_content
+        current_version_lt: 2.1.0
+        current_version_ge: 0.0.1
+        identifier: custom_topics
+        attributes:
+            icon: it-star-outline
+    -
+        type: patch_content
+        current_version_lt: 2.1.0
+        current_version_ge: 0.0.1
+        identifier: 3bb4f45279e3c4efe2ac84630e53a7b4
+        attributes:
+            icon: it-share
+    -
+        type: patch_content
+        current_version_lt: 2.1.0
+        current_version_ge: 0.0.1
+        identifier: f1c1c3e7404f162fa27d7accbe742f3d
+        attributes:
+            icon: it-card
+    -
+        type: patch_content
+        current_version_lt: 2.1.0
+        current_version_ge: 0.0.1
+        identifier: f10a85a4ddd1810f10f655785dd84e75
+        attributes:
+            icon: it-clock
+    -
+        type: patch_content
+        current_version_lt: 2.1.0
+        current_version_ge: 0.0.1
+        identifier: fa52241c11d26c8aa24ab93813995e10
+        attributes:
+            icon: it-clock
+    -
+        type: patch_content
+        current_version_lt: 2.1.0
+        current_version_ge: 0.0.1
+        identifier: punti_di_contatto
+        attributes:
+            icon: it-share
+    -
+        type: patch_content
+        current_version_lt: 2.1.0
+        current_version_ge: 0.0.1
+        identifier: 13a222ce7f77968fa48914e86848ae6c
+        attributes:
+            icon: it-file
+    -
+        type: patch_content
+        current_version_lt: 2.1.0
+        current_version_ge: 0.0.1
+        identifier: dataset
+        attributes:
+            icon: it-chart-line
+    -
+        type: patch_content
+        current_version_lt: 2.1.0
+        current_version_ge: 0.0.1
+        identifier: 9a1756e11164d0d550ee950657154db8
+        attributes:
+            icon: it-horn
+    -
+        type: patch_content
+        current_version_lt: 2.1.0
+        current_version_ge: 0.0.1
+        identifier: 16a65071f99a1be398a677e5e4bef93f
+        attributes:
+            icon: it-horn
+    -
+        type: patch_content
+        current_version_lt: 2.1.0
+        current_version_ge: 0.0.1
+        identifier: c14707f384972ee940f6a0598f48b241
+        attributes:
+            icon: it-calendar
+    -
+        type: patch_content
+        current_version_lt: 2.1.0
+        current_version_ge: 0.0.1
+        identifier: ea708fa69006941b4dc235a348f1431d
+        attributes:
+            icon: it-horn
+    -
+        type: patch_content
+        current_version_lt: 2.1.0
+        current_version_ge: 0.0.1
+        identifier: 11ee98a24f1921081236b6fb080eea24
+        attributes:
+            icon: it-folder
+    -
+        type: patch_content
+        current_version_lt: 2.1.0
+        current_version_ge: 0.0.1
+        identifier: 25cd509e30c449f14d0c37cc70c424e7
+        attributes:
+            icon: it-locked

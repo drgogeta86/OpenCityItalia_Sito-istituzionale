@@ -14,7 +14,7 @@ data:
         image: {  }
         show_children: 0
         layout: {  }
-        icon: null
+        icon: it-file
         show_topics: 0
         show_search_form: 1
         tag_menu: {  }

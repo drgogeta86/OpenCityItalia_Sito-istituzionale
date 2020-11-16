@@ -1,6 +1,6 @@
 name: 'OpenCity Trasparenza'
 type: module
-version: 0.0.7
+version: 0.0.8
 variables:
     -
         name: identifier
@@ -549,3 +549,10 @@ steps:
         identifier: 9eed77856255692eca75cdb849540c23
         attributes:
             fields: 'parent:1|filters:role in [''"Dirigente"'']|time_indexed_role|person,role,for_entity'
+    -
+        type: patch_content
+        current_version_lt: 0.0.7
+        current_version_ge: 0.0.1
+        identifier: 5399ef12f98766b90f1804e5d52afd75
+        attributes:
+            icon: it-password-visible
