@@ -4,6 +4,123 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.1.0](https://gitlab.com/opencontent/opencity/compare/2.0.19...2.1.0) - 2020-11-16
+- Fix some ini settings
+- Activate extension occustomfind
+
+#### Installer
+- Update to version 2.1.0
+- Update trasparenza to version 0.0.8
+- Add some missing content icons
+- Add valuation/dashboard permission to Editor-Base role
+- Fix valuation strings (add valuation installer module)
+- Fix some bugs
+- Add Tipo di documento tagtree
+- Add valuation default object
+- Fix change section settings for document
+- Check ezcontentobject.published and ezcontentobject.modified column type
+- Add Tag installer lite version
+
+#### Code dependencies
+| Changes                               | From      | To      | Compare                                                                                 |
+|---------------------------------------|:----------|:--------|:----------------------------------------------------------------------------------------|
+| aws/aws-sdk-php                       | 3.158.8   | 3.161.1 | [...](https://github.com/aws/aws-sdk-php/compare/3.158.8...3.161.1)                     |
+| easyrdf/easyrdf                       | a984ecb   | b68a502 | [...](https://github.com/easyrdf/easyrdf/compare/a984ecb...b68a502)                     |
+| maxh/php-nominatim                    | 311363b   | 44161dc | [...](https://github.com/maxhelias/php-nominatim/compare/311363b...44161dc)             |
+| opencontent/occsvimport-ls            | 2.4.0     | 2.4.1   | [...](https://github.com/OpencontentCoop/occsvimport/compare/2.4.0...2.4.1)             |
+| opencontent/occustomfind-ls           | 1.0       | 2.1.2   | [...](https://github.com/OpencontentCoop/occustomfind/compare/1.0...2.1.2)              |
+| opencontent/oceditorialstuff-ls       | 2.4.2     | 2.5.0   | [...](https://github.com/OpencontentCoop/oceditorialstuff/compare/2.4.2...2.5.0)        |
+| opencontent/ocinstaller               | 35c8665   | 7a4ec2b | [...](https://github.com/OpencontentCoop/ocinstaller/compare/35c8665...7a4ec2b)         |
+| opencontent/ocmultibinary-ls          | 2.2.2     | 2.2.4   | [...](https://github.com/OpencontentCoop/ocmultibinary/compare/2.2.2...2.2.4)           |
+| opencontent/ocopenapi-ls              | 1.0.1     | 1.3.2   | [...](https://github.com/OpencontentCoop/ocopenapi-ls/compare/1.0.1...1.3.2)            |
+| opencontent/openpa-ls                 | 3.10.8    | 3.11.1  | [...](https://github.com/OpencontentCoop/openpa/compare/3.10.8...3.11.1)                |
+| opencontent/openpa_bootstrapitalia-ls | 1.0.10    | 1.1.2   | [...](https://github.com/OpencontentCoop/openpa_bootstrapitalia/compare/1.0.10...1.1.2) |
+| paragonie/random_compat               | v9.99.100 | REMOVED |                                                                                         |
+| php-http/guzzle6-adapter              | bd7b405   | 6f108cf | [...](https://github.com/php-http/guzzle6-adapter/compare/bd7b405...6f108cf)            |
+| php-http/message                      | 1.9.1     | 39db36d | [...](https://github.com/php-http/message/compare/1.9.1...39db36d)                      |
+| symfony/polyfill-ctype                | 1c30264   | fade6de | [...](https://github.com/symfony/polyfill-ctype/compare/1c30264...fade6de)              |
+| symfony/polyfill-intl-idn             | 045643b   | 4c489fd | [...](https://github.com/symfony/polyfill-intl-idn/compare/045643b...4c489fd)           |
+| symfony/polyfill-intl-normalizer      | 37078a8   | 69609f9 | [...](https://github.com/symfony/polyfill-intl-normalizer/compare/37078a8...69609f9)    |
+| symfony/polyfill-mbstring             | 48928d4   | 401c9d9 | [...](https://github.com/symfony/polyfill-mbstring/compare/48928d4...401c9d9)           |
+| symfony/polyfill-php70                | 0dd93f2   | REMOVED |                                                                                         |
+| symfony/polyfill-php72                | dc6ef20   | 4a4465f | [...](https://github.com/symfony/polyfill-php72/compare/dc6ef20...4a4465f)              |
+| symfony/polyfill-php73                | fffa1a5   | 8c0d39c | [...](https://github.com/symfony/polyfill-php73/compare/fffa1a5...8c0d39c)              |
+| symfony/polyfill-php80                | c3616e7   | 3a11f3d | [...](https://github.com/symfony/polyfill-php80/compare/c3616e7...3a11f3d)              |
+| zetacomponents/console-tools          | 1.7.1     | 1.7.2   | [...](https://github.com/zetacomponents/ConsoleTools/compare/1.7.1...1.7.2)             |
+
+Relevant changes by repository:
+
+** [opencontent/occsvimport-ls changes between 2.4.0 and 2.4.1](https://github.com/OpencontentCoop/occsvimport/compare/2.4.0...2.4.1)**
+ * Quando scarica un file da remoto calcola il nome dall'header Content-Disposition filename
+
+** [opencontent/occustomfind-ls changes between 1.0 and 2.1.2](https://github.com/OpencontentCoop/occustomfind/compare/1.0...2.1.2)**
+ * Add opendatadataset datatype Add repository provider
+ * Bugfix in custom export
+ * Fix wrong file position
+ * Expose opendatadataset in openapi
+ * Fix bug in OpendataDatasetProvider
+ * Fix bug in delete dataset gui
+
+** [opencontent/oceditorialstuff-ls changes between 2.4.2 and 2.5.0](https://github.com/OpencontentCoop/oceditorialstuff/compare/2.4.2...2.5.0)**
+ * Permette la personalizzazione delle notifiche mail (per le azioni  OCEditorialStuffActionHandler::notifyOwner e  OCEditorialStuffActionHandler::notifyGroup)
+
+** [opencontent/ocinstaller changes between 35c8665 and 7a4ec2b](https://github.com/OpencontentCoop/ocinstaller/compare/35c8665...7a4ec2b)**
+ * Fix dump_tag_tree tool, add recaptcha3 installer
+
+** [opencontent/ocmultibinary-ls changes between 2.2.2 and 2.2.4](https://github.com/OpencontentCoop/ocmultibinary/compare/2.2.2...2.2.4)**
+ * Add missing translation
+ * Add error translations
+
+** [opencontent/ocopenapi-ls changes between 1.0.1 and 1.3.2](https://github.com/OpencontentCoop/ocopenapi-ls/compare/1.0.1...1.3.2)**
+ * Aggiunge un endpoint dedicato per gli attributi multibinary
+ * Aggiunge le descrizioni degli endpoint multibinary
+ * Permette il concatenamento di più endpoint provider
+ * Add patch operation
+ * Rename auth user api class
+ * Fix path generation in NodeClassesEndpointFactory
+ * Fix bug in NodeClassesEndpointFactory path generation
+
+** [opencontent/openpa-ls changes between 3.10.8 and 3.11.1](https://github.com/OpencontentCoop/openpa/compare/3.10.8...3.11.1)**
+ * Permette la configurazione di Google Recaptcha v3
+ * Aggiorna le configurazioni degli attributi di classe direttamente dal openpa/recaptcha
+
+** [opencontent/openpa_bootstrapitalia-ls changes between 1.0.10 and 1.1.2](https://github.com/OpencontentCoop/openpa_bootstrapitalia/compare/1.0.10...1.1.2)**
+ * Migliora la visualizzazione del pannello strumenti in funzione delle dahsboard collaborative
+ * Corregge un problema del calendario per cui non veniva visualizzata correttamente la data di fine evento
+ * Permette di modificare la singola traduzione dal pannello Info
+ * Predispone un nome di attributo per gestire il redirect al login
+ * Corregge il breadcrumb delle pagine argomento
+ * Aggiunge il controllo dello stato Privacy nelle openapi
+ * Introduce un modulo per raccogliere dagli utenti riscontri sull’utilizzo del sito
+ * Migliora la visualizzazione del blocco Lista Paginata utilizzando le viste presenti negli altri blocchi
+ * Permette di aggiungere un'immagine di sfondo nel blocco remote contents
+ * Pemette di aggiungere una breve descrizione nei blocchi lista automatica, manuale e paginata
+ * Corregge un problema di visualizzazione nella vista di conferma pubblicazione
+ * Visualizza icona e tipo di contenuto nei risultati del motore di ricerca
+ * Corregge un problema di visualizzazione delle schede contatti che si verificava in Chrome
+ * Imposta l'internazionalizzazione delle stringhe del motore di ricerca
+ * Permette di nascondere la Guida al cittadino delle pagine trasparenza tramite configurazione
+ * Migliora l'usabilità del motore di ricerca introducendo i parametri di ordinamento
+ * Visualizza ufficio e area nella pagina argomento
+ * Abilita il layout di default per la classe politico
+ * Impedisce che gli indirizzi email vadano a capo nelle card teaser
+ * Aggiunge il link al titolo e all'immagine delle card
+ * Aggiunge il modulo feedback nella pagina di ricerca
+ * Allarga lo spazio del bottone read more nel blocco oggetto singolo
+ * Permette di visualizzare la tagline anche in caso di opzione solo logo
+ * Corregge alcuni bug minori
+ * Corregge un bug di calcolo dei colori nel banner
+ * Rimuove dai template gli stili inline
+ * Ridisegna il blocco ricerca luoghi
+ * Corregge la visualizzazione delle pagine tags/view
+ * Permette di inserire tramite configurazione un testo introduttivo al pannello Gestione collaborativa dei contenuti
+ * Abilita chosen su mobile
+ * Visualizza il testo introduttivo nel blocco Lista Paginata
+ * Corregge alcuni bug minori
+ * Corregge alcuni bug nel rendering della valutazione
+ * Evidenza maggiormente il titolo nei risultati di ricerca
+ * Corregge un bug nella configurazione base di editorialstuff
+
 ## [2.0.19](https://gitlab.com/opencontent/opencity/compare/2.0.18...2.0.19) - 2020-10-18
 - Fix pgcrypto install script 
 - Remove share volume sql
