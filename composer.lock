@@ -81,16 +81,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.161.0",
+            "version": "3.161.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "93f237f55463035896dbe298c9100b2438a87193"
+                "reference": "4c1852e9efaef18e15f2a6c914d8dc41fda2a052"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/93f237f55463035896dbe298c9100b2438a87193",
-                "reference": "93f237f55463035896dbe298c9100b2438a87193",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/4c1852e9efaef18e15f2a6c914d8dc41fda2a052",
+                "reference": "4c1852e9efaef18e15f2a6c914d8dc41fda2a052",
                 "shasum": ""
             },
             "require": {
@@ -162,7 +162,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2020-11-12T19:25:24+00:00"
+            "time": "2020-11-13T19:17:55+00:00"
         },
         {
             "name": "clue/stream-filter",
@@ -2233,16 +2233,16 @@
         },
         {
             "name": "opencontent/oceditorialstuff-ls",
-            "version": "2.4.2",
+            "version": "2.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/oceditorialstuff.git",
-                "reference": "4f9fac49d8a32d145ad9c95c6d0df3fd332385e6"
+                "reference": "2a3ae079e2835d72c9c66cddac55e2dda0392042"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/oceditorialstuff/zipball/4f9fac49d8a32d145ad9c95c6d0df3fd332385e6",
-                "reference": "4f9fac49d8a32d145ad9c95c6d0df3fd332385e6",
+                "url": "https://api.github.com/repos/OpencontentCoop/oceditorialstuff/zipball/2a3ae079e2835d72c9c66cddac55e2dda0392042",
+                "reference": "2a3ae079e2835d72c9c66cddac55e2dda0392042",
                 "shasum": ""
             },
             "require": {
@@ -2263,7 +2263,7 @@
                 }
             ],
             "description": "OpenContent Editorial Stuff",
-            "time": "2020-02-25T08:39:00+00:00"
+            "time": "2020-11-16T13:00:32+00:00"
         },
         {
             "name": "opencontent/ocembed-ls",
@@ -3102,16 +3102,16 @@
         },
         {
             "name": "opencontent/openpa_bootstrapitalia-ls",
-            "version": "1.1.0",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/openpa_bootstrapitalia.git",
-                "reference": "31e9c7306d0117232d2f7e4dbb4bc0502fecb27e"
+                "reference": "0a136a6daf0ce8246a5dfa34ba2721634822aeec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/openpa_bootstrapitalia/zipball/31e9c7306d0117232d2f7e4dbb4bc0502fecb27e",
-                "reference": "31e9c7306d0117232d2f7e4dbb4bc0502fecb27e",
+                "url": "https://api.github.com/repos/OpencontentCoop/openpa_bootstrapitalia/zipball/0a136a6daf0ce8246a5dfa34ba2721634822aeec",
+                "reference": "0a136a6daf0ce8246a5dfa34ba2721634822aeec",
                 "shasum": ""
             },
             "require": {
@@ -3134,7 +3134,7 @@
                 }
             ],
             "description": "Opencontent OpenPA Bootstrap Italia",
-            "time": "2020-11-12T18:07:50+00:00"
+            "time": "2020-11-16T15:25:53+00:00"
         },
         {
             "name": "opencontent/openpa_newsletter-ls",
@@ -5344,12 +5344,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "543cb4dbd45ed803f08a9a65f27fb149b5dd20c2"
+                "reference": "443c622d126ce0ac31f3fec97f6a713fd0ff6d6a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/543cb4dbd45ed803f08a9a65f27fb149b5dd20c2",
-                "reference": "543cb4dbd45ed803f08a9a65f27fb149b5dd20c2",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/443c622d126ce0ac31f3fec97f6a713fd0ff6d6a",
+                "reference": "443c622d126ce0ac31f3fec97f6a713fd0ff6d6a",
                 "shasum": ""
             },
             "require": {
@@ -5404,7 +5404,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-24T11:50:19+00:00"
+            "time": "2020-11-14T14:49:24+00:00"
         },
         {
             "name": "thingengineer/mysqli-database-class",
