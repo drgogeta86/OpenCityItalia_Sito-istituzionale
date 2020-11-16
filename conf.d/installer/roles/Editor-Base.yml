@@ -214,3 +214,7 @@ policies:
         ModuleName: ocmultibinary
         FunctionName: '*'
         Limitation: {  }
+    -
+        ModuleName: valuation
+        FunctionName: dashboard
+        Limitation: {  }
