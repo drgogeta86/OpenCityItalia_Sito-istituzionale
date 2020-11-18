@@ -147,7 +147,7 @@ data_map:
             ita-IT: 'Indica un''eventuale data di scadenza dell''avviso pubblicato'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Data di scadenza (per gli avvisi)'
+            ita-IT: 'Data di scadenza'
         data_type_string: ezdate
         placement: 8
         is_searchable: 1
