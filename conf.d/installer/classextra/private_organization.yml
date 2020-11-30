@@ -23,6 +23,7 @@ table_view:
         has_logo: '1'
     in_overview:
         business_objective: '1'
+        description: '1'
     show:
         attachments: '1'
         business_objective: '1'
