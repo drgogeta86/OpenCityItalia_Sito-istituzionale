@@ -194,7 +194,7 @@ table_view:
     show_label:
         applicants: '1'
         has_authentication_method: '1'
-        has_channel: '1'
+        has_channel: '0'
         has_input: '1'
         has_module_input: '1'
         has_spatial_coverage: '1'
