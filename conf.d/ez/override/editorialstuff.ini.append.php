@@ -2,6 +2,6 @@
 
 [AvailableFactories]
 Identifiers[]
-
+Identifiers[]=place
 
 /*?>
