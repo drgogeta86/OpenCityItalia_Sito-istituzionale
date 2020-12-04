@@ -54,6 +54,7 @@ card_small_view:
         content_show_read_more: '1'
         has_role: '1'
         image: '1'
+        alt_name: '1'
 line_view:
     enabled:
         '*': '1'
