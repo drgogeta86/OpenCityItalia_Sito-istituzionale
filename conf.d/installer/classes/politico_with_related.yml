@@ -1,0 +1,18 @@
+imports:
+    - { resource: classes/politico.yml }
+data_map:
+    related_news:
+        identifier: related_news
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Notizie'
+        data_type_string: openpareverserelationlist
+        placement: 40
+        can_translate: 1
+        data_text5: '{"attribute_id_list":[classattributeid_list(article/people)],"sort":"published","order":"desc","limit":4}'
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''

@@ -1,5 +1,5 @@
 name: OpenCity
-version: 2.1.0
+version: 2.1.1
 variables:
     -
         name: identifier
@@ -717,3 +717,6 @@ steps:
         identifier: 25cd509e30c449f14d0c37cc70c424e7
         attributes:
             icon: it-locked
+    -
+        type: class
+        identifier: politico_with_related

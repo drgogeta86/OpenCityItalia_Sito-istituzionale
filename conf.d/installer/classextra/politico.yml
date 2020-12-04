@@ -41,6 +41,7 @@ attribute_group:
         nota: '1'
         office: '1'
         voti: '1'
+        related_news: '1'
 bootstrapitalia_icon:
     enabled:
         '*': '1'
@@ -127,6 +128,7 @@ table_view:
         nota: '1'
         phone: '1'
         ricevimento: '1'
+        related_news: '1'
     show_label:
         assunzione_cariche: '1'
         atto_nomina: '1'
@@ -147,3 +149,4 @@ table_view:
         mobile_phone: '1'
         phone: '1'
         ricevimento: '1'
+        related_news: '1'
