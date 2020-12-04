@@ -52,6 +52,7 @@ attribute_group:
         content_show_modified: '1'
         has_organization: '0'
         other_information: '1'
+        reference_doc: '0'
 bootstrapitalia_icon:
     enabled:
         '*': '1'
