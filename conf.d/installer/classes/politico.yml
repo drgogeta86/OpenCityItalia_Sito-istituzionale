@@ -57,6 +57,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Ruolo
+        is_searchable: 1
         data_type_string: openparole
         placement: 4
         can_translate: 1
