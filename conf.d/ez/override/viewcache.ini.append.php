@@ -75,4 +75,9 @@ ClearCacheMethod[]=object
 ClearCacheMethod[]=parent
 ClearCacheMethod[]=relating
 
+[time_indexed_role]
+ClearCacheMethod[]=object
+ClearCacheMethod[]=parent
+ClearCacheMethod[]=relating
+
 */ ?>
