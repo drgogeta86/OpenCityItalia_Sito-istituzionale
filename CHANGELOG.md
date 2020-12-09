@@ -4,6 +4,87 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+
+## [2.1.1](https://gitlab.com/opencontent/opencity/compare/2.1.0...2.1.1) - 2020-12-09
+- Add smart view cache for time_indexed_role
+- Add place dashboard
+
+#### Installer
+- Update to version 2.1.1
+- Make the role field searchable in employee and politico
+- Hide public_service/has_channel label
+- Show politico/alt_name in card_small_view
+- Avoid duplicate document/reference_doc
+- Add related_news to politico
+- Add private_organization/description in overview
+- Fix article/dead_line label
+
+#### Code dependencies
+| Changes                               | From    | To      | Compare                                                                                |
+|---------------------------------------|:--------|:--------|:---------------------------------------------------------------------------------------|
+| aws/aws-sdk-php                       | 3.161.1 | 3.168.0 | [...](https://github.com/aws/aws-sdk-php/compare/3.161.1...3.168.0)                    |
+| easyrdf/easyrdf                       | b68a502 | c7b0a9d | [...](https://github.com/easyrdf/easyrdf/compare/b68a502...c7b0a9d)                    |
+| friendsofsymfony/http-cache           | 42c96a0 | fa9abf6 | [...](https://github.com/FriendsOfSymfony/FOSHttpCache/compare/42c96a0...fa9abf6)      |
+| opencontent/occustomfind-ls           | 2.1.2   | 2.2.0   | [...](https://github.com/OpencontentCoop/occustomfind/compare/2.1.2...2.2.0)           |
+| opencontent/ocmultibinary-ls          | 2.2.4   | 2.2.5   | [...](https://github.com/OpencontentCoop/ocmultibinary/compare/2.2.4...2.2.5)          |
+| opencontent/ocopenapi-ls              | 1.3.2   | 1.3.3   | [...](https://github.com/OpencontentCoop/ocopenapi-ls/compare/1.3.2...1.3.3)           |
+| opencontent/ocopendata-ls             | 2.24.4  | 2.24.7  | [...](https://github.com/OpencontentCoop/ocopendata/compare/2.24.4...2.24.7)           |
+| opencontent/ocopendata_forms-ls       | 1.6.7   | 1.6.8   | [...](https://github.com/OpencontentCoop/ocopendata_forms/compare/1.6.7...1.6.8)       |
+| opencontent/openpa-ls                 | 3.11.1  | 3.12.0  | [...](https://github.com/OpencontentCoop/openpa/compare/3.11.1...3.12.0)               |
+| opencontent/openpa_bootstrapitalia-ls | 1.1.2   | 1.2.0   | [...](https://github.com/OpencontentCoop/openpa_bootstrapitalia/compare/1.1.2...1.2.0) |
+| php-http/discovery                    | 1.12.0  | 1.13.0  | [...](https://github.com/php-http/discovery/compare/1.12.0...1.13.0)                   |
+| php-http/message                      | 39db36d | 6e2c574 | [...](https://github.com/php-http/message/compare/39db36d...6e2c574)                   |
+
+Relevant changes by repository:
+
+** [opencontent/occustomfind-ls changes between 2.1.2 and 2.2.0](https://github.com/OpencontentCoop/occustomfind/compare/2.1.2...2.2.0) **
+ * Handle async import
+
+** [opencontent/ocmultibinary-ls changes between 2.2.4 and 2.2.5](https://github.com/OpencontentCoop/ocmultibinary/compare/2.2.4...2.2.5) **
+ * Add ini setting to configure allowed file extension per attribute
+
+** [opencontent/ocopenapi-ls changes between 1.3.2 and 1.3.3](https://github.com/OpencontentCoop/ocopenapi-ls/compare/1.3.2...1.3.3) **
+ * Fix bug in uri generation
+ * fix typo
+
+** [opencontent/ocopendata-ls changes between 2.24.4 and 2.24.7](https://github.com/OpencontentCoop/ocopendata/compare/2.24.4...2.24.7) **
+ * Corregge un bug che si verificava nella pubblicazione di contenuti in installazioni multilingua
+ * Mantiene la stessa dimensione dell'array di risposta nelle richieste select-fields anche se manca la traduzione nella lingua corrente
+ * opendataTools i18n visualizza la prima traduzione esistente qualora non esistesse nella lingua corrente né nella lingua di fallback
+ * opendataTools corregge un bug sul metodo i18n
+
+** [opencontent/ocopendata_forms-ls changes between 1.6.7 and 1.6.8](https://github.com/OpencontentCoop/ocopendata_forms/compare/1.6.7...1.6.8) **
+ * Permette di tradurre di un contenuto qualora si tenti di modificarlo in una lingua non ancora presente
+
+** [opencontent/openpa-ls changes between 3.11.1 and 3.12.0](https://github.com/OpencontentCoop/openpa/compare/3.11.1...3.12.0) **
+ * Permette l'inserimento del codice Web Analytics Italia
+
+** [opencontent/openpa_bootstrapitalia-ls changes between 1.1.2 and 1.2.0](https://github.com/OpencontentCoop/openpa_bootstrapitalia/compare/1.1.2...1.2.0) **
+ * Corregge la configurazione dei generatori di dataset
+ * Corregge il meccanismo di moderazione per cui tutti i contenuti previsti dalle dashboard venivano sempre messi in moderazione
+ * Corregge la visualizzazione delle date in apertura nelle card
+ * Corregge un problema di digitazione
+ * Corregge la dimensione del testo del contenuto introduttivo della dashboard di collaborazione
+ * Corregge alcuni problemi che si verificavano in un'installazione multilingua
+ * Corregge la visualizzazione banner color di default
+ * Rimuove il bordo scuro dal box card_teaser
+ * Visualizza l'assessore di rifermento in topic
+ * Corregge un bug sulla ricerca ruoli negli attributi di tipo Ruolo
+ * Aumenta il ranking dei contenuti di tipo pagina_sito e frontpage
+ * Corregge un bug sul filtro di visualizzazione dei ruoli
+ * Invia una notifica all'utente o al gruppo configurato in caso di registrazione dal modulo join
+ * Permette di rimuovere/editare un link dentro una pagina trasparenza
+ * Aggiunge un nuovo tema per apss
+ * Merge pull request #7 from OpencontentCoop/new-color-apss  Aggiunge un nuovo tema per apss
+ * Nel servizio pubblico, nasconde il titolo del canale digitale se ne è correlato solo uno
+ * Corregge la visualizzazione della dashboard Gestione contenuti e imposta la dashboard di default per i luoghi
+ * Visualizza il link in channel come bottone
+ * Migliora la visualizzazione del blocco ricerca documenti
+ * Rende indicizzabili gli attributi di tipo Ruolo OpenPA per gli oggetti riferiti all’attributo person
+ * Reindicizza le persone quando ne si aggiornano i ruoli
+ * Permette il tracciamento da parte di webanalytics.italia.it
+
+
 ## [2.1.0](https://gitlab.com/opencontent/opencity/compare/2.0.19...2.1.0) - 2020-11-16
 - Fix some ini settings
 - Activate extension occustomfind
