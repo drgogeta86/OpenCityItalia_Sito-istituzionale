@@ -1,0 +1,26 @@
+metadata:
+    remoteId: 90b631e882ab0f966d03aababf3d9f15
+    classIdentifier: pagina_trasparenza
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        titolo: 'Atti di concessione'
+        contenuto_obbligo: "<p>Atti di concessione di sovvenzioni, contributi, sussidi ed ausili finanziari alle imprese e comunque di vantaggi economici di qualunque genere ad enti pubblici e privati di importo superiore a mille euro.</p><p>In luogo della pubblicazione del singolo atto, può essere pubblicato un elenco (in formato tabellare aperto) contenente i seguenti dati:</p>\n<ul>\n\n<li>nome e dati fiscali del beneficiario</li>\n\n<li>importo</li>\n\n<li>norma o titolo a base dell'attribuzione</li>\n\n<li>struttura, dirigente o funzionario responsabile del relativo procedimento amministrativo</li>\n\n<li>modalità seguita per l'individuazione del beneficiario</li>\n\n</ul>\n<p><em>L'art. 43 del decreto legislativo n. 97/2016 ha abrogato la norma che prevedeva l'obbligo di pubblicazione dell'Albo dei soggetti, ivi comprese le persone fisiche, cui sono stati erogati in ogni esercizio finanziario contributi, sovvenzioni, crediti, sussidi e benefici di natura economica. La trasparenza nell'utilizzo delle risorse pubbliche è ora disciplinata dall'art. 4 bis c.2 del D. Lgs 14 marzo 2013, n. 33 per il quale &quot;ciascuna amministrazione pubblica sul proprio sito istituzionale, in una parte chiaramente identificabile della sezione &quot;amministrazione trasparente&quot;, i dati sui propri pagamenti e ne permette la consultazione in relazione alla tipologia di spesa sostenuta, all'ambito temporale di riferimento ed ai beneficiari. </em></p>"
+        riferimenti_normativi: "Ai sensi della l.r. n. 10/2014 e ss.mm., art. 7, l.r. n. 8/2012\r\n\r\n"
+        applicabilita: ''
+        denominazione_degli_obblighi: ''
+        guida_alla_compilazione: '<p>La classe da utilizzare è &quot;Documento&quot; e la Tipologia di documento da scegliere è &quot;Sovvenzione/contributo&quot; che si trova nel menù Esiti.</p>'
+        messaggio_di_consiglio: '<p>Si evidenzia che nella presente sezione non sono mai da pubblicare dati e/o atti relativi a persone fisiche.</p><p>Ai sensi della Delibera ANAC n. 59/2013 l''importo di 1000 euro è da intendersi sia se erogato con un unico atto, sia con atti diversi ma che nel corso dell’anno solare superino tale limite nei confronti di un unico beneficiario.</p>'
+        decorrenza_di_pubblicazione:
+            - Immediata
+        aggiornamento:
+            - Tempestivo
+        termine_pubblicazione:
+            - '5 anni per le Sovvenzioni, contributi, sussidi e vantaggi economici a decorrere dall''anno successivo alla pubblicazione'
+        fields: null
+sort_data:
+    sort_field: 8
+    sort_order: 1
+    priority: 1

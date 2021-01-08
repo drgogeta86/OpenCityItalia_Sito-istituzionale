@@ -1,0 +1,20 @@
+metadata:
+    remoteId: 455cbf5badd935740b5d9cc79833a015
+    classIdentifier: pagina_trasparenza
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        titolo: Performance
+        contenuto_obbligo: ''
+        riferimenti_normativi: null
+        applicabilita: ''
+        denominazione_degli_obblighi: ''
+        guida_alla_compilazione: ''
+        messaggio_di_consiglio: ''
+        fields: null
+sort_data:
+    sort_field: 8
+    sort_order: 1
+    priority: 5

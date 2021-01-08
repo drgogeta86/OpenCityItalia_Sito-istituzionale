@@ -1,0 +1,26 @@
+metadata:
+    remoteId: e5c935557bd7f5e741e18da9b420264f
+    classIdentifier: pagina_trasparenza
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        titolo: 'Dotazione organica'
+        contenuto_obbligo: '<p>Pubblicazione dei dati concernenti l''attività delle strutture e del personale dipendente assegnato</p>'
+        riferimenti_normativi: 'Ai sensi della l.r. n. 10/2014 e ss.mm., art. 13 del Codice degli enti locali (l.r. 3 maggio 2018, n. 2)'
+        applicabilita: ''
+        denominazione_degli_obblighi: ''
+        guida_alla_compilazione: ''
+        messaggio_di_consiglio: ''
+        decorrenza_di_pubblicazione:
+            - Tempestiva
+        aggiornamento:
+            - Tempestivo
+        termine_pubblicazione:
+            - 'Non specificato'
+        fields: null
+sort_data:
+    sort_field: 8
+    sort_order: 1
+    priority: 5

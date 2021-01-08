@@ -1,0 +1,20 @@
+metadata:
+    remoteId: 4a9b8cea1574995194c55dfcb280fc58
+    classIdentifier: pagina_trasparenza
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        titolo: 'Liste di attesa'
+        contenuto_obbligo: '<p>Criteri di formazione delle liste di attesa, tempi di attesa previsti e tempi medi effettivi di attesa per ciascuna tipologia di prestazione erogata</p>'
+        riferimenti_normativi: 'Art. 41, co.6, d.lgs. n. 33/2013 e ss.mm.'
+        applicabilita: '<p>L’obbligo di pubblicazione di cui alla presente sezione non si applica all’Ente</p>'
+        denominazione_degli_obblighi: ''
+        guida_alla_compilazione: ''
+        messaggio_di_consiglio: ''
+        fields: null
+sort_data:
+    sort_field: 8
+    sort_order: 1
+    priority: 3

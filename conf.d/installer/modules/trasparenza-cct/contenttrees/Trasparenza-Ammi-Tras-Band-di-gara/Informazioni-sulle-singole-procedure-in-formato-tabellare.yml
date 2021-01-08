@@ -1,0 +1,26 @@
+metadata:
+    remoteId: b77effe1c84fcd44a88379b94ac0e402
+    classIdentifier: pagina_trasparenza
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        titolo: 'Informazioni sulle singole procedure in formato tabellare'
+        contenuto_obbligo: "<p>Link banca dati dell'Osservatorio Provinciale dei lavori pubblici e delle concessioni ai sensi dell'art. 4 bis della legge provinciale 31 maggio 2012 n. 10 che contiene:</p>\n<ul>\n\n<li>Codice Identificativo Gara (CIG)</li>\n\n<li>Struttura proponente</li>\n\n<li>Oggetto del bando</li>\n\n<li>Procedura di scelta del contraente</li>\n\n<li>Elenco degli operatori invitati a presente offerte/Numero di offerenti che hanno partecipato al procedimento</li>\n\n<li>Aggiudicatario</li>\n\n<li>Importo di aggiudicazione</li>\n\n<li>Tempi di completamento dell'opera servizio o fornitura</li>\n\n<li>Importo delle somme liquidate</li>\n\n<li>Tabelle riassuntive rese liberamente scaricabili in un formato digitale standard aperto con informazioni sui contratti relative all'anno precedente</li>\n\n</ul>\n"
+        riferimenti_normativi: "Art. 1, co. 32, l. n. 190/2012\r\nArt. 4 bis, l.p. 2/2016"
+        applicabilita: ''
+        denominazione_degli_obblighi: ''
+        guida_alla_compilazione: '<p>Per inserire le informazioni di questa sezione si consiglia di utilizzare la classe di tipo &quot;Link&quot;</p>'
+        messaggio_di_consiglio: '<p><strong>I dati devono essere inseriti tempestivamente sul SICOPAT</strong></p>'
+        decorrenza_di_pubblicazione:
+            - Tempestiva
+        aggiornamento:
+            - Annuale
+        termine_pubblicazione:
+            - '5 anni a decorrere dal primo gennaio dell''anno successivo a quello da cui decorre l''obbligo di pubblicazione'
+        fields: null
+sort_data:
+    sort_field: 8
+    sort_order: 1
+    priority: 0

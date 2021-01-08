@@ -1,0 +1,20 @@
+metadata:
+    remoteId: 032cc6bb76b86bb4ea45e7ca3b2604b9
+    classIdentifier: pagina_trasparenza
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        titolo: 'Dati ulteriori'
+        contenuto_obbligo: '<p>Dati, informazioni e documenti ulteriori che le pubbliche amministrazioni non hanno l''obbligo di pubblicare ai sensi della normativa vigente e che non sono riconducibili alle sottosezioni indicate</p>'
+        riferimenti_normativi: 'Ai sensi della l.r. n. 10/2014 e ss.mm., art.7-bis, co. 3, d.lgs n. 33/2013 e ss.mm. e art. 1, co. 9, lett. f)  l.190/2012'
+        applicabilita: ''
+        denominazione_degli_obblighi: ''
+        guida_alla_compilazione: ''
+        messaggio_di_consiglio: '<p>Nel caso di pubblicazione di dati non previsti da norme di legge si deve procedere alla anonimizzazione dei dati personali eventualmente presenti, in virtù di quanto disposto dall''art. 4, c. 3, del d.lgs. n. 33/2013</p>'
+        fields: null
+sort_data:
+    sort_field: 8
+    sort_order: 1
+    priority: 3

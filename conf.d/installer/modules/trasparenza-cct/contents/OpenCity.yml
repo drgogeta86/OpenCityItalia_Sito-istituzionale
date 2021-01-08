@@ -1,0 +1,10 @@
+metadata:
+    remoteId: 8a9c9c761004866fb458d89910f52bee
+    classIdentifier: homepage
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        link_nell_header:
+            - $content_Amministrazione-Trasparente_object

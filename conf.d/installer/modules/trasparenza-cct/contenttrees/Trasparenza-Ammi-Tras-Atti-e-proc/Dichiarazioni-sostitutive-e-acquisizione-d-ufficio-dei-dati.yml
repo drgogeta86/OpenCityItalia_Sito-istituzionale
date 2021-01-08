@@ -1,0 +1,20 @@
+metadata:
+    remoteId: a98f90b19fcb915e4dc7459209e0a5b2
+    classIdentifier: pagina_trasparenza
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        titolo: 'Dichiarazioni sostitutive e acquisizione d''ufficio dei dati'
+        contenuto_obbligo: '<p>Le misure organizzative adottate per l''efficiente, efficace e tempestiva acquisizione d''ufficio dei dati e per l''effettuazione dei controlli medesimi, nonché le modalità per la loro esecuzione.</p>'
+        riferimenti_normativi: 'Art. 72 co. 2 del DPR 445/2000'
+        applicabilita: "<p>\nAi sensi dell' art. 1, co.1, della l.r. n. 10/2014 e ss.mm., non trova applicazione l’obbligo di pubblicazione &quot;Dichiarazioni sostitutive e acquisizione d'ufficio dei dati&quot; di cui all'art. 35, co.3, d.lgs. n. 33/2013 e ss. mm..<br />Permane tuttavia l'applicabilità dell'art. 72 co. 2 del DPR 445/2000.</p>"
+        denominazione_degli_obblighi: ''
+        guida_alla_compilazione: ''
+        messaggio_di_consiglio: ''
+        fields: null
+sort_data:
+    sort_field: 8
+    sort_order: 1
+    priority: 3

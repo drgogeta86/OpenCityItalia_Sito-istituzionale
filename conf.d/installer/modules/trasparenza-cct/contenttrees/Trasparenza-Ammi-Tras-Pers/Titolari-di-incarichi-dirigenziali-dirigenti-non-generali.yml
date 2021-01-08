@@ -1,0 +1,26 @@
+metadata:
+    remoteId: 9eed77856255692eca75cdb849540c23
+    classIdentifier: pagina_trasparenza
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        titolo: 'Titolari di incarichi dirigenziali (dirigenti non generali)'
+        contenuto_obbligo: "<p>Per ciascun titolare di incarico dirigenziale e <strong>posizioni organizzative con funzioni dirigenziali</strong> (diversi da Segretario comunale/di Comunità e/o Direttore generale):</p>\n<ul>\n\n<li>Atto di conferimento dell'incarico con indicazione della durata</li>\n\n<li>Curriculum, redatto in conformità al vigente modello europeo</li>\n\n<li>Compensi di qualsiasi natura connessi all'assunzione dell'incarico (con specifica evidenza delle eventuali componenti variabili o legate alla valutazione del risultato)</li>\n\n<li>Importi di viaggi di servizio e missioni pagati con fondi pubblici</li>\n\n<li>Dati relativi all'assunzione di altre cariche, presso enti pubblici o privati, ed i relativi compensi a qualsiasi titolo corrisposti</li>\n\n<li>Altri eventuali incarichi con oneri a carico della finanza pubblica e l'indicazione dei compensi spettanti</li>\n\n<li>Dichiarazione sulla insussistenza di una delle cause di incompatibilità e inconferibilità al conferimento dell'incarico</li>\n\n<li>Ammontare complessivo degli emolumenti percepiti a carico della finanza pubblica</li>\n\n</ul>\n"
+        riferimenti_normativi: "Ai sensi della l.r. n. 10/2014 e ss.mm., art.14 del d.lgs. n. 33/2013 e ss.mm.\r\nArt. 13 del Codice degli enti locali (l.r. 3 maggio 2018, n. 2)\r\nArt. 20, co.3, d.lgs. n. 39/2013\r\nDelibere ANAC n. 241/2017 e n. 586/2019"
+        applicabilita: ''
+        denominazione_degli_obblighi: ''
+        guida_alla_compilazione: '<p>Per inserire le informazioni nella presente sezione è possibile impostare il ruolo del dipendente nell''apposito pannello.</p>'
+        messaggio_di_consiglio: ''
+        decorrenza_di_pubblicazione:
+            - '3 mesi dalla elezione o dalla nomina'
+        aggiornamento:
+            - Tempestivo
+        termine_pubblicazione:
+            - '5 anni a decorrere dal primo gennaio dell''anno successivo a quello da cui decorre l''obbligo di pubblicazione'
+        fields: 'parent:1|filters:role in [''"Dirigente"'']|time_indexed_role|person,role,for_entity'
+sort_data:
+    sort_field: 8
+    sort_order: 1
+    priority: 1

@@ -1,0 +1,26 @@
+metadata:
+    remoteId: d774ce1cf50f57929cb1756ae2f5fa49
+    classIdentifier: pagina_trasparenza
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        titolo: 'Codice disciplinare e codice di condotta'
+        contenuto_obbligo: "\n<ul>\n\n<li>Codice disciplinare, recante l'indicazione delle infrazioni del codice disciplinare e relative sanzioni</li>\n\n<li>Codice di condotta inteso quale codice di comportamento</li>\n\n</ul>\n"
+        riferimenti_normativi: 'Ai sensi della l.r. n. 10/2014 e ss.mm., art.12, co.1 e co.2, d.lgs. n. 33/2013 e ss.mm.'
+        applicabilita: ''
+        denominazione_degli_obblighi: ''
+        guida_alla_compilazione: '<p>Le informazioni di questa sezione vanno inserite nel menù &quot;Documenti e dati&quot; all''interno della pagina &quot;Documenti funzionamento interno&quot;.</p><p>La classe da utilizzare è &quot;Documento&quot; e la Tipologia di documento da scegliere è &quot;Disciplinare&quot; che si trova nel menù Funzionamento interno.</p>'
+        messaggio_di_consiglio: ''
+        decorrenza_di_pubblicazione:
+            - Tempestiva
+        aggiornamento:
+            - Tempestivo
+        termine_pubblicazione:
+            - 'Non specificato'
+        fields: 'parent:2|filters:document_type in [''Disciplinare''] and topics.name = ''Comune''|document|name,file,document_type'
+sort_data:
+    sort_field: 8
+    sort_order: 1
+    priority: 4

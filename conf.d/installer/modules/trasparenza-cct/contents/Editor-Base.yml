@@ -1,0 +1,8 @@
+metadata:
+    remoteId: editors_base
+    classIdentifier: user_group
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        name: Editors

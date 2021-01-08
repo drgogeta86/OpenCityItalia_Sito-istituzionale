@@ -1,0 +1,26 @@
+metadata:
+    remoteId: df504e9bd778ee7d4a9f4b1039ca0319
+    classIdentifier: pagina_trasparenza
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        titolo: 'Responsabile della prevenzione della corruzione e della trasparenza'
+        contenuto_obbligo: '<p>Responsabile della prevenzione della corruzione e della trasparenza</p>'
+        riferimenti_normativi: 'Ai sensi dell''art. 1 co.1 lett. m) della l.r. n. 10/2014 e ss.mm., art. 1, co. 7, l. 190/2012 e art. 43 co. 1 d.lgs n 33/2013 e ss.mm.'
+        applicabilita: ''
+        denominazione_degli_obblighi: ''
+        guida_alla_compilazione: ''
+        messaggio_di_consiglio: ''
+        decorrenza_di_pubblicazione:
+            - Tempestiva
+        aggiornamento:
+            - Tempestivo
+        termine_pubblicazione:
+            - '5 anni a decorrere dal primo gennaio dell''anno successivo a quello da cui decorre l''obbligo di pubblicazione'
+        fields: null
+sort_data:
+    sort_field: 8
+    sort_order: 1
+    priority: 2

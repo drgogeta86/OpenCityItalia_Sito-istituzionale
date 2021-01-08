@@ -1,0 +1,26 @@
+metadata:
+    remoteId: d4836df7b45710db1bf15b35c5482086
+    classIdentifier: pagina_trasparenza
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        titolo: 'Titolari di incarichi politici di cui all''art.14, co.1, del d.lgs n. 33/2013'
+        contenuto_obbligo: "\n<ul>\n\n<li>Organi di indirizzo politico e di amministrazione e gestione, con l'indicazione delle rispettive competenze</li>\n\n<li>Atto di nomina o di proclamazione, con l'indicazione della durata dell'incarico o del mandato elettivo</li>\n\n<li>Curriculum vitae</li>\n\n<li>Compensi di qualsiasi natura connessi all'assunzione della carica</li>\n\n<li>Importi di viaggi di servizio e missioni pagati con fondi pubblici</li>\n\n<li>Dati relativi all'assunzione di altre cariche, presso enti pubblici o privati, ed i relativi compensi a qualsiasi titolo corrisposti</li>\n\n<li>Gli altri eventuali incarichi con oneri a carico della finanza pubblica e l'indicazione dei compensi spettanti</li>\n\n<li>Dichiarazione reddituale e situazione patrimoniale (applicabile solo ai Sindaci e agli Assessori dei Comuni e Presidenti e Assessori delle Comunità con popolazione superiore ai 50.000 abitanti)</li>\n\n</ul>\n"
+        riferimenti_normativi: "Ai sensi della l.r. n. 10/2014 e ss.mm., art.13, co.1, lett. a), art.14 co.1 \r\nArt. 47, co.1, d.lgs. n. 33/2013 e ss.mm."
+        applicabilita: ''
+        denominazione_degli_obblighi: ''
+        guida_alla_compilazione: '<p>Per inserire le informazioni nella presente sezione è possibile impostare il ruolo dell''amministratore nell''apposito pannello</p><p>Gli amministratori dimissionari vanno mantenuti nella sezione amministrazione trasparente per i tre anni successivi alla cessazione dell''incarico</p>'
+        messaggio_di_consiglio: '<p>Ai sensi della delibera ANAC n. 241/2017 (par. 2.1) sono da pubblicare anche i dati relativi agli eventuali Commissari straordinari</p>'
+        decorrenza_di_pubblicazione:
+            - '3 mesi dalla elezione o dalla nomina'
+        aggiornamento:
+            - Tempestivo
+        termine_pubblicazione:
+            - '3 anni successivi alla cessazione dell''incarico'
+        fields: 'parent:1|filters:role = ''"Sindaco"''|time_indexed_role|person,role,for_entity&parent:1|filters:for_entity.name in [''Consiglio comunale'',''Giunta comunale'']|time_indexed_role|person,role,for_entity'
+sort_data:
+    sort_field: 8
+    sort_order: 1
+    priority: 0

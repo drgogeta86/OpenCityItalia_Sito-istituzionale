@@ -1,0 +1,26 @@
+metadata:
+    remoteId: d20a1b517d9c0cba06af6b6b345f6c0e
+    classIdentifier: pagina_trasparenza
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        titolo: 'Organismi indipendenti di valutazione, nuclei di valutazione o altri organismi con funzioni analoghe'
+        contenuto_obbligo: "\n<ol>\n\n<li>Attestazione dell'OIV o di altra struttura analoga nell'assolvimento degli obblighi di pubblicazione</li>\n\n<li>Documento dell'OIV di validazione della Relazione sulla Performance art. 14, co. 4, lett. c), d.lgs n. 150/2009</li>\n\n<li>Relazione dell'OIV sul funzionamento complessivo del Sistema di valutazione, trasparenza e integrità dei controlli interni (art. 14, co. 4, lett. a), d.lgs. n. 150/2009)</li>\n\n<li>Altri atti degli organismi indipendenti di valutazione, nuclei di valutazione o altri organismi con funzioni analoghe, procedendo all'indicazione in forma anonima dei dati personali eventualmente presenti</li>\n\n</ol>\n"
+        riferimenti_normativi: "Ai sensi della l.r. n. 10/2014 e ss.mm., art.31, d.lgs. n.33/2013 e ss.mm.\r\nPar. 2.1, delib. CiVIT n. 6/2012\r\nPar. 4, delib. CiVIT n. 23/2013"
+        applicabilita: '<p>Nell''ambito dell''ordinamento locale non trovano applicazione gli obblighi di pubblicazione di cui ai punti 2 e 3</p>'
+        denominazione_degli_obblighi: ''
+        guida_alla_compilazione: ''
+        messaggio_di_consiglio: ''
+        decorrenza_di_pubblicazione:
+            - Tempestiva
+        aggiornamento:
+            - Tempestivo
+        termine_pubblicazione:
+            - '5 anni a decorrere dal primo gennaio dell''anno successivo a quello da cui decorre l''obbligo di pubblicazione'
+        fields: null
+sort_data:
+    sort_field: 8
+    sort_order: 1
+    priority: 0

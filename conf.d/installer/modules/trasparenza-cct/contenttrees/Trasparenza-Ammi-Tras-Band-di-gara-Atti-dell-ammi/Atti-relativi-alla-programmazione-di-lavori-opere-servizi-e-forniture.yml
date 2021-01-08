@@ -1,0 +1,26 @@
+metadata:
+    remoteId: 7ed046186b89dd1c329001d9f24cb43f
+    classIdentifier: pagina_trasparenza
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        titolo: 'Atti relativi alla programmazione di lavori, opere, servizi e forniture'
+        contenuto_obbligo: '<p>Atti relativi alla programmazione di lavori, opere, servizi e forniture</p>'
+        riferimenti_normativi: 'Ai sensi della l.r. n. 10/2014 e ss.mm., art. 29, d.lgs. n. 50/2016'
+        applicabilita: '<p>Con l''entrata in vigore della legge provinciale 6 agosto 2019, n. 5 e fino alla data di messa a disposizione, da parte della Provincia autonoma di Trento, del sistema informatico che garantisca l''interscambio delle informazioni e l''interoperabilità del sistema con le banche dati delle autorità o amministrazioni statali, le amministrazioni aggiudicatrici provvedono all''adempimento degli obblighi di trasparenza concernenti i contratti pubblici di lavori, servizi e forniture con la pubblicazione nel proprio sito istituzionale ai sensi dell''articolo 37, comma 1, lettera b) del decreto legislativo n. 33 del 2013.</p>'
+        denominazione_degli_obblighi: ''
+        guida_alla_compilazione: '<p>Le informazioni di questa sezione vanno inserite nel menù &quot;Documenti e dati&quot; all''interno della pagina &quot;Documenti albo pretorio&quot;.</p><p>La classe da utilizzare è &quot;Documento&quot; e la Tipologia di documento da scegliere è &quot;Bando di gara&quot; che si trova nel menù Documenti albo pretorio/atto generico/bando.</p>'
+        messaggio_di_consiglio: ''
+        decorrenza_di_pubblicazione:
+            - Tempestiva
+        aggiornamento:
+            - Tempestivo
+        termine_pubblicazione:
+            - '5 anni a decorrere dal primo gennaio dell''anno successivo a quello da cui decorre l''obbligo di pubblicazione'
+        fields: null
+sort_data:
+    sort_field: 8
+    sort_order: 1
+    priority: 0

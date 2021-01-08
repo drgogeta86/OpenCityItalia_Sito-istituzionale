@@ -1,0 +1,26 @@
+metadata:
+    remoteId: 154a8d7d190b4e49e2796384c0732712
+    classIdentifier: pagina_trasparenza
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        titolo: 'Posizioni organizzative'
+        contenuto_obbligo: '<p>Curricula dei titolari di posizioni organizzative redatti in conformità al vigente modello europeo</p>'
+        riferimenti_normativi: "Ai sensi della l.r. n. 10/2014 e ss.mm., art.14, co.1 quinquies, d.lgs. n. 33/2013 e ss.mm.\r\n"
+        applicabilita: ''
+        denominazione_degli_obblighi: ''
+        guida_alla_compilazione: '<p>Per inserire le informazioni nella presente sezione è possibile impostare il ruolo del dipendente nell''apposito pannello.</p>'
+        messaggio_di_consiglio: ''
+        decorrenza_di_pubblicazione:
+            - '3 mesi dalla elezione o dalla nomina'
+        aggiornamento:
+            - Tempestivo
+        termine_pubblicazione:
+            - '5 anni a decorrere dal primo gennaio dell''anno successivo a quello da cui decorre l''obbligo di pubblicazione'
+        fields: 'parent:1|filters:organizational_position = 1|time_indexed_role|person,role,for_entity'
+sort_data:
+    sort_field: 8
+    sort_order: 1
+    priority: 4

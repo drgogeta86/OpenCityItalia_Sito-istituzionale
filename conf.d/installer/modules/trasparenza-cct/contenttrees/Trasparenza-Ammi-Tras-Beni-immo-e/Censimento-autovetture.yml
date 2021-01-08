@@ -1,0 +1,26 @@
+metadata:
+    remoteId: cad5271ec508ba1591b737749b774bd4
+    classIdentifier: pagina_trasparenza
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        titolo: 'Censimento autovetture'
+        contenuto_obbligo: '<p>Elenco delle autovetture di servizio a qualunque titolo utilizzate, distinte tra quelle di proprietà e quelle oggetto di contratto di locazione o di noleggio, con l''indicazione della cilindrata e dell''anno di immatricolazione</p>'
+        riferimenti_normativi: 'Art. 4 d.p.c.m. 25 settembre 2014'
+        applicabilita: ''
+        denominazione_degli_obblighi: ''
+        guida_alla_compilazione: ''
+        messaggio_di_consiglio: '<p>Si consiglia di pubblicare gli elenchi degli ultimi 5 anni</p>'
+        decorrenza_di_pubblicazione:
+            - Tempestiva
+        aggiornamento:
+            - Annuale
+        termine_pubblicazione:
+            - '5 anni a decorrere dal primo gennaio dell''anno successivo a quello da cui decorre l''obbligo di pubblicazione'
+        fields: null
+sort_data:
+    sort_field: 8
+    sort_order: 1
+    priority: 2

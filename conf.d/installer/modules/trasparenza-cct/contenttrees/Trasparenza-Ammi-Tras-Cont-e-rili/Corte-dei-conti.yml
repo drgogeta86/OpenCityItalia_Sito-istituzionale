@@ -1,0 +1,26 @@
+metadata:
+    remoteId: 6153075fa1d64bc684ebd866e3b690cd
+    classIdentifier: pagina_trasparenza
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        titolo: 'Corte dei conti'
+        contenuto_obbligo: '<p>Tutti i rilievi della Corte dei conti ancorché non recepiti riguardanti l''organizzazione e l''attività delle amministrazioni stesse e dei loro uffici</p>'
+        riferimenti_normativi: 'Ai sensi della l.r. n. 10/2014 e ss.mm., art.31, d.lgs. n.33/2013 e ss.mm.'
+        applicabilita: ''
+        denominazione_degli_obblighi: ''
+        guida_alla_compilazione: ''
+        messaggio_di_consiglio: '<p>È opportuno procedere alla pubblicazione anche delle note istruttorie inoltrate dalla Corte dei Conti relative a bilanci o rendiconti. E’ invece facoltativa la pubblicazione delle relative risposte dell''Ente.</p>'
+        decorrenza_di_pubblicazione:
+            - Tempestiva
+        aggiornamento:
+            - Tempestivo
+        termine_pubblicazione:
+            - '5 anni a decorrere dal primo gennaio dell''anno successivo a quello da cui decorre l''obbligo di pubblicazione'
+        fields: null
+sort_data:
+    sort_field: 8
+    sort_order: 1
+    priority: 4

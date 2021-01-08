@@ -1,0 +1,20 @@
+metadata:
+    remoteId: 36fec001e36199c219fc4da229e2d694
+    classIdentifier: pagina_trasparenza
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        titolo: 'Contrattazione collettiva'
+        contenuto_obbligo: '<p>Contratti collettivi provinciali stipulati</p><p><a  href="http://www.apran.provincia.tn.it/contratti/contratti.htm" title="Link a http://www.apran.provincia.tn.it/contratti/contratti.htm" >http://www.apran.provincia.tn.it/contratti/contratti.htm</a> </p><p><a  href="http://www.comunitrentini.it/Aree/Personale/Servizi-offerti/Personale/Contratti" title="Link a http://www.comunitrentini.it/Aree/Personale/Servizi-offerti/Personale/Contratti" >http://www.comunitrentini.it/Aree/Personale/Servizi-offerti/Personale/Contratti</a></p>'
+        riferimenti_normativi: "Ai sensi della l.r. n. 10/2014 e ss.mm., art. 21, co.1, d.lgs. n. 33/2013 e ss.mm.\r\n"
+        applicabilita: ''
+        denominazione_degli_obblighi: ''
+        guida_alla_compilazione: ''
+        messaggio_di_consiglio: ''
+        fields: null
+sort_data:
+    sort_field: 8
+    sort_order: 1
+    priority: 9

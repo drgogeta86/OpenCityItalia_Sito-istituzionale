@@ -1,0 +1,81 @@
+name: 'Editor Trasparenza'
+policies:
+    -
+        ModuleName: content
+        FunctionName: create
+        Limitation:
+            Subtree:
+                - $contenttree_Trasparenza-Ammi-Tras_Enti-controllati_path_string
+            Class:
+                - classid(partecipazione_societaria)
+    -
+        ModuleName: content
+        FunctionName: edit
+        Limitation:
+            Subtree:
+                - $contenttree_Trasparenza-Ammi-Tras_Enti-controllati_path_string
+            Class:
+                - classid(partecipazione_societaria)
+    -
+        ModuleName: content
+        FunctionName: create
+        Limitation:
+            Subtree:
+                - $content_Amministrazione-Trasparente_path_string
+            Class:
+                - classid(link)
+                - classid(document)
+                - classid(politico)
+                - classid(employee)
+                - $class_nota_trasparenza
+                - $class_pagina_trasparenza
+                - classid(folder)
+            ParentClass:
+                - $class_pagina_trasparenza
+    -
+        ModuleName: content
+        FunctionName: edit
+        Limitation:
+            Subtree:
+                - $content_Amministrazione-Trasparente_path_string
+            Class:
+                - classid(link)
+                - classid(document)
+                - classid(politico)
+                - classid(employee)
+                - $class_nota_trasparenza
+                - $class_pagina_trasparenza
+                - classid(folder)
+
+    -
+        ModuleName: content
+        FunctionName: remove
+        Limitation:
+            Subtree:
+                - $content_Amministrazione-Trasparente_path_string
+            Class:
+                - classid(link)
+                - classid(document)
+                - classid(politico)
+                - classid(employee)
+                - $class_nota_trasparenza
+                - classid(folder)
+    -
+        ModuleName: content
+        FunctionName: remove
+        Limitation:
+            Subtree:
+                - $content_Amministrazione-Trasparente_path_string
+            Class:
+                - $class_pagina_trasparenza
+            Owner:
+                - 1
+    -
+        ModuleName: content
+        FunctionName: create
+        Limitation:
+            Node:
+                - $content_Enti-e-fondazioni_node
+            Class:
+                - classid(public_organization)
+                - classid(private_organization)

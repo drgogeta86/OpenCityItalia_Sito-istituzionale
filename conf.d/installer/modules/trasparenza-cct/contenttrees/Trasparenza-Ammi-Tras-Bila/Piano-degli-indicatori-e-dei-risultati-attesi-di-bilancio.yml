@@ -1,0 +1,20 @@
+metadata:
+    remoteId: 8866fd5f4b6c38137922770c28079ab9
+    classIdentifier: pagina_trasparenza
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        titolo: 'Piano degli indicatori e dei risultati attesi di bilancio'
+        contenuto_obbligo: '<p>Piano degli indicatori e risultati attesi di bilancio</p>'
+        riferimenti_normativi: 'Art. 18bis, d.lgs. n. 118/2011'
+        applicabilita: "<p>\nAi sensi dell' art. 1, co.1, lett b) della l.r. n. 10/2014 e ss.mm., non trova applicazione l’obbligo di pubblicazione di cui all'art. 29, co. 2 del d.lgs. 33/2013.<br />Permane tuttavia l'obbligo di pubblicazione di cui all'art. 18bis del d.lgs. n. 118/2011.</p>"
+        denominazione_degli_obblighi: ''
+        guida_alla_compilazione: ''
+        messaggio_di_consiglio: ''
+        fields: null
+sort_data:
+    sort_field: 8
+    sort_order: 1
+    priority: 1

@@ -1,0 +1,20 @@
+metadata:
+    remoteId: 0743d3983ddbb1735f3afbe524f53cf9
+    classIdentifier: pagina_trasparenza
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        titolo: 'Costi contabilizzati'
+        contenuto_obbligo: '<p>Costi contabilizzati dei servizi erogati agli utenti, sia finali che intermedi e il relativo andamento nel tempo</p>'
+        riferimenti_normativi: 'Art. 32, co.1, d.lgs. n. 33/2013 e ss.mm.'
+        applicabilita: '<p>Ai sensi dell'' art. 1, co.1, della l.r. n. 10/2014 e ss.mm., non trova applicazione l’obbligo di pubblicazione &quot;costi contabilizzati&quot; di cui alla presente sezione</p>'
+        denominazione_degli_obblighi: ''
+        guida_alla_compilazione: ''
+        messaggio_di_consiglio: ''
+        fields: null
+sort_data:
+    sort_field: 8
+    sort_order: 1
+    priority: 2

@@ -1,0 +1,20 @@
+metadata:
+    remoteId: f4d74dd77cfb92614869144c95daae3a
+    classIdentifier: pagina_trasparenza
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        titolo: 'IBAN e pagamenti informatici'
+        contenuto_obbligo: '<p>Nelle richieste di pagamento: i codici IBAN identificativi del conto di pagamento, ovvero di imputazione del versamento in Tesoreria, tramite i quali i soggetti versanti possono effettuare i pagamenti mediante bonifico bancario o postale, ovvero gli identificativi del conto corrente postale sul quale i soggetti versanti possono effettuare i pagamenti mediante bollettino postale, nonché i codici identificativi del pagamento da indicare obbligatoriamente per il versamento</p>'
+        riferimenti_normativi: "Art. 36, d.lgs. n. 33/2013 e ss.mm.\r\nArt. 5, co.1, d.lgs. n. 82/2005\r\n"
+        applicabilita: '<p>Ai sensi dell'' art. 1, co.1, della l.r. n. 10/2014 e ss.mm., non trova applicazione l’obbligo di pubblicazione &quot;IBAN e pagamenti informatici&quot; di cui alla presente sezione</p>'
+        denominazione_degli_obblighi: ''
+        guida_alla_compilazione: ''
+        messaggio_di_consiglio: '<p>E'' possibile tuttavia pubblicare tali dati volontariamente</p>'
+        fields: null
+sort_data:
+    sort_field: 8
+    sort_order: 1
+    priority: 3
