@@ -82,6 +82,7 @@ table_view:
     show_label:
         office_manager: '1'
         start_time: '1'
+        people: '1'
     show_link:
         has_online_contact_point: '1'
         has_spatial_coverage: '1'
