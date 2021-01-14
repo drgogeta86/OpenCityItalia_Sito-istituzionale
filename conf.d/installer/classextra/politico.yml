@@ -15,11 +15,13 @@ attribute_group:
         dichiarazione_incompatibilita: '1'
         eventuali_incarichi: '1'
         importi: '1'
+        dichiarazioni_patrimoniali_soggetto: '1'
+        dichiarazioni_patrimoniali_parenti: '1'
     enabled:
         '*': '1'
     ruolo:
         '*': Ruolo
-        abstract: '1'
+        abstract: '0'
         competenze: '1'
         has_role: '1'
     'sort::contatti':
@@ -105,6 +107,7 @@ table_view:
     in_overview:
         has_role: '1'
         image: '1'
+        abstract: '1'
     show:
         abstract: '1'
         assunzione_cariche: '1'
