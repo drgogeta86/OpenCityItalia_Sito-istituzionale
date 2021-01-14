@@ -154,3 +154,6 @@ table_view:
         phone: '1'
         ricevimento: '1'
         related_news: '1'
+    collapse_label:
+        data_finemandato: '1'
+        data_iniziomandato: '1'
