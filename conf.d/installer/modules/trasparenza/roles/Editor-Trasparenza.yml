@@ -36,6 +36,12 @@ policies:
         ModuleName: content
         FunctionName: edit
         Limitation:
+            Class:
+                - $class_trasparenza
+    -
+        ModuleName: content
+        FunctionName: edit
+        Limitation:
             Subtree:
                 - $content_Amministrazione-Trasparente_path_string
             Class:
