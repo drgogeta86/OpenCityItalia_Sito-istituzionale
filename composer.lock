@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c7c329d77e753d83f5de71cea7bc4fd1",
+    "content-hash": "6c6cf584d173fbb1ff91a817fa9a9517",
     "packages": [
         {
             "name": "arnebratt/batchtool",
@@ -81,16 +81,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.168.0",
+            "version": "3.171.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "842621099b1de31ec6efd7535b8b343397c6e0ec"
+                "reference": "9252e55e995492a65ec9b705a5a7fdcfcaef46ef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/842621099b1de31ec6efd7535b8b343397c6e0ec",
-                "reference": "842621099b1de31ec6efd7535b8b343397c6e0ec",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/9252e55e995492a65ec9b705a5a7fdcfcaef46ef",
+                "reference": "9252e55e995492a65ec9b705a5a7fdcfcaef46ef",
                 "shasum": ""
             },
             "require": {
@@ -162,7 +162,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2020-12-08T19:17:21+00:00"
+            "time": "2021-01-14T19:12:48+00:00"
         },
         {
             "name": "clue/stream-filter",
@@ -1398,12 +1398,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
-                "reference": "55a3d76446d462b9943cb4e8e6b0af277a3fb2c4"
+                "reference": "89dc8d7ac32cdfa254461cdd4da5d692b44169a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/contracts/zipball/55a3d76446d462b9943cb4e8e6b0af277a3fb2c4",
-                "reference": "55a3d76446d462b9943cb4e8e6b0af277a3fb2c4",
+                "url": "https://api.github.com/repos/illuminate/contracts/zipball/89dc8d7ac32cdfa254461cdd4da5d692b44169a4",
+                "reference": "89dc8d7ac32cdfa254461cdd4da5d692b44169a4",
                 "shasum": ""
             },
             "require": {
@@ -1434,7 +1434,7 @@
             ],
             "description": "The Illuminate Contracts package.",
             "homepage": "https://laravel.com",
-            "time": "2020-10-27T15:05:51+00:00"
+            "time": "2020-12-18T14:12:37+00:00"
         },
         {
             "name": "justinrainbow/json-schema",
@@ -2095,12 +2095,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/occodicefiscale.git",
-                "reference": "daac5a8d2808168fd760892324797f0d6ac41395"
+                "reference": "2d040a819215d34f3117dc4911710c49ebd3670a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/occodicefiscale/zipball/daac5a8d2808168fd760892324797f0d6ac41395",
-                "reference": "daac5a8d2808168fd760892324797f0d6ac41395",
+                "url": "https://api.github.com/repos/OpencontentCoop/occodicefiscale/zipball/2d040a819215d34f3117dc4911710c49ebd3670a",
+                "reference": "2d040a819215d34f3117dc4911710c49ebd3670a",
                 "shasum": ""
             },
             "require": {
@@ -2121,7 +2121,7 @@
                 }
             ],
             "description": "OpenContent Codice Fiscale Datatype",
-            "time": "2020-09-30T15:03:20+00:00"
+            "time": "2021-01-04T09:03:59+00:00"
         },
         {
             "name": "opencontent/occsvimport-ls",
@@ -2159,16 +2159,16 @@
         },
         {
             "name": "opencontent/occustomfind-ls",
-            "version": "2.2.0",
+            "version": "2.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/occustomfind.git",
-                "reference": "0c8097d869a293cc7b099143f40211b2a61086c9"
+                "reference": "02458f365886c4b12ebc615fd8315851f8986c20"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/occustomfind/zipball/0c8097d869a293cc7b099143f40211b2a61086c9",
-                "reference": "0c8097d869a293cc7b099143f40211b2a61086c9",
+                "url": "https://api.github.com/repos/OpencontentCoop/occustomfind/zipball/02458f365886c4b12ebc615fd8315851f8986c20",
+                "reference": "02458f365886c4b12ebc615fd8315851f8986c20",
                 "shasum": ""
             },
             "require": {
@@ -2189,7 +2189,7 @@
                 }
             ],
             "description": "Opencontent Custom Find",
-            "time": "2020-11-30T17:32:13+00:00"
+            "time": "2021-01-11T20:47:23+00:00"
         },
         {
             "name": "opencontent/oceasyontology-ls",
@@ -2267,16 +2267,16 @@
         },
         {
             "name": "opencontent/ocembed-ls",
-            "version": "1.4.1",
+            "version": "1.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/ocembed.git",
-                "reference": "e8c990a9bcc284c2f48ac5688ee6e66ee6dd8043"
+                "reference": "5f6c2a64587acccfd8c9cb8394f6452095027fbc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/ocembed/zipball/e8c990a9bcc284c2f48ac5688ee6e66ee6dd8043",
-                "reference": "e8c990a9bcc284c2f48ac5688ee6e66ee6dd8043",
+                "url": "https://api.github.com/repos/OpencontentCoop/ocembed/zipball/5f6c2a64587acccfd8c9cb8394f6452095027fbc",
+                "reference": "5f6c2a64587acccfd8c9cb8394f6452095027fbc",
                 "shasum": ""
             },
             "require": {
@@ -2297,7 +2297,7 @@
                 }
             ],
             "description": "Opencontent oEmbed operators",
-            "time": "2019-01-21T18:39:05+00:00"
+            "time": "2021-01-07T14:26:45+00:00"
         },
         {
             "name": "opencontent/ocevents-ls",
@@ -2407,12 +2407,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/ocfoshttpcache.git",
-                "reference": "faa918c276a3f970b37a44e6320a54220c5d274d"
+                "reference": "5ab0d91a376efcef7820442f45319174fb727b2f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/ocfoshttpcache/zipball/faa918c276a3f970b37a44e6320a54220c5d274d",
-                "reference": "faa918c276a3f970b37a44e6320a54220c5d274d",
+                "url": "https://api.github.com/repos/OpencontentCoop/ocfoshttpcache/zipball/5ab0d91a376efcef7820442f45319174fb727b2f",
+                "reference": "5ab0d91a376efcef7820442f45319174fb727b2f",
                 "shasum": ""
             },
             "require": {
@@ -2436,7 +2436,7 @@
                 }
             ],
             "description": "OpenContent FosHttpCache for eZPublish Legacy",
-            "time": "2020-05-07T19:15:10+00:00"
+            "time": "2021-01-15T11:58:16+00:00"
         },
         {
             "name": "opencontent/ocgdprtools-ls",
@@ -2551,12 +2551,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/ocinstaller.git",
-                "reference": "7a4ec2b45a46b719b651ab695ccfbd2a3113297f"
+                "reference": "306ea1cd2604e8eb263ac871fd39a49f35b8b2c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/ocinstaller/zipball/7a4ec2b45a46b719b651ab695ccfbd2a3113297f",
-                "reference": "7a4ec2b45a46b719b651ab695ccfbd2a3113297f",
+                "url": "https://api.github.com/repos/OpencontentCoop/ocinstaller/zipball/306ea1cd2604e8eb263ac871fd39a49f35b8b2c4",
+                "reference": "306ea1cd2604e8eb263ac871fd39a49f35b8b2c4",
                 "shasum": ""
             },
             "require": {
@@ -2586,7 +2586,7 @@
                 "source": "https://github.com/OpencontentCoop/ocinstaller/tree/master",
                 "issues": "https://github.com/OpencontentCoop/ocinstaller/issues"
             },
-            "time": "2020-11-08T09:22:14+00:00"
+            "time": "2021-01-15T09:05:09+00:00"
         },
         {
             "name": "opencontent/ocmaintenance-ls",
@@ -2658,16 +2658,16 @@
         },
         {
             "name": "opencontent/ocmultibinary-ls",
-            "version": "2.2.5",
+            "version": "2.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/ocmultibinary.git",
-                "reference": "a376b22da83e125d35c9f1ff2b45212d6e3bd717"
+                "reference": "3e7de03632461ffd42f660458ca299dbbee0875e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/ocmultibinary/zipball/a376b22da83e125d35c9f1ff2b45212d6e3bd717",
-                "reference": "a376b22da83e125d35c9f1ff2b45212d6e3bd717",
+                "url": "https://api.github.com/repos/OpencontentCoop/ocmultibinary/zipball/3e7de03632461ffd42f660458ca299dbbee0875e",
+                "reference": "3e7de03632461ffd42f660458ca299dbbee0875e",
                 "shasum": ""
             },
             "require": {
@@ -2688,7 +2688,7 @@
                 }
             ],
             "description": "Opencontent Multibinary eZPublish Legacy Datatype",
-            "time": "2020-11-19T17:57:39+00:00"
+            "time": "2020-12-11T11:18:19+00:00"
         },
         {
             "name": "opencontent/ocopenapi-ls",
@@ -2728,16 +2728,16 @@
         },
         {
             "name": "opencontent/ocopendata-ls",
-            "version": "2.24.7",
+            "version": "2.25.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/ocopendata.git",
-                "reference": "addd6455c7cc56391ca1dbc10a2a17e7688c64eb"
+                "reference": "56faecf8eccfbf05115fa466f23024a12b184ea4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/ocopendata/zipball/addd6455c7cc56391ca1dbc10a2a17e7688c64eb",
-                "reference": "addd6455c7cc56391ca1dbc10a2a17e7688c64eb",
+                "url": "https://api.github.com/repos/OpencontentCoop/ocopendata/zipball/56faecf8eccfbf05115fa466f23024a12b184ea4",
+                "reference": "56faecf8eccfbf05115fa466f23024a12b184ea4",
                 "shasum": ""
             },
             "require": {
@@ -2758,20 +2758,20 @@
                 }
             ],
             "description": "Opencontent OpenData Extension",
-            "time": "2020-11-20T10:07:10+00:00"
+            "time": "2021-01-04T08:45:54+00:00"
         },
         {
             "name": "opencontent/ocopendata_forms-ls",
-            "version": "1.6.8",
+            "version": "1.6.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/ocopendata_forms.git",
-                "reference": "67b3bfcb7fa77044d1122781d09c68631d872d4b"
+                "reference": "f06d54aa9a54726f5700b2ed9d2fada7f267bde7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/ocopendata_forms/zipball/67b3bfcb7fa77044d1122781d09c68631d872d4b",
-                "reference": "67b3bfcb7fa77044d1122781d09c68631d872d4b",
+                "url": "https://api.github.com/repos/OpencontentCoop/ocopendata_forms/zipball/f06d54aa9a54726f5700b2ed9d2fada7f267bde7",
+                "reference": "f06d54aa9a54726f5700b2ed9d2fada7f267bde7",
                 "shasum": ""
             },
             "require": {
@@ -2792,7 +2792,7 @@
                 }
             ],
             "description": "Opencontent OpenData Forms Extension",
-            "time": "2020-11-18T23:26:15+00:00"
+            "time": "2021-01-11T11:13:51+00:00"
         },
         {
             "name": "opencontent/ocopendata_forms_design-ls",
@@ -3067,16 +3067,16 @@
         },
         {
             "name": "opencontent/openpa-ls",
-            "version": "3.12.0",
+            "version": "3.12.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/openpa.git",
-                "reference": "90cedd49c8ba1194ff9dd295c1d8926aa99c0578"
+                "reference": "c036b8835a32e052b8446abfa9afdc77a624eff7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/openpa/zipball/90cedd49c8ba1194ff9dd295c1d8926aa99c0578",
-                "reference": "90cedd49c8ba1194ff9dd295c1d8926aa99c0578",
+                "url": "https://api.github.com/repos/OpencontentCoop/openpa/zipball/c036b8835a32e052b8446abfa9afdc77a624eff7",
+                "reference": "c036b8835a32e052b8446abfa9afdc77a624eff7",
                 "shasum": ""
             },
             "require": {
@@ -3098,20 +3098,20 @@
                 }
             ],
             "description": "OpenContent OpenPA",
-            "time": "2020-12-08T15:57:19+00:00"
+            "time": "2021-01-04T09:11:44+00:00"
         },
         {
             "name": "opencontent/openpa_bootstrapitalia-ls",
-            "version": "1.2.1",
+            "version": "1.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/openpa_bootstrapitalia.git",
-                "reference": "7c7b685b075ffaeb47ed7585200066cc2a25349d"
+                "reference": "a2241ff915fdf01361a977d0b8c93965708d9878"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/openpa_bootstrapitalia/zipball/7c7b685b075ffaeb47ed7585200066cc2a25349d",
-                "reference": "7c7b685b075ffaeb47ed7585200066cc2a25349d",
+                "url": "https://api.github.com/repos/OpencontentCoop/openpa_bootstrapitalia/zipball/a2241ff915fdf01361a977d0b8c93965708d9878",
+                "reference": "a2241ff915fdf01361a977d0b8c93965708d9878",
                 "shasum": ""
             },
             "require": {
@@ -3134,7 +3134,7 @@
                 }
             ],
             "description": "Opencontent OpenPA Bootstrap Italia",
-            "time": "2020-12-09T11:44:13+00:00"
+            "time": "2021-01-15T11:54:28+00:00"
         },
         {
             "name": "opencontent/openpa_newsletter-ls",
@@ -3469,12 +3469,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-http/message.git",
-                "reference": "6e2c5745fc47cfd7365ed3c0b132d31df19dff62"
+                "reference": "d23ac28dd2787fb4786d7da5cd6df1ff28859e74"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-http/message/zipball/6e2c5745fc47cfd7365ed3c0b132d31df19dff62",
-                "reference": "6e2c5745fc47cfd7365ed3c0b132d31df19dff62",
+                "url": "https://api.github.com/repos/php-http/message/zipball/d23ac28dd2787fb4786d7da5cd6df1ff28859e74",
+                "reference": "d23ac28dd2787fb4786d7da5cd6df1ff28859e74",
                 "shasum": ""
             },
             "require": {
@@ -3531,7 +3531,7 @@
                 "message",
                 "psr-7"
             ],
-            "time": "2020-12-03T07:28:50+00:00"
+            "time": "2020-12-16T07:47:34+00:00"
         },
         {
             "name": "php-http/message-factory",
@@ -4197,12 +4197,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/cache.git",
-                "reference": "677a5099c363449fec777ab7e1fb1e7d8fe17ae7"
+                "reference": "1cda1e40ca68398f6335e09773c8819add8bfbfe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/cache/zipball/677a5099c363449fec777ab7e1fb1e7d8fe17ae7",
-                "reference": "677a5099c363449fec777ab7e1fb1e7d8fe17ae7",
+                "url": "https://api.github.com/repos/symfony/cache/zipball/1cda1e40ca68398f6335e09773c8819add8bfbfe",
+                "reference": "1cda1e40ca68398f6335e09773c8819add8bfbfe",
                 "shasum": ""
             },
             "require": {
@@ -4214,9 +4214,9 @@
                 "symfony/var-exporter": "^4.2|^5.0"
             },
             "conflict": {
-                "doctrine/dbal": "<2.5",
+                "doctrine/dbal": "<2.6",
                 "symfony/dependency-injection": "<3.4",
-                "symfony/http-kernel": "<4.4",
+                "symfony/http-kernel": "<4.4|>=5.0",
                 "symfony/var-dumper": "<4.4"
             },
             "provide": {
@@ -4227,13 +4227,13 @@
             "require-dev": {
                 "cache/integration-tests": "dev-master",
                 "doctrine/cache": "^1.6",
-                "doctrine/dbal": "^2.5|^3.0",
+                "doctrine/dbal": "^2.6|^3.0",
                 "predis/predis": "^1.1",
                 "psr/simple-cache": "^1.0",
                 "symfony/config": "^4.2|^5.0",
                 "symfony/dependency-injection": "^3.4|^4.1|^5.0",
                 "symfony/filesystem": "^4.4|^5.0",
-                "symfony/http-kernel": "^4.4|^5.0",
+                "symfony/http-kernel": "^4.4",
                 "symfony/var-dumper": "^4.4|^5.0"
             },
             "type": "library",
@@ -4259,7 +4259,7 @@
                     "homepage": "https://symfony.com/contributors"
                 }
             ],
-            "description": "Symfony Cache component with PSR-6, PSR-16, and tags",
+            "description": "Provides an extended PSR-6, PSR-16 (and tags) implementation",
             "homepage": "https://symfony.com",
             "keywords": [
                 "caching",
@@ -4279,7 +4279,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-12-08T10:44:58+00:00"
+            "time": "2021-01-14T15:08:15+00:00"
         },
         {
             "name": "symfony/cache-contracts",
@@ -4427,12 +4427,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
-                "reference": "aa13a09811e6d2ad43f8fb336bebdb7691d85d3c"
+                "reference": "a6ee5cbe972e90393ff92057f9708eeac7f3b73b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/aa13a09811e6d2ad43f8fb336bebdb7691d85d3c",
-                "reference": "aa13a09811e6d2ad43f8fb336bebdb7691d85d3c",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/a6ee5cbe972e90393ff92057f9708eeac7f3b73b",
+                "reference": "a6ee5cbe972e90393ff92057f9708eeac7f3b73b",
                 "shasum": ""
             },
             "require": {
@@ -4485,7 +4485,7 @@
                     "homepage": "https://symfony.com/contributors"
                 }
             ],
-            "description": "Symfony EventDispatcher Component",
+            "description": "Provides tools that allow your application components to communicate with each other by dispatching events and listening to them",
             "homepage": "https://symfony.com",
             "funding": [
                 {
@@ -4501,7 +4501,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-11-01T16:14:45+00:00"
+            "time": "2021-01-11T10:44:39+00:00"
         },
         {
             "name": "symfony/event-dispatcher-contracts",
@@ -4585,12 +4585,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/options-resolver.git",
-                "reference": "87a2a4a766244e796dd9cb9d6f58c123358cd986"
+                "reference": "4059853ccceaf451939a197ce0fefb0acd1124d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/options-resolver/zipball/87a2a4a766244e796dd9cb9d6f58c123358cd986",
-                "reference": "87a2a4a766244e796dd9cb9d6f58c123358cd986",
+                "url": "https://api.github.com/repos/symfony/options-resolver/zipball/4059853ccceaf451939a197ce0fefb0acd1124d6",
+                "reference": "4059853ccceaf451939a197ce0fefb0acd1124d6",
                 "shasum": ""
             },
             "require": {
@@ -4622,7 +4622,7 @@
                     "homepage": "https://symfony.com/contributors"
                 }
             ],
-            "description": "Symfony OptionsResolver Component",
+            "description": "Provides an improved replacement for the array_replace PHP function",
             "homepage": "https://symfony.com",
             "keywords": [
                 "config",
@@ -4643,7 +4643,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-24T12:08:07+00:00"
+            "time": "2021-01-11T10:44:39+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -4651,12 +4651,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
-                "reference": "fade6deebd931cfd7a544f68479405a6a08979a3"
+                "reference": "c6c942b1ac76c82448322025e084cadc56048b4e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/fade6deebd931cfd7a544f68479405a6a08979a3",
-                "reference": "fade6deebd931cfd7a544f68479405a6a08979a3",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/c6c942b1ac76c82448322025e084cadc56048b4e",
+                "reference": "c6c942b1ac76c82448322025e084cadc56048b4e",
                 "shasum": ""
             },
             "require": {
@@ -4668,7 +4668,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.21-dev"
+                    "dev-main": "1.22-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -4719,7 +4719,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-26T13:35:45+00:00"
+            "time": "2021-01-07T16:49:33+00:00"
         },
         {
             "name": "symfony/polyfill-intl-idn",
@@ -4727,12 +4727,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-idn.git",
-                "reference": "4c489fd2bc812f64494645354e0fb68d355ce3c7"
+                "reference": "0eb8293dbbcd6ef6bf81404c9ce7d95bcdf34f44"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/4c489fd2bc812f64494645354e0fb68d355ce3c7",
-                "reference": "4c489fd2bc812f64494645354e0fb68d355ce3c7",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/0eb8293dbbcd6ef6bf81404c9ce7d95bcdf34f44",
+                "reference": "0eb8293dbbcd6ef6bf81404c9ce7d95bcdf34f44",
                 "shasum": ""
             },
             "require": {
@@ -4746,7 +4746,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.21-dev"
+                    "dev-main": "1.22-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -4803,7 +4803,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-26T13:35:45+00:00"
+            "time": "2021-01-07T16:49:33+00:00"
         },
         {
             "name": "symfony/polyfill-intl-normalizer",
@@ -4811,12 +4811,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-normalizer.git",
-                "reference": "69609f9f06790591b4b13a45ee117e7bab6395aa"
+                "reference": "6e971c891537eb617a00bb07a43d182a6915faba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-normalizer/zipball/69609f9f06790591b4b13a45ee117e7bab6395aa",
-                "reference": "69609f9f06790591b4b13a45ee117e7bab6395aa",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-normalizer/zipball/6e971c891537eb617a00bb07a43d182a6915faba",
+                "reference": "6e971c891537eb617a00bb07a43d182a6915faba",
                 "shasum": ""
             },
             "require": {
@@ -4828,7 +4828,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.21-dev"
+                    "dev-main": "1.22-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -4884,7 +4884,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-26T13:35:45+00:00"
+            "time": "2021-01-07T17:09:11+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -4892,12 +4892,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "401c9d9d3400c53a8f1a39425f0543406c137a43"
+                "reference": "f377a3dd1fde44d37b9831d68dc8dea3ffd28e13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/401c9d9d3400c53a8f1a39425f0543406c137a43",
-                "reference": "401c9d9d3400c53a8f1a39425f0543406c137a43",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/f377a3dd1fde44d37b9831d68dc8dea3ffd28e13",
+                "reference": "f377a3dd1fde44d37b9831d68dc8dea3ffd28e13",
                 "shasum": ""
             },
             "require": {
@@ -4909,7 +4909,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.21-dev"
+                    "dev-main": "1.22-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -4961,7 +4961,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-26T13:35:45+00:00"
+            "time": "2021-01-07T16:49:33+00:00"
         },
         {
             "name": "symfony/polyfill-php72",
@@ -4969,12 +4969,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php72.git",
-                "reference": "4a4465f57b476085b62e74087f74ae2e753ff633"
+                "reference": "cc6e6f9b39fe8075b3dabfbaf5b5f645ae1340c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/4a4465f57b476085b62e74087f74ae2e753ff633",
-                "reference": "4a4465f57b476085b62e74087f74ae2e753ff633",
+                "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/cc6e6f9b39fe8075b3dabfbaf5b5f645ae1340c9",
+                "reference": "cc6e6f9b39fe8075b3dabfbaf5b5f645ae1340c9",
                 "shasum": ""
             },
             "require": {
@@ -4983,7 +4983,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.21-dev"
+                    "dev-main": "1.22-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -5034,7 +5034,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-26T13:35:45+00:00"
+            "time": "2021-01-07T16:49:33+00:00"
         },
         {
             "name": "symfony/polyfill-php73",
@@ -5042,12 +5042,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php73.git",
-                "reference": "8c0d39c1526009b97f43beea4cc685bbc353a70b"
+                "reference": "a678b42e92f86eca04b7fa4c0f6f19d097fb69e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php73/zipball/8c0d39c1526009b97f43beea4cc685bbc353a70b",
-                "reference": "8c0d39c1526009b97f43beea4cc685bbc353a70b",
+                "url": "https://api.github.com/repos/symfony/polyfill-php73/zipball/a678b42e92f86eca04b7fa4c0f6f19d097fb69e2",
+                "reference": "a678b42e92f86eca04b7fa4c0f6f19d097fb69e2",
                 "shasum": ""
             },
             "require": {
@@ -5056,7 +5056,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.21-dev"
+                    "dev-main": "1.22-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -5110,7 +5110,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-26T13:35:45+00:00"
+            "time": "2021-01-07T16:49:33+00:00"
         },
         {
             "name": "symfony/polyfill-php80",
@@ -5118,12 +5118,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php80.git",
-                "reference": "3a11f3dfb34ad50f978cb2b8cf936933b87739aa"
+                "reference": "dc3063ba22c2a1fd2f45ed856374d79114998f91"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/3a11f3dfb34ad50f978cb2b8cf936933b87739aa",
-                "reference": "3a11f3dfb34ad50f978cb2b8cf936933b87739aa",
+                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/dc3063ba22c2a1fd2f45ed856374d79114998f91",
+                "reference": "dc3063ba22c2a1fd2f45ed856374d79114998f91",
                 "shasum": ""
             },
             "require": {
@@ -5132,7 +5132,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.21-dev"
+                    "dev-main": "1.22-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -5190,7 +5190,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-26T13:35:45+00:00"
+            "time": "2021-01-07T16:49:33+00:00"
         },
         {
             "name": "symfony/service-contracts",
@@ -5274,12 +5274,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-exporter.git",
-                "reference": "fbc3507f23d263d75417e09a12d77c009f39676c"
+                "reference": "af3af2bf0adabb3b1e4044ad2aa6ee7cc53e1872"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-exporter/zipball/fbc3507f23d263d75417e09a12d77c009f39676c",
-                "reference": "fbc3507f23d263d75417e09a12d77c009f39676c",
+                "url": "https://api.github.com/repos/symfony/var-exporter/zipball/af3af2bf0adabb3b1e4044ad2aa6ee7cc53e1872",
+                "reference": "af3af2bf0adabb3b1e4044ad2aa6ee7cc53e1872",
                 "shasum": ""
             },
             "require": {
@@ -5312,7 +5312,7 @@
                     "homepage": "https://symfony.com/contributors"
                 }
             ],
-            "description": "A blend of var_export() + serialize() to turn any serializable data structure to plain PHP code",
+            "description": "Allows exporting any serializable PHP data structure to plain PHP code",
             "homepage": "https://symfony.com",
             "keywords": [
                 "clone",
@@ -5336,7 +5336,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-28T21:31:18+00:00"
+            "time": "2021-01-11T09:50:50+00:00"
         },
         {
             "name": "symfony/yaml",
@@ -5344,12 +5344,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "8fe9e4e3a4909131c58d78825948a9a50ef2e76e"
+                "reference": "dd3f77696d04158bc09849747748de3f4647aa80"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/8fe9e4e3a4909131c58d78825948a9a50ef2e76e",
-                "reference": "8fe9e4e3a4909131c58d78825948a9a50ef2e76e",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/dd3f77696d04158bc09849747748de3f4647aa80",
+                "reference": "dd3f77696d04158bc09849747748de3f4647aa80",
                 "shasum": ""
             },
             "require": {
@@ -5388,7 +5388,7 @@
                     "homepage": "https://symfony.com/contributors"
                 }
             ],
-            "description": "Symfony Yaml Component",
+            "description": "Loads and dumps YAML files",
             "homepage": "https://symfony.com",
             "funding": [
                 {
@@ -5404,7 +5404,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-12-04T08:57:25+00:00"
+            "time": "2021-01-11T14:27:16+00:00"
         },
         {
             "name": "thingengineer/mysqli-database-class",
@@ -6793,7 +6793,17 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "ext-json": "*"
+        "ext-dom": "*",
+        "ext-libxml": "*",
+        "ext-mbstring": "*",
+        "ext-pcre": "*",
+        "ext-json": "*",
+        "ext-iconv": "*",
+        "ext-reflection": "*",
+        "ext-session": "*",
+        "ext-spl": "*",
+        "ext-simplexml": "*",
+        "ext-curl": "*"
     },
     "platform-dev": [],
     "plugin-api-version": "1.1.0"
