@@ -31,12 +31,14 @@ NumberOfArchivedItems=0
 ManualAddingOfItems=enabled
 ViewList[]
 ViewList[]=default
+ViewList[]=alt
 #ViewList[]=card
 ViewList[]=card_image
 #ViewList[]=card_children
 ViewList[]=evidence
 ViewName[]
 ViewName[default]=Default
+ViewName[alt]=Testo più grande
 ViewName[card_image]=Card (solo immagine)
 ViewName[evidence]=In evidenza
 #ViewName[card]=Card
@@ -401,13 +403,19 @@ UseBrowseMode[node_id]=true
 CustomAttributes[]=root_tag
 CustomAttributes[]=hide_first_level
 CustomAttributes[]=hide_empty_facets
+CustomAttributes[]=hide_tag_select
+CustomAttributes[]=topic_node_id
 CustomAttributeNames[]
 CustomAttributeNames[root_tag]=Percorso tag classificazione
 CustomAttributeNames[hide_first_level]=Nascondi primo livello
 CustomAttributeNames[hide_empty_facets]=Nascondi tag senza contenuti
+CustomAttributeNames[hide_tag_select]=Nascondi menu laterale
+CustomAttributeNames[topic_node_id]=Argomenti
 CustomAttributeTypes[]
 CustomAttributeTypes[hide_first_level]=checkbox
 CustomAttributeTypes[hide_empty_facets]=checkbox
+CustomAttributeTypes[hide_tag_select]=checkbox
+CustomAttributeTypes[topic_node_id]=topic_select
 ViewList[]=default
 ViewName[]
 ViewName[default]=Default
