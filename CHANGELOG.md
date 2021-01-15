@@ -4,6 +4,93 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.1.2](https://gitlab.com/opencontent/opencity/compare/2.1.1...2.1.2) - 2021-01-15
+
+#### Installer
+- Update version to 2.1.2
+- Fix Modulistica layout
+- Add edit class trasparenza in Editor trasparenza
+- Add create folder in banner in Editor base role
+- Fix topic card_small_view extra
+- Fix politico extra
+- Add banner/topics field
+- Show label office/people
+- Add OpenCity Trasparenza CCT installer
+
+#### Code dependencies
+| Changes                               | From    | To       | Compare                                                                                |
+|---------------------------------------|:--------|:---------|:---------------------------------------------------------------------------------------|
+| aws/aws-sdk-php                       | 3.168.0 | 3.171.18 | [...](https://github.com/aws/aws-sdk-php/compare/3.168.0...3.171.18)                   |
+| opencontent/occodicefiscale-ls        | daac5a8 | 2d040a8  | [...](https://github.com/OpencontentCoop/occodicefiscale/compare/daac5a8...2d040a8)    |
+| opencontent/occustomfind-ls           | 2.2.0   | 2.2.1    | [...](https://github.com/OpencontentCoop/occustomfind/compare/2.2.0...2.2.1)           |
+| opencontent/ocembed-ls                | 1.4.1   | 1.4.2    | [...](https://github.com/OpencontentCoop/ocembed/compare/1.4.1...1.4.2)                |
+| opencontent/ocfoshttpcache-ls         | faa918c | 5ab0d91  | [...](https://github.com/OpencontentCoop/ocfoshttpcache/compare/faa918c...5ab0d91)     |
+| opencontent/ocinstaller               | 7a4ec2b | 306ea1c  | [...](https://github.com/OpencontentCoop/ocinstaller/compare/7a4ec2b...306ea1c)        |
+| opencontent/ocmultibinary-ls          | 2.2.5   | 2.3.0    | [...](https://github.com/OpencontentCoop/ocmultibinary/compare/2.2.5...2.3.0)          |
+| opencontent/ocopendata-ls             | 2.24.7  | 2.25.0   | [...](https://github.com/OpencontentCoop/ocopendata/compare/2.24.7...2.25.0)           |
+| opencontent/ocopendata_forms-ls       | 1.6.8   | 1.6.9    | [...](https://github.com/OpencontentCoop/ocopendata_forms/compare/1.6.8...1.6.9)       |
+| opencontent/openpa-ls                 | 3.12.0  | 3.12.1   | [...](https://github.com/OpencontentCoop/openpa/compare/3.12.0...3.12.1)               |
+| opencontent/openpa_bootstrapitalia-ls | 1.2.1   | 1.3.2    | [...](https://github.com/OpencontentCoop/openpa_bootstrapitalia/compare/1.2.1...1.3.2) |
+| php-http/message                      | 6e2c574 | d23ac28  | [...](https://github.com/php-http/message/compare/6e2c574...d23ac28)                   |
+| symfony/polyfill-ctype                | fade6de | c6c942b  | [...](https://github.com/symfony/polyfill-ctype/compare/fade6de...c6c942b)             |
+| symfony/polyfill-intl-idn             | 4c489fd | 0eb8293  | [...](https://github.com/symfony/polyfill-intl-idn/compare/4c489fd...0eb8293)          |
+| symfony/polyfill-intl-normalizer      | 69609f9 | 6e971c8  | [...](https://github.com/symfony/polyfill-intl-normalizer/compare/69609f9...6e971c8)   |
+| symfony/polyfill-mbstring             | 401c9d9 | f377a3d  | [...](https://github.com/symfony/polyfill-mbstring/compare/401c9d9...f377a3d)          |
+| symfony/polyfill-php72                | 4a4465f | cc6e6f9  | [...](https://github.com/symfony/polyfill-php72/compare/4a4465f...cc6e6f9)             |
+| symfony/polyfill-php73                | 8c0d39c | a678b42  | [...](https://github.com/symfony/polyfill-php73/compare/8c0d39c...a678b42)             |
+| symfony/polyfill-php80                | 3a11f3d | dc3063b  | [...](https://github.com/symfony/polyfill-php80/compare/3a11f3d...dc3063b)             |
+
+Relevant changes by repository:
+
+**[opencontent/occodicefiscale-ls changes between daac5a8 and 2d040a8](https://github.com/OpencontentCoop/occodicefiscale/compare/daac5a8...2d040a8)**
+* Espone i datatype in ocopendata_forms
+
+**[opencontent/occustomfind-ls changes between 2.2.0 and 2.2.1](https://github.com/OpencontentCoop/occustomfind/compare/2.2.0...2.2.1)**
+* Fix pending items runner
+
+**[opencontent/ocembed-ls changes between 1.4.1 and 1.4.2](https://github.com/OpencontentCoop/ocembed/compare/1.4.1...1.4.2)**
+* Evita la richiesta justcheckurl per workaround a problema youtube
+
+**[opencontent/ocfoshttpcache-ls changes between faa918c and 5ab0d91](https://github.com/OpencontentCoop/ocfoshttpcache/compare/faa918c...5ab0d91)**
+* Minor bugfix
+
+**[opencontent/ocinstaller changes between 7a4ec2b and 306ea1c](https://github.com/OpencontentCoop/ocinstaller/compare/7a4ec2b...306ea1c)**
+* Minor fixes
+
+**[opencontent/ocmultibinary-ls changes between 2.2.5 and 2.3.0](https://github.com/OpencontentCoop/ocmultibinary/compare/2.2.5...2.3.0)**
+* Allow to clear all files in fromString method
+
+**[opencontent/ocopendata-ls changes between 2.24.7 and 2.25.0](https://github.com/OpencontentCoop/ocopendata/compare/2.24.7...2.25.0)**
+* Permette di bypassare le policy di creazione/aggiornamento in api content repository
+
+**[opencontent/ocopendata_forms-ls changes between 1.6.8 and 1.6.9](https://github.com/OpencontentCoop/ocopendata_forms/compare/1.6.8...1.6.9)**
+* Impedisce l'invio del form alla pressione del tasto invio solo nell'ambito di alpaca-form
+
+**[opencontent/openpa-ls changes between 3.12.0 and 3.12.1](https://github.com/OpencontentCoop/openpa/compare/3.12.0...3.12.1)**
+* Aggiunge il protocollo (https per default) in aws dfs public handler
+
+**[opencontent/openpa_bootstrapitalia-ls changes between 1.2.1 and 1.3.2](https://github.com/OpencontentCoop/openpa_bootstrapitalia/compare/1.2.1...1.3.2)**
+* Corregge un problema che si potrebbe verificare nella reindicizzazione delle persone in creazione/aggiornamento ruoli
+* Corregge un bug di visualizzazione nel blocco Ricerca documenti
+* Introduce un nuovo datatype per poter decorare automaticamente una stringa
+* aggiunto nuovo tema Mediterraneo
+* aggiunto nuovo tema Mediterraneo
+* Merge pull request #8 from OpencontentCoop/new_verde_theme  aggiunto nuovo tema Mediterraneo
+* Inverte l'ordine degli attributi managed_by* nella visualizzazione full del topic
+* Aggiunge la categoria di attributo Concorsi
+* Corregge un bug sulla visualizzazione di default del topic
+* Disattiva di default la sincronizzazione della trasparenza
+* Redesign del blocco singolo (conforme a template bootstrapitalia)
+* Rimuove il nome file dalla visualizzazione di ezbinaryfile
+* Migliora il blocco ricerca_documento introducendo il filtro per argomenti
+* Semplifica le regole di visualizzazione delle pagina trasparenza
+* Permette di ricercare in tutto il sito i contenuti da relazionare nell'interfaccia ajax
+* Evidenza gli argomenti che hanno elementi figli nell'interfaccia di edit
+* Migliora la visualizzazione dei ruoli
+* Corregge alcuni bug minori
+
+
+
 
 ## [2.1.1](https://gitlab.com/opencontent/opencity/compare/2.1.0...2.1.1) - 2020-12-09
 - Add smart view cache for time_indexed_role
@@ -37,29 +124,29 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 Relevant changes by repository:
 
-** [opencontent/occustomfind-ls changes between 2.1.2 and 2.2.0](https://github.com/OpencontentCoop/occustomfind/compare/2.1.2...2.2.0) **
+**[opencontent/occustomfind-ls changes between 2.1.2 and 2.2.0](https://github.com/OpencontentCoop/occustomfind/compare/2.1.2...2.2.0)**
  * Handle async import
 
-** [opencontent/ocmultibinary-ls changes between 2.2.4 and 2.2.5](https://github.com/OpencontentCoop/ocmultibinary/compare/2.2.4...2.2.5) **
+**[opencontent/ocmultibinary-ls changes between 2.2.4 and 2.2.5](https://github.com/OpencontentCoop/ocmultibinary/compare/2.2.4...2.2.5)**
  * Add ini setting to configure allowed file extension per attribute
 
-** [opencontent/ocopenapi-ls changes between 1.3.2 and 1.3.3](https://github.com/OpencontentCoop/ocopenapi-ls/compare/1.3.2...1.3.3) **
+**[opencontent/ocopenapi-ls changes between 1.3.2 and 1.3.3](https://github.com/OpencontentCoop/ocopenapi-ls/compare/1.3.2...1.3.3)**
  * Fix bug in uri generation
  * fix typo
 
-** [opencontent/ocopendata-ls changes between 2.24.4 and 2.24.7](https://github.com/OpencontentCoop/ocopendata/compare/2.24.4...2.24.7) **
+**[opencontent/ocopendata-ls changes between 2.24.4 and 2.24.7](https://github.com/OpencontentCoop/ocopendata/compare/2.24.4...2.24.7)**
  * Corregge un bug che si verificava nella pubblicazione di contenuti in installazioni multilingua
  * Mantiene la stessa dimensione dell'array di risposta nelle richieste select-fields anche se manca la traduzione nella lingua corrente
  * opendataTools i18n visualizza la prima traduzione esistente qualora non esistesse nella lingua corrente né nella lingua di fallback
  * opendataTools corregge un bug sul metodo i18n
 
-** [opencontent/ocopendata_forms-ls changes between 1.6.7 and 1.6.8](https://github.com/OpencontentCoop/ocopendata_forms/compare/1.6.7...1.6.8) **
+**[opencontent/ocopendata_forms-ls changes between 1.6.7 and 1.6.8](https://github.com/OpencontentCoop/ocopendata_forms/compare/1.6.7...1.6.8)**
  * Permette di tradurre di un contenuto qualora si tenti di modificarlo in una lingua non ancora presente
 
-** [opencontent/openpa-ls changes between 3.11.1 and 3.12.0](https://github.com/OpencontentCoop/openpa/compare/3.11.1...3.12.0) **
+**[opencontent/openpa-ls changes between 3.11.1 and 3.12.0](https://github.com/OpencontentCoop/openpa/compare/3.11.1...3.12.0)**
  * Permette l'inserimento del codice Web Analytics Italia
 
-** [opencontent/openpa_bootstrapitalia-ls changes between 1.1.2 and 1.2.0](https://github.com/OpencontentCoop/openpa_bootstrapitalia/compare/1.1.2...1.2.0) **
+**[opencontent/openpa_bootstrapitalia-ls changes between 1.1.2 and 1.2.0](https://github.com/OpencontentCoop/openpa_bootstrapitalia/compare/1.1.2...1.2.0)**
  * Corregge la configurazione dei generatori di dataset
  * Corregge il meccanismo di moderazione per cui tutti i contenuti previsti dalle dashboard venivano sempre messi in moderazione
  * Corregge la visualizzazione delle date in apertura nelle card
@@ -131,10 +218,10 @@ Relevant changes by repository:
 
 Relevant changes by repository:
 
-** [opencontent/occsvimport-ls changes between 2.4.0 and 2.4.1](https://github.com/OpencontentCoop/occsvimport/compare/2.4.0...2.4.1)**
+**[opencontent/occsvimport-ls changes between 2.4.0 and 2.4.1](https://github.com/OpencontentCoop/occsvimport/compare/2.4.0...2.4.1)**
  * Quando scarica un file da remoto calcola il nome dall'header Content-Disposition filename
 
-** [opencontent/occustomfind-ls changes between 1.0 and 2.1.2](https://github.com/OpencontentCoop/occustomfind/compare/1.0...2.1.2)**
+**[opencontent/occustomfind-ls changes between 1.0 and 2.1.2](https://github.com/OpencontentCoop/occustomfind/compare/1.0...2.1.2)**
  * Add opendatadataset datatype Add repository provider
  * Bugfix in custom export
  * Fix wrong file position
@@ -142,17 +229,17 @@ Relevant changes by repository:
  * Fix bug in OpendataDatasetProvider
  * Fix bug in delete dataset gui
 
-** [opencontent/oceditorialstuff-ls changes between 2.4.2 and 2.5.0](https://github.com/OpencontentCoop/oceditorialstuff/compare/2.4.2...2.5.0)**
+**[opencontent/oceditorialstuff-ls changes between 2.4.2 and 2.5.0](https://github.com/OpencontentCoop/oceditorialstuff/compare/2.4.2...2.5.0)**
  * Permette la personalizzazione delle notifiche mail (per le azioni  OCEditorialStuffActionHandler::notifyOwner e  OCEditorialStuffActionHandler::notifyGroup)
 
-** [opencontent/ocinstaller changes between 35c8665 and 7a4ec2b](https://github.com/OpencontentCoop/ocinstaller/compare/35c8665...7a4ec2b)**
+**[opencontent/ocinstaller changes between 35c8665 and 7a4ec2b](https://github.com/OpencontentCoop/ocinstaller/compare/35c8665...7a4ec2b)**
  * Fix dump_tag_tree tool, add recaptcha3 installer
 
-** [opencontent/ocmultibinary-ls changes between 2.2.2 and 2.2.4](https://github.com/OpencontentCoop/ocmultibinary/compare/2.2.2...2.2.4)**
+**[opencontent/ocmultibinary-ls changes between 2.2.2 and 2.2.4](https://github.com/OpencontentCoop/ocmultibinary/compare/2.2.2...2.2.4)**
  * Add missing translation
  * Add error translations
 
-** [opencontent/ocopenapi-ls changes between 1.0.1 and 1.3.2](https://github.com/OpencontentCoop/ocopenapi-ls/compare/1.0.1...1.3.2)**
+**[opencontent/ocopenapi-ls changes between 1.0.1 and 1.3.2](https://github.com/OpencontentCoop/ocopenapi-ls/compare/1.0.1...1.3.2)**
  * Aggiunge un endpoint dedicato per gli attributi multibinary
  * Aggiunge le descrizioni degli endpoint multibinary
  * Permette il concatenamento di più endpoint provider
@@ -161,11 +248,11 @@ Relevant changes by repository:
  * Fix path generation in NodeClassesEndpointFactory
  * Fix bug in NodeClassesEndpointFactory path generation
 
-** [opencontent/openpa-ls changes between 3.10.8 and 3.11.1](https://github.com/OpencontentCoop/openpa/compare/3.10.8...3.11.1)**
+**[opencontent/openpa-ls changes between 3.10.8 and 3.11.1](https://github.com/OpencontentCoop/openpa/compare/3.10.8...3.11.1)**
  * Permette la configurazione di Google Recaptcha v3
  * Aggiorna le configurazioni degli attributi di classe direttamente dal openpa/recaptcha
 
-** [opencontent/openpa_bootstrapitalia-ls changes between 1.0.10 and 1.1.2](https://github.com/OpencontentCoop/openpa_bootstrapitalia/compare/1.0.10...1.1.2)**
+**[opencontent/openpa_bootstrapitalia-ls changes between 1.0.10 and 1.1.2](https://github.com/OpencontentCoop/openpa_bootstrapitalia/compare/1.0.10...1.1.2)**
  * Migliora la visualizzazione del pannello strumenti in funzione delle dahsboard collaborative
  * Corregge un problema del calendario per cui non veniva visualizzata correttamente la data di fine evento
  * Permette di modificare la singola traduzione dal pannello Info
