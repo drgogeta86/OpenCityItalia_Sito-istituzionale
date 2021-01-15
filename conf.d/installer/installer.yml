@@ -720,3 +720,10 @@ steps:
     -
         type: class
         identifier: politico_with_related
+        
+    -
+        type: content
+        current_version_le: 2.1.1
+        current_version_ge: 0.0.1
+        identifier: Modulistica
+        update: true
