@@ -2,6 +2,10 @@
 
 [![pipeline status](https://gitlab.com/opencontent/opencity/badges/master/pipeline.svg)](https://gitlab.com/opencontent/opencity/commits/master)
 [![license](https://img.shields.io/badge/license-GPL-blue.svg)](https://gitlab.com/opencontent/opencity/blob/master/LICENSE)
+[![issues](https://img.shields.io/badge/Issues-open-red?logo=gitlab)](https://gitlab.com/opencontent/opencity/-/issues)
+[![docker](https://img.shields.io/badge/docker-ready-blue?logo=docker)](https://gitlab.com/opencontent/opencity/container_registry)
+[![developersitalia](https://img.shields.io/badge/developers-italia-blue)](https://developers.italia.it/it/software/c_a116-comune-di-ala-comunweb)
+[![developersitalia](https://img.shields.io/badge/forum-italia-blue)](https://forum.italia.it/c/software-open-source-per-la-pa/49)
 
 Sito Istituzionale di un Comune Italiano, conforme alle linee guida di [Design Italia](https://designers.italia.it/progetti/siti-web-comuni/).
 
@@ -99,12 +103,32 @@ Con il comando che segue:
 si esegue la build dell'immagine docker dell'applicazione: vengono installate le dipendenze
 del sistema operativo e successivamente composer e le dipendenze applicative.
 
-### Local docker environment
+### Come provare Opencity
 
-Per avere un ambiente completo di demo o di sviluppo clonare
-il repository e dalla directory principale dare i comandi:
+Per avere un ambiente completo di demo e' necessario avere Docker installato
+sul proprio desktop. Una volta che docker è disponibile scaricare il file  
+[docker-compose.yml](https://gitlab.com/opencontent/opencity/-/raw/master/docker-compose.yml?inline=false) e posizionarsi nella directory dove si è scaricato il 
+file. A questo punto è sufficiente dare il comando:
 
 ```
+docker-compose up -d
+```
+
+Il prototipo di OpenCity sarà disponibile ai seguenti indirizzi:
+
+* [opencity.localtest.me](https://opencity.localtest.me)
+
+Il certificato usato per tutti i domini è un certificato autofirmato valido sul
+dominio `*.localtest.me`, quindi al primo collegamento si ottiene un warning
+con quasi tutti i moderni browser.
+
+### Come creare un ambiente di sviluppo locale
+
+Per avere un ambiente completo di sviluppo clonare
+il repository e dalla directory principale e dare i comandi:
+
+```
+mv docker-compose.override-dev.yml docker-compose.override.yml
 docker-compose up -d
 ```
 
