@@ -15,7 +15,7 @@ data:
                         block_id: 564803b7ce97a9f99e42d0d2ef086164
                         name: ''
                         type: Singolo
-                        view: default
+                        view: alt
                         custom_attributes:
                             color_style: ''
                             container_style: ''
@@ -68,7 +68,7 @@ data:
                         custom_attributes:
                             limite: 9
                             elementi_per_riga: 3
-                            includi_classi:	'banner,link'
+                            includi_classi: "banner,link"
                             color_style: bg-white
                             container_style: ''
                             node_id: $content_Banner_node
