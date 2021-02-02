@@ -38,6 +38,81 @@ Per maggiori informazioni è possibile consultare:
 
 Il prodotto è *stabile* e *production ready* e usato in produzione in diverse città Italiane. Lo sviluppo avviene in modo costante, sia su richiesta degli Enti utilizzatori, sia su iniziativa autonoma del _maintainer_.
 
+### Come provare Opencity
+
+Per avere un ambiente completo di demo e' necessario avere Docker installato
+sul proprio desktop. Una volta che docker è disponibile scaricare il file  
+[docker-compose.yml](https://gitlab.com/opencontent/opencity/-/raw/master/docker-compose.yml?inline=false) e posizionarsi nella directory dove si è scaricato il 
+file. A questo punto è sufficiente dare il comando:
+
+```
+docker-compose up -d
+```
+
+Il prototipo di OpenCity sarà disponibile ai seguenti indirizzi:
+
+* [opencity.localtest.me](https://opencity.localtest.me)
+
+E' possibile fare accesso come amministratore usando l'account:
+* utente:  `admin`
+* password: `change_password`
+
+Il certificato usato per tutti i domini è un certificato autofirmato valido sul
+dominio `*.localtest.me`, quindi al primo collegamento si ottiene un warning
+con quasi tutti i moderni browser.
+
+### Come creare un ambiente di sviluppo locale
+
+Per avere un ambiente completo di sviluppo clonare
+il repository e dalla directory principale e dare i comandi:
+
+```
+mv docker-compose.dev.yml docker-compose.override.yml
+docker-compose up -d
+```
+
+Il prototipo di OpenCity sarà disponibile ai seguenti indirizzi:
+
+* [opencity.localtest.me](https://opencity.localtest.me)
+* [opencity.localtest.me/backend](https://opencity.localtest.me/backend), per l'area riservata agli amministratori (l'utente di default con cui si accede è `admin/change_password`)
+* [solr.localtest.me/solr](https://solr.localtest.me/solr), per l'interfaccia amministrativa del motore di ricerca SOLR
+* [traefik.localtest.me:8080](https://traefik.localtest.me:8080) per l'interfaccia amministrativa di Traefik
+* [mailhog.opencity.localtest.me](https://mailhog.opencity.localtest.me/), le email inviate in questo ambiente sono visibili in questa interfaccia web
+* [pgweb.opencity.localtest.me](https://pgweb.opencity.localtest.me/), interfaccia web per il database PostgreSQL
+* [minio.opencity.localtest.me](https://minio.opencity.localtest.me/), interfaccia web per l'object storage
+
+Il certificato usato per tutti i domini è un wildcard self-signed certificate sul dominio *.localtest.me, quindi al primo collegamento si ottiene un warning.
+
+### Useful commands
+
+Per vedere i log di tutti container:
+
+    docker-compose logs -f --tail 20
+
+o solo uno di essi (ad esempio php):
+
+    docker-compose logs -f --tail 20 php
+
+Per ottenere una shell all'interno del container PHP, eseguire:
+
+    docker-compose exec php bash
+
+Per accedere al database da CLI:
+
+    docker-compose exec postgres bash
+    bash-4.4# psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$POSTGRES_DB"
+
+Per reindicizzare tutti i contenuti su SOLR:
+
+    docker-compose exec php bash -c 'cd html; php bin/php/updatesearchindex.php --allow-root-user'
+
+### Rebuild database from scratch
+
+Per ricreare il database dai dump del repository e tornare quindi al prototipo orginale è possibile eseguire
+
+    docker-compose exec php bash -c 'cd html; php vendor/bin/ocinstall --allow-root-user -sbackend --cleanup --embed-dfs-schema --no-interaction --languages=ita-IT,ita-PA ../installer/'
+
+
 ## Informazioni tecniche
 
 L'applicazione è sviluppata sul CMS Ez Publish e consta di codice PHP, 
@@ -89,6 +164,7 @@ Lo stack minimo di OpenCity è il seguente:
 Nel file `docker-compose.yml` vengono inoltre utilizzati:
   * Varnish per la cache dei contenuti
   * Traefik per il routing tra i diversi container
+  * Minio per lo storage dei file
 
 Le dipendenze del sistema operativo sono risolte nell'immagine da cui origina
 l'immagine di OpenCity, ovvero [opencontentcoop/ezpublish](https://hub.docker.com/r/opencontentcoop/ezpublish). Per i dettagli su questa immagine si rimanda
@@ -102,76 +178,6 @@ Con il comando che segue:
 
 si esegue la build dell'immagine docker dell'applicazione: vengono installate le dipendenze
 del sistema operativo e successivamente composer e le dipendenze applicative.
-
-### Come provare Opencity
-
-Per avere un ambiente completo di demo e' necessario avere Docker installato
-sul proprio desktop. Una volta che docker è disponibile scaricare il file  
-[docker-compose.yml](https://gitlab.com/opencontent/opencity/-/raw/master/docker-compose.yml?inline=false) e posizionarsi nella directory dove si è scaricato il 
-file. A questo punto è sufficiente dare il comando:
-
-```
-docker-compose up -d
-```
-
-Il prototipo di OpenCity sarà disponibile ai seguenti indirizzi:
-
-* [opencity.localtest.me](https://opencity.localtest.me)
-
-Il certificato usato per tutti i domini è un certificato autofirmato valido sul
-dominio `*.localtest.me`, quindi al primo collegamento si ottiene un warning
-con quasi tutti i moderni browser.
-
-### Come creare un ambiente di sviluppo locale
-
-Per avere un ambiente completo di sviluppo clonare
-il repository e dalla directory principale e dare i comandi:
-
-```
-mv docker-compose.override-dev.yml docker-compose.override.yml
-docker-compose up -d
-```
-
-Il prototipo di OpenCity sarà disponibile ai seguenti indirizzi:
-
-* [opencity.localtest.me](https://opencity.localtest.me)
-* [opencity.localtest.me/backend](https://opencity.localtest.me/backend), per l'area riservata agli amministratori (l'utente di default con cui si accede è `admin/change_password`)
-* [solr.localtest.me/solr](https://solr.localtest.me/solr), per l'interfaccia amministrativa del motore di ricerca SOLR
-* [traefik.localtest.me:8080](https://traefik.localtest.me:8080) per l'interfaccia amministrativa di Traefik
-* [mailhog.opencity.localtest.me](https://mailhog.opencity.localtest.me/), le email inviate in questo ambiente sono visibili in questa interfaccia web
-* [pgweb.opencity.localtest.me](https://pgweb.opencity.localtest.me/), interfaccia web per il database PostgreSQL
-* [minio.opencity.localtest.me](https://minio.opencity.localtest.me/), interfaccia web per l'object storage
-
-Il certificato usato per tutti i domini è un wildcard self-signed certificate sul dominio *.localtest.me, quindi al primo collegamento si ottiene un warning.
-
-### Useful commands
-
-Per vedere i log di tutti container:
-
-    docker-compose logs -f --tail 20
-
-o solo uno di essi (ad esempio php):
-
-    docker-compose logs -f --tail 20 php
-
-Per ottenere una shell all'interno del container PHP, eseguire:
-
-    docker-compose exec php bash
-
-Per accedere al database da CLI:
-
-    docker-compose exec postgres bash
-    bash-4.4# psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$POSTGRES_DB"
-
-Per reindicizzare tutti i contenuti su SOLR:
-
-    docker-compose exec php bash -c 'cd html; php bin/php/updatesearchindex.php --allow-root-user'
-
-### Rebuild database from scratch
-
-Per ricreare il database dai dump del repository e tornare quindi al prototipo orginale è possibile eseguire
-
-    docker-compose exec php bash -c 'cd html; php vendor/bin/ocinstall --allow-root-user -sbackend --cleanup --embed-dfs-schema --no-interaction --languages=ita-IT,ita-PA ../installer/'
 
 ### Continuous Integration
 
