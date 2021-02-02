@@ -41,8 +41,7 @@ Il prodotto è *stabile* e *production ready* e usato in produzione in diverse c
 ### Come provare Opencity
 
 Per avere un ambiente completo di demo e' necessario avere Docker installato
-sul proprio desktop. Una volta che docker è disponibile scaricare il file  
-[docker-compose.yml](https://gitlab.com/opencontent/opencity/-/raw/master/docker-compose.yml?inline=false) e posizionarsi nella directory dove si è scaricato il 
+sul proprio desktop. Una volta che docker è disponibile scaricare il file [docker-compose.yml](https://gitlab.com/opencontent/opencity/-/raw/master/docker-compose.yml?inline=false) e posizionarsi nella directory dove si è scaricato il 
 file. A questo punto è sufficiente dare il comando:
 
 ```
