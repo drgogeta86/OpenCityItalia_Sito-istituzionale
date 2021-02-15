@@ -3,6 +3,7 @@ services:
 
     php:
         image: registry.gitlab.com/opencontent/opencity/php:latest
+        entrypoint: /scripts/docker-entrypoint.sh php-fpm
         restart: unless-stopped
         depends_on:
             - minio
