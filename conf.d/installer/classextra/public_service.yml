@@ -131,6 +131,7 @@ attribute_group:
         has_processing_time: '1'
         has_temporal_coverage: '1'
         requires_service: '1'
+        average_processing_time: '1'
     ulteriori_informazioni:
         '*': 'Ulteriori informazioni'
         content_show_history: '1'
@@ -138,6 +139,7 @@ attribute_group:
         help: '1'
         relation_service: '1'
         news_and_updates: '1'
+        output_notes: '1'
 bootstrapitalia_icon:
     enabled:
         '*': '1'
@@ -191,6 +193,8 @@ table_view:
         service_theme: '1'
         type: '1'
         news_and_updates: '1'
+        average_processing_time: '1'
+        output_notes: '1'
     show_label:
         applicants: '1'
         has_authentication_method: '1'
@@ -204,6 +208,7 @@ table_view:
         type: '1'
         is_physically_available_at: '1'
         news_and_updates: '1'
+        requires_service: '1'
     show_link:
         has_channel: '1'
         has_online_contact_point: '1'
