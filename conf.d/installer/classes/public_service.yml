@@ -566,29 +566,6 @@ data_map:
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
-    requires_service:
-        identifier: requires_service
-        serialized_description_list:
-            always-available: ita-IT
-            ita-IT: 'collega un servizio a un altro servizio che è richiesto per espletare quello che si sta descrivendo '
-        serialized_name_list:
-            always-available: ita-IT
-            ita-IT: 'Servizi richiesti'
-        data_type_string: ezobjectrelationlist
-        placement: 30
-        is_searchable: 1
-        can_translate: 1
-        data_text5:
-            object_class: ''
-            selection_type: '0'
-            type: '2'
-            class_constraint_list:
-                - public_service
-            default_placement:
-                node_id: $contenttree_OpenCity_Servizi_node
-        serialized_data_text:
-            always-available: ita-IT
-            ita-IT: ''
     relation_service:
         identifier: relation_service
         serialized_description_list:
@@ -598,7 +575,7 @@ data_map:
             always-available: ita-IT
             ita-IT: 'Servizi correlati/Altri servizi'
         data_type_string: ezobjectrelationlist
-        placement: 31
+        placement: 30
         is_searchable: 1
         can_translate: 1
         data_text5:
@@ -621,7 +598,7 @@ data_map:
             always-available: ita-IT
             ita-IT: 'Giorni medi di attesa, dalla richiesta'
         data_type_string: ezinteger
-        placement: 32
+        placement: 31
         is_searchable: 1
         can_translate: 1
         serialized_data_text:
@@ -636,9 +613,32 @@ data_map:
             always-available: ita-IT
             ita-IT: 'Giorni massimi di attesa, dalla richiesta'
         data_type_string: ezinteger
+        placement: 32
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    requires_service:
+        identifier: requires_service
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'collega un servizio a un altro servizio che è richiesto per espletare quello che si sta descrivendo '
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Servizi richiesti'
+        data_type_string: ezobjectrelationlist
         placement: 33
         is_searchable: 1
         can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - public_service
+            default_placement:
+                node_id: $contenttree_OpenCity_Servizi_node
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
