@@ -7,6 +7,7 @@ attribute_group:
         audio: '1'
         body: '1'
         video: '1'
+        related_service: '1'
     dataset:
         '*': Dataset
         dataset: '1'
@@ -41,6 +42,8 @@ attribute_group:
         '*': 'Ulteriori informazioni'
         content_show_modified: '1'
         license: '1'
+    'hidden::corpo':
+        '*': 'corpo'
 bootstrapitalia_icon:
     enabled:
         '*': '1'
@@ -96,6 +99,7 @@ table_view:
         reading_time: '1'
         video: '1'
         files: '1'
+        related_service: '1'
     show_label:
         license: '1'
         title: '1'
@@ -103,6 +107,7 @@ table_view:
         attachment: '1'
         help: '1'
         location: '1'
+        related_service: '1'
 card_small_view:
     enabled:
         '*': '1'
