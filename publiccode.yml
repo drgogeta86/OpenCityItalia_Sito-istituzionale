@@ -1,155 +1,144 @@
-# This repository adheres to the publiccode.yml standard by including this 
-# metadata file that makes public software easily discoverable.
-# More info at https://github.com/italia/publiccode.yml
-
 publiccodeYmlVersion: '0.2'
 name: Comunweb
-releaseDate: '2020-06-18'
+releaseDate: '2021-03-05'
 url: 'https://gitlab.com/comune-di-ala/comunweb'
-softwareVersion: 2.1.2
+softwareVersion: 2.1.3
 developmentStatus: stable
 softwareType: standalone/web
 platforms:
-  - web
+    - web
 usedBy:
-  - Comune di Ala (TN)
-  - APSP Giudicarie Esteriori (Bleggio) (TN)
-  - APSP Pellizzano (TN)
-  - Consorzio Comuni Trentini (TN)
-  - Comune di Alfianello (BS)
-  - Comune di Borgo D'Aunania (TN)
-  - Comune di Bovegno (BS)
-  - Comune di Brescello (RE)
-  - Comune di Novella (TN)
-  - Comune di Novellara (RE)
-  - Comune di Ome (BS)
-  - Comune di Orzivecchi (BS)
-  - Comune di Pergine Valsugana (TN)
-  - Comune di Pezzaze (BS)
-  - Comune di Rovato (BS)
-  - Comune di San Michele all'Adige (TN)
-  - Comune di Tavagnacco
-  - Comune di Torbole Casaglia (BS)
-  - Comune di Udine (UD)
-  - Comune di Verolanuova (BS)
-  - Comune di Villachiara (BS)
-  - Comune Ville di Fiemme (TN)
-  - SIA Bassa Reggiana (RE)
+    - 'Comune di Ala (TN)'
+    - 'APSP Giudicarie Esteriori (Bleggio) (TN)'
+    - 'APSP Pellizzano (TN)'
+    - 'Consorzio Comuni Trentini (TN)'
+    - 'Comune di Alfianello (BS)'
+    - 'Comune di Borgo D''Aunania (TN)'
+    - 'Comune di Bovegno (BS)'
+    - 'Comune di Brescello (RE)'
+    - 'Comune di Novella (TN)'
+    - 'Comune di Novellara (RE)'
+    - 'Comune di Ome (BS)'
+    - 'Comune di Orzivecchi (BS)'
+    - 'Comune di Pergine Valsugana (TN)'
+    - 'Comune di Pezzaze (BS)'
+    - 'Comune di Rovato (BS)'
+    - 'Comune di San Michele all''Adige (TN)'
+    - 'Comune di Tavagnacco'
+    - 'Comune di Torbole Casaglia (BS)'
+    - 'Comune di Udine (UD)'
+    - 'Comune di Verolanuova (BS)'
+    - 'Comune di Villachiara (BS)'
+    - 'Comune Ville di Fiemme (TN)'
+    - 'SIA Bassa Reggiana (RE)'
 landingURL: 'https://gitlab.com/comune-di-ala/comunweb'
 logo: images/opencontent.png
 categories:
-  - content-management
-  - communications
-  - digital-citizenship
+    - content-management
+    - communications
+    - digital-citizenship
 maintenance:
-  type: community
-  contacts:
-    - name: Gabriele Francescotto
-      email: gabriele.francescotto@opencontent.it
-      phone: +39 0461 917437
-      affiliation: Opencontent SCARL
+    type: community
+    contacts:
+        -
+            name: 'Gabriele Francescotto'
+            email: gabriele.francescotto@opencontent.it
+            phone: '+39 0461 917437'
+            affiliation: 'Opencontent SCARL'
 legal:
-  license: GPL-2.0-only
-  mainCopyrightOwner: Comune di Ala
-  repoOwner: Comune di Ala (TN)
+    license: GPL-2.0-only
+    mainCopyrightOwner: 'Comune di Ala'
+    repoOwner: 'Comune di Ala (TN)'
 intendedAudience:
-  scope:
-    - local-authorities
-    - culture
-    - tourism
-    - government
-  countries:
-    - it
+    scope:
+        - local-authorities
+        - culture
+        - tourism
+        - government
+    countries:
+        - it
 localisation:
-  localisationReady: true
-  availableLanguages:
-    - it
+    localisationReady: true
+    availableLanguages:
+        - it
 it:
-  riuso:
-    codiceIPA: c_a116
-  conforme:
-    lineeGuidaDesign: true
-    modelloInteroperabilita: true
-    gdpr: true
-    misureMinimeSicurezza: true
+    riuso:
+        codiceIPA: c_a116
+    conforme:
+        lineeGuidaDesign: true
+        modelloInteroperabilita: true
+        gdpr: true
+        misureMinimeSicurezza: true
 description:
-  it:
-    shortDescription: Il sito web comunale
-    longDescription: >
-      E' un modello di sito web avanzato, adatto a promuovere i contenuti di un
-      ente locale in modalità multi-canale con un'esperienza utente molto
-      gradevole. Il sistema accompagna i redattori nella gestione dei contenuti,
-      rappresentati e strutturati secondo gli standard dell'informazione
-      previsti dalle "Linee Guida di Design di siti e servizi della PA"; i dati
-      vengono valorizzati anche attraverso gallerie fotografiche, calendari,
-      mappe, grafici e motori di ricerca. Pensato per le redazioni distribuite:
-      ogni funzionario interviene nel flusso di gestione in base alla propria
-      competenza. I comuni che lo adottano ottengono un duplice beneficio: nuovi
-      canali di dialogo con il cittadino e strumenti per gestire il processo di
-      trasformazione digitale. Comunweb nasce dalla collaborazione tra Consorzio
-      dei Comuni Trentini ed Team per la Trasformazione Digitale, volta a creare
-      un modello unico di interazione digitale tra cittadini e comuni in Italia;
-      il Comune di Ala è il primo tra questi.
-    documentation: 'https://comunweb-il-sito-comunale.readthedocs.io'
-    apiDocumentation: 'https://documenter.getpostman.com/view/7046499/S17tPncG'
-    features:
-      - Gestione collaborativa dei contenuti (bozze, workflow di pubblicazione, versioning)
-      - Conformità al modello di design previsto dalle Linee Guida di Design di siti e servizi della PA
-      - Conformità agli standard dell'informazione previsti dalle Linee Guida di Design di siti della PA
-      - Funzione di albo pretorio (rappresentazione, ricerca e importazione atti da sistemi di terze parti)
-      - Sezione amministrazione trasparente integrata (con guide e suggerimenti per il redattore)
-      - Multi-istanza (unica installazione per Unioni di Comuni)
-      - Supporto multilingue
-      - Predisposizione per il cloud (configurazioni disponibili per hosting servizi AWS qualificati AgID)
-      - Supporto configurazione cluster
-      - API in pubblicazione e consultazione per qualsiasi contenuto
-      - Motore di ricerca basato su filtri e faccette
-      - Generazione automatica di dataset (metadati DCAT-AP_IT) aggiornati in tempo reale (REST API)
-      - Integrazione con CKAN
-      - Informazioni geografiche con Nominatim (geocoder) e OpenStreetMap  (rappresentazione)
-    genericName: Sito web comunale
-    screenshots:
-      - images/comunweb01.png
-      - images/comunweb02.png
-      - images/comunweb03.png
-      - images/comunweb04.png
-      - images/comunweb05.png
-      - images/comunweb06.png
-      - images/comunweb07.png
-      - images/comunweb08.png
-      - images/comunweb09.png
-      - images/comunweb10.png
-      - images/comunweb11.png
-      - images/comunweb12.png
-      - images/comunweb13.png
-      - images/comunweb14.png
-      - images/comunweb15.png
-      - images/comunweb16.png
-      - images/comunweb17.png
-      - images/comunweb18.png
-      - images/comunweb19.png
-      - images/comunweb20.png
-      - images/comunweb21.png
-      - images/comunweb22.png
-      - images/comunweb23.png
-      - images/comunweb24.png
-      - images/comunweb25.png
-      - images/comunweb26.png
-      - images/comunweb27.png
+    it:
+        shortDescription: 'Il sito web comunale'
+        longDescription: "E' un modello di sito web avanzato, adatto a promuovere i contenuti di un ente locale in modalità multi-canale con un'esperienza utente molto gradevole. Il sistema accompagna i redattori nella gestione dei contenuti, rappresentati e strutturati secondo gli standard dell'informazione previsti dalle \"Linee Guida di Design di siti e servizi della PA\"; i dati vengono valorizzati anche attraverso gallerie fotografiche, calendari, mappe, grafici e motori di ricerca. Pensato per le redazioni distribuite: ogni funzionario interviene nel flusso di gestione in base alla propria competenza. I comuni che lo adottano ottengono un duplice beneficio: nuovi canali di dialogo con il cittadino e strumenti per gestire il processo di trasformazione digitale. Comunweb nasce dalla collaborazione tra Consorzio dei Comuni Trentini ed Team per la Trasformazione Digitale, volta a creare un modello unico di interazione digitale tra cittadini e comuni in Italia; il Comune di Ala è il primo tra questi.\n"
+        documentation: 'https://comunweb-il-sito-comunale.readthedocs.io'
+        apiDocumentation: 'https://documenter.getpostman.com/view/7046499/S17tPncG'
+        features:
+            - 'Gestione collaborativa dei contenuti (bozze, workflow di pubblicazione, versioning)'
+            - 'Conformità al modello di design previsto dalle Linee Guida di Design di siti e servizi della PA'
+            - 'Conformità agli standard dell''informazione previsti dalle Linee Guida di Design di siti della PA'
+            - 'Funzione di albo pretorio (rappresentazione, ricerca e importazione atti da sistemi di terze parti)'
+            - 'Sezione amministrazione trasparente integrata (con guide e suggerimenti per il redattore)'
+            - 'Multi-istanza (unica installazione per Unioni di Comuni)'
+            - 'Supporto multilingue'
+            - 'Predisposizione per il cloud (configurazioni disponibili per hosting servizi AWS qualificati AgID)'
+            - 'Supporto configurazione cluster'
+            - 'API in pubblicazione e consultazione per qualsiasi contenuto'
+            - 'Motore di ricerca basato su filtri e faccette'
+            - 'Generazione automatica di dataset (metadati DCAT-AP_IT) aggiornati in tempo reale (REST API)'
+            - 'Integrazione con CKAN'
+            - 'Informazioni geografiche con Nominatim (geocoder) e OpenStreetMap  (rappresentazione)'
+        genericName: 'Sito web comunale'
+        screenshots:
+            - images/comunweb01.png
+            - images/comunweb02.png
+            - images/comunweb03.png
+            - images/comunweb04.png
+            - images/comunweb05.png
+            - images/comunweb06.png
+            - images/comunweb07.png
+            - images/comunweb08.png
+            - images/comunweb09.png
+            - images/comunweb10.png
+            - images/comunweb11.png
+            - images/comunweb12.png
+            - images/comunweb13.png
+            - images/comunweb14.png
+            - images/comunweb15.png
+            - images/comunweb16.png
+            - images/comunweb17.png
+            - images/comunweb18.png
+            - images/comunweb19.png
+            - images/comunweb20.png
+            - images/comunweb21.png
+            - images/comunweb22.png
+            - images/comunweb23.png
+            - images/comunweb24.png
+            - images/comunweb25.png
+            - images/comunweb26.png
+            - images/comunweb27.png
 dependsOn:
-  open:
-    - name: PHP
-      versionMin: '7.2'
-    - name: PostgreSQL
-      versionMin: '9.6'
-    - name: Solr
-      versionMin: 4.10.1
-    - name: Varnish
-      versionMin: '4.0'
-      optional: true
-    - name: Traefik
-      optional: true
-      versionMin: '1.7.0'
-    - name: Docker
-      optional: true
-      versionMin: '18.09' 
+    open:
+        -
+            name: PHP
+            versionMin: '7.2'
+        -
+            name: PostgreSQL
+            versionMin: '9.6'
+        -
+            name: Solr
+            versionMin: 4.10.1
+        -
+            name: Varnish
+            versionMin: '4.0'
+            optional: true
+        -
+            name: Traefik
+            optional: true
+            versionMin: 1.7.0
+        -
+            name: Docker
+            optional: true
+            versionMin: '18.09'

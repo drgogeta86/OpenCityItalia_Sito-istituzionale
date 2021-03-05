@@ -4,6 +4,142 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.1.3](/compare/2.1.2...2.1.3) - 2021-03-05
+- Bump installer version
+- Reparent old topic in topic-tree installer
+- Add explicit entrypoint in docker-compose
+- Updated README
+- Add minio traefik label
+
+
+#### Installer
+- Add new topic-tree installer
+- Update trasparenza installer version to 0.0.9
+- Add public_service/average_processing_time and output_notes in class extra
+- Show online_contact_point/note in card_small_view
+- Add article/related_service class extra and hide first group label
+- fix public_service fields placements
+- Bugfix in demo installer
+
+#### Code dependencies
+| Changes                               | From        | To          | Compare                                                                                  |
+|---------------------------------------|-------------|-------------|------------------------------------------------------------------------------------------|
+| aws/aws-sdk-php                       | 3.171.18    | 3.173.22    | [...](https://github.com/aws/aws-sdk-php/compare/3.171.18...3.173.22)                    |
+| ezsystems/ezmultiupload-ls            | v5.3.1.2    | v5.3.1.3    | [...](https://github.com/ezsystems/ezmultiupload/compare/v5.3.1.2...v5.3.1.3)            |
+| ezsystems/ezpublish-legacy            | 2020.1000.1 | 2020.1000.3 | [...](https://github.com/Opencontent/ezpublish-legacy/compare/2020.1000.1...2020.1000.3) |
+| opencontent/cjwnewsletter-ls          | 3.0.4       | 3.0.5       | [...](https://github.com/Opencontent/cjw_newsletter/compare/3.0.4...3.0.5)               |
+| opencontent/ocbootstrap-ls            | 1.10.2      | 1.10.3      | [...](https://github.com/OpencontentCoop/ocbootstrap/compare/1.10.2...1.10.3)            |
+| opencontent/occodicefiscale-ls        | 2d040a8     | 24253b0     | [...](https://github.com/OpencontentCoop/occodicefiscale/compare/2d040a8...24253b0)      |
+| opencontent/occsvimport-ls            | 2.4.1       | 2.5.0       | [...](https://github.com/OpencontentCoop/occsvimport/compare/2.4.1...2.5.0)              |
+| opencontent/ocinstaller               | 306ea1c     | 955144f     | [...](https://github.com/OpencontentCoop/ocinstaller/compare/306ea1c...955144f)          |
+| opencontent/ocopenapi-ls              | 1.3.3       | 1.3.5       | [...](https://github.com/OpencontentCoop/ocopenapi-ls/compare/1.3.3...1.3.5)             |
+| opencontent/ocopendata-ls             | 2.25.0      | 2.25.1      | [...](https://github.com/OpencontentCoop/ocopendata/compare/2.25.0...2.25.1)             |
+| opencontent/ocopendata_forms-ls       | 1.6.9       | 1.6.10      | [...](https://github.com/OpencontentCoop/ocopendata_forms/compare/1.6.9...1.6.10)        |
+| opencontent/ocrecaptcha-ls            | 1.4         | 1.5         | [...](https://github.com/OpencontentCoop/ocrecaptcha/compare/1.4...1.5)                  |
+| opencontent/ocsearchtools-ls          | 1.10.9      | 1.11.0      | [...](https://github.com/OpencontentCoop/ocsearchtools/compare/1.10.9...1.11.0)          |
+| opencontent/ocsupport-ls              | 2ee7846     | 8071c61     | [...](https://github.com/OpencontentCoop/ocsupport/compare/2ee7846...8071c61)            |
+| opencontent/ocwebhookserver-ls        | aabd35a     | a60d571     | [...](https://github.com/OpencontentCoop/ocwebhookserver/compare/aabd35a...a60d571)      |
+| opencontent/openpa-ls                 | 3.12.1      | c68a756     | [...](https://github.com/OpencontentCoop/openpa/compare/3.12.1...c68a756)                |
+| opencontent/openpa_bootstrapitalia-ls | 1.3.2       | 1.4.9       | [...](https://github.com/OpencontentCoop/openpa_bootstrapitalia/compare/1.3.2...1.4.9)   |
+| opencontent/openpa_userprofile-ls     | 4c7a67e     | 3998da2     | [...](https://github.com/OpencontentCoop/openpa_userprofile/compare/4c7a67e...3998da2)   |
+| php-http/guzzle6-adapter              | 6f108cf     | 9d1a45e     | [...](https://github.com/php-http/guzzle6-adapter/compare/6f108cf...9d1a45e)             |
+| php-http/message                      | d23ac28     | 1.11.0      | [...](https://github.com/php-http/message/compare/d23ac28...1.11.0)                      |
+| psr/log                               | dd738d0     | a18c1e6     | [...](https://github.com/php-fig/log/compare/dd738d0...a18c1e6)                          |
+| symfony/cache-contracts               | 49a0e7a     | 648977a     | [...](https://github.com/symfony/cache-contracts/compare/49a0e7a...648977a)              |
+| symfony/deprecation-contracts         | d940483     | 49dc45a     | [...](https://github.com/symfony/deprecation-contracts/compare/d940483...49dc45a)        |
+| symfony/event-dispatcher-contracts    | 5e8ae4d     | 9b7cabf     | [...](https://github.com/symfony/event-dispatcher-contracts/compare/5e8ae4d...9b7cabf)   |
+| symfony/polyfill-intl-idn             | 0eb8293     | 3709eb8     | [...](https://github.com/symfony/polyfill-intl-idn/compare/0eb8293...3709eb8)            |
+| symfony/polyfill-intl-normalizer      | 6e971c8     | 43a0283     | [...](https://github.com/symfony/polyfill-intl-normalizer/compare/6e971c8...43a0283)     |
+| symfony/polyfill-mbstring             | f377a3d     | 5232de9     | [...](https://github.com/symfony/polyfill-mbstring/compare/f377a3d...5232de9)            |
+| symfony/service-contracts             | 90388a3     | e830e6c     | [...](https://github.com/symfony/service-contracts/compare/90388a3...e830e6c)            |
+
+
+Relevant changes by repository:
+
+**[opencontent/cjwnewsletter-ls changes between 3.0.4 and 3.0.5](https://github.com/Opencontent/cjw_newsletter/compare/3.0.4...3.0.5)**
+* Fix typo in translation
+
+**[opencontent/ocbootstrap-ls changes between 1.10.2 and 1.10.3](https://github.com/OpencontentCoop/ocbootstrap/compare/1.10.2...1.10.3)**
+* Corregge una vulnerabilità XSS
+
+**[opencontent/occodicefiscale-ls changes between 2d040a8 and 24253b0](https://github.com/OpencontentCoop/occodicefiscale/compare/2d040a8...24253b0)**
+* Corregge un bug nel connettore di ocdescriptionboolean
+* Aggiunge la validazione del codice fiscale nel connettore opendata
+
+**[opencontent/occsvimport-ls changes between 2.4.1 and 2.5.0](https://github.com/OpencontentCoop/occsvimport/compare/2.4.1...2.5.0)**
+* Permette l'inserimento di eztags come stringhe semplici Espone gli errori di import in Progression notes Corregge il parsing del csv
+* Permette di specificare la lingua di importazione
+
+**[opencontent/ocinstaller changes between 306ea1c and 955144f](https://github.com/OpencontentCoop/ocinstaller/compare/306ea1c...955144f)**
+* Add deprecate_topic installer step
+* Allow deprecate topic without replacement
+* Avoid error in DeprecateTopic installer
+
+**[opencontent/ocopenapi-ls changes between 1.3.3 and 1.3.5](https://github.com/OpencontentCoop/ocopenapi-ls/compare/1.3.3...1.3.5)**
+* Minor bugfix
+* Allow multi classAttributeId in RelationsEndpointFactory
+* Allow multi classAttributeId in RelationsEndpointFactory
+
+**[opencontent/ocopendata-ls changes between 2.25.0 and 2.25.1](https://github.com/OpencontentCoop/ocopendata/compare/2.25.0...2.25.1)**
+* Corregge un bug nella validazione api delle relazioni
+
+**[opencontent/ocopendata_forms-ls changes between 1.6.9 and 1.6.10](https://github.com/OpencontentCoop/ocopendata_forms/compare/1.6.9...1.6.10)**
+* Corregge alcuni bug minori
+* Corregge un bug nella ricerca del punto sulla mappa nel contesto di un form dinamico
+
+**[opencontent/ocrecaptcha-ls changes between 1.4 and 1.5](https://github.com/OpencontentCoop/ocrecaptcha/compare/1.4...1.5)**
+* Verifica la presenza del valore post in validateObjectAttributeHTTPInput
+* Verifica la presenza del valore post in validateCollectionAttributeHTTPInput
+* Disabilita il connettore recaptcha se l'utente corrente è autenticato
+
+**[opencontent/ocsearchtools-ls changes between 1.10.9 and 1.11.0](https://github.com/OpencontentCoop/ocsearchtools/compare/1.10.9...1.11.0)**
+* Rimuove di default le cache calendartaxonomy e calendarquery che vanno attivate qualora di utilizzino le funzionalità
+
+**[opencontent/ocsupport-ls changes between 2ee7846 and 8071c61](https://github.com/OpencontentCoop/ocsupport/compare/2ee7846...8071c61)**
+* Add changelog tools
+* changelog bugfixes
+* Fix tag listing tool
+* Bugifx in tag list
+
+**[opencontent/ocwebhookserver-ls changes between aabd35a and a60d571](https://github.com/OpencontentCoop/ocwebhookserver/compare/aabd35a...a60d571)**
+* Allow payload customizations via trigger configuration
+* Fix custom payload check in webhook edit
+
+**[opencontent/openpa-ls changes between 3.12.1 and c68a756](https://github.com/OpencontentCoop/openpa/compare/3.12.1...c68a756)**
+* Add redis cluster connector verbose logs
+* Minor bugfix
+
+**[opencontent/openpa_bootstrapitalia-ls changes between 1.3.2 and 1.4.9](https://github.com/OpencontentCoop/openpa_bootstrapitalia/compare/1.3.2...1.4.9)**
+* Corregge un problema di visualizzazione in ricerca documenti
+* Corregge un bug nella pagina trasparenza
+* Corregge un errore grave nella logica di visualizzazione della pagina trasparenza
+* Corregge una vulnerabilità XSS
+* Corregge un bug nella paginazione della dashboard Segnalazioni degli utenti
+* Introduce la paginazione per le Persone che compongono la struttura Corregge alcuni bug di configurazione
+* Permette di escludere l'immagine principale dalla visualizzazione full
+* Corregge un bug per cui non veniva visualizzata l'immagine principale nella galleria in caso di opzione attivata Mostra solo galleria
+* Aggiunge l'indice extra geo per office public_organization public_service administrative_area
+* Permette la ricerca con gli apici doppi nel blocco contenuti remoti
+* Corregge un problema del tema mediterraneo
+* Introduce la funzionalità delle dashboard remote (beta)
+* Corregge un bug al connettore remote dashboard import
+* Permette di rendere il menu laterale navigabile (da configurazione ini)
+* Corregge un bug di visualizzazione di Chrome nell'immagine del blocco singolo di default
+* Corregge il blocco contenuti remoti nel caso si visualizzino contenuti locali con un prefisso di siteaccess
+* Migliora l'usabilità del selettore delle lingue
+* Permette di nascondere l'etichetta di un gruppo di attributi
+* Merge branch 'feature-lang-switcher'
+* Aumenta l'abstract visualizzato in banner a 160 caratteri
+* Permette di eseguire una ricerca nel contesto content/browse
+* Considera la tipologia di configurazione di accesso host_uri nel selettore delle lingue
+* Mostra gli argomenti figli sotto alla descrizione dell'argomento (controllato da show_topic_children) Mostra la descrizione dell'argomento a tutto ingombro se non sono presenti aree o organi politici relazionati Controlla la visibilità degli argomenti in caso di argomenti non accessibili all'anonimo Imposta il boost del topic nel motore di ricerca
+* Nasconde gli argomenti deprecati dal menu
+* Nasconde gli argomenti deprecati dal blocco argomenti
+
+**[opencontent/openpa_userprofile-ls changes between 4c7a67e and 3998da2](https://github.com/OpencontentCoop/openpa_userprofile/compare/4c7a67e...3998da2)**
+* Corregge una vulnerabilità XSS
+
+
 ## [2.1.2](https://gitlab.com/opencontent/opencity/compare/2.1.1...2.1.2) - 2021-01-15
 
 #### Installer
