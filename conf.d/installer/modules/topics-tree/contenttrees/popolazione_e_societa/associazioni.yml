@@ -1,5 +1,5 @@
 metadata:
-    remoteId: topic_2_associazioni
+    remoteId: topic_7
     classIdentifier: topic
     sectionIdentifier: standard
     languages:
@@ -8,7 +8,6 @@ data:
     ita-IT:
         name: Associazioni
         eu: 'http://eurovoc.europa.eu/2944'
-        abstract: ''
 sort_data:
     sort_field: 9
     sort_order: 1

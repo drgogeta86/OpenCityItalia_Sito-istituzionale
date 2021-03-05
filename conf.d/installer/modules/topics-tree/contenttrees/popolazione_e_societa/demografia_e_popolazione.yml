@@ -1,5 +1,5 @@
 metadata:
-    remoteId: topic_2_demografia_e_popolazione
+    remoteId: topic_24
     classIdentifier: topic
     sectionIdentifier: standard
     languages:
@@ -8,7 +8,6 @@ data:
     ita-IT:
         name: 'Demografia e popolazione'
         eu: 'http://eurovoc.europa.eu/100210'
-        abstract: ''
 sort_data:
     sort_field: 9
     sort_order: 1

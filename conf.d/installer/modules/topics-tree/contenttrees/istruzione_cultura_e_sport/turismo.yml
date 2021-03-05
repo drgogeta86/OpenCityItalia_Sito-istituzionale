@@ -1,5 +1,5 @@
 metadata:
-    remoteId: topic_2_turismo
+    remoteId: 158a858d0fe4b8a9d0fe5d50c3605cb2
     classIdentifier: topic
     sectionIdentifier: standard
     languages:
@@ -8,7 +8,6 @@ data:
     ita-IT:
         name: Turismo
         eu: 'http://eurovoc.europa.eu/4470'
-        abstract: ''
 sort_data:
     sort_field: 9
     sort_order: 1

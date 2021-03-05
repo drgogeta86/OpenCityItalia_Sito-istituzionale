@@ -1,5 +1,5 @@
 metadata:
-    remoteId: topic_3_politiche_familiari
+    remoteId: 2eb5ffa8cfbb467dee3026fd6ab7464c
     classIdentifier: topic
     sectionIdentifier: standard
     languages:
@@ -8,7 +8,6 @@ data:
     ita-IT:
         name: 'Politiche familiari'
         eu: 'http://eurovoc.europa.eu/2501'
-        abstract: ''
 sort_data:
     sort_field: 9
     sort_order: 1

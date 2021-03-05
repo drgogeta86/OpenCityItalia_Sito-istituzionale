@@ -1,5 +1,5 @@
 metadata:
-    remoteId: topic_2_strade_e_viabilita
+    remoteId: topic_37
     classIdentifier: topic
     sectionIdentifier: standard
     languages:
@@ -8,7 +8,6 @@ data:
     ita-IT:
         name: 'Strade e viabilità'
         eu: 'http://eurovoc.europa.eu/3438'
-        abstract: ''
 sort_data:
     sort_field: 9
     sort_order: 1

@@ -1,5 +1,5 @@
 metadata:
-    remoteId: topic_2_procedura_elettorale_e_voto
+    remoteId: fe63739f7047ad84533d1055c9380444
     classIdentifier: topic
     sectionIdentifier: standard
     languages:
@@ -8,7 +8,6 @@ data:
     ita-IT:
         name: 'Procedura elettorale e voto'
         eu: 'http://eurovoc.europa.eu/4750'
-        abstract: ''
 sort_data:
     sort_field: 9
     sort_order: 1

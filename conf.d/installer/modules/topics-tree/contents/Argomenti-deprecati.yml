@@ -14,7 +14,7 @@ data:
         abstract: ''
         description: ''
         image: {  }
-        show_children: 0
+        show_children: 1
         icon: it-settings
         show_topics: 0
         show_search_form: 0

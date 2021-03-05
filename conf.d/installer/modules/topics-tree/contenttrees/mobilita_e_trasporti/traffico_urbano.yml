@@ -1,5 +1,5 @@
 metadata:
-    remoteId: topic_2_traffico_urbano
+    remoteId: topic_35
     classIdentifier: topic
     sectionIdentifier: standard
     languages:
@@ -8,7 +8,6 @@ data:
     ita-IT:
         name: 'Traffico urbano'
         eu: 'http://eurovoc.europa.eu/6849'
-        abstract: ''
 sort_data:
     sort_field: 9
     sort_order: 1
