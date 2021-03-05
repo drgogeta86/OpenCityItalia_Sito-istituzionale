@@ -1,5 +1,5 @@
 metadata:
-    remoteId: topic_13
+    remoteId: topic_1_energia
     classIdentifier: topic
     sectionIdentifier: standard
     languages:
@@ -7,7 +7,8 @@ metadata:
 data:
     ita-IT:
         name: Energia
-        eu: '(riferimento in via di definizione)'
+        eu: 'http://publications.europa.eu/resource/authority/data-theme/ENER'
+        abstract: '<p>In questo tema rientra tutto ciò che concerne il settore dell’energia e dell’estrazione mineraria.</p>'
 sort_data:
     sort_field: 9
     sort_order: 1

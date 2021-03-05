@@ -1,5 +1,5 @@
 metadata:
-    remoteId: topic_28
+    remoteId: topic_1_salute
     classIdentifier: topic
     sectionIdentifier: standard
     languages:
@@ -7,7 +7,8 @@ metadata:
 data:
     ita-IT:
         name: Salute
-        eu: '(riferimento in via di definizione)'
+        eu: 'http://publications.europa.eu/resource/authority/data-theme/HEAL'
+        abstract: '<p>In questo tema rientra tutto ciò che concerne le attività sulla salute e tutto ciò che riguarda gli animali.</p>'
 sort_data:
     sort_field: 9
     sort_order: 1

@@ -1,0 +1,15 @@
+metadata:
+    remoteId: topic_2_tempo_libero
+    classIdentifier: topic
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        name: 'Tempo libero'
+        eu: 'http://eurovoc.europa.eu/1700'
+        abstract: ''
+sort_data:
+    sort_field: 9
+    sort_order: 1
+    priority: 0

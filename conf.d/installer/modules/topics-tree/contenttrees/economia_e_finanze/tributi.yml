@@ -1,0 +1,15 @@
+metadata:
+    remoteId: topic_2_tributi
+    classIdentifier: topic
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        name: Tributi
+        eu: 'http://eurovoc.europa.eu/100206'
+        abstract: ''
+sort_data:
+    sort_field: 9
+    sort_order: 1
+    priority: 0

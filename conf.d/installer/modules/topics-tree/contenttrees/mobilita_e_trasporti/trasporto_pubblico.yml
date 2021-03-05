@@ -1,0 +1,15 @@
+metadata:
+    remoteId: topic_2_trasporto_pubblico
+    classIdentifier: topic
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        name: 'Trasporto pubblico'
+        eu: 'http://eurovoc.europa.eu/4531'
+        abstract: ''
+sort_data:
+    sort_field: 9
+    sort_order: 1
+    priority: 0

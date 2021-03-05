@@ -1,0 +1,15 @@
+metadata:
+    remoteId: topic_1_mobilita_e_trasporti
+    classIdentifier: topic
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        name: 'Mobilità e trasporti'
+        eu: 'http://publications.europa.eu/resource/authority/data-theme/TRAN'
+        abstract: '<p>In questo tema rientra tutto ciò che riguarda i trasporti e le relative infrastrutture, la mobilità.</p>'
+sort_data:
+    sort_field: 9
+    sort_order: 1
+    priority: 0

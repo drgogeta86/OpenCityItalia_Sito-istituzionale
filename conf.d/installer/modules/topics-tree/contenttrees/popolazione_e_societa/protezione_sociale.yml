@@ -1,0 +1,15 @@
+metadata:
+    remoteId: topic_2_protezione_sociale
+    classIdentifier: topic
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        name: 'Protezione sociale'
+        eu: 'http://eurovoc.europa.eu/4050'
+        abstract: ''
+sort_data:
+    sort_field: 9
+    sort_order: 1
+    priority: 0

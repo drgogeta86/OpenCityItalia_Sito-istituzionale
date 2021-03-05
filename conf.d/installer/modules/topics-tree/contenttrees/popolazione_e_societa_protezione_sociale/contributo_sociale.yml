@@ -1,0 +1,15 @@
+metadata:
+    remoteId: topic_3_contributo_sociale
+    classIdentifier: topic
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        name: 'Contributo sociale'
+        eu: 'http://eurovoc.europa.eu/250'
+        abstract: ''
+sort_data:
+    sort_field: 9
+    sort_order: 1
+    priority: 0

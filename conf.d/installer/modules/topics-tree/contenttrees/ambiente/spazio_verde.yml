@@ -1,0 +1,15 @@
+metadata:
+    remoteId: topic_2_spazio_verde
+    classIdentifier: topic
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        name: 'Spazio verde'
+        eu: 'http://eurovoc.europa.eu/861'
+        abstract: ''
+sort_data:
+    sort_field: 9
+    sort_order: 1
+    priority: 0

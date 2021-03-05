@@ -1,0 +1,15 @@
+metadata:
+    remoteId: topic_2_finanze
+    classIdentifier: topic
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        name: Finanze
+        eu: 'http://eurovoc.europa.eu/100148'
+        abstract: ''
+sort_data:
+    sort_field: 9
+    sort_order: 1
+    priority: 0

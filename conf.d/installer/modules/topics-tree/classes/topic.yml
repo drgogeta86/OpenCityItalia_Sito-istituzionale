@@ -84,6 +84,7 @@ data_map:
         placement: 4
         is_searchable: 1
         can_translate: 1
+        category: hidden
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
@@ -94,7 +95,7 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'vocabolario controllato già esistente'
+            ita-IT: 'Vocabolario controllato già esistente'
         data_type_string: eztext
         placement: 5
         is_searchable: 1
@@ -133,6 +134,7 @@ data_map:
         is_searchable: 1
         can_translate: 1
         data_int1: 2
+        category: hidden
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
@@ -152,6 +154,7 @@ data_map:
         data_int3: 1
         data_int4: 1
         data_text1: Tree
+        category: hidden
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
@@ -242,6 +245,20 @@ data_map:
                 - online_contact_point
             default_placement:
                 node_id: $content_Punti-di-contatto_node
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    show_topic_children:
+        identifier: show_topic_children
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Mostra i link agli argomenti figli nella descrizione'
+        data_type_string: ezboolean
+        placement: 14
+        can_translate: 1
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''

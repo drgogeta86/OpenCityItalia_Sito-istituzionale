@@ -1,0 +1,15 @@
+metadata:
+    remoteId: topic_3_politiche_giovanili
+    classIdentifier: topic
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        name: 'Politiche giovanili'
+        eu: 'http://eurovoc.europa.eu/6215'
+        abstract: ''
+sort_data:
+    sort_field: 9
+    sort_order: 1
+    priority: 0

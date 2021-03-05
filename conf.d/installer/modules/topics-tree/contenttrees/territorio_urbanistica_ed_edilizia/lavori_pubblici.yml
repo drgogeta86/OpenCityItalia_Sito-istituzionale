@@ -1,0 +1,15 @@
+metadata:
+    remoteId: topic_3_lavori_pubblici
+    classIdentifier: topic
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        name: 'Lavori pubblici'
+        eu: 'http://eurovoc.europa.eu/4565'
+        abstract: ''
+sort_data:
+    sort_field: 9
+    sort_order: 1
+    priority: 0

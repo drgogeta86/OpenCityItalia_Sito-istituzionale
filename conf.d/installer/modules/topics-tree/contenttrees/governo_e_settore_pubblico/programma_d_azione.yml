@@ -1,0 +1,15 @@
+metadata:
+    remoteId: topic_2_programma_d_azione
+    classIdentifier: topic
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        name: 'Programma d''azione'
+        eu: 'http://eurovoc.europa.eu/2792'
+        abstract: ''
+sort_data:
+    sort_field: 9
+    sort_order: 1
+    priority: 0

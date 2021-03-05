@@ -1,0 +1,15 @@
+metadata:
+    remoteId: topic_3_integrazione_sociale
+    classIdentifier: topic
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        name: 'Integrazione sociale'
+        eu: 'http://eurovoc.europa.eu/1469'
+        abstract: ''
+sort_data:
+    sort_field: 9
+    sort_order: 1
+    priority: 0

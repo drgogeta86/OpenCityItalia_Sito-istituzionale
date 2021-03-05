@@ -1,0 +1,323 @@
+name: 'OpenCity Topics Tree'
+type: module
+version: 0.0.1
+variables:
+    -
+        name: identifier
+        value: 'OpenPABase::getCurrentSiteaccessIdentifier'
+    -
+        name: root_node
+        value: 'ini(NodeSettings,RootNode,content.ini)'
+    -
+        name: do_update
+        value: 1
+    -
+        name: do_remove_locations
+        value: 1
+    -
+        name: content_Images_node
+        value: 51
+steps:
+    -
+        type: content
+        identifier: Argomenti
+    -
+        type: content
+        identifier: Aree-amministrative
+    -
+        type: content
+        identifier: Organi-politici
+    -
+        type: content
+        identifier: Punti-di-contatto
+    -
+        type: class
+        identifier: topic
+    -
+        type: contenttree
+        identifier: topics
+        parent: $content_Argomenti_node
+        update: $do_update
+        remove_locations: $do_remove_locations
+    -
+        type: contenttree
+        identifier: ambiente
+        parent: $contenttree_topics_ambiente_node
+        update: $do_update
+        remove_locations: $do_remove_locations
+    -
+        type: contenttree
+        identifier: ambiente_politica_dell_ambiente
+        parent: $contenttree_ambiente_politica_dell_ambiente_node
+        update: $do_update
+        remove_locations: $do_remove_locations
+    -
+        type: contenttree
+        identifier: ambiente_politica_dell_ambiente_acqua
+        parent: $contenttree_ambiente_politica_dell_ambiente_acqua_node
+        update: $do_update
+        remove_locations: $do_remove_locations
+    -
+        type: contenttree
+        identifier: ambiente_politica_dell_ambiente_gestione_dei_rifiuti
+        parent: $contenttree_ambiente_politica_dell_ambiente_gestione_dei_rifiuti_node
+        update: $do_update
+        remove_locations: $do_remove_locations
+    -
+        type: contenttree
+        identifier: ambiente_protezione_del_paesaggio
+        parent: $contenttree_ambiente_protezione_del_paesaggio_node
+        update: $do_update
+        remove_locations: $do_remove_locations
+    -
+        type: contenttree
+        identifier: agricoltura
+        parent: $contenttree_topics_agricoltura_node
+        update: $do_update
+        remove_locations: $do_remove_locations
+    -
+        type: contenttree
+        identifier: cultura
+        parent: $contenttree_topics_cultura_node
+        update: $do_update
+        remove_locations: $do_remove_locations
+    -
+        type: contenttree
+        identifier: cultura_istruzione
+        parent: $contenttree_cultura_istruzione_node
+        update: $do_update
+        remove_locations: $do_remove_locations
+    -
+        type: contenttree
+        identifier: cultura_educazione_e_formazione
+        parent: $contenttree_cultura_educazione_e_formazione_node
+        update: $do_update
+        remove_locations: $do_remove_locations
+    -
+        type: contenttree
+        identifier: cultura_educazione_e_formazione_formazione_professionale
+        parent: $contenttree_cultura_educazione_e_formazione_formazione_professionale_node
+        update: $do_update
+        remove_locations: $do_remove_locations
+    -
+        type: contenttree
+        identifier: cultura_sport
+        parent: $contenttree_cultura_sport_node
+        update: $do_update
+        remove_locations: $do_remove_locations
+    -
+        type: contenttree
+        identifier: cultura_turismo
+        parent: $contenttree_cultura_turismo_node
+        update: $do_update
+        remove_locations: $do_remove_locations
+    -
+        type: contenttree
+        identifier: economia
+        parent: $contenttree_topics_economia_node
+        update: $do_update
+        remove_locations: $do_remove_locations
+    -
+        type: contenttree
+        identifier: economia_attivita_produttive_e_commercio
+        parent: $contenttree_economia_attivita_produttive_e_commercio_node
+        update: $do_update
+        remove_locations: $do_remove_locations
+    -
+        type: contenttree
+        identifier: economia_attivita_produttive_e_commercio_impresa
+        parent: $contenttree_economia_attivita_produttive_e_commercio_impresa_node
+        update: $do_update
+        remove_locations: $do_remove_locations
+    -
+        type: contenttree
+        identifier: economia_attivita_produttive_e_commercio_attivita_del_settore_turistico
+        parent: $contenttree_economia_attivita_produttive_e_commercio_attivita_del_settore_turistico_node
+        update: $do_update
+        remove_locations: $do_remove_locations
+    -
+        type: contenttree
+        identifier: economia_tributi_e_finanze
+        parent: $contenttree_economia_tributi_e_finanze_node
+        update: $do_update
+        remove_locations: $do_remove_locations
+    -
+        type: contenttree
+        identifier: economia_contributi_e_rimborsi
+        parent: $contenttree_economia_contributi_e_rimborsi_node
+        update: $do_update
+        remove_locations: $do_remove_locations
+    -
+        type: contenttree
+        identifier: energia
+        parent: $contenttree_topics_energia_node
+        update: $do_update
+        remove_locations: $do_remove_locations
+    -
+        type: contenttree
+        identifier: energia_energia_dolce
+        parent: $contenttree_energia_energia_dolce_node
+        update: $do_update
+        remove_locations: $do_remove_locations
+    -
+        type: contenttree
+        identifier: giustizia
+        parent: $contenttree_topics_giustizia_node
+        update: $do_update
+        remove_locations: $do_remove_locations
+    -
+        type: contenttree
+        identifier: giustizia_sicurezza_pubblica
+        parent: $contenttree_giustizia_sicurezza_pubblica_node
+        update: $do_update
+        remove_locations: $do_remove_locations
+    -
+        type: contenttree
+        identifier: governo
+        parent: $contenttree_topics_governo_node
+        update: $do_update
+        remove_locations: $do_remove_locations
+    -
+        type: contenttree
+        identifier: governo_vita_istituzionale
+        parent: $contenttree_governo_vita_istituzionale_node
+        update: $do_update
+        remove_locations: $do_remove_locations
+    -
+        type: contenttree
+        identifier: governo_comunicazione
+        parent: $contenttree_governo_comunicazione_node
+        update: $do_update
+        remove_locations: $do_remove_locations
+    -
+        type: contenttree
+        identifier: governo_democrazia_partecipativa
+        parent: $contenttree_governo_democrazia_partecipativa_node
+        update: $do_update
+        remove_locations: $do_remove_locations
+    -
+        type: contenttree
+        identifier: salute
+        parent: $contenttree_topics_salute_node
+        update: $do_update
+        remove_locations: $do_remove_locations
+    -
+        type: contenttree
+        identifier: salute_malattia_infettiva
+        parent: $contenttree_salute_malattia_infettiva_node
+        update: $do_update
+        remove_locations: $do_remove_locations
+    -
+        type: contenttree
+        identifier: salute_strutture_sanitarie
+        parent: $contenttree_salute_strutture_sanitarie_node
+        update: $do_update
+        remove_locations: $do_remove_locations
+    -
+        type: contenttree
+        identifier: societa
+        parent: $contenttree_topics_societa_node
+        update: $do_update
+        remove_locations: $do_remove_locations
+    -
+        type: contenttree
+        identifier: societa_protezione_sociale
+        parent: $contenttree_societa_protezione_sociale_node
+        update: $do_update
+        remove_locations: $do_remove_locations
+    -
+        type: contenttree
+        identifier: societa_vita_lavorativa
+        parent: $contenttree_societa_vita_lavorativa_node
+        update: $do_update
+        remove_locations: $do_remove_locations
+    -
+        type: contenttree
+        identifier: societa_anagrafe_e_stato_civile
+        parent: $contenttree_societa_anagrafe_e_stato_civile_node
+        update: $do_update
+        remove_locations: $do_remove_locations
+    -
+        type: contenttree
+        identifier: tecnologia
+        parent: $contenttree_topics_tecnologia_node
+        update: $do_update
+        remove_locations: $do_remove_locations
+    -
+        type: contenttree
+        identifier: tecnologia_informazione_ed_elaborazione_dell_informazione
+        parent: $contenttree_tecnologia_informazione_ed_elaborazione_dell_informazione_node
+        update: $do_update
+        remove_locations: $do_remove_locations
+    -
+        type: contenttree
+        identifier: tecnologia_informazione_ed_elaborazione_dell_informazione_accesso_all_informazione
+        parent: $contenttree_tecnologia_informazione_ed_elaborazione_dell_informazione_accesso_all_informazione_node
+        update: $do_update
+        remove_locations: $do_remove_locations
+    -
+        type: contenttree
+        identifier: territorio
+        parent: $contenttree_topics_territorio_node
+        update: $do_update
+        remove_locations: $do_remove_locations
+    -
+        type: contenttree
+        identifier: territorio_urbanistica_ed_edilizia
+        parent: $contenttree_territorio_urbanistica_ed_edilizia_node
+        update: $do_update
+        remove_locations: $do_remove_locations
+    -
+        type: contenttree
+        identifier: territorio_urbanistica_ed_edilizia_edilizia_pubblica
+        parent: $contenttree_territorio_urbanistica_ed_edilizia_edilizia_pubblica_node
+        update: $do_update
+        remove_locations: $do_remove_locations
+    -
+        type: contenttree
+        identifier: territorio_urbanistica_ed_edilizia_edilizia_privata
+        parent: $contenttree_territorio_urbanistica_ed_edilizia_edilizia_privata_node
+        update: $do_update
+        remove_locations: $do_remove_locations
+    -
+        type: contenttree
+        identifier: territorio_catasto
+        parent: $contenttree_territorio_catasto_node
+        update: $do_update
+        remove_locations: $do_remove_locations
+    -
+        type: contenttree
+        identifier: territorio_citta_intelligente
+        parent: $contenttree_territorio_citta_intelligente_node
+        update: $do_update
+        remove_locations: $do_remove_locations
+    -
+        type: contenttree
+        identifier: mobilita
+        parent: $contenttree_topics_mobilita_node
+        update: $do_update
+        remove_locations: $do_remove_locations
+    -
+        type: contenttree
+        identifier: mobilita_politica_dei_trasporti
+        parent: $contenttree_mobilita_politica_dei_trasporti_node
+        update: $do_update
+        remove_locations: $do_remove_locations
+    -
+        type: contenttree
+        identifier: mobilita_organizzazione_dei_trasporti
+        parent: $contenttree_mobilita_organizzazione_dei_trasporti_node
+        update: $do_update
+        remove_locations: $do_remove_locations
+    -
+        type: contenttree
+        identifier: mobilita_organizzazione_dei_trasporti_trasporto_pubblico
+        parent: $contenttree_mobilita_organizzazione_dei_trasporti_trasporto_pubblico_node
+        update: $do_update
+        remove_locations: $do_remove_locations
+    -
+        type: contenttree
+        identifier: mobilita_veicoli
+        parent: $contenttree_mobilita_veicoli_node
+        update: $do_update
+        remove_locations: $do_remove_locations

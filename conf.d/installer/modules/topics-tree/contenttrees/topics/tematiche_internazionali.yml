@@ -1,0 +1,15 @@
+metadata:
+    remoteId: topic_1_tematiche_internazionali
+    classIdentifier: topic
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        name: 'Tematiche internazionali'
+        eu: 'http://publications.europa.eu/resource/authority/data-theme/INTR'
+        abstract: '<p>In questo tema rientra tutto ciò che concerne le relazioni internazionali, la cooperazione internazionale, i diritti umanitari, le organizzazioni internazionali e gli affari esteri.</p>'
+sort_data:
+    sort_field: 9
+    sort_order: 1
+    priority: 0

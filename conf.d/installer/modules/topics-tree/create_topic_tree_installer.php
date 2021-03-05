@@ -4,6 +4,8 @@ require 'autoload.php';
 use Google\Spreadsheet\DefaultServiceRequest;
 use Google\Spreadsheet\ServiceRequestFactory;
 use Google\Spreadsheet\SpreadsheetService;
+use Opencontent\I18n\GoogleSheetCsvParser;
+use Opencontent\Installer\Dumper\Tool;
 use Symfony\Component\Yaml\Yaml;
 
 $cli = eZCLI::instance();
@@ -19,14 +21,20 @@ $options = $script->getOptions();
 $script->initialize();
 $script->setUseDebugAccumulators(true);
 
+$dryRun = false;
+
 $installerDir = realpath('../conf.d/installer/modules/topics-tree/');
+$oldInstallerDir = realpath('../conf.d/installer/contenttrees/Argomenti/');
+if (!is_dir($installerDir)) {
+    $installerDir = realpath('../installer/modules/topics-tree/');
+    $oldInstallerDir = realpath('../installer/contenttrees/Argomenti/');
+}
 $cli->output("Installer path ", false);
 $cli->warning($installerDir);
 
 $cli->output("Get data from spreadsheet ", false);
-$googleSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1yjmIsOQBclMDW2y2Z45ODVqrPCUn3om4kBMcxXoNDHQ';
-$googleSpreadsheetTemp = explode('/',
-    str_replace('https://docs.google.com/spreadsheets/d/', '', $googleSpreadsheetUrl));
+$googleSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1cOBaRlibj5A8E2pshQ1xDRfD7pd1pwAw7QInxrbTK9Y';
+$googleSpreadsheetTemp = explode('/', str_replace('https://docs.google.com/spreadsheets/d/', '', $googleSpreadsheetUrl));
 $googleSpreadsheetId = array_shift($googleSpreadsheetTemp);
 $serviceRequest = new DefaultServiceRequest("");
 ServiceRequestFactory::setInstance($serviceRequest);
@@ -39,117 +47,44 @@ $sheets = array();
 foreach ($entries as $entry) {
     $sheets[] = $entry->getTitle();
 }
-$choice = 0;
-if (count($sheets) > 1) {
-    $menu = new ezcConsoleMenuDialog($output);
-    $menu->options = new ezcConsoleMenuDialogOptions();
-    $menu->options->text = "Please choose a possibility:\n";
-    $menu->options->validator = new ezcConsoleMenuDialogDefaultValidator($sheets);
-    $choice = ezcConsoleDialogViewer::displayDialog($menu);
-}
+//$choice = 0;
+//if (count($sheets) > 1) {
+//    $menu = new ezcConsoleMenuDialog($output);
+//    $menu->options = new ezcConsoleMenuDialogOptions();
+//    $menu->options->text = "Please choose a possibility:\n";
+//    $menu->options->validator = new ezcConsoleMenuDialogDefaultValidator($sheets);
+//    $choice = ezcConsoleDialogViewer::displayDialog($menu);
+//}
+$choice = 2;
 $worksheet = $worksheetFeed->getByTitle($sheets[$choice]);
-$csvData = $worksheet->getCsv();
 $cli->warning('ok');
+$csv = GoogleSheetCsvParser::parse($worksheet, true, true);
 
-$cli->output("Parse date ", false);
-$tempFile = "temp_topics.csv";
-eZFile::create($tempFile, false, $csvData);
-$csvFile = @fopen($tempFile, 'r');
-$i = 0;
-$headers = [];
-$csv = [];
-while ($data = fgetcsv($csvFile, 100000)) {
-    if ($i == 0) // First line, handle headers
-    {
-        $headers = [];
-        foreach ($data as $item) {
-            $headers[] = trim($item);
-        }
-        $i++;
-        unset($data);
-        continue;
-    }
-
-    $rowData = array();
-    for ($j = 0, $jMax = count($headers); $j < $jMax; ++$j) {
-        $rowData[$headers[$j]] = $data[$j];
-    }
-
-    unset($data);
-    $csv[] = $rowData;
-    unset($rowData);
-    $i++;
-}
-unlink($tempFile);
-
-
-function createContent($name, $directory)
+function createContent($name, $directory, $row, $level)
 {
-    global $installerDir, $cli;
+    global $dryRun, $cli;
 
     static $avoidDuplicates = [];
 
     $slug = eZCharTransform::instance()->transformByGroup($name, 'identifier');
+    $remoteId = "topic_{$level}_{$slug}";
+    if ($dryRun) {
+
+        if (!isset($avoidDuplicates[$directory . '/' . $slug])) {
+            $avoidDuplicates[$directory . '/' . $slug] = true;
+            $cli->warning($directory . '/', false);
+            $cli->output($slug . ' ' . $name);
+        }
+
+        return $slug;
+    }
+
     $filename = $slug . '.yml';
 
     if (!file_exists($directory . '/' . $filename)) {
         $cli->output("Create file $filename in $directory");
-
-        $remoteIdMapper = [
-            'residenza' => 'topic_1',
-            'acqua' => 'topic_2',
-            'educazione e formazione' => 'topic_3',
-            'animale domestico' => 'topic_4',
-            'previdenza e pensioni' => 'topic_5',
-            'parcheggio' => 'topic_6',
-            'associazionismo culturale' => 'topic_7',
-            'vita istituzionale' => 'cf8eb21cf8b5c6743ae1caa2bc050c88',
-            'comunicazione' => 'topic_9',
-            'vita lavorativa' => 'topic_10',
-            'cultura' => 'bd5192a42244b7e5a0dc4ac0830bce83',
-            'edilizia pubblica' => 'topic_12',
-            'energia' => 'topic_13',
-            'politiche familiari' => '2eb5ffa8cfbb467dee3026fd6ab7464c',
-            'scuola d\'infanzia' => 'topic_15',
-            'formazione professionale' => 'topic_16',
-            'gestione dei rifiuti' => 'topic_17',
-            'politiche giovanili' => 'topic_18',
-            'immigrazione' => 'topic_19',
-            'attività produttive e commercio' => 'dfa6ed0f6ceeddbc718c6280e53b9385',
-            'informazione ed elaborazione dell\'informazione' => 'topic_20',
-            'inquinamento' => 'topic_21',
-            'integrazione sociale' => 'topic_22',
-            'istruzione' => 'topic_23',
-            'matrimonio' => 'topic_24',
-            'democrazia partecipativa' => 'fe63739f7047ad84533d1055c9380444',
-            'comunicazione politica' => 'topic_26',
-            'protezione sociale' => 'topic_27',
-            'salute' => 'topic_28',
-            'giustizia' => 'topic_29',
-            'sicurezza pubblica' => 'topic_30',
-            'spazio verde' => 'topic_31',
-            'sport' => 'topic_32',
-            'università' => 'topic_33',
-            'tempo libero' => 'fc5ef422eef5373ea6019423b5ad55a0',
-            'organizzazione dei trasporti' => 'topic_35',
-            'politica dei trasporti' => 'topic_36',
-            'strade' => 'topic_37',
-            'turismo' => '158a858d0fe4b8a9d0fe5d50c3605cb2',
-            'urbanistica ed edilizia' => 'topic_39'
-        ];
-
-        $remoteIdSeek = strtolower(trim($name));
-        $remoteId = isset($remoteIdMapper[$remoteIdSeek]) ? $remoteIdMapper[$remoteIdSeek] : $slug;
-
-        if (isset($avoidDuplicates[$remoteId])) {
-            throw new Exception("Duplicate $remoteId {$avoidDuplicates[$remoteId]}");
-        }
-
-        $avoidDuplicates[$remoteId] = $directory . '/' . $slug;
-
         $name = str_replace('À', 'à', $name);
         $contentName = ucfirst(strtolower(trim($name)));
-
         $content = [
             'metadata' => [
                 'remoteId' => $remoteId,
@@ -160,7 +95,8 @@ function createContent($name, $directory)
             'data' => [
                 'ita-IT' => [
                     'name' => $contentName,
-                    'eu' => '(riferimento in via di definizione)',
+                    'eu' => empty($row['Link']) ? '(in definizione)' : $row['Link'],
+                    'abstract' => !empty($row['Abstract']) ? '<p>' . $row['Abstract'] . '</p>' : '',
                 ],
             ],
             'sort_data' => [
@@ -172,11 +108,15 @@ function createContent($name, $directory)
         $data = Yaml::dump($content, 10);
         eZFile::create($filename, $directory, $data);
     }
+
+    return $remoteId;
 }
 
 function createDir($list, $parent)
 {
-    global $installerDir, $cli;
+    global $installerDir, $dryRun, $cli;
+
+    static $avoidDuplicates = [];
 
     static $parents = [];
 
@@ -194,44 +134,106 @@ function createDir($list, $parent)
     $name = implode('_', $name);
     $directory = $installerDir . '/contenttrees/' . $name;
 
+    if ($dryRun) {
+        if (!isset($avoidDuplicates[$directory])) {
+            $avoidDuplicates[$directory] = true;
+            $cli->error($directory . ' identifier: ' . $name . ', parent: $' . "{$prefix}_{$parent}_node");
+        }
+        return $directory;
+    }
+
     if (!is_dir($directory)) {
         $cli->output("Create directory $name");
         eZDir::mkdir($directory, false, true);
 
-        \Opencontent\Installer\Dumper\Tool::appendToInstallerSteps($installerDir, [
+        Tool::appendToInstallerSteps($installerDir, [
             'type' => 'contenttree',
             'identifier' => $name,
             'parent' => '$' . $prefix . '_' . $parent . '_node',
             'update' => '$do_update',
-            'remove_locations' => '$do_remove_locations',
+//            'remove_locations' => '$do_remove_locations',
         ], true);
     }
 
     return $directory;
 }
 
+$map = [];
+$avoidDuplicated = [];
 foreach ($csv as $row) {
-    $label1 = $row['Label 1 livello'];
-    $label2 = $row['Label 2 livello'];
-    $label3 = $row['Label 3 livello'];
-    $label4 = $row['Label 4 livello'];
+    $label1 = $row['I LIV'];
+    $label2 = $row['II LIV'];
+    $label3 = $row['III LIV'];
+
+    $topic = false;
 
     if (!empty($label1)) {
-        createContent($label1, createDir(['topics'], 'Argomenti'));
+        $topic = createContent(
+            $label1,
+            createDir(['topics'], 'Argomenti'),
+            $row,
+            1
+        );
     }
     if (!empty($label2)) {
         $dir1 = createDir([$label1], 'topics_' . $label1);
-        createContent($label2, $dir1);
+        $topic = createContent(
+            $label2,
+            $dir1,
+            $row,
+            2
+        );
     }
     if (!empty($label3)) {
         $dir2 = createDir([$label1, $label2], $label1 . '_' . $label2);
-        createContent($label3, $dir2);
+        $topic = createContent(
+            $label3,
+            $dir2,
+            $row,
+            3
+        );
     }
-    if (!empty($label4)) {
-        $dir3 = createDir([$label1, $label2, $label3], $label1 . '_' . $label2 . '_' . $label3);
-        createContent($label4, $dir3);
+
+    if ($topic) {
+        if (isset($avoidDuplicated[$topic])) {
+            $cli->error("Topic $topic duplicated!");
+        } else {
+            $avoidDuplicated[$topic] = true;
+        }
+        $cli->warning($topic, false);
+        $oldTopics = $row['Mappatura vecchio topic'];
+        if (!empty($oldTopics)) {
+            $remoteIdList = [];
+            $oldTopics = explode(',', trim($oldTopics));
+            foreach ($oldTopics as $oldTopic) {
+                $yamlFile = $oldInstallerDir . '/' . trim($oldTopic) . '.yml';
+                if (!file_exists($yamlFile)) {
+                    $cli->error($yamlFile . ' non trovato');
+                } else {
+                    $oldTopicDefinition = Yaml::parse(file_get_contents($yamlFile));
+
+                }
+                $remoteIdList[] = $oldTopicDefinition['metadata']['remoteId'];
+            }
+            $map[$topic] = $remoteIdList;
+            $cli->output(' -> ' . implode(', ', $remoteIdList));
+        } else {
+            $cli->output();
+        }
     }
 }
+
+foreach ($map as $topic => $remoteIdList) {
+    foreach ($remoteIdList as $remoteId) {
+        Tool::appendToInstallerSteps($installerDir, [
+            'type' => 'deprecate_topic',
+            'identifier' => $remoteId,
+            'target' => $topic,
+            'move_in' => '$content_Argomenti-deprecati_node'
+        ], true);
+    }
+}
+
 $cli->warning('ok');
 
 $script->shutdown();

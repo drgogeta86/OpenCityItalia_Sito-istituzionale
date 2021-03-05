@@ -1,5 +1,5 @@
 metadata:
-    remoteId: topic_4
+    remoteId: topic_2_animale_domestico
     classIdentifier: topic
     sectionIdentifier: standard
     languages:
@@ -7,7 +7,8 @@ metadata:
 data:
     ita-IT:
         name: 'Animale domestico'
-        eu: '(riferimento in via di definizione)'
+        eu: 'http://eurovoc.europa.eu/1919'
+        abstract: ''
 sort_data:
     sort_field: 9
     sort_order: 1

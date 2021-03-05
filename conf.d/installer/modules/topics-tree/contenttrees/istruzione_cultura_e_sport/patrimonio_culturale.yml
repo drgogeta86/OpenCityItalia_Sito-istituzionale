@@ -1,0 +1,15 @@
+metadata:
+    remoteId: topic_2_patrimonio_culturale
+    classIdentifier: topic
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        name: 'Patrimonio culturale'
+        eu: 'http://publications.europa.eu/resource/authority/data-theme/EDUC'
+        abstract: ''
+sort_data:
+    sort_field: 9
+    sort_order: 1
+    priority: 0

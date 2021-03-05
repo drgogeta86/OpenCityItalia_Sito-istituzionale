@@ -1,0 +1,15 @@
+metadata:
+    remoteId: topic_2_sicurezza_pubblica
+    classIdentifier: topic
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        name: 'Sicurezza pubblica'
+        eu: 'http://eurovoc.europa.eu/4045'
+        abstract: ''
+sort_data:
+    sort_field: 9
+    sort_order: 1
+    priority: 0

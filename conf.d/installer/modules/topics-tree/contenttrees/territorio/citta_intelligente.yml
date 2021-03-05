@@ -1,5 +1,5 @@
 metadata:
-    remoteId: citta_intelligente
+    remoteId: topic_2_citta_intelligente
     classIdentifier: topic
     sectionIdentifier: standard
     languages:
@@ -7,7 +7,8 @@ metadata:
 data:
     ita-IT:
         name: 'Città intelligente'
-        eu: '(riferimento in via di definizione)'
+        eu: 'http://eurovoc.europa.eu/c_d59e7560'
+        abstract: ''
 sort_data:
     sort_field: 9
     sort_order: 1

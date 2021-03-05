@@ -1,5 +1,5 @@
 metadata:
-    remoteId: topic_39
+    remoteId: topic_2_urbanistica_ed_edilizia
     classIdentifier: topic
     sectionIdentifier: standard
     languages:
@@ -7,7 +7,8 @@ metadata:
 data:
     ita-IT:
         name: 'Urbanistica ed edilizia'
-        eu: '(riferimento in via di definizione)'
+        eu: 'http://eurovoc.europa.eu/100216'
+        abstract: ''
 sort_data:
     sort_field: 9
     sort_order: 1

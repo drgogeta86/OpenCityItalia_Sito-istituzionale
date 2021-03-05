@@ -1,0 +1,15 @@
+metadata:
+    remoteId: topic_1_agricoltura_e_alimentazione
+    classIdentifier: topic
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        name: 'Agricoltura e alimentazione'
+        eu: 'http://publications.europa.eu/resource/authority/data-theme/AGRI'
+        abstract: '<p>In questo tema rientra tutto ciò che riguarda il settore agricoltura, pesca, politiche forestali e alimentari.</p>'
+sort_data:
+    sort_field: 9
+    sort_order: 1
+    priority: 0

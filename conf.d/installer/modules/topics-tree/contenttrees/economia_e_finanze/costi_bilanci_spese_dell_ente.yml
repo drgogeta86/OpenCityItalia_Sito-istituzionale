@@ -1,0 +1,15 @@
+metadata:
+    remoteId: topic_2_costi_bilanci_spese_dell_ente
+    classIdentifier: topic
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        name: 'Costi, bilanci, spese dell''ente'
+        eu: 'http://eurovoc.europa.eu/5092'
+        abstract: ''
+sort_data:
+    sort_field: 9
+    sort_order: 1
+    priority: 0

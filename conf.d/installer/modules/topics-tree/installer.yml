@@ -1,6 +1,6 @@
-name: 'OpenCity Topics Tree'
+name: 'OpenCity PA Topics Tree'
 type: module
-version: 0.0.1
+version: 1.0.0
 variables:
     -
         name: identifier
@@ -23,6 +23,9 @@ steps:
         identifier: Argomenti
     -
         type: content
+        identifier: Argomenti-deprecati
+    -
+        type: content
         identifier: Aree-amministrative
     -
         type: content
@@ -34,290 +37,300 @@ steps:
         type: class
         identifier: topic
     -
+        type: deprecate_topic
+        identifier: cf8eb21cf8b5c6743ae1caa2bc050c88
+        move_in: $content_Argomenti-deprecati_node
+    -
+        type: deprecate_topic
+        identifier: topic_9
+        move_in: $content_Argomenti-deprecati_node
+    -
         type: contenttree
         identifier: topics
         parent: $content_Argomenti_node
         update: $do_update
-        remove_locations: $do_remove_locations
     -
         type: contenttree
         identifier: ambiente
         parent: $contenttree_topics_ambiente_node
         update: $do_update
-        remove_locations: $do_remove_locations
     -
         type: contenttree
-        identifier: ambiente_politica_dell_ambiente
-        parent: $contenttree_ambiente_politica_dell_ambiente_node
+        identifier: istruzione_cultura_e_sport
+        parent: $contenttree_topics_istruzione_cultura_e_sport_node
         update: $do_update
-        remove_locations: $do_remove_locations
     -
         type: contenttree
-        identifier: ambiente_politica_dell_ambiente_acqua
-        parent: $contenttree_ambiente_politica_dell_ambiente_acqua_node
+        identifier: istruzione_cultura_e_sport_istruzione
+        parent: $contenttree_istruzione_cultura_e_sport_istruzione_node
         update: $do_update
-        remove_locations: $do_remove_locations
     -
         type: contenttree
-        identifier: ambiente_politica_dell_ambiente_gestione_dei_rifiuti
-        parent: $contenttree_ambiente_politica_dell_ambiente_gestione_dei_rifiuti_node
+        identifier: economia_e_finanze
+        parent: $contenttree_topics_economia_e_finanze_node
         update: $do_update
-        remove_locations: $do_remove_locations
-    -
-        type: contenttree
-        identifier: ambiente_protezione_del_paesaggio
-        parent: $contenttree_ambiente_protezione_del_paesaggio_node
-        update: $do_update
-        remove_locations: $do_remove_locations
-    -
-        type: contenttree
-        identifier: agricoltura
-        parent: $contenttree_topics_agricoltura_node
-        update: $do_update
-        remove_locations: $do_remove_locations
-    -
-        type: contenttree
-        identifier: cultura
-        parent: $contenttree_topics_cultura_node
-        update: $do_update
-        remove_locations: $do_remove_locations
-    -
-        type: contenttree
-        identifier: cultura_istruzione
-        parent: $contenttree_cultura_istruzione_node
-        update: $do_update
-        remove_locations: $do_remove_locations
-    -
-        type: contenttree
-        identifier: cultura_educazione_e_formazione
-        parent: $contenttree_cultura_educazione_e_formazione_node
-        update: $do_update
-        remove_locations: $do_remove_locations
-    -
-        type: contenttree
-        identifier: cultura_educazione_e_formazione_formazione_professionale
-        parent: $contenttree_cultura_educazione_e_formazione_formazione_professionale_node
-        update: $do_update
-        remove_locations: $do_remove_locations
-    -
-        type: contenttree
-        identifier: cultura_sport
-        parent: $contenttree_cultura_sport_node
-        update: $do_update
-        remove_locations: $do_remove_locations
-    -
-        type: contenttree
-        identifier: cultura_turismo
-        parent: $contenttree_cultura_turismo_node
-        update: $do_update
-        remove_locations: $do_remove_locations
-    -
-        type: contenttree
-        identifier: economia
-        parent: $contenttree_topics_economia_node
-        update: $do_update
-        remove_locations: $do_remove_locations
-    -
-        type: contenttree
-        identifier: economia_attivita_produttive_e_commercio
-        parent: $contenttree_economia_attivita_produttive_e_commercio_node
-        update: $do_update
-        remove_locations: $do_remove_locations
-    -
-        type: contenttree
-        identifier: economia_attivita_produttive_e_commercio_impresa
-        parent: $contenttree_economia_attivita_produttive_e_commercio_impresa_node
-        update: $do_update
-        remove_locations: $do_remove_locations
-    -
-        type: contenttree
-        identifier: economia_attivita_produttive_e_commercio_attivita_del_settore_turistico
-        parent: $contenttree_economia_attivita_produttive_e_commercio_attivita_del_settore_turistico_node
-        update: $do_update
-        remove_locations: $do_remove_locations
-    -
-        type: contenttree
-        identifier: economia_tributi_e_finanze
-        parent: $contenttree_economia_tributi_e_finanze_node
-        update: $do_update
-        remove_locations: $do_remove_locations
-    -
-        type: contenttree
-        identifier: economia_contributi_e_rimborsi
-        parent: $contenttree_economia_contributi_e_rimborsi_node
-        update: $do_update
-        remove_locations: $do_remove_locations
     -
         type: contenttree
         identifier: energia
         parent: $contenttree_topics_energia_node
         update: $do_update
-        remove_locations: $do_remove_locations
     -
         type: contenttree
-        identifier: energia_energia_dolce
-        parent: $contenttree_energia_energia_dolce_node
+        identifier: tematiche_internazionali
+        parent: $contenttree_topics_tematiche_internazionali_node
         update: $do_update
-        remove_locations: $do_remove_locations
     -
         type: contenttree
-        identifier: giustizia
-        parent: $contenttree_topics_giustizia_node
+        identifier: giustizia_sistema_giuridico_e_sicurezza_pubblica
+        parent: $contenttree_topics_giustizia_sistema_giuridico_e_sicurezza_pubblica_node
         update: $do_update
-        remove_locations: $do_remove_locations
     -
         type: contenttree
-        identifier: giustizia_sicurezza_pubblica
-        parent: $contenttree_giustizia_sicurezza_pubblica_node
+        identifier: giustizia_sistema_giuridico_e_sicurezza_pubblica_sicurezza_pubblica
+        parent: $contenttree_giustizia_sistema_giuridico_e_sicurezza_pubblica_sicurezza_pubblica_node
         update: $do_update
-        remove_locations: $do_remove_locations
     -
         type: contenttree
-        identifier: governo
-        parent: $contenttree_topics_governo_node
+        identifier: governo_e_settore_pubblico
+        parent: $contenttree_topics_governo_e_settore_pubblico_node
         update: $do_update
-        remove_locations: $do_remove_locations
-    -
-        type: contenttree
-        identifier: governo_vita_istituzionale
-        parent: $contenttree_governo_vita_istituzionale_node
-        update: $do_update
-        remove_locations: $do_remove_locations
-    -
-        type: contenttree
-        identifier: governo_comunicazione
-        parent: $contenttree_governo_comunicazione_node
-        update: $do_update
-        remove_locations: $do_remove_locations
-    -
-        type: contenttree
-        identifier: governo_democrazia_partecipativa
-        parent: $contenttree_governo_democrazia_partecipativa_node
-        update: $do_update
-        remove_locations: $do_remove_locations
     -
         type: contenttree
         identifier: salute
         parent: $contenttree_topics_salute_node
         update: $do_update
-        remove_locations: $do_remove_locations
     -
         type: contenttree
-        identifier: salute_malattia_infettiva
-        parent: $contenttree_salute_malattia_infettiva_node
+        identifier: popolazione_e_societa
+        parent: $contenttree_topics_popolazione_e_societa_node
         update: $do_update
-        remove_locations: $do_remove_locations
     -
         type: contenttree
-        identifier: salute_strutture_sanitarie
-        parent: $contenttree_salute_strutture_sanitarie_node
+        identifier: popolazione_e_societa_protezione_sociale
+        parent: $contenttree_popolazione_e_societa_protezione_sociale_node
         update: $do_update
-        remove_locations: $do_remove_locations
     -
         type: contenttree
-        identifier: societa
-        parent: $contenttree_topics_societa_node
+        identifier: popolazione_e_societa_vita_lavorativa
+        parent: $contenttree_popolazione_e_societa_vita_lavorativa_node
         update: $do_update
-        remove_locations: $do_remove_locations
     -
         type: contenttree
-        identifier: societa_protezione_sociale
-        parent: $contenttree_societa_protezione_sociale_node
+        identifier: scienza_e_tecnologia
+        parent: $contenttree_topics_scienza_e_tecnologia_node
         update: $do_update
-        remove_locations: $do_remove_locations
-    -
-        type: contenttree
-        identifier: societa_vita_lavorativa
-        parent: $contenttree_societa_vita_lavorativa_node
-        update: $do_update
-        remove_locations: $do_remove_locations
-    -
-        type: contenttree
-        identifier: societa_anagrafe_e_stato_civile
-        parent: $contenttree_societa_anagrafe_e_stato_civile_node
-        update: $do_update
-        remove_locations: $do_remove_locations
-    -
-        type: contenttree
-        identifier: tecnologia
-        parent: $contenttree_topics_tecnologia_node
-        update: $do_update
-        remove_locations: $do_remove_locations
-    -
-        type: contenttree
-        identifier: tecnologia_informazione_ed_elaborazione_dell_informazione
-        parent: $contenttree_tecnologia_informazione_ed_elaborazione_dell_informazione_node
-        update: $do_update
-        remove_locations: $do_remove_locations
-    -
-        type: contenttree
-        identifier: tecnologia_informazione_ed_elaborazione_dell_informazione_accesso_all_informazione
-        parent: $contenttree_tecnologia_informazione_ed_elaborazione_dell_informazione_accesso_all_informazione_node
-        update: $do_update
-        remove_locations: $do_remove_locations
     -
         type: contenttree
         identifier: territorio
         parent: $contenttree_topics_territorio_node
         update: $do_update
-        remove_locations: $do_remove_locations
     -
         type: contenttree
         identifier: territorio_urbanistica_ed_edilizia
         parent: $contenttree_territorio_urbanistica_ed_edilizia_node
         update: $do_update
-        remove_locations: $do_remove_locations
     -
         type: contenttree
-        identifier: territorio_urbanistica_ed_edilizia_edilizia_pubblica
-        parent: $contenttree_territorio_urbanistica_ed_edilizia_edilizia_pubblica_node
+        identifier: mobilita_e_trasporti
+        parent: $contenttree_topics_mobilita_e_trasporti_node
         update: $do_update
-        remove_locations: $do_remove_locations
     -
         type: contenttree
-        identifier: territorio_urbanistica_ed_edilizia_edilizia_privata
-        parent: $contenttree_territorio_urbanistica_ed_edilizia_edilizia_privata_node
+        identifier: agricoltura_e_alimentazione
+        parent: $contenttree_topics_agricoltura_e_alimentazione_node
         update: $do_update
-        remove_locations: $do_remove_locations
     -
-        type: contenttree
-        identifier: territorio_catasto
-        parent: $contenttree_territorio_catasto_node
-        update: $do_update
-        remove_locations: $do_remove_locations
+        type: deprecate_topic
+        identifier: topic_17
+        target: topic_2_gestione_dei_rifiuti
+        move_in: $content_Argomenti-deprecati_node
     -
-        type: contenttree
-        identifier: territorio_citta_intelligente
-        parent: $contenttree_territorio_citta_intelligente_node
-        update: $do_update
-        remove_locations: $do_remove_locations
+        type: deprecate_topic
+        identifier: topic_21
+        target: topic_2_inquinamento
+        move_in: $content_Argomenti-deprecati_node
     -
-        type: contenttree
-        identifier: mobilita
-        parent: $contenttree_topics_mobilita_node
-        update: $do_update
-        remove_locations: $do_remove_locations
+        type: deprecate_topic
+        identifier: topic_2
+        target: topic_2_acqua
+        move_in: $content_Argomenti-deprecati_node
     -
-        type: contenttree
-        identifier: mobilita_politica_dei_trasporti
-        parent: $contenttree_mobilita_politica_dei_trasporti_node
-        update: $do_update
-        remove_locations: $do_remove_locations
+        type: deprecate_topic
+        identifier: topic_31
+        target: topic_2_spazio_verde
+        move_in: $content_Argomenti-deprecati_node
     -
-        type: contenttree
-        identifier: mobilita_organizzazione_dei_trasporti
-        parent: $contenttree_mobilita_organizzazione_dei_trasporti_node
-        update: $do_update
-        remove_locations: $do_remove_locations
+        type: deprecate_topic
+        identifier: bd5192a42244b7e5a0dc4ac0830bce83
+        target: topic_2_patrimonio_culturale
+        move_in: $content_Argomenti-deprecati_node
     -
-        type: contenttree
-        identifier: mobilita_organizzazione_dei_trasporti_trasporto_pubblico
-        parent: $contenttree_mobilita_organizzazione_dei_trasporti_trasporto_pubblico_node
-        update: $do_update
-        remove_locations: $do_remove_locations
+        type: deprecate_topic
+        identifier: topic_3
+        target: topic_2_istruzione
+        move_in: $content_Argomenti-deprecati_node
     -
-        type: contenttree
-        identifier: mobilita_veicoli
-        parent: $contenttree_mobilita_veicoli_node
-        update: $do_update
-        remove_locations: $do_remove_locations
+        type: deprecate_topic
+        identifier: topic_23
+        target: topic_2_istruzione
+        move_in: $content_Argomenti-deprecati_node
+    -
+        type: deprecate_topic
+        identifier: topic_33
+        target: topic_2_istruzione
+        move_in: $content_Argomenti-deprecati_node
+    -
+        type: deprecate_topic
+        identifier: fc5ef422eef5373ea6019423b5ad55a0
+        target: topic_2_tempo_libero
+        move_in: $content_Argomenti-deprecati_node
+    -
+        type: deprecate_topic
+        identifier: topic_32
+        target: topic_2_sport
+        move_in: $content_Argomenti-deprecati_node
+    -
+        type: deprecate_topic
+        identifier: 158a858d0fe4b8a9d0fe5d50c3605cb2
+        target: topic_2_turismo
+        move_in: $content_Argomenti-deprecati_node
+    -
+        type: deprecate_topic
+        identifier: dfa6ed0f6ceeddbc718c6280e53b9385
+        target: topic_2_attivita_produttive_e_commercio
+        move_in: $content_Argomenti-deprecati_node
+    -
+        type: deprecate_topic
+        identifier: topic_13
+        target: topic_1_energia
+        move_in: $content_Argomenti-deprecati_node
+    -
+        type: deprecate_topic
+        identifier: topic_29
+        target: topic_2_sicurezza_pubblica
+        move_in: $content_Argomenti-deprecati_node
+    -
+        type: deprecate_topic
+        identifier: topic_30
+        target: topic_2_sicurezza_pubblica
+        move_in: $content_Argomenti-deprecati_node
+    -
+        type: deprecate_topic
+        identifier: fe63739f7047ad84533d1055c9380444
+        target: topic_2_procedura_elettorale_e_voto
+        move_in: $content_Argomenti-deprecati_node
+    -
+        type: deprecate_topic
+        identifier: topic_26
+        target: topic_2_programma_d_azione
+        move_in: $content_Argomenti-deprecati_node
+    -
+        type: deprecate_topic
+        identifier: cf8eb21cf8b5c6743ae1caa2bc050c88
+        target: topic_2_vita_istituzionale
+        move_in: $content_Argomenti-deprecati_node
+    -
+        type: deprecate_topic
+        identifier: topic_28
+        target: topic_1_salute
+        move_in: $content_Argomenti-deprecati_node
+    -
+        type: deprecate_topic
+        identifier: topic_4
+        target: topic_2_animale_domestico
+        move_in: $content_Argomenti-deprecati_node
+    -
+        type: deprecate_topic
+        identifier: topic_27
+        target: topic_2_protezione_sociale
+        move_in: $content_Argomenti-deprecati_node
+    -
+        type: deprecate_topic
+        identifier: topic_22
+        target: topic_3_integrazione_sociale
+        move_in: $content_Argomenti-deprecati_node
+    -
+        type: deprecate_topic
+        identifier: topic_5
+        target: topic_3_integrazione_sociale
+        move_in: $content_Argomenti-deprecati_node
+    -
+        type: deprecate_topic
+        identifier: 2eb5ffa8cfbb467dee3026fd6ab7464c
+        target: topic_3_politiche_familiari
+        move_in: $content_Argomenti-deprecati_node
+    -
+        type: deprecate_topic
+        identifier: topic_15
+        target: topic_3_politiche_giovanili
+        move_in: $content_Argomenti-deprecati_node
+    -
+        type: deprecate_topic
+        identifier: topic_18
+        target: topic_3_politiche_giovanili
+        move_in: $content_Argomenti-deprecati_node
+    -
+        type: deprecate_topic
+        identifier: topic_19
+        target: topic_3_immigrazione
+        move_in: $content_Argomenti-deprecati_node
+    -
+        type: deprecate_topic
+        identifier: topic_24
+        target: topic_2_demografia_e_popolazione
+        move_in: $content_Argomenti-deprecati_node
+    -
+        type: deprecate_topic
+        identifier: topic_10
+        target: topic_2_vita_lavorativa
+        move_in: $content_Argomenti-deprecati_node
+    -
+        type: deprecate_topic
+        identifier: topic_16
+        target: topic_3_formazione_professionale
+        move_in: $content_Argomenti-deprecati_node
+    -
+        type: deprecate_topic
+        identifier: topic_7
+        target: topic_2_associazioni
+        move_in: $content_Argomenti-deprecati_node
+    -
+        type: deprecate_topic
+        identifier: topic_20
+        target: topic_2_informazione_e_dati
+        move_in: $content_Argomenti-deprecati_node
+    -
+        type: deprecate_topic
+        identifier: topic_39
+        target: topic_2_urbanistica_ed_edilizia
+        move_in: $content_Argomenti-deprecati_node
+    -
+        type: deprecate_topic
+        identifier: topic_1
+        target: topic_3_casa
+        move_in: $content_Argomenti-deprecati_node
+    -
+        type: deprecate_topic
+        identifier: topic_12
+        target: topic_3_casa
+        move_in: $content_Argomenti-deprecati_node
+    -
+        type: deprecate_topic
+        identifier: topic_36
+        target: topic_1_mobilita_e_trasporti
+        move_in: $content_Argomenti-deprecati_node
+    -
+        type: deprecate_topic
+        identifier: topic_37
+        target: topic_2_strade_e_viabilita
+        move_in: $content_Argomenti-deprecati_node
+    -
+        type: deprecate_topic
+        identifier: topic_6
+        target: topic_2_parcheggi
+        move_in: $content_Argomenti-deprecati_node
+    -
+        type: deprecate_topic
+        identifier: topic_35
+        target: topic_2_traffico_urbano
+        move_in: $content_Argomenti-deprecati_node

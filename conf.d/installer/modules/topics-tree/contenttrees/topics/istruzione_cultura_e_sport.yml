@@ -1,0 +1,15 @@
+metadata:
+    remoteId: topic_1_istruzione_cultura_e_sport
+    classIdentifier: topic
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        name: 'Istruzione, cultura e sport'
+        eu: 'http://eurovoc.europa.eu/317'
+        abstract: '<p>In questo tema rientra tutto ciò che riguarda la cultura, il turismo, l’istruzione e le attività sportive, eventi culturali e locali.</p>'
+sort_data:
+    sort_field: 9
+    sort_order: 1
+    priority: 0

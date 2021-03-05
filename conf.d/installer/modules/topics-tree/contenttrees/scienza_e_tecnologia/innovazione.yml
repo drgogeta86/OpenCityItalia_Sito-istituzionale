@@ -1,0 +1,15 @@
+metadata:
+    remoteId: topic_2_innovazione
+    classIdentifier: topic
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        name: Innovazione
+        eu: 'http://eurovoc.europa.eu/143'
+        abstract: ''
+sort_data:
+    sort_field: 9
+    sort_order: 1
+    priority: 0
