@@ -3,9 +3,11 @@ contentobject_name: '<name>'
 serialized_name_list:
     always-available: ita-IT
     ita-IT: Regola
+    ger-DE: Regel
 serialized_description_list:
     always-available: ita-IT
     ita-IT: 'Struttura dati necessaria al funzionamento della piattaforma'
+    ger-DE: 'Für den Betrieb der Plattform notwendige Datenstruktur'
 data_map:
     name:
         identifier: name
@@ -15,6 +17,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Nome
+            ger-DE: Name
         data_type_string: ezstring
         placement: 1
         is_searchable: 1
@@ -30,6 +33,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Identificatore unico'
+            ger-DE: 'Einheitliche Kennnummer'
         data_type_string: ezstring
         placement: 2
         is_searchable: 1
@@ -45,6 +49,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Descrizione
+            ger-DE: Beschreibung
         data_type_string: ezxmltext
         placement: 3
         is_searchable: 1
@@ -61,6 +66,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'E'' rispettata dal servizio:'
+            ger-DE: 'Wird vom Dienst berücksichtigt:'
         data_type_string: ezobjectrelationlist
         placement: 4
         is_searchable: 1
@@ -84,6 +90,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Legge a cui si riferisce'
+            ger-DE: 'Gesetz, auf das es sich bezieht'
         data_type_string: ezurl
         placement: 5
         can_translate: 1
@@ -95,9 +102,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Indicare link a quadri normativi, standard tecnici, linee guida e regole tecniche'
+            ger-DE: 'Geben Sie Links zu Rechtsquellen, technischen Richtlinien und  Vorschriften an'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Documentazione di riferimento'
+            ger-DE: 'Unterlagen '
         data_type_string: ezmatrix
         placement: 6
         is_searchable: 1
@@ -112,9 +121,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Indicare particolari requisiti per il servizio'
+            ger-DE: 'Geben Sie besondere Zulassvoraussetzungen für den Dienst an'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Requisiti per il servizio'
+            ger-DE: 'Voraussetzungen für den Dienst'
         data_type_string: ezxmltext
         placement: 7
         is_searchable: 1

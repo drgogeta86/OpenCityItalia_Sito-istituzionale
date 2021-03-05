@@ -3,10 +3,12 @@ contentobject_name: '<short_name|name>'
 serialized_name_list:
     always-available: ita-IT
     ita-IT: Cartella
+    ger-DE: Ordner
 serialized_description_list:
     0: ''
     always-available: false
     ita-IT: 'Struttura dati necessaria al funzionamento della piattaforma'
+    ger-DE: 'Für den Betrieb der Plattform notwendige Datenstruktur'
 always_available: 1
 sort_field: 9
 is_container: 1
@@ -20,6 +22,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Titolo
+            ger-DE: Titel
         data_type_string: ezstring
         placement: 1
         is_searchable: 1
@@ -39,6 +42,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Titolo breve'
+            ger-DE: 'Kurzer Titel'
         data_type_string: ezstring
         placement: 2
         is_searchable: 1
@@ -53,9 +57,11 @@ data_map:
             always-available: eng-GB
             eng-GB: ''
             ita-IT: 'Sintesi del contenuto: massimo tre righe'
+            ger-DE: 'Inhaltsangabe: maximal drei Zeilen'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Descrizione breve'
+            ger-DE: 'Kurze Beschreibung'
         data_type_string: ezxmltext
         placement: 3
         is_searchable: 1
@@ -73,6 +79,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Descrizione
+            ger-DE: Beschreibung
         data_type_string: ezxmltext
         placement: 4
         is_searchable: 1
@@ -90,6 +97,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Visualizza elementi contenuti'
+            ger-DE: 'Inhaltselemente anzeigen'
         data_type_string: ezboolean
         placement: 5
         data_int3: 1
@@ -106,6 +114,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Parole chiave'
+            ger-DE: Schlüsselwörter
         data_type_string: ezkeyword
         placement: 6
         can_translate: 1
@@ -122,6 +131,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Data di inizio pubblicazione'
+            ger-DE: 'Tag der Veröffentlichung'
         data_type_string: ezdatetime
         placement: 7
         can_translate: 1

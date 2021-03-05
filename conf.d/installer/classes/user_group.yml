@@ -3,10 +3,12 @@ contentobject_name: '<name>'
 serialized_name_list:
     always-available: ita-IT
     ita-IT: Gruppo
+    ger-DE: Gruppe
 serialized_description_list:
     0: ''
     always-available: false
     ita-IT: 'Struttura dati necessaria al funzionamento della piattaforma'
+    ger-DE: 'Für den Betrieb der Plattform notwendige Datenstruktur'
 always_available: 1
 is_container: 1
 data_map:
@@ -19,6 +21,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Nome
+            ger-DE: Name
         data_type_string: ezstring
         placement: 1
         is_searchable: 1
@@ -37,6 +40,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Descrizione
+            ger-DE: Beschreibung
         data_type_string: ezstring
         placement: 2
         is_searchable: 1

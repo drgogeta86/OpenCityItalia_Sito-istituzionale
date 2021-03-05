@@ -43,7 +43,17 @@ attribute_group:
         content_show_modified: '1'
         license: '1'
     'hidden::corpo':
-        '*': 'corpo'
+        '*': corpo
+    'ger-DE::contatti':
+        '*': Kontakt
+    'ger-DE::corpo':
+        '*': Beschreibung
+    'ger-DE::dataset':
+        '*': Datensatz
+    'ger-DE::documenti':
+        '*': Dokumente
+    'ger-DE::ulteriori_informazioni':
+        '*': 'Weitere Informationen'
 bootstrapitalia_icon:
     enabled:
         '*': '1'

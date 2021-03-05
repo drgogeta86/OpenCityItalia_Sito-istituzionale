@@ -3,9 +3,11 @@ contentobject_name: '<name>'
 serialized_name_list:
     always-available: ita-IT
     ita-IT: 'Punto di contatto on-line'
+    ger-DE: Online-Ansprechpartner
 serialized_description_list:
     always-available: ita-IT
     ita-IT: 'Raggruppa un insieme di tipi di canali digitali, come email, social network, siti web, ecc...'
+    ger-DE: 'Gruppiert eine Reihe von digitalen Kanälen, wie z. B. E-Mail, soziale Netzwerke, Websites usw..'
 always_available: 1
 is_container: 1
 data_map:
@@ -17,6 +19,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Nome del punto di contatto'
+            ger-DE: 'Name der Kontaktstelle'
         data_type_string: ezstring
         placement: 1
         is_searchable: 1
@@ -30,9 +33,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Specificare tutti i contatti '
+            ger-DE: 'Geben Sie alle Kontakte an'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Contatti
+            ger-DE: Kontakt
         data_type_string: ezmatrix
         placement: 2
         is_searchable: 1
@@ -51,6 +56,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Note
+            ger-DE: Hinweise
         data_type_string: eztext
         placement: 3
         is_searchable: 1
@@ -67,6 +73,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Orari di disponibilità telefonica'
+            ger-DE: 'Telefonische Ansprechzeiten'
         data_type_string: ezobjectrelationlist
         placement: 4
         is_searchable: 1
@@ -87,9 +94,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Strutture (uffici, aree, organizzazioni) collegate al Punto di contatto'
+            ger-DE: 'Einrichtungen (Ämter, Bereiche, Organisationen), die mit der Kontaktstelle verbunden sind'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Strutture collegate'
+            ger-DE: 'Zugeordnete Einrichtungen'
         data_type_string: openpareverserelationlist
         placement: 5
         can_translate: 1

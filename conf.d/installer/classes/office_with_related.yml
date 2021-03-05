@@ -1,5 +1,6 @@
 imports:
-    - { resource: classes/office.yml }
+    -
+        resource: classes/office.yml
 data_map:
     related_offices:
         identifier: related_offices
@@ -8,7 +9,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Uffici'
+            ita-IT: Uffici
+            ger-DE: Ämter
         data_type_string: openpareverserelationlist
         placement: 29
         can_translate: 1

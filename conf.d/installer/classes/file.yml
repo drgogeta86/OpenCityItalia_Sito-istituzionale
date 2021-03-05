@@ -3,8 +3,10 @@ contentobject_name: '<name>'
 serialized_name_list:
     always-available: always-available
     ita-IT: File
+    ger-DE: Datei
 serialized_description_list:
     ita-IT: 'Struttura dati necessaria al funzionamento della piattaforma'
+    ger-DE: 'Für den Betrieb der Plattform notwendige Datenstruktur'
 data_map:
     name:
         identifier: name
@@ -13,6 +15,7 @@ data_map:
         serialized_name_list:
             always-available: always-available
             ita-IT: 'Nome del file'
+            ger-DE: Dateiname
         data_type_string: ezstring
         placement: 1
         is_required: 1
@@ -26,6 +29,7 @@ data_map:
         serialized_name_list:
             always-available: always-available
             ita-IT: Descrizione
+            ger-DE: Beschreibung
         data_type_string: ezxmltext
         placement: 2
         can_translate: 1
@@ -38,6 +42,7 @@ data_map:
         serialized_name_list:
             always-available: always-available
             ita-IT: File
+            ger-DE: Datei
         data_type_string: ezbinaryfile
         placement: 3
         is_required: 1
@@ -51,6 +56,7 @@ data_map:
         serialized_name_list:
             always-available: always-available
             ita-IT: Tags
+            ger-DE: Tags
         data_type_string: ezkeyword
         placement: 4
         can_translate: 1
@@ -62,6 +68,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Percorso univoco del file'
+            ger-DE: 'Eindeutiger Pfad zur Datei'
         data_type_string: ezstring
         placement: 5
         is_searchable: 1

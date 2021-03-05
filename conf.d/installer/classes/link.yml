@@ -3,16 +3,20 @@ contentobject_name: '<short_name|name> '
 serialized_name_list:
     always-available: ita-IT
     ita-IT: Link
+    ger-DE: Link
 serialized_description_list:
     ita-IT: 'Struttura dati necessaria al funzionamento della piattaforma'
+    ger-DE: 'Für die Funktion der Plattform notwendige Datenstruktur'
 data_map:
     name:
         identifier: name
         serialized_description_list:
             ita-IT: 'Nome del link'
+            ger-DE: 'Name des Links'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Nome
+            ger-DE: Name
         data_type_string: ezstring
         placement: 1
         is_searchable: 1
@@ -24,9 +28,11 @@ data_map:
         identifier: short_name
         serialized_description_list:
             ita-IT: 'Nome sintetico del link'
+            ger-DE: 'Kurzer Name des Links'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Nome breve'
+            ger-DE: 'Kurzer Name'
         data_type_string: ezstring
         placement: 2
         is_searchable: 1
@@ -37,9 +43,11 @@ data_map:
         identifier: abstract
         serialized_description_list:
             ita-IT: 'Breve descrizione del link'
+            ger-DE: 'Kurze Beschreibung des Links'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Descrizione breve'
+            ger-DE: 'Kurze Beschreibung'
         data_type_string: ezxmltext
         placement: 3
         is_searchable: 1
@@ -50,9 +58,11 @@ data_map:
         identifier: location
         serialized_description_list:
             ita-IT: 'Indirizzo del sito web a cui rimanda il link'
+            ger-DE: 'Adresse der Website, auf die der Link verweist'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Link esterno'
+            ger-DE: 'Externer Link'
         data_type_string: ezurl
         placement: 4
         can_translate: 1
@@ -65,6 +75,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Link interno'
+            ger-DE: 'Interner Link'
         data_type_string: ezobjectrelationlist
         placement: 5
         is_searchable: 1
@@ -82,9 +93,11 @@ data_map:
         identifier: descrizione
         serialized_description_list:
             ita-IT: 'Descrizione completa del link'
+            ger-DE: 'Vollständige Beschreibungs des Links'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Descrizione
+            ger-DE: Beschreibung
         data_type_string: ezxmltext
         placement: 6
         is_searchable: 1
@@ -95,9 +108,11 @@ data_map:
         identifier: image
         serialized_description_list:
             ita-IT: 'Immagine principale del link'
+            ger-DE: 'Hauptbild des Links'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Immagine
+            ger-DE: Bild
         data_type_string: ezimage
         placement: 7
         can_translate: 1
@@ -107,9 +122,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Data in cui l''informazione va archiviata'
+            ger-DE: 'Datum, an dem die Informationen archiviert werden sollen'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Data di archiviazione'
+            ger-DE: Archivierungsdatum
         data_type_string: ezdate
         placement: 8
         is_searchable: 1

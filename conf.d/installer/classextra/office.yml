@@ -45,6 +45,20 @@ attribute_group:
         '*': 'Ulteriori informazioni'
         help: '1'
         more_information: '1'
+    'ger-DE::contatti':
+        '*': Kontakt
+    'ger-DE::cosa_fa':
+        '*': 'Zuständigkeiten (Wir sind zuständig für)'
+    'ger-DE::documenti':
+        '*': Dokumente
+    'ger-DE::persone':
+        '*': 'Personen '
+    'ger-DE::servizi':
+        '*': Dienste
+    'ger-DE::struttura':
+        '*': 'Übergeordnete Stelle'
+    'ger-DE::ulteriori_informazioni':
+        '*': 'Weitere Informationen'
 card_small_view:
     enabled:
         '*': '1'

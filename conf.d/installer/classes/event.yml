@@ -4,9 +4,11 @@ serialized_name_list:
     always-available: ita-IT
     eng-GB: Evento
     ita-IT: Evento
+    ger-DE: Veranstaltung/Event
 serialized_description_list:
     eng-GB: ''
     ita-IT: 'Un evento di interesse pubblico'
+    ger-DE: 'Eine Ereignis von öffentlichem Interesse'
 always_available: 1
 data_map:
     event_title:
@@ -14,10 +16,12 @@ data_map:
         serialized_description_list:
             eng-GB: 'Specificare il titolo dell''evento'
             ita-IT: 'Specificare il titolo dell''evento'
+            ger-DE: 'Geben Sie den Titel der Veranstaltung an'
         serialized_name_list:
             always-available: ita-IT
             eng-GB: Titolo
             ita-IT: Titolo
+            ger-DE: Titel
         data_type_string: ezstring
         placement: 1
         is_searchable: 1
@@ -30,10 +34,12 @@ data_map:
         serialized_description_list:
             eng-GB: 'Eventuale sottotitolo o titolo abbreviato dell''evento (massimo 100 caratteri, spazi inclusi)'
             ita-IT: 'Eventuale sottotitolo o titolo abbreviato dell''evento (massimo 100 caratteri, spazi inclusi)'
+            ger-DE: 'Untertitel oder Kurztitel desVeranstaltung, falls vorhanden (maximal 100 Zeichen, einschließlich Leerzeichen)'
         serialized_name_list:
             always-available: ita-IT
             eng-GB: 'Eventuale sottotitolo'
             ita-IT: 'Eventuale sottotitolo'
+            ger-DE: 'Untertitel, falls vorhanden'
         data_type_string: ezstring
         placement: 2
         is_searchable: 1
@@ -46,10 +52,12 @@ data_map:
         serialized_description_list:
             eng-GB: 'codice che identifica univocamente l''evento'
             ita-IT: 'codice che identifica univocamente l''evento'
+            ger-DE: 'Code zur einheitlichen Identifizierung der Veranstaltung'
         serialized_name_list:
             always-available: ita-IT
             eng-GB: 'Identificativo dell''evento'
             ita-IT: 'Identificativo dell''evento'
+            ger-DE: Veranstaltung-ID-Nummer
         data_type_string: ezstring
         placement: 3
         is_searchable: 1
@@ -63,10 +71,12 @@ data_map:
             always-available: ita-IT
             eng-GB: 'Indicare le tematiche dell''evento. Importante: le tipologie proposte sono standard e garantiscono una miglior visibilità all''evento sul web. Selezionare al massimo 3 temi'
             ita-IT: 'Indicare le tematiche dell''evento. Importante: le tipologie proposte sono standard e garantiscono una miglior visibilità all''evento sul web. Selezionare al massimo 3 temi'
+            ger-DE: 'Geben Sie die Themen der Veranstaltung an. Wichtig: Die vorgeschlagenen Typen sind standardisiert und garantieren eine bessere Sichtbarkeit der Veranstaltung im Web. Wählen Sie maximal 3 Themen'
         serialized_name_list:
             always-available: ita-IT
             eng-GB: 'Tipo di evento'
             ita-IT: 'Tipo di evento'
+            ger-DE: 'Art der Veranstaltung'
         data_type_string: eztags
         placement: 4
         is_searchable: 1
@@ -87,10 +97,12 @@ data_map:
             always-available: ita-IT
             eng-GB: 'Argomenti che caratterizzano il servizio; IMPORTANTE: gli argomenti accompagnano i cittadini nella navigazione di tutto il sito'
             ita-IT: 'Argomenti che caratterizzano il servizio; IMPORTANTE: gli argomenti accompagnano i cittadini nella navigazione di tutto il sito'
+            ger-DE: 'Themen, die die Veranstaltung charakterisieren; WICHTIG: die Themen begleiten die Bürger in der Navigation der gesamten Website'
         serialized_name_list:
             always-available: ita-IT
             eng-GB: Argomenti
             ita-IT: Argomenti
+            ger-DE: Themen
         data_type_string: ezobjectrelationlist
         placement: 5
         is_searchable: 1
@@ -114,10 +126,12 @@ data_map:
         serialized_description_list:
             eng-GB: 'Indicare l''iniziativa più ampia di cui l''evento è parte'
             ita-IT: 'Indicare l''iniziativa più ampia di cui l''evento è parte'
+            ger-DE: 'Geben Sie die übergeordnete Veranstaltung an, zu der das Event gehört'
         serialized_name_list:
             always-available: ita-IT
             eng-GB: 'Iniziativa di cui fa parte'
             ita-IT: 'Iniziativa di cui fa parte'
+            ger-DE: 'Rahmenveranstaltung '
         data_type_string: ezobjectrelationlist
         placement: 6
         is_searchable: 1
@@ -137,10 +151,12 @@ data_map:
             always-available: ita-IT
             eng-GB: 'Stima del tempo di lettura della pagina evento, in minuti primi'
             ita-IT: 'Stima del tempo di lettura della pagina evento, in minuti primi'
+            ger-DE: 'Schätzen Sie die Lesezeit der Veranstaltungseite, in Minuten '
         serialized_name_list:
             always-available: ita-IT
             eng-GB: 'Tempo di lettura'
             ita-IT: 'Tempo di lettura'
+            ger-DE: Lesezeit
         data_type_string: ezinteger
         placement: 7
         is_searchable: 1
@@ -155,10 +171,12 @@ data_map:
         serialized_description_list:
             eng-GB: 'Descrizione breve dell''evento'
             ita-IT: 'Descrizione breve dell''evento'
+            ger-DE: 'Kurze Beschreibung der Veranstaltung'
         serialized_name_list:
             always-available: ita-IT
             eng-GB: 'Descrizione breve'
             ita-IT: 'Descrizione breve'
+            ger-DE: 'Kurze Beschreibung'
         data_type_string: ezxmltext
         placement: 8
         is_searchable: 1
@@ -173,10 +191,12 @@ data_map:
         serialized_description_list:
             eng-GB: 'Descrizione esaustiva dell''evento'
             ita-IT: 'Descrizione esaustiva dell''evento'
+            ger-DE: 'Ausführliche Beschreibung der Veranstaltung'
         serialized_name_list:
             always-available: ita-IT
             eng-GB: 'Descrizione completa'
             ita-IT: 'Descrizione completa'
+            ger-DE: 'Detaillierte Beschreibung'
         data_type_string: ezxmltext
         placement: 9
         is_searchable: 1
@@ -190,10 +210,12 @@ data_map:
             always-available: ita-IT
             eng-GB: 'Predisporre una galleria di immagini corredate da didascalia'
             ita-IT: 'Predisporre una galleria di immagini corredate da didascalia'
+            ger-DE: 'Bereiten Sie eine Galerie von Bildern mit Beschriftungen vor'
         serialized_name_list:
             always-available: ita-IT
             eng-GB: 'Galleria immagini'
             ita-IT: 'Galleria immagini'
+            ger-DE: Bildergalerie
         data_type_string: ezobjectrelationlist
         placement: 10
         is_searchable: 1
@@ -217,10 +239,12 @@ data_map:
             always-available: ita-IT
             eng-GB: 'Link a video esterno di presentazione dell''evento'
             ita-IT: 'Link a video esterno di presentazione dell''evento'
+            ger-DE: 'Link zur externen Videopräsentation der Veranstaltung'
         serialized_name_list:
             always-available: ita-IT
             eng-GB: Video
             ita-IT: Video
+            ger-DE: Video
         data_type_string: ezstring
         placement: 11
         is_searchable: 1
@@ -235,10 +259,12 @@ data_map:
             always-available: ita-IT
             eng-GB: 'Un gruppo di utenti per il quale l''evento è di interesse o utile; utente target'
             ita-IT: 'Un gruppo di utenti per il quale l''evento è di interesse o utile; utente target'
+            ger-DE: 'Eine Gruppe von Benutzern, für die das Ereignis von Interesse oder nützlich ist; Zielgruppe'
         serialized_name_list:
             always-available: ita-IT
             eng-GB: Destinatari
             ita-IT: Destinatari
+            ger-DE: Zielgruppe
         data_type_string: eztags
         placement: 12
         is_searchable: 1
@@ -257,10 +283,12 @@ data_map:
         serialized_description_list:
             eng-GB: 'Descrizione testuale dei principali interlocutori dell''Evento'
             ita-IT: 'Descrizione testuale dei principali interlocutori dell''Evento'
+            ger-DE: 'Beschreibung der Hauptakteure der Veranstaltung'
         serialized_name_list:
             always-available: ita-IT
             eng-GB: 'Informazioni sui destinatari'
             ita-IT: 'Informazioni sui destinatari'
+            ger-DE: 'Informationen über das Zielpublikum'
         data_type_string: eztext
         placement: 13
         is_searchable: 1
@@ -275,10 +303,12 @@ data_map:
             always-available: ita-IT
             eng-GB: 'Luogo o indirizzo in cui si svolge l''evento'
             ita-IT: 'Luogo o indirizzo in cui si svolge l''evento'
+            ger-DE: 'Ort oder Adresse, an dem die Veranstaltung stattfindet'
         serialized_name_list:
             always-available: ita-IT
             eng-GB: 'Luogo dell''evento'
             ita-IT: 'Luogo dell''evento'
+            ger-DE: 'Ort der Veranstaltung'
         data_type_string: ezobjectrelationlist
         placement: 14
         is_searchable: 1
@@ -301,10 +331,12 @@ data_map:
         serialized_description_list:
             eng-GB: 'Concetti più significativi riguardanti il contenuto (separati da virgola)'
             ita-IT: 'Concetti più significativi riguardanti il contenuto (separati da virgola)'
+            ger-DE: 'Wichtigste Begriffe zum Inhalt (durch Kommata getrennt)'
         serialized_name_list:
             always-available: ita-IT
             eng-GB: 'Parole chiave'
             ita-IT: 'Parole chiave'
+            ger-DE: Schlüsselwörter
         data_type_string: ezkeyword
         placement: 15
         is_searchable: 1
@@ -317,10 +349,12 @@ data_map:
         serialized_description_list:
             eng-GB: 'Locandina/manifesto dell''evento'
             ita-IT: 'Locandina/manifesto dell''evento'
+            ger-DE: Veranstaltungsplakat
         serialized_name_list:
             always-available: ita-IT
             eng-GB: Locandina
             ita-IT: Locandina
+            ger-DE: Plakat
         data_type_string: ezbinaryfile
         placement: 16
         can_translate: 1
@@ -333,10 +367,12 @@ data_map:
             always-available: ita-IT
             eng-GB: 'Indicare i riferimenti da contattare per ricevere informazioni sull''evento (es. Per informazioni sul programma, per informazioni sui biglietti, ecc...)'
             ita-IT: 'Indicare i riferimenti da contattare per ricevere informazioni sull''evento (es. Per informazioni sul programma, per informazioni sui biglietti, ecc...)'
+            ger-DE: 'Geben Sie die Bezugspersonen an, an die Sie sich wenden können, um Informationen über die Veranstaltung zu erhalten (z. B. für Informationen über das Programm, für Informationen über Tickets usw.).'
         serialized_name_list:
             always-available: ita-IT
             eng-GB: 'Punti di contatto'
             ita-IT: 'Punti di contatto'
+            ger-DE: Kontaktstellen
         data_type_string: ezobjectrelationlist
         placement: 17
         is_searchable: 1
@@ -359,10 +395,12 @@ data_map:
             always-available: ita-IT
             eng-GB: 'E'' possibile indicare anche eventi ripetuti nel tempo'
             ita-IT: 'E'' possibile indicare anche eventi ripetuti nel tempo'
+            ger-DE: 'Es ist auch möglich, Ereignisse anzuzeigen, die sich im Laufe der Zeit wiederholen'
         serialized_name_list:
             always-available: ita-IT
             eng-GB: 'Date ed orari dell''evento'
             ita-IT: 'Date ed orari dell''evento'
+            ger-DE: 'Daten und Uhrzeiten der Veranstaltung'
         data_type_string: ocevent
         placement: 18
         is_searchable: 1
@@ -379,10 +417,12 @@ data_map:
             always-available: ita-IT
             eng-GB: 'Spuntare se l''evento è gratuito'
             ita-IT: 'Spuntare se l''evento è gratuito'
+            ger-DE: 'Ankreuzen, wenn die Veranstaltung kostenlos ist'
         serialized_name_list:
             always-available: ita-IT
             eng-GB: 'E'' gratuito'
             ita-IT: 'E'' gratuito'
+            ger-DE: 'Eintritt frei'
         data_type_string: ezboolean
         placement: 19
         is_searchable: 1
@@ -398,10 +438,12 @@ data_map:
             always-available: ita-IT
             eng-GB: 'Offerte, (es. prezzo intero), biglietti, condizioni e vincoli'
             ita-IT: 'Offerte, (es. prezzo intero), biglietti, condizioni e vincoli'
+            ger-DE: 'Angebote, (z.B. Vollpreis), Tickets, Bedingungen und Einschränkungen'
         serialized_name_list:
             always-available: ita-IT
             eng-GB: Offerta
             ita-IT: Offerta
+            ger-DE: Angebot
         data_type_string: ezobjectrelationlist
         placement: 20
         is_searchable: 1
@@ -425,10 +467,12 @@ data_map:
             always-available: ita-IT
             eng-GB: 'Eventuali documenti allegati'
             ita-IT: 'Eventuali documenti allegati'
+            ger-DE: 'Eventuell angehängte Dokumente'
         serialized_name_list:
             always-available: ita-IT
             eng-GB: Allegati
             ita-IT: Allegati
+            ger-DE: Anhänge
         data_type_string: ocmultibinary
         placement: 21
         is_searchable: 1
@@ -442,10 +486,12 @@ data_map:
         serialized_description_list:
             eng-GB: 'Rappresentanti dell’amministrazione comunale, strutture comunali o organizzazioni che saranno presenti all’evento'
             ita-IT: 'Rappresentanti dell’amministrazione comunale, strutture comunali o organizzazioni che saranno presenti all’evento'
+            ger-DE: 'Vertreter der Gemeindeverwaltung, gemeindeeigenen Einrichtungen oder Organisationen, die an der Veranstaltung teilnehmen werden'
         serialized_name_list:
             always-available: ita-IT
             eng-GB: 'Presenti all''evento'
             ita-IT: 'Presenti all''evento'
+            ger-DE: 'Teilnehmer an der Veranstaltung'
         data_type_string: ezobjectrelationlist
         placement: 22
         is_searchable: 1
@@ -468,10 +514,12 @@ data_map:
             always-available: ita-IT
             eng-GB: 'Persone o organizzazioni che hanno composto un''opera eseguita durante l’evento'
             ita-IT: 'Persone o organizzazioni che hanno composto un''opera eseguita durante l’evento'
+            ger-DE: 'Personen oder Organisationen, die ein Werk verfasst haben, das während der Veranstaltung aufgeführt wurde'
         serialized_name_list:
             always-available: ita-IT
             eng-GB: 'Persone o organizzazioni che hanno composto un''opera eseguita durante l’evento'
             ita-IT: 'Persone o organizzazioni che hanno composto un''opera eseguita durante l’evento'
+            ger-DE: 'Personen oder Organisationen, die während der Veranstaltung ein Werk verfasst haben'
         data_type_string: ezobjectrelationlist
         placement: 23
         is_searchable: 1
@@ -496,10 +544,12 @@ data_map:
             always-available: ita-IT
             eng-GB: 'Persone, rappresentanti dell’amministrazione comunale, strutture comunali o organizzazioni che hanno un ruolo attivo (es. si esibiscono, svolgono una presentazione) durante l’evento'
             ita-IT: 'Persone, rappresentanti dell’amministrazione comunale, strutture comunali o organizzazioni che hanno un ruolo attivo (es. si esibiscono, svolgono una presentazione) durante l’evento'
+            ger-DE: 'Personen, Vertreter der Stadtverwaltung, städtische Einrichtungen oder Organisationen, die während der Veranstaltung eine aktive Rolle spielen (z. B. auftreten, einen Vortrag halten)'
         serialized_name_list:
             always-available: ita-IT
             eng-GB: 'Chi presenta'
             ita-IT: 'Chi presenta'
+            ger-DE: 'Wer präsentiert'
         data_type_string: ezobjectrelationlist
         placement: 24
         is_searchable: 1
@@ -526,10 +576,12 @@ data_map:
             always-available: ita-IT
             eng-GB: 'Rappresentanti dell’amministrazione comunale, strutture comunali o organizzazioni che organizzano l’evento'
             ita-IT: 'Rappresentanti dell’amministrazione comunale, strutture comunali o organizzazioni che organizzano l’evento'
+            ger-DE: 'Vertreter der Gemeindeverwaltung, gemeindeeigenen Einrichtungen oder Organisationen, die die Veranstaltung organisieren'
         serialized_name_list:
             always-available: ita-IT
             eng-GB: Organizzatori
             ita-IT: Organizzatori
+            ger-DE: Veranstalter
         data_type_string: ezobjectrelationlist
         placement: 25
         is_searchable: 1
@@ -557,10 +609,12 @@ data_map:
             always-available: ita-IT
             eng-GB: 'Strutture comunali o organizzazioni che sostengono economicamente l’evento'
             ita-IT: 'Strutture comunali o organizzazioni che sostengono economicamente l’evento'
+            ger-DE: 'Gemeindeeinrichtungen oder Organisationen, die die Veranstaltung finanziell unterstützen'
         serialized_name_list:
             always-available: ita-IT
             eng-GB: Sponsor
             ita-IT: Sponsor
+            ger-DE: Sponsoren
         data_type_string: ezobjectrelationlist
         placement: 26
         is_searchable: 1
@@ -585,10 +639,12 @@ data_map:
             always-available: ita-IT
             eng-GB: 'organizzazioni che si occupano della diffusione dell’evento in altre lingue'
             ita-IT: 'organizzazioni che si occupano della diffusione dell’evento in altre lingue'
+            ger-DE: 'Organisationen, die an der Verbreitung der Veranstaltung in anderen Sprachen beteiligt sind'
         serialized_name_list:
             always-available: ita-IT
             eng-GB: 'Servizio di traduzione curato da'
             ita-IT: 'Servizio di traduzione curato da'
+            ger-DE: 'Übersetzungsdienst von'
         data_type_string: ezobjectrelationlist
         placement: 27
         is_searchable: 1
@@ -613,10 +669,12 @@ data_map:
             always-available: ita-IT
             eng-GB: 'Organizzazioni che patrocinano l’evento'
             ita-IT: 'Organizzazioni che patrocinano l’evento'
+            ger-DE: 'Organisationen, die die Veranstaltung sponsern'
         serialized_name_list:
             always-available: ita-IT
             eng-GB: Patrocinio
             ita-IT: Patrocinio
+            ger-DE: Schirmherrschaft
         data_type_string: ezobjectrelationlist
         placement: 28
         is_searchable: 1
@@ -641,10 +699,12 @@ data_map:
             always-available: ita-IT
             eng-GB: 'Sistema di valutazione dell''evento'
             ita-IT: 'Sistema di valutazione dell''evento'
+            ger-DE: Ereignis-Auswertungssystem
         serialized_name_list:
             always-available: ita-IT
             eng-GB: 'Valutazione dell''evento'
             ita-IT: 'Valutazione dell''evento'
+            ger-DE: 'Auswertung der Veranstaltung'
         data_type_string: ezsrrating
         placement: 29
         is_searchable: 1
@@ -663,6 +723,7 @@ data_map:
             always-available: ita-IT
             eng-GB: 'Lingue usate all''evento'
             ita-IT: 'Lingue usate all''evento'
+            ger-DE: 'Auf der Veranstaltung verwendete Sprachen'
         data_type_string: eztags
         placement: 30
         is_searchable: 1
@@ -684,6 +745,7 @@ data_map:
             always-available: ita-IT
             eng-GB: Recensione
             ita-IT: Recensione
+            ger-DE: Rezension
         data_type_string: eztext
         placement: 31
         is_searchable: 1
@@ -701,10 +763,12 @@ data_map:
             always-available: ita-IT
             eng-GB: 'Indicare l''età degli utenti per cui l''evento è stato pensato'
             ita-IT: 'Indicare l''età degli utenti per cui l''evento è stato pensato'
+            ger-DE: 'Geben Sie das Alter der Benutzer an, für die das Ereignis bestimmt ist'
         serialized_name_list:
             always-available: ita-IT
             eng-GB: 'Indicato per'
             ita-IT: 'Indicato per'
+            ger-DE: 'Geeignet für'
         data_type_string: eztags
         placement: 32
         is_searchable: 1
@@ -723,10 +787,12 @@ data_map:
             always-available: ita-IT
             eng-GB: 'Numero totale di posti disponibili '
             ita-IT: 'Numero totale di posti disponibili '
+            ger-DE: 'Gesamtzahl der verfügbaren Plätze'
         serialized_name_list:
             always-available: ita-IT
             eng-GB: 'Numero massimo di posti'
             ita-IT: 'Numero massimo di posti'
+            ger-DE: 'Maximale Anzahl von Plätzen'
         data_type_string: ezinteger
         placement: 33
         is_searchable: 1

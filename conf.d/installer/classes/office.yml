@@ -3,8 +3,10 @@ contentobject_name: '<legal_name>'
 serialized_name_list:
     always-available: ita-IT
     ita-IT: Ufficio
+    ger-DE: Amt
 serialized_description_list:
     ita-IT: 'Un ufficio dell''organizzazione; nell''ambito delle organizzazioni pubbliche è anche detto unità organizzativa o struttura'
+    ger-DE: 'Ein Amt der Organisation; in öffentlichen Organisationen wird es auch als Organisationseinheit oder Amt bezeichnet '
 always_available: 1
 sort_field: 9
 data_map:
@@ -12,9 +14,11 @@ data_map:
         identifier: legal_name
         serialized_description_list:
             ita-IT: 'Nome primario o il nome legale dell''ufficio'
+            ger-DE: 'Hauptname oder rechtlicher Name des Amtes'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Nome
+            ger-DE: Name
         data_type_string: ezstring
         placement: 1
         is_required: 1
@@ -26,9 +30,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'un nome alternativo dell''ufficio (e.g., un nome colloquiale)'
+            ger-DE: 'Ein alternativer Name für das Amt (z. B. ein umgangssprachlicher Name)'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Nome alternativo'
+            ger-DE: 'Alternativer Name'
         data_type_string: ezstring
         placement: 2
         is_searchable: 1
@@ -41,9 +47,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'eventuale acronimo dell''organizzazione'
+            ger-DE: 'evt. Kürzel der Organisation/des Amtes angeben'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Acronimo
+            ger-DE: Abkürzung
         data_type_string: ezstring
         placement: 3
         is_searchable: 1
@@ -55,9 +63,11 @@ data_map:
         identifier: description
         serialized_description_list:
             ita-IT: 'Descrizione completa dell''ufficio'
+            ger-DE: 'Detaillierte Beschreibung des Amtes'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Descrizione
+            ger-DE: Beschreibung
         data_type_string: ezxmltext
         placement: 4
         can_translate: 1
@@ -68,9 +78,11 @@ data_map:
         identifier: main_function
         serialized_description_list:
             ita-IT: 'Funzione dell''ufficio ed elenco dei compiti assegnati'
+            ger-DE: 'Funktion des Amtes und Verzeichnis der Zuständigkeiten'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Competenze e funzioni'
+            ger-DE: 'Zuständigkeiten und Funktionen'
         data_type_string: ezxmltext
         placement: 5
         can_translate: 1
@@ -81,9 +93,11 @@ data_map:
         identifier: has_logo
         serialized_description_list:
             ita-IT: 'Logo dell''ufficio'
+            ger-DE: 'Logo des Amtes'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Logo
+            ger-DE: Logo
         data_type_string: ezimage
         placement: 6
         can_translate: 1
@@ -93,9 +107,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Immagine/i principale/i dell''ufficio'
+            ger-DE: 'Hauptname oder rechtlicher Name des Amtes'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Immagini
+            ger-DE: Bilder
         data_type_string: ezobjectrelationlist
         placement: 7
         is_searchable: 1
@@ -115,9 +131,11 @@ data_map:
         identifier: start_time
         serialized_description_list:
             ita-IT: 'Data a partire dalla quale l''ufficio è attivo'
+            ger-DE: 'Datum Tätigkeitsbeginn des Amtes'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Data inizio validità'
+            ger-DE: 'Gültig/wirksam ab '
         data_type_string: ezdate
         placement: 8
         can_translate: 1
@@ -127,9 +145,11 @@ data_map:
         identifier: end_time
         serialized_description_list:
             ita-IT: 'Data di fine attività dell''ufficio'
+            ger-DE: 'Datum Tätigkeitsende des Amtes'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Data fine validità'
+            ger-DE: 'Gültig/wirksam bis '
         data_type_string: ezdate
         placement: 9
         can_translate: 1
@@ -143,6 +163,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Sedi
+            ger-DE: Sitz/Adresse
         data_type_string: ezobjectrelationlist
         placement: 10
         is_searchable: 1
@@ -164,9 +185,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'data di accreditamento dell''ufficio nel pubblico registro IndicePA'
+            ger-DE: 'Datum der Akkreditierung der Organisation im öffentlichen Register IndicePA'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Data di accreditamento'
+            ger-DE: 'Datum der Akkreditierung'
         data_type_string: ezdate
         placement: 11
         is_searchable: 1
@@ -180,9 +203,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Punti di contatto per avere informazioni'
+            ger-DE: 'Kontaktstellen für weitere Informationen'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Punti di contatto'
+            ger-DE: Kontaktstellen
         data_type_string: ezobjectrelationlist
         placement: 12
         is_searchable: 1
@@ -203,9 +228,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Struttura organizzativa da cui dipende (livello più alto; ad esempio il servizio interno da cui l''ufficio dipende)'
+            ger-DE: 'Organisationsstruktur, von der es abhängt (höhere Ebene)'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Legami con altre strutture'
+            ger-DE: 'Verbindungen mit anderen Strukturen'
         data_type_string: ezobjectrelationlist
         placement: 13
         is_searchable: 1
@@ -227,9 +254,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Questa proprietà lega un ufficio (o unità organizzativa) alla sua AOO (area organizzativa omogenea, es. Protocollo) di riferimento'
+            ger-DE: 'Diese Eigenschaft verknüpft ein Amt (oder eine Organisationseinheit) mit seinem homogenen Organisationsbereich (AOO) z. B. Protokoll.'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'AOO di riferimento'
+            ger-DE: 'Verbundener Homogener Organisationsbereich (AOO)'
         data_type_string: ezobjectrelationlist
         placement: 14
         is_searchable: 1
@@ -250,9 +279,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'tematiche trattate da questa organizzazione'
+            ger-DE: 'Themen, die von dieser Organisation behandelt werden'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Argomenti
+            ger-DE: Themen
         data_type_string: ezobjectrelationlist
         placement: 15
         is_searchable: 1
@@ -276,6 +307,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Allegati
+            ger-DE: Anhänge
         data_type_string: ezobjectrelationlist
         placement: 16
         is_searchable: 1
@@ -296,9 +328,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Ulteriori informazioni sulla struttura non contemplate dai campi precedenti'
+            ger-DE: 'Zusätzliche Informationen über die Struktur (Amt, Organisation), die nicht durch die vorherigen Felder abgedeckt sind'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Ulteriori informazioni'
+            ger-DE: 'Weitere Informationen'
         data_type_string: ezxmltext
         placement: 17
         is_searchable: 1
@@ -312,9 +346,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Eventuali contatti di supporto all''utente. Per esempio i riferimenti dell''URP'
+            ger-DE: 'Mögliche Supportkontakte für den Benutzer, z.B. Bürgerschalter'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Box d''aiuto'
+            ger-DE: Hilfebox
         data_type_string: ezobjectrelationlist
         placement: 18
         is_searchable: 1
@@ -335,9 +371,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Indicare la tipologia tradizionale di struttura organizzativa del Comune'
+            ger-DE: 'Geben Sie die institutionelle Organisationsstruktur der Stadtverwaltung an'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Tipo di struttura organizzativa'
+            ger-DE: Organisationsaufbau
         data_type_string: eztags
         placement: 19
         is_searchable: 1
@@ -358,6 +396,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Assessore di riferimento'
+            ger-DE: 'Zuständiger Stadtrat'
         data_type_string: openparole
         placement: 20
         can_translate: 1
@@ -370,9 +409,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Responsabile della struttura'
+            ger-DE: 'Verantwortlicher Leiter der Struktur'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Responsabile
+            ger-DE: 'Verantwortlicher/e (Leitung)'
         data_type_string: openparole
         placement: 21
         can_translate: 1
@@ -385,9 +426,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Riferimenti alle schede persona per ciascuno dei componenti della struttura (lista funzionari)'
+            ger-DE: 'Hinweise auf die Datenblätter jedes einzelnen Mitarbeiters des Amtes (Liste der Funktionäre)'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Persone che compongono la struttura'
+            ger-DE: 'Mitarbeiterinnen und Mitarbeiter'
         data_type_string: openparole
         placement: 22
         can_translate: 1
@@ -400,9 +443,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Codice definito da Indice PA'
+            ger-DE: 'IPA-Kodex der dem Verzeichnis der Öffentlichen Verwaltungen zu entnehmen ist'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Codice univoco ufficio'
+            ger-DE: 'Eindeutiger  Amtserkennungscode '
         data_type_string: ezstring
         placement: 23
         is_searchable: 1
@@ -415,9 +460,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Codice stabilito dal Comune, ad uso interno'
+            ger-DE: 'Von der Stadtverwaltung erstellter Kodex, für den internen Gebrauch'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Identificatore univoco interno'
+            ger-DE: 'Einheitliche interne Kennnummer'
         data_type_string: ezstring
         placement: 24
         is_searchable: 1
@@ -430,9 +477,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Se l''ufficio funge da Area Organizzativa Omogenea, indicare l''identificatore AOO specificato su IndecePA'
+            ger-DE: 'Wenn das Büro als homogener Organisationsbereich fungiert, geben Sie die in der IndicePA angegebene AOO-Kennnummer an'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Identificatore AOO'
+            ger-DE: AOO-Kennnummer
         data_type_string: ezstring
         placement: 25
         is_searchable: 1
@@ -448,6 +497,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'E'' un''organizzazione pubblica appartenente a'
+            ger-DE: 'Diese öffentliche Körperschaft gehört zu...'
         data_type_string: ezobjectrelationlist
         placement: 26
         is_searchable: 1
@@ -471,6 +521,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Codice fiscale servizio di fatturazione elettronica'
+            ger-DE: 'Steuernummern elektronische Verrechnung'
         data_type_string: ezstring
         placement: 27
         is_searchable: 1
@@ -486,6 +537,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Servizi erogati'
+            ger-DE: 'Angebotene Dienste'
         data_type_string: openpareverserelationlist
         placement: 28
         can_translate: 1

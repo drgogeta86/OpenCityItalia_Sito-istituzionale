@@ -58,27 +58,27 @@ attribute_group:
     'eng-GB::ulteriori_informazioni':
         '*': 'Ulteriori informazioni'
     'ger-DE::a_chi_si_rivolge':
-        '*': 'A chi si rivolge'
+        '*': 'An wen sich diese Dienstleistung richtet'
     'ger-DE::accedere_al_servizio':
-        '*': 'Accedere al servizio'
+        '*': 'So geht''s'
     'ger-DE::casi_particolari':
-        '*': 'Casi particolari'
+        '*': Sonderfälle
     'ger-DE::contatti':
-        '*': Contatti
+        '*': Kontakt
     'ger-DE::cos_e':
-        '*': 'Cos''è'
+        '*': 'Was Sie hierzu wissen müssen  '
     'ger-DE::cosa_serve':
-        '*': 'Cosa serve'
+        '*': 'Notwendige Dokumente'
     'ger-DE::costi_e_vincoli':
-        '*': 'Costi e vincoli'
+        '*': 'Kosten und Voraussetzungen'
     'ger-DE::documenti':
-        '*': Documenti
+        '*': Dokumente
     'ger-DE::siti_esterni':
-        '*': 'Siti esterni'
+        '*': Websites
     'ger-DE::tempi_e_scadenze':
-        '*': 'Tempi e scadenze'
+        '*': 'Fristen und Fälligkeiten'
     'ger-DE::ulteriori_informazioni':
-        '*': 'Ulteriori informazioni'
+        '*': 'Weitere Informationen'
     'ita-IT::a_chi_si_rivolge':
         '*': 'A chi si rivolge'
     'ita-IT::accedere_al_servizio':

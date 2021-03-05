@@ -3,9 +3,11 @@ contentobject_name: '<titolo>'
 serialized_name_list:
     always-available: ita-IT
     ita-IT: 'Contenitore Apps '
+    ger-DE: 'Sektion für Apps'
 serialized_description_list:
     always-available: ita-IT
     ita-IT: 'Struttura dati necessaria al funzionamento della piattaforma'
+    ger-DE: 'Für den Betrieb der Plattform notwendige Datenstruktur'
 is_container: 1
 data_map:
     titolo:
@@ -16,6 +18,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Titolo
+            ger-DE: Titel
         data_type_string: ezstring
         placement: 1
         is_required: 1

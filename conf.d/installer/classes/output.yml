@@ -3,8 +3,10 @@ contentobject_name: '<short_name|name>'
 serialized_name_list:
     always-available: ita-IT
     ita-IT: 'Output del servizio (cosa si ottiene)'
+    ger-DE: 'Output der erbrachten Dienstleistung (was Sie erhalten)'
 serialized_description_list:
     ita-IT: 'Qualsiasi risorsa (e.g., documenti, certificazioni, ecc.) prodotta da un servizio pubblico'
+    ger-DE: 'Jede Ressource (z. B. Dokumente, Bescheinigungen usw.), die von einem öffentlichen Dienst erstellt wurde'
 always_available: 1
 sort_field: 2
 sort_order: 0
@@ -17,6 +19,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Nome
+            ger-DE: Name
         data_type_string: ezstring
         placement: 1
         is_searchable: 1
@@ -31,6 +34,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Nome breve'
+            ger-DE: 'Kurzer Name'
         data_type_string: ezstring
         placement: 2
         is_searchable: 1
@@ -44,6 +48,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Abstract (Descrizione breve)'
+            ger-DE: 'Abstract (Kurze Beschreibung)'
         data_type_string: ezxmltext
         placement: 3
         is_searchable: 1
@@ -57,6 +62,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Descrizione
+            ger-DE: Beschreibung
         data_type_string: ezxmltext
         placement: 4
         is_searchable: 1
@@ -68,9 +74,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Immagini rappresentative dell''output'
+            ger-DE: 'Repräsentative Bilder des Outputs'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Immagini
+            ger-DE: Bilder
         data_type_string: ezobjectrelationlist
         placement: 5
         is_searchable: 1
@@ -94,6 +102,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Tipologia di output/esito'
+            ger-DE: 'Art des Outputs/Ergebnisses'
         data_type_string: eztags
         placement: 6
         is_searchable: 1
@@ -114,6 +123,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Argomento
+            ger-DE: Thema
         data_type_string: ezobjectrelationlist
         placement: 7
         is_searchable: 1
@@ -134,9 +144,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Files rappresentative dell''output (fac-simile)'
+            ger-DE: 'Repräsentative Output-Dateien (fac-simile)'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'File di esempio'
+            ger-DE: Beispiel-Dateien
         data_type_string: ocmultibinary
         placement: 8
         is_searchable: 1

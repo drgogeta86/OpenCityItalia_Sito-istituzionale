@@ -13,6 +13,10 @@ attribute_group:
         '*': '1'
     'sort::documenti':
         '*': '2'
+    'ger-DE::cos_e':
+        '*': 'Was Sie hierzu wissen müssen  '
+    'ger-DE::documenti':
+        '*': Dokumente
 card_small_view:
     show:
         abstract: '1'

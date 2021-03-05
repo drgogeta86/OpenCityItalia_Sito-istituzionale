@@ -21,13 +21,13 @@ attribute_group:
     'eng-GB::ulteriori_informazioni':
         '*': 'Ulteriori informazioni'
     'ger-DE::contatti':
-        '*': Contatti
+        '*': Kontakt
     'ger-DE::documenti':
-        '*': Documenti
+        '*': Dokumente
     'ger-DE::ruolo':
-        '*': Ruolo
+        '*': 'Funktion '
     'ger-DE::ulteriori_informazioni':
-        '*': 'Ulteriori informazioni'
+        '*': 'Weitere Informationen'
     'ita-IT::contatti':
         '*': Contatti
     'ita-IT::documenti':

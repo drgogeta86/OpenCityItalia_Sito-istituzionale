@@ -3,9 +3,11 @@ contentobject_name: '<name>'
 serialized_name_list:
     always-available: ita-IT
     ita-IT: 'Area riservata'
+    ger-DE: 'Reservierter Bereich'
 serialized_description_list:
     always-available: ita-IT
     ita-IT: 'Alberatura riservata a un gruppo di utenti '
+    ger-DE: 'Für eine Benutzergruppe reservierter Datenbaum '
 sort_field: 2
 sort_order: 0
 is_container: 1
@@ -15,9 +17,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Area riservata'
+            ger-DE: 'Reservierter Bereich'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Titolo
+            ger-DE: Titel
         data_type_string: ezstring
         placement: 1
         is_searchable: 1
@@ -34,6 +38,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Descrizione breve'
+            ger-DE: 'Kurze Beschreibung'
         data_type_string: eztext
         placement: 2
         is_searchable: 1
@@ -50,6 +55,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Utenti e/o gruppi abilitati all''accesso'
+            ger-DE: 'Benutzer und/oder Gruppen mit Zugriffsrechten'
         data_type_string: openparestrictedarea
         placement: 3
         is_searchable: 1

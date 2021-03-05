@@ -3,9 +3,11 @@ contentobject_name: '<name>'
 serialized_name_list:
     always-available: ita-IT
     ita-IT: Homepage
+    ger-DE: Startseite
 serialized_description_list:
     always-available: ita-IT
     ita-IT: 'Struttura dati necessaria al funzionamento della piattaforma'
+    ger-DE: 'Für den Betrieb der Plattform erforderliche Datenstruktur'
 always_available: 1
 sort_field: 8
 is_container: 1
@@ -18,6 +20,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Titolo
+            ger-DE: Titel
         data_type_string: ezstring
         placement: 1
         is_searchable: 1
@@ -33,6 +36,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Layout
+            ger-DE: Layout
         data_type_string: ezpage
         placement: 2
         can_translate: 1
@@ -47,6 +51,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Logo
+            ger-DE: Logo
         data_type_string: ezimage
         placement: 3
         can_translate: 1
@@ -61,6 +66,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Link al menu orizzontale'
+            ger-DE: 'Link zum horizontalen Menü'
         data_type_string: ezobjectrelationlist
         placement: 4
         is_searchable: 1
@@ -82,6 +88,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Link nell''header'
+            ger-DE: 'Link in der Kopfzeile'
         data_type_string: ezobjectrelationlist
         placement: 5
         is_searchable: 1
@@ -103,6 +110,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Link nel footer'
+            ger-DE: 'Link in der Fußzeile'
         data_type_string: ezobjectrelationlist
         placement: 6
         is_searchable: 1
@@ -124,6 +132,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Informazioni nel footer'
+            ger-DE: 'Informationen in der Fußzeile'
         data_type_string: ezxmltext
         placement: 7
         can_translate: 1
@@ -139,6 +148,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Contatti
+            ger-DE: Kontakt
         data_type_string: ezmatrix
         placement: 8
         is_searchable: 1
@@ -152,9 +162,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Stemma ufficiale'
+            ger-DE: 'Offizielles Wappen'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Stemma
+            ger-DE: Wappen
         data_type_string: ezimage
         placement: 9
         can_translate: 1
@@ -169,6 +181,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Colora il logo di bianco'
+            ger-DE: 'Logo weiß einfärben'
         data_type_string: ezboolean
         placement: 10
         is_searchable: 1
@@ -185,6 +198,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Solo logo'
+            ger-DE: 'Nur Logo'
         data_type_string: ezboolean
         placement: 11
         can_translate: 1
@@ -200,6 +214,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Menu argomenti '
+            ger-DE: 'Menü Themen '
         data_type_string: ezobjectrelationlist
         placement: 12
         is_searchable: 1
@@ -219,9 +234,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Organizzazione pubblica che descrive l''ente'
+            ger-DE: 'Beschreibung der öffentlichen Körperschaft'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Organizzazione pubblica'
+            ger-DE: 'Öffentliche Körperschaft'
         data_type_string: ezobjectrelation
         placement: 13
         is_searchable: 1
@@ -235,9 +252,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Punto di contatto principale dell''ente'
+            ger-DE: 'Wichtigste Kontaktstelle der Körperschaft '
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Punto di contatto'
+            ger-DE: Kontaktstelle
         data_type_string: ezobjectrelation
         placement: 14
         is_searchable: 1
@@ -251,9 +270,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Copertura geografica dell''ente'
+            ger-DE: 'Geografische Abdeckung der Körperschaft'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Copertura geografica'
+            ger-DE: 'Geografische Abdeckung'
         data_type_string: eztags
         placement: 15
         is_searchable: 1
@@ -270,7 +291,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: Immagine anteprima sito
+            ita-IT: 'Immagine anteprima sito'
+            ger-DE: 'Vorschaubild der Webseite'
         data_type_string: ezimage
         placement: 16
         can_translate: 1

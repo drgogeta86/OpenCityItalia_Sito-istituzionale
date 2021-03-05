@@ -3,9 +3,11 @@ contentobject_name: '<title>'
 serialized_name_list:
     always-available: ita-IT
     ita-IT: Dataset
+    ger-DE: Datensatz
 serialized_description_list:
     always-available: ita-IT
     ita-IT: 'Insieme di dati strutturati in forma relazionale; corrisponde al contenuto di una singola tabella di base di dati'
+    ger-DE: 'Reihe von Daten, die in relationaler Form strukturiert sind; entspricht dem Inhalt einer einzelnen Datenbanktabelle'
 always_available: 1
 data_map:
     title:
@@ -16,6 +18,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Titolo
+            ger-DE: Titel
         data_type_string: ezstring
         placement: 1
         is_searchable: 1
@@ -29,9 +32,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Sulla base anche di quanto indicato all’art.2 lettera i) del D. Lgs. n. 36/2006, il titolare del dataset è la pubblica amministrazione o l’organismo di diritto pubblico che ha originariamente formato per uso proprio o commissionato ad altro soggetto pubblico o privato il documento che rappresenta il dato, o che ne ha la disponibilità. Il titolare è pertanto responsabile della gestione complessiva del dataset in virtù dei propri compiti istituzionali.Si fa presente che, nell’ambito della presente ontologia, l’accezione di documento suddetta può essere intesa riferita al dataset. E'' bene evitare di specificare nomi di singole persone.'
+            ger-DE: 'Aufgrund dessen, was in Art. 2 Buchst. i) des D. Dekrets Nr. 36/2006 angegeben ist, ist der Eigentümer des Datensatzes die öffentliche Verwaltung oder die Körperschaft des öffentlichen Rechts, die das Dokument, das die Daten darstellt, ursprünglich für den eigenen Gebrauch gebildet oder eine andere öffentliche oder private Stelle damit beauftragt hat, oder die über die Verfügbarkeit verfügt. Der Eigentümer ist also aufgrund seiner institutionellen Aufgaben für die Gesamtverwaltung des Datensatzes verantwortlich. Es ist zu beachten, dass im Kontext dieser Ontologie die oben genannte Bedeutung von Dokument so verstanden werden kann, dass sie sich auf den Datensatz bezieht. Vermeiden Sie am besten die Angabe von Namen von Einzelpersonen.'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Titolare
+            ger-DE: Eigentümer
         data_type_string: ezobjectrelationlist
         placement: 2
         is_searchable: 1
@@ -53,9 +58,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Identificatore univoco del dataset nell''archivio comunale'
+            ger-DE: 'Einheitliche ID des Datensatzes im Gemeindearchiv'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Altro identificatore'
+            ger-DE: 'Andere ID-Nummer'
         data_type_string: ezstring
         placement: 3
         is_searchable: 1
@@ -68,9 +75,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Descrizione del dataset'
+            ger-DE: 'Beschreibung des Datensatzes'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Descrizione
+            ger-DE: Bezeichnung
         data_type_string: eztext
         placement: 4
         is_searchable: 1
@@ -85,9 +94,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Indicare a quali aree geografiche si riferiscono i dati'
+            ger-DE: 'Geben Sie an, auf welche geografischen Gebiete sich die Daten beziehen'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Copertura geografica'
+            ger-DE: 'Geografische Abdeckung'
         data_type_string: eztags
         placement: 5
         is_searchable: 1
@@ -105,9 +116,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Data ufficiale di rilascio (pubblicazione) del dataset'
+            ger-DE: 'Tag der Veröffentlichung'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Data di rilascio'
+            ger-DE: 'Datum der Freigabe'
         data_type_string: ezdate
         placement: 6
         is_searchable: 1
@@ -121,9 +134,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Data di ultima modifica dei dati contenuti nel dataset'
+            ger-DE: 'Datum der letzten Änderung der im Dataset enthaltenen Daten'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Data di ultima modifica'
+            ger-DE: 'Datum der letzten Änderung'
         data_type_string: ezdate
         placement: 7
         is_searchable: 1
@@ -138,9 +153,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Periodo di tempo a cui i dataset si riferiscono'
+            ger-DE: 'Zeitraum, auf den sich der Datensatz bezieht'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Estensione temporale'
+            ger-DE: 'Zeitliche Ausdehnung'
         data_type_string: ezobjectrelationlist
         placement: 8
         is_searchable: 1
@@ -161,9 +178,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Utilizzare il vocabolario controllato europeo: http://publications.europa.eu/resource/authority/frequency'
+            ger-DE: 'Verwenden Sie das europäische kontrollierte Vokabular: http://publications.europa.eu/resource/authority/frequency'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Frequenza di aggiornamento'
+            ger-DE: 'Frequenz der Aktualisierung'
         data_type_string: eztags
         placement: 9
         is_searchable: 1
@@ -181,9 +200,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Parole chiave che definiscono meglio le tematiche trattate dal dataset. Usare la virgola per separarle'
+            ger-DE: 'Schlüsselwörter, die die vom Datensatz abgedeckten Themen am besten definieren. Trennen Sie sie mit Komma'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Parole chiave'
+            ger-DE: Schlüsselwörter
         data_type_string: ezstring
         placement: 10
         is_searchable: 1
@@ -197,9 +218,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Contatto da usare per avere maggiori informazioni sul dataset'
+            ger-DE: 'Kontakt für weitere Informationen über den Datensatz'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Punti di contatto'
+            ger-DE: Kontaktstellen
         data_type_string: ezobjectrelationlist
         placement: 11
         is_searchable: 1
@@ -220,9 +243,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'una o più entità (organizzazione/i) che hanno materialmente prodotto il Dataset. Evitare di indicare nomi di singole persone'
+            ger-DE: 'Eine oder mehrere Einheiten (Organisationen, die den Datensatz wesentlich erstellt haben. Vermeiden Sie die Angabe von Namen von Einzelpersonen.'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Autore/i del dataset'
+            ger-DE: 'Autor(en) des Datensatzes'
         data_type_string: ezobjectrelationlist
         placement: 12
         is_searchable: 1
@@ -247,6 +272,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Standard di conformità'
+            ger-DE: Konformitätsstandard
         data_type_string: eztags
         placement: 13
         is_searchable: 1
@@ -266,6 +292,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Risorse
+            ger-DE: Ressource
         data_type_string: ezmatrix
         placement: 14
         is_searchable: 1
@@ -279,9 +306,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Link per scaricare la risorsa'
+            ger-DE: 'Link zum Herunterladen der Ressource'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Risorsa
+            ger-DE: Ressource
         data_type_string: ezurl
         placement: 15
         can_translate: 1
@@ -293,9 +322,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'File contenente il dataset'
+            ger-DE: 'Datei, die den Datensatz enthält'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Risorsa
+            ger-DE: Ressource
         data_type_string: ocmultibinary
         placement: 16
         is_searchable: 1
@@ -308,9 +339,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Selezionare la licenza, valida per tutti i dati raccolti in questo dataset'
+            ger-DE: 'Wählen Sie die Lizenz aus, die für alle in diesem Datensatz erfassten Daten gilt'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Licenza
+            ger-DE: Lizenz
         data_type_string: eztags
         placement: 17
         is_searchable: 1
@@ -328,9 +361,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Organizzazione che è responsabile di rendere disponibile il dataset'
+            ger-DE: 'Organisation, die für die Bereitstellung des Datensatzes verantwortlich ist'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Editore
+            ger-DE: Herausgeber
         data_type_string: ezobjectrelationlist
         placement: 18
         is_searchable: 1
@@ -355,6 +390,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Lingua
+            ger-DE: Sprache
         data_type_string: eztags
         placement: 19
         is_searchable: 1
@@ -374,6 +410,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Categorie tematiche'
+            ger-DE: 'Kategorien Themen'
         data_type_string: eztags
         placement: 20
         is_searchable: 1
@@ -394,6 +431,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Versione
+            ger-DE: Version
         data_type_string: ezstring
         placement: 21
         is_searchable: 1
@@ -407,9 +445,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Formato del file di distribuzione del dataset. Per i formati si richiede l''uso del vocabolario controllato disponibile in https://publications.europa.eu/en/web/eu-vocabularies/at-concept-scheme/-/resource/authority/file-type/?target=Browse'
+            ger-DE: 'Format der Dataset-Distributionsdatei. Die Formate erfordern die Verwendung des kontrollierten Vokabulars, das unter https://publications.europa.eu/en/web/eu-vocabularies/at-concept-scheme/-/resource/authority/file-type/?target=Browse verfügbar ist.'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Formato
+            ger-DE: Format
         data_type_string: eztags
         placement: 22
         is_searchable: 1

@@ -3,10 +3,12 @@ contentobject_name: '<first_name> <last_name>'
 serialized_name_list:
     always-available: ita-IT
     ita-IT: Utente
+    ger-DE: Benutzer
 serialized_description_list:
     0: ''
     always-available: false
     ita-IT: "Utente tecnico; struttura dati necessaria al funzionamento della piattaforma\t"
+    ger-DE: 'Technischer Benutzer; Datenstruktur, die für das Funktionieren der Plattform notwendig ist'
 always_available: 1
 data_map:
     first_name:
@@ -18,6 +20,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Nome
+            ger-DE: Name
         data_type_string: ezstring
         placement: 1
         is_searchable: 1
@@ -36,6 +39,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Cognome
+            ger-DE: Nachname
         data_type_string: ezstring
         placement: 2
         is_searchable: 1
@@ -54,6 +58,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Account
+            ger-DE: Konto
         data_type_string: ezuser
         placement: 3
         is_searchable: 1
@@ -69,6 +74,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Scadenza password'
+            ger-DE: 'Ablauf des Passworts'
         data_type_string: ezpaex
         placement: 4
         is_searchable: 1
@@ -84,6 +90,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Accettazione termini di utilizzo'
+            ger-DE: 'Akzeptieren der Nutzungsbedingungen'
         data_type_string: ocgdpr
         placement: 5
         is_required: 1

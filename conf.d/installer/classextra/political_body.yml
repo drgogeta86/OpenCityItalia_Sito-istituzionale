@@ -40,6 +40,20 @@ attribute_group:
         content_show_published: '1'
         help: '1'
         more_information: '1'
+    'ger-DE::contatti':
+        '*': Kontakt
+    'ger-DE::cosa_fa':
+        '*': 'Zuständigkeiten (Wir sind zuständig für)'
+    'ger-DE::documenti':
+        '*': Dokumente
+    'ger-DE::persone':
+        '*': 'Personen '
+    'ger-DE::servizi':
+        '*': Dienste
+    'ger-DE::struttura':
+        '*': Struktur
+    'ger-DE::ulteriori_informazioni':
+        '*': 'Weitere Informationen'
 table_view:
     enabled:
         '*': '1'

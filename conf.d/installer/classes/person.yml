@@ -3,9 +3,11 @@ contentobject_name: '<given_name>'
 serialized_name_list:
     always-available: ita-IT
     ita-IT: Persona
+    ger-DE: Person
 serialized_description_list:
     always-available: ita-IT
     ita-IT: 'Profilo di un cittadino che richiede un servizio o apre un''istanza presso l''ente'
+    ger-DE: 'Profil eines Bürgers, der einen Dienst anfordert oder einen Antrag bei der Gemeinde stellt'
 data_map:
     given_name:
         identifier: given_name
@@ -15,6 +17,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Nome
+            ger-DE: Name
         data_type_string: ezstring
         placement: 1
         is_searchable: 1
@@ -31,6 +34,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Cognome
+            ger-DE: Nachname
         data_type_string: ezstring
         placement: 2
         is_searchable: 1
@@ -44,9 +48,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Inserire il nome alternativo o secondo nome di una persona. Per esempio Anne è il secondo nome di "Mary Anne Clarke".'
+            ger-DE: 'Geben Sie den alternativen oder zweiten Namen einer Person ein. Zum Beispiel ist Anne der zweite Vorname von "Mary Anne Clarke".'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Nome alternativo / secondo nome'
+            ger-DE: 'Alternativer Name / Zweiter Vorname'
         data_type_string: ezstring
         placement: 3
         is_searchable: 1
@@ -62,6 +68,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Codice fiscale'
+            ger-DE: Steuernummer
         data_type_string: ezstring
         placement: 4
         is_searchable: 1
@@ -77,6 +84,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Data di nascita'
+            ger-DE: Geburtsdatum
         data_type_string: ezdate
         placement: 5
         is_searchable: 1
@@ -92,6 +100,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Sesso
+            ger-DE: Geschlecht
         data_type_string: eztags
         placement: 6
         is_searchable: 1
@@ -111,6 +120,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Luogo di nascita'
+            ger-DE: Geburtsort
         data_type_string: ezstring
         placement: 7
         is_searchable: 1
@@ -126,6 +136,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Residente in'
+            ger-DE: 'Ansässig in'
         data_type_string: ezstring
         placement: 8
         is_searchable: 1
@@ -141,6 +152,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Indirizzo di domicilio'
+            ger-DE: 'Gewöhnlicher Aufenthaltsort (abweichend vom Wohnsitz)'
         data_type_string: ezstring
         placement: 9
         is_searchable: 1
@@ -156,6 +168,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Grado di istruzione'
+            ger-DE: Bildungsgrad
         data_type_string: eztags
         placement: 10
         is_searchable: 1
@@ -172,6 +185,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Relazioni parentali'
+            ger-DE: Verwandtschaftsverhältnis
         data_type_string: ezobjectrelationlist
         placement: 11
         is_searchable: 1
@@ -194,6 +208,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Età
+            ger-DE: Alter
         data_type_string: ezinteger
         placement: 12
         is_searchable: 1

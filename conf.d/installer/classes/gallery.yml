@@ -3,8 +3,10 @@ contentobject_name: '<name>'
 serialized_name_list:
     always-available: ita-IT
     ita-IT: 'Galleria fotografica'
+    ger-DE: Fotogalerie
 serialized_description_list:
     ita-IT: 'Collezione di materiale fotografico'
+    ger-DE: 'Sammlung von Fotomaterial'
 is_container: 1
 data_map:
     name:
@@ -14,6 +16,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Titolo
+            ger-DE: Titel
         data_type_string: ezstring
         placement: 1
         is_searchable: 1
@@ -27,6 +30,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Descrizione breve'
+            ger-DE: 'Kurze Beschreibung'
         data_type_string: ezxmltext
         placement: 2
         is_searchable: 1
@@ -40,6 +44,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Descrizione
+            ger-DE: Beschreibung
         data_type_string: ezxmltext
         placement: 3
         is_searchable: 1
@@ -53,6 +58,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Immagine
+            ger-DE: Bild
         data_type_string: ezobjectrelation
         placement: 4
         is_searchable: 1

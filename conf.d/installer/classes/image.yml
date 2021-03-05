@@ -4,9 +4,11 @@ serialized_name_list:
     always-available: eng-GB
     eng-GB: Immagine
     ita-IT: Immagine
+    ger-DE: Bild
 serialized_description_list:
     eng-GB: ''
     ita-IT: 'File immagine e relativi metadati'
+    ger-DE: 'Bilddatei und Metadaten'
 always_available: 1
 data_map:
     name:
@@ -14,10 +16,12 @@ data_map:
         serialized_description_list:
             eng-GB: 'Titolo dell''immagine'
             ita-IT: 'Titolo dell''immagine'
+            ger-DE: 'Titel des Bildes'
         serialized_name_list:
             always-available: eng-GB
             eng-GB: Nome
             ita-IT: Nome
+            ger-DE: Name
         data_type_string: ezstring
         placement: 1
         is_searchable: 1
@@ -31,10 +35,12 @@ data_map:
         serialized_description_list:
             eng-GB: 'Scritta esplicativa dell''imnmagine situata al disotto della figura'
             ita-IT: 'Scritta esplicativa dell''immagine situata al disotto della figura'
+            ger-DE: 'Erklärendes Bildskript befindet sich unterhalb der Abbildung'
         serialized_name_list:
             always-available: eng-GB
             eng-GB: Didascalia
             ita-IT: Didascalia
+            ger-DE: Beschriftung
         data_type_string: ezxmltext
         placement: 2
         is_searchable: 1
@@ -47,10 +53,12 @@ data_map:
         serialized_description_list:
             eng-GB: 'File dell''immagine'
             ita-IT: 'File dell''immagine'
+            ger-DE: Bild-Datei
         serialized_name_list:
             always-available: eng-GB
             eng-GB: 'File immagine'
             ita-IT: 'File immagine'
+            ger-DE: Bild-Datei
         data_type_string: ezimage
         placement: 3
         is_required: 1
@@ -63,10 +71,12 @@ data_map:
         serialized_description_list:
             eng-GB: 'Parole chiave riguardanti l''immagine'
             ita-IT: 'Parole chiave riguardanti l''immagine'
+            ger-DE: 'Schlüsselwörter zum Bild'
         serialized_name_list:
             always-available: eng-GB
             eng-GB: Tags
             ita-IT: Tags
+            ger-DE: Tags
         data_type_string: ezkeyword
         placement: 4
         is_searchable: 1
@@ -83,6 +93,7 @@ data_map:
             always-available: eng-GB
             eng-GB: 'Licenza di utilizzo'
             ita-IT: 'Licenza di utilizzo'
+            ger-DE: Nutzungslizenz
         data_type_string: eztags
         placement: 5
         is_searchable: 1
@@ -100,9 +111,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Specificare il nome della licenza proprietaria'
+            ger-DE: 'Geben Sie den Namen der Eigentumslizenz an'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Licenza proprietaria'
+            ger-DE: 'Bildnachweis '
         data_type_string: ezstring
         placement: 6
         is_searchable: 1
@@ -115,9 +128,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Specificare la fonte della licenza proprietaria (ad esempio un indirizzo web sul sito da cui hai scaricato l''immagine)'
+            ger-DE: 'Geben Sie die Quelle der Eigentumslizenz an (z. B. die Adresse der Website, von der Sie das Bild heruntergeladen haben)'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Fonte della licenza proprietaria'
+            ger-DE: Bildquelle
         data_type_string: ezstring
         placement: 7
         is_searchable: 1
@@ -131,10 +146,12 @@ data_map:
             always-available: eng-GB
             eng-GB: ''
             ita-IT: 'L''autore dell''immagine'
+            ger-DE: 'Autor des Bildes'
         serialized_name_list:
             always-available: eng-GB
             eng-GB: Autore
             ita-IT: Autore
+            ger-DE: Autor
         data_type_string: ezstring
         placement: 8
         is_searchable: 1
@@ -151,6 +168,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Utilizzata in'
+            ger-DE: 'Verwendet in'
         data_type_string: openpareverserelationlist
         placement: 9
         can_translate: 1

@@ -1,5 +1,6 @@
 imports:
-    - { resource: classes/politico.yml }
+    -
+        resource: classes/politico.yml
 data_map:
     related_news:
         identifier: related_news
@@ -8,7 +9,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Notizie'
+            ita-IT: Notizie
+            ger-DE: Nachrichten
         data_type_string: openpareverserelationlist
         placement: 40
         can_translate: 1

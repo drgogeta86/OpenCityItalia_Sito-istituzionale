@@ -31,19 +31,19 @@ attribute_group:
     'eng-GB::ulteriori_informazioni':
         '*': 'Ulteriori informazioni'
     'ger-DE::contatti':
-        '*': Contatti
+        '*': Kontakt
     'ger-DE::descrizione':
-        '*': Descrizione
+        '*': Beschreibung
     'ger-DE::dove':
-        '*': Dove
+        '*': 'Wo '
     'ger-DE::modalita_di_accesso':
-        '*': 'Modalità di accesso '
+        '*': 'Zugang zu den Dienstleistungen'
     'ger-DE::orari_di_apertura':
-        '*': 'Orari di apertura'
+        '*': Öffnungszeit
     'ger-DE::servizi':
-        '*': Servizi
+        '*': Dienste
     'ger-DE::ulteriori_informazioni':
-        '*': 'Ulteriori informazioni'
+        '*': 'Weitere Informationen'
     'ita-IT::contatti':
         '*': Contatti
     'ita-IT::descrizione':

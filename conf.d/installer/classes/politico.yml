@@ -3,8 +3,10 @@ contentobject_name: '<family_name> <given_name>'
 serialized_name_list:
     always-available: ita-IT
     ita-IT: Politico
+    ger-DE: Politiker
 serialized_description_list:
     ita-IT: 'Profilo pubblico di un amministratore locale'
+    ger-DE: 'Öffentliches Profil eines lokalen Verwalters'
 always_available: 1
 sort_field: 9
 data_map:
@@ -12,9 +14,11 @@ data_map:
         identifier: family_name
         serialized_description_list:
             ita-IT: 'Cognome del politico'
+            ger-DE: 'Nachname des Politikers'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Cognome
+            ger-DE: Nachname
         data_type_string: ezstring
         placement: 1
         is_searchable: 1
@@ -25,9 +29,11 @@ data_map:
         identifier: given_name
         serialized_description_list:
             ita-IT: 'Nome del politico'
+            ger-DE: 'Vorname des Politikers'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Nome
+            ger-DE: Vorname
         data_type_string: ezstring
         placement: 2
         is_searchable: 1
@@ -42,6 +48,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Nome alternativo / secondo nome'
+            ger-DE: 'Alternativer Name / zweiter Vorname'
         data_type_string: ezstring
         placement: 3
         is_searchable: 1
@@ -57,6 +64,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Ruolo
+            ger-DE: Funktion
         is_searchable: 1
         data_type_string: openparole
         placement: 4
@@ -69,9 +77,11 @@ data_map:
         identifier: userid
         serialized_description_list:
             ita-IT: 'Credenziali di accesso  del politico per accedere alle aree riservate'
+            ger-DE: 'Zugangsdaten des Politikers für den Zugriff auf die reservierten Bereiche'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Account utente'
+            ger-DE: Benutzerkonto
         data_type_string: ezuser
         placement: 5
         is_searchable: 1
@@ -80,9 +90,11 @@ data_map:
         identifier: abstract
         serialized_description_list:
             ita-IT: 'Breve descrizione della biografia del politico'
+            ger-DE: 'Kurze Biografie des Politikers'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Biografia
+            ger-DE: Biografie
         data_type_string: ezxmltext
         placement: 6
         can_translate: 1
@@ -92,9 +104,11 @@ data_map:
         identifier: competenze
         serialized_description_list:
             ita-IT: 'Elenco/descrizione delle competenze assegnate al politico'
+            ger-DE: 'Liste/Beschreibung der dem Politiker zugeordneten Kompetenzen/Aufgabenbereiche'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Competenze
+            ger-DE: 'Zuständigkeiten '
         data_type_string: ezxmltext
         placement: 7
         is_searchable: 1
@@ -105,9 +119,11 @@ data_map:
         identifier: ricevimento
         serialized_description_list:
             ita-IT: 'Modalità di ricevimento del politico: contatti e orari'
+            ger-DE: 'Wie man den Politiker kontaktiert: Kontaktdaten und Sprechzeiten'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Modalità di ricevimento'
+            ger-DE: Sprechzeiten
         data_type_string: ezxmltext
         placement: 8
         can_translate: 1
@@ -117,9 +133,11 @@ data_map:
         identifier: email
         serialized_description_list:
             ita-IT: 'Indirizzo di posta elettronica del politico'
+            ger-DE: 'E-Mail Adresse des Politikers'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Indirizzo e-mail'
+            ger-DE: E-Mail
         data_type_string: ezemail
         placement: 9
         can_translate: 1
@@ -132,6 +150,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Telefono
+            ger-DE: Telefon
         data_type_string: ezstring
         placement: 10
         is_searchable: 1
@@ -147,6 +166,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Telefono cellulare'
+            ger-DE: Mobiltelefon
         data_type_string: ezstring
         placement: 11
         is_searchable: 1
@@ -159,9 +179,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Atto di nomina del politico'
+            ger-DE: 'Rechtsakt der Ernennung des Politikers'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Atto di convalida e/o nomina'
+            ger-DE: 'Rechtsakt der Validierung und/oder Ernennung'
         data_type_string: ezbinaryfile
         placement: 12
         is_searchable: 1
@@ -177,6 +199,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Atto di surroga'
+            ger-DE: 'Ernennungs- bzw. Bestätigungsbeschluss'
         data_type_string: ezbinaryfile
         placement: 13
         is_searchable: 1
@@ -188,9 +211,11 @@ data_map:
         identifier: decorrenza_carica
         serialized_description_list:
             ita-IT: 'Decorrenza della carica del politico'
+            ger-DE: 'Datum des Amtsantritts des Politikers'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Decorrenza carica'
+            ger-DE: Amtsantritt
         data_type_string: ezstring
         placement: 14
         can_translate: 1
@@ -201,9 +226,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Curriculum vitae del politico'
+            ger-DE: 'Lebenslauf des Politikers'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Curriculum vitae'
+            ger-DE: Lebenslauf
         data_type_string: ezbinaryfile
         placement: 15
         is_searchable: 1
@@ -215,9 +242,11 @@ data_map:
         identifier: voti
         serialized_description_list:
             ita-IT: 'Numero di voti ricevuti dal politico'
+            ger-DE: 'Anzahl der erhaltenen Stimmen des Politikers'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Numero voti'
+            ger-DE: Stimmenanzahl
         data_type_string: ezinteger
         placement: 16
         can_translate: 1
@@ -227,9 +256,11 @@ data_map:
         identifier: image
         serialized_description_list:
             ita-IT: 'Fotografia del politico'
+            ger-DE: 'Foto des Politikers'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Fotografia
+            ger-DE: Foto
         data_type_string: ezimage
         placement: 17
         can_translate: 1
@@ -239,9 +270,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Compensi di qualsiasi natura connessi all''assunzione della carica del politico'
+            ger-DE: Mandatsbezüge
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Compensi di qualsiasi natura connessi all''assunzione della carica'
+            ger-DE: Mandatsbezüge
         data_type_string: ocmultibinary
         placement: 18
         is_searchable: 1
@@ -254,9 +287,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Importi e i viaggi di servizio e missioni del politico pagati con fondi pubblici'
+            ger-DE: 'Rückvergütung der öffentlich finanzierten Reisekosten'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Importi e i viaggi di servizio e missioni pagati con fondi pubblici'
+            ger-DE: Reisekostenrückvergütung
         data_type_string: ocmultibinary
         placement: 19
         is_searchable: 1
@@ -269,9 +304,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Dati relativi all''assunzione di altre cariche, presso enti pubblici o privati, ed i relativi compensi a qualsiasi titolo corrisposti al politico'
+            ger-DE: 'Andere Ämter in öffentlichen oder privaten Körperschaften und entsprechende Bezüge'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Dati relativi all''assunzione di altre cariche, presso enti pubblici o privati, ed i relativi compensi a qualsiasi titolo corrisposti'
+            ger-DE: 'Andere Ämter in öffentlichen oder privaten Körperschaften und entsprechende Bezüge'
         data_type_string: ocmultibinary
         placement: 20
         is_searchable: 1
@@ -284,9 +321,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Altri eventuali incarichi con oneri a carico della finanza pubblica e l''indicazione dei compensi spettanti al politico'
+            ger-DE: 'Andere öffentlich finanzierte Tätigkeiten und entsprechende Bezüge'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Altri eventuali incarichi con oneri a carico della finanza pubblica e l''indicazione dei compensi spettanti'
+            ger-DE: 'Andere öffentlich finanzierte Tätigkeiten und entsprechende Bezüge'
         data_type_string: ocmultibinary
         placement: 21
         is_searchable: 1
@@ -299,9 +338,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Dichiarazione/i di incompatibilità e inconferibilità degli incarichi degli amministratori di una società partecipata'
+            ger-DE: 'Erklärung der Unvereinbarkeit und Nichterteilbarkeit von Aufträgen, die in einer beaufsichtigten öffentlichen Körperschaft ausgeübt werden'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Dichiarazione incompatibilità e inconferibilità'
+            ger-DE: 'Erklärung der Unvereinbarkeit und Nichterteilbarkeit '
         data_type_string: ezbinaryfile
         placement: 22
         is_searchable: 1
@@ -313,9 +354,11 @@ data_map:
         identifier: lista_elettorale
         serialized_description_list:
             ita-IT: 'Lista elettorale di cui fa parte il politico'
+            ger-DE: 'Wahlliste des Politikers'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Lista elettorale'
+            ger-DE: Wahlliste
         data_type_string: ezobjectrelationlist
         placement: 23
         is_searchable: 1
@@ -331,9 +374,11 @@ data_map:
         identifier: gruppo_politico
         serialized_description_list:
             ita-IT: 'Gruppo politico di cui fa parte il politico'
+            ger-DE: 'Politische Zugehörigkeit/Partei des Politikers'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Gruppo di appartenenza'
+            ger-DE: 'Politische Zugehörigkeit'
         data_type_string: ezobjectrelationlist
         placement: 24
         is_searchable: 1
@@ -349,9 +394,11 @@ data_map:
         identifier: maggioranza_minoranza
         serialized_description_list:
             ita-IT: 'Parte del Consiglio comunale a cui appartiene il politico'
+            ger-DE: 'Ratsfraktion des Politikers'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Parte del Consiglio'
+            ger-DE: Ratsfraktion
         data_type_string: ezobjectrelationlist
         placement: 25
         is_searchable: 1
@@ -367,9 +414,11 @@ data_map:
         identifier: office
         serialized_description_list:
             ita-IT: 'Uffici di riferimento per l''attività svolta dal politico'
+            ger-DE: 'Dem Politiker im Rahmen seiner Amtstätigkeit zugewiesene Ämter '
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Uffici di riferimento'
+            ger-DE: 'Zugeordnete Ämter'
         data_type_string: ezobjectrelationlist
         placement: 26
         can_translate: 1
@@ -391,6 +440,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Dichiarazioni patrimoniali del soggetto'
+            ger-DE: 'Vermögenserklärungen '
         data_type_string: ocmultibinary
         placement: 27
         is_searchable: 1
@@ -406,6 +456,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Dichiarazioni patrimoniali del coniuge non separato e parenti entro il secondo grado'
+            ger-DE: 'Vermögenserklärungen des nicht getrennt lebenden Ehepartners und der Verwandten bis zum zweiten Verwandtschaftsgrad'
         data_type_string: ocmultibinary
         placement: 28
         is_searchable: 1
@@ -418,9 +469,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Data in cui ha inizio il mandato del politico'
+            ger-DE: 'Datum, an dem der Politiker das Amt übernimmt'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Data di inizio mandato'
+            ger-DE: Amtsantritt
         data_type_string: ezdate
         placement: 29
         is_searchable: 1
@@ -433,9 +486,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Data in cui cessa il mandato del politico'
+            ger-DE: 'Datum, an dem die Amtszeit des Politikers endet'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Data di fine mandato'
+            ger-DE: 'Ende der Amtszeit'
         data_type_string: ezdate
         placement: 30
         is_searchable: 1
@@ -448,9 +503,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Annotazioni riguardanti il politico'
+            ger-DE: 'Anmerkungen zum Politiker'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Note
+            ger-DE: Anmerkungen
         data_type_string: ezxmltext
         placement: 31
         is_searchable: 1
@@ -467,6 +524,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Codice fiscale'
+            ger-DE: Steuernummer
         data_type_string: ezstring
         placement: 32
         is_searchable: 1
@@ -482,6 +540,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Data di nascita'
+            ger-DE: Geburtsdatum
         data_type_string: ezdate
         placement: 33
         is_searchable: 1
@@ -497,6 +556,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Luogo di nascita'
+            ger-DE: Geburtsort
         data_type_string: ezstring
         placement: 34
         is_searchable: 1
@@ -512,6 +572,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Indirizzo di residenza'
+            ger-DE: 'Adresse des Wohnsitzes'
         data_type_string: ezstring
         placement: 35
         is_searchable: 1
@@ -527,6 +588,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Sesso
+            ger-DE: Geschlechtsangabe
         data_type_string: eztags
         placement: 36
         is_searchable: 1
@@ -546,6 +608,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Grado di istruzione'
+            ger-DE: Bildungsgrad
         data_type_string: eztags
         placement: 37
         is_searchable: 1
@@ -562,6 +625,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Età
+            ger-DE: Alter
         data_type_string: ezinteger
         placement: 38
         is_searchable: 1
@@ -577,6 +641,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Spese elettorali'
+            ger-DE: Wahlwerbungsausgaben
         data_type_string: ezxmltext
         placement: 39
         is_searchable: 1

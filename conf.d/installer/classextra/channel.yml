@@ -23,6 +23,14 @@ attribute_group:
     ulteriori_informazioni:
         '*': 'Ulteriori informazioni'
         files: '1'
+    'ger-DE::canale':
+        '*': Kanal
+    'ger-DE::costi_e_vincoli':
+        '*': 'Kosten und Voraussetzungen'
+    'ger-DE::descrizione':
+        '*': Beschreibung
+    'ger-DE::ulteriori_informazioni':
+        '*': 'Weitere Informationen'
 card_small_view:
     enabled:
         '*': '1'

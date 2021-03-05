@@ -45,21 +45,21 @@ attribute_group:
     'eng-GB::ulteriori_informazioni':
         '*': 'Ulteriori informazioni'
     'ger-DE::appuntamenti':
-        '*': Appuntamenti
+        '*': Termine
     'ger-DE::contatti':
-        '*': Contatti
+        '*': Kontakt
     'ger-DE::cos_e':
-        '*': 'Cos''è'
+        '*': 'Was Sie hierzu wissen müssen  '
     'ger-DE::costi':
-        '*': Costi
+        '*': Kosten
     'ger-DE::date_e_orari':
-        '*': 'Date e orari'
+        '*': 'Parteienverkehr (Amts- und Sprechzeiten)'
     'ger-DE::documenti':
-        '*': Documenti
+        '*': Dokumente
     'ger-DE::luogo':
-        '*': Luogo
+        '*': Ort
     'ger-DE::ulteriori_informazioni':
-        '*': 'Ulteriori informazioni'
+        '*': 'Weitere Informationen'
     'ita-IT::appuntamenti':
         '*': Appuntamenti
     'ita-IT::contatti':

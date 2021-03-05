@@ -44,6 +44,14 @@ attribute_group:
         office: '1'
         voti: '1'
         related_news: '1'
+    'ger-DE::contatti':
+        '*': Kontakt
+    'ger-DE::documenti':
+        '*': Dokumente
+    'ger-DE::ruolo':
+        '*': 'Funktion '
+    'ger-DE::ulteriori_informazioni':
+        '*': 'Weitere Informationen'
 bootstrapitalia_icon:
     enabled:
         '*': '1'

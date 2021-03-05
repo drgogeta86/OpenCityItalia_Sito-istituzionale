@@ -53,6 +53,14 @@ attribute_group:
         has_organization: '0'
         other_information: '1'
         reference_doc: '0'
+    'ger-DE::accedere_al_servizio':
+        '*': 'So geht''s'
+    'ger-DE::descrizione':
+        '*': Beschreibung
+    'ger-DE::tempi_e_scadenze':
+        '*': 'Fristen und Fälligkeiten'
+    'ger-DE::ulteriori_informazioni':
+        '*': 'Weitere Informationen'
 bootstrapitalia_icon:
     enabled:
         '*': '1'

@@ -3,9 +3,11 @@ contentobject_name: '<cognome> <nome>'
 serialized_name_list:
     always-available: ita-IT
     ita-IT: Dipendente
+    ger-DE: Mitarbeiter
 serialized_description_list:
     always-available: ita-IT
     ita-IT: 'Persona che lavora per l''organizzazione pubblica, con contratto da dipendente'
+    ger-DE: 'Person, die für die öffentliche Körperschaft arbeitet, mit abhängigen Arbeitsvertrag'
 always_available: 1
 sort_field: 9
 is_container: 1
@@ -15,9 +17,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Cognome del dipendente'
+            ger-DE: 'Nachname des Mitarbeiters'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Cognome
+            ger-DE: Nachname
         data_type_string: ezstring
         placement: 1
         is_searchable: 1
@@ -31,9 +35,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Nome del dipendente'
+            ger-DE: 'Vorname des Mitarbeiters'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Nome
+            ger-DE: Vorname
         data_type_string: ezstring
         placement: 2
         is_searchable: 1
@@ -47,9 +53,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Breve descrizione del dipendente'
+            ger-DE: 'Kurze Beschreibung des Mitarbeiters'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Breve descrizione della persona'
+            ger-DE: 'Kurze Beschreibung der Person'
         data_type_string: ezxmltext
         placement: 3
         is_searchable: 1
@@ -61,9 +69,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Fotografia del dipendente'
+            ger-DE: 'Foto des Mitarbeiters'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Fotografia
+            ger-DE: Foto
         data_type_string: ezimage
         placement: 4
         can_translate: 1
@@ -74,9 +84,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Account utente riservato al dipendente'
+            ger-DE: 'Benutzerkonto für den Mitarbeiter'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Account utente'
+            ger-DE: Benutzerkonto
         data_type_string: ezuser
         placement: 5
         is_searchable: 1
@@ -86,9 +98,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Numero di telefono del dipendente'
+            ger-DE: 'Telefonnummer des Mitarbeiters'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Telefono
+            ger-DE: Telefon
         data_type_string: ezstring
         placement: 6
         is_searchable: 1
@@ -100,9 +114,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Numero di cellulare del dipendente'
+            ger-DE: 'Handynummer des Mitarbeiters'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Telefono cellulare'
+            ger-DE: Handynummer
         data_type_string: ezstring
         placement: 7
         is_searchable: 1
@@ -115,9 +131,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Numero di fax del dipendente'
+            ger-DE: 'Faxnummer des Mitarbeiters'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Fax
+            ger-DE: Fax
         data_type_string: ezstring
         placement: 8
         is_searchable: 1
@@ -128,9 +146,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Indirizzo email del dipendente'
+            ger-DE: 'E-Mail Adresse des Mitarbeiters'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Indirizzo email'
+            ger-DE: E-Mail
         data_type_string: ezemail
         placement: 9
         is_searchable: 1
@@ -142,9 +162,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Atti relativi al conferimento dell''incarico del dipendente'
+            ger-DE: 'Rechtsakt zum erteilten Auftrag'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Atti relativo al conferimento dell''incarico'
+            ger-DE: 'Rechtsakt zum erteilten Auftrag'
         data_type_string: ocmultibinary
         placement: 10
         is_searchable: 1
@@ -157,9 +179,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Curriculum Vitae del dipendente, aggiornato'
+            ger-DE: 'Lebenslauf des Mitarbeiters, letzte Aktualisierung'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Curriculum Vitae'
+            ger-DE: Lebenslauf
         data_type_string: ezbinaryfile
         placement: 11
         is_searchable: 1
@@ -172,9 +196,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Dichiarazione di incompatibilità e inconferibilità del dipendente'
+            ger-DE: 'Erklärung der Unvereinbarkeit und Nichterteilbarkeit des Mitarbeiters'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Dichiarazione incompatibilità e inconferibilità'
+            ger-DE: 'Erklärung der Unvereinbarkeit und Nichterteilbarkeit'
         data_type_string: ocmultibinary
         placement: 12
         is_searchable: 1
@@ -187,9 +213,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Compensi del dipendente NB: l''obbligo è sospeso'
+            ger-DE: 'Gehälter des Mitarbeiters NB: Die Verpflichtung ist ausgesetzt'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Compensi
+            ger-DE: Entlohnung
         data_type_string: ezmatrix
         placement: 13
         is_searchable: 1
@@ -203,9 +231,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Estremi dell''atto di conferimento del dipendente'
+            ger-DE: 'Daten des erteilten Auftrags an den Mitarbeiter'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Estremi dell''atto di conferimento'
+            ger-DE: 'Daten des erteilten Auftrags'
         data_type_string: ezstring
         placement: 14
         is_searchable: 1
@@ -219,9 +249,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Numero di matricola del dipendente'
+            ger-DE: 'Matrikelnummer des Mitarbeiters'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Matricola
+            ger-DE: 'Matrikelnummer  des Mitarbeiters'
         data_type_string: ezstring
         placement: 15
         is_searchable: 1
@@ -233,9 +265,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'File degli importi e dei viaggi di servizio e missioni del dipendente pagati con fondi pubblici'
+            ger-DE: 'Datei der Reisekostenrückvergütung'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Importi e i viaggi di servizio e missioni pagati con fondi pubblici'
+            ger-DE: Reisekostenrückvergütung
         data_type_string: ocmultibinary
         placement: 16
         is_searchable: 1
@@ -248,9 +282,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'File dei dati relativi all''assunzione di altre cariche, presso enti pubblici o privati, ed i relativi compensi a qualsiasi titolo corrisposti al politico'
+            ger-DE: 'Datei über andere Ämter in öffentlichen oder privaten Körperschaften und entsprechende Bezüge'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Dati relativi all''assunzione di altre cariche, presso enti pubblici o privati, ed i relativi compensi a qualsiasi titolo corrisposti'
+            ger-DE: 'Andere Ämter in öffentlichen oder privaten Körperschaften und entsprechende Bezüge'
         data_type_string: ocmultibinary
         placement: 17
         is_searchable: 1
@@ -263,9 +299,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Dichiarazioni patrimoniali del soggetto'
+            ger-DE: 'Vermögenserklärungen '
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Dichiarazioni patrimoniali del soggetto'
+            ger-DE: 'Vermögenserklärungen '
         data_type_string: ocmultibinary
         placement: 18
         is_searchable: 1
@@ -278,9 +316,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Dichiarazioni patrimoniali del coniuge non separato e parenti entro il secondo grado'
+            ger-DE: 'Vermögenserklärungen des nicht getrennt lebenden Ehepartners und der Verwandten bis zum zweiten Grades der Verwandtschaft'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Dichiarazioni patrimoniali del coniuge non separato e parenti entro il secondo grado'
+            ger-DE: 'Vermögenserklärungen des nicht getrennt lebenden Ehepartners und der Verwandten bis zum zweiten Grad der Verwandtschaft'
         data_type_string: ocmultibinary
         placement: 19
         is_searchable: 1
@@ -293,9 +333,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Data in cui il dipendente cessato va archiviato (3 anni successivi alla cessazione dell''incarico)'
+            ger-DE: 'Datum, an dem der gekündigte Mitarbeiter zu den Akten gelegt werden soll (3 Jahre nach Beendigung des Arbeitsverhältnisses)'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Data di archiviazione'
+            ger-DE: 'Datum der Archivierung'
         data_type_string: ezdate
         placement: 20
         is_searchable: 1
@@ -311,6 +353,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Ruolo
+            ger-DE: Funktion
         data_type_string: openparole
         is_searchable: 1
         placement: 21

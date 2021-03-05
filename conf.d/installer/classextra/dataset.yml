@@ -25,6 +25,10 @@ attribute_group:
         '*': '1'
     'sort::informazioni_sul_dataset':
         '*': '2'
+    'ger-DE::dataset':
+        '*': Datensatz
+    'ger-DE::informazioni_sul_dataset':
+        '*': 'Informationen über den Datensatz'
 table_view:
     collapse_label:
         spatial: '1'

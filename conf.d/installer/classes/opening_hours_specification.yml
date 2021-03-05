@@ -3,9 +3,11 @@ contentobject_name: '<name>'
 serialized_name_list:
     always-available: ita-IT
     ita-IT: 'Orario/Intervallo di tempo'
+    ger-DE: Zeit/Intervall
 serialized_description_list:
     always-available: ita-IT
     ita-IT: 'Rappresenta un intervallo temporale, come gli orari di apertura di un ufficio o la validità di un biglietto'
+    ger-DE: 'Stellt ein Zeitintervall dar, z. B. Bürozeiten oder die Gültigkeit eines Tickets'
 always_available: 1
 is_container: 1
 data_map:
@@ -14,9 +16,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'automatico: prende quello di  Punto di Contatto da cui viene generato'
+            ger-DE: 'Automatisch: übernimmt den Namen des Kontaktpunkts, von dem er generiert wird'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Nome
+            ger-DE: Name
         data_type_string: ezstring
         placement: 1
         is_searchable: 1
@@ -31,6 +35,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Valido dal'
+            ger-DE: 'Gültig ab'
         data_type_string: ezdate
         placement: 2
         is_searchable: 1
@@ -45,6 +50,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Valido al'
+            ger-DE: 'Gültig zum'
         data_type_string: ezdate
         placement: 3
         is_searchable: 1
@@ -55,9 +61,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Descrivere gli orari di apertura e chiusura'
+            ger-DE: 'Beschreiben Sie die Öffnungs- und Schließzeiten'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Orari di apertura'
+            ger-DE: Öffnungszeiten
         data_type_string: ezmatrix
         placement: 4
         is_searchable: 1
@@ -73,6 +81,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Note
+            ger-DE: Hinweise
         data_type_string: ezxmltext
         placement: 5
         is_searchable: 1
@@ -87,6 +96,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Stagionalità
+            ger-DE: Jahreszeitraum
         data_type_string: ezselection
         placement: 6
         is_searchable: 1
@@ -99,9 +109,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Indicare i singoli giorni di chiusura, uno per riga'
+            ger-DE: 'Geben Sie die einzelnen Schließungstage an, einen pro Zeile'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Periodo di chiusura'
+            ger-DE: Schließungszeit
         data_type_string: ezmatrix
         placement: 7
         is_searchable: 1
@@ -119,6 +131,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Luoghi e punti di contatto'
+            ger-DE: 'Orte und Kontaktstellen'
         data_type_string: openpareverserelationlist
         placement: 8
         can_translate: 1

@@ -1,5 +1,6 @@
 imports:
-    - { resource: classes/public_service.yml }
+    -
+        resource: classes/public_service.yml
 data_map:
     news_and_updates:
         identifier: news_and_updates
@@ -9,6 +10,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Notizie e aggiornamenti'
+            ger-DE: 'Alle Neuigkeiten'
         data_type_string: openpareverserelationlist
         placement: 44
         can_translate: 1
