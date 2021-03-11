@@ -1,4 +1,4 @@
-FROM registry.gitlab.com/opencontent/ezpublish/php:php7.2.33-clean
+FROM registry.gitlab.com/opencontent/ezpublish/php:master
 
 WORKDIR /var/www
 
