@@ -128,6 +128,16 @@ children:
                                 - Villino
                         hasChildren: false
                         children: {  }
+                    -
+                        keyword: Masseria
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Masseria
+                            ita-PA: 'https://wiki.openstreetmap.org/wiki/Tag:building%3Dfarm'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
                 hasChildren: true
             -
                 keyword: 'Aree archeologiche'
@@ -913,6 +923,16 @@ children:
                         synonyms: {  }
                         hasChildren: false
                         children: {  }
+                    -
+                        keyword: Ambulatorio
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Ambulatorio
+                            ita-PA: 'https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dclinic'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
                 hasChildren: true
             -
                 keyword: 'Infrastrutture e impianti'
@@ -966,6 +986,16 @@ children:
                         synonyms: {  }
                         hasChildren: false
                         children: {  }
+                    -
+                        keyword: Stazione
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Stazione
+                            ita-PA: 'https://wiki.openstreetmap.org/wiki/Tag:public_transport%3Dstation'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
                 hasChildren: true
             -
                 keyword: 'Strutture ricettive'
@@ -1016,6 +1046,55 @@ children:
                         keywordTranslations:
                             ita-IT: 'Rifugio per animali'
                             ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/O4'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                hasChildren: true
+            -
+                keyword: 'Centri istituzionali e amministrativi'
+                locale: ita-IT
+                alwaysAvailable: true
+                keywordTranslations:
+                    ita-IT: 'Centri istituzionali e amministrativi'
+                synonyms: {  }
+                children:
+                    -
+                        keyword: Sede municipale
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Sede municipale
+                            ita-PA: 'http://eurovoc.europa.eu/4180'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: Ufficio
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Ufficio
+                            ita-PA: 'https://wiki.openstreetmap.org/wiki/Tag:office%3Dgovernment'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: Contrada
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Contrada
+                            ita-PA: 'https://wiki.openstreetmap.org/wiki/Tag:boundary%3Dadministrative'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
+                    -
+                        keyword: Sportello per il pubblico
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Sportello per il pubblico
+                            ita-PA: 'https://wiki.openstreetmap.org/wiki/Tag:information%3Doffice'
                         synonyms: {  }
                         hasChildren: false
                         children: {  }
