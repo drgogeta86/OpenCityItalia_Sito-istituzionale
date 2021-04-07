@@ -1,5 +1,5 @@
 name: OpenCity
-version: 2.1.3
+version: 2.1.4
 variables:
     -
         name: identifier
@@ -162,6 +162,7 @@ steps:
         type: contenttree
         identifier: Argomenti
         parent: $contenttree_OpenCity_Argomenti_node
+        condition: $is_install_from_scratch
     -
         type: content
         identifier: Speciali
@@ -569,7 +570,7 @@ steps:
             name: 'Organi di governo'
     -
         type: tagtree
-        current_version_lt: 2.0.12
+        current_version_lt: 2.1.5
         current_version_ge: 0.0.0
         identifier: Tipi-di-luogo
     -
@@ -608,7 +609,7 @@ steps:
                 alwaysAvailable: true
                 synonyms: {  }
                 keywordTranslations:
-                    ita-IT: Vicesegretario
+                    ita-IT: 'Servizio interno all''ente'
     -
         type: tagtree
         identifier: Tipo-di-documento
@@ -727,3 +728,22 @@ steps:
         current_version_ge: 0.0.1
         identifier: Modulistica
         update: true
+    -
+        type: remove_tag
+        current_version_ge: 0.0.0
+        current_version_lt: 2.1.4
+        parent: 'tag(Servizi pubblici/Tipologia del servizio (TD))'
+        tags:
+            -
+                keyword: 'Appalti pubblici'
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: 'Appalti pubblici'
+                    ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/5'
+    -
+        type: rename_tag
+        tag: 'tag(Servizi pubblici/Tipologia del servizio (TD)/Catasto e urbanistica)'
+        keywords:
+            ita-IT: 'Edilizia e urbanistica'
