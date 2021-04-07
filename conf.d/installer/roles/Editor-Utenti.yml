@@ -1,6 +1,10 @@
 name: 'Editor Utenti'
 policies:
     -
+        ModuleName: user
+        FunctionName: preferences
+        Limitation: { }
+    -
         ModuleName: content
         FunctionName: create
         Limitation:

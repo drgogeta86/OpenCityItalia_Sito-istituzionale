@@ -26,10 +26,6 @@ policies:
         Limitation: {}
     -
         ModuleName: user
-        FunctionName: preferences
-        Limitation: {}
-    -
-        ModuleName: user
         FunctionName: selfedit
         Limitation: {}
     -
@@ -220,3 +216,7 @@ policies:
         ModuleName: valuation
         FunctionName: dashboard
         Limitation: {  }
+    -
+        ModuleName: classlists
+        FunctionName: read
+        Limitation: {}
