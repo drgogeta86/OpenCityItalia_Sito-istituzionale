@@ -51,6 +51,7 @@ ActiveAccessExtensions[]=oceditorialstuff
 ActiveAccessExtensions[]=ocwebhookserver
 ActiveAccessExtensions[]=eztagdescription
 ActiveAccessExtensions[]=occustomfind
+ActiveAccessExtensions[]=ezformtoken
 
 [SiteSettings]
 LoginPage=embedded
@@ -73,5 +74,6 @@ ShowUntranslatedObjects=disabled
 SiteLanguageList[]
 SiteLanguageList[]=ita-IT
 TextTranslation=enabled
+HTTPLocale=it
 
 */ ?>

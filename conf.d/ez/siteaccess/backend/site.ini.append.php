@@ -76,5 +76,5 @@ ActiveAccessExtensions[]=oceditorialstuff
 ActiveAccessExtensions[]=ocwebhookserver
 ActiveAccessExtensions[]=eztagdescription
 ActiveAccessExtensions[]=occustomfind
-
+ActiveAccessExtensions[]=ezformtoken
 */ ?>
