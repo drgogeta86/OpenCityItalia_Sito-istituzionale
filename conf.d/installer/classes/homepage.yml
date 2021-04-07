@@ -75,7 +75,9 @@ data_map:
             object_class: ''
             selection_type: '0'
             type: '2'
-            class_constraint_list: {  }
+            class_constraint_list:
+                - pagina_sito
+                - frontpage
             default_placement: false
         serialized_data_text:
             always-available: ita-IT
