@@ -141,6 +141,8 @@ table_view:
         phone: '1'
         ricevimento: '1'
         related_news: '1'
+        dichiarazioni_patrimoniali_soggetto: '1'
+        dichiarazioni_patrimoniali_parenti: '1'
     show_label:
         assunzione_cariche: '1'
         atto_nomina: '1'
@@ -162,6 +164,8 @@ table_view:
         phone: '1'
         ricevimento: '1'
         related_news: '1'
+        dichiarazioni_patrimoniali_soggetto: '1'
+        dichiarazioni_patrimoniali_parenti: '1'
     collapse_label:
         data_finemandato: '1'
         data_iniziomandato: '1'
