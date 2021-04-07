@@ -28,7 +28,7 @@ CustomHeader=enabled
 OnlyForAnonymous=disabled
 OnlyForContent=enabled
 Cache-Control[]
-Cache-Control[/]=public, must-revalidate, max-age=60, s-maxage=259200
+Cache-Control[/]=public, must-revalidate, max-age=60, s-maxage=600
 HeaderList[]=Vary
 Vary[/]=X-User-Context-Hash
 
@@ -116,6 +116,7 @@ EmailReceiver=
 [UserSettings]
 LogoutRedirect=/?logout
 RegistrationEmail=
+MaxNumberOfFailedLogin=10
 
 [TimeZoneSettings]
 TimeZone=Europe/Rome
@@ -129,7 +130,7 @@ DebugToolbar=disabled
 
 [UserFormToken]
 CookieHttponly=true
-CookieSecure=0
+CookieSecure=1
 
 [SiteAccessRules]
 Rules[]
@@ -141,6 +142,7 @@ Rules[]=module;setup/extensions
 Rules[]=module;content/tipafriend
 Rules[]=module;settings/edit
 Rules[]=module;user/register
+Rules[]=module;user/forgotpassword
 
 [Event]
 Listeners[]=content/download@OpenPADownloadFilter::addXRobotsTagHeader
