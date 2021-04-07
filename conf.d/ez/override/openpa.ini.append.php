@@ -42,4 +42,18 @@ ShowMediaRoot=enabled
 ShowUsersRoot=disabled
 ShowEditorRoles=enabled
 
+[Attributi]
+AttributiAbstract[]
+AttributiAbstract[]=abstract
+AttributiAbstract[]=intro
+AttributiAbstract[]=short_description
+AttributiAbstract[]=fonte
+AttributiAbstract[]=topic
+AttributiAbstract[]=tags
+AttributiAbstract[]=body
+AttributiAbstract[]=edizione
+AttributiAbstract[]=text
+AttributiAbstract[]=description
+AttributiAbstract[]=event_abstract
+
 */?>
