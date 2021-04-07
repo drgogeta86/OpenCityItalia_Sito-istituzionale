@@ -4,6 +4,121 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.1.4](/compare/2.1.3...2.1.4) - 2021-04-07
+- Reduce cache s-maxage Add some security fixes
+- Activate ezformtoken extension
+- Avoid conflicts in abstract settings
+- Update RicercaDocumenti attributes and OpendataRemoteContents views in block.ini
+- Update php and nginx base image
+
+
+#### Installer
+- add Manage Restricted Area installer module
+- Update version to 2.1.4
+- Add new Tipi-di-luogo tags
+- Fix user/preferences policy assignment in Editor role
+- Show show_topic_children as default in topic (topics-tree version)
+- Show dichiarazioni_patrimoniali_soggetto, dichiarazioni_patrimoniali_parenti in politico class extra
+- Add constraint in homepage/link_al_menu_orizzontale
+- Fix employee class removing is_container
+- Update de class translations
+
+#### Code dependencies
+| Changes                               | From     | To      | Compare                                                                                 |
+|---------------------------------------|----------|---------|-----------------------------------------------------------------------------------------|
+| aws/aws-sdk-php                       | 3.173.22 | 3.176.9 | [...](https://github.com/aws/aws-sdk-php/compare/3.173.22...3.176.9)                    |
+| easyrdf/easyrdf                       | c7b0a9d  | 12bd03d | [...](https://github.com/easyrdf/easyrdf/compare/c7b0a9d...12bd03d)                     |
+| opencontent/ezpostgresqlcluster-ls    | f37c194  | ef754ff | [...](https://github.com/Opencontent/ezpostgresqlcluster/compare/f37c194...ef754ff)     |
+| opencontent/ocbootstrap-ls            | 1.10.3   | 1.10.5  | [...](https://github.com/OpencontentCoop/ocbootstrap/compare/1.10.3...1.10.5)           |
+| opencontent/occsvimport-ls            | 2.5.0    | 2.5.2   | [...](https://github.com/OpencontentCoop/occsvimport/compare/2.5.0...2.5.2)             |
+| opencontent/occustomfind-ls           | 2.2.1    | 2.2.3   | [...](https://github.com/OpencontentCoop/occustomfind/compare/2.2.1...2.2.3)            |
+| opencontent/oceditorialstuff-ls       | 2.5.0    | 2.5.1   | [...](https://github.com/OpencontentCoop/oceditorialstuff/compare/2.5.0...2.5.1)        |
+| opencontent/ocevents-ls               | 1.1.9    | 1.1.10  | [...](https://github.com/OpencontentCoop/ocevents/compare/1.1.9...1.1.10)               |
+| opencontent/oci18n                    | 0f8551d  | 07816bd | [...](https://github.com/OpencontentCoop/oci18n/compare/0f8551d...07816bd)              |
+| opencontent/ocinstaller               | 955144f  | e701855 | [...](https://github.com/OpencontentCoop/ocinstaller/compare/955144f...e701855)         |
+| opencontent/ocmultibinary-ls          | 2.3.0    | 2.3.1   | [...](https://github.com/OpencontentCoop/ocmultibinary/compare/2.3.0...2.3.1)           |
+| opencontent/ocopenapi-ls              | 1.3.5    | 1.3.8   | [...](https://github.com/OpencontentCoop/ocopenapi-ls/compare/1.3.5...1.3.8)            |
+| opencontent/ocopendata-ls             | 2.25.1   | 2.25.2  | [...](https://github.com/OpencontentCoop/ocopendata/compare/2.25.1...2.25.2)            |
+| opencontent/ocsearchtools-ls          | 1.11.0   | 1.11.1  | [...](https://github.com/OpencontentCoop/ocsearchtools/compare/1.11.0...1.11.1)         |
+| opencontent/openpa_bootstrapitalia-ls | 1.4.9    | 1.18.0  | [...](https://github.com/OpencontentCoop/openpa_bootstrapitalia/compare/1.4.9...1.18.0) |
+| symfony/cache-contracts               | 648977a  | c044646 | [...](https://github.com/symfony/cache-contracts/compare/648977a...c044646)             |
+| symfony/deprecation-contracts         | 49dc45a  | 5f38c88 | [...](https://github.com/symfony/deprecation-contracts/compare/49dc45a...5f38c88)       |
+| symfony/event-dispatcher-contracts    | 9b7cabf  | 69fee1a | [...](https://github.com/symfony/event-dispatcher-contracts/compare/9b7cabf...69fee1a)  |
+| symfony/service-contracts             | e830e6c  | f040a30 | [...](https://github.com/symfony/service-contracts/compare/e830e6c...f040a30)           |
+| zetacomponents/persistent-object      | 1.8      | 1.8.1   | [...](https://github.com/zetacomponents/PersistentObject/compare/1.8...1.8.1)           |
+
+
+Relevant changes by repository:
+
+**[opencontent/ezpostgresqlcluster-ls changes between f37c194 and ef754ff](https://github.com/Opencontent/ezpostgresqlcluster/compare/f37c194...ef754ff)**
+* Add static method storeClusterizedFileMetadata for migrations
+
+**[opencontent/ocbootstrap-ls changes between 1.10.3 and 1.10.5](https://github.com/OpencontentCoop/ocbootstrap/compare/1.10.3...1.10.5)**
+* Aggiorna le traduzioni delle stringhe
+* Protegge con CSRF token la chiamata post ajax di ocevents
+
+**[opencontent/occsvimport-ls changes between 2.5.0 and 2.5.2](https://github.com/OpencontentCoop/occsvimport/compare/2.5.0...2.5.2)**
+* Cambia il metodo di parsing del foglio di google evitando di usare l'url csv
+* Corregge l'import di ezdate per le versioni di ez che utilizzano eZTimestamp::getUtcTimestampFromLocalTimestamp
+
+**[opencontent/occustomfind-ls changes between 2.2.1 and 2.2.3](https://github.com/OpencontentCoop/occustomfind/compare/2.2.1...2.2.3)**
+* Make dataset reindexable
+* Avoid reindex error
+
+**[opencontent/oceditorialstuff-ls changes between 2.5.0 and 2.5.1](https://github.com/OpencontentCoop/oceditorialstuff/compare/2.5.0...2.5.1)**
+* Visualizza la traduzione inserita in cronologia versioni
+
+**[opencontent/ocevents-ls changes between 1.1.9 and 1.1.10](https://github.com/OpencontentCoop/ocevents/compare/1.1.9...1.1.10)**
+* Inserisce il token csrf nella chiamata post ajax
+
+**[opencontent/oci18n changes between 0f8551d and 07816bd](https://github.com/OpencontentCoop/oci18n/compare/0f8551d...07816bd)**
+* Add classes and tag csv import export tools
+* Fix language parser in update installer
+
+**[opencontent/ocinstaller changes between 955144f and e701855](https://github.com/OpencontentCoop/ocinstaller/compare/955144f...e701855)**
+* Fix pagination in DepracateTopic
+* Move node before remove location avoiding block inconsistency
+* Add rename_tag step
+* Fix rename_tag step
+
+**[opencontent/ocmultibinary-ls changes between 2.3.0 and 2.3.1](https://github.com/OpencontentCoop/ocmultibinary/compare/2.3.0...2.3.1)**
+* Add CSRF token in ajax post
+
+**[opencontent/ocopenapi-ls changes between 1.3.5 and 1.3.8](https://github.com/OpencontentCoop/ocopenapi-ls/compare/1.3.5...1.3.8)**
+* Avoid misalignment of remote ids
+* Avoid fatal error in schema generation
+* Avoid conflict in HTTPLocaleCode
+
+**[opencontent/ocopendata-ls changes between 2.25.1 and 2.25.2](https://github.com/OpencontentCoop/ocopendata/compare/2.25.1...2.25.2)**
+* Permette di specificate le preferenze di lingua in TagRepository
+
+**[opencontent/ocsearchtools-ls changes between 1.11.0 and 1.11.1](https://github.com/OpencontentCoop/ocsearchtools/compare/1.11.0...1.11.1)**
+* Evita un errore nella sincronizzazione dei gruppi di classe
+
+**[opencontent/openpa_bootstrapitalia-ls changes between 1.4.9 and 1.18.0](https://github.com/OpencontentCoop/openpa_bootstrapitalia/compare/1.4.9...1.18.0)**
+* Considera anche il campo Documento allegati come possibile elemento obbligatorio della classe Documento, oltre a Link e File
+* Corregge un problema sulla validazione degli allegati nel documento
+* Abilita le traduzioni nelle dashboard
+* Permette di personalizzare la paginazione dei membri di un organo politico Permette di personalizzare il nome di un ruolo
+* Imposta la configurazione di override dei template per visualizzare una matrice come elenco di link
+* Corregge una vulnerabilità xss nella pagina di ricerca
+* Corregge una vulnerabilità di tipo user enumeration nel modulo di recupero password
+* Premette l'abilitazione/disabilitazione di un utente da interfaccia di frontend
+* Corregge un bug nel modulo user/setting
+* Introduce una vista datatable (in versione beta) per il blocco contenuti remoti
+* Corregge alcuni problemi di accessibilità WCAG 2.1 AA
+* Merge branch 'fix-wave'
+* Migliora l'utilizzo dell'interfaccia in modalità multilingua
+* Introduce un'interfaccia per la gestione dei tipi di ruolo (beta)
+* Visualizza le traduzioni disponibili nell'interfaccia di modifica relazioni
+* Migliora la visualizzazione del menu trasparenza
+* Consente di specificare i ruoli da visualizzare in contenuti con attributi openparole
+* wip dashboard mail
+* Migliora il blocco ricerca documenti introducendo il filtro per anno, la possibilità di nascondere la data di fine pubblicazione e la possibilità di mostrare solo i contenuti in pubblicazione
+* Corregge un bug sul blocco calendario per cui non veniva considerato il filtro per argomento
+* Corregge la visualizzazione datatable del blocco contenuti remoti
+
+
 ## [2.1.3](/compare/2.1.2...2.1.3) - 2021-03-05
 - Bump installer version
 - Reparent old topic in topic-tree installer
