@@ -10,7 +10,7 @@ serialized_description_list:
     ger-DE: 'Person, die für die öffentliche Körperschaft arbeitet, mit abhängigen Arbeitsvertrag'
 always_available: 1
 sort_field: 9
-is_container: 1
+is_container: 0
 data_map:
     cognome:
         identifier: cognome
