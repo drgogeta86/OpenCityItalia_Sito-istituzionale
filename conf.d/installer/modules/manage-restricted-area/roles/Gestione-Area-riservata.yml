@@ -15,6 +15,9 @@ policies:
             Class:
                 - classid(document)
                 - classid(restriced_area)
+                - classid(user)
+                - classid(employee)
+                - classid(politico)
     -
         ModuleName: content
         FunctionName: remove
@@ -31,8 +34,15 @@ policies:
         ModuleName: content
         FunctionName: create
         Limitation:
+            Subtree:
+                - $content_Aree-riservate_path_string
             Class:
                 - classid(restriced_area)
             ParentClass:
                 - classid(folder)
-                - classid(pagina_sito)
+    -
+        ModuleName: section
+        FunctionName: assign
+        Limitation:
+            Class:
+                - classid(restriced_area)

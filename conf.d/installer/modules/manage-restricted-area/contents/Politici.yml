@@ -1,0 +1,3 @@
+imports:
+    -
+        resource: ../../contenttrees/Amministrazione/Politici.yml

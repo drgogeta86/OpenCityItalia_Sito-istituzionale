@@ -1,6 +1,6 @@
 name: 'OpenCity Manage Restricted Area'
 type: module
-version: 0.0.1
+version: 0.0.2
 variables:
     -
         name: identifier
@@ -14,10 +14,26 @@ variables:
 steps:
     -
         type: content
+        identifier: Aree-riservate
+    -
+        type: content
+        identifier: Politici
+    -
+        type: content
+        identifier: Personale-amministrativo
+    -
+        type: content
         identifier: Editor-Base
     -
         type: content
         identifier: Editor-Area-riservata
+    -
+        type: role
+        identifier: Anonymous
+        load_policies: false
+        apply_to:
+            - $content_Politici_object
+            - $content_Personale-amministrativo_object
     -
         type: role
         identifier: Gestione-Area-riservata
