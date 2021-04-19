@@ -8,7 +8,7 @@ metadata:
         - $content_Uffici_node
 data:
     ita-IT:
-        legal_name: 'Ufficio relazioni con il pubblico'
+        legal_name: 'Ufficio relazioni con il pubblico (demo)'
         alt_name: 'Servizi al cittadino'
         acronym: URP
         description: '<p>Il punto di accesso unico del cittadino e delle imprese per la presentazione di richieste, segnalazioni e reclami, per la consegna ed il ritiro di documentazione.</p>'

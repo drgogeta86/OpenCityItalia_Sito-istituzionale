@@ -8,13 +8,13 @@ metadata:
         - $content_Punti-di-contatto_node
 data:
     ita-IT:
-        name: 'Contatti URP'
+        name: 'Contatti URP (demo)'
         contact:
             -
                 type: Telefono
-                value: '0461 917437'
+                value: '1234567890'
                 contact: ''
             -
                 type: Fax
-                value: '0461 917437'
+                value: '1234567890'
                 contact: ''
