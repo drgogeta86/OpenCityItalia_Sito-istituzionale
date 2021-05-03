@@ -11,7 +11,7 @@ data:
         riferimenti_normativi: "Ai sensi della l.r. n. 10/2014 e ss.mm., art. 7, l.r. n. 8/2012\r\n\r\n"
         applicabilita: ''
         denominazione_degli_obblighi: ''
-        guida_alla_compilazione: '<p>La classe da utilizzare è &quot;Documento&quot; e la Tipologia di documento da scegliere è &quot;Sovvenzione/contributo&quot; che si trova nel menù Esiti.</p>'
+        guida_alla_compilazione: '<p>La classe da utilizzare è &quot;Documento&quot; e la Tipologia di documento da scegliere è &quot;Sovvenzione/contributo&quot; che si trova nel menù &quot;Esiti&quot;.</p>'
         messaggio_di_consiglio: '<p>Si evidenzia che nella presente sezione non sono mai da pubblicare dati e/o atti relativi a persone fisiche.</p><p>Ai sensi della Delibera ANAC n. 59/2013 l''importo di 1000 euro è da intendersi sia se erogato con un unico atto, sia con atti diversi ma che nel corso dell’anno solare superino tale limite nei confronti di un unico beneficiario.</p>'
         decorrenza_di_pubblicazione:
             - Immediata

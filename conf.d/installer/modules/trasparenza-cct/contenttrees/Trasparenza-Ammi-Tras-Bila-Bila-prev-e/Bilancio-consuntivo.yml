@@ -11,7 +11,7 @@ data:
         riferimenti_normativi: "Art. 1, co. 1, lett. b), l.r. n. 10/2014 e ss.m.\r\nAi sensi dell'art. 49 l.p. n. 18/2015, art. 227, co. 6-bis e art. 230, co. 9-bis d.lgs. n. 267/2000 (TUEL)"
         applicabilita: ''
         denominazione_degli_obblighi: ''
-        guida_alla_compilazione: '<p>Le informazioni di questa sezione vanno inserite nel menù &quot;Documenti e dati&quot; all''interno della pagina &quot;Documenti funzionamento interno&quot;.</p><p>La classe da utilizzare è &quot;Documento&quot; e la Tipologia di documento da scegliere è &quot;Bilancio preventivo&quot; che si trova nel menù Funzionamento interno.</p>'
+        guida_alla_compilazione: '<p>Le informazioni di questa sezione vanno inserite nel menù &quot;Documenti e dati&quot; all''interno della pagina &quot;Documenti funzionamento interno&quot;.</p><p>La classe da utilizzare è &quot;Documento&quot; e la Tipologia di documento da scegliere è &quot;Bilancio preventivo&quot; che si trova nel menù &quot;Funzionamento interno&quot;.</p>'
         messaggio_di_consiglio: '<p>In attesa della predisposizione di un apposito documento relativo alla versione semplificata del rendiconto e del rendiconto consolidato, si consiglia di pubblicare le schede sintetiche utilizzate per l''illustrazione in Consiglio comunale</p>'
         decorrenza_di_pubblicazione:
             - 'Da entrata in vigore provvedimento di adozione'

@@ -11,14 +11,14 @@ data:
         riferimenti_normativi: 'Ai sensi della l.r. n. 10/2014 e ss.mm., art.39 undecies l.p. n. 23/1990, art. 2 co. 3, l.p. 4/2014 '
         applicabilita: ''
         denominazione_degli_obblighi: ''
-        guida_alla_compilazione: ''
-        messaggio_di_consiglio: "<p>La classe da utilizzare è &quot;Documento&quot; e la Tipologia di documento da scegliere è &quot;Consulenza&quot; che si trova nel menù Esiti.</p><p>Gli incarichi conferiti ai commissari esterni membri di commissioni concorsuali sono riconducibili agli incarichi di collaborazione e consulenza di cui all’art. 15 del d.lgs. n. 33/2013 (cfr. FAQ ANAC).</p><p>I dati relativi agli eventuali incarichi e cariche di dirigenti, consulenti e collaboratori sono da pubblicare sia se a titolo oneroso sia se a titolo gratuito (cfr. FAQ ANAC).</p><p>Relativamente agli incarichi per: la rappresentanza in giudizio, il patrocinio dell'amministrazione, le nomine di consulenti tecnici di parte ed il ricorso alle funzioni notarili sono da compilare soltanto i campi relativi a:</p>\n<ul>\n\n<li>nome e cognome dell'incaricato</li>\n\n<li>oggetto e ragione dell'incarico</li>\n\n<li>durata dell'incarico</li>\n\n<li>corrispettivo erogato (ammontare erogato ed eventuali rimborsi a qualsiasi titolo percepiti)</li>\n\n</ul>\n"
+        guida_alla_compilazione: '<p>La classe da utilizzare è &quot;Documento&quot; e la Tipologia di documento da scegliere è &quot;Consulenza&quot; che si trova nel menù &quot;Esiti&quot;</p>'
+        messaggio_di_consiglio: "<p>Gli incarichi conferiti ai commissari esterni membri di commissioni concorsuali sono riconducibili agli incarichi di collaborazione e consulenza di cui all’art. 15 del d.lgs. n. 33/2013 (cfr. FAQ ANAC).</p><p>I dati relativi agli eventuali incarichi e cariche di dirigenti, consulenti e collaboratori sono da pubblicare sia se a titolo oneroso sia se a titolo gratuito (cfr. FAQ ANAC).</p><p>Relativamente agli incarichi per: la rappresentanza in giudizio, il patrocinio dell'amministrazione, le nomine di consulenti tecnici di parte ed il ricorso alle funzioni notarili sono da compilare soltanto i campi relativi a:</p>\n<ul>\n\n<li>nome e cognome dell'incaricato</li>\n\n<li>oggetto e ragione dell'incarico</li>\n\n<li>durata dell'incarico</li>\n\n<li>corrispettivo erogato (ammontare erogato ed eventuali rimborsi a qualsiasi titolo percepiti)</li>\n\n</ul>\n"
         decorrenza_di_pubblicazione:
             - Immediata
         aggiornamento:
             - Tempestivo
         termine_pubblicazione:
-            - '5 anni a decorrere dal primo gennaio dell''anno successivo a quello da cui decorre l''obbligo di pubblicazione'
+            - '3 anni a decorrere dal primo gennaio dell''anno successivo a quello da cui decorre l''obbligo di pubblicazione'
         fields: null
 sort_data:
     sort_field: 8

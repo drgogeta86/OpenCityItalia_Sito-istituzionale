@@ -12,7 +12,7 @@ data:
         applicabilita: ''
         denominazione_degli_obblighi: ''
         guida_alla_compilazione: ''
-        messaggio_di_consiglio: '<p>Qualora volontariamente adottato, può essere pubblicato in questa sezione il Regolamento per la prevenzione e la repressione della corruzione e dell''illegalità</p>'
+        messaggio_di_consiglio: '<p>Si ricorda di creare link di collegamento con la sezione <em>Disposizioni generali</em>, sottosezione <em>Piano triennale per la prevenzione della corruzione e della trasparenza</em></p>'
         decorrenza_di_pubblicazione:
             - Tempestiva
         aggiornamento:

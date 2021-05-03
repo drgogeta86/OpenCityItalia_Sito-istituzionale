@@ -11,8 +11,8 @@ data:
         riferimenti_normativi: 'Ai sensi della l.r. n. 10/2014 e ss.mm., art. 13 del Codice degli enti locali (l.r. 3 maggio 2018, n. 2)'
         applicabilita: ''
         denominazione_degli_obblighi: ''
-        guida_alla_compilazione: '<p>Si ritiene che i dati relativi al personale in comando vadano pubblicati da parte dell''ente presso il quale il dipendente presta servizio</p>'
-        messaggio_di_consiglio: ''
+        guida_alla_compilazione: ''
+        messaggio_di_consiglio: '<p>Si ritiene che i dati relativi al personale in comando vadano pubblicati da parte dell''ente presso il quale il dipendente presta servizio</p>'
         decorrenza_di_pubblicazione:
             - Tempestiva
         aggiornamento:

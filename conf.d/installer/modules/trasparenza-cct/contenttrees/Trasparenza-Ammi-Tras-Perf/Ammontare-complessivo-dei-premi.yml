@@ -7,12 +7,12 @@ metadata:
 data:
     ita-IT:
         titolo: 'Ammontare complessivo dei premi'
-        contenuto_obbligo: '<p>Ammontare complessivo dei premi collegati al merito </p>'
+        contenuto_obbligo: '<p>Ammontare complessivo dei premi collegati al merito</p>'
         riferimenti_normativi: "Art.1, co.1, lettera f), l.r. n. 10/2014 e ss.mm.\r\n"
         applicabilita: ''
         denominazione_degli_obblighi: ''
-        guida_alla_compilazione: '<p>Si precisa che in questa sezione devono essere pubblicati, oltre agli importi effettivamente erogati, anche quelli stanziati</p>'
-        messaggio_di_consiglio: ''
+        guida_alla_compilazione: ''
+        messaggio_di_consiglio: '<p>Si precisa che in questa sezione devono essere pubblicati, oltre agli importi effettivamente erogati, anche quelli stanziati</p>'
         decorrenza_di_pubblicazione:
             - Tempestiva
         aggiornamento:

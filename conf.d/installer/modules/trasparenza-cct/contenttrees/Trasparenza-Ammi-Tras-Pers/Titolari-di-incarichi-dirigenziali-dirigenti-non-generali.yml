@@ -11,7 +11,7 @@ data:
         riferimenti_normativi: "Ai sensi della l.r. n. 10/2014 e ss.mm., art.14 del d.lgs. n. 33/2013 e ss.mm.\r\nArt. 13 del Codice degli enti locali (l.r. 3 maggio 2018, n. 2)\r\nArt. 20, co.3, d.lgs. n. 39/2013\r\nDelibere ANAC n. 241/2017 e n. 586/2019"
         applicabilita: ''
         denominazione_degli_obblighi: ''
-        guida_alla_compilazione: '<p>Per inserire le informazioni nella presente sezione è possibile impostare il ruolo del dipendente nell''apposito pannello.</p>'
+        guida_alla_compilazione: '<p>Per inserire le informazioni nella presente sezione è possibile impostare il ruolo del dipendente in &quot;Gestione ruoli amministrativi&quot;</p>'
         messaggio_di_consiglio: ''
         decorrenza_di_pubblicazione:
             - '3 mesi dalla elezione o dalla nomina'

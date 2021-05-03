@@ -11,7 +11,7 @@ data:
         riferimenti_normativi: "Ai sensi della l.r. n. 10/2014 e ss.mm., art.13, co.1, lett. a), art.14 co.1 e co. 2\r\nArt. 47, co.1, d.lgs. n. 33/2013 e ss.mm."
         applicabilita: ''
         denominazione_degli_obblighi: ''
-        guida_alla_compilazione: '<p>Per inserire le informazioni nella presente sezione è possibile impostare la scadenza del ruolo dell''amministratore nell''apposito pannello</p>'
+        guida_alla_compilazione: '<p>Per inserire le informazioni nella presente sezione è possibile impostare la scadenza del ruolo dell''amministratore in &quot;Gestione ruoli amministrativi&quot;</p>'
         messaggio_di_consiglio: ''
         decorrenza_di_pubblicazione:
             - '3 mesi dalla elezione o dalla nomina'

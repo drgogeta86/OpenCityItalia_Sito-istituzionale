@@ -1,7 +1,7 @@
 name: 'OpenCity Trasparenza CCT'
 description: 'Alberatura dell''amministrazione trasparente declinata per il contesto del Consorzio dei Comuni Trentini'
 type: module
-version: 0.0.1
+version: 0.0.2
 variables:
     -
         name: identifier

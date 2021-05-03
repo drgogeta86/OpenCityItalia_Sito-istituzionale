@@ -11,7 +11,7 @@ data:
         riferimenti_normativi: "Ai sensi della l.r. n. 10/2014 e ss.mm., art. 22, d.lgs. n. 33/2013 e ss. mm.\r\nArt. 20 del d.lgs. n. 39/2013\r\n"
         applicabilita: ''
         denominazione_degli_obblighi: ''
-        guida_alla_compilazione: '<p>Per inserire le informazioni di questa sezione si consiglia di utilizzare la classe di tipo &quot;Partecipazione societaria&quot;</p>'
+        guida_alla_compilazione: '<p>Le informazioni di questa sezione vanno inserite utilizzando la classe di tipo &quot;Partecipazione societaria&quot;</p>'
         messaggio_di_consiglio: ''
         decorrenza_di_pubblicazione:
             - Tempestiva

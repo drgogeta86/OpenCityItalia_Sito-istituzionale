@@ -11,7 +11,7 @@ data:
         riferimenti_normativi: 'Ai sensi della l.r. n. 10/2014 e ss.mm., art.12, co.1 e co.2, d.lgs. n. 33/2013 e ss.mm.'
         applicabilita: ''
         denominazione_degli_obblighi: ''
-        guida_alla_compilazione: '<p>Le informazioni di questa sezione vanno inserite nel menù &quot;Documenti e dati&quot; all''interno della pagina &quot;Documenti funzionamento interno&quot;.</p><p>La classe da utilizzare è &quot;Documento&quot; e la Tipologia di documento da scegliere è &quot;Regolamento&quot; oppure &quot;Statuto&quot; che si trovano nel menù Funzionamento interno.</p>'
+        guida_alla_compilazione: '<p>Le informazioni di questa sezione vanno inserite nel menù &quot;Documenti e dati&quot; all''interno della pagina &quot;Documenti funzionamento interno&quot;.</p><p>La classe da utilizzare è &quot;Documento&quot; e la Tipologia di documento da scegliere è &quot;Regolamento&quot; oppure &quot;Statuto&quot; che si trovano nel menù &quot;Funzionamento interno&quot;.</p>'
         messaggio_di_consiglio: ''
         decorrenza_di_pubblicazione:
             - Tempestiva

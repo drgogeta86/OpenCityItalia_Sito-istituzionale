@@ -11,7 +11,7 @@ data:
         riferimenti_normativi: "Art.1, co.1, lett b) della l.r. n. 10/2014 e ss.mm.\r\n\r\n"
         applicabilita: ''
         denominazione_degli_obblighi: ''
-        guida_alla_compilazione: "<p>Per inserire le informazioni è possibile:</p>\n<ul>\n\n<li>utilizzare la classe &quot;Documento&quot; per inserire Piano esecutivo di gestione o atto di indirizzo</li>\n\n<li>aggiungere la collocazione del Bilancio</li>\n\n</ul>\n"
+        guida_alla_compilazione: '<p>Per inserire le informazioni è possibile utilizzare la classe &quot;Documento&quot; per inserire il Piano esecutivo di gestione o l''atto di indirizzo.</p><p>Rimane possibile anche aggiungere la collocazione del Bilancio.</p>'
         messaggio_di_consiglio: ''
         decorrenza_di_pubblicazione:
             - 'Da entrata in vigore provvedimento di adozione'
