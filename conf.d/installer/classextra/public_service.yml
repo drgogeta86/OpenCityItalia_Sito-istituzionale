@@ -11,6 +11,7 @@ attribute_group:
         how_to: '1'
         produces_output: '1'
         is_physically_available_at: '1'
+        on_line_booking: '1'
     casi_particolari:
         '*': 'Casi particolari'
         exceptions: '1'
