@@ -1,0 +1,19 @@
+metadata:
+    remoteId: content_archive
+    classIdentifier: pagina_sito
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+    parentNodes:
+        - $root_node
+data:
+    ita-IT:
+        name: Contenuti obsoleti
+        show_children: 1
+        icon: it-box
+        show_topics: 0
+        show_search_form: 0
+sort_data:
+    sort_field: 2
+    sort_order: 0
+    priority: 0
