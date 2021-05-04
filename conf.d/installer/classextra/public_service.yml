@@ -209,6 +209,7 @@ table_view:
         is_physically_available_at: '1'
         news_and_updates: '1'
         requires_service: '1'
+        output_notes: '1'
     show_link:
         has_channel: '1'
         has_online_contact_point: '1'
