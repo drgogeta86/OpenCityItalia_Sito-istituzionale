@@ -1,4 +1,4 @@
-FROM registry.gitlab.com/opencontent/ezpublish/php:1.0.0
+FROM registry.gitlab.com/opencontent/ezpublish/php:1.2.1
 
 WORKDIR /var/www
 

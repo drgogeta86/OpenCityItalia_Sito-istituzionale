@@ -14,6 +14,14 @@ services:
         volumes:
             - dfs:/mnt/efs/cluster-opencity
         environment:
+            PHP_INI_ENV_memory_limit: '512M'
+            PHP_INI_ENV_date.timezone: 'Europe/Rome'
+            PHP_FPM_ENV_pm: dynamic
+            PHP_FPM_ENV_pm.min_spare_servers: 1
+            PHP_FPM_ENV_pm.start_servers: 5
+            PHP_FPM_ENV_pm.max_spare_servers: 8
+            PHP_FPM_ENV_pm.max_children: 10
+            PHP_FPM_ENV_pm.max_requests: 2000
             EZ_ROOT: /var/www/html
             EZ_INSTANCE: opencity
             NO_FORCE_CONTAINER_REFRESH: 1
