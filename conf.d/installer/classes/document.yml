@@ -811,5 +811,37 @@ data_map:
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
+    data_di_scadenza_delle_iscrizioni:
+        identifier: data_di_scadenza_delle_iscrizioni
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Data a partire dalla quale il bando/progetto entra nello stato "in atto"'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Data di scadenza delle iscrizioni'
+        data_type_string: ezdatetime
+        placement: 44
+        is_searchable: 1
+        can_translate: 1
+        category: bandi_progetti
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    data_di_conclusione:
+        identifier: data_di_conclusione
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Data a partire dalla quale il bando/progetto entra nello stato "concluso"'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Data di conclusione del bando/progetto'
+        data_type_string: ezdate
+        placement: 45
+        is_searchable: 1
+        can_translate: 1
+        category: bandi_progetti
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
 groups:
     - CPSV-AP_IT

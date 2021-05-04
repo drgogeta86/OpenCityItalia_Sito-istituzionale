@@ -9,8 +9,20 @@ ruleDefinitions:
         DestinationState: privacy.public
         Conditions:
             - publication_start_time;lt;NOW
+    set_concorso_in_atto_by_data_di_scadenza_delle_iscrizioni:
+        CurrentState: concorso.nuovo
+        DestinationState: concorso.in_atto
+        Conditions:
+            - data_di_scadenza_delle_iscrizioni;lt;NOW
+    set_concorso_concluso_by_data_di_conclusione_del_concorso:
+        CurrentState: concorso.in_atto
+        DestinationState: concorso.concluso
+        Conditions:
+            - data_di_conclusione;lt;NOW
 ruleApplications:
     article:
         - set_public_by_published
     document:
         - set_public_by_publication_start_time
+        - set_concorso_in_atto_by_data_di_scadenza_delle_iscrizioni
+        - set_concorso_concluso_by_data_di_conclusione_del_concorso
