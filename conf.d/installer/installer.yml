@@ -1,5 +1,5 @@
 name: OpenCity
-version: 2.1.4
+version: 2.1.5
 variables:
     -
         name: identifier
@@ -101,6 +101,9 @@ steps:
     -
         type: section
         identifier: intranet
+    -
+        type: state
+        identifier: concorso
     -
         type: section
         identifier: restricted
@@ -747,3 +750,6 @@ steps:
         tag: 'tag(Servizi pubblici/Tipologia del servizio (TD)/Catasto e urbanistica)'
         keywords:
             ita-IT: 'Edilizia e urbanistica'
+    -
+        type: content
+        identifier: Contenuti-obsoleti
