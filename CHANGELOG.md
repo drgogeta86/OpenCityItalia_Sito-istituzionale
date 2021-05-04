@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [2.1.4](/compare/2.1.3...2.1.4) - 2021-04-07
+## [2.1.4](https://gitlab.com/opencontent/opencity/compare/2.1.3...2.1.4) - 2021-04-07
 - Reduce cache s-maxage Add some security fixes
 - Activate ezformtoken extension
 - Avoid conflicts in abstract settings
@@ -119,7 +119,7 @@ Relevant changes by repository:
 * Corregge la visualizzazione datatable del blocco contenuti remoti
 
 
-## [2.1.3](/compare/2.1.2...2.1.3) - 2021-03-05
+## [2.1.3](https://gitlab.com/opencontent/opencity/compare/2.1.2...2.1.3) - 2021-03-05
 - Bump installer version
 - Reparent old topic in topic-tree installer
 - Add explicit entrypoint in docker-compose
@@ -339,9 +339,6 @@ Relevant changes by repository:
 * Evidenza gli argomenti che hanno elementi figli nell'interfaccia di edit
 * Migliora la visualizzazione dei ruoli
 * Corregge alcuni bug minori
-
-
-
 
 ## [2.1.1](https://gitlab.com/opencontent/opencity/compare/2.1.0...2.1.1) - 2020-12-09
 - Add smart view cache for time_indexed_role
