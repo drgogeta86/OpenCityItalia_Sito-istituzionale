@@ -4,6 +4,70 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.1.5](https://gitlab.com/opencontent/opencity/compare/2.1.4...2.1.5) - 2021-05-04
+- Fix changelog compare url
+- Update php e nginx base images to 1.2.1 Add php env sample parameters in docker-compose
+
+
+#### Installer
+- show public_service/on_line_booking attribute
+- Update to version 2.1.5
+- Add Contenuti obsoleti default page
+- show public_service/output_notes label
+- require homepage name, hide home page menu link
+- Add bandi_progetti date attributes in document, add concorsi state and changestate
+- Update trasparenza-cct to 0.0.2
+- Bugfix OpenCity Manage Restricted Area and update to 0.0.2
+- Add string "demo" in demo content
+
+#### Code dependencies
+| Changes                               | From        | To          | Compare                                                                                  |
+|---------------------------------------|-------------|-------------|------------------------------------------------------------------------------------------|
+| aws/aws-sdk-php                       | 3.176.9     | 3.180.1     | [...](https://github.com/aws/aws-sdk-php/compare/3.176.9...3.180.1)                      |
+| ezsystems/ezpublish-legacy            | 2020.1000.3 | 2020.1000.6 | [...](https://github.com/Opencontent/ezpublish-legacy/compare/2020.1000.3...2020.1000.6) |
+| opencontent/ocinstaller               | e701855     | 95b1463     | [...](https://github.com/OpencontentCoop/ocinstaller/compare/e701855...95b1463)          |
+| opencontent/ocopendata-ls             | 2.25.2      | 2.25.4      | [...](https://github.com/OpencontentCoop/ocopendata/compare/2.25.2...2.25.4)             |
+| opencontent/ocopendata_forms-ls       | 1.6.10      | 1.6.11      | [...](https://github.com/OpencontentCoop/ocopendata_forms/compare/1.6.10...1.6.11)       |
+| opencontent/openpa_bootstrapitalia-ls | 1.18.0      | 1.18.8      | [...](https://github.com/OpencontentCoop/openpa_bootstrapitalia/compare/1.18.0...1.18.8) |
+| psr/log                               | a18c1e6     | d49695b     | [...](https://github.com/php-fig/log/compare/a18c1e6...d49695b)                          |
+| symfony/polyfill-ctype                | c6c942b     | 46cd957     | [...](https://github.com/symfony/polyfill-ctype/compare/c6c942b...46cd957)               |
+| symfony/polyfill-intl-idn             | 3709eb8     | 780e280     | [...](https://github.com/symfony/polyfill-intl-idn/compare/3709eb8...780e280)            |
+| symfony/polyfill-intl-normalizer      | 43a0283     | 8590a5f     | [...](https://github.com/symfony/polyfill-intl-normalizer/compare/43a0283...8590a5f)     |
+| symfony/polyfill-mbstring             | 5232de9     | 9ad2f3c     | [...](https://github.com/symfony/polyfill-mbstring/compare/5232de9...9ad2f3c)            |
+| symfony/polyfill-php72                | cc6e6f9     | 95695b8     | [...](https://github.com/symfony/polyfill-php72/compare/cc6e6f9...95695b8)               |
+| symfony/polyfill-php73                | a678b42     | fba8933     | [...](https://github.com/symfony/polyfill-php73/compare/a678b42...fba8933)               |
+| symfony/polyfill-php80                | dc3063b     | eca0bf4     | [...](https://github.com/symfony/polyfill-php80/compare/dc3063b...eca0bf4)               |
+
+
+Relevant changes by repository:
+
+**[opencontent/ocinstaller changes between e701855 and 95b1463](https://github.com/OpencontentCoop/ocinstaller/compare/e701855...95b1463)**
+* Add load_policies param in role step (se false to avoid role regeneration)
+* avoid warning in IOTools
+
+**[opencontent/ocopendata-ls changes between 2.25.2 and 2.25.4](https://github.com/OpencontentCoop/ocopendata/compare/2.25.2...2.25.4)**
+* Evita un possibile errore nel calcolo della paginazione a cursore
+* Force la rigenerazione delle cache delle classi per evitare un fatal error
+
+**[opencontent/ocopendata_forms-ls changes between 1.6.10 and 1.6.11](https://github.com/OpencontentCoop/ocopendata_forms/compare/1.6.10...1.6.11)**
+* Corregge il valore di default del campo BooleanField in accordo con i parametri dell'attributo di classe
+
+**[opencontent/openpa_bootstrapitalia-ls changes between 1.18.0 and 1.18.8](https://github.com/OpencontentCoop/openpa_bootstrapitalia/compare/1.18.0...1.18.8)**
+* Corregge un problema di invio nel connettore della dashboard con una mailing list
+* Corregge la visualizzazione dei giorni di chiusura negli orari
+* Migliora la visualizzazione delle aree riservate
+* Typo fix
+* Modifica il link con ancora  page-content
+* Migliora la visualizzazione delle dashboard Consente l'invio di mailing list per lingua
+* Inserisce la traduzione mancante di "Leggi di più"
+* Corregge un bug per cui le tipologie di contatto nei punti di contatto non erano correttamente modificabili
+* Corregge un bug per cui  i contenuti nei blocchi non venivano filtrati correttamente per stato
+* Visualizza i tipi di contatto disponibili a partire dal vocabolario dedicato
+* Introduce il gruppo di attributi Bandi/Progetti
+* Introduce un cron per eseguire le importazioni forzando il token di protezione
+* Corregge un bug di traduzione nel template public service
+
+
 ## [2.1.4](https://gitlab.com/opencontent/opencity/compare/2.1.3...2.1.4) - 2021-04-07
 - Reduce cache s-maxage Add some security fixes
 - Activate ezformtoken extension
