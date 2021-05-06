@@ -4,6 +4,20 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.1.6](https://gitlab.com/opencontent/opencity/compare/2.1.5...2.1.6) - 2021-05-06
+
+
+
+#### Installer
+- Update to 2.1.6 Add permission for Contenuti-obsoleti
+
+#### Code dependencies
+| Changes                               | From   | To     | Compare                                                                                  |
+|---------------------------------------|--------|--------|------------------------------------------------------------------------------------------|
+| opencontent/openpa_bootstrapitalia-ls | 1.18.8 | 1.18.9 | [...](https://github.com/OpencontentCoop/openpa_bootstrapitalia/compare/1.18.8...1.18.9) |
+
+
+
 ## [2.1.5](https://gitlab.com/opencontent/opencity/compare/2.1.4...2.1.5) - 2021-05-04
 - Fix changelog compare url
 - Update php e nginx base images to 1.2.1 Add php env sample parameters in docker-compose
