@@ -74,6 +74,8 @@ policies:
             Class:
                 - $class_article
                 - $class_event
+                - $class_banner
+                - $class_link
     -
         ModuleName: content
         FunctionName: edit

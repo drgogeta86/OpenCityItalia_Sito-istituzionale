@@ -1,5 +1,5 @@
 name: OpenCity
-version: 2.1.5
+version: 2.1.6
 variables:
     -
         name: identifier
@@ -445,6 +445,9 @@ steps:
             connection_type: before
     -
         type: content
+        identifier: Contenuti-obsoleti
+    -
+        type: content
         identifier: Editor-Base
     -
         type: content
@@ -750,6 +753,3 @@ steps:
         tag: 'tag(Servizi pubblici/Tipologia del servizio (TD)/Catasto e urbanistica)'
         keywords:
             ita-IT: 'Edilizia e urbanistica'
-    -
-        type: content
-        identifier: Contenuti-obsoleti
