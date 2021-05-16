@@ -4,11 +4,16 @@ metadata:
     sectionIdentifier: standard
     languages:
         - ita-IT
+        - ger-DE
 data:
     ita-IT:
         name: 'Giustizia, sistema giuridico e sicurezza pubblica'
         eu: 'http://publications.europa.eu/resource/authority/data-theme/JUST'
         abstract: '<p>In questo tema rientra tutto ciò che riguarda le frodi, i crimini, la giustizia, le norme. Rientra anche tutto ciò che riguarda la difesa e gli aspetti legati alle attività del ministero dell’interno.</p>'
+    ger-DE:
+        name: 'Recht, öffentliche Sicherheit und Ordnung'
+        eu: 'http://publications.europa.eu/resource/authority/data-theme/JUST'
+        abstract: ''
 sort_data:
     sort_field: 9
     sort_order: 1

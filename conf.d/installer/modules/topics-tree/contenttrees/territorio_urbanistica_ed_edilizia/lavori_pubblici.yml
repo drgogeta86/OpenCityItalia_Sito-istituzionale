@@ -4,9 +4,14 @@ metadata:
     sectionIdentifier: standard
     languages:
         - ita-IT
+        - ger-DE
 data:
     ita-IT:
         name: 'Lavori pubblici'
+        eu: 'http://eurovoc.europa.eu/4565'
+        abstract: ''
+    ger-DE:
+        name: 'Öffentiches Bauen'
         eu: 'http://eurovoc.europa.eu/4565'
         abstract: ''
 sort_data:

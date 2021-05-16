@@ -4,9 +4,13 @@ metadata:
     sectionIdentifier: standard
     languages:
         - ita-IT
+        - ger-DE
 data:
     ita-IT:
         name: 'Procedura elettorale e voto'
+        eu: 'http://eurovoc.europa.eu/4750'
+    ger-DE:
+        name: 'Wahlverfahren'
         eu: 'http://eurovoc.europa.eu/4750'
 sort_data:
     sort_field: 9

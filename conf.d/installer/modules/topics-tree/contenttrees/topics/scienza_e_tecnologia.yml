@@ -4,11 +4,16 @@ metadata:
     sectionIdentifier: standard
     languages:
         - ita-IT
+        - ger-DE
 data:
     ita-IT:
         name: 'Scienza e tecnologia'
         eu: 'http://publications.europa.eu/resource/authority/data-theme/TECH'
         abstract: '<p>In questo tema rientra tutto ciò che riguarda la ricerca, l’innovazione, la tecnologia, la banda larga e ultralarga, la psicologia, le scienze umane, lo spazio.</p>'
+    ger-DE:
+        name: 'Wissenschaft und Technik'
+        eu: 'http://publications.europa.eu/resource/authority/data-theme/TECH'
+        abstract: ''
 sort_data:
     sort_field: 9
     sort_order: 1

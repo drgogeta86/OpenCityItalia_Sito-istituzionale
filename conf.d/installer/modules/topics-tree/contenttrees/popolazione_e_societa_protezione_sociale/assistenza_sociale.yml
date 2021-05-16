@@ -4,9 +4,14 @@ metadata:
     sectionIdentifier: standard
     languages:
         - ita-IT
+        - ger-DE
 data:
     ita-IT:
         name: 'Assistenza sociale'
+        eu: 'http://eurovoc.europa.eu/3357'
+        abstract: ''
+    ger-DE:
+        name: 'Soziale Unterstützung'
         eu: 'http://eurovoc.europa.eu/3357'
         abstract: ''
 sort_data:

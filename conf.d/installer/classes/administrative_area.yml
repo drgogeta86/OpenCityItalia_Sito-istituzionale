@@ -342,7 +342,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Responsabile
-            ger-DE: 'Verantwortlicher/e (Leitung?)'
+            ger-DE: 'Leitung'
         data_type_string: openparole
         placement: 20
         can_translate: 1

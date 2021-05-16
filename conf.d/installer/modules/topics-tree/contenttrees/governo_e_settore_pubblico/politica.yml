@@ -4,9 +4,14 @@ metadata:
     sectionIdentifier: standard
     languages:
         - ita-IT
+        - ger-DE
 data:
     ita-IT:
         name: Politica
+        eu: 'http://eurovoc.europa.eu/4704'
+        abstract: ''
+    ger-DE:
+        name: 'Stadtpolitik'
         eu: 'http://eurovoc.europa.eu/4704'
         abstract: ''
 sort_data:

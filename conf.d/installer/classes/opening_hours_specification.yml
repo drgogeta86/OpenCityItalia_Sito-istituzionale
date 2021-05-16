@@ -35,7 +35,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Valido dal'
-            ger-DE: 'Gültig ab'
+            ger-DE: 'Gültig seit'
         data_type_string: ezdate
         placement: 2
         is_searchable: 1

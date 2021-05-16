@@ -4,9 +4,13 @@ metadata:
     sectionIdentifier: standard
     languages:
         - ita-IT
+        - ger-DE
 data:
     ita-IT:
         name: 'Patrimonio culturale'
+        eu: 'http://publications.europa.eu/resource/authority/data-theme/EDUC'
+    ger-DE:
+        name: 'Kulturgut'
         eu: 'http://publications.europa.eu/resource/authority/data-theme/EDUC'
 sort_data:
     sort_field: 9

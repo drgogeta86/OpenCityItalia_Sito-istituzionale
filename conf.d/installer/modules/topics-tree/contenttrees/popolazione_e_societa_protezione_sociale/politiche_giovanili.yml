@@ -4,9 +4,13 @@ metadata:
     sectionIdentifier: standard
     languages:
         - ita-IT
+        - ger-DE
 data:
     ita-IT:
         name: 'Politiche giovanili'
+        eu: 'http://eurovoc.europa.eu/6215'
+    ger-DE:
+        name: 'Jugend'
         eu: 'http://eurovoc.europa.eu/6215'
 sort_data:
     sort_field: 9

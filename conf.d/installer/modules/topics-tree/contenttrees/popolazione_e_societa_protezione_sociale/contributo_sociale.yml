@@ -4,9 +4,14 @@ metadata:
     sectionIdentifier: standard
     languages:
         - ita-IT
+        - ger-DE
 data:
     ita-IT:
         name: 'Contributo sociale'
+        eu: 'http://eurovoc.europa.eu/250'
+        abstract: ''
+    ger-DE:
+        name: 'Sozialförderung'
         eu: 'http://eurovoc.europa.eu/250'
         abstract: ''
 sort_data:

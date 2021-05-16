@@ -4,9 +4,13 @@ metadata:
     sectionIdentifier: standard
     languages:
         - ita-IT
+        - ger-DE
 data:
     ita-IT:
         name: Turismo
+        eu: 'http://eurovoc.europa.eu/4470'
+    ger-DE:
+        name: Tourismus
         eu: 'http://eurovoc.europa.eu/4470'
 sort_data:
     sort_field: 9

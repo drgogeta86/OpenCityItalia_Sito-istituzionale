@@ -4,9 +4,14 @@ metadata:
     sectionIdentifier: standard
     languages:
         - ita-IT
+        - ger-DE
 data:
     ita-IT:
         name: 'Parità di trattamento'
+        eu: 'http://eurovoc.europa.eu/688'
+        abstract: ''
+    ger-DE:
+        name: 'Gleichstellung'
         eu: 'http://eurovoc.europa.eu/688'
         abstract: ''
 sort_data:

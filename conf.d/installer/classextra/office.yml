@@ -48,7 +48,7 @@ attribute_group:
     'ger-DE::contatti':
         '*': Kontakt
     'ger-DE::cosa_fa':
-        '*': 'Zuständigkeiten (Wir sind zuständig für)'
+        '*': 'Zuständigkeiten'
     'ger-DE::documenti':
         '*': Dokumente
     'ger-DE::persone':

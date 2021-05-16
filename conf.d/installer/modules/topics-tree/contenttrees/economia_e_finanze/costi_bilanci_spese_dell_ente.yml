@@ -4,11 +4,14 @@ metadata:
     sectionIdentifier: standard
     languages:
         - ita-IT
+        - ger-DE
 data:
     ita-IT:
         name: 'Costi, bilanci, spese dell''ente'
         eu: 'http://eurovoc.europa.eu/5092'
-        abstract: ''
+    ger-DE:
+        name: 'Stadthaushalt'
+        eu: 'http://eurovoc.europa.eu/5092'
 sort_data:
     sort_field: 9
     sort_order: 1

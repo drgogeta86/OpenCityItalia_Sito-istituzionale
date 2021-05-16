@@ -4,11 +4,15 @@ metadata:
     sectionIdentifier: standard
     languages:
         - ita-IT
+        - ger-DE
 data:
     ita-IT:
         name: 'Asilo nido'
         eu: 'http://eurovoc.europa.eu/1133'
         abstract: ''
+    ger-DE:
+        name: 'Kleinkinderbetreuung'
+        eu: 'http://eurovoc.europa.eu/1133'
 sort_data:
     sort_field: 9
     sort_order: 1

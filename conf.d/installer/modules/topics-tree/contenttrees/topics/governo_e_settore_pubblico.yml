@@ -4,11 +4,16 @@ metadata:
     sectionIdentifier: standard
     languages:
         - ita-IT
+        - ger-DE
 data:
     ita-IT:
         name: 'Governo e settore pubblico'
         eu: 'http://publications.europa.eu/resource/authority/data-theme/GOVE'
         abstract: '<p>In questo tema rientra tutto ciò che riguarda le politiche di governo, gli affari istituzionali, la trasparenza del settore pubblico (dati relativi ad amministrazione trasparente).</p>'
+ger-DE:
+    name: 'Politik und Verwaltung'
+    eu: 'http://publications.europa.eu/resource/authority/data-theme/GOVE'
+    abstract: ''
 sort_data:
     sort_field: 9
     sort_order: 1

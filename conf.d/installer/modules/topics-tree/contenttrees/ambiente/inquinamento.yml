@@ -4,9 +4,13 @@ metadata:
     sectionIdentifier: standard
     languages:
         - ita-IT
+        - ger-DE
 data:
     ita-IT:
         name: Inquinamento
+        eu: 'http://eurovoc.europa.eu/2524'
+    ger-DE:
+        name: Umweltverschmutzung
         eu: 'http://eurovoc.europa.eu/2524'
 sort_data:
     sort_field: 9

@@ -4,9 +4,13 @@ metadata:
     sectionIdentifier: standard
     languages:
         - ita-IT
+        - ger-DE
 data:
     ita-IT:
         name: 'Mobilità e trasporti'
+        eu: 'http://publications.europa.eu/resource/authority/data-theme/TRAN'
+    ger-DE:
+        name: 'Mobilität'
         eu: 'http://publications.europa.eu/resource/authority/data-theme/TRAN'
 sort_data:
     sort_field: 9

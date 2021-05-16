@@ -183,7 +183,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Atto di convalida e/o nomina'
-            ger-DE: 'Rechtsakt der Validierung und/oder Ernennung'
+            ger-DE: 'Ernennungsakt'
         data_type_string: ezbinaryfile
         placement: 12
         is_searchable: 1
@@ -304,11 +304,11 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Dati relativi all''assunzione di altre cariche, presso enti pubblici o privati, ed i relativi compensi a qualsiasi titolo corrisposti al politico'
-            ger-DE: 'Andere Ämter in öffentlichen oder privaten Körperschaften und entsprechende Bezüge'
+            ger-DE: 'Weitere Ämter in öffentlichen oder privaten Körperschaften und entsprechende Bezüge'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Dati relativi all''assunzione di altre cariche, presso enti pubblici o privati, ed i relativi compensi a qualsiasi titolo corrisposti'
-            ger-DE: 'Andere Ämter in öffentlichen oder privaten Körperschaften und entsprechende Bezüge'
+            ger-DE: 'Weitere Ämter in öffentlichen oder privaten Körperschaften und entsprechende Bezüge'
         data_type_string: ocmultibinary
         placement: 20
         is_searchable: 1
@@ -342,7 +342,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Dichiarazione incompatibilità e inconferibilità'
-            ger-DE: 'Erklärung der Unvereinbarkeit und Nichterteilbarkeit '
+            ger-DE: 'Erklärung zur Unvereinbarkeit und Nichterteilbarkeit von Aufträgen'
         data_type_string: ezbinaryfile
         placement: 22
         is_searchable: 1

@@ -4,10 +4,15 @@ metadata:
     sectionIdentifier: standard
     languages:
         - ita-IT
+        - ger-DE
 data:
     ita-IT:
         name: Energia
         eu: 'http://publications.europa.eu/resource/authority/data-theme/ENER'
+    ger-DE:
+        name: Energie
+        eu: 'http://publications.europa.eu/resource/authority/data-theme/ENER'
+        
 sort_data:
     sort_field: 9
     sort_order: 1

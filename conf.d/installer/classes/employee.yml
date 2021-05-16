@@ -200,7 +200,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Dichiarazione incompatibilità e inconferibilità'
-            ger-DE: 'Erklärung der Unvereinbarkeit und Nichterteilbarkeit'
+            ger-DE: 'Erklärung zur Unvereinbarkeit und Nichterteilbarkeit von Aufträgen'
         data_type_string: ocmultibinary
         placement: 12
         is_searchable: 1
@@ -286,7 +286,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Dati relativi all''assunzione di altre cariche, presso enti pubblici o privati, ed i relativi compensi a qualsiasi titolo corrisposti'
-            ger-DE: 'Andere Ämter in öffentlichen oder privaten Körperschaften und entsprechende Bezüge'
+            ger-DE: 'Weitere Ämter in öffentlichen oder privaten Körperschaften und entsprechende Bezüge'
         data_type_string: ocmultibinary
         placement: 17
         is_searchable: 1

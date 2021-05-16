@@ -4,11 +4,14 @@ metadata:
     sectionIdentifier: standard
     languages:
         - ita-IT
+        - ger-DE
 data:
     ita-IT:
         name: 'Contributi, rimborsi, finanziamenti'
         eu: 'http://eurovoc.europa.eu/1000'
-        abstract: ''
+    ger-DE:
+        name: 'Beiträge, Rückerstattungen, Förderungen'
+        eu: 'http://eurovoc.europa.eu/1000'
 sort_data:
     sort_field: 9
     sort_order: 1

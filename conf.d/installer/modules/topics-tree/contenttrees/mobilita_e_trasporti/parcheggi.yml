@@ -4,9 +4,13 @@ metadata:
     sectionIdentifier: standard
     languages:
         - ita-IT
+        - ger-DE
 data:
     ita-IT:
         name: Parcheggi
+        eu: 'http://eurovoc.europa.eu/5429'
+    ger-DE:
+        name: Parken
         eu: 'http://eurovoc.europa.eu/5429'
 sort_data:
     sort_field: 9

@@ -4,8 +4,12 @@ metadata:
     sectionIdentifier: standard
     languages:
         - ita-IT
+        - ger-DE
 data:
     ita-IT:
+        name: Sport
+        eu: 'http://eurovoc.europa.eu/4245'
+    ger-DE:
         name: Sport
         eu: 'http://eurovoc.europa.eu/4245'
 sort_data:

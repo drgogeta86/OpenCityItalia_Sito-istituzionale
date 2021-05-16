@@ -4,9 +4,13 @@ metadata:
     sectionIdentifier: standard
     languages:
         - ita-IT
+        - ger-DE
 data:
     ita-IT:
         name: 'Attività produttive e commercio'
+        eu: 'http://eurovoc.europa.eu/4703'
+    ger-DE:
+        name: 'Wirtschaft und Handel'
         eu: 'http://eurovoc.europa.eu/4703'
 sort_data:
     sort_field: 9

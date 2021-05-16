@@ -4,11 +4,16 @@ metadata:
     sectionIdentifier: standard
     languages:
         - ita-IT
+        - ger-DE
 data:
     ita-IT:
         name: Ambiente
         eu: 'http://publications.europa.eu/resource/authority/data-theme/ENVI'
         abstract: '<p>In questo tema rientra tutto ciò che riguarda l’ambiente (rifiuti, consumo del suolo, oceani, ecc.) e il clima/meteo.</p>'
+    ger-DE:
+        name: 'Umwelt'
+        eu: 'http://publications.europa.eu/resource/authority/data-theme/ENVI'
+        abstract: ''
 sort_data:
     sort_field: 9
     sort_order: 1

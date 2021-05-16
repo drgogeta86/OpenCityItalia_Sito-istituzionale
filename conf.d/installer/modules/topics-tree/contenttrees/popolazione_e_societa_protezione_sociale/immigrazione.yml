@@ -4,9 +4,13 @@ metadata:
     sectionIdentifier: standard
     languages:
         - ita-IT
+        - ger-DE
 data:
     ita-IT:
         name: Immigrazione
+        eu: 'http://eurovoc.europa.eu/1302'
+    ger-DE:
+        name: Einwanderung
         eu: 'http://eurovoc.europa.eu/1302'
 sort_data:
     sort_field: 9

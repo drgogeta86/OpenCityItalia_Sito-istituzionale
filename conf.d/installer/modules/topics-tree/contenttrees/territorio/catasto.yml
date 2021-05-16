@@ -4,9 +4,14 @@ metadata:
     sectionIdentifier: standard
     languages:
         - ita-IT
+        - ger-DE
 data:
     ita-IT:
         name: Catasto
+        eu: 'http://eurovoc.europa.eu/5079'
+        abstract: ''
+    ger-DE:
+        name: 'Grundbuch und Kataster'
         eu: 'http://eurovoc.europa.eu/5079'
         abstract: ''
 sort_data:

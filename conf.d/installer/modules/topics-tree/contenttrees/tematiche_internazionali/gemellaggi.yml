@@ -4,11 +4,14 @@ metadata:
     sectionIdentifier: standard
     languages:
         - ita-IT
+        - ger-DE
 data:
     ita-IT:
         name: Gemellaggi
         eu: 'http://eurovoc.europa.eu/5323'
-        abstract: ''
+    ger-DE:
+        name: 'Städtepartnerschaften'
+        eu: 'http://eurovoc.europa.eu/5323'
 sort_data:
     sort_field: 9
     sort_order: 1

@@ -4,9 +4,14 @@ metadata:
     sectionIdentifier: standard
     languages:
         - ita-IT
+        - ger-DE
 data:
     ita-IT:
         name: 'Vita istituzionale'
+        eu: 'http://eurovoc.europa.eu/4179'
+        abstract: ''
+    ger-DE:
+        name: 'Institutionelle Angelegenheiten'
         eu: 'http://eurovoc.europa.eu/4179'
         abstract: ''
 sort_data:

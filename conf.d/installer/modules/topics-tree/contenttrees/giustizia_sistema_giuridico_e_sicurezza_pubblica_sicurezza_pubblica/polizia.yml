@@ -4,9 +4,14 @@ metadata:
     sectionIdentifier: standard
     languages:
         - ita-IT
+        - ger-DE
 data:
     ita-IT:
         name: Polizia
+        eu: 'http://eurovoc.europa.eu/2440'
+        abstract: ''
+    ger-DE:
+        name: Polizei
         eu: 'http://eurovoc.europa.eu/2440'
         abstract: ''
 sort_data:

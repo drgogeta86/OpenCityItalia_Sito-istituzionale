@@ -4,11 +4,16 @@ metadata:
     sectionIdentifier: standard
     languages:
         - ita-IT
+        - ger-DE
 data:
     ita-IT:
         name: 'Popolazione e società'
         eu: 'http://publications.europa.eu/resource/authority/data-theme/SOCI'
         abstract: '<p>In questo tema rientra tutto ciò che concerne lo sviluppo della società, le condizioni della società, la cittadinanza, la demografia, il welfare.</p>'
+    ger-DE:
+        name: 'Mensch und Gesellschaft'
+        eu: 'http://publications.europa.eu/resource/authority/data-theme/SOCI'
+        abstract: ''
 sort_data:
     sort_field: 9
     sort_order: 1

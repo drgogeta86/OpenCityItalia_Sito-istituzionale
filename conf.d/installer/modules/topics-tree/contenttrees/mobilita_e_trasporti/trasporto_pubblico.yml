@@ -4,9 +4,14 @@ metadata:
     sectionIdentifier: standard
     languages:
         - ita-IT
+        - ger-DE
 data:
     ita-IT:
         name: 'Trasporto pubblico'
+        eu: 'http://eurovoc.europa.eu/4531'
+        abstract: ''
+    ger-DE:
+        name: 'Personennahverkehr'
         eu: 'http://eurovoc.europa.eu/4531'
         abstract: ''
 sort_data:

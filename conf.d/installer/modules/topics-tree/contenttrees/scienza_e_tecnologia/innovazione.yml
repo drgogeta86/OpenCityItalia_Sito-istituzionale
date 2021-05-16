@@ -4,9 +4,14 @@ metadata:
     sectionIdentifier: standard
     languages:
         - ita-IT
+        - ger-DE
 data:
     ita-IT:
         name: Innovazione
+        eu: 'http://eurovoc.europa.eu/143'
+        abstract: ''
+    ger-DE:
+        name: Innovation
         eu: 'http://eurovoc.europa.eu/143'
         abstract: ''
 sort_data:

@@ -4,9 +4,13 @@ metadata:
     sectionIdentifier: standard
     languages:
         - ita-IT
+        - ger-DE
 data:
     ita-IT:
         name: 'Protezione sociale'
+        eu: 'http://eurovoc.europa.eu/4050'
+    ger-DE:
+        name: 'Soziale Sicherheit'
         eu: 'http://eurovoc.europa.eu/4050'
 sort_data:
     sort_field: 9

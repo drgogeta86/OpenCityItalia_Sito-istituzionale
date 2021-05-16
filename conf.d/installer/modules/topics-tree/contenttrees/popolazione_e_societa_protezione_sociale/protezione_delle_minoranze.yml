@@ -4,9 +4,14 @@ metadata:
     sectionIdentifier: standard
     languages:
         - ita-IT
+        - ger-DE
 data:
     ita-IT:
         name: 'Protezione delle minoranze'
+        eu: 'http://eurovoc.europa.eu/2834'
+        abstract: ''
+    ger-DE:
+        name: 'Minderheitenschutz'
         eu: 'http://eurovoc.europa.eu/2834'
         abstract: ''
 sort_data:

@@ -4,9 +4,14 @@ metadata:
     sectionIdentifier: standard
     languages:
         - ita-IT
+        - ger-DE
 data:
     ita-IT:
         name: 'Impiego nella pa'
+        eu: 'http://eurovoc.europa.eu/2126'
+        abstract: ''
+    ger-DE:
+        name: 'Arbeiten in der öffentlichen Verwaltung'
         eu: 'http://eurovoc.europa.eu/2126'
         abstract: ''
 sort_data:

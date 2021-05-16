@@ -4,9 +4,13 @@ metadata:
     sectionIdentifier: standard
     languages:
         - ita-IT
+        - ger-DE
 data:
     ita-IT:
         name: 'Strade e viabilità'
+        eu: 'http://eurovoc.europa.eu/3438'
+    ger-DE:
+        name: 'Straßen und Verkehr'
         eu: 'http://eurovoc.europa.eu/3438'
 sort_data:
     sort_field: 9

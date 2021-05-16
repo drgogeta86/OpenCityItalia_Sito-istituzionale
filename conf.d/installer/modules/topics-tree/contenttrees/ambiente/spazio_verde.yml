@@ -4,9 +4,13 @@ metadata:
     sectionIdentifier: standard
     languages:
         - ita-IT
+        - ger-DE
 data:
     ita-IT:
         name: 'Spazio verde'
+        eu: 'http://eurovoc.europa.eu/861'
+    ger-DE:
+        name: 'Grünflächen'
         eu: 'http://eurovoc.europa.eu/861'
 sort_data:
     sort_field: 9

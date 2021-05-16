@@ -4,9 +4,14 @@ metadata:
     sectionIdentifier: standard
     languages:
         - ita-IT
+        - ger-DE
 data:
     ita-IT:
         name: Nutrizione
+        eu: 'http://eurovoc.europa.eu/1268'
+        abstract: ''
+    ger-DE:
+        name: Ernährung
         eu: 'http://eurovoc.europa.eu/1268'
         abstract: ''
 sort_data:

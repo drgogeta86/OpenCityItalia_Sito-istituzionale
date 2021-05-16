@@ -4,9 +4,13 @@ metadata:
     sectionIdentifier: standard
     languages:
         - ita-IT
+        - ger-DE
 data:
     ita-IT:
         name: 'Animale domestico'
+        eu: 'http://eurovoc.europa.eu/1919'
+    ger-DE:
+        name: 'Haustier'
         eu: 'http://eurovoc.europa.eu/1919'
 sort_data:
     sort_field: 9

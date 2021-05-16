@@ -4,9 +4,13 @@ metadata:
     sectionIdentifier: standard
     languages:
         - ita-IT
+        - ger-DE
 data:
     ita-IT:
         name: 'Politiche familiari'
+        eu: 'http://eurovoc.europa.eu/2501'
+    ger-DE:
+        name: 'Familie'
         eu: 'http://eurovoc.europa.eu/2501'
 sort_data:
     sort_field: 9

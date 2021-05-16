@@ -4,9 +4,13 @@ metadata:
     sectionIdentifier: standard
     languages:
         - ita-IT
+        - ger-DE
 data:
     ita-IT:
         name: Casa
+        eu: 'http://eurovoc.europa.eu/4831'
+    ger-DE:
+        name: Wohnen
         eu: 'http://eurovoc.europa.eu/4831'
 sort_data:
     sort_field: 9

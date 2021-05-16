@@ -4,11 +4,14 @@ metadata:
     sectionIdentifier: standard
     languages:
         - ita-IT
+        - ger-DE
 data:
     ita-IT:
         name: 'Comunità europea'
         eu: 'http://eurovoc.europa.eu/5343'
-        abstract: ''
+    ger-DE:
+        name: 'Europäische Union'
+        eu: 'http://eurovoc.europa.eu/5343'
 sort_data:
     sort_field: 9
     sort_order: 1

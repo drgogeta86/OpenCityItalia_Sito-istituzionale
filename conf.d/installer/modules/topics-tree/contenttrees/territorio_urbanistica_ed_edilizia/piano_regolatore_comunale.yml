@@ -4,9 +4,14 @@ metadata:
     sectionIdentifier: standard
     languages:
         - ita-IT
+        - ger-DE
 data:
     ita-IT:
         name: 'Piano regolatore comunale'
+        eu: 'http://eurovoc.europa.eu/2391'
+        abstract: ''
+    ger-DE:
+        name: 'Bauleitplan'
         eu: 'http://eurovoc.europa.eu/2391'
         abstract: ''
 sort_data:

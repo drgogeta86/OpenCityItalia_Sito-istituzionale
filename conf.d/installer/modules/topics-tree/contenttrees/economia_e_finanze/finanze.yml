@@ -4,11 +4,14 @@ metadata:
     sectionIdentifier: standard
     languages:
         - ita-IT
+        - ger-DE
 data:
     ita-IT:
         name: Finanze
         eu: 'http://eurovoc.europa.eu/100148'
-        abstract: ''
+    ger-DE:
+        name: Finanzwesen
+        eu: 'http://eurovoc.europa.eu/100148'
 sort_data:
     sort_field: 9
     sort_order: 1

@@ -4,11 +4,16 @@ metadata:
     sectionIdentifier: standard
     languages:
         - ita-IT
+        - ger-DE
 data:
     ita-IT:
         name: 'Agricoltura e alimentazione'
         eu: 'http://publications.europa.eu/resource/authority/data-theme/AGRI'
         abstract: '<p>In questo tema rientra tutto ciò che riguarda il settore agricoltura, pesca, politiche forestali e alimentari.</p>'
+    ger-DE:
+        name: 'Landwirtschaft und Ernährung'
+        eu: 'http://publications.europa.eu/resource/authority/data-theme/AGRI'
+        abstract: ''
 sort_data:
     sort_field: 9
     sort_order: 1

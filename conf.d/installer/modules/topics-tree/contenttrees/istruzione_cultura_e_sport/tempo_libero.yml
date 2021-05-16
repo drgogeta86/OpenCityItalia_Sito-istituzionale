@@ -4,9 +4,13 @@ metadata:
     sectionIdentifier: standard
     languages:
         - ita-IT
+        - ger-DE
 data:
     ita-IT:
         name: 'Tempo libero'
+        eu: 'http://eurovoc.europa.eu/1700'
+    ger-DE:
+        name: 'Freizeit'
         eu: 'http://eurovoc.europa.eu/1700'
 sort_data:
     sort_field: 9

@@ -4,9 +4,14 @@ metadata:
     sectionIdentifier: standard
     languages:
         - ita-IT
+        - ger-DE
 data:
     ita-IT:
         name: Ricerca
+        eu: 'http://eurovoc.europa.eu/2914'
+        abstract: ''
+    ger-DE:
+        name: Forschung
         eu: 'http://eurovoc.europa.eu/2914'
         abstract: ''
 sort_data:

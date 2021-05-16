@@ -4,11 +4,14 @@ metadata:
     sectionIdentifier: standard
     languages:
         - ita-IT
+        - ger-DE
 data:
     ita-IT:
         name: Agricoltura
         eu: 'http://eurovoc.europa.eu/5886'
-        abstract: ''
+    ger-DE:
+        name: Landwirtschaft
+        eu: 'http://eurovoc.europa.eu/5886'
 sort_data:
     sort_field: 9
     sort_order: 1

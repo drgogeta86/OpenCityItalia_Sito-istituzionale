@@ -4,9 +4,13 @@ metadata:
     sectionIdentifier: standard
     languages:
         - ita-IT
+        - ger-DE
 data:
     ita-IT:
         name: 'Informazione e dati'
+        eu: 'http://eurovoc.europa.eu/100222'
+    ger-DE:
+        name: 'Information und Daten'
         eu: 'http://eurovoc.europa.eu/100222'
 sort_data:
     sort_field: 9

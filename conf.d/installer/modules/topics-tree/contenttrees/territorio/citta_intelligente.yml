@@ -4,9 +4,14 @@ metadata:
     sectionIdentifier: standard
     languages:
         - ita-IT
+        - ger-DE
 data:
     ita-IT:
         name: 'Città intelligente'
+        eu: 'http://eurovoc.europa.eu/c_d59e7560'
+        abstract: ''
+    ger-DE:
+        name: 'Smart City'
         eu: 'http://eurovoc.europa.eu/c_d59e7560'
         abstract: ''
 sort_data:

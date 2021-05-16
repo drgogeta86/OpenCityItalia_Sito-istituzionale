@@ -4,9 +4,14 @@ metadata:
     sectionIdentifier: standard
     languages:
         - ita-IT
+        - ger-DE
 data:
     ita-IT:
         name: 'Assistenza agli invalidi'
+        eu: 'http://eurovoc.europa.eu/4209'
+        abstract: ''
+    ger-DE:
+        name: 'Invalidität und Behinderung'
         eu: 'http://eurovoc.europa.eu/4209'
         abstract: ''
 sort_data:
