@@ -4,6 +4,36 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.1.7](https://gitlab.com/opencontent/opencity/compare/2.1.6...2.1.7) - 2021-05-30
+- Typofix
+
+
+#### Installer
+- Add de translations to topic tree
+
+#### Code dependencies
+| Changes                               | From   | To     | Compare                                                                                  |
+|---------------------------------------|--------|--------|------------------------------------------------------------------------------------------|
+| opencontent/openpa_bootstrapitalia-ls | 1.18.9 | 1.19.3 | [...](https://github.com/OpencontentCoop/openpa_bootstrapitalia/compare/1.18.9...1.19.3) |
+
+
+Relevant changes by repository:
+
+**[opencontent/openpa_bootstrapitalia-ls changes between 1.18.9 and 1.19.3](https://github.com/OpencontentCoop/openpa_bootstrapitalia/compare/1.18.9...1.19.3)**
+* Introduce un permesso custom (advanced_editor_tools) per la gestione dei permessi di accesso a funzionalità di editing avanzato
+* Aggiorna la stringhe di traduzione
+* Corregge un bug nella paginazione della visualizzazione dei contenuti per tag
+* Rimuove il nome del file originale in ocmultibinary
+* Corregge un bug di visulizzazione della lista paginata
+* Corregge un bug nella ricerca filtrata dei contenuti remoti
+* Recepisce la blacklist dei metadati esposti agli utenti anonimi Permette di nascondere i credits tramite configurazione ini
+* Corregge la visualizzazione del logo nel footer in caso di solo logo e tagline
+* Permette di virtualizzare il menu su un'alberatura di tag a tutti i livelli
+* Hotfix themes!
+* Corregge un bug sulla selezione dei sinonimi dei ruoli in openparole
+* Corregge una vulnerabilità XSS sulla pagina di ricerca
+
+
 ## [2.1.6](https://gitlab.com/opencontent/opencity/compare/2.1.5...2.1.6) - 2021-05-06
 
 
