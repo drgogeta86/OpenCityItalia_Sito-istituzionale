@@ -3102,16 +3102,16 @@
         },
         {
             "name": "opencontent/openpa_bootstrapitalia-ls",
-            "version": "1.18.9",
+            "version": "1.19.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/openpa_bootstrapitalia.git",
-                "reference": "cd2ca757fe3bd63424b0d4aa2c24084236361dfc"
+                "reference": "9379cd5ab5e4f84d8edd6d040b209c01e0e0b0af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/openpa_bootstrapitalia/zipball/cd2ca757fe3bd63424b0d4aa2c24084236361dfc",
-                "reference": "cd2ca757fe3bd63424b0d4aa2c24084236361dfc",
+                "url": "https://api.github.com/repos/OpencontentCoop/openpa_bootstrapitalia/zipball/9379cd5ab5e4f84d8edd6d040b209c01e0e0b0af",
+                "reference": "9379cd5ab5e4f84d8edd6d040b209c01e0e0b0af",
                 "shasum": ""
             },
             "require": {
@@ -3134,7 +3134,7 @@
                 }
             ],
             "description": "Opencontent OpenPA Bootstrap Italia",
-            "time": "2021-05-06T07:30:49+00:00"
+            "time": "2021-05-28T16:01:49+00:00"
         },
         {
             "name": "opencontent/openpa_newsletter-ls",
