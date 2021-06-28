@@ -6,7 +6,7 @@ metadata:
         - ita-IT
 data:
     ita-IT:
-        name: 'Orari strutture'
+        name: 'Orari uffici e strutture'
         short_name: null
         menu_name: null
         abstract: ''
