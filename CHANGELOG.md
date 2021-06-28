@@ -4,6 +4,127 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.1.8](https://gitlab.com/opencontent/opencity/compare/2.1.7...2.1.8) - 2021-06-28
+- Add traefik default demo certs
+- Update block.ini and ezjscire.ini Add default ezscriptmonitor.ini
+
+
+#### Installer
+- Update trasparenza to 0.0.10 fixing time_indexed_role views
+- Update to 2.1.8
+- Rename Orari strutture
+- Add new Tipi-di-luogo tag
+- Add new role Editor-sito and fix other editor roles
+- Bugifx in class topic Fix some class extras (employee abstract, political_body card teaser, public_service output_notes,
+
+#### Code dependencies
+| Changes                               | From    | To      | Compare                                                                                  |
+|---------------------------------------|---------|---------|------------------------------------------------------------------------------------------|
+| aws/aws-sdk-php                       | 3.180.1 | 3.185.2 | [...](https://github.com/aws/aws-sdk-php/compare/3.180.1...3.185.2)                      |
+| ezsystems/ezscriptmonitor-ls          |         | 62d3d72 |                                                                                          |
+| friendsofsymfony/http-cache           | fa9abf6 | cbc3f7d | [...](https://github.com/FriendsOfSymfony/FOSHttpCache/compare/fa9abf6...cbc3f7d)        |
+| opencontent/ocbootstrap-ls            | 1.10.5  | 1.10.9  | [...](https://github.com/OpencontentCoop/ocbootstrap/compare/1.10.5...1.10.9)            |
+| opencontent/occustomfind-ls           | 2.2.3   | 2.3.0   | [...](https://github.com/OpencontentCoop/occustomfind/compare/2.2.3...2.3.0)             |
+| opencontent/ocopendata-ls             | 2.25.4  | 2.25.5  | [...](https://github.com/OpencontentCoop/ocopendata/compare/2.25.4...2.25.5)             |
+| opencontent/openpa-ls                 | c68a756 | 3.13.2  | [...](https://github.com/OpencontentCoop/openpa/compare/c68a756...3.13.2)                |
+| opencontent/openpa_bootstrapitalia-ls | 1.19.3  | 1.22.0  | [...](https://github.com/OpencontentCoop/openpa_bootstrapitalia/compare/1.19.3...1.22.0) |
+| php-http/discovery                    | 1.13.0  | 1.14.0  | [...](https://github.com/php-http/discovery/compare/1.13.0...1.14.0)                     |
+| php-http/message                      | 1.11.0  | 1.11.1  | [...](https://github.com/php-http/message/compare/1.11.0...1.11.1)                       |
+| symfony/cache-contracts               | c044646 | v2.4.0  | [...](https://github.com/symfony/cache-contracts/compare/c044646...v2.4.0)               |
+| symfony/deprecation-contracts         | 5f38c88 | 36b691b | [...](https://github.com/symfony/deprecation-contracts/compare/5f38c88...36b691b)        |
+| symfony/event-dispatcher-contracts    | 69fee1a | v2.4.0  | [...](https://github.com/symfony/event-dispatcher-contracts/compare/69fee1a...v2.4.0)    |
+| symfony/polyfill-intl-idn             | 780e280 | 65bd267 | [...](https://github.com/symfony/polyfill-intl-idn/compare/780e280...65bd267)            |
+| symfony/polyfill-mbstring             | 9ad2f3c | 9174a3d | [...](https://github.com/symfony/polyfill-mbstring/compare/9ad2f3c...9174a3d)            |
+| symfony/polyfill-php72                | 95695b8 | 9a14221 | [...](https://github.com/symfony/polyfill-php72/compare/95695b8...9a14221)               |
+| symfony/service-contracts             | f040a30 | v2.4.0  | [...](https://github.com/symfony/service-contracts/compare/f040a30...v2.4.0)             |
+
+
+Relevant changes by repository:
+
+**[opencontent/ocbootstrap-ls changes between 1.10.5 and 1.10.9](https://github.com/OpencontentCoop/ocbootstrap/compare/1.10.5...1.10.9)**
+* Protegge con CSRF token la chiamata post ajax di ocmultibinary
+* Aggiorna la stringhe di traduzione
+* Aggiorna la stringhe di traduzione
+* Introduce un workaround per evitare che Chrome auto-popoli il campo ezuser
+* Aggiorna le stringhe di traduzione
+
+**[opencontent/occustomfind-ls changes between 2.2.3 and 2.3.0](https://github.com/OpencontentCoop/occustomfind/compare/2.2.3...2.3.0)**
+* Add opendatadataset openapi provider
+
+**[opencontent/ocopendata-ls changes between 2.25.4 and 2.25.5](https://github.com/OpencontentCoop/ocopendata/compare/2.25.4...2.25.5)**
+* Permette di definire una blacklist dei metadati esposti agli utenti anonimi
+
+**[opencontent/openpa-ls changes between c68a756 and 3.13.2](https://github.com/OpencontentCoop/openpa/compare/c68a756...3.13.2)**
+* Permette l'accesso a openpa/roles a gui custom (bootstrapitalia)
+* Migliora lo script di creazione di una nuova istanza
+* Corregge alcuni potenziali problemi di sicurezza xss
+* Evoluzione di robots.txt per bloccare i bad crawler
+* Coregge un problema nella creazione dell'oranigramma  2874
+* Considera content_tag_menu nel calcolo del tree menu
+* In openpa/object viene considerato il main node
+* Aggiunge WhatsApp e Telegram tra i valori possibili dei contatti
+* Aggiunge il codice SDI ai contatti
+* Aggiunge la possibilità di escludere alberature dai menu
+* Rimuovo ruolo e ruolo2 da ContentMain/AbstractIdentifiers  1940
+* Aggiunge TikTok ai possibili contatti
+* Aggiunge il link all'area personale ai valori inseribili nei contatti
+* Corregge un errore nella funzione di template per la ricerca delle strutture
+* Corregge un bug nella definizione degli handler dei blocchi
+* Permette la personalizzazione dei valori head/meta da openpa/seo
+* Visualizza la versione dell'installer se presente in CreditSettings/CodeVersion
+* Corregge un bug in openpa/object
+* Corregge la fetch per il controllo degli stati
+* Permette a content_link di riconoscere se un link è al nodo o a un nodo/link esterno
+* Corregge un possibile errore nel calcolo delle aree tematiche
+* Corregge un typo in cookie
+* Migliora la visualizzazione della versione del software
+* Corregge l'id del tree menu in caso di menu virtualizzato su alberatura di tag
+* Permette la configurazione di Google Recaptcha v3
+* Aggiorna le configurazioni degli attributi di classe direttamente dal openpa/recaptcha
+* Permette l'inserimento del codice Web Analytics Italia
+* Fixed key definition name in openpaini
+* Permette di gestire tramite permessi il menu trasparenza
+* Merge branch 'master' into version3   Conflicts:  	bin/php/create_instance.php  	classes/openpaini.php  	design/standard/templates/openpa/seo.tpl
+* Corregge un bug nel modulo usage/metrics
+* Corregge un possibile errore nel salvataggio della matrice dei contatti (e introduce uno script per il fix del pregresso)
+* Merge branch 'master' into version3 Corregge un possibile errore nel salvataggio della matrice dei contatti (e introduce uno script per il fix del pregresso)
+* Ordina le serie nel grafico delle partecipazioni
+* Merge branch 'master' into version3
+* Considera l'effettiva capacità di lettura dell'utente degli oggetti correlati nella definizione di hasContent per attributi di tipo eZObjectRelationListType
+* Corregge alcuni bug minori
+* Nella configurazione dispatcher cluster: sostituisce l'handler local con s3_private_cache e rende i bucket configurabili separatamente
+* Corregge la lingua di destinazione nel modulo per la copia dell'oggetto (openpa/add)
+* Corregge una vulnerabilità xss nel nome utente
+* Merge branch 'master' into version3
+
+**[opencontent/openpa_bootstrapitalia-ls changes between 1.19.3 and 1.22.0](https://github.com/OpencontentCoop/openpa_bootstrapitalia/compare/1.19.3...1.22.0)**
+* Corregge un id duplicato in website toolbar
+* Corregge un bug per cui la dashboard di moderazione privacy non imponeva lo stato corretto
+* Introduce un workaround per invalidare la cache della pagina Aree riservate
+* Corregge la visualizzazione mobile dei bottoni dell'header
+* Nel motore di ricerca di sezione preseleziona il filtro sulla pagina corrente se presente nei filtri di ricerca
+* Permette di selezionare un'alberatura di tag dalla configurazione dei blocchi
+* Visualizza il limite massimo di caricamento dei file
+* Corregge la visualizzazione dei filtri nel blocco contenuti remoti
+* Migliora l'interfaccia di modifica dei blocchi
+* Corregge la pagina di redirect dopo la creazione/modifica di un contenuto
+* Corregge un bug sulla ricerca nel blocco contenuti remoti
+* Introduce un sistema di visualizzazione di faq
+* Corregge alcuni bug minori
+* Permette la creazione/modifica di faq inline
+* Aggiorna le stringhe di traduzione
+* Nasconde l'icona che permette di espandere il menu una volta espanso
+* Permette di configurare le varianti del tema bi per la testata
+* Corregge un bug di visualizzazione dell'icona menu
+* Permette di filtrare la lista dei ruoli politico/amministrativi per ruoli scaduti
+* Visualizza la toolbar in tutti i moduli
+* Corregge un problema di visualizzazione dei filtri nella pagina di ricerca
+* Customizza la visualizzazione della card-image per la classe grafico e dataset Migliora l'interfaccia di edit del grafico
+* Corregge un errore di configurazione dei blocchi
+* Corregge un problema di visualizzazione dei blocchi nelle pagine trasparenza
+* Aggiunge un bordo alla toolbar
+
+
 ## [2.1.7](https://gitlab.com/opencontent/opencity/compare/2.1.6...2.1.7) - 2021-05-30
 - Typofix
 
