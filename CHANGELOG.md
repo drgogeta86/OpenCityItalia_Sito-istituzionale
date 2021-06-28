@@ -15,7 +15,8 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - Rename Orari strutture
 - Add new Tipi-di-luogo tag
 - Add new role Editor-sito and fix other editor roles
-- Bugifx in class topic Fix some class extras (employee abstract, political_body card teaser, public_service output_notes,
+- Bugifx in class topic Fix some class extras (employee abstract, political_body card teaser, public_service output_notes
+- Add faq system installer module
 
 #### Code dependencies
 | Changes                               | From    | To      | Compare                                                                                  |
@@ -37,7 +38,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 | symfony/polyfill-mbstring             | 9ad2f3c | 9174a3d | [...](https://github.com/symfony/polyfill-mbstring/compare/9ad2f3c...9174a3d)            |
 | symfony/polyfill-php72                | 95695b8 | 9a14221 | [...](https://github.com/symfony/polyfill-php72/compare/95695b8...9a14221)               |
 | symfony/service-contracts             | f040a30 | v2.4.0  | [...](https://github.com/symfony/service-contracts/compare/f040a30...v2.4.0)             |
-
+| opencontent/ocinstaller               | 95b1463 | 3a84656 | [...](https://github.com/OpencontentCoop/ocinstaller/compare/95b1463...3a84656)          |
 
 Relevant changes by repository:
 
@@ -123,6 +124,9 @@ Relevant changes by repository:
 * Corregge un errore di configurazione dei blocchi
 * Corregge un problema di visualizzazione dei blocchi nelle pagine trasparenza
 * Aggiunge un bordo alla toolbar
+
+**[opencontent/ocinstaller changes between 95b1463 and 3a84656](https://github.com/OpencontentCoop/ocinstaller/compare/95b1463...3a84656)**
+* Fix patch content attribute parser
 
 
 ## [2.1.7](https://gitlab.com/opencontent/opencity/compare/2.1.6...2.1.7) - 2021-05-30

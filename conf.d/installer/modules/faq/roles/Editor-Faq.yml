@@ -1,0 +1,52 @@
+name: 'Editor Faq'
+policies:
+    -
+        ModuleName: content
+        FunctionName: create
+        Limitation:
+            Subtree:
+                - $content_FAQ_path_string
+            Class:
+                - $class_faq_section
+                - $class_faq_group
+    -
+        ModuleName: content
+        FunctionName: edit
+        Limitation:
+            Subtree:
+                - $content_FAQ_path_string
+            Class:
+                - $class_faq_section
+                - $class_faq_group
+                - $class_faq
+    -
+        ModuleName: content
+        FunctionName: create
+        Limitation:
+            Subtree:
+                - $content_FAQ_path_string
+            Class:
+                - $class_faq_group
+            ParentClass:
+                - $class_faq_section
+    -
+        ModuleName: content
+        FunctionName: create
+        Limitation:
+            Subtree:
+                - $content_FAQ_path_string
+            Class:
+                - $class_faq
+            ParentClass:
+                - $class_faq_group
+
+    -
+        ModuleName: content
+        FunctionName: remove
+        Limitation:
+            Subtree:
+                - $content_FAQ_path_string
+            Class:
+                - $class_faq_section
+                - $class_faq_group
+                - $class_faq

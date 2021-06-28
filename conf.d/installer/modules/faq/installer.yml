@@ -1,0 +1,49 @@
+name: 'OpenCity Faq System'
+type: module
+version: 0.0.1
+variables:
+    -
+        name: identifier
+        value: 'OpenPABase::getCurrentSiteaccessIdentifier'
+    -
+        name: root_node
+        value: 'ini(NodeSettings,RootNode,content.ini)'
+    -
+        name: content_Images_node
+        value: 51
+steps:
+    -
+        type: class
+        identifier: faq_root
+    -
+        type: class
+        identifier: faq_section
+    -
+        type: class
+        identifier: faq_group
+    -
+        type: class
+        identifier: faq
+    -
+        type: classextra
+        identifier: faq_section
+    -
+        type: classextra
+        identifier: faq_group
+    -
+        type: classextra
+        identifier: faq
+    -
+        type: content
+        identifier: FAQ
+    -
+        type: content
+        identifier: Editor-Base
+    -
+        type: content
+        identifier: Editor-Faq
+    -
+        type: role
+        identifier: Editor-Faq
+        apply_to:
+            - $content_Editor-Faq_object

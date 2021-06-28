@@ -1,0 +1,61 @@
+identifier: faq
+contentobject_name: '<question>'
+serialized_name_list:
+    always-available: ita-IT
+    ger-DE: FAQ
+    ita-IT: FAQ
+serialized_description_list:
+    ita-IT: ''
+always_available: 1
+data_map:
+    question:
+        identifier: question
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ger-DE: Frage
+            ita-IT: Domanda
+        data_type_string: ezstring
+        placement: 1
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        data_int1: 255
+        serialized_data_text:
+            always-available: ita-IT
+    answer:
+        identifier: answer
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ger-DE: Antworten
+            ita-IT: Risposta
+        data_type_string: ezxmltext
+        placement: 2
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        data_int1: 20
+        serialized_data_text:
+            always-available: ita-IT
+    priority:
+        identifier: priority
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Priorità
+        data_type_string: ezinteger
+        placement: 3
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+groups:
+    - Faq
