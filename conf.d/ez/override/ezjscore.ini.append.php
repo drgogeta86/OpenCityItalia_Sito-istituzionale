@@ -8,7 +8,7 @@ LoadFromCDN=disabled
 LocalScripts[jquery]=jquery.js
 
 [Packer]
-AppendLastModifiedTime=enabled
+AppendLastModifiedTime=disabled
 
 
 */ ?>

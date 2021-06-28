@@ -90,12 +90,13 @@ CustomAttributeTypes[ordinamento]=select
 CustomAttributeTypes[includi_classi]=class_select
 CustomAttributeTypes[escludi_classi]=class_select
 CustomAttributeSelection_ordinamento[]
-CustomAttributeSelection_ordinamento[name]=Titolo
-CustomAttributeSelection_ordinamento[pubblicato]=Data di pubblicazione
-CustomAttributeSelection_ordinamento[modificato]=Data di ultima modifica
-CustomAttributeSelection_ordinamento[priority]=Priorità del nodo
+CustomAttributeSelection_ordinamento[name]=Titolo ascendente
+CustomAttributeSelection_ordinamento[pubblicato]=Data di pubblicazione discendente
+CustomAttributeSelection_ordinamento[modificato]=Data di ultima modifica discendente
+CustomAttributeSelection_ordinamento[priority]=Priorità del nodo discendente
 CustomAttributeTypes[state_id]=state_select
 CustomAttributeTypes[topic_node_id]=topic_select
+CustomAttributeTypes[tags]=tag_tree_select
 ManualAddingOfItems=disabled
 ViewList[]
 ViewList[]=lista_card
@@ -327,6 +328,7 @@ CustomAttributeNames[image]=Immagine di sfondo
 CustomAttributeNames[exclude_classes]=Tipologie di contenuto da escludere
 CustomAttributeTypes[]
 CustomAttributeTypes[exclude_classes]=class_select
+ViewList[]
 ViewList[]=lista_card
 ViewName[]
 ViewName[lista_card]=Default
@@ -359,6 +361,7 @@ CustomAttributeTypes[ordinamento]=select
 CustomAttributeTypes[includi_classi]=class_select
 CustomAttributeTypes[limite]=select
 CustomAttributeTypes[elementi_per_riga]=select
+CustomAttributeTypes[tags]=tag_tree_select
 CustomAttributeNames[elementi_per_riga]=Elementi per riga
 CustomAttributeSelection_ordinamento[]
 CustomAttributeSelection_ordinamento[name]=Titolo
@@ -391,6 +394,8 @@ TTL=3600
 ItemsPerRow[]
 ContainerStyle[]
 ContainerStyle[lista_paginata]=section py-5
+ContainerStyle[lista_paginata_card]=py-5
+ContainerStyle[lista_paginata_banner]=py-5
 CanAddShowAllLink=enabled
 CanAddIntroText=enabled
 
@@ -422,6 +427,8 @@ CustomAttributeTypes[hide_tag_select]=checkbox
 CustomAttributeTypes[topic_node_id]=topic_select
 CustomAttributeTypes[hide_publication_end_time]=checkbox
 CustomAttributeTypes[show_only_publication]=checkbox
+CustomAttributeTypes[root_tag]=tag_tree_select
+ViewList[]
 ViewList[]=default
 ViewName[]
 ViewName[default]=Default
@@ -446,6 +453,7 @@ CustomAttributeNames[hide_empty_facets]=Nascondi tag senza contenuti
 CustomAttributeTypes[]
 CustomAttributeTypes[hide_first_level]=checkbox
 CustomAttributeTypes[hide_empty_facets]=checkbox
+CustomAttributeTypes[root_tag]=tag_tree_select
 ViewList[]
 ViewList[]=default
 ViewName[]
@@ -525,6 +533,7 @@ CustomAttributes[]
 CustomAttributes[]=image
 UseBrowseMode[image]=true
 CustomAttributeNames[image]=Immagine di sfondo
+ViewList[]
 ViewList[]=default
 ViewName[]
 ViewName[default]=Default
