@@ -776,7 +776,7 @@ steps:
                             view: default
                             custom_attributes:
                                 remote_url: ""
-                                query: "classes [opening_hours_specification] subtree [$contenttree_Classificazioni_Orari-servizi_node]"
+                                query: "classes [opening_hours_specification] subtree [$contenttree_Classificazioni_Orari-strutture_node]"
                                 show_grid: "1"
                                 show_map: "0"
                                 show_search: "1"
@@ -791,4 +791,3 @@ steps:
                                 container_style: ""
                                 show_all_link: ""
                                 show_all_text: ""
-                                #node_id: $contenttree_Classificazioni_Orari-servizi_node
