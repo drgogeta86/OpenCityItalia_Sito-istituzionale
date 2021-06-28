@@ -2585,12 +2585,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/ocinstaller.git",
-                "reference": "95b14635369a09d6c19df7090ccb8c2c874335de"
+                "reference": "3a8465635a47e19bab16eeb59d25388010949ab6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/ocinstaller/zipball/95b14635369a09d6c19df7090ccb8c2c874335de",
-                "reference": "95b14635369a09d6c19df7090ccb8c2c874335de",
+                "url": "https://api.github.com/repos/OpencontentCoop/ocinstaller/zipball/3a8465635a47e19bab16eeb59d25388010949ab6",
+                "reference": "3a8465635a47e19bab16eeb59d25388010949ab6",
                 "shasum": ""
             },
             "require": {
@@ -2620,7 +2620,7 @@
                 "source": "https://github.com/OpencontentCoop/ocinstaller/tree/master",
                 "issues": "https://github.com/OpencontentCoop/ocinstaller/issues"
             },
-            "time": "2021-04-19T16:30:21+00:00"
+            "time": "2021-06-28T16:13:49+00:00"
         },
         {
             "name": "opencontent/ocmaintenance-ls",
