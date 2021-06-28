@@ -220,3 +220,7 @@ policies:
         ModuleName: classlists
         FunctionName: read
         Limitation: {}
+    -
+        ModuleName: content
+        FunctionName: view_embed
+        Limitation: {  }

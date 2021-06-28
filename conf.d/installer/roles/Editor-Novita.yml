@@ -57,7 +57,6 @@ policies:
             Class:
                 - $class_article
                 - $class_event
-                - $class_homepage
     -
         ModuleName: state
         FunctionName: assign
@@ -76,14 +75,3 @@ policies:
                 - $class_event
                 - $class_banner
                 - $class_link
-    -
-        ModuleName: content
-        FunctionName: edit
-        Limitation:
-            Class:
-                - $class_pagina_sito
-                - $class_frontpage
-            Subtree:
-                - $contenttree_OpenCity_Novita_path_string
-            Node:
-                - $contenttree_OpenCity_Novita_node

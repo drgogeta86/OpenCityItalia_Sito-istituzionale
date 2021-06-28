@@ -1,0 +1,52 @@
+name: 'Editor Struttura sito'
+policies:
+    -
+        ModuleName: content
+        FunctionName: edit
+        Limitation:
+            Class:
+                - $class_pagina_sito
+                - $class_frontpage
+            Subtree:
+                - $contenttree_OpenCity_Amministrazione_path_string
+            Node:
+                - $contenttree_OpenCity_Amministrazione_node
+    -
+        ModuleName: content
+        FunctionName: edit
+        Limitation:
+            Class:
+                - $class_pagina_sito
+                - $class_frontpage
+            Subtree:
+                - $contenttree_OpenCity_Documenti-e-dati_path_string
+            Node:
+                - $contenttree_OpenCity_Documenti-e-dati_node
+    -
+        ModuleName: content
+        FunctionName: edit
+        Limitation:
+            Class:
+                - $class_pagina_sito
+                - $class_frontpage
+            Subtree:
+                - $contenttree_OpenCity_Novita_path_string
+            Node:
+                - $contenttree_OpenCity_Novita_node
+    -
+        ModuleName: content
+        FunctionName: edit
+        Limitation:
+            Class:
+                - $class_pagina_sito
+                - $class_frontpage
+            Subtree:
+                - $contenttree_OpenCity_Servizi_path_string
+            Node:
+                - $contenttree_OpenCity_Servizi_node
+    -
+        ModuleName: content
+        FunctionName: edit
+        Limitation:
+            Class:
+                - $class_homepage

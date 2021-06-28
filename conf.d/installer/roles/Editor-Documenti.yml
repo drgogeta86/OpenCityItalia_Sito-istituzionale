@@ -48,17 +48,6 @@ policies:
                 - $class_document
                 - $class_dataset
     -
-        ModuleName: content
-        FunctionName: edit
-        Limitation:
-            Class:
-                - $class_pagina_sito
-                - $class_frontpage
-            Subtree:
-                - $contenttree_OpenCity_Documenti-e-dati_path_string
-            Node:
-                - $contenttree_OpenCity_Documenti-e-dati_node
-    -
         ModuleName: state
         FunctionName: assign
         Limitation:

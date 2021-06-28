@@ -27,18 +27,6 @@ policies:
         Limitation:
             Class:
                 - $class_public_service
-
-    -
-        ModuleName: content
-        FunctionName: edit
-        Limitation:
-            Class:
-                - $class_pagina_sito
-                - $class_frontpage
-            Subtree:
-                - $contenttree_OpenCity_Servizi_path_string
-            Node:
-                - $contenttree_OpenCity_Servizi_node
     -
         ModuleName: bootstrapitalia
         FunctionName: edit_tag_description
