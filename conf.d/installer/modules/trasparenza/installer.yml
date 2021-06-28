@@ -1,6 +1,6 @@
 name: 'OpenCity Trasparenza'
 type: module
-version: 0.0.9
+version: 0.0.10
 variables:
     -
         name: identifier
@@ -539,16 +539,16 @@ steps:
             fields: 'parent:2|filters:document_type = ''"Bilancio preventivo"''|order_by:-publication_start_time|document|name,abstract,publication_start_time'
     -
         type: patch_content
-        current_version_le: 0.0.4
+        current_version_le: 0.0.9
         identifier: efc995388bebdd304f19eef17aab7e0d
         attributes:
-            fields: 'parent:1|filters:role in [''"Segretario generale"'',''"Segretario comunale"'']|time_indexed_role|person,role,for_entity'
+            fields: 'parent:1|filters:role in [''"Segretario generale"'',''"Segretario comunale"''] and end_time range [now,''*'']|time_indexed_role|person,role,for_entity'
     -
         type: patch_content
-        current_version_le: 0.0.6
+        current_version_le: 0.0.9
         identifier: 9eed77856255692eca75cdb849540c23
         attributes:
-            fields: 'parent:1|filters:role in [''"Dirigente"'']|time_indexed_role|person,role,for_entity'
+            fields: 'parent:1|filters:role in [''"Dirigente"''] and end_time range [now,''*'']|time_indexed_role|person,role,for_entity'
     -
         type: patch_content
         current_version_lt: 0.0.7
@@ -556,3 +556,16 @@ steps:
         identifier: 5399ef12f98766b90f1804e5d52afd75
         attributes:
             icon: it-password-visible
+            
+    -
+        type: patch_content
+        current_version_le: 0.0.9
+        identifier: d4836df7b45710db1bf15b35c5482086
+        attributes:
+            fields: 'parent:1|filters:role = ''"Sindaco"'' and end_time range [now,''*'']|time_indexed_role|person,role,for_entity&parent:1|filters:for_entity.type_political_body in [''"Consiglio comunale"'',''"Giunta comunale"''] and end_time range [now,''*'']|time_indexed_role|person,role,for_entity'
+    -
+        type: patch_content
+        current_version_le: 0.0.9
+        identifier: 154a8d7d190b4e49e2796384c0732712
+        attributes:
+            fields: 'parent:1|filters:organizational_position = 1 and end_time range [now,''*'']|time_indexed_role|person,role,for_entity'
