@@ -996,6 +996,16 @@ children:
                         synonyms: {  }
                         hasChildren: false
                         children: {  }
+                    -
+                        keyword: Punto wifi
+                        locale: ita-IT
+                        alwaysAvailable: true
+                        keywordTranslations:
+                            ita-IT: Punto wifi
+                            ita-PA: 'https://wiki.openstreetmap.org/wiki/Key:internet_access'
+                        synonyms: {  }
+                        hasChildren: false
+                        children: {  }
                 hasChildren: true
             -
                 keyword: 'Strutture ricettive'
