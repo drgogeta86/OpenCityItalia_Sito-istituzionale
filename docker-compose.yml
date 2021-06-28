@@ -20,7 +20,7 @@ services:
             PHP_FPM_ENV_pm.min_spare_servers: 1
             PHP_FPM_ENV_pm.start_servers: 5
             PHP_FPM_ENV_pm.max_spare_servers: 8
-            PHP_FPM_ENV_pm.max_children: 10
+            PHP_FPM_ENV_pm.max_children: 100
             PHP_FPM_ENV_pm.max_requests: 2000
             EZ_ROOT: /var/www/html
             EZ_INSTANCE: opencity
@@ -113,7 +113,7 @@ services:
 
             ## Solo per configurazioni di emulatori di S3
             EZINI_openpa_cluster__AWSS3DFSBackendSettings__Endpoint: 'http://minio:9000'
-            EZINI_openpa_cluster__AWSS3DFSBackendSettings__ServerUri: 'minio.opencity.localtest.me'
+            EZINI_openpa_cluster__AWSS3DFSBackendSettings__ServerUri: 'minio-opencity.localtest.me'
             EZINI_openpa_cluster__AWSS3DFSBackendSettings__UsePathStyleEndpoint: 'enabled'
 
     nginx:
@@ -128,7 +128,15 @@ services:
         image: registry.gitlab.com/opencontent/opencity/varnish:latest
         restart: unless-stopped
         labels:
-            traefik.frontend.rule: 'Host:opencity.localtest.me'
+            traefik.enable: 'true'
+            traefik.http.services.opencity.loadbalancer.server.port: 6081
+            traefik.http.routers.opencity-https.rule: Host(`opencity.localtest.me`)
+            traefik.http.routers.opencity-https.entrypoints: websecure
+            traefik.http.routers.opencity-https.tls: null
+            traefik.http.routers.opencity-https.middlewares: 'frame-allow-self, goodheaders'
+            traefik.http.routers.opencity-http.rule: Host(`opencity.localtest.me`)
+            traefik.http.routers.opencity-http.entrypoints: web
+            traefik.http.middlewares.frame-allow-self.headers.customFrameOptionsValue: 'SAMEORIGIN'
         depends_on:
             - nginx
         environment:
@@ -150,8 +158,6 @@ services:
     postgres:
         image: 'postgres:9.6-alpine'
         restart: unless-stopped
-        labels:
-            traefik.enable: false
         environment:
             POSTGRES_DB: opencity
             POSTGRES_USER: openpa
@@ -165,22 +171,63 @@ services:
             retries: 5
 
     traefik:
-        image: registry.gitlab.com/opencontent/traefik-localtestme:latest
-        command: -c /etc/traefik.toml
-        restart: unless-stopped
+        image: 'traefik:2.0'
+        command:
+            - '--global.checknewversion=true'
+            - '--global.sendanonymoususage=true'
+            #- '--log.level=DEBUG'
+            - '--api'
+            - '--api.dashboard=true'
+            - '--accesslog'
+            - '--providers.file.directory=/etc/traefik/dynamic_conf'
+            - '--providers.docker=true'
+            - '--providers.docker.exposedbydefault=true'
+            - '--providers.docker.defaultrule=Host(`{{ normalize .Name }}.localtest.me`)'
+            - '--entrypoints.web.address=:80'
+            - '--entryPoints.web.forwardedHeaders.insecure'
+            - '--entrypoints.websecure.address=:443'
         ports:
             - '80:80'
             - '443:443'
-            - '8080:8080' # Dashboard
+        labels:
+            traefik.enable: 'true'
+            traefik.http.services.traefik-server.loadbalancer.server.port: 8080
+            traefik.http.routers.traefik-https.entrypoints: websecure
+            traefik.http.routers.traefik-https.service: api@internal
+            traefik.http.routers.traefik-https.rule: Host(`traefik.localtest.me`)
+            traefik.http.routers.traefik-https.tls: null
+            traefik.http.routers.traefik-https.middlewares: goodheaders
+            traefik.http.routers.traefik-http.entrypoints: web
+            traefik.http.routers.traefik-http.service: api@internal
+            traefik.http.routers.traefik-http.rule: Host(`traefik.localtest.me`)
+            traefik.http.routers.traefik-http.middlewares: gotossl
+            traefik.http.middlewares.goodheaders.headers.frameDeny: 'true'
+            traefik.http.middlewares.goodheaders.headers.stsSeconds: 31536000
+            traefik.http.middlewares.goodheaders.headers.stsIncludeSubdomains: 'true'
+            traefik.http.middlewares.goodheaders.headers.forceStsHeader: 'true'
+            traefik.http.middlewares.goodheaders.headers.contentTypeNosniff: 'true'
+            traefik.http.middlewares.goodheaders.headers.featurePolicy: vibrate 'self'
+            traefik.http.middlewares.goodheaders.headers.referrerPolicy: strict-origin-when-cross-origin
+            traefik.http.middlewares.goodheaders.headers.browserXssFilter: 'true'
+            traefik.http.middlewares.goodheaders.headers.customresponseheaders.Cache-control: 'no-cache, private'
+            traefik.http.middlewares.gotossl.redirectscheme.scheme: https
         volumes:
-            - /var/run/docker.sock:/var/run/docker.sock
+            - ./conf.d/traefik/certs:/tools/certs
+            - ./conf.d/traefik/config.yml:/etc/traefik/dynamic_conf/conf.yml
+            - '/var/run/docker.sock:/var/run/docker.sock'
 
     mailhog:
         image: mailhog/mailhog
         # must be explicit about what port to proxy from traefik, because the service expose two ports
         labels:
-            traefik.port: 8025
-            traefik.frontend.rule: 'Host:mailhog.localtest.me'
+            traefik.enable: 'true'
+            traefik.http.services.opencity-mailhog.loadbalancer.server.port: 8025
+            traefik.http.routers.opencity-mailhog-https.rule: Host(`mailhog.localtest.me`)
+            traefik.http.routers.opencity-mailhog-https.entrypoints: websecure
+            traefik.http.routers.opencity-mailhog-https.tls: null
+            traefik.http.routers.opencity-mailhog-https.middlewares: goodheaders
+            traefik.http.routers.opencity-mailhog-http.rule: Host(`mailhog.localtest.me`)
+            traefik.http.routers.opencity-mailhog-http.entrypoints: web
 
     redis:
         image: redis:latest
@@ -200,7 +247,14 @@ services:
         ports:
             - "9000:9000"
         labels:
-            traefik.frontend.rule: 'Host:minio.opencity.localtest.me'
+            traefik.enable: 'true'
+            traefik.http.services.opencity-minio.loadbalancer.server.port: 9000
+            traefik.http.routers.opencity-minio-https.rule: Host(`minio-opencity.localtest.me`)
+            traefik.http.routers.opencity-minio-https.entrypoints: websecure
+            traefik.http.routers.opencity-minio-https.tls: null
+            traefik.http.routers.opencity-minio-https.middlewares: goodheaders
+            traefik.http.routers.opencity-minio-http.rule: Host(`minio-opencity.localtest.me`)
+            traefik.http.routers.opencity-minio-http.entrypoints: web
 
     createbuckets:
         image: minio/mc
