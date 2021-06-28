@@ -1,5 +1,5 @@
 name: OpenCity
-version: 2.1.6
+version: 2.1.8
 variables:
     -
         name: identifier
@@ -465,6 +465,9 @@ steps:
         type: content
         identifier: Editor-Utenti
     -
+        type: content
+        identifier: Editor-Sito
+    -
         type: role
         identifier: Anonymous
         apply_to:
@@ -482,6 +485,7 @@ steps:
             - $content_Editor-Novita_object
             - $content_Editor-Servizi_object
             - $content_Editor-Utenti_object
+            - $content_Editor-Sito_object
     -
         type: role
         identifier: Members
@@ -538,6 +542,11 @@ steps:
         type: role
         identifier: Gestione-Area-riservata
     -
+        type: role
+        identifier: Editor-Sito
+        apply_to:
+            - $content_Editor-Sito_object
+    -
         type: openparecaptcha
         public: $recaptcha_public
         private: $recaptcha_private
@@ -576,7 +585,7 @@ steps:
             name: 'Organi di governo'
     -
         type: tagtree
-        current_version_lt: 2.1.5
+        current_version_le: 2.1.6
         current_version_ge: 0.0.0
         identifier: Tipi-di-luogo
     -
@@ -658,13 +667,6 @@ steps:
         type: patch_content
         current_version_lt: 2.1.0
         current_version_ge: 0.0.1
-        identifier: fa52241c11d26c8aa24ab93813995e10
-        attributes:
-            icon: it-clock
-    -
-        type: patch_content
-        current_version_lt: 2.1.0
-        current_version_ge: 0.0.1
         identifier: punti_di_contatto
         attributes:
             icon: it-share
@@ -727,7 +729,7 @@ steps:
     -
         type: class
         identifier: politico_with_related
-        
+
     -
         type: content
         current_version_le: 2.1.1
@@ -753,3 +755,40 @@ steps:
         tag: 'tag(Servizi pubblici/Tipologia del servizio (TD)/Catasto e urbanistica)'
         keywords:
             ita-IT: 'Edilizia e urbanistica'
+    -
+        type: patch_content
+        current_version_le: 2.1.6
+        current_version_ge: 0.0.0
+        identifier: fa52241c11d26c8aa24ab93813995e10
+        attributes:
+            name: 'Orari uffici e strutture'
+            icon: it-clock
+            show_children: 0
+            layout:
+                zone_layout: desItaGlobal
+                global:
+                    zone_id: da8eb7f1f4391a4fdda26dc90a0f4bee
+                    blocks:
+                        -
+                            block_id: 7fe32fa415361edb5e02078ae869f77c
+                            name: ''
+                            type: OpendataRemoteContents
+                            view: default
+                            custom_attributes:
+                                remote_url: ""
+                                query: "classes [opening_hours_specification] subtree [$contenttree_Classificazioni_Orari-servizi_node]"
+                                show_grid: "1"
+                                show_map: "0"
+                                show_search: "1"
+                                input_search_placeholder: ""
+                                limit: "9"
+                                items_per_row: "3"
+                                fields: ""
+                                facets: ""
+                                simple_geo_api: "0"
+                                template: ""
+                                color_style: ""
+                                container_style: ""
+                                show_all_link: ""
+                                show_all_text: ""
+                                #node_id: $contenttree_Classificazioni_Orari-servizi_node
