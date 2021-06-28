@@ -133,6 +133,7 @@ attribute_group:
         has_temporal_coverage: '1'
         requires_service: '1'
         average_processing_time: '1'
+        output_notes: '0'
     ulteriori_informazioni:
         '*': 'Ulteriori informazioni'
         content_show_history: '1'

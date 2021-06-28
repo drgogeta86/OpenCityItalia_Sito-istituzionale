@@ -8,6 +8,7 @@ serialized_description_list:
     always-available: ita-IT
     ita-IT: 'Tematica trasversale a tutti i contenuti del sito'
     ger-DE: 'Querschnittsthema in allen Inhalten der Website'
+is_container: 1
 data_map:
     name:
         identifier: name

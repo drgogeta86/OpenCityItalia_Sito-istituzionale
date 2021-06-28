@@ -77,3 +77,10 @@ table_view:
     show_link:
         attachments: '1'
         has_spatial_coverage: '1'
+card_small_view:
+    enabled:
+        '*': '1'
+    show:
+        content_show_read_more: '1'
+        description: '1'
+    

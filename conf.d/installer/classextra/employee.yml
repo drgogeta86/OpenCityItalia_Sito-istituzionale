@@ -81,8 +81,11 @@ table_view:
         mobile_phone: '1'
     enabled:
         '*': '1'
-    show:
+    in_overview:
         abstract: '1'
+        has_role: '1'
+    show:
+        abstract: '0'
         assunzione_cariche: '1'
         atti_testo: '1'
         atto_nomina: '1'
