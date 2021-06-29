@@ -9,6 +9,8 @@ policies:
             Class:
                 - $class_faq_section
                 - $class_faq_group
+            ParentClass:
+                - $class_faq_root
     -
         ModuleName: content
         FunctionName: edit
