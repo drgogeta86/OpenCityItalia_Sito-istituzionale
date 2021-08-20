@@ -2762,16 +2762,16 @@
         },
         {
             "name": "opencontent/ocopendata-ls",
-            "version": "2.25.5",
+            "version": "2.25.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/ocopendata.git",
-                "reference": "174e9b5633149f2c62ecc6406db57c3760bf187a"
+                "reference": "bff9da9a1f205db444007fa5f24bb84d8792fabf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/ocopendata/zipball/174e9b5633149f2c62ecc6406db57c3760bf187a",
-                "reference": "174e9b5633149f2c62ecc6406db57c3760bf187a",
+                "url": "https://api.github.com/repos/OpencontentCoop/ocopendata/zipball/bff9da9a1f205db444007fa5f24bb84d8792fabf",
+                "reference": "bff9da9a1f205db444007fa5f24bb84d8792fabf",
                 "shasum": ""
             },
             "require": {
@@ -2792,7 +2792,7 @@
                 }
             ],
             "description": "Opencontent OpenData Extension",
-            "time": "2021-05-26T13:06:57+00:00"
+            "time": "2021-08-11T07:26:45+00:00"
         },
         {
             "name": "opencontent/ocopendata_forms-ls",
