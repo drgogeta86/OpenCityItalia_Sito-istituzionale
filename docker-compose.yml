@@ -1,4 +1,5 @@
 version: '3.7'
+
 services:
 
     php:
@@ -13,6 +14,7 @@ services:
             - createbuckets
         volumes:
             - dfs:/mnt/efs/cluster-opencity
+            - ./conf.d/google_credentials.json:/var/www/html/google_credentials.json
         environment:
             PHP_INI_ENV_memory_limit: '512M'
             PHP_INI_ENV_date.timezone: 'Europe/Rome'
@@ -31,6 +33,8 @@ services:
             RUN_INSTALLER_DEMO: 'true'
             RUN_REINDEX_CONTENT: 'false'
 
+            GOOGLE_CREDENTIAL_JSON_FILE: "/var/www/html/google_credentials.json"
+    
             #### Chiavi recaptcha
             RECAPTCHA_PUBLIC: 6LctC7oUAAAAAKHOT1O4ifUBJd-Wedt5F8NsisG7
             RECAPTCHA_PRIVATE: 6LctC7oUAAAAAN7nNSTwtCY3GP4rpq1AvvA6u7B4

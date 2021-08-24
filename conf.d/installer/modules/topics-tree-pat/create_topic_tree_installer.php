@@ -1,9 +1,6 @@
 <?php
 require 'autoload.php';
 
-use Google\Spreadsheet\DefaultServiceRequest;
-use Google\Spreadsheet\ServiceRequestFactory;
-use Google\Spreadsheet\SpreadsheetService;
 use Symfony\Component\Yaml\Yaml;
 
 $cli = eZCLI::instance();
@@ -28,17 +25,10 @@ $googleSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1yjmIsOQBclMDW2y
 $googleSpreadsheetTemp = explode('/',
     str_replace('https://docs.google.com/spreadsheets/d/', '', $googleSpreadsheetUrl));
 $googleSpreadsheetId = array_shift($googleSpreadsheetTemp);
-$serviceRequest = new DefaultServiceRequest("");
-ServiceRequestFactory::setInstance($serviceRequest);
-$spreadsheetService = new SpreadsheetService();
 
-$worksheetFeed = $spreadsheetService->getPublicSpreadsheet($googleSpreadsheetId);
-$feedTitle = (string)$worksheetFeed->getXml()->title;
-$entries = $worksheetFeed->getEntries();
-$sheets = array();
-foreach ($entries as $entry) {
-    $sheets[] = $entry->getTitle();
-}
+$sheet = new \Opencontent\Google\GoogleSheet($googleSpreadsheetId);
+$sheets = $sheet->getSheetTitleList();
+
 $choice = 0;
 if (count($sheets) > 1) {
     $menu = new ezcConsoleMenuDialog($output);
@@ -47,40 +37,10 @@ if (count($sheets) > 1) {
     $menu->options->validator = new ezcConsoleMenuDialogDefaultValidator($sheets);
     $choice = ezcConsoleDialogViewer::displayDialog($menu);
 }
-$worksheet = $worksheetFeed->getByTitle($sheets[$choice]);
-$csvData = $worksheet->getCsv();
+
+$sheetName = $sheets[$choice];
+$csv = $sheet->getSheetDataHash($sheetName);
 $cli->warning('ok');
-
-$cli->output("Parse date ", false);
-$tempFile = "temp_topics.csv";
-eZFile::create($tempFile, false, $csvData);
-$csvFile = @fopen($tempFile, 'r');
-$i = 0;
-$headers = [];
-$csv = [];
-while ($data = fgetcsv($csvFile, 100000)) {
-    if ($i == 0) // First line, handle headers
-    {
-        $headers = [];
-        foreach ($data as $item) {
-            $headers[] = trim($item);
-        }
-        $i++;
-        unset($data);
-        continue;
-    }
-
-    $rowData = array();
-    for ($j = 0, $jMax = count($headers); $j < $jMax; ++$j) {
-        $rowData[$headers[$j]] = $data[$j];
-    }
-
-    unset($data);
-    $csv[] = $rowData;
-    unset($rowData);
-    $i++;
-}
-unlink($tempFile);
 
 
 function createContent($name, $directory)

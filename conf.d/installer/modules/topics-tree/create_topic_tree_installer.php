@@ -1,10 +1,6 @@
 <?php
 require 'autoload.php';
 
-use Google\Spreadsheet\DefaultServiceRequest;
-use Google\Spreadsheet\ServiceRequestFactory;
-use Google\Spreadsheet\SpreadsheetService;
-use Opencontent\I18n\GoogleSheetCsvParser;
 use Opencontent\Installer\Dumper\Tool;
 use Symfony\Component\Yaml\Yaml;
 
@@ -48,29 +44,15 @@ $cli->output("Get data from spreadsheet ", false);
 $googleSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1cOBaRlibj5A8E2pshQ1xDRfD7pd1pwAw7QInxrbTK9Y';
 $googleSpreadsheetTemp = explode('/', str_replace('https://docs.google.com/spreadsheets/d/', '', $googleSpreadsheetUrl));
 $googleSpreadsheetId = array_shift($googleSpreadsheetTemp);
-$serviceRequest = new DefaultServiceRequest("");
-ServiceRequestFactory::setInstance($serviceRequest);
-$spreadsheetService = new SpreadsheetService();
 
-$worksheetFeed = $spreadsheetService->getPublicSpreadsheet($googleSpreadsheetId);
-$feedTitle = (string)$worksheetFeed->getXml()->title;
-$entries = $worksheetFeed->getEntries();
-$sheets = array();
-foreach ($entries as $entry) {
-    $sheets[] = $entry->getTitle();
-}
-//$choice = 0;
-//if (count($sheets) > 1) {
-//    $menu = new ezcConsoleMenuDialog($output);
-//    $menu->options = new ezcConsoleMenuDialogOptions();
-//    $menu->options->text = "Please choose a possibility:\n";
-//    $menu->options->validator = new ezcConsoleMenuDialogDefaultValidator($sheets);
-//    $choice = ezcConsoleDialogViewer::displayDialog($menu);
-//}
+$sheet = new \Opencontent\Google\GoogleSheet($googleSpreadsheetId);
+$sheets = $sheet->getSheetTitleList();
+
 $choice = 2;
-$worksheet = $worksheetFeed->getByTitle($sheets[$choice]);
+$sheetName = $sheets[$choice];
+$csv = $sheet->getSheetDataHash($sheetName);
+
 $cli->warning('ok');
-$csv = GoogleSheetCsvParser::parse($worksheet, true, true);
 $cli->output();
 $cli->output();
 
