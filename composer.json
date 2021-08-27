@@ -59,7 +59,7 @@
     "opencontent/ocinstaller": "dev-master",
     "opencontent/ocmaintenance-ls": "2.*",
     "opencontent/ocmap-ls": "1.*",
-    "opencontent/ocmultibinary-ls": "2.*",
+    "opencontent/ocmultibinary-ls": "3.*",
     "opencontent/ocopenapi-ls": "1.*",
     "opencontent/ocopendata-ls": "2.*",
     "opencontent/ocopendata_forms-ls": "1.*",
