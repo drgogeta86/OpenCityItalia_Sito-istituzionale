@@ -229,16 +229,16 @@ steps:
     -
         type: classextra
         identifier: banner
-    -
-        type: class
-        identifier: valuation
-        remove_extra: true
-    -
-        type: classextra
-        identifier: valuation
-    -
-        type: content
-        identifier: Segnala-un-problema
+#    -
+#        type: class
+#        identifier: valuation
+#        remove_extra: true
+#    -
+#        type: classextra
+#        identifier: valuation
+#    -
+#        type: content
+#        identifier: Segnala-un-problema
     -
         type: class
         identifier: audio
@@ -791,3 +791,8 @@ steps:
                                 container_style: ""
                                 show_all_link: ""
                                 show_all_text: ""
+    -
+        type: sql
+        identifier: update_webhooks
+        current_version_lt: 2.1.8
+        current_version_ge: 0.0.1

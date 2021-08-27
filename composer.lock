@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9041065a231e6eb10ac86ac8eb783f95",
+    "content-hash": "65b4728546a049fb4cdf2f67e4518b4d",
     "packages": [
         {
             "name": "arnebratt/batchtool",
@@ -36,16 +36,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.191.2",
+            "version": "3.191.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "d659144bf8618c891fd01f0f375f1f0b4db21b05"
+                "reference": "c003e59f8976f6fe045c27f6afc5d5004317f39b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/d659144bf8618c891fd01f0f375f1f0b4db21b05",
-                "reference": "d659144bf8618c891fd01f0f375f1f0b4db21b05",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/c003e59f8976f6fe045c27f6afc5d5004317f39b",
+                "reference": "c003e59f8976f6fe045c27f6afc5d5004317f39b",
                 "shasum": ""
             },
             "require": {
@@ -117,7 +117,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2021-08-23T18:17:20+00:00"
+            "time": "2021-08-26T18:16:35+00:00"
         },
         {
             "name": "clue/stream-filter",
@@ -1352,22 +1352,22 @@
         },
         {
             "name": "google/auth",
-            "version": "v1.17.0",
+            "version": "v1.18.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-auth-library-php.git",
-                "reference": "4da3a850e9d1045918099b6561165d829efbe2b7"
+                "reference": "21dd478e77b0634ed9e3a68613f74ed250ca9347"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-auth-library-php/zipball/4da3a850e9d1045918099b6561165d829efbe2b7",
-                "reference": "4da3a850e9d1045918099b6561165d829efbe2b7",
+                "url": "https://api.github.com/repos/googleapis/google-auth-library-php/zipball/21dd478e77b0634ed9e3a68613f74ed250ca9347",
+                "reference": "21dd478e77b0634ed9e3a68613f74ed250ca9347",
                 "shasum": ""
             },
             "require": {
                 "firebase/php-jwt": "~2.0|~3.0|~4.0|~5.0",
                 "guzzlehttp/guzzle": "^5.3.1|^6.2.1|^7.0",
-                "guzzlehttp/psr7": "^1.2",
+                "guzzlehttp/psr7": "^1.7|^2.0",
                 "php": ">=5.4",
                 "psr/cache": "^1.0|^2.0",
                 "psr/http-message": "^1.0"
@@ -1399,7 +1399,7 @@
                 "google",
                 "oauth2"
             ],
-            "time": "2021-08-18T16:10:00+00:00"
+            "time": "2021-08-24T18:03:18+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -2211,12 +2211,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/googlesheet.git",
-                "reference": "1bcc0652e59f5337fa20d8d9fd38334ddcfea060"
+                "reference": "63b719729aae60c545e648fd275d155555c3083b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/googlesheet/zipball/1bcc0652e59f5337fa20d8d9fd38334ddcfea060",
-                "reference": "1bcc0652e59f5337fa20d8d9fd38334ddcfea060",
+                "url": "https://api.github.com/repos/OpencontentCoop/googlesheet/zipball/63b719729aae60c545e648fd275d155555c3083b",
+                "reference": "63b719729aae60c545e648fd275d155555c3083b",
                 "shasum": ""
             },
             "require": {
@@ -2243,7 +2243,7 @@
                 "source": "https://github.com/OpencontentCoop/googlesheet/tree/master",
                 "issues": "https://github.com/OpencontentCoop/googlesheet/issues"
             },
-            "time": "2021-08-23T19:24:50+00:00"
+            "time": "2021-08-24T09:49:12+00:00"
         },
         {
             "name": "opencontent/jcremoteid-ls",
@@ -2990,16 +2990,16 @@
         },
         {
             "name": "opencontent/ocmultibinary-ls",
-            "version": "2.3.1",
+            "version": "3.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/ocmultibinary.git",
-                "reference": "df68c135a6098d69083e84b7091ce43a750a59a6"
+                "reference": "db769afbaa3b18091f85c327521b78655d6205ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/ocmultibinary/zipball/df68c135a6098d69083e84b7091ce43a750a59a6",
-                "reference": "df68c135a6098d69083e84b7091ce43a750a59a6",
+                "url": "https://api.github.com/repos/OpencontentCoop/ocmultibinary/zipball/db769afbaa3b18091f85c327521b78655d6205ad",
+                "reference": "db769afbaa3b18091f85c327521b78655d6205ad",
                 "shasum": ""
             },
             "require": {
@@ -3020,7 +3020,7 @@
                 }
             ],
             "description": "Opencontent Multibinary eZPublish Legacy Datatype",
-            "time": "2021-04-03T22:55:55+00:00"
+            "time": "2021-06-17T17:01:57+00:00"
         },
         {
             "name": "opencontent/ocopenapi-ls",
@@ -4080,12 +4080,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "62fcc5a94ac83b1506f52d7558d828617fac9187"
+                "reference": "1b9037523134f4a3039e0dd4fca54032a4d79f00"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/62fcc5a94ac83b1506f52d7558d828617fac9187",
-                "reference": "62fcc5a94ac83b1506f52d7558d828617fac9187",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/1b9037523134f4a3039e0dd4fca54032a4d79f00",
+                "reference": "1b9037523134f4a3039e0dd4fca54032a4d79f00",
                 "shasum": ""
             },
             "require": {
@@ -4179,7 +4179,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-08-16T04:24:45+00:00"
+            "time": "2021-08-25T01:24:50+00:00"
         },
         {
             "name": "predis/predis",
@@ -4742,12 +4742,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/cache.git",
-                "reference": "b85a5424d28d155dfd4c82e25b8e1d8b5eb7c228"
+                "reference": "f1c33520a5a439dfd7bd4d5e9cec26c6b79054cc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/cache/zipball/b85a5424d28d155dfd4c82e25b8e1d8b5eb7c228",
-                "reference": "b85a5424d28d155dfd4c82e25b8e1d8b5eb7c228",
+                "url": "https://api.github.com/repos/symfony/cache/zipball/f1c33520a5a439dfd7bd4d5e9cec26c6b79054cc",
+                "reference": "f1c33520a5a439dfd7bd4d5e9cec26c6b79054cc",
                 "shasum": ""
             },
             "require": {
@@ -4755,6 +4755,7 @@
                 "psr/cache": "^1.0|^2.0",
                 "psr/log": "^1|^2|^3",
                 "symfony/cache-contracts": "^1.1.7|^2",
+                "symfony/polyfill-php73": "^1.9",
                 "symfony/polyfill-php80": "^1.16",
                 "symfony/service-contracts": "^1.1|^2",
                 "symfony/var-exporter": "^4.2|^5.0"
@@ -4825,7 +4826,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-08-06T10:35:20+00:00"
+            "time": "2021-08-25T08:17:29+00:00"
         },
         {
             "name": "symfony/cache-contracts",
