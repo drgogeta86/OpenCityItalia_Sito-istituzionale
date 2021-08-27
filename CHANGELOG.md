@@ -4,6 +4,39 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.1.9rc3](/compare/2.1.9rc2...2.1.9rc3) - 2021-08-27
+
+
+
+#### Installer
+- add webhook migration sql
+- fix valuation class
+
+#### Code dependencies
+| Changes                      | From    | To      | Compare                                                                                |
+|------------------------------|---------|---------|----------------------------------------------------------------------------------------|
+| aws/aws-sdk-php              | 3.191.2 | 3.191.5 | [...](https://github.com/aws/aws-sdk-php/compare/3.191.2...3.191.5)                    |
+| google/auth                  | v1.17.0 | v1.18.0 | [...](https://github.com/googleapis/google-auth-library-php/compare/v1.17.0...v1.18.0) |
+| opencontent/googlesheet      | 1bcc065 | 63b7197 | [...](https://github.com/OpencontentCoop/googlesheet/compare/1bcc065...63b7197)        |
+| opencontent/ocmultibinary-ls | 2.3.1   | 3.0.6   | [...](https://github.com/OpencontentCoop/ocmultibinary/compare/2.3.1...3.0.6)          |
+
+
+Relevant changes by repository:
+
+**[opencontent/googlesheet changes between 1bcc065 and 63b7197](https://github.com/OpencontentCoop/googlesheet/compare/1bcc065...63b7197)**
+* Add ez multi-installation helper to retrieve credential file
+* Typo fix
+
+**[opencontent/ocmultibinary-ls changes between 2.3.1 and 3.0.6](https://github.com/OpencontentCoop/ocmultibinary/compare/2.3.1...3.0.6)**
+* Allow decorate file list with display name, group and extra text
+* Fix concurrent upload
+* Add CSRF token in ajax post
+* Store decorations on async upload new file
+* Update translations
+* Add table headers in decoration edit gui
+* Bug fix in class edit
+
+
 ## [2.1.9rc2](/compare/2.1.9rc1...2.1.9rc2) - 2021-08-24
 - Update google sheet version api access Add dummy google credentials file
 - Fix Dockerfile.solr volume
