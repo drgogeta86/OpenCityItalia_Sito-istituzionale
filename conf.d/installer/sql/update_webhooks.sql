@@ -15,7 +15,8 @@ CREATE TABLE IF NOT EXISTS ocwebhook_failure (
    pid TEXT,
    scheduled integer not null default 0
 );
+ALTER TABLE ocwebhook_failure DROP CONSTRAINT IF EXISTS ocwebhook_failure_pkey;
 ALTER TABLE ONLY ocwebhook_failure ADD CONSTRAINT ocwebhook_failure_pkey PRIMARY KEY (id);
-CREATE INDEX ocwebhook_failure_job ON ocwebhook_failure USING btree (job_id);
+CREATE INDEX IF NOT EXISTS ocwebhook_failure_job ON ocwebhook_failure USING btree (job_id);
 
-ALTER TABLE ocwebhook ADD COLUMN retry_enabled integer not null default 1;
+ALTER TABLE ocwebhook ADD COLUMN IF NOT EXISTS retry_enabled integer not null default 1;
