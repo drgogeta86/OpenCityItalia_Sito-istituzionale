@@ -1,5 +1,5 @@
 name: OpenCity
-version: 2.1.8
+version: 2.1.9
 variables:
     -
         name: identifier
@@ -794,5 +794,13 @@ steps:
     -
         type: sql
         identifier: update_webhooks
-        current_version_lt: 2.1.8
+        current_version_le: 2.1.8
         current_version_ge: 0.0.1
+    -
+        type: role
+        identifier: Dashboard-Luoghi
+        apply_to:
+            - $content_Editor-Amministrazione_object
+    -
+        type: class
+        identifier: opening_hours_specification_with_related
