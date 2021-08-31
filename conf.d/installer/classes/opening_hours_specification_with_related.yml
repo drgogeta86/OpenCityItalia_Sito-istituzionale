@@ -1,0 +1,20 @@
+imports:
+    -
+        resource: classes/opening_hours_specification.yml
+data_map:
+    used_by:
+        identifier: used_by
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Utilizzato in'
+            ger-DE: 'Utilizzato in'
+        data_type_string: openpareverserelationlist
+        placement: 9
+        can_translate: 1
+        data_text5: '{"attribute_id_list":[classattributeid(dataset/temporal),classattributeid(public_service/has_temporal_coverage)],"sort":"name","order":"asc","limit":4}'
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
