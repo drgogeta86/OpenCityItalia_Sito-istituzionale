@@ -72,8 +72,8 @@ data_map:
             type: '2'
             class_constraint_list:
                 - political_body
-            default_placement:
-                node_id: $contenttree_Amministrazione_Organi-politici_node
+                - politico
+            default_placement: false
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
