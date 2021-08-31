@@ -1,0 +1,24 @@
+name: 'Dashboard Luoghi'
+policies:
+    -
+        ModuleName: content
+        FunctionName: dashboard
+        Limitation: {}
+    -
+        ModuleName: editorialstuff
+        FunctionName: dashboard
+        Limitation: {}
+    -
+        ModuleName: editorialstuff
+        FunctionName: config
+        Limitation: {}
+    -
+        ModuleName: editorialstuff
+        FunctionName: full_dashboard
+        Limitation: {}
+    -
+        ModuleName: state
+        FunctionName: assign
+        Limitation:
+            Class:
+                - $class_place
