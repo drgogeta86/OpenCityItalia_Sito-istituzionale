@@ -224,6 +224,7 @@ data_map:
             ita-IT: 'Documenti allegati'
             ger-DE: 'Beigefügte Dokumente'
         data_type_string: ocmultibinary
+        data_int3: 1
         placement: 12
         is_searchable: 1
         can_translate: 1
@@ -636,7 +637,7 @@ data_map:
         data_type_string: openpareverserelationlist
         placement: 34
         can_translate: 1
-        data_text5: '{"attribute_id_list":[classattributeid(public_service/has_module_input)],"sort":"name","order":"asc","limit":4}'
+        data_text5: '{"attribute_id_list":[classattributeid(public_service/has_module_input),classattributeid(public_service/is_compliant_with_rule)],"sort":"name","order":"asc","limit":4}'
         category: hidden
         serialized_data_text:
             always-available: ita-IT

@@ -344,6 +344,7 @@ data_map:
             ita-IT: 'File allegati'
             ger-DE: 'Angehängte Dateien'
         data_type_string: ocmultibinary
+        data_int3: 1
         placement: 16
         is_searchable: 1
         can_translate: 1

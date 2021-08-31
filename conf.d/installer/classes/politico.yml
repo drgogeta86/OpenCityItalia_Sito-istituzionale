@@ -276,6 +276,7 @@ data_map:
             ita-IT: 'Compensi di qualsiasi natura connessi all''assunzione della carica'
             ger-DE: Mandatsbezüge
         data_type_string: ocmultibinary
+        data_int3: 1
         placement: 18
         is_searchable: 1
         can_translate: 1
@@ -293,6 +294,7 @@ data_map:
             ita-IT: 'Importi e i viaggi di servizio e missioni pagati con fondi pubblici'
             ger-DE: Reisekostenrückvergütung
         data_type_string: ocmultibinary
+        data_int3: 1
         placement: 19
         is_searchable: 1
         can_translate: 1
@@ -310,6 +312,7 @@ data_map:
             ita-IT: 'Dati relativi all''assunzione di altre cariche, presso enti pubblici o privati, ed i relativi compensi a qualsiasi titolo corrisposti'
             ger-DE: 'Weitere Ämter in öffentlichen oder privaten Körperschaften und entsprechende Bezüge'
         data_type_string: ocmultibinary
+        data_int3: 1
         placement: 20
         is_searchable: 1
         can_translate: 1
@@ -327,6 +330,7 @@ data_map:
             ita-IT: 'Altri eventuali incarichi con oneri a carico della finanza pubblica e l''indicazione dei compensi spettanti'
             ger-DE: 'Andere öffentlich finanzierte Tätigkeiten und entsprechende Bezüge'
         data_type_string: ocmultibinary
+        data_int3: 1
         placement: 21
         is_searchable: 1
         can_translate: 1
@@ -442,6 +446,7 @@ data_map:
             ita-IT: 'Dichiarazioni patrimoniali del soggetto'
             ger-DE: 'Vermögenserklärungen '
         data_type_string: ocmultibinary
+        data_int3: 1
         placement: 27
         is_searchable: 1
         can_translate: 1
@@ -458,6 +463,7 @@ data_map:
             ita-IT: 'Dichiarazioni patrimoniali del coniuge non separato e parenti entro il secondo grado'
             ger-DE: 'Vermögenserklärungen des nicht getrennt lebenden Ehepartners und der Verwandten bis zum zweiten Verwandtschaftsgrad'
         data_type_string: ocmultibinary
+        data_int3: 1
         placement: 28
         is_searchable: 1
         can_translate: 1
