@@ -19,7 +19,7 @@ data:
             - Tempestivo
         termine_pubblicazione:
             - '5 anni a decorrere dal primo gennaio dell''anno successivo a quello da cui decorre l''obbligo di pubblicazione'
-        fields: 'parent:1|filters:role in [''"Dirigente"'']|time_indexed_role|person,role,for_entity'
+        fields: 'parent:1|filters::incarico_dirigenziale = ''true''|time_indexed_role|person,role,for_entity'
 sort_data:
     sort_field: 8
     sort_order: 1

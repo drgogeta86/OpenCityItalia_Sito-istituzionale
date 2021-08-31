@@ -1,6 +1,6 @@
 name: 'OpenCity Trasparenza'
 type: module
-version: 0.0.10
+version: 0.0.11
 variables:
     -
         name: identifier
@@ -548,7 +548,7 @@ steps:
         current_version_le: 0.0.9
         identifier: 9eed77856255692eca75cdb849540c23
         attributes:
-            fields: 'parent:1|filters:role in [''"Dirigente"''] and end_time range [now,''*'']|time_indexed_role|person,role,for_entity'
+            fields: 'parent:1|filters::incarico_dirigenziale = ''true'' and end_time range [now,''*'']|time_indexed_role|person,role,for_entity'
     -
         type: patch_content
         current_version_lt: 0.0.7

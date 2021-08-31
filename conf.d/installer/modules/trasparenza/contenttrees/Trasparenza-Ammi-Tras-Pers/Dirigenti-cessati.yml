@@ -15,7 +15,7 @@ data:
         messaggio_di_consiglio: '<p>Per gli obblighi relativi alla situazione patrimoniale (solo per gli Enti con popolazione superiore ai 15.000 abitanti) l''attestazione concernente le variazioni della situazione patrimoniale e la copia della dichiarazione dei redditi è da pubblicare entro un mese dal termine per la presentazione della dichiarazione stessa (ai sensi della l. n. 441/1982)</p>'
         termine_pubblicazione:
             - '3 anni successivi alla cessazione dell''incarico'
-        fields: null
+        fields: 'parent:1|filters:incarico_dirigenziale = ''true'' and end_time range [''*'',now]|time_indexed_role|person,role,for_entity'
 sort_data:
     sort_field: 8
     sort_order: 1
