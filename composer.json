@@ -69,7 +69,7 @@
     "opencontent/ocrss-ls": "1.*",
     "opencontent/ocsearchtools-ls": "1.*",
     "opencontent/ocsupport-ls": "dev-master",
-    "opencontent/ocwebhookserver-ls": "dev-master",
+    "opencontent/ocwebhookserver-ls": "1.1.*",
     "opencontent/opencontent-project-installer": "~1.0",
     "opencontent/openpa-ls": "3.*",
     "opencontent/openpa_bootstrapitalia-ls": "1.*",
