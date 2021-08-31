@@ -19,3 +19,7 @@ policies:
             SiteAccess:
                 - ezcrc32($identifier_backend)
                 - ezcrc32(backend)
+    -
+        ModuleName: rss
+        FunctionName: '*'
+        Limitation: {}
