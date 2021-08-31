@@ -67,7 +67,7 @@ card_small_view:
         email: '1'
         image: '1'
         phone: '1'
-        role: '1'
+        has_role: '1'
     show_label:
         email: '1'
         phone: '1'
