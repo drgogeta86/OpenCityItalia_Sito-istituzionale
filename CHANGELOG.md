@@ -4,6 +4,60 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.1.9](https://gitlab.com/opencontent/opencity/compare/2.1.9rc3...2.1.9) - 2021-09-08
+- Update block.ini
+
+
+#### Installer
+- Fix opening_hours_specification reverse related attribute list
+- Remove duplicate role Gestione-Area-riservata
+- Remove topic Comune from trasparenza fields
+- Fix some class translation
+- Update to version 2.1.9
+- Add Dashboard Luoghi role
+- Add rss to Editor Backend role
+- Fix update webhooks sql
+- Trasparenza: fix dirigenti query parms
+- Fix some class extras in employee and topic
+- Allow insert politico in topic/managed_by_political_body
+- Add reverse related in opening_hours_specification
+- Enable multibinary decoration
+- Fix openparole in administrative_area
+
+#### Code dependencies
+| Changes                               | From     | To       | Compare                                                                                         |
+|---------------------------------------|----------|----------|-------------------------------------------------------------------------------------------------|
+| aws/aws-crt-php                       |          | v1.0.2   |                                                                                                 |
+| aws/aws-sdk-php                       | 3.191.5  | 3.192.1  | [...](https://github.com/aws/aws-sdk-php/compare/3.191.5...3.192.1)                             |
+| google/apiclient                      | 11871e9  | 3a98175  | [...](https://github.com/googleapis/google-api-php-client/compare/11871e9...3a98175)            |
+| google/apiclient-services             | v0.209.0 | v0.211.0 | [...](https://github.com/googleapis/google-api-php-client-services/compare/v0.209.0...v0.211.0) |
+| opencontent/ocmultibinary-ls          | 3.0.6    | 3.0.8    | [...](https://github.com/OpencontentCoop/ocmultibinary/compare/3.0.6...3.0.8)                   |
+| opencontent/ocwebhookserver-ls        | f1dcb76  | 1.1.4    | [...](https://github.com/OpencontentCoop/ocwebhookserver/compare/f1dcb76...1.1.4)               |
+| opencontent/openpa-ls                 | 3.13.2   | 3.13.3   | [...](https://github.com/OpencontentCoop/openpa/compare/3.13.2...3.13.3)                        |
+| opencontent/openpa_bootstrapitalia-ls | 1.22.3   | 1.23.1   | [...](https://github.com/OpencontentCoop/openpa_bootstrapitalia/compare/1.22.3...1.23.1)        |
+| php-http/message                      | 1.11.2   | 1.12.0   | [...](https://github.com/php-http/message/compare/1.11.2...1.12.0)                              |
+
+
+Relevant changes by repository:
+
+**[opencontent/ocmultibinary-ls changes between 3.0.6 and 3.0.8](https://github.com/OpencontentCoop/ocmultibinary/compare/3.0.6...3.0.8)**
+* Avoid file name duplication (bootstrapitalia)
+* Fix default clean filename
+
+**[opencontent/ocwebhookserver-ls changes between f1dcb76 and 1.1.4](https://github.com/OpencontentCoop/ocwebhookserver/compare/f1dcb76...1.1.4)**
+* Add bootstrapitalia design
+
+**[opencontent/openpa-ls changes between 3.13.2 and 3.13.3](https://github.com/OpencontentCoop/openpa/compare/3.13.2...3.13.3)**
+* Corregge le regole di default del robots.txt per permettere l'indicizzazione dei contenuti opendata
+
+**[opencontent/openpa_bootstrapitalia-ls changes between 1.22.3 and 1.23.1](https://github.com/OpencontentCoop/openpa_bootstrapitalia/compare/1.22.3...1.23.1)**
+* Fix typo
+* Permette di controllare la visualizzazione del menu trasparenza dall'oggetto trasparenza
+* Corregge alcuni bug minori Permette la configurazione di campi obbligatori nella classe valutazione Consente di utilizzare il blocco html in modalità wide Introduce un api per aggiungere contenuti esterni nei risultati del motore di ricerca (beta) Introduce una nuova vista Immagine decorativa per il blocco singolo Consente di esportare in csv l'elenco delle valutazioni inserite dagli utenti Consente di attivare o disattivare tutti i permessi di accesso per ciascun utente Visualizza il punto di contatto del box di aiuto nella pagina argomento Permette di aggiungere un testo introduttivo in tutti i blocchi Rimuove il numero tra parentesi dal nome visualizzato
+* Corregge il colore dei caratteri dell'header nel tema warmred (bolzano)
+* Migliora la visualizzazione dell'attributo public_service/has_temporal_coverage
+
+
 ## [2.1.9rc3](/compare/2.1.9rc2...2.1.9rc3) - 2021-08-27
 
 
