@@ -538,9 +538,9 @@ steps:
         identifier: Editor-Utenti
         apply_to:
             - $content_Editor-Utenti_object
-    -
-        type: role
-        identifier: Gestione-Area-riservata
+#    -
+#        type: role
+#        identifier: Gestione-Area-riservata
     -
         type: role
         identifier: Editor-Sito
