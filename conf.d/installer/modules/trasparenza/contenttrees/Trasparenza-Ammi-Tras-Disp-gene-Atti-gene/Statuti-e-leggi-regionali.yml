@@ -19,7 +19,7 @@ data:
             - Tempestivo
         termine_pubblicazione:
             - 'Non specificato'
-        fields: 'parent:2|filters:document_type in [''Statuto'',''Regolamento''] and topics.name = ''Comune''|document|name,file,document_type'
+        fields: 'parent:2|filters:document_type in [''Statuto'',''Regolamento'']|document|name,file,document_type'
 sort_data:
     sort_field: 8
     sort_order: 1
