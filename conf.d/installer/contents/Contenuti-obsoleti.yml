@@ -4,6 +4,7 @@ metadata:
     sectionIdentifier: standard
     languages:
         - ita-IT
+        - ger-DE
     parentNodes:
         - $root_node
 data:
@@ -13,7 +14,14 @@ data:
         icon: it-box
         show_topics: 0
         show_search_form: 0
+    ger-DE:
+        name: überholte Inhalte
+        show_children: 1
+        icon: it-box
+        show_topics: 0
+        show_search_form: 0
 sort_data:
     sort_field: 2
     sort_order: 0
     priority: 0
+    

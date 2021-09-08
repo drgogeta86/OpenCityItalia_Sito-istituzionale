@@ -379,7 +379,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Sede di'
-            ger-DE: 'Standort von'
+            ger-DE: 'Sitz von'
         data_type_string: openpareverserelationlist
         placement: 19
         can_translate: 1

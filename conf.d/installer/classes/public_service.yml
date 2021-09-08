@@ -506,7 +506,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Dove recarsi'
-            ger-DE: 'Wohin gehen'
+            ger-DE: 'So erreichen Sie uns'
         data_type_string: ezobjectrelationlist
         placement: 24
         is_searchable: 1
@@ -659,8 +659,8 @@ data_map:
             ger-DE: 'Geben Sie die durchschnittlichen Wartetage an, um das Output des Dienstes zu ermitteln (durchschnittliche Bearbeitungszeit)'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Giorni medi di attesa, dalla richiesta'
-            ger-DE: 'Durchschnittliche Wartetage ab Antragsstellung'
+            ita-IT: 'Giorni medi di attesa dalla richiesta'
+            ger-DE: 'Durchschnittliche Bearbeitungszeit'
         data_type_string: ezinteger
         placement: 31
         is_searchable: 1
@@ -676,8 +676,8 @@ data_map:
             ger-DE: 'Geben Sie die maximalen Wartetage an, um das Output des Dienstes zu ermitteln (Bearbeitungszeit)'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Giorni massimi di attesa, dalla richiesta'
-            ger-DE: 'Maximale Wartetage, seit der Antragsstellung'
+            ita-IT: 'Giorni massimi di attesa dalla richiesta'
+            ger-DE: 'Maximale Bearbeitungszeit'
         data_type_string: ezinteger
         placement: 32
         is_searchable: 1
