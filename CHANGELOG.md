@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [2.1.10rc1](https://gitlab.com/opencontent/opencity/compare/2.1.9...2.1.10rc1) - 2021-09-09
+
+
+#### Code dependencies
+| Changes                               | From    | To      | Compare                                                                                  |
+|---------------------------------------|---------|---------|------------------------------------------------------------------------------------------|
+| aws/aws-sdk-php                       | 3.192.1 | 3.193.0 | [...](https://github.com/aws/aws-sdk-php/compare/3.192.1...3.193.0)                      |
+| opencontent/ocbootstrap-ls            | 1.10.9  | 1.10.10 | [...](https://github.com/OpencontentCoop/ocbootstrap/compare/1.10.9...1.10.10)           |
+| opencontent/openpa_bootstrapitalia-ls | 1.23.1  | 1.23.3  | [...](https://github.com/OpencontentCoop/openpa_bootstrapitalia/compare/1.23.1...1.23.3) |
+
+
+
 ## [2.1.9](https://gitlab.com/opencontent/opencity/compare/2.1.9rc3...2.1.9) - 2021-09-08
 - Update block.ini
 
