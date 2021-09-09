@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+
 ## [2.1.9](https://gitlab.com/opencontent/opencity/compare/2.1.9rc3...2.1.9) - 2021-09-08
 - Update block.ini
 
