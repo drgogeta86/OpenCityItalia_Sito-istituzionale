@@ -6,10 +6,12 @@ policies:
         Limitation:
             Class:
                 - $class_lotto
+                - $class_dataset_lotto
     -
         ModuleName: exportas
         FunctionName: xml
         Limitation:
             Class:
                 - $class_lotto
+                - $class_dataset_lotto
     
