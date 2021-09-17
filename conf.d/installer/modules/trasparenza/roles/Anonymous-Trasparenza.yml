@@ -1,0 +1,15 @@
+name: 'Anonymous Trasparenza'
+policies:
+    -
+        ModuleName: exportas
+        FunctionName: avpc
+        Limitation:
+            Class:
+                - $class_lotto
+    -
+        ModuleName: exportas
+        FunctionName: xml
+        Limitation:
+            Class:
+                - $class_lotto
+    

@@ -1,0 +1,76 @@
+identifier: dataset_lotto
+contentobject_name: 'Bandi di gara anno <anno_riferimento>'
+serialized_name_list:
+    always-available: ita-IT
+    ita-IT: 'Dataset bandi di gara'
+serialized_description_list:
+    always-available: ita-IT
+    ita-IT: ''
+is_container: 1
+data_map:
+    titolo:
+        identifier: titolo
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Titolo
+        data_type_string: ezstring
+        placement: 1
+        is_searchable: 1
+        can_translate: 1
+        data_text1: 'Pubblicazione ai sensi della legge 190/2012'
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    ente_pubblicatore:
+        identifier: ente_pubblicatore
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Denominazione ente pubblicatore'
+        data_type_string: ezstring
+        placement: 2
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    anno_riferimento:
+        identifier: anno_riferimento
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Anno di riferimento'
+        data_type_string: ezinteger
+        placement: 3
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    abstract:
+        identifier: abstract
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Descrizione breve'
+        data_type_string: ezxmltext
+        placement: 4
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 5
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+groups:
+    - 'Amministrazione trasparente'

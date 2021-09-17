@@ -53,6 +53,8 @@ policies:
                 - $class_nota_trasparenza
                 - $class_pagina_trasparenza
                 - classid(folder)
+                - $class_lotto
+                - $class_dataset_lotto
 
     -
         ModuleName: content
@@ -67,6 +69,8 @@ policies:
                 - classid(employee)
                 - $class_nota_trasparenza
                 - classid(folder)
+                - $class_lotto
+                - $class_dataset_lotto
     -
         ModuleName: content
         FunctionName: remove
@@ -86,3 +90,27 @@ policies:
             Class:
                 - classid(public_organization)
                 - classid(private_organization)
+    -
+        ModuleName: content
+        FunctionName: create
+        Limitation:
+            Subtree:
+                - $contenttree_Trasparenza-Ammi-Tras-Band-di-gara_Informazioni-sulle-singole-procedure-in-formato-tabellare_path_string
+            Class:
+                - $class_dataset_lotto
+    -
+        ModuleName: content
+        FunctionName: create
+        Limitation:
+            Class:
+                - $class_lotto
+            ParentClass:
+                - $class_dataset_lotto
+    -
+        ModuleName: exportas
+        FunctionName: avpc
+        Limitation: {  }
+    -
+        ModuleName: exportas
+        FunctionName: xml
+        Limitation: {  }

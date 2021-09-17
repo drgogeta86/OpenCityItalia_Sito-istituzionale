@@ -1,0 +1,222 @@
+identifier: lotto
+contentobject_name: 'Procedura CIG <cig>'
+serialized_name_list:
+    always-available: ita-IT
+    ita-IT: 'Bando di gara'
+serialized_description_list:
+    always-available: ita-IT
+    ita-IT: ''
+data_map:
+    cig:
+        identifier: cig
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Codice Identificativo Gara rilasciato dall’autorità'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: CIG
+        data_type_string: ezstring
+        placement: 1
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        serialized_data_text: {  }
+    codice_fiscale_piva_proponente:
+        identifier: codice_fiscale_piva_proponente
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Codice fiscale o P.iva proponente'
+        data_type_string: ezstring
+        placement: 2
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 16
+        serialized_data_text: {  }
+    denominazione_proponente:
+        identifier: denominazione_proponente
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Denominazione proponente'
+        data_type_string: ezstring
+        placement: 3
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 250
+        serialized_data_text: {  }
+    oggetto:
+        identifier: oggetto
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Oggetto
+        data_type_string: ezstring
+        placement: 4
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        data_int1: 250
+        serialized_data_text: {  }
+    scelta_contraente:
+        identifier: scelta_contraente
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Procedura di scelta del contraente'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Scelta del contraente'
+        data_type_string: ezselection
+        placement: 5
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        data_text5: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<ezselection><options><option id=\"0\" name=\"01-PROCEDURA APERTA\"/><option id=\"1\" name=\"02-PROCEDURA RISTRETTA\"/><option id=\"2\" name=\"03-PROCEDURA NEGOZIATA PREVIA PUBBLICAZIONE\"/><option id=\"3\" name=\"04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE\"/><option id=\"4\" name=\"05-DIALOGO COMPETITIVO\"/><option id=\"5\" name=\"06-PROCEDURA NEGOZIATA SENZA PREVIA INDIZIONE DI GARA (SETTORI SPECIALI)\"/><option id=\"6\" name=\"07-SISTEMA DINAMICO DI ACQUISIZIONE\"/><option id=\"7\" name=\"08-AFFIDAMENTO IN ECONOMIA - COTTIMO FIDUCIARIO\"/><option id=\"8\" name=\"14-PROCEDURA SELETTIVA EX ART 238 C.7, D.LGS. 163/2006\"/><option id=\"9\" name=\"17-AFFIDAMENTO DIRETTO EX ART. 5 DELLA LEGGE 381/91\"/><option id=\"10\" name=\"21-PROCEDURA RISTRETTA DERIVANTE DA AVVISI CON CUI SI INDICE LA GARA\"/><option id=\"11\" name=\"22-PROCEDURA NEGOZIATA CON PREVIA INDIZIONE DI GARA (SETTORI SPECIALI)\"/><option id=\"12\" name=\"23-AFFIDAMENTO DIRETTO\"/><option id=\"13\" name=\"24-AFFIDAMENTO DIRETTO A SOCIETA' IN HOUSE\"/><option id=\"14\" name=\"25-AFFIDAMENTO DIRETTO A SOCIETA' RAGGRUPPATE/CONSORZIATE O CONTROLLATE NELLE CONCESSIONI E NEI PARTENARIATI\"/><option id=\"15\" name=\"26-AFFIDAMENTO DIRETTO IN ADESIONE AD ACCORDO QUADRO/CONVENZIONE\"/><option id=\"16\" name=\"27-CONFRONTO COMPETITIVO IN ADESIONE AD ACCORDO QUADRO/CONVENZIONE\"/><option id=\"17\" name=\"28-PROCEDURA AI SENSI DEI REGOLAMENTI DEGLI ORGANI COSTITUZIONALI\"/><option id=\"18\" name=\"29-PROCEDURA RISTRETTA SEMPLIFICATA\"/><option id=\"19\" name=\"30-PROCEDURA DERIVANTE DA LEGGE REGIONALE\"/><option id=\"20\" name=\"31-AFFIDAMENTO DIRETTO PER VARIANTE SUPERIORE AL 20% DELL'IMPORTO CONTRATTUALE\"/><option id=\"21\" name=\"32-AFFIDAMENTO RISERVATO\"/><option id=\"22\" name=\"33-PROCEDURA NEGOZIATA PER AFFIDAMENTI SOTTO SOGLIA\"/><option id=\"23\" name=\"34-PROCEDURA ART.16 COMMA 2-BIS DPR 380/2001 PER OPERE URBANIZZAZIONE A SCOMPUTO PRIMARIE SOTTO SOGLIA COMUNITARIA\"/><option id=\"24\" name=\"35-PARTERNARIATO PER L’INNOVAZIONE\"/><option id=\"25\" name=\"36-AFFIDAMENTO DIRETTO PER LAVORI, SERVIZI O FORNITURE SUPPLEMENTARI\"/><option id=\"26\" name=\"37-PROCEDURA COMPETITIVA CON NEGOZIAZIONE\"/><option id=\"27\" name=\"38-PROCEDURA DISCIPLINATA DA REGOLAMENTO INTERNO PER SETTORI SPECIALI\"/></options></ezselection>\n"
+        serialized_data_text: {  }
+    partecipanti:
+        identifier: partecipanti
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Partecipanti
+        data_type_string: ezmatrix
+        placement: 6
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        data_text5: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<ezmatrix><column-name id=\"codice_fiscale\" idx=\"0\">Codice fiscale</column-name><column-name id=\"identificativo_fiscale_estero\" idx=\"1\">Identificativo fiscale estero</column-name><column-name id=\"ragione_sociale\" idx=\"2\">Ragione Sociale</column-name><column-name id=\"id_gruppo\" idx=\"3\">Identificatore gruppo</column-name><column-name id=\"ruolo\" idx=\"4\">Ruolo</column-name></ezmatrix>\n"
+        serialized_data_text: {  }
+    aggiudicatari:
+        identifier: aggiudicatari
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Aggiudicatari
+        data_type_string: ezmatrix
+        placement: 7
+        is_searchable: 1
+        can_translate: 1
+        data_text5: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<ezmatrix><column-name id=\"codice_fiscale\" idx=\"0\">Codice fiscale</column-name><column-name id=\"identificativo_fiscale_estero\" idx=\"1\">Identificativo fiscale estero</column-name><column-name id=\"ragione_sociale\" idx=\"2\">Ragione Sociale</column-name><column-name id=\"id_gruppo\" idx=\"3\">Identificatore gruppo</column-name><column-name id=\"ruolo\" idx=\"4\">Ruolo</column-name></ezmatrix>\n"
+        serialized_data_text: {  }
+    invitati:
+        identifier: invitati
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Invitati
+        data_type_string: ezmatrix
+        placement: 8
+        is_searchable: 1
+        can_translate: 1
+        data_text5: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<ezmatrix><column-name id=\"codice_fiscale\" idx=\"0\">Codice fiscale</column-name><column-name id=\"identificativo_fiscale_estero\" idx=\"1\">Identificativo fiscale estero</column-name><column-name id=\"ragione_sociale\" idx=\"2\">Ragione Sociale</column-name><column-name id=\"id_gruppo\" idx=\"3\">Identificatore gruppo</column-name><column-name id=\"ruolo\" idx=\"4\">Ruolo</column-name></ezmatrix>\n"
+        serialized_data_text: {  }
+    importo_gara:
+        identifier: importo_gara
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Importo complessivo gara al netto dell’IVA'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Importo gara'
+        data_type_string: ezprice
+        placement: 9
+        can_translate: 1
+        data_int1: 1
+        data_float1: !!float 1
+        serialized_data_text: {  }
+    importo_aggiudicazione:
+        identifier: importo_aggiudicazione
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Importo di aggiudicazione al lordo degli oneri di sicurezza ed al netto dell’IVA'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Importo aggiudicazione'
+        data_type_string: ezprice
+        placement: 10
+        can_translate: 1
+        data_int1: 1
+        data_float1: !!float 1
+        serialized_data_text: {  }
+    importo_somme_liquidate:
+        identifier: importo_somme_liquidate
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Importo complessivo dell’appalto al netto dell’IVA'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Importo somme liquidate'
+        data_type_string: ezprice
+        placement: 11
+        can_translate: 1
+        data_int1: 1
+        data_float1: !!float 1
+        serialized_data_text: {  }
+    data_inizio:
+        identifier: data_inizio
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Data di effettivo inizio lavori, servizi o forniture'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Data inizio'
+        data_type_string: ezdate
+        placement: 12
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        serialized_data_text: {  }
+    data_ultimazione:
+        identifier: data_ultimazione
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Data di ultimazione lavori, servizi o forniture'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Data ultimazione'
+        data_type_string: ezdate
+        placement: 13
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text: {  }
+    flag_completamento:
+        identifier: flag_completamento
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Flag completamento'
+        data_type_string: ezboolean
+        placement: 14
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text: {  }
+    id:
+        identifier: id
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Codice identificativo interno'
+        data_type_string: ezinteger
+        placement: 15
+        is_searchable: 1
+        can_translate: 1
+        category: meta
+        serialized_data_text: {  }
+groups:
+    - 'Amministrazione trasparente'

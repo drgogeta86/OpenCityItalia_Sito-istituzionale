@@ -1,6 +1,6 @@
 name: 'OpenCity Trasparenza'
 type: module
-version: 0.0.11
+version: 0.0.12
 variables:
     -
         name: identifier
@@ -512,6 +512,18 @@ steps:
         type: content
         identifier: Editor-Base
     -
+        type: class
+        identifier: dataset_lotto
+    -
+        type: class
+        identifier: lotto
+    -
+        type: classextra
+        identifier: dataset_lotto
+    -
+        type: classextra
+        identifier: lotto
+    -
         type: content
         identifier: Editor-Trasparenza
     -
@@ -556,7 +568,6 @@ steps:
         identifier: 5399ef12f98766b90f1804e5d52afd75
         attributes:
             icon: it-password-visible
-            
     -
         type: patch_content
         current_version_le: 0.0.9
@@ -569,3 +580,8 @@ steps:
         identifier: 154a8d7d190b4e49e2796384c0732712
         attributes:
             fields: 'parent:1|filters:organizational_position = 1 and end_time range [now,''*'']|time_indexed_role|person,role,for_entity'
+    -
+        type: role
+        identifier: Anonymous-Trasparenza
+        apply_to:
+            - $anonymous_user
