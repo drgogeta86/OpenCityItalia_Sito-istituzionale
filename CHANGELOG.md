@@ -5,6 +5,45 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [2.1.10rc2](https://gitlab.com/opencontent/opencity/compare/2.1.10rc1...2.1.10rc2) - 2021-11-03
+- Update block.ini
+- Add expired certificate workaround
+
+
+#### Installer
+- Fix anonymous role in trasparenza
+- Add classes lotto, dataset_lotto in trasparenza
+
+#### Code dependencies
+| Changes                               | From      | To        | Compare                                                                                         |
+|---------------------------------------|-----------|-----------|-------------------------------------------------------------------------------------------------|
+| aws/aws-sdk-php                       | 3.193.0   | 3.199.9   | [...](https://github.com/aws/aws-sdk-php/compare/3.193.0...3.199.9)                             |
+| erasys/openapi-php                    | 9885e8f   | 3.3.0     | [...](https://github.com/erasys/openapi-php/compare/9885e8f...3.3.0)                            |
+| friendsofsymfony/http-cache           | a501495   | 239d08d   | [...](https://github.com/FriendsOfSymfony/FOSHttpCache/compare/a501495...239d08d)               |
+| google/apiclient                      | 3a98175   | 7db9eb4   | [...](https://github.com/googleapis/google-api-php-client/compare/3a98175...7db9eb4)            |
+| google/apiclient-services             | v0.211.0  | v0.219.0  | [...](https://github.com/googleapis/google-api-php-client-services/compare/v0.211.0...v0.219.0) |
+| guzzlehttp/promises                   | 60d379c   | fe752ae   | [...](https://github.com/guzzle/promises/compare/60d379c...fe752ae)                             |
+| illuminate/contracts                  | 6.x-dev   | 7.x-dev   | [...](https://github.com/illuminate/contracts/compare/6.x-dev...7.x-dev)                        |
+| monolog/monolog                       | f2156cd   | f19a2ae   | [...](https://github.com/Seldaek/monolog/compare/f2156cd...f19a2ae)                             |
+| opencontent/googlesheet               | 63b7197   | 7d19be0   | [...](https://github.com/OpencontentCoop/googlesheet/compare/63b7197...7d19be0)                 |
+| opencontent/ocbootstrap-ls            | 1.10.10   | 1.10.11   | [...](https://github.com/OpencontentCoop/ocbootstrap/compare/1.10.10...1.10.11)                 |
+| opencontent/ocmultibinary-ls          | 3.0.8     | 3.0.11    | [...](https://github.com/OpencontentCoop/ocmultibinary/compare/3.0.8...3.0.11)                  |
+| opencontent/ocopendata-ls             | 2.25.7    | 2.27.1    | [...](https://github.com/OpencontentCoop/ocopendata/compare/2.25.7...2.27.1)                    |
+| opencontent/openpa-ls                 | 3.13.3    | 3.13.4    | [...](https://github.com/OpencontentCoop/openpa/compare/3.13.3...3.13.4)                        |
+| opencontent/openpa_bootstrapitalia-ls | 1.23.3    | 1.25.2    | [...](https://github.com/OpencontentCoop/openpa_bootstrapitalia/compare/1.23.3...1.25.2)        |
+| opencontent/openpa_newsletter-ls      | 2.9.4     | 2.9.5     | [...](https://github.com/OpencontentCoop/openpa_newsletter/compare/2.9.4...2.9.5)               |
+| php-http/discovery                    | 1.14.0    | 1.14.1    | [...](https://github.com/php-http/discovery/compare/1.14.0...1.14.1)                            |
+| symfony/deprecation-contracts         | 6f981ee   | 2.5.x-dev | [...](https://github.com/symfony/deprecation-contracts/compare/6f981ee...2.5.x-dev)             |
+| symfony/polyfill-ctype                | 46cd957   | 3088518   | [...](https://github.com/symfony/polyfill-ctype/compare/46cd957...3088518)                      |
+| symfony/polyfill-intl-idn             | 65bd267   | 749045c   | [...](https://github.com/symfony/polyfill-intl-idn/compare/65bd267...749045c)                   |
+| symfony/polyfill-mbstring             | 9174a3d   | 11b9acb   | [...](https://github.com/symfony/polyfill-mbstring/compare/9174a3d...11b9acb)                   |
+| symfony/polyfill-php73                | fba8933   | cc5db0e   | [...](https://github.com/symfony/polyfill-php73/compare/fba8933...cc5db0e)                      |
+| symfony/polyfill-php80                | 1100343   | 57b712b   | [...](https://github.com/symfony/polyfill-php80/compare/1100343...57b712b)                      |
+| symfony/polyfill-php81                |           | 5de4ba2   |                                                                                                 |
+| symfony/yaml                          | 4.4.x-dev | 5.4.x-dev | [...](https://github.com/symfony/yaml/compare/4.4.x-dev...5.4.x-dev)                            |
+
+
+
 ## [2.1.10rc1](https://gitlab.com/opencontent/opencity/compare/2.1.9...2.1.10rc1) - 2021-09-09
 
 
