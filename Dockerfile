@@ -1,5 +1,9 @@
 FROM registry.gitlab.com/opencontent/ezpublish/php:1.2.1
 
+# fix Debian 9 erroneously reports expired certificate for letsencrypt-issued domain
+# https://serverfault.com/questions/1079199/client-on-debian-9-erroneously-reports-expired-certificate-for-letsencrypt-issue
+RUN sed -i '/^mozilla\/DST_Root_CA_X3/s/^/!/' /etc/ca-certificates.conf && update-ca-certificates -f
+
 WORKDIR /var/www
 
 COPY composer.json composer.lock /var/www/
