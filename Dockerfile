@@ -1,8 +1,4 @@
-FROM registry.gitlab.com/opencontent/ezpublish/php:1.2.1
-
-# fix Debian 9 erroneously reports expired certificate for letsencrypt-issued domain
-# https://serverfault.com/questions/1079199/client-on-debian-9-erroneously-reports-expired-certificate-for-letsencrypt-issue
-RUN sed -i '/^mozilla\/DST_Root_CA_X3/s/^/!/' /etc/ca-certificates.conf && update-ca-certificates -f
+FROM registry.gitlab.com/opencontent/ezpublish/php:1.2.2-v2
 
 WORKDIR /var/www
 
@@ -19,7 +15,6 @@ COPY composer.json composer.lock /var/www/
 # The secure way to do it is to prepend the command with the variable definition:
 ENV COMPOSER_ALLOW_SUPERUSER=1
 RUN echo "Running composer"  \
-	&& composer global require hirak/prestissimo \
 	#&& composer global config github-oauth.github.com "$GITHUB_TOKEN" \
 	&& composer install --prefer-dist --no-scripts --no-dev \ 
 	&& rm -rf /root/.composer 

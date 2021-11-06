@@ -18,7 +18,7 @@
     "ext-xmlwriter": "*",
     "arnebratt/batchtool": "1.*",
     "aws/aws-sdk-php": "3.*",
-    "composer/installers": "~1.0.0",
+    "composer/installers": "*",
     "dpobel/ezclasslists-ls": "1.*",
     "ezsystems/ezfind-ls": "dev-master",
     "ezsystems/ezflow-ls-extension": "~5.3",
@@ -26,8 +26,8 @@
     "ezsystems/ezmbpaex-ls": "5.3.3.3",
     "ezsystems/ezmultiupload-ls": "~5.3",
     "ezsystems/ezprestapiprovider-ls": "~5.3",
-    "ezsystems/ezpublish-legacy": "2020.1000.6",
-    "ezsystems/ezpublish-legacy-installer": "dev-settings",
+    "ezsystems/ezpublish-legacy": "2020.1000.7",
+    "ezsystems/ezpublish-legacy-installer": "dev-composer-2",
     "ezsystems/ezscriptmonitor-ls": "dev-master",
     "ezsystems/ezstarrating-ls-extension": "v5.3.3",
     "ezsystems/eztags-ls": "2.2.1",
@@ -124,7 +124,6 @@
   "config": {
     "vendor-dir": "html/vendor",
     "discard-changes": true,
-    "sort-packages": true,
-    "cache-read-only": true
+    "sort-packages": true
   }
 }
