@@ -1,0 +1,31 @@
+name: 'OpenCity Shared Link'
+type: module
+version: 0.0.1
+variables:
+    -
+        name: identifier
+        value: 'OpenPABase::getCurrentSiteaccessIdentifier'
+    -
+        name: media_root_node
+        value: 'ini(NodeSettings,MediaRootNode,content.ini)'
+steps:
+    -
+        type: class
+        identifier: shared_link
+    -
+        type: content
+        identifier: Shared-links
+    -
+        type: workflow
+        identifier: Post-pubblicazione
+        trigger:
+            module: content
+            function: publish
+            connection_type: after
+    -
+        type: workflow
+        identifier: Pre-cancellazione
+        trigger:
+            module: content
+            function: delete
+            connection_type: before
