@@ -42,7 +42,46 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 | symfony/polyfill-php81                |           | 5de4ba2   |                                                                                                 |
 | symfony/yaml                          | 4.4.x-dev | 5.4.x-dev | [...](https://github.com/symfony/yaml/compare/4.4.x-dev...5.4.x-dev)                            |
 
+Relevant changes by repository:
 
+**[opencontent/googlesheet changes between 63b7197 and 7d19be0](https://github.com/OpencontentCoop/googlesheet/compare/63b7197...7d19be0)**
+* Update composer.json
+
+**[opencontent/ocbootstrap-ls changes between 1.10.10 and 1.10.11](https://github.com/OpencontentCoop/ocbootstrap/compare/1.10.10...1.10.11)**
+* Aggiorna le stringhe di traduzione
+
+**[opencontent/ocmultibinary-ls changes between 3.0.8 and 3.0.11](https://github.com/OpencontentCoop/ocmultibinary/compare/3.0.8...3.0.11)**
+* Bugfix in boostrapitalia view
+* Fix default view in bootstrapitalia design
+* Fix regression in bootstrapitalia tempalte Add fix script
+
+**[opencontent/ocopendata-ls changes between 2.25.7 and 2.27.1](https://github.com/OpencontentCoop/ocopendata/compare/2.25.7...2.27.1)**
+* Add delete and move api
+* Add upsert api
+* Fix http status code in exceptions
+* Change base attribute validation (from string to scalar)
+
+**[opencontent/openpa-ls changes between 3.13.3 and 3.13.4](https://github.com/OpencontentCoop/openpa/compare/3.13.3...3.13.4)**
+* Avoid php 7.3 warning
+
+**[opencontent/openpa_bootstrapitalia-ls changes between 1.23.3 and 1.25.2](https://github.com/OpencontentCoop/openpa_bootstrapitalia/compare/1.23.3...1.25.2)**
+* Introduce le visualizzazioni per le classi lotto e dataset_lotto
+* Corregge un problema nell'interfaccia di inserimento dei lotti
+* Corregge una vulnerabilità xss
+* Corregge un bug di consistenza in openparole
+* Uniforma le etichette dei bottoni in content/edit
+* Introduce un suffisso nel titolo delle card se presente e selezionato l'attributo is_online (bolzano)
+* Permette di selezionare la tipologia di vista nel blocco contenuti remoti
+* Hotfix configurazione di override
+* Visualizza il suffisso al titolo nei banner
+* Corregge alcuni errori di traduzione
+* Evita un fatal error in editorialstuff se non è installata l'estensione ocevent
+* Migliora la visualizzazione tabellare dei file multipli
+* Corregge lo stile del suffisso al titolo
+* Rende più flessibile la configurazione del blocco Ricerca documenti
+
+**[opencontent/openpa_newsletter-ls changes between 2.9.4 and 2.9.5](https://github.com/OpencontentCoop/openpa_newsletter/compare/2.9.4...2.9.5)**
+* Ignore verify peer on remote sendy
 
 ## [2.1.10rc1](https://gitlab.com/opencontent/opencity/compare/2.1.9...2.1.10rc1) - 2021-09-09
 
@@ -54,7 +93,15 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 | opencontent/ocbootstrap-ls            | 1.10.9  | 1.10.10 | [...](https://github.com/OpencontentCoop/ocbootstrap/compare/1.10.9...1.10.10)           |
 | opencontent/openpa_bootstrapitalia-ls | 1.23.1  | 1.23.3  | [...](https://github.com/OpencontentCoop/openpa_bootstrapitalia/compare/1.23.1...1.23.3) |
 
+Relevant changes by repository:
 
+**[opencontent/ocbootstrap-ls changes between 1.10.9 and 1.10.10](https://github.com/OpencontentCoop/ocbootstrap/compare/1.10.9...1.10.10)**
+* Corregge un bug nel formato delle date prodotte dal calendario di supporto di ocevent
+
+**[opencontent/openpa_bootstrapitalia-ls changes between 1.23.1 and 1.23.3](https://github.com/OpencontentCoop/openpa_bootstrapitalia/compare/1.23.1...1.23.3)**
+* Indicizza i document extra con accesso anonimo
+* Corregge un bug nel template della newsletter per cui i link nel footer non comparivano correttamente
+* Utilizza il campo editor_access_in_footer dell'homepage (se presente) per maggiore flessibilità di configurazione al bottone di Accesso area personale
 
 ## [2.1.9](https://gitlab.com/opencontent/opencity/compare/2.1.9rc3...2.1.9) - 2021-09-08
 - Update block.ini
@@ -110,7 +157,7 @@ Relevant changes by repository:
 * Migliora la visualizzazione dell'attributo public_service/has_temporal_coverage
 
 
-## [2.1.9rc3](/compare/2.1.9rc2...2.1.9rc3) - 2021-08-27
+## [2.1.9rc3](https://gitlab.com/opencontent/opencity/compare/2.1.9rc2...2.1.9rc3) - 2021-08-27
 
 
 
@@ -143,7 +190,7 @@ Relevant changes by repository:
 * Bug fix in class edit
 
 
-## [2.1.9rc2](/compare/2.1.9rc1...2.1.9rc2) - 2021-08-24
+## [2.1.9rc2](https://gitlab.com/opencontent/opencity/compare/2.1.9rc1...2.1.9rc2) - 2021-08-24
 - Update google sheet version api access Add dummy google credentials file
 - Fix Dockerfile.solr volume
 
@@ -201,7 +248,7 @@ Relevant changes by repository:
 * Visualizza il menu utente per l'utente loggato anche quando è disabilitata la visualizzazione del bottone di accesso
 
 
-## [2.1.9rc1](/compare/2.1.8...2.1.9rc1) - 2021-08-20
+## [2.1.9rc1](https://gitlab.com/opencontent/opencity/compare/2.1.8...2.1.9rc1) - 2021-08-20
 - Hotfix ocopendata
 
 
@@ -348,7 +395,7 @@ Relevant changes by repository:
 * Fix patch content attribute parser
 
 
-## [2.1.8-rc.1](/compare/2.1.7...2.1.8-rc.1) - 2021-06-28
+## [2.1.8-rc.1](https://gitlab.com/opencontent/opencity/compare/2.1.7...2.1.8-rc.1) - 2021-06-28
 - Update changelog and publiccode
 - Add traefik default demo certs
 - Update block.ini and ezjscire.ini Add default ezscriptmonitor.ini
