@@ -23,6 +23,8 @@ table_view:
         '*': '1'
     main_image:
         image: '1'
+    in_overview:
+        abstract: '1'
     show:
         descrizione: '1'
         location: '1'
