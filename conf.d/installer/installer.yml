@@ -1,5 +1,5 @@
 name: OpenCity
-version: 2.1.9
+version: 2.1.10
 variables:
     -
         name: identifier
@@ -473,6 +473,7 @@ steps:
         apply_to:
             - $anonymous_user
             - $members
+            - $contenttree_Amministrazione_Politici_object
     -
         type: role
         current_version_le: 2.0.5

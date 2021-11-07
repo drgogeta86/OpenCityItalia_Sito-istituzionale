@@ -1,6 +1,6 @@
 name: 'OpenCity Trasparenza'
 type: module
-version: 0.0.12
+version: 0.0.13
 variables:
     -
         name: identifier
@@ -585,3 +585,10 @@ steps:
         identifier: Anonymous-Trasparenza
         apply_to:
             - $anonymous_user
+    -
+        type: patch_content
+        current_version_le: 0.0.12
+        identifier: 4a8a56a94e7454a8313f2292c64313cc
+        attributes:
+            contenuto_obbligo: '<p>Testi ufficiali aggiornati degli Statuti e dei regolamenti, che regolano le funzioni, l''organizzazione e lo svolgimento delle attività di competenza dell''amministrazione</p>'
+            fields: ''

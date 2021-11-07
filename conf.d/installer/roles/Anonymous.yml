@@ -71,4 +71,7 @@ policies:
             SiteAccess:
                 - ezcrc32($identifier_frontend)
                 - ezcrc32(frontend)
-    
+    -
+        ModuleName: rss
+        FunctionName: feed
+        Limitation: {  }

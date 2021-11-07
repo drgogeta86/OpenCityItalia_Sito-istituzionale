@@ -19,6 +19,11 @@ ruleDefinitions:
         DestinationState: concorso.concluso
         Conditions:
             - data_di_conclusione;lt;NOW
+    set_concorso_concluso_by_data_di_conclusione_del_concorso_from_nuovo:
+        CurrentState: concorso.nuovo
+        DestinationState: concorso.concluso
+        Conditions:
+            - data_di_conclusione;lt;NOW
 ruleApplications:
     article:
         - set_public_by_published
@@ -26,3 +31,4 @@ ruleApplications:
         - set_public_by_publication_start_time
         - set_concorso_in_atto_by_data_di_scadenza_delle_iscrizioni
         - set_concorso_concluso_by_data_di_conclusione_del_concorso
+        - set_concorso_concluso_by_data_di_conclusione_del_concorso_from_nuovo
