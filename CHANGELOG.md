@@ -5,6 +5,64 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [2.1.10](https://gitlab.com/opencontent/opencity/compare/2.1.10rc2...2.1.10) - 2021-11-07
+- Update php and nginx base images to 1.2.3-v2
+- Fix AssignRole browse settings
+- Remove shared volumes in docker-compose-dev file
+- Fix some changelog missing info
+- Update composer to v2
+- Add some blacklisted file extensions
+
+
+#### Installer
+- Update to 2.1.10 Assign member role to Politici FIx concorso change state Add rss/feed role to Anonymous Update trasparenza to 0.0.13 fix Statuti e dei regolamenti
+- Add link/abstract in overview
+- Add shared link module
+
+#### Code dependencies
+| Changes                               | From        | To          | Compare                                                                                         |
+|---------------------------------------|-------------|-------------|-------------------------------------------------------------------------------------------------|
+| aws/aws-sdk-php                       | 3.199.9     | 3.200.1     | [...](https://github.com/aws/aws-sdk-php/compare/3.199.9...3.200.1)                             |
+| composer/installers                   | f69761f     | a241e78     | [...](https://github.com/composer/installers/compare/f69761f...a241e78)                         |
+| easyrdf/easyrdf                       | 12bd03d     | 111f65b     | [...](https://github.com/easyrdf/easyrdf/compare/12bd03d...111f65b)                             |
+| ezsystems/ezpublish-legacy            | 2020.1000.6 | 2020.1000.7 | [...](https://github.com/Opencontent/ezpublish-legacy/compare/2020.1000.6...2020.1000.7)        |
+| ezsystems/ezpublish-legacy-installer  | 38e402c     | d803123     | [...](https://github.com/Opencontent/ezpublish-legacy-installer/compare/38e402c...d803123)      |
+| firebase/php-jwt                      | v5.4.0      | v5.5.0      | [...](https://github.com/firebase/php-jwt/compare/v5.4.0...v5.5.0)                              |
+| friendsofsymfony/http-cache           | 239d08d     | 2.11.0      | [...](https://github.com/FriendsOfSymfony/FOSHttpCache/compare/239d08d...2.11.0)                |
+| google/apiclient-services             | v0.219.0    | v0.220.0    | [...](https://github.com/googleapis/google-api-php-client-services/compare/v0.219.0...v0.220.0) |
+| mtdowling/jmespath.php                | 30dfa00     | 9b87907     | [...](https://github.com/jmespath/jmespath.php/compare/30dfa00...9b87907)                       |
+| opencontent/ocopendata-ls             | 2.27.1      | 2.27.2      | [...](https://github.com/OpencontentCoop/ocopendata/compare/2.27.1...2.27.2)                    |
+| opencontent/ocsupport-ls              | 8071c61     | 184cf85     | [...](https://github.com/OpencontentCoop/ocsupport/compare/8071c61...184cf85)                   |
+| opencontent/ocwebhookserver-ls        | 1.1.4       | 1.1.5       | [...](https://github.com/OpencontentCoop/ocwebhookserver/compare/1.1.4...1.1.5)                 |
+| opencontent/openpa_bootstrapitalia-ls | 1.25.2      | 1.26.1      | [...](https://github.com/OpencontentCoop/openpa_bootstrapitalia/compare/1.25.2...1.26.1)        |
+| predis/predis                         | d72f067     | 4c1aada     | [...](https://github.com/predis/predis/compare/d72f067...4c1aada)                               |
+| psr/cache                             | b9aa2cd     | 1.0.1       | [...](https://github.com/php-fig/cache/compare/b9aa2cd...1.0.1)                                 |
+| psr/container                         | 381524e     | 1.1.x-dev   | [...](https://github.com/php-fig/container/compare/381524e...1.1.x-dev)                         |
+| psr/event-dispatcher                  | 3ef040d     | aa4f89e     | [...](https://github.com/php-fig/event-dispatcher/compare/3ef040d...aa4f89e)                    |
+| psr/simple-cache                      | 5a7b96b     | 1.0.1       | [...](https://github.com/php-fig/simple-cache/compare/5a7b96b...1.0.1)                          |
+| symfony/event-dispatcher              | 5.x-dev     | 5.4.x-dev   | [...](https://github.com/symfony/event-dispatcher/compare/5.x-dev...5.4.x-dev)                  |
+| symfony/options-resolver              | 5.x-dev     | 5.4.x-dev   | [...](https://github.com/symfony/options-resolver/compare/5.x-dev...5.4.x-dev)                  |
+| symfony/polyfill-php81                | 5de4ba2     |             |                                                                                                 |
+| symfony/var-exporter                  | 5.x-dev     | 5.4.x-dev   | [...](https://github.com/symfony/var-exporter/compare/5.x-dev...5.4.x-dev)                      |
+
+
+Relevant changes by repository:
+
+**[opencontent/ocopendata-ls changes between 2.27.1 and 2.27.2](https://github.com/OpencontentCoop/ocopendata/compare/2.27.1...2.27.2)**
+* Reload modules in ContentRepository
+
+**[opencontent/ocsupport-ls changes between 8071c61 and 184cf85](https://github.com/OpencontentCoop/ocsupport/compare/8071c61...184cf85)**
+* Fix github auth api call Add from to options to make-changeòpg
+
+**[opencontent/ocwebhookserver-ls changes between 1.1.4 and 1.1.5](https://github.com/OpencontentCoop/ocwebhookserver/compare/1.1.4...1.1.5)**
+* Add job stats
+
+**[opencontent/openpa_bootstrapitalia-ls changes between 1.25.2 and 1.26.1](https://github.com/OpencontentCoop/openpa_bootstrapitalia/compare/1.25.2...1.26.1)**
+* Corregge un errore nel template di visualizzazione degli attributi principali
+* Introduce i template per la classe shared_link per virtualizzare contenuti remoti Visualizza la funzionalità webhooks in toolbar admin Corregge alcuni bug minori
+* Cambia l'interfaccia di inserimento delle persone e delle strutture nel ruolo per aggirare il problema del numero elevato di elementi da caricare in select
+
+
 ## [2.1.10rc2](https://gitlab.com/opencontent/opencity/compare/2.1.10rc1...2.1.10rc2) - 2021-11-03
 - Update block.ini
 - Add expired certificate workaround
