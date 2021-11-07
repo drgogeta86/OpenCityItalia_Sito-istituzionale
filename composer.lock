@@ -3708,12 +3708,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/ocsupport.git",
-                "reference": "8071c617157333b8c900ae5499c48e51c02808ed"
+                "reference": "184cf855e1ef0ec1a342f9833bffe4d7a3de7608"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/ocsupport/zipball/8071c617157333b8c900ae5499c48e51c02808ed",
-                "reference": "8071c617157333b8c900ae5499c48e51c02808ed",
+                "url": "https://api.github.com/repos/OpencontentCoop/ocsupport/zipball/184cf855e1ef0ec1a342f9833bffe4d7a3de7608",
+                "reference": "184cf855e1ef0ec1a342f9833bffe4d7a3de7608",
                 "shasum": ""
             },
             "require": {
@@ -3739,7 +3739,7 @@
                 "issues": "https://github.com/OpencontentCoop/ocsupport/issues",
                 "source": "https://github.com/OpencontentCoop/ocsupport/tree/master"
             },
-            "time": "2021-03-05T10:28:30+00:00"
+            "time": "2021-11-06T23:21:40+00:00"
         },
         {
             "name": "opencontent/ocwebhookserver-ls",
@@ -3857,16 +3857,16 @@
         },
         {
             "name": "opencontent/openpa_bootstrapitalia-ls",
-            "version": "1.26.0",
+            "version": "1.26.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/openpa_bootstrapitalia.git",
-                "reference": "e4a8e15810fb8bb676c26302dd9151216fd4837b"
+                "reference": "8d25c14bfa1c5e23e5637de4889478913f1a9471"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/openpa_bootstrapitalia/zipball/e4a8e15810fb8bb676c26302dd9151216fd4837b",
-                "reference": "e4a8e15810fb8bb676c26302dd9151216fd4837b",
+                "url": "https://api.github.com/repos/OpencontentCoop/openpa_bootstrapitalia/zipball/8d25c14bfa1c5e23e5637de4889478913f1a9471",
+                "reference": "8d25c14bfa1c5e23e5637de4889478913f1a9471",
                 "shasum": ""
             },
             "require": {
@@ -3891,9 +3891,9 @@
             "description": "Opencontent OpenPA Bootstrap Italia",
             "support": {
                 "issues": "https://github.com/OpencontentCoop/openpa_bootstrapitalia/issues",
-                "source": "https://github.com/OpencontentCoop/openpa_bootstrapitalia/tree/1.26.0"
+                "source": "https://github.com/OpencontentCoop/openpa_bootstrapitalia/tree/1.26.1"
             },
-            "time": "2021-11-05T21:54:51+00:00"
+            "time": "2021-11-07T17:00:13+00:00"
         },
         {
             "name": "opencontent/openpa_newsletter-ls",
