@@ -89,16 +89,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.200.1",
+            "version": "3.202.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "41ffdb283c524c6632610ec43d89ba7f6094b575"
+                "reference": "59ee4506f7f2b2f0f1de4b60ab2c1b8294c7afcd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/41ffdb283c524c6632610ec43d89ba7f6094b575",
-                "reference": "41ffdb283c524c6632610ec43d89ba7f6094b575",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/59ee4506f7f2b2f0f1de4b60ab2c1b8294c7afcd",
+                "reference": "59ee4506f7f2b2f0f1de4b60ab2c1b8294c7afcd",
                 "shasum": ""
             },
             "require": {
@@ -174,9 +174,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.200.1"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.202.1"
             },
-            "time": "2021-11-05T19:19:45+00:00"
+            "time": "2021-11-11T19:15:25+00:00"
         },
         {
             "name": "clue/stream-filter",
@@ -1228,16 +1228,16 @@
         },
         {
             "name": "firebase/php-jwt",
-            "version": "v5.5.0",
+            "version": "v5.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/firebase/php-jwt.git",
-                "reference": "cf814442ce0e9eebe5317d61b63ccda4b85de67a"
+                "reference": "83b609028194aa042ea33b5af2d41a7427de80e6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/cf814442ce0e9eebe5317d61b63ccda4b85de67a",
-                "reference": "cf814442ce0e9eebe5317d61b63ccda4b85de67a",
+                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/83b609028194aa042ea33b5af2d41a7427de80e6",
+                "reference": "83b609028194aa042ea33b5af2d41a7427de80e6",
                 "shasum": ""
             },
             "require": {
@@ -1279,9 +1279,9 @@
             ],
             "support": {
                 "issues": "https://github.com/firebase/php-jwt/issues",
-                "source": "https://github.com/firebase/php-jwt/tree/v5.5.0"
+                "source": "https://github.com/firebase/php-jwt/tree/v5.5.1"
             },
-            "time": "2021-11-04T16:21:41+00:00"
+            "time": "2021-11-08T20:18:51+00:00"
         },
         {
             "name": "friendsofsymfony/http-cache",
@@ -1442,16 +1442,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.220.0",
+            "version": "v0.221.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "95d9913a54d870c49776375e2327dcee1a2e5919"
+                "reference": "55fb77c4dcb7ec2b41128d41815b3aac65ddfadb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/95d9913a54d870c49776375e2327dcee1a2e5919",
-                "reference": "95d9913a54d870c49776375e2327dcee1a2e5919",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/55fb77c4dcb7ec2b41128d41815b3aac65ddfadb",
+                "reference": "55fb77c4dcb7ec2b41128d41815b3aac65ddfadb",
                 "shasum": ""
             },
             "require": {
@@ -1480,9 +1480,9 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.220.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.221.0"
             },
-            "time": "2021-11-05T14:29:41+00:00"
+            "time": "2021-11-06T11:26:11+00:00"
         },
         {
             "name": "google/auth",
@@ -2616,16 +2616,16 @@
         },
         {
             "name": "opencontent/ocbootstrap-ls",
-            "version": "1.10.11",
+            "version": "1.10.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/ocbootstrap.git",
-                "reference": "3747f643e5eb88f9c7d2dcfd076d35e65dc5c409"
+                "reference": "759be879c96274e4e096d63dfe2154f27c5cbc1e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/ocbootstrap/zipball/3747f643e5eb88f9c7d2dcfd076d35e65dc5c409",
-                "reference": "3747f643e5eb88f9c7d2dcfd076d35e65dc5c409",
+                "url": "https://api.github.com/repos/OpencontentCoop/ocbootstrap/zipball/759be879c96274e4e096d63dfe2154f27c5cbc1e",
+                "reference": "759be879c96274e4e096d63dfe2154f27c5cbc1e",
                 "shasum": ""
             },
             "require": {
@@ -2648,9 +2648,9 @@
             "description": "OpenContent Bootstrap Base Design",
             "support": {
                 "issues": "https://github.com/OpencontentCoop/ocbootstrap/issues",
-                "source": "https://github.com/OpencontentCoop/ocbootstrap/tree/1.10.11"
+                "source": "https://github.com/OpencontentCoop/ocbootstrap/tree/1.10.12"
             },
-            "time": "2021-10-28T10:19:03+00:00"
+            "time": "2021-11-12T09:24:35+00:00"
         },
         {
             "name": "opencontent/occhangeobjectdate-ls",
@@ -3708,12 +3708,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/ocsupport.git",
-                "reference": "184cf855e1ef0ec1a342f9833bffe4d7a3de7608"
+                "reference": "c4e37a9cedf657c5deb93e4b09b3bb0fd5e1464f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/ocsupport/zipball/184cf855e1ef0ec1a342f9833bffe4d7a3de7608",
-                "reference": "184cf855e1ef0ec1a342f9833bffe4d7a3de7608",
+                "url": "https://api.github.com/repos/OpencontentCoop/ocsupport/zipball/c4e37a9cedf657c5deb93e4b09b3bb0fd5e1464f",
+                "reference": "c4e37a9cedf657c5deb93e4b09b3bb0fd5e1464f",
                 "shasum": ""
             },
             "require": {
@@ -3739,7 +3739,7 @@
                 "issues": "https://github.com/OpencontentCoop/ocsupport/issues",
                 "source": "https://github.com/OpencontentCoop/ocsupport/tree/master"
             },
-            "time": "2021-11-06T23:21:40+00:00"
+            "time": "2021-11-08T14:13:43+00:00"
         },
         {
             "name": "opencontent/ocwebhookserver-ls",
@@ -3818,16 +3818,16 @@
         },
         {
             "name": "opencontent/openpa-ls",
-            "version": "3.13.4",
+            "version": "3.13.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/openpa.git",
-                "reference": "ee052a44e97688a4876fcf4ad19e395cb3024fec"
+                "reference": "bfc8ef381ba7780eff284b9c92aaddd08a386b5c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/openpa/zipball/ee052a44e97688a4876fcf4ad19e395cb3024fec",
-                "reference": "ee052a44e97688a4876fcf4ad19e395cb3024fec",
+                "url": "https://api.github.com/repos/OpencontentCoop/openpa/zipball/bfc8ef381ba7780eff284b9c92aaddd08a386b5c",
+                "reference": "bfc8ef381ba7780eff284b9c92aaddd08a386b5c",
                 "shasum": ""
             },
             "require": {
@@ -3851,22 +3851,22 @@
             "description": "OpenContent OpenPA",
             "support": {
                 "issues": "https://github.com/OpencontentCoop/openpa/issues",
-                "source": "https://github.com/OpencontentCoop/openpa/tree/3.13.4"
+                "source": "https://github.com/OpencontentCoop/openpa/tree/3.13.5"
             },
-            "time": "2021-10-26T08:57:04+00:00"
+            "time": "2021-11-12T12:11:01+00:00"
         },
         {
             "name": "opencontent/openpa_bootstrapitalia-ls",
-            "version": "1.26.1",
+            "version": "1.26.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/openpa_bootstrapitalia.git",
-                "reference": "8d25c14bfa1c5e23e5637de4889478913f1a9471"
+                "reference": "6c14745ec3085c0fbeccc3131889af8ec1730fe9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/openpa_bootstrapitalia/zipball/8d25c14bfa1c5e23e5637de4889478913f1a9471",
-                "reference": "8d25c14bfa1c5e23e5637de4889478913f1a9471",
+                "url": "https://api.github.com/repos/OpencontentCoop/openpa_bootstrapitalia/zipball/6c14745ec3085c0fbeccc3131889af8ec1730fe9",
+                "reference": "6c14745ec3085c0fbeccc3131889af8ec1730fe9",
                 "shasum": ""
             },
             "require": {
@@ -3891,22 +3891,22 @@
             "description": "Opencontent OpenPA Bootstrap Italia",
             "support": {
                 "issues": "https://github.com/OpencontentCoop/openpa_bootstrapitalia/issues",
-                "source": "https://github.com/OpencontentCoop/openpa_bootstrapitalia/tree/1.26.1"
+                "source": "https://github.com/OpencontentCoop/openpa_bootstrapitalia/tree/1.26.7"
             },
-            "time": "2021-11-07T17:00:13+00:00"
+            "time": "2021-11-12T13:47:56+00:00"
         },
         {
             "name": "opencontent/openpa_newsletter-ls",
-            "version": "2.9.5",
+            "version": "2.9.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/openpa_newsletter.git",
-                "reference": "255fa3715997971454c288eb7a9aac18dceb1ca4"
+                "reference": "355ac7f0e36db20e57784f300c295187b5b25c37"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/openpa_newsletter/zipball/255fa3715997971454c288eb7a9aac18dceb1ca4",
-                "reference": "255fa3715997971454c288eb7a9aac18dceb1ca4",
+                "url": "https://api.github.com/repos/OpencontentCoop/openpa_newsletter/zipball/355ac7f0e36db20e57784f300c295187b5b25c37",
+                "reference": "355ac7f0e36db20e57784f300c295187b5b25c37",
                 "shasum": ""
             },
             "require": {
@@ -3931,9 +3931,9 @@
             "description": "OpenContent OpenPA Newsletter",
             "support": {
                 "issues": "https://github.com/OpencontentCoop/openpa_newsletter/issues",
-                "source": "https://github.com/OpencontentCoop/openpa_newsletter/tree/2.9.5"
+                "source": "https://github.com/OpencontentCoop/openpa_newsletter/tree/2.9.6"
             },
-            "time": "2021-10-05T10:24:48+00:00"
+            "time": "2021-11-12T09:38:17+00:00"
         },
         {
             "name": "opencontent/openpa_userprofile-ls",
@@ -4558,12 +4558,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "a0405d48163fef230094047e468d96bab21a672a"
+                "reference": "014b3a95a107b6329918f1cc431c0f8e181e6229"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/a0405d48163fef230094047e468d96bab21a672a",
-                "reference": "a0405d48163fef230094047e468d96bab21a672a",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/014b3a95a107b6329918f1cc431c0f8e181e6229",
+                "reference": "014b3a95a107b6329918f1cc431c0f8e181e6229",
                 "shasum": ""
             },
             "require": {
@@ -4661,7 +4661,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-11-04T03:28:16+00:00"
+            "time": "2021-11-12T01:51:26+00:00"
         },
         {
             "name": "predis/predis",
@@ -5276,12 +5276,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/cache.git",
-                "reference": "1c28afd82d02fb61975cc9bd74dc93d33c1dc0b9"
+                "reference": "8d112fed75ce021122d80817fec7f6516337c487"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/cache/zipball/1c28afd82d02fb61975cc9bd74dc93d33c1dc0b9",
-                "reference": "1c28afd82d02fb61975cc9bd74dc93d33c1dc0b9",
+                "url": "https://api.github.com/repos/symfony/cache/zipball/8d112fed75ce021122d80817fec7f6516337c487",
+                "reference": "8d112fed75ce021122d80817fec7f6516337c487",
                 "shasum": ""
             },
             "require": {
@@ -5363,7 +5363,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-10-29T14:40:02+00:00"
+            "time": "2021-11-12T08:52:50+00:00"
         },
         {
             "name": "symfony/cache-contracts",
