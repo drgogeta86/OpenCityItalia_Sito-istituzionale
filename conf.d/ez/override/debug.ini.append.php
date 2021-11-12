@@ -43,18 +43,18 @@ kernel-urltranslator=disabled
 kernel-search-ezsearch=disabled
 kernel-search-openfts=disabled
 
-kernel-policy-limitation=enabled
-kernel-role-edit=enabled
+kernel-policy-limitation=disabled
+kernel-role-edit=disabled
 
 kernel-siteaccess=disabled
 
 kernel-db-postgresql=disabled
 
-kernel-user=enabled
+kernel-user=disabled
 
 kernel-notification=disabled
 kernel-ssl-zone=disabled
-kernel-clustering=enabled
+kernel-clustering=disabled
 
 kernel-ezpackage-store=disabled
 
