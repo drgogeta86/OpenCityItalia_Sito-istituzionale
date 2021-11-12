@@ -5,6 +5,52 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [2.1.11](https://gitlab.com/opencontent/opencity/compare/2.1.10...2.1.11) - 2021-11-12
+- Disable conditional debugging
+
+#### Code dependencies
+| Changes                               | From     | To       | Compare                                                                                         |
+|---------------------------------------|----------|----------|-------------------------------------------------------------------------------------------------|
+| aws/aws-sdk-php                       | 3.200.1  | 3.202.1  | [...](https://github.com/aws/aws-sdk-php/compare/3.200.1...3.202.1)                             |
+| firebase/php-jwt                      | v5.5.0   | v5.5.1   | [...](https://github.com/firebase/php-jwt/compare/v5.5.0...v5.5.1)                              |
+| google/apiclient-services             | v0.220.0 | v0.221.0 | [...](https://github.com/googleapis/google-api-php-client-services/compare/v0.220.0...v0.221.0) |
+| opencontent/ocbootstrap-ls            | 1.10.11  | 1.10.12  | [...](https://github.com/OpencontentCoop/ocbootstrap/compare/1.10.11...1.10.12)                 |
+| opencontent/ocopendata-ls             | 2.27.2   | 2.27.3   | [...](https://github.com/OpencontentCoop/ocopendata/compare/2.27.2...2.27.3)                    |
+| opencontent/ocsupport-ls              | 184cf85  | c4e37a9  | [...](https://github.com/OpencontentCoop/ocsupport/compare/184cf85...c4e37a9)                   |
+| opencontent/openpa-ls                 | 3.13.4   | 3.13.5   | [...](https://github.com/OpencontentCoop/openpa/compare/3.13.4...3.13.5)                        |
+| opencontent/openpa_bootstrapitalia-ls | 1.26.1   | 1.26.8   | [...](https://github.com/OpencontentCoop/openpa_bootstrapitalia/compare/1.26.1...1.26.8)        |
+| opencontent/openpa_newsletter-ls      | 2.9.5    | 2.9.6    | [...](https://github.com/OpencontentCoop/openpa_newsletter/compare/2.9.5...2.9.6)               |
+
+
+Relevant changes by repository:
+
+**[opencontent/ocbootstrap-ls changes between 1.10.11 and 1.10.12](https://github.com/OpencontentCoop/ocbootstrap/compare/1.10.11...1.10.12)**
+* Corregge alcune traduzioni in tedesco
+
+**[opencontent/ocopendata-ls changes between 2.27.2 and 2.27.3](https://github.com/OpencontentCoop/ocopendata/compare/2.27.2...2.27.3)**
+* Hotfix reloading modules
+
+**[opencontent/ocsupport-ls changes between 184cf85 and c4e37a9](https://github.com/OpencontentCoop/ocsupport/compare/184cf85...c4e37a9)**
+* Add run cronjob handler
+
+**[opencontent/openpa-ls changes between 3.13.4 and 3.13.5](https://github.com/OpencontentCoop/openpa/compare/3.13.4...3.13.5)**
+* Remove unused code
+
+**[opencontent/openpa_bootstrapitalia-ls changes between 1.26.1 and 1.26.8](https://github.com/OpencontentCoop/openpa_bootstrapitalia/compare/1.26.1...1.26.8)**
+* Corregge la traduzione dei giorni della settimana nella matrice degli orari
+* Rimuove il testo della ricerca dal title per evitare un debug error
+* Corregge la visualizzazione dei link nell'header
+* Corregge la visualizzazione dei link nell'header
+* Corregge la visualizzazione dei link nell'header (repetita iuvant)
+* Nasconde il blocco contatti dal footer se i contatti non sono popolati
+* Corregge alcuni bug minori
+* Introduce la richiesta di conferma all'invio di una dashboard newsletter
+* Corregge un bug di traduzione
+
+**[opencontent/openpa_newsletter-ls changes between 2.9.5 and 2.9.6](https://github.com/OpencontentCoop/openpa_newsletter/compare/2.9.5...2.9.6)**
+* Add translations
+
+
 ## [2.1.10](https://gitlab.com/opencontent/opencity/compare/2.1.10rc2...2.1.10) - 2021-11-07
 - Update php and nginx base images to 1.2.3-v2
 - Fix AssignRole browse settings
