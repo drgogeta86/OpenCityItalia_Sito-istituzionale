@@ -3438,16 +3438,16 @@
         },
         {
             "name": "opencontent/ocopendata-ls",
-            "version": "2.27.2",
+            "version": "2.27.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/ocopendata.git",
-                "reference": "266fc93dc30223c836d28e2a8dbc7a012efcf2ad"
+                "reference": "0cb2d109dc7ff4b63a265b7730279636fe6d6ffe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/ocopendata/zipball/266fc93dc30223c836d28e2a8dbc7a012efcf2ad",
-                "reference": "266fc93dc30223c836d28e2a8dbc7a012efcf2ad",
+                "url": "https://api.github.com/repos/OpencontentCoop/ocopendata/zipball/0cb2d109dc7ff4b63a265b7730279636fe6d6ffe",
+                "reference": "0cb2d109dc7ff4b63a265b7730279636fe6d6ffe",
                 "shasum": ""
             },
             "require": {
@@ -3470,9 +3470,9 @@
             "description": "Opencontent OpenData Extension",
             "support": {
                 "issues": "https://github.com/OpencontentCoop/ocopendata/issues",
-                "source": "https://github.com/OpencontentCoop/ocopendata/tree/2.27.2"
+                "source": "https://github.com/OpencontentCoop/ocopendata/tree/2.27.3"
             },
-            "time": "2021-11-05T22:57:50+00:00"
+            "time": "2021-11-12T18:12:34+00:00"
         },
         {
             "name": "opencontent/ocopendata_forms-ls",
@@ -3857,16 +3857,16 @@
         },
         {
             "name": "opencontent/openpa_bootstrapitalia-ls",
-            "version": "1.26.7",
+            "version": "1.26.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/openpa_bootstrapitalia.git",
-                "reference": "6c14745ec3085c0fbeccc3131889af8ec1730fe9"
+                "reference": "692d69cb258bba6629df0982aea0dd51143627e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/openpa_bootstrapitalia/zipball/6c14745ec3085c0fbeccc3131889af8ec1730fe9",
-                "reference": "6c14745ec3085c0fbeccc3131889af8ec1730fe9",
+                "url": "https://api.github.com/repos/OpencontentCoop/openpa_bootstrapitalia/zipball/692d69cb258bba6629df0982aea0dd51143627e8",
+                "reference": "692d69cb258bba6629df0982aea0dd51143627e8",
                 "shasum": ""
             },
             "require": {
@@ -3891,9 +3891,9 @@
             "description": "Opencontent OpenPA Bootstrap Italia",
             "support": {
                 "issues": "https://github.com/OpencontentCoop/openpa_bootstrapitalia/issues",
-                "source": "https://github.com/OpencontentCoop/openpa_bootstrapitalia/tree/1.26.7"
+                "source": "https://github.com/OpencontentCoop/openpa_bootstrapitalia/tree/1.26.8"
             },
-            "time": "2021-11-12T13:47:56+00:00"
+            "time": "2021-11-12T14:24:21+00:00"
         },
         {
             "name": "opencontent/openpa_newsletter-ls",
