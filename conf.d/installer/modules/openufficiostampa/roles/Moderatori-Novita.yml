@@ -1,0 +1,18 @@
+name: 'Moderatori Novita'
+policies:
+    -
+        ModuleName: content
+        FunctionName: dashboard
+        Limitation: { }
+    -
+        ModuleName: editorialstuff
+        FunctionName: dashboard
+        Limitation: { }
+    -
+        ModuleName: editorialstuff
+        FunctionName: full_dashboard
+        Limitation: { }
+    -
+        ModuleName: editorialstuff
+        FunctionName: config
+        Limitation: {}

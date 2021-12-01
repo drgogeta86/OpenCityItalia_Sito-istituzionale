@@ -1,0 +1,79 @@
+name: 'Reporter Novita'
+policies:
+
+    -
+        ModuleName: content
+        FunctionName: create
+        Limitation:
+            Node:
+                - $contenttree_Novita_Avvisi_node
+            Class:
+                - classid(article)
+    -
+        ModuleName: content
+        FunctionName: create
+        Limitation:
+            Node:
+                - $contenttree_Novita_Comunicati-stampa_node
+            Class:
+                - classid(article)
+    -
+        ModuleName: content
+        FunctionName: create
+        Limitation:
+            Node:
+                - $contenttree_Novita_Notizie_node
+            Class:
+                - classid(article)
+    -
+        ModuleName: content
+        FunctionName: create
+        Limitation:
+            Node:
+                - $contenttree_Novita_Eventi_node
+            Class:
+                - classid(event)
+    -
+        ModuleName: content
+        FunctionName: edit
+        Limitation:
+            StateGroup_moderation:
+                - $state_moderation_draft
+            Owner:
+                - 1
+            Class:
+                - classid(article)
+                - classid(event)
+    -
+        ModuleName: state
+        FunctionName: assign
+        Limitation:
+            Owner:
+                - 1
+            StateGroup_moderation:
+                - $state_moderation_draft
+                - $state_moderation_refused
+            NewState:
+                - $state_moderation_waiting
+            Class:
+                - classid(article)
+                - classid(event)
+    -
+        ModuleName: content
+        FunctionName: remove
+        Limitation:
+            StateGroup_moderation:
+                - $state_moderation_draft
+            Owner:
+                - 1
+            Class:
+                - classid(article)
+                - classid(event)
+    -
+        ModuleName: content
+        FunctionName: dashboard
+        Limitation: {}
+    -
+        ModuleName: editorialstuff
+        FunctionName: dashboard
+        Limitation: {}
