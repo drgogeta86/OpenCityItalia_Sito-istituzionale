@@ -364,7 +364,7 @@ data_map:
         is_searchable: 1
         placement: 21
         can_translate: 1
-        data_text5: '{"roletype_root_tag":"Persone\/Ruoli","select":1,"view":2,"filter":["Direttore generale","Dirigente","Membro","Responsabile","Segretario comunale","Segretario generale"],"sort":2}'
+        data_text5: '{"roletype_root_tag":"Persone\/Ruoli","select":1,"view":2,"filter":[],"sort":2}'
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''

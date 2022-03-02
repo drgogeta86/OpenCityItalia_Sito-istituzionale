@@ -820,6 +820,34 @@ steps:
                 keywordTranslations:
                     ita-IT: Consulta
     -
+        type: add_tag
+        current_version_ge: 0.0.0
+        current_version_lt: 2.1.11
+        identifier: Organizzazione_Tipo-di-organo-politico_Presidente
+        parent: tag(Organizzazione/Tipo di organo politico)
+        tags:
+            -
+                keyword: Presidente
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Presidente
+    -
+        type: add_tag
+        current_version_ge: 0.0.0
+        current_version_lt: 2.1.11
+        identifier: Organizzazione_Tipo-di-organo-politico_Commissione
+        parent: tag(Organizzazione/Tipo di organo politico)
+        tags:
+            -
+                keyword: Commissione
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Commissione
+    -
         type: patch_content
         current_version_le: 2.1.10
         current_version_ge: 0.0.0
