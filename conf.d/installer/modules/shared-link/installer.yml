@@ -22,10 +22,10 @@ steps:
             module: content
             function: publish
             connection_type: after
-    -
-        type: workflow
-        identifier: Pre-cancellazione
-        trigger:
-            module: content
-            function: delete
-            connection_type: before
+    # -
+    #     type: workflow
+    #     identifier: Pre-cancellazione
+    #     trigger:
+    #         module: content
+    #         function: delete
+    #         connection_type: before

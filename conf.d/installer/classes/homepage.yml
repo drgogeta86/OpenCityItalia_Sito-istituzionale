@@ -303,5 +303,128 @@ data_map:
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
+    service_url:
+        identifier: service_url
+        serialized_description_list:
+            ita-IT: "Amminsitrazione afferente"
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: "Indirizzo del sito web dell'amminsitrazione afferente"
+        data_type_string: ezurl
+        placement: 17
+        can_translate: 1
+        serialized_data_text: { }
+        category: hidden
+    hide_access_menu:
+        identifier: hide_access_menu
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: "Nasconde il link di accesso all'area personale"
+        data_type_string: ezboolean
+        placement: 18
+        can_translate: 1
+        category: hidden
+    editor_access_in_footer:
+        identifier: editor_access_in_footer
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: "Posiziona sul footer il menu di accesso dei redattori"
+        data_type_string: ezboolean
+        placement: 19
+        can_translate: 1
+        category: hidden
+    topic_menu_label:
+        identifier: topic_menu_label
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Se il campo è popolato non vengono visualizzati automaticamente gli argomenti nel menu'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Personalizza etichetta Tutti gli argomenti el menu'
+        data_type_string: ezstring
+        placement: 20
+        can_translate: 1
+        category: hidden
+    hide_topic_menu:
+        identifier: hide_topic_menu
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: "Nasconde a voce di menu Argomenti"
+        data_type_string: ezboolean
+        placement: 21
+        can_translate: 1
+        category: hidden
+    hide_footer_menu:
+        identifier: hide_footer_menu
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: "Nasconde il menu nel footer"
+        data_type_string: ezboolean
+        placement: 22
+        can_translate: 1
+        category: hidden
+    show_extended_menu:
+        identifier: show_extended_menu
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: "Visualizza il menu principale esteso (con dropdown)"
+        data_type_string: ezboolean
+        placement: 23
+        can_translate: 1
+        category: hidden
+    cookie_alert_text:
+        identifier: cookie_alert_text
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Testo del cookie alert'
+        data_type_string: eztext
+        placement: 24
+        can_translate: 1
+        category: hidden
+    cookie_alert_info_button_link:
+        identifier: cookie_alert_info_button_link
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Link alle informazioni nel cookie alert'
+        data_type_string: ezstring
+        placement: 25
+        can_translate: 1
+        category: hidden
+    cookie_alert_info_button_text:
+        identifier: cookie_alert_info_button_text
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Testo del link alle informazioni del cookie alert'
+        data_type_string: ezstring
+        placement: 26
+        can_translate: 1
+        category: hidden
+    cookie_alert_accept_button_text:
+        identifier: cookie_alert_accept_button_text
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Testo del bottone di accettazione del cookie alert'
+        data_type_string: ezstring
+        placement: 27
+        can_translate: 1
+        category: hidden
+    footer_info_label:
+        identifier: footer_info_label
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Personalizza etichetta Informazioni nel footer'
+        data_type_string: ezstring
+        placement: 28
+        can_translate: 1
+        category: hidden
+    favicon:
+        identifier: favicon
+        serialized_description_list:
+            ita-IT: 'Allegare un file di tipo .ico'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Favicon'
+        data_type_string: ezbinaryfile
+        placement: 29
 groups:
     - Content

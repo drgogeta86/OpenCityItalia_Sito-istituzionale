@@ -1,5 +1,5 @@
 name: OpenCity
-version: 2.1.10
+version: 2.1.12
 variables:
     -
         name: identifier
@@ -430,20 +430,6 @@ steps:
             function: publish
             connection_type: before
     -
-        type: workflow
-        identifier: Post-pubblicazione
-        trigger:
-            module: content
-            function: publish
-            connection_type: after
-    -
-        type: workflow
-        identifier: Pre-pubblicazione
-        trigger:
-            module: content
-            function: publish
-            connection_type: before
-    -
         type: content
         identifier: Contenuti-obsoleti
     -
@@ -805,3 +791,38 @@ steps:
     -
         type: class
         identifier: opening_hours_specification_with_related
+    -
+        type: add_tag
+        current_version_ge: 0.0.0
+        current_version_lt: 2.1.11
+        identifier: Persone_Ruoli_Dipendente
+        parent: tag(Persone/Ruoli)
+        tags:
+            -
+                keyword: Dipendente
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Dipendente
+    -
+        type: add_tag
+        current_version_ge: 0.0.0
+        current_version_lt: 2.1.11
+        identifier: Organizzazione_Tipo-di-organo-politico_Consulta
+        parent: tag(Organizzazione/Tipo di organo politico)
+        tags:
+            -
+                keyword: Consulta
+                locale: ita-IT
+                alwaysAvailable: true
+                synonyms: {  }
+                keywordTranslations:
+                    ita-IT: Consulta
+    -
+        type: patch_content
+        current_version_le: 2.1.10
+        current_version_ge: 0.0.0
+        identifier: banners
+        attributes:
+            name: 'Banner e link'

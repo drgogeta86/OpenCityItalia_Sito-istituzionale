@@ -75,3 +75,11 @@ policies:
         Limitation:
             Node:
                 - $contenttree_OpenCity_Note-legali_node
+    -
+        ModuleName: content
+        FunctionName: remove
+        Limitation:
+            Subtree:
+                - $contenttree_OpenCity_Privacy_path_string
+            Class:
+                - $class_pagina_sito

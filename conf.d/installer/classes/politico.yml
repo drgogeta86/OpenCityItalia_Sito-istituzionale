@@ -371,6 +371,7 @@ data_map:
             object_class: ''
             selection_type: '1'
             type: '2'
+            class_constraint_list: {  }
             default_placement: false
         category: hidden
         serialized_data_text: {  }
@@ -391,6 +392,7 @@ data_map:
             object_class: ''
             selection_type: '3'
             type: '2'
+            class_constraint_list: {  }
             default_placement: false
         category: hidden
         serialized_data_text: {  }
@@ -411,6 +413,7 @@ data_map:
             object_class: ''
             selection_type: '1'
             type: '2'
+            class_constraint_list: {  }
             default_placement: false
         category: hidden
         serialized_data_text: {  }

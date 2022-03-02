@@ -35,6 +35,7 @@ data_map:
         can_translate: 1
         data_int1: 16
         serialized_data_text: {  }
+        is_required: 1
     denominazione_proponente:
         identifier: denominazione_proponente
         serialized_description_list:
@@ -48,6 +49,7 @@ data_map:
         is_searchable: 1
         can_translate: 1
         data_int1: 250
+        is_required: 1
         serialized_data_text: {  }
     oggetto:
         identifier: oggetto
@@ -148,6 +150,7 @@ data_map:
         placement: 10
         can_translate: 1
         data_int1: 1
+        is_required: 1
         data_float1: !!float 1
         serialized_data_text: {  }
     importo_somme_liquidate:
