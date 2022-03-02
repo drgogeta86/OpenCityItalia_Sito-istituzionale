@@ -3,8 +3,8 @@
 [OCEmbedSettings]
 
 EmbedDefaults[]
-EmbedDefaults[width]=525
-EmbedDefaults[height]=525
+EmbedDefaults[width]=1024
+EmbedDefaults[height]=1024
 
 */
 ?>

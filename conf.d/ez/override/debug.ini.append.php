@@ -86,4 +86,6 @@ lib-dbschema-transformation=disabled
 
 lib-ezutil-web=disabled
 lib-ezutils-dir=disabled
+
+ezuserformtoken=disabled
 */ ?>

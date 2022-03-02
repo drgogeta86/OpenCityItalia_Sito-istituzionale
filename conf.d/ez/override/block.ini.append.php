@@ -23,6 +23,7 @@ AllowedTypes[]=HTML
 AllowedTypes[]=EventiRemoti
 AllowedTypes[]=OpendataRemoteContents
 AllowedTypes[]=Ricerca
+AllowedTypes[]=OpendataQueriedContents
 
 [Singolo]
 Name=Oggetto singolo
@@ -111,6 +112,7 @@ ViewList[]=lista_accordion
 ViewList[]=lista_banner
 ViewList[]=lista_banner_color
 #ViewList[]=lista_carousel
+ViewList[]=lista_card_teaser
 ViewName[]
 ViewName[lista_card]=Card
 ViewName[lista_card_alt]=Card (alternativa)
@@ -120,6 +122,7 @@ ViewName[lista_accordion]=Accordion
 ViewName[lista_banner]=Banner
 ViewName[lista_banner_color]=Banner (colorati)
 #ViewName[lista_carousel]=Carousel
+ViewName[lista_card_teaser]=Card teaser
 TTL=3600
 ItemsPerRow[]
 ContainerStyle[]
@@ -131,6 +134,7 @@ ContainerStyle[lista_accordion]=py-5
 ContainerStyle[lista_banner]=py-5
 ContainerStyle[lista_banner_color]=py-5
 ContainerStyle[lista_carousel]=py-5
+ContainerStyle[lista_card_teaser]=py-5
 CanAddShowAllLink=enabled
 CanAddIntroText=enabled
 
@@ -160,6 +164,7 @@ ViewList[]=lista_accordion
 ViewList[]=lista_banner
 ViewList[]=lista_banner_color
 #ViewList[]=lista_carousel
+ViewList[]=lista_card_teaser
 ViewName[]
 ViewName[lista_card]=Card
 ViewName[lista_card_alt]=Card (alternativa)
@@ -169,6 +174,7 @@ ViewName[lista_accordion]=Accordion
 ViewName[lista_banner]=Banner
 ViewName[lista_banner_color]=Banner (colorati)
 #ViewName[lista_carousel]=Carousel
+ViewName[lista_card_teaser]=Card teaser
 ItemsPerRow[]
 ContainerStyle[]
 ContainerStyle[lista_card]=py-5
@@ -179,6 +185,7 @@ ContainerStyle[lista_accordion]=py-5
 ContainerStyle[lista_banner]=py-5
 ContainerStyle[lista_banner_color]=py-5
 ContainerStyle[lista_carousel]=py-5
+ContainerStyle[lista_card_teaser]=py-5
 CanAddShowAllLink=disabled
 CanAddIntroText=enabled
 
@@ -306,9 +313,10 @@ ViewName[html]=html
 ViewName[html_wide]=html wide
 ItemsPerRow[]
 ItemsPerRow[html_wide]=1
-CanAddShowAllLink=disabled
 Wide[]
 Wide[]=html_wide
+CanAddShowAllLink=disabled
+CanAddIntroText=disabled
 
 [Html3Colonne]
 Name=Codice HTML in 3 colonne
@@ -324,6 +332,7 @@ ViewList[]
 ViewList[]=html_3_colonne
 ViewName[html_3_colonne]=html
 CanAddShowAllLink=disabled
+CanAddIntroText=disabled
 
 [Argomenti]
 Name=Argomenti
@@ -346,6 +355,7 @@ ItemsPerRow[]
 Wide[]
 Wide[]=lista_card
 CanAddShowAllLink=disabled
+CanAddIntroText=disabled
 
 [ListaPaginata]
 Name=Lista paginata
@@ -487,6 +497,7 @@ ItemsPerRow[]
 ContainerStyle[]
 ContainerStyle[default]=section py-5
 CanAddShowAllLink=disabled
+CanAddIntroText=disabled
 
 [RicercaLuoghi]
 Name=Ricerca Luoghi
@@ -582,6 +593,7 @@ Wide[]
 Wide[]=default
 Wide[]=datatable
 CanAddIntroText=enabled
+CanAddShowAllLink=disabled
 
 [Ricerca]
 Name=Ricerca
@@ -599,6 +611,74 @@ ViewName[default]=Default
 ItemsPerRow[]
 Wide[]
 Wide[]=default
+CanAddShowAllLink=disabled
+CanAddIntroText=disabled
+
+[OpendataQueriedContents]
+Name=Contenuti in base a opendata query
+ManualAddingOfItems=disabled
+CustomAttributes[]
+CustomAttributes[]=image
+UseBrowseMode[image]=true
+CustomAttributes[]=query
+CustomAttributes[]=ignore_policy
+CustomAttributes[]=show_grid
+CustomAttributes[]=show_map
+CustomAttributes[]=show_search
+CustomAttributes[]=input_search_placeholder
+CustomAttributes[]=limit
+CustomAttributes[]=items_per_row
+CustomAttributes[]=facets
+CustomAttributes[]=view_api
+CustomAttributes[]=fields
+CustomAttributes[]=simple_geo_api
+CustomAttributes[]=template
+CustomAttributeNames[]
+CustomAttributeNames[image]=Immagine di sfondo
+CustomAttributeNames[query]=Query (esempio: classes [private_organization] sort [name=>asc])
+CustomAttributeNames[ignore_policy]=Mostra tutti i contenuti ignorando le policy di accesso
+CustomAttributeNames[show_grid]=Mostra lista
+CustomAttributeNames[show_map]=Mostra mappa
+CustomAttributeNames[show_search]=Mostra input di ricerca
+CustomAttributeNames[input_search_placeholder]=Placeholder input di ricerca
+CustomAttributeNames[fields]=[Impostazione avanzata] Identificatori campi (esempio: description,more_information)
+CustomAttributeNames[facets]=Identificatori filtri (esempio: Argomenti:topics.name,Tipologia:type)
+CustomAttributeNames[limit]=Elementi per pagina
+CustomAttributeNames[items_per_row]=Elementi per riga
+CustomAttributeNames[view_api]=Tipologia di visualizzazione (se disponibile)
+CustomAttributeNames[simple_geo_api]=[Impostazione avanzata] Utilizza geo api semplici
+CustomAttributeNames[template]=[Impostazione avanzata] Template jsrender custom
+CustomAttributeTypes[]
+CustomAttributeTypes[ignore_policy]=checkbox
+CustomAttributeTypes[show_grid]=checkbox
+CustomAttributeTypes[show_map]=checkbox
+CustomAttributeTypes[show_search]=checkbox
+CustomAttributeTypes[limit]=select
+CustomAttributeTypes[items_per_row]=select
+CustomAttributeTypes[simple_geo_api]=checkbox
+CustomAttributeTypes[template]=text
+CustomAttributeTypes[view_api]=select
+CustomAttributeSelection_limit[2]=2
+CustomAttributeSelection_limit[3]=3
+CustomAttributeSelection_limit[4]=4
+CustomAttributeSelection_limit[6]=6
+CustomAttributeSelection_limit[8]=8
+CustomAttributeSelection_limit[9]=9
+CustomAttributeSelection_items_per_row[auto]=Masonry
+CustomAttributeSelection_items_per_row[2]=2
+CustomAttributeSelection_items_per_row[3]=3
+CustomAttributeSelection_view_api[card_teaser]=Card (teaser)
+CustomAttributeSelection_view_api[card]=Card
+CustomAttributeSelection_view_api[banner]=Banner
+ViewList[]
+ViewList[]=default
+ViewName[default]=Default
+ItemsPerRow[]
+CanAddShowAllLink=enabled
+Wide[]
+Wide[]=default
+Wide[]=datatable
+CanAddIntroText=enabled
 CanAddShowAllLink=disabled
 
 */ ?>

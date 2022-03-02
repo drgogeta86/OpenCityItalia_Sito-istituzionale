@@ -11,6 +11,9 @@ Charset=utf-8
 Socket=disabled
 SQLOutput=disabled
 
+[ExpiryHandler]
+ExpiryFilePerSiteAccess=enabled
+
 [FileSettings]
 VarDir=
 
@@ -126,7 +129,11 @@ TextTranslation=enabled
 TranslationExtensions[]=cjw_newsletter
 
 [DebugSettings]
+QuickSettingsList[]
 DebugToolbar=disabled
+AlwaysLog[]=error
+AlwaysLog[]=warning
+AlwaysLog[]=debug
 
 [UserFormToken]
 CookieHttponly=true

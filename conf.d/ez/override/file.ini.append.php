@@ -2,6 +2,9 @@
 
 [ClusteringSettings]
 FileHandler=eZDFSFileHandler
+NonExistantStaleCacheHandling[viewcache]=generate
+NonExistantStaleCacheHandling[cacheblock]=generate
+NonExistantStaleCacheHandling[misc]=generate
 
 [eZDFSClusteringSettings]
 MountPointPath=/mnt/efs/cluster-openpa/

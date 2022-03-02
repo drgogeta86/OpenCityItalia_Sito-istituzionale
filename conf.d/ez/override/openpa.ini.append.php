@@ -1,5 +1,9 @@
 <?php /* #?ini charset="utf-8"?
 
+[CookiesSettings]
+#simple or advanced
+Consent=advanced
+
 [InstanceSettings]
 NomeAmministrazioneAfferente=
 UrlAmministrazioneAfferente=

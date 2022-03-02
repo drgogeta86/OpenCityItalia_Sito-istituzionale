@@ -43,4 +43,7 @@ Enabled=false
 [SearchFilters]
 ExcludeOwnerName=enabled
 
+#[IndexPlugins]
+#General[]=ezfIndexLangBitwise
+
 */ ?>
