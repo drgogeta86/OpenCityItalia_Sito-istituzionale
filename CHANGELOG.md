@@ -5,6 +5,146 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [2.1.12](https://gitlab.com/opencontent/opencity/compare/2.1.11...2.1.12) - 2022-03-02
+- Fix docker-compose headers middleware Add redis cluster sample
+- Show debug in clear cache script
+- Add advanced cookie consent as default Update ini settings
+
+
+#### Installer
+- Update to version 2.1.12
+- [installer][demo] Fix image links
+- Add openufficiostampa installer
+
+#### Code dependencies
+| Changes                               | From     | To       | Compare                                                                                         |
+|---------------------------------------|----------|----------|-------------------------------------------------------------------------------------------------|
+| aws/aws-sdk-php                       | 3.202.1  | 3.211.1  | [...](https://github.com/aws/aws-sdk-php/compare/3.202.1...3.211.1)                             |
+| clue/stream-filter                    | v1.5.0   | v1.6.0   | [...](https://github.com/clue/stream-filter/compare/v1.5.0...v1.6.0)                            |
+| composer/installers                   | a241e78  | b8e490f  | [...](https://github.com/composer/installers/compare/a241e78...b8e490f)                         |
+| friendsofsymfony/http-cache           | 2.11.0   | 2.13.0   | [...](https://github.com/FriendsOfSymfony/FOSHttpCache/compare/2.11.0...2.13.0)                 |
+| google/apiclient                      | 7db9eb4  | v2.11.0  | [...](https://github.com/googleapis/google-api-php-client/compare/7db9eb4...v2.11.0)            |
+| google/apiclient-services             | v0.221.0 | v0.237.0 | [...](https://github.com/googleapis/google-api-php-client-services/compare/v0.221.0...v0.237.0) |
+| monolog/monolog                       | f19a2ae  | fb2c324  | [...](https://github.com/Seldaek/monolog/compare/f19a2ae...fb2c324)                             |
+| opencontent/ocbootstrap-ls            | 1.10.12  | 1.10.13  | [...](https://github.com/OpencontentCoop/ocbootstrap/compare/1.10.12...1.10.13)                 |
+| opencontent/occustomfind-ls           | 2.3.0    | 2.4.3    | [...](https://github.com/OpencontentCoop/occustomfind/compare/2.3.0...2.4.3)                    |
+| opencontent/ocembed-ls                | 1.4.2    | 1.5.2    | [...](https://github.com/OpencontentCoop/ocembed/compare/1.4.2...1.5.2)                         |
+| opencontent/ocinstaller               | 3a84656  | 828b25d  | [...](https://github.com/OpencontentCoop/ocinstaller/compare/3a84656...828b25d)                 |
+| opencontent/ocopenapi-ls              | 1.3.8    | 1.3.11   | [...](https://github.com/OpencontentCoop/ocopenapi-ls/compare/1.3.8...1.3.11)                   |
+| opencontent/ocopendata-ls             | 2.27.3   | 2.28.1   | [...](https://github.com/OpencontentCoop/ocopendata/compare/2.27.3...2.28.1)                    |
+| opencontent/ocsearchtools-ls          | 1.11.1   | 1.11.2   | [...](https://github.com/OpencontentCoop/ocsearchtools/compare/1.11.1...1.11.2)                 |
+| opencontent/ocsupport-ls              | c4e37a9  | 848dad7  | [...](https://github.com/OpencontentCoop/ocsupport/compare/c4e37a9...848dad7)                   |
+| opencontent/openpa-ls                 | 3.13.5   | 3.13.7   | [...](https://github.com/OpencontentCoop/openpa/compare/3.13.5...3.13.7)                        |
+| opencontent/openpa_bootstrapitalia-ls | 1.26.8   | 1.28.10  | [...](https://github.com/OpencontentCoop/openpa_bootstrapitalia/compare/1.26.8...1.28.10)       |
+| opencontent/openpa_newsletter-ls      | 2.9.6    | 2.9.8    | [...](https://github.com/OpencontentCoop/openpa_newsletter/compare/2.9.6...2.9.8)               |
+| paragonie/constant_time_encoding      | v2.4.0   | v2.5.0   | [...](https://github.com/paragonie/constant_time_encoding/compare/v2.4.0...v2.5.0)              |
+| php-http/client-common                | 2.4.0    | 2.5.0    | [...](https://github.com/php-http/client-common/compare/2.4.0...2.5.0)                          |
+| php-http/httplug                      | 191a0a1  | f640739  | [...](https://github.com/php-http/httplug/compare/191a0a1...f640739)                            |
+| php-http/message                      | 1.12.0   | 1.13.0   | [...](https://github.com/php-http/message/compare/1.12.0...1.13.0)                              |
+| predis/predis                         | 4c1aada  | b3a5bdf  | [...](https://github.com/predis/predis/compare/4c1aada...b3a5bdf)                               |
+| symfony/polyfill-ctype                | 3088518  | v1.24.0  | [...](https://github.com/symfony/polyfill-ctype/compare/3088518...v1.24.0)                      |
+| symfony/polyfill-intl-idn             | 749045c  | v1.24.0  | [...](https://github.com/symfony/polyfill-intl-idn/compare/749045c...v1.24.0)                   |
+| symfony/polyfill-intl-normalizer      | 8590a5f  | v1.24.0  | [...](https://github.com/symfony/polyfill-intl-normalizer/compare/8590a5f...v1.24.0)            |
+| symfony/polyfill-mbstring             | 11b9acb  | v1.24.0  | [...](https://github.com/symfony/polyfill-mbstring/compare/11b9acb...v1.24.0)                   |
+| symfony/polyfill-php72                | 9a14221  | v1.24.0  | [...](https://github.com/symfony/polyfill-php72/compare/9a14221...v1.24.0)                      |
+| symfony/polyfill-php73                | cc5db0e  | v1.24.0  | [...](https://github.com/symfony/polyfill-php73/compare/cc5db0e...v1.24.0)                      |
+| symfony/polyfill-php80                | 57b712b  | v1.24.0  | [...](https://github.com/symfony/polyfill-php80/compare/57b712b...v1.24.0)                      |
+| zetacomponents/cache                  | 1.6      | 1.6.1    | [...](https://github.com/zetacomponents/Cache/compare/1.6...1.6.1)                              |
+| zetacomponents/console-tools          | 1.7.2    | 1.7.3    | [...](https://github.com/zetacomponents/ConsoleTools/compare/1.7.2...1.7.3)                     |
+| zetacomponents/database               | 1.5.1    | 1.5.2    | [...](https://github.com/zetacomponents/Database/compare/1.5.1...1.5.2)                         |
+| zetacomponents/feed                   | 1.4      | 1.4.1    | [...](https://github.com/zetacomponents/Feed/compare/1.4...1.4.1)                               |
+
+
+Relevant changes by repository:
+
+**[opencontent/ocbootstrap-ls changes between 1.10.12 and 1.10.13](https://github.com/OpencontentCoop/ocbootstrap/compare/1.10.12...1.10.13)**
+* Corregge un bug di visualizzazione del template di modifica di ezcountry
+
+**[opencontent/occustomfind-ls changes between 2.3.0 and 2.4.3](https://github.com/OpencontentCoop/occustomfind/compare/2.3.0...2.4.3)**
+* Dataset datatype: add map and counter view, allow import from google sheet, add email and url field type
+* Allow set geo field format Fix translations Add counter settings
+* Avoid fatal exposing stats results
+* Fix edit dataset view connector (temp workaround)
+
+**[opencontent/ocembed-ls changes between 1.4.2 and 1.5.2](https://github.com/OpencontentCoop/ocembed/compare/1.4.2...1.5.2)**
+* Rifattorizza il sistema di cache Introduce un ezpfilter per il contenuto html Introduce un modulo di preview
+* Fix bug in autoembed
+* Verify max resolution image in youtube workaround
+
+**[opencontent/ocinstaller changes between 3a84656 and 828b25d](https://github.com/OpencontentCoop/ocinstaller/compare/3a84656...828b25d)**
+* Avoid workflow override
+
+**[opencontent/ocopenapi-ls changes between 1.3.8 and 1.3.11](https://github.com/OpencontentCoop/ocopenapi-ls/compare/1.3.8...1.3.11)**
+* Fix translations post put patch api
+* Fix empty file serialization
+* Bugfix in multilanguage api
+
+**[opencontent/ocopendata-ls changes between 2.27.3 and 2.28.1](https://github.com/OpencontentCoop/ocopendata/compare/2.27.3...2.28.1)**
+* Fix user attribute converter on disabled user
+* Rebuild parent nodes according to payload params in api update Avoid duplicate locations in api move
+* Use local filesystem in file storage for performance issue
+
+**[opencontent/ocsearchtools-ls changes between 1.11.1 and 1.11.2](https://github.com/OpencontentCoop/ocsearchtools/compare/1.11.1...1.11.2)**
+* Avoid php warning
+
+**[opencontent/ocsupport-ls changes between c4e37a9 and 848dad7](https://github.com/OpencontentCoop/ocsupport/compare/c4e37a9...848dad7)**
+* enable view cache in cron sqli handler
+* Add reindex script
+
+**[opencontent/openpa-ls changes between 3.13.5 and 3.13.7](https://github.com/OpencontentCoop/openpa/compare/3.13.5...3.13.7)**
+* Allow using redis in cluster mode
+* Corregge un bug nel sistema di calcolo di cambio stato in caso di attributi di tipo ezdate
+
+**[opencontent/openpa_bootstrapitalia-ls changes between 1.26.8 and 1.28.10](https://github.com/OpencontentCoop/openpa_bootstrapitalia/compare/1.26.8...1.28.10)**
+* Estende l'indicizzazione custom rpt ai sotto attributi di tipo eZGmapLocation
+* Aggiunge la configurazione mancante del modulo extraindex
+* Rimuove eventuali script dai metadata opengraph
+* Permette di customizzare la favicon tramite un attributo file della homepage (favicon)
+* Corregge la visualizzazione degli eventi nella newsletter
+* Corregge un errore sull'ordinamento delle faq
+* Evita un errore grave nel parsing dei testi per opengraph
+* Corregge un errore sull'ordinamento delle faq
+* Corregge un problema di renderizzazione della mail prodotta dalla dashboard di moderazione
+* Modifica la visualizzazione delle date usano lo standard locale Introduce un nuovo connettore per gli eztags per correggere la visualizzazione delle faccette Corregge alcune traduzioni in tedesco
+* Impone il target blank ai contenuti shared link
+* Corregge i font nel template della newsletter
+* Rimuove la visualizzazione della data dai template newsletter
+* Nasconde gli attributi info-collectors nel pagina di registrazione join
+* Aggiunge l'attributo rel="noopener noreferrer" ai link con target blank
+* Introduce una nuova versione del cookie consent
+* Permette di disabilitare l'anteprima del video nelle visualizzazioni line e card (alt)
+* Permette di configurare la versione del cookie consent da openpa.ini
+* Introduce il bottone per rifiutare tutti i cookie nella barra dei cookie
+* Corregge un problema nell'interfaccia di configurazione delle impostazioni di visualizzazione della vista elenco
+* Introduce un blocco che permette la visualizzazione in anteprima di contenuti non accessibili
+* Formatta un attributo matrice con identificatore "social" per inserire i contatti social (Facebook, Instagram, Linkedin, Twitter, Youtube, WhatsApp, Telegram)
+* Visualizza nella pagina di login l'attributo layout di un oggetto il cui remote id è configurato in app.ini [LoginTemplate] LoginIntroObjectRemoteId
+* Permette di inviare un messaggio privato dalla dashboard public/private in caso di gestione utenti
+* Correggi alcuni problemi sul sistema cookie consent
+* Correggi la visualizzazione mobile del sistema cookie consent
+* Corregge alcuni bug minori
+* Inserisce una stringa di traduzione mancante nel card-calendar
+* Corregge l'etichetta dell'attributo Tipo di evento (has_public_event_typology)
+* Corregge un errore di visualizzazione del calendario nella vista mensile
+* Corregge alcuni problemi di accessibilità del cookie consent
+* Introduce la vista card_teaser nei blocchi ListaManuale e ListaAutomatica
+* Corregge un bug nella generazione del megamenu
+* Corregge la traduzione del link per disiscriversi dalla newsletter
+* Permette di verificare l'univocità del campo identificativo documento in fase di editing (document/has_code)
+* Permette l'inserimento di file nella scorciatoia ajax di inserimento lotti
+* Permette l'inserimento di file nella scorciatoia ajax di inserimento lotti
+* Corregge un problema che si verificava nel blocco ricerca luoghi in caso di selezione di più tag
+* Corregge alcuni problemi di overflow del testo nel card tesaser
+* Aggiorna le stringhe di traduzione
+* Corregge l'ingombro del cookie consent nel footer
+* Permette di configurare il limiti dei link esposti in header
+* Permette di configurare il controllo di univocità di altri campi di tipo stringa
+
+**[opencontent/openpa_newsletter-ls changes between 2.9.6 and 2.9.8](https://github.com/OpencontentCoop/openpa_newsletter/compare/2.9.6...2.9.8)**
+* Fix ger translations
+* Fix sendy subscribe form
+
+
 ## [2.1.11](https://gitlab.com/opencontent/opencity/compare/2.1.10...2.1.11) - 2021-11-12
 - Disable conditional debugging
 
