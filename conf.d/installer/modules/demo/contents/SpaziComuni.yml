@@ -9,7 +9,7 @@ data:
         description: '<p>Prenotazione degli spazi pubblici</p>'
         image:
             filename: sfondo-spazicomuni.jpg
-            url: https://www.opencontent.it/var/opencontent/storage/images/per-la-pa/spazicomuni/1695-8-ita-IT/SpaziComuni.jpg
+            url: https://opencity.openpa.opencontent.io/var/opencity/storage/images/media/banner/spazicomuni/1407-1-ita-IT/SpaziComuni.jpg
         location: 'https://spazicomuni.openpa.opencontent.io/'
         background_color:
             - complementary-3-bg-a8

@@ -9,7 +9,7 @@ data:
         description: '<p>Gli eventi e le manifestazioni del comune</p>'
         image:
             filename: sfondo-openagenda.jpg
-            url: https://www.opencontent.it/var/opencontent/storage/images/per-la-pa/openagenda/1768-11-ita-IT/OpenAgenda.jpg
+            url: https://opencity.openpa.opencontent.io/var/opencity/storage/images/media/banner/openagenda/1395-1-ita-IT/OpenAgenda.jpg
         location: 'https://openagenda.openpa.opencontent.io/'
         background_color:
             - complementary-2-bg-a5
