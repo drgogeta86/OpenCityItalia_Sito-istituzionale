@@ -205,7 +205,8 @@ services:
             traefik.http.routers.traefik-http.service: api@internal
             traefik.http.routers.traefik-http.rule: Host(`traefik.localtest.me`)
             traefik.http.routers.traefik-http.middlewares: gotossl
-            traefik.http.middlewares.goodheaders.headers.frameDeny: 'true'
+            #traefik.http.middlewares.goodheaders.headers.frameDeny: 'true'
+            traefik.http.middlewares.goodheaders.headers.customFrameOptionsValue: 'SAMEORIGIN'
             traefik.http.middlewares.goodheaders.headers.stsSeconds: 31536000
             traefik.http.middlewares.goodheaders.headers.stsIncludeSubdomains: 'true'
             traefik.http.middlewares.goodheaders.headers.forceStsHeader: 'true'
