@@ -126,6 +126,6 @@ else
 fi
 
 
-sudo -E -u $EZ_USER php bin/php/ezcache.php --clear-all
+sudo -E -u $EZ_USER php bin/php/ezcache.php --clear-all -d
 
 exec "$@"
