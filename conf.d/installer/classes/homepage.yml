@@ -309,7 +309,7 @@ data_map:
             ita-IT: "Amminsitrazione afferente"
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: "Indirizzo del sito web dell'amminsitrazione afferente"
+            ita-IT: "Indirizzo del sito web dell'amministrazione afferente"
         data_type_string: ezurl
         placement: 17
         can_translate: 1
@@ -340,7 +340,7 @@ data_map:
             ita-IT: 'Se il campo è popolato non vengono visualizzati automaticamente gli argomenti nel menu'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Personalizza etichetta Tutti gli argomenti el menu'
+            ita-IT: 'Personalizza etichetta "Tutti gli argomenti" del menu'
         data_type_string: ezstring
         placement: 20
         can_translate: 1
@@ -349,7 +349,7 @@ data_map:
         identifier: hide_topic_menu
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: "Nasconde a voce di menu Argomenti"
+            ita-IT: 'Nasconde la voce di menu "Argomenti"'
         data_type_string: ezboolean
         placement: 21
         can_translate: 1
@@ -412,7 +412,7 @@ data_map:
         identifier: footer_info_label
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Personalizza etichetta Informazioni nel footer'
+            ita-IT: 'Personalizza etichetta "Informazioni" nel footer'
         data_type_string: ezstring
         placement: 28
         can_translate: 1

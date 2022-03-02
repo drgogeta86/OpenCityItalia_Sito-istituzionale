@@ -85,3 +85,8 @@ table_view:
         has_online_contact_point: '1'
         has_spatial_coverage: '1'
         hold_employment: '1'
+bootstrapitalia_icon:
+    enabled:
+        '*': '1'
+    icon:
+        '*': it-pa

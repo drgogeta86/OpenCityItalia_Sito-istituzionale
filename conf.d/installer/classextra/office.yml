@@ -65,6 +65,7 @@ card_small_view:
     show:
         content_show_read_more: '1'
         description: '1'
+        help: '1'
 table_view:
     enabled:
         '*': '1'
@@ -97,6 +98,7 @@ table_view:
         office_manager: '1'
         start_time: '1'
         people: '1'
+        related_offices: '1'
     show_link:
         has_online_contact_point: '1'
         has_spatial_coverage: '1'

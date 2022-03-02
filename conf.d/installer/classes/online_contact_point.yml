@@ -9,7 +9,7 @@ serialized_description_list:
     ita-IT: 'Raggruppa un insieme di tipi di canali digitali, come email, social network, siti web, ecc...'
     ger-DE: 'Gruppiert eine Reihe von digitalen Kanälen, wie z. B. E-Mail, soziale Netzwerke, Websites usw..'
 always_available: 1
-is_container: 1
+is_container: 0
 data_map:
     name:
         identifier: name

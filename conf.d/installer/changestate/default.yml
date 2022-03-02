@@ -24,9 +24,15 @@ ruleDefinitions:
         DestinationState: concorso.concluso
         Conditions:
             - data_di_conclusione;lt;NOW
+    set_private_by_dead_line:
+        CurrentState: privacy.public
+        DestinationState: privacy.private
+        Conditions:
+            - dead_line;lt;NOW
 ruleApplications:
     article:
         - set_public_by_published
+        - set_private_by_dead_line
     document:
         - set_public_by_publication_start_time
         - set_concorso_in_atto_by_data_di_scadenza_delle_iscrizioni

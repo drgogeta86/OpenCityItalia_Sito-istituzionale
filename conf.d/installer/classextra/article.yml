@@ -7,7 +7,7 @@ attribute_group:
         audio: '1'
         body: '1'
         video: '1'
-        related_service: '1'
+        related_service: '0'
     dataset:
         '*': Dataset
         dataset: '1'
@@ -42,6 +42,7 @@ attribute_group:
         '*': 'Ulteriori informazioni'
         content_show_modified: '1'
         license: '1'
+        related_service: '1'
     'hidden::corpo':
         '*': corpo
     'ger-DE::contatti':

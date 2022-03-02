@@ -17,3 +17,5 @@ table_view:
         note: '1'
     show_label:
         contact: '1'
+    show_link:
+        phone_availability_time: '1'
