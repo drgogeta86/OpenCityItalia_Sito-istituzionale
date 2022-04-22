@@ -125,6 +125,10 @@
   "config": {
     "vendor-dir": "html/vendor",
     "discard-changes": true,
-    "sort-packages": true
+    "sort-packages": true,
+    "allow-plugins": {
+      "composer/installers": true,
+      "ezsystems/ezpublish-legacy-installer": true
+    }
   }
 }
