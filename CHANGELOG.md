@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [2.1.13](https://gitlab.com/opencontent/opencity/compare/2.1.12...2.1.13) - 2022-06-07
+- Add allow plugins in composer.json
+
+
+#### Installer
+- Fix default logo source url
+- Fix some class extras
+- add tags, fix employee has_role
+
+
+
 ## [2.1.12](https://gitlab.com/opencontent/opencity/compare/2.1.11...2.1.12) - 2022-03-02
 - Fix docker-compose headers middleware Add redis cluster sample
 - Show debug in clear cache script

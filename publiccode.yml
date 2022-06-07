@@ -1,8 +1,8 @@
 publiccodeYmlVersion: '0.2'
 name: Comunweb
-releaseDate: '2022-03-02'
+releaseDate: '2022-06-07'
 url: 'https://gitlab.com/comune-di-ala/comunweb'
-softwareVersion: 2.1.12
+softwareVersion: 2.1.13
 developmentStatus: stable
 softwareType: standalone/web
 platforms:
