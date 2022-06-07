@@ -11,7 +11,7 @@ data:
         name: OpenCity
         logo:
             filename: logo.png
-            url: https://via.placeholder.com/180x180/FFFFFF/000000/?text=LOGO
+            url: https://opencity.openpa.opencontent.io/var/opencity/storage/images/media/images/logo/8206-1-ita-IT/Logo.png
         link_al_menu_orizzontale:
             - $contenttree_OpenCity_Amministrazione_object
             - $contenttree_OpenCity_Servizi_object
