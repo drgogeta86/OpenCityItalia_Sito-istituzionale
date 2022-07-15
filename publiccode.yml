@@ -1,6 +1,6 @@
 publiccodeYmlVersion: '0.2'
-name: Comunweb
-releaseDate: '2022-06-07'
+name: OpenCity
+releaseDate: '2022-07-15'
 url: 'https://gitlab.com/comune-di-ala/comunweb'
 softwareVersion: 2.1.13
 developmentStatus: stable
@@ -90,6 +90,9 @@ description:
             - 'Generazione automatica di dataset (metadati DCAT-AP_IT) aggiornati in tempo reale (REST API)'
             - 'Integrazione con CKAN'
             - 'Informazioni geografiche con Nominatim (geocoder) e OpenStreetMap  (rappresentazione)'
+            - 'PNRR'
+            - 'PNRR/Misura/1.2'            
+            - 'PNRR/Beneficiari/Comuni'
         genericName: 'Sito web comunale'
         screenshots:
             - images/comunweb01.png
