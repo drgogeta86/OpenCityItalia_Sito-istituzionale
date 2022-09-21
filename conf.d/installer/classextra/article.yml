@@ -55,6 +55,16 @@ attribute_group:
         '*': Dokumente
     'ger-DE::ulteriori_informazioni':
         '*': 'Weitere Informationen'
+    'eng-GB::contatti':
+        '*': Contacts
+    'eng-GB::corpo':
+        '*': Description
+    'eng-GB::dataset':
+        '*': Dataset
+    'eng-GB::documenti':
+        '*': Documents
+    'eng-GB::ulteriori_informazioni':
+        '*': 'Further information'
 bootstrapitalia_icon:
     enabled:
         '*': '1'

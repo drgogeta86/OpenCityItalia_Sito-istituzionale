@@ -29,31 +29,31 @@ attribute_group:
     enabled:
         '*': '1'
     'eng-GB::appuntamenti':
-        '*': Appuntamenti
+        '*': Appointments
     'eng-GB::contatti':
-        '*': Contatti
+        '*': Contacts
     'eng-GB::cos_e':
-        '*': 'Cos''è'
+        '*': 'What is it?'
     'eng-GB::costi':
-        '*': Costi
+        '*': Costs
     'eng-GB::date_e_orari':
-        '*': 'Date e orari'
+        '*': 'Dates and times'
     'eng-GB::documenti':
-        '*': Documenti
+        '*': Documents
     'eng-GB::luogo':
-        '*': Luogo
+        '*': Place
     'eng-GB::ulteriori_informazioni':
-        '*': 'Ulteriori informazioni'
+        '*': 'Further information'
     'ger-DE::appuntamenti':
         '*': Termine
     'ger-DE::contatti':
         '*': Kontakt
     'ger-DE::cos_e':
-        '*': 'Was Sie hierzu wissen müssen  '
+        '*': 'Was Sie wissen müssen  '
     'ger-DE::costi':
-        '*': Kosten
+        '*': 'Kosten und Gebühren'
     'ger-DE::date_e_orari':
-        '*': 'Parteienverkehr (Amts- und Sprechzeiten)'
+        '*': 'Daten und Uhrzeiten'
     'ger-DE::documenti':
         '*': Dokumente
     'ger-DE::luogo':

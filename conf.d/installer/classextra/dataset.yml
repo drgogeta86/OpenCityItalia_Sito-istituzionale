@@ -29,6 +29,10 @@ attribute_group:
         '*': Datensatz
     'ger-DE::informazioni_sul_dataset':
         '*': 'Informationen über den Datensatz'
+    'eng-GB::dataset':
+        '*': Dataset
+    'eng-GB::informazioni_sul_dataset':
+        '*': 'Informations about the dataset'
 table_view:
     collapse_label:
         spatial: '1'

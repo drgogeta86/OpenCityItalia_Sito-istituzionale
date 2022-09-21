@@ -13,13 +13,13 @@ attribute_group:
     enabled:
         '*': '1'
     'eng-GB::contatti':
-        '*': Contatti
+        '*': Contacts
     'eng-GB::documenti':
-        '*': Documenti
+        '*': Documents
     'eng-GB::ruolo':
-        '*': Ruolo
+        '*': Role
     'eng-GB::ulteriori_informazioni':
-        '*': 'Ulteriori informazioni'
+        '*': 'Further information'
     'ger-DE::contatti':
         '*': Kontakt
     'ger-DE::documenti':

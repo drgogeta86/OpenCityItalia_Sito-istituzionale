@@ -14,9 +14,17 @@ attribute_group:
     'sort::documenti':
         '*': '2'
     'ger-DE::cos_e':
-        '*': 'Was Sie hierzu wissen müssen  '
+        '*': 'Was Sie wissen müssen  '
     'ger-DE::documenti':
         '*': Dokumente
+    'ita-IT::cos_e':
+        '*': 'Cos''è'
+    'eng-GB::cos_e':
+        '*': 'What is it?'
+    'ita-IT::documenti':
+        '*': Documenti
+    'eng-GB::documenti':
+        '*': Documents
 card_small_view:
     show:
         abstract: '1'

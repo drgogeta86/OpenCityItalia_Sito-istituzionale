@@ -43,7 +43,7 @@ attribute_group:
     'ger-DE::contatti':
         '*': Kontakt
     'ger-DE::cosa_fa':
-        '*': 'Zuständigkeiten'
+        '*': 'Zuständigkeiten '
     'ger-DE::documenti':
         '*': Dokumente
     'ger-DE::persone':
@@ -51,9 +51,37 @@ attribute_group:
     'ger-DE::servizi':
         '*': Dienste
     'ger-DE::struttura':
-        '*': Struktur
+        '*': Gremium
     'ger-DE::ulteriori_informazioni':
         '*': 'Weitere Informationen'
+    'ita-IT::contatti':
+        '*': Contatti
+    'eng-GB::contatti':
+        '*': Contacts
+    'ita-IT::cosa_fa':
+        '*': 'Cosa fa'
+    'eng-GB::cosa_fa':
+        '*': 'What does he/she/it do?'
+    'ita-IT::documenti':
+        '*': Documenti
+    'eng-GB::documenti':
+        '*': Documents
+    'ita-IT::persone':
+        '*': Persone
+    'eng-GB::persone':
+        '*': People
+    'ita-IT::servizi':
+        '*': Servizi
+    'eng-GB::servizi':
+        '*': Services
+    'ita-IT::struttura':
+        '*': Struttura
+    'eng-GB::struttura':
+        '*': Structure
+    'ita-IT::ulteriori_informazioni':
+        '*': 'Ulteriori informazioni'
+    'eng-GB::ulteriori_informazioni':
+        '*': 'Further information'
 table_view:
     enabled:
         '*': '1'
@@ -84,4 +112,3 @@ card_small_view:
     show:
         content_show_read_more: '1'
         description: '1'
-    

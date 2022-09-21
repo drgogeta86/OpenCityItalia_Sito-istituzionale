@@ -37,27 +37,27 @@ attribute_group:
     enabled:
         '*': '1'
     'eng-GB::a_chi_si_rivolge':
-        '*': 'A chi si rivolge'
+        '*': 'Who is it for?'
     'eng-GB::accedere_al_servizio':
-        '*': 'Accedere al servizio'
+        '*': 'Access the service'
     'eng-GB::casi_particolari':
-        '*': 'Casi particolari'
+        '*': 'Particular cases'
     'eng-GB::contatti':
-        '*': Contatti
+        '*': Contacts
     'eng-GB::cos_e':
-        '*': 'Cos''è'
+        '*': 'What is it?'
     'eng-GB::cosa_serve':
-        '*': 'Cosa serve'
+        '*': 'What is it for?'
     'eng-GB::costi_e_vincoli':
-        '*': 'Costi e vincoli'
+        '*': 'Costs and constraints'
     'eng-GB::documenti':
-        '*': Documenti
+        '*': Documents
     'eng-GB::siti_esterni':
-        '*': 'Siti esterni'
+        '*': 'External websites'
     'eng-GB::tempi_e_scadenze':
-        '*': 'Tempi e scadenze'
+        '*': 'Times and deadlines'
     'eng-GB::ulteriori_informazioni':
-        '*': 'Ulteriori informazioni'
+        '*': 'Further information'
     'ger-DE::a_chi_si_rivolge':
         '*': 'An wen sich diese Dienstleistung richtet'
     'ger-DE::accedere_al_servizio':
@@ -67,11 +67,11 @@ attribute_group:
     'ger-DE::contatti':
         '*': Kontakt
     'ger-DE::cos_e':
-        '*': 'Was Sie hierzu wissen müssen  '
+        '*': 'Was Sie wissen müssen  '
     'ger-DE::cosa_serve':
-        '*': 'Notwendige Dokumente'
+        '*': 'Diese Dokumente müssen Sie vorlegen'
     'ger-DE::costi_e_vincoli':
-        '*': 'Kosten und Voraussetzungen'
+        '*': 'Kosten und Bedingungen'
     'ger-DE::documenti':
         '*': Dokumente
     'ger-DE::siti_esterni':
@@ -83,7 +83,7 @@ attribute_group:
     'ita-IT::a_chi_si_rivolge':
         '*': 'A chi si rivolge'
     'ita-IT::accedere_al_servizio':
-        '*': 'Accedere al servizio'
+        '*': 'Accedere al servizio '
     'ita-IT::casi_particolari':
         '*': 'Casi particolari'
     'ita-IT::contatti':

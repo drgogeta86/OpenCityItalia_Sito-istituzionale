@@ -61,6 +61,14 @@ attribute_group:
         '*': 'Fristen und Fälligkeiten'
     'ger-DE::ulteriori_informazioni':
         '*': 'Weitere Informationen'
+    'eng-GB::accedere_al_servizio':
+        '*': 'Access the service'
+    'eng-GB::descrizione':
+        '*': Description
+    'eng-GB::tempi_e_scadenze':
+        '*': 'Times and deadlines'
+    'eng-GB::ulteriori_informazioni':
+        '*': 'Further information'
 bootstrapitalia_icon:
     enabled:
         '*': '1'

@@ -52,6 +52,22 @@ attribute_group:
         '*': 'Funktion '
     'ger-DE::ulteriori_informazioni':
         '*': 'Weitere Informationen'
+    'ita-IT::contatti':
+        '*': Contatti
+    'eng-GB::contatti':
+        '*': Contacts
+    'ita-IT::documenti':
+        '*': Documenti
+    'eng-GB::documenti':
+        '*': Documents
+    'ita-IT::ruolo':
+        '*': Ruolo
+    'eng-GB::ruolo':
+        '*': Role
+    'ita-IT::ulteriori_informazioni':
+        '*': 'Ulteriori informazioni'
+    'eng-GB::ulteriori_informazioni':
+        '*': 'Further information'
 bootstrapitalia_icon:
     enabled:
         '*': '1'
