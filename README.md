@@ -13,7 +13,7 @@ Sito Istituzionale di un Comune Italiano, conforme alle linee guida di [Design I
 
 ## Descrizione
 
-![Homepage di OpenCity](/images/cms01.png "Image Title")
+![Homepage di OpenCity](/images/oc02.png "OpenCity Demo")
 
 E' un modello di portale web avanzato, adatto a promuovere i contenuti di un ente pubblico in modalità multi-canale (pc, tablet,
 smartphone, totem). Conforme alle Linee Guida di design per i servizi web della PA e sviluppato utilizzando i KIT di Designers
