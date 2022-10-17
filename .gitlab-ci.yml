@@ -25,7 +25,7 @@ before_script:
 
 publiccode:
     stage: build
-    allow_failure: true
+    allow_failure: false
     script:
       - docker run -i italia/publiccode-parser-go /dev/stdin < publiccode.yml
 
