@@ -1,37 +1,31 @@
 publiccodeYmlVersion: '0.2'
-name: Comunweb
+name: OpencityItalia - Sito istituzionale
 releaseDate: '2022-06-07'
-url: 'https://gitlab.com/comune-di-ala/comunweb'
+url: 'https://gitlab.com/opencity-labs/sito-istituzionale/cms'
 softwareVersion: 2.1.13
 developmentStatus: stable
 softwareType: standalone/web
 platforms:
     - web
 usedBy:
-    - 'Comune di Ala (TN)'
-    - 'APSP Giudicarie Esteriori (Bleggio) (TN)'
-    - 'APSP Pellizzano (TN)'
-    - 'Consorzio Comuni Trentini (TN)'
+    - 'Comune di Verbania (VB)'
+    - 'Comune di Vicopisano (PI)'
+    - 'Comune di Monopoli (BA)'
     - 'Comune di Alfianello (BS)'
-    - 'Comune di Borgo D''Aunania (TN)'
     - 'Comune di Bovegno (BS)'
     - 'Comune di Brescello (RE)'
-    - 'Comune di Novella (TN)'
     - 'Comune di Novellara (RE)'
     - 'Comune di Ome (BS)'
     - 'Comune di Orzivecchi (BS)'
-    - 'Comune di Pergine Valsugana (TN)'
     - 'Comune di Pezzaze (BS)'
     - 'Comune di Rovato (BS)'
-    - 'Comune di San Michele all''Adige (TN)'
     - 'Comune di Tavagnacco'
     - 'Comune di Torbole Casaglia (BS)'
     - 'Comune di Udine (UD)'
     - 'Comune di Verolanuova (BS)'
     - 'Comune di Villachiara (BS)'
-    - 'Comune Ville di Fiemme (TN)'
     - 'SIA Bassa Reggiana (RE)'
-landingURL: 'https://gitlab.com/comune-di-ala/comunweb'
+landingURL: 'https://gitlab.com/opencity-labs/sito-istituzionale'
 logo: images/opencontent.png
 categories:
     - content-management
@@ -42,13 +36,13 @@ maintenance:
     contacts:
         -
             name: 'Gabriele Francescotto'
-            email: gabriele.francescotto@opencontent.it
+            email: gabriele.francescotto@opencitylabs.it
             phone: '+39 0461 917437'
-            affiliation: 'Opencontent SCARL'
+            affiliation: 'Opencity Labs Srl'
 legal:
-    license: GPL-2.0-only
-    mainCopyrightOwner: 'Comune di Ala'
-    repoOwner: 'Comune di Ala (TN)'
+    license: AGPL-3.0-or-later
+    mainCopyrightOwner: 'OpenCity Labs srl'
+    repoOwner: 'OpenCity Labs srl'
 intendedAudience:
     scope:
         - local-authorities
@@ -61,9 +55,9 @@ localisation:
     localisationReady: true
     availableLanguages:
         - it
+        - de
+        - en
 it:
-    riuso:
-        codiceIPA: c_a116
     conforme:
         lineeGuidaDesign: true
         modelloInteroperabilita: true
@@ -73,8 +67,8 @@ description:
     it:
         shortDescription: 'Il sito web comunale'
         longDescription: "E' un modello di sito web avanzato, adatto a promuovere i contenuti di un ente locale in modalità multi-canale con un'esperienza utente molto gradevole. Il sistema accompagna i redattori nella gestione dei contenuti, rappresentati e strutturati secondo gli standard dell'informazione previsti dalle \"Linee Guida di Design di siti e servizi della PA\"; i dati vengono valorizzati anche attraverso gallerie fotografiche, calendari, mappe, grafici e motori di ricerca. Pensato per le redazioni distribuite: ogni funzionario interviene nel flusso di gestione in base alla propria competenza. I comuni che lo adottano ottengono un duplice beneficio: nuovi canali di dialogo con il cittadino e strumenti per gestire il processo di trasformazione digitale. Comunweb nasce dalla collaborazione tra Consorzio dei Comuni Trentini ed Team per la Trasformazione Digitale, volta a creare un modello unico di interazione digitale tra cittadini e comuni in Italia; il Comune di Ala è il primo tra questi.\n"
-        documentation: 'https://comunweb-il-sito-comunale.readthedocs.io'
-        apiDocumentation: 'https://documenter.getpostman.com/view/7046499/S17tPncG'
+        documentation: 'https://link.opencontent.it/opencity?utm_source=developers-italia'
+        apiDocumentation: 'https://link.opencontent.it/opencityitalia-cms-api?utm_source=developers-italia'
         features:
             - 'Gestione collaborativa dei contenuti (bozze, workflow di pubblicazione, versioning)'
             - 'Conformità al modello di design previsto dalle Linee Guida di Design di siti e servizi della PA'
@@ -92,33 +86,33 @@ description:
             - 'Informazioni geografiche con Nominatim (geocoder) e OpenStreetMap  (rappresentazione)'
         genericName: 'Sito web comunale'
         screenshots:
-            - images/comunweb01.png
-            - images/comunweb02.png
-            - images/comunweb03.png
-            - images/comunweb04.png
-            - images/comunweb05.png
-            - images/comunweb06.png
-            - images/comunweb07.png
-            - images/comunweb08.png
-            - images/comunweb09.png
-            - images/comunweb10.png
-            - images/comunweb11.png
-            - images/comunweb12.png
-            - images/comunweb13.png
-            - images/comunweb14.png
-            - images/comunweb15.png
-            - images/comunweb16.png
-            - images/comunweb17.png
-            - images/comunweb18.png
-            - images/comunweb19.png
-            - images/comunweb20.png
-            - images/comunweb21.png
-            - images/comunweb22.png
-            - images/comunweb23.png
-            - images/comunweb24.png
-            - images/comunweb25.png
-            - images/comunweb26.png
-            - images/comunweb27.png
+            - images/oc01.png
+            - images/oc02.png
+            - images/oc03.png
+            - images/oc04.png
+            - images/oc05.png
+            - images/oc06.png
+            - images/oc07.png
+            - images/oc08.png
+            - images/oc09.png
+            - images/oc10.png
+            - images/oc11.png
+            - images/oc12.png
+            - images/oc13.png
+            - images/oc14.png
+            - images/oc15.png
+            - images/oc16.png
+            - images/oc17.png
+            - images/oc18.png
+            - images/oc19.png
+            - images/oc20.png
+            - images/oc21.png
+            - images/oc22.png
+            - images/oc23.png
+            - images/oc24.png
+            - images/oc25.png
+            - images/oc26.png
+            - images/oc27.png
 dependsOn:
     open:
         -
@@ -126,7 +120,7 @@ dependsOn:
             versionMin: '7.2'
         -
             name: PostgreSQL
-            versionMin: '9.6'
+            versionMin: '10'
         -
             name: Solr
             versionMin: 4.10.1
@@ -141,4 +135,4 @@ dependsOn:
         -
             name: Docker
             optional: true
-            versionMin: '18.09'
+            versionMin: '20.x'
