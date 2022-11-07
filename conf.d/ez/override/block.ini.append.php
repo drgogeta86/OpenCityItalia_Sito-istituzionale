@@ -356,6 +356,8 @@ Wide[]
 Wide[]=lista_card
 CanAddShowAllLink=disabled
 CanAddIntroText=disabled
+ContainerStyle[]
+ContainerStyle[lista_card]=evidence-section
 
 [ListaPaginata]
 Name=Lista paginata

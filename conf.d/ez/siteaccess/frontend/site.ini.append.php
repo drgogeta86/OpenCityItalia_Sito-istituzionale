@@ -61,8 +61,9 @@ RequireUserLogin=false
 ShowHiddenNodes=false
 
 [DesignSettings]
-SiteDesign=bootstrapitalia
+SiteDesign=bootstrapitalia2
 AdditionalSiteDesignList[]
+AdditionalSiteDesignList[]=bootstrapitalia
 AdditionalSiteDesignList[]=ocbootstrap4
 AdditionalSiteDesignList[]=ocbootstrap
 AdditionalSiteDesignList[]=standard

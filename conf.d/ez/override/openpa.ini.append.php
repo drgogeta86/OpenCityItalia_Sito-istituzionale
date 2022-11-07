@@ -60,4 +60,7 @@ AttributiAbstract[]=text
 AttributiAbstract[]=description
 AttributiAbstract[]=event_abstract
 
+[SideMenu]
+AmministrazioneTrasparenteTipoMenu=browsable
+
 */?>

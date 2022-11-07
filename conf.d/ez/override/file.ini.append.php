@@ -9,6 +9,7 @@ NonExistantStaleCacheHandling[misc]=generate
 [eZDFSClusteringSettings]
 MountPointPath=/mnt/efs/cluster-openpa/
 DBBackend=eZDFSFileHandlerPostgresqlBackend
+DFSBackend=OpenPADFSFileHandlerDFSDispatcher
 DBName=
 DBHost=
 DBPort=
