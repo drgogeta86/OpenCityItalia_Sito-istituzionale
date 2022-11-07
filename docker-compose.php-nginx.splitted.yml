@@ -2,8 +2,9 @@ version: '3.7'
 
 services:
 
-    php-nginx:
-        image: registry.gitlab.com/opencontent/opencity/php-nginx:latest
+    php:
+        image: registry.gitlab.com/opencontent/opencity/php:latest
+        entrypoint: /scripts/docker-entrypoint.sh php-fpm
         restart: unless-stopped
         depends_on:
             - minio
@@ -15,17 +16,14 @@ services:
             - dfs:/mnt/efs/cluster-opencity
             - ./conf.d/google_credentials.json:/var/www/html/google_credentials.json
         environment:
-            PHP_MEMORY_LIMIT: '512M'
-            PHP_POST_MAX_SIZE: '80M'
-            PHP_UPLOAD_MAX_FILESIZE: '80M'
-            PHP_TIMEOUT: 800
-            FPM_PM_MAX_CHILDREN: 100
-            PHP_DATE_TIMEZONE: 'Europe/Rome'
-            FPM_PM_MIN_SPARE_SERVERS: 1
-            FPM_PM_START_SERVERS: 5
-            FPM_PM_MAX_SPARE_SERVERS: 8
-            FPM_MAX_REQUESTS: 2000
-            WEB_DOCUMENT_ROOT: /var/www/html
+            PHP_INI_ENV_memory_limit: '512M'
+            PHP_INI_ENV_date.timezone: 'Europe/Rome'
+            PHP_FPM_ENV_pm: dynamic
+            PHP_FPM_ENV_pm.min_spare_servers: 1
+            PHP_FPM_ENV_pm.start_servers: 5
+            PHP_FPM_ENV_pm.max_spare_servers: 8
+            PHP_FPM_ENV_pm.max_children: 100
+            PHP_FPM_ENV_pm.max_requests: 2000
             EZ_ROOT: /var/www/html
             EZ_INSTANCE: opencity
             NO_FORCE_CONTAINER_REFRESH: 1
@@ -33,7 +31,6 @@ services:
             RUN_INSTALLER_TRASPARENZA: 'true'
             RUN_INSTALLER_NEWSLETTER: 'true'
             RUN_INSTALLER_DEMO: 'true'
-            RUN_INSTALLER_FAQ: 'true'
             RUN_REINDEX_CONTENT: 'false'
 
             GOOGLE_CREDENTIAL_JSON_FILE: "/var/www/html/google_credentials.json"
@@ -53,7 +50,7 @@ services:
             EZINI_openpa__InstanceSettings__NomeAmministrazioneAfferente: "OpenContent"
             EZINI_openpa__InstanceSettings__UrlAmministrazioneAfferente: "https://www.opencontent.it/opencity"
             EZINI_openpa__GeneralSettings__tag_line: "Il sito web per l'ente pubblico"
-            EZINI_openpa__GeneralSettings__theme: default
+            EZINI_openpa__GeneralSettings__theme: cagliari
 
             #### Impostazioni var dir (unica per istanza)
             EZINI_site__FileSettings__VarDir: var/opencity
@@ -71,12 +68,16 @@ services:
             EZINI_site__DatabaseSettings__Database: opencity
 
             #### Impostazioni db cluster (da impostare come db)
+            EZINI_file__eZDFSClusteringSettings__DBBackend: eZDFSFileHandlerPostgresqlBackend
+            #EZINI_file__eZDFSClusteringSettings__DFSBackend: eZDFSFileHandlerDFSBackend
+            EZINI_file__eZDFSClusteringSettings__DFSBackend: OpenPADFSFileHandlerDFSDispatcher
             EZINI_file__eZDFSClusteringSettings__DBHost: postgres
             EZINI_file__eZDFSClusteringSettings__DBPort: 5432
             EZINI_file__eZDFSClusteringSettings__DBUser: openpa
             EZINI_file__eZDFSClusteringSettings__DBPassword: openp4ssword
             EZINI_file__eZDFSClusteringSettings__DBName: opencity
             EZINI_file__eZDFSClusteringSettings__MountPointPath: '/mnt/efs/cluster-opencity'
+            #CLUSTER_STORAGE_GATEWAY_PATH: "extension/ezpostgresqlcluster/clustering/dfs/gateway.php"
             CLUSTER_STORAGE_GATEWAY_PATH: "extension/openpa/classes/clustering/gateway.php"
 
             #### Impostazioni solr
@@ -106,27 +107,26 @@ services:
             ## Bucket e Regione S3
             #EZINI_openpa_cluster__AWSS3DFSBackendSettings__Region: ''
             EZINI_openpa_cluster__AWSS3DFSBackendSettings__Bucket: 'opencity-bucket'
-            ## Solo per configurazioni di emulatori di S3
             # Dominio che serve le immagini pubbliche: se non configurato è s3-<Region>.amazonaws.com
-            EZINI_openpa_cluster__AWSS3DFSBackendSettings__Endpoint: 'http://minio:9000'
-            EZINI_openpa_cluster__AWSS3DFSBackendSettings__ServerUri: 'minio-opencity.localtest.me'
-            EZINI_openpa_cluster__AWSS3DFSBackendSettings__UsePathStyleEndpoint: 'enabled'
+            #EZINI_openpa_cluster__AWSS3DFSBackendSettings__ServerUri: 'localhost:4567'
 
             ## Se non si utilizza la strategia ec2_instance-profiles (https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_switch-role-ec2_instance-profiles.html)
             ## occorre configurare AWS_PROFILE oppure AWS_ACCESS_KEY_ID,AWS_SECRET_ACCESS_KEY,AWS_SESSION_TOKEN:
             AWS_ACCESS_KEY_ID: AKIAIOSFODNN7EXAMPLE
             AWS_SECRET_ACCESS_KEY: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
-#        labels:
-#            traefik.enable: 'true'
-#            traefik.http.services.opencity-nginx.loadbalancer.server.port: 80
-#            traefik.http.routers.opencity-nginx-https.rule: Host(`opencity.localtest.me`)
-#            traefik.http.routers.opencity-nginx-https.entrypoints: websecure
-#            traefik.http.routers.opencity-nginx-https.tls: null
-#            traefik.http.routers.opencity-nginx-https.middlewares: 'frame-allow-self, goodheaders'
-#            traefik.http.routers.opencity-nginx-http.rule: Host(`opencity.localtest.me`)
-#            traefik.http.routers.opencity-nginx-http.entrypoints: web
-#            traefik.http.middlewares.frame-allow-self.headers.customFrameOptionsValue: 'SAMEORIGIN'
 
+            ## Solo per configurazioni di emulatori di S3
+            EZINI_openpa_cluster__AWSS3DFSBackendSettings__Endpoint: 'http://minio:9000'
+            EZINI_openpa_cluster__AWSS3DFSBackendSettings__ServerUri: 'minio-opencity.localtest.me'
+            EZINI_openpa_cluster__AWSS3DFSBackendSettings__UsePathStyleEndpoint: 'enabled'
+
+    nginx:
+        image: registry.gitlab.com/opencontent/opencity/nginx:latest
+        restart: unless-stopped
+        depends_on:
+            - php
+        environment:
+            EZ_INSTANCE: opencity
 
     varnish:
         image: registry.gitlab.com/opencontent/opencity/varnish:latest
@@ -142,11 +142,10 @@ services:
             traefik.http.routers.opencity-http.entrypoints: web
             traefik.http.middlewares.frame-allow-self.headers.customFrameOptionsValue: 'SAMEORIGIN'
         depends_on:
-            - php-nginx
+            - nginx
         environment:
             VARNISH_BACKEND_GRACE: 10m
-            VARNISH_BACKEND_HOST: php-nginx
-            VARNISH_BACKEND_PORT: 80
+            VARNISH_BACKEND_HOST: nginx
             VARNISH_CACHE_STATIC_FILES: 1 #attivo ma non gestibile dal vcl iniettato
             VARNISH_DEFAULT_TTL: 300s
             VARNISH_ERRORS_GRACE: 60s
@@ -246,18 +245,12 @@ services:
         image: minio/minio
         volumes:
             - miniodata:/data
-        command: server --console-address ":9001" /data
+        command: server /data
         environment:
             MINIO_ACCESS_KEY: AKIAIOSFODNN7EXAMPLE
             MINIO_SECRET_KEY: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
-        healthcheck:
-            test: ["CMD", "curl", "-f", "http://localhost:9000/minio/health/live"]
-            interval: 30s
-            timeout: 20s
-            retries: 3
         ports:
             - "9000:9000"
-            - "9001:9001"
         labels:
             traefik.enable: 'true'
             traefik.http.services.opencity-minio.loadbalancer.server.port: 9000
@@ -276,7 +269,7 @@ services:
             /bin/sh -c "
             while ! /usr/bin/mc config host add minio http://minio:9000 AKIAIOSFODNN7EXAMPLE wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY; do echo 'Wait minio to startup...' && sleep 0.1; done;
             /usr/bin/mc mb minio/opencity-bucket;
-            /usr/bin/mc policy set public minio/opencity-bucket;            
+            /usr/bin/mc policy set public minio/opencity-bucket;
             exit 0;
             "  
 
