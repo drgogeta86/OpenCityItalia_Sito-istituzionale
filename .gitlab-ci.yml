@@ -85,35 +85,6 @@ push_php_latest:
     only:
         - master
 
-push_nginx_branches:
-    stage: push
-    script:
-        - docker pull  $NGINX_TMP_IMAGE
-        - docker tag   $NGINX_TMP_IMAGE "$NGINX_IMAGE:$CI_COMMIT_REF_NAME"
-        - docker push "$NGINX_IMAGE:$CI_COMMIT_REF_NAME"
-    only:
-        - branches
-    except:
-        - master
-
-push_nginx_tags:
-    stage: push
-    script:
-        - docker pull  $NGINX_TMP_IMAGE
-        - docker tag   $NGINX_TMP_IMAGE "$NGINX_IMAGE:$CI_COMMIT_TAG"
-        - docker push "$NGINX_IMAGE:$CI_COMMIT_TAG"
-    only:
-        - tags
-
-push_nginx_latest:
-    stage: push
-    script:
-        - docker pull  $NGINX_TMP_IMAGE
-        - docker tag   $NGINX_TMP_IMAGE "$NGINX_IMAGE:latest"
-        - docker push "$NGINX_IMAGE:latest"
-    only:
-        - master
-
 push_solr_branches:
     stage: push
     script:
