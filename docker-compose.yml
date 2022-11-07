@@ -3,7 +3,7 @@ version: '3.7'
 services:
 
     php-nginx:
-        image: registry.gitlab.com/opencontent/opencity/php-nginx:latest
+        image: registry.gitlab.com/opencity-labs/sito-istituzionale/cms/php-nginx:latest
         restart: unless-stopped
         depends_on:
             - minio
@@ -122,14 +122,12 @@ services:
 #            traefik.http.routers.opencity-nginx-https.rule: Host(`opencity.localtest.me`)
 #            traefik.http.routers.opencity-nginx-https.entrypoints: websecure
 #            traefik.http.routers.opencity-nginx-https.tls: null
-#            traefik.http.routers.opencity-nginx-https.middlewares: 'frame-allow-self, goodheaders'
 #            traefik.http.routers.opencity-nginx-http.rule: Host(`opencity.localtest.me`)
 #            traefik.http.routers.opencity-nginx-http.entrypoints: web
-#            traefik.http.middlewares.frame-allow-self.headers.customFrameOptionsValue: 'SAMEORIGIN'
 
 
     varnish:
-        image: registry.gitlab.com/opencontent/opencity/varnish:latest
+        image: registry.gitlab.com/opencity-labs/sito-istituzionale/cms/varnish:latest
         restart: unless-stopped
         labels:
             traefik.enable: 'true'
@@ -152,7 +150,7 @@ services:
             VARNISH_ERRORS_GRACE: 60s
 
     solr:
-        image: registry.gitlab.com/opencontent/opencity/solr:latest
+        image: registry.gitlab.com/opencity-labs/sito-istituzionale/cms/solr:latest
         command: '-s /opt/ez'
         restart: unless-stopped
         volumes:
