@@ -89,16 +89,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.240.10",
+            "version": "3.246.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "84b8229fc25cf787876047b6a73b202209853e79"
+                "reference": "34c2e3d699d08bc8f212d57f0d7a374a7404c653"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/84b8229fc25cf787876047b6a73b202209853e79",
-                "reference": "84b8229fc25cf787876047b6a73b202209853e79",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/34c2e3d699d08bc8f212d57f0d7a374a7404c653",
+                "reference": "34c2e3d699d08bc8f212d57f0d7a374a7404c653",
                 "shasum": ""
             },
             "require": {
@@ -177,9 +177,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.240.10"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.246.1"
             },
-            "time": "2022-11-04T19:25:00+00:00"
+            "time": "2022-11-19T22:48:18+00:00"
         },
         {
             "name": "clue/stream-filter",
@@ -1443,16 +1443,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.273.0",
+            "version": "v0.275.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "827bbf2b7b20fa97e845122d3d91517e173e959f"
+                "reference": "fe34eef7717556c2e64dfc37de3fde930a23a68f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/827bbf2b7b20fa97e845122d3d91517e173e959f",
-                "reference": "827bbf2b7b20fa97e845122d3d91517e173e959f",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/fe34eef7717556c2e64dfc37de3fde930a23a68f",
+                "reference": "fe34eef7717556c2e64dfc37de3fde930a23a68f",
                 "shasum": ""
             },
             "require": {
@@ -1481,9 +1481,9 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.273.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.275.0"
             },
-            "time": "2022-11-07T01:34:13+00:00"
+            "time": "2022-11-18T01:28:37+00:00"
         },
         {
             "name": "google/auth",
@@ -4143,16 +4143,16 @@
         },
         {
             "name": "opencontent/openpa-ls",
-            "version": "3.16.1",
+            "version": "3.16.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/openpa.git",
-                "reference": "c6252527b5d1d4af44fa002a61b7fdb7a4779502"
+                "reference": "c89f17d0e7ab6b3276b8b906fac5653cfc8ca65a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/openpa/zipball/c6252527b5d1d4af44fa002a61b7fdb7a4779502",
-                "reference": "c6252527b5d1d4af44fa002a61b7fdb7a4779502",
+                "url": "https://api.github.com/repos/OpencontentCoop/openpa/zipball/c89f17d0e7ab6b3276b8b906fac5653cfc8ca65a",
+                "reference": "c89f17d0e7ab6b3276b8b906fac5653cfc8ca65a",
                 "shasum": ""
             },
             "require": {
@@ -4176,9 +4176,9 @@
             "description": "OpenContent OpenPA",
             "support": {
                 "issues": "https://github.com/OpencontentCoop/openpa/issues",
-                "source": "https://github.com/OpencontentCoop/openpa/tree/3.16.1"
+                "source": "https://github.com/OpencontentCoop/openpa/tree/3.16.2"
             },
-            "time": "2022-08-05T10:33:47+00:00"
+            "time": "2022-10-25T14:43:27+00:00"
         },
         {
             "name": "opencontent/openpa_bootstrapitalia-ls",
@@ -4186,12 +4186,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/openpa_bootstrapitalia.git",
-                "reference": "7a8a2f2d395ac8bcd2482c8398dbb77304f9acfd"
+                "reference": "f238faa1ba6597f5d2866ef6c0496837a2339c9d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/openpa_bootstrapitalia/zipball/7a8a2f2d395ac8bcd2482c8398dbb77304f9acfd",
-                "reference": "7a8a2f2d395ac8bcd2482c8398dbb77304f9acfd",
+                "url": "https://api.github.com/repos/OpencontentCoop/openpa_bootstrapitalia/zipball/f238faa1ba6597f5d2866ef6c0496837a2339c9d",
+                "reference": "f238faa1ba6597f5d2866ef6c0496837a2339c9d",
                 "shasum": ""
             },
             "require": {
@@ -4218,7 +4218,7 @@
                 "issues": "https://github.com/OpencontentCoop/openpa_bootstrapitalia/issues",
                 "source": "https://github.com/OpencontentCoop/openpa_bootstrapitalia/tree/v2"
             },
-            "time": "2022-11-07T09:48:18+00:00"
+            "time": "2022-11-15T20:13:55+00:00"
         },
         {
             "name": "opencontent/openpa_newsletter-ls",
@@ -5065,12 +5065,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/predis/predis.git",
-                "reference": "bdebad7d6293b80b18052cedfa5ee935653d71b5"
+                "reference": "94bd54b2afabced2a5be7b37b20eb749fd4c8d2b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/predis/predis/zipball/bdebad7d6293b80b18052cedfa5ee935653d71b5",
-                "reference": "bdebad7d6293b80b18052cedfa5ee935653d71b5",
+                "url": "https://api.github.com/repos/predis/predis/zipball/94bd54b2afabced2a5be7b37b20eb749fd4c8d2b",
+                "reference": "94bd54b2afabced2a5be7b37b20eb749fd4c8d2b",
                 "shasum": ""
             },
             "require": {
@@ -5129,7 +5129,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-11-03T00:07:32+00:00"
+            "time": "2022-11-17T15:48:16+00:00"
         },
         {
             "name": "psr/cache",
@@ -6206,7 +6206,7 @@
                 "portable"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-ctype/tree/main"
+                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.27.0"
             },
             "funding": [
                 {
@@ -6294,7 +6294,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-intl-idn/tree/main"
+                "source": "https://github.com/symfony/polyfill-intl-idn/tree/v1.27.0"
             },
             "funding": [
                 {
@@ -6379,7 +6379,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-intl-normalizer/tree/main"
+                "source": "https://github.com/symfony/polyfill-intl-normalizer/tree/v1.27.0"
             },
             "funding": [
                 {
@@ -6463,7 +6463,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-mbstring/tree/main"
+                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.27.0"
             },
             "funding": [
                 {
@@ -6540,7 +6540,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-php72/tree/main"
+                "source": "https://github.com/symfony/polyfill-php72/tree/v1.27.0"
             },
             "funding": [
                 {
@@ -6620,7 +6620,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-php73/tree/main"
+                "source": "https://github.com/symfony/polyfill-php73/tree/v1.27.0"
             },
             "funding": [
                 {
@@ -6704,7 +6704,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-php80/tree/main"
+                "source": "https://github.com/symfony/polyfill-php80/tree/v1.27.0"
             },
             "funding": [
                 {
