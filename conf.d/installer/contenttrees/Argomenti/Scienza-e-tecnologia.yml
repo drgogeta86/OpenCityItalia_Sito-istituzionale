@@ -1,0 +1,42 @@
+metadata:
+    remoteId: topic_1_scienza_e_tecnologia
+    classIdentifier: topic
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+        - ger-DE
+data:
+    ita-IT:
+        name: 'Scienza e tecnologia'
+        managed_by_area: {  }
+        managed_by_political_body: {  }
+        type: null
+        description: null
+        eu: 'http://publications.europa.eu/resource/authority/data-theme/TECH'
+        theme: null
+        data_themes_eurovocs: {  }
+        image: {  }
+        abstract: '<p>In questo tema rientra tutto ciò che riguarda la ricerca, l’innovazione, la tecnologia, la banda larga e ultralarga, la psicologia, le scienze umane, lo spazio.</p>'
+        icon: null
+        layout: {  }
+        help: {  }
+        show_topic_children: 1
+    ger-DE:
+        name: 'Wissenschaft und Technik'
+        managed_by_area: {  }
+        managed_by_political_body: {  }
+        type: null
+        description: null
+        eu: 'http://publications.europa.eu/resource/authority/data-theme/TECH'
+        theme: null
+        data_themes_eurovocs: {  }
+        image: {  }
+        abstract: ''
+        icon: null
+        layout: {  }
+        help: {  }
+        show_topic_children: 1
+sort_data:
+    sort_field: 9
+    sort_order: 1
+    priority: 0

@@ -1,0 +1,22 @@
+metadata:
+    remoteId: 7527419b2d5fde514875e35da20bfe1e
+    classIdentifier: organization
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+    parentNodes:
+        - $contenttree_Amministrazione_Uffici_node
+data:
+    ita-IT:
+        legal_name: 'Ufficio relazioni con il pubblico'
+        alt_name: 'Servizi al cittadino'
+        abstract: '<p>Il punto di accesso unico del cittadino e delle imprese per la presentazione di richieste, segnalazioni e reclami, per la consegna ed il ritiro di documentazione.</p>'
+        main_function: '<p>L’ufficio ha il compito di gestire alcuni servizi di sportello, configurandosi come punto di accesso unico del cittadino e delle imprese per la presentazione di richieste, segnalazioni e reclami, per la consegna ed il ritiro di documentazione, l’informazione sui servizi e l’accesso alla documentazione amministrativa. In particolare, spetta all''ufficio la gestione dei servizi di prima informazione al cittadino ed alle imprese sui principali servizi ed attività comunali,- la gestione servizi di sportello (ritiro domande, documentazioni, segnalazioni, rilascio modulistica, documenti, ecc.) per attività di competenza di altri uffici comunali, sulla base di atti organizzativi gestionali di dettaglio.</p>'
+        type:
+            - 'Struttura amministrativa'
+        has_spatial_coverage:
+            - $content_Palazzo-del-municipio_object
+        has_online_contact_point:
+            - $content_Contatti-URP_object
+        topics:
+            - topic_9

@@ -1,0 +1,86 @@
+parent_id,id,remote_id,path_string,keyword_it,keyword_de,keyword_pa,keyword_en,synonyms_it,synonyms_de,synonyms_pa,synonyms_en,description_it,description_de,description_en,hash
+0,69,e520190f00b91238ac1b53cda99ddf53,/69/,Documenti,,,,,,,,,,,c2fa2a3cb9a4a9ef321746c679b656dc
+69,131,ccfe1d0a4572ea4a42fc6bf943c38c80,/69/131/,"Tipo di documento",,,,,,,,,,,d40b50353a003d2ed083de70b878f974
+131,13686,a044c595e90bcef11d7712f1aba75f1e,/69/131/13686/,"Documenti di programmazione e rendicontazione",,,,"Documento di programmazione e rendicontazione",,,,,,,2b9061c828e18d46455cc0f561dcb2cf
+13686,13212,59517f47edd46d3f84084dc075eea8a5,/69/131/13686/13212/,"Documento unico di programmazione",,,,DUP,,,,,,,068ba7fef8d676f470ac9a406a7e033b
+13686,13688,8a87e5de6838f569f6250665992717c9,/69/131/13686/13688/,"Piano Esecutivo di Gestione",,,,,,,,,,,39ee5fff9bf9338bb5029dae6843bf99
+13686,9047,e9d9667780d24743841bed9cf4eb9671,/69/131/13686/9047/,"Bilancio consuntivo",,,,"Bilanci consuntivi",,,,,,,3040a7968ef60b47fb75633d894ada85
+13686,9048,850279a579219edf78946b3d86ec92a5,/69/131/13686/9048/,"Bilancio preventivo",,,,"Bilanci preventivi",,,,,,,9db1fd14a9f418b0f3cb936f12a1f56e
+13686,9053,bf7a01fb672c502cfaf7c05eeea70a02,/69/131/13686/9053/,Rendiconto,,,,Rendiconti,,,,,,,bcef0bb1fe8b3381169deee179afacb3
+131,8992,74d9b8a5382dfebaffe422a0c28fc17a,/69/131/8992/,"Accordi tra enti",,,,"Accordo tra enti",,,,,,,e881ae53d5646a8a61e22342aab46ffc
+8992,8993,4edd25ee7f0167caeeeb0d4fd2429e9e,/69/131/8992/8993/,Accordo,,,,Accordi,,,,,,,c9fecaaf6748cd62e637a7b05c9b0e7e
+8992,8994,16340069463e01dbf53ad6e43ec918a7,/69/131/8992/8994/,Convenzione,,,,Convenzioni,,,,,,,e2f459ffed933dbc0f17285a35bcbaad
+8992,8995,d416b7d893745e2b2459a2d1a567c0d2,/69/131/8992/8995/,Parere,,,,Pareri,,,,,,,e151ace153a887e47fbc6394615ef886
+8992,8996,c324381af69d4b2e89e5ba32c1d8fc33,/69/131/8992/8996/,Partnership,,,,Partnerships,,,,,,,9a1b0b3c7b4fbe7a78ac99dd7cd19056
+131,8997,984c6235761dac258fe8c245541095fa,/69/131/8997/,"Documenti Albo Pretorio",,,,"Documento Albo Pretorio",,,,,,,882a414956d6abc48ae6bd8caab34c11
+8997,12999,e9b9ff2bd36752f66d70f70833583e4d,/69/131/8997/12999/,"Atto amministrativo",,https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A,,"Atti amministrativi",,,,,,,e71fa0551a52bbfe24d76c13f073bcd9
+12999,9009,b4cfb68f37c75095702fa46048373cbc,/69/131/8997/12999/9009/,Decreto,,https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-01,,Decreti,,,,,,,39d1847eec490ad1dd582ae4bb797f6e
+9009,9010,fd0176933fb88cb62d6a3ad4be3cdaa2,/69/131/8997/12999/9009/9010/,"Decreto del Dirigente",,https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-01-01,,"Decreti del Dirigente",,,,,,,559154b4afc2fc913348360de92dc12d
+9009,9011,ccf6761810b5ac50d32eade1fbe17fca,/69/131/8997/12999/9009/9011/,"Decreto del Sindaco",,https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-01-02,,"Decreto sindacale",,,,,,,27691de1ecf2f6452d1ad1b0ef9ee2bf
+12999,9012,5cf98dba69d46a79d7afa5fcbeea364a,/69/131/8997/12999/9012/,Deliberazione,,https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02,,Delibera,,,,,,,4afc717fc9c0ad34070715dd93cac97d
+9012,9013,4271686f78f9dbc0fb871f32553ffb6c,/69/131/8997/12999/9012/9013/,"Deliberazione del Commissario ad acta",,https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02-03,,"Delibere del Commissario ad acta",,,,,,,1c58fc0286b418a7bde863b6e688fdcf
+9012,9014,7634e3355a07d671094fe120d7919653,/69/131/8997/12999/9012/9014/,"Deliberazione del Consiglio circoscrizionale",,https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02-04,,"Delibere del Consiglio circoscrizionale",,,,,,,130c3962d905ac9bbc2552b10d951b4b
+9012,9015,7bda99bae095fde15daa1fe54af6861c,/69/131/8997/12999/9012/9015/,"Deliberazione del Consiglio comunale",,https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02-01,,"Deliberazione consiliare",,,,,,,cd073485a37959f4e79d3bc01c8231aa
+9012,9016,5b1e0b73926e47e0e8691c727a2a57df,/69/131/8997/12999/9012/9016/,"Deliberazione della Giunta comunale",,https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02-02,,"Deliberazione giuntale",,,,,,,f4e0f303fa00c9cd8914fda10dd81d42
+9012,9017,2a8a6817a8f54531c77be68f03655833,/69/131/8997/12999/9012/9017/,"Deliberazione dell'Esecutivo circoscrizionale",,https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02-05,,"Deliberazioni dell'Esecutivo circoscrizionale",,,,,,,9704ea44a99cbbc528e433d91099cf0e
+9012,9018,173d943cedd25729d8707a753b12280c,/69/131/8997/12999/9012/9018/,"Deliberazione di altri Organi",,https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02-06,,"Delibere di altri Organi",,,,,,,4ecfc79abdacca8d4a6a1b2163bcbeb1
+12999,9019,a5994c0e99b79cd4ca5ed1285135a461,/69/131/8997/12999/9019/,Determinazione,,https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-03,,Determina,,,,,,,30c4f582f3b19a228f53bdb7fa57d4bd
+9019,13006,f3431b7c90f441bab1a0b2e3068325d4,/69/131/8997/12999/9019/13006/,"Determinazione del Dirigente",,https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-03-01,,"Determinazione dirigenziale",,,,,,,6025e523289e727d85f5602182ee3c3c
+9019,13007,99af81198d42521cfc45090770824e26,/69/131/8997/12999/9019/13007/,"Determinazione del Sindaco",,https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-03-02,,"Determinazione sindacale",,,,,,,a03160d625d296758e0c94541351615b
+12999,9025,e1d14548c0079205ca387e42a8fdd9ca,/69/131/8997/12999/9025/,Ordinanza,,https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-04,,Ordinanze,,,,,,,344e2c62e11f0221b13339ec87ecf045
+9025,9026,4bdaece33ace3d1c3911b3b43c554b47,/69/131/8997/12999/9025/9026/,"Ordinanza del Dirigente",,https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-04-01,,"Ordinanza dirigenziale",,,,,,,d3e8ee9d6589762aa3ac36d4ffd0fec3
+9025,9027,2039d8bedb749132b8bf4301f4c6aeb6,/69/131/8997/12999/9025/9027/,"Ordinanza del Sindaco",,https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-04-02,,"Ordinanza sindacale",,,,,,,0db3e0e57fb7a0aaee5a7cda98703508
+8997,13000,0b1f1b3a0ab27434c5adddb75ba0ec1d,/69/131/8997/13000/,"Atto dello stato civile",,https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C,,"Atti dello stato civile",,,,,,,e2ec88a231bd8aa3db05440a4da4bd3c
+13000,13009,65b9aa6133fedfea1650c121f8afa030,/69/131/8997/13000/13009/,"Pubblicazione di matrimonio",,https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C-03-01,,"Pubblicazioni di matrimonio",,,,,,,beac27313f90f29c1623817033fa0cfa
+13000,9029,90b419a9712abc6299a2c775eb8c1032,/69/131/8997/13000/9029/,"Provvedimento di cancellazione per irreperibilità",,https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C-01-01,,"Provvedimenti di cancellazione per irreperibilità",,,,,,,061dab59b99d36475aed75d57b72dc7b
+13000,9030,5e29ee27be8c815868865a9bfb93c36e,/69/131/8997/13000/9030/,"Pubblicazione cambio nome",,https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C-02-01,,"Pubblicazioni cambio nomi",,,,,,,dbe9a7baba20033d963fd3d20d94e6cc
+8997,13001,840de7eda7e0bf58174f45451ca3c016,/69/131/8997/13001/,"Atto generico",,https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D,,"Atti generici",,,,,,,bce5a682e57511ddc0bbd4fc923db2c1
+13001,13010,b1324c924cccd73274b4f51670708a30,/69/131/8997/13001/13010/,Bando,,https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-02,,Bandi,,,,,,,eeeccf635dc7f145f54c0025fdc6c313
+13010,9006,89306417493907063674ee6e7bc274a8,/69/131/8997/13001/13010/9006/,"Bando di concorso",,https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-02-01,,"Bandi di concorso",,,,,,,88360a1ec4801f1b3dd6e5e8f6b6336a
+13010,9007,727f7ccea63d5c46750a007ca2d03ee4,/69/131/8997/13001/13010/9007/,"Bando di contributi e vantaggi economici",,https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-02-02,,"Bando di contributo e vantaggio economico",,,,,,,82b553a9d4b7a5991fff552b83163a32
+13010,9008,09123462b045f0b8977ce0b1a9047030,/69/131/8997/13001/13010/9008/,"Bando di gara",,https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-02-03,,"Bandi di gara",,,,,,,6b11dfbd2d7a7a9bfa459377cba3210e
+13001,8999,ed959eb9fecb146cdfb60b3f152dd215,/69/131/8997/13001/8999/,Avviso,,https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-01,,Avvisi,,,,,,,6fa032e6163737983709f64645b74e9b
+8999,9003,7aff8aca1ba7549e762a12ff28e852ec,/69/131/8997/13001/8999/9003/,"Avviso di deposito in casa comunale",,https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-01-01,,"Avvisi di deposito in casa comunale",,,,,,,1e36b67f96565d64eb164ccb0bd996c4
+8999,9005,49900d96e9db3feea45bfbb59e72230c,/69/131/8997/13001/8999/9005/,Avviso/Manifesto,,https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-01-02,,Manifesto,,,,,,,43b99ae11b1ce28145ade59e7665796a
+8997,13002,89beee9a32de831ee527d6f171354ee0,/69/131/8997/13002/,"Pubblicazione esterna",,https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/E,,"Pubblicazioni esterne",,,,,,,ef425396cdd8da0c56e604812698e817
+13002,8998,31c1c887b9e62754f54a13a387bad46b,/69/131/8997/13002/8998/,"Atto di terzi",,https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/E-01-01,,"Atti di terzi",,,,,,,f286b4ce474ad8a8018084baaf04db19
+8997,13003,1dc4f7228246b54f2f12e57bf694799e,/69/131/8997/13003/,"Atto autorizzativo",,https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/B,,"Atti autorizzativi",,,,,,,f2f8f8c44a02fb422bbceb6fcafc663e
+13003,9028,f810ea64551abbe614961eccbe6e7774,/69/131/8997/13003/9028/,"Permesso a costruire",,https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/B-01-01,,Concessione;Concessioni,,,,,,,7f057accb0fb89944b31bb1156d016c7
+131,9031,fc880d1419a1ef68aca383fd03e5bcb2,/69/131/9031/,"Documenti attività politica",,,,"Documento attività politica",,,,,,,4669f717aec4f5a34eb13e8d28420793
+9031,9032,2b9832d8fc9224654fca49c5c9cd466f,/69/131/9031/9032/,Interpellanza,,,,Interpellanze,,,,,,,76464602a10876dd613dbd2c607d88fc
+9031,9033,1a084aa1a43ea4dc08e39b2b48e51b99,/69/131/9031/9033/,Interrogazione,,,,Interrogazioni,,,,,,,4f1343d0ef3e77ac07dbd5f4b70dd11c
+9031,9034,89ab33e566a977363e94c8bdccabbdf2,/69/131/9031/9034/,Mozione,,,,Mozioni,,,,,,,d95a375b1670c16f85831ae580686f73
+9031,9035,1d5984d3d3bc0bb2da46fb1218c81647,/69/131/9031/9035/,"Ordine del giorno",,,,OdG,,,,,,,faf55dc33500317b38e2f171ec3f9a7b
+9031,9036,9dec194661147458c90b35b970b6b4a1,/69/131/9031/9036/,"Seduta del consiglio",,,,"Sedute del consiglio",,,,,,,4f4c5f91e60f0fb313b5a6c03373f3f1
+131,9037,eefe4737772d87fe2c82239ba9a5e404,/69/131/9037/,"Documenti (tecnici) di supporto",,,,"Documento (tecnico) di supporto",,,,,,,d01acc15b1eb76ff4a3f0ab3c4424920
+9037,9038,2e52ef597ab74d8b348a9080869897fa,/69/131/9037/9038/,Piano/Progetto,,,,Progetto,,,,,,,80c362bb247187925d6b6d6d72e03687
+9037,9039,ad17bce39264da0e477878a72b94ef34,/69/131/9037/9039/,Pubblicazione,,,,Pubblicazioni,,,,,,,7920ceb6d1c312f27360222c19a5394c
+9037,9040,b5b510f74739862703a85d6503479c20,/69/131/9037/9040/,Rapporto,,,,Rapporti,,,,,,,8a52f8cb7be462c4c13efb998ac55073
+131,9046,068aa1cebdec327879c415ac7d89ea9a,/69/131/9046/,"Documenti funzionamento interno",,,,"Documento funzionamento interno",,,,,,,a1f541e234689605b29ef059e57155f9
+9046,9049,0b8ee89322ab6b70be39bf4b5de2df35,/69/131/9046/9049/,Circolare,,,,Circolari,,,,,,,2c5849f0852a08b1d3f7f2ac844b31fb
+9046,9050,f42fbbdc5916c4d7c3e58979e524bf77,/69/131/9046/9050/,Disciplinare,,,,Disciplinari,,,,,,,ecf2e019a95dea23b9ae3d415fdccf28
+9046,9051,fee7db028ad60a0e7dc93fa6b0bb282e,/69/131/9046/9051/,Procedura,,,,Procedure,,,,,,,d7d4304ab859194bee60db4b37a9e7f0
+9046,9052,8b0508670840b2668f5f06c9ba50642f,/69/131/9046/9052/,Regolamento,,,,Regolamenti,,,,,,,2c163f00045612e0ba657dd05a6370dc
+9046,9054,552e59ef0539de0aeb86a7fa8b4ba891,/69/131/9046/9054/,Statuto,,,,Statuti,,,,,,,e108db1ab832831d4329893f3768582c
+9046,9055,0eb2eb3cb3ede2111e12a92530882e5b,/69/131/9046/9055/,Trattamento,,,,Trattamenti,,,,,,,faf95720899c4b5a8d357a95ec0e33f2
+131,9056,2f9fac3ebfee5aec253c6ba8b6a42e68,/69/131/9056/,Modulistica,,,,Modulistiche,,,,,,,6fce29077ad1bf0e83aa3dcd00f79faf
+131,9060,e004f55bf7843d24aa778be5e2d36fa3,/69/131/9060/,"Atti normativi",,,,"Atto normativo;Norma;Norme",,,,,,,40a0d62916fd6432085a62844fd47709
+9060,9061,4d3ed5b7a4a858bb7103fb6fd1a73f02,/69/131/9060/9061/,Legge,,,,Leggi,,,,,,,ee0475d59d33846c3932a01bcfa43e6f
+9060,9062,afb640f067fdb539f61a5f1ef57bf2c2,/69/131/9060/9062/,Normativa,,,,Normative,,,,,,,e6758c9e98182095d8f6d682698d8d91
+69,13203,292c5ef29de0dcbf72d47ec1ae5eab82,/69/13203/,"Tipologia di bando di gara",,,,,,,,,,,ad2ef7927462bacdd1f6e83a3596541b
+13203,13204,faf80ecafe40a37036fcd80d1f7a8aa4,/69/13203/13204/,Forniture,,,,,,,,,,,40251542952598543424808379e16e6b
+13203,13205,1dbc7ff9bbc590a751b57dfe95c337a1,/69/13203/13205/,Lavori,,,,,,,,,,,0cd85244d37d57f32194aa1734e55972
+13203,13206,e456c7efa8949304c91f43797e8b720b,/69/13203/13206/,Servizi,,,,,,,,,,,04e06f3754b70ddb09c412dd27cd52db
+69,70,073b2223640252aa0f34d4e801f5fb4e,/69/70/,Formati,,,,,,,,,,,51849c0fe478ba390549f7156b2aa519
+70,71,d6cc1c5436dee8049315d21028670034,/69/70/71/,JSON,,,,,,,,,,,0ecd11c1d7a287401d148a23bbd7a2f8
+70,72,0b597ba54d8e1eff0bee26c9d19cb9b6,/69/70/72/,"Google Drive",,,,,,,,,,,e0daf39823ec1a1a7878c9718f063d5f
+70,73,51b4a16cf46f302a5bbeb3ee2fda806c,/69/70/73/,odt,,,,,,,,,,,221fb7895674c954d8e1af19c3febe95
+70,74,212be9686def35d205b961d3e1e1fc37,/69/70/74/,pdf,,,,,,,,,,,437175ba4191210ee004e1d937494d09
+70,75,85526d8e45cf5d088c07337d09c1e7d9,/69/70/75/,shape,,,,,,,,,,,8c73a98a300905900337f535531dfca6
+70,8985,8d37e8ae71db5401fdf4f333528dc395,/69/70/8985/,CSV,,,,,,,,,,,cc8d68c551c4a9a6d5313e07de4deafd
+70,8986,8920664b822f845ba68e438af45a72c9,/69/70/8986/,DOC,,,,,,,,,,,2e09a5b01eac28408404f266726d465c
+70,8987,2bfe746772d2825506aba4ec63edacfb,/69/70/8987/,JSON-LD,,,,,,,,,,,2e30b03b439120176763cedca47f7d84
+70,8988,4222a069fdf501029692bfd8d369e7fc,/69/70/8988/,ODT,,,,,,,,,,,23adbb49bffc45a4ca19a19eb1fc8328
+70,8989,10245c0599e5aa7ada6b06268feff552,/69/70/8989/,P7M,,,,,,,,,,,11753ec2ffc041f3a9f229da1ac4b65d
+70,8990,c20f1e23bf687534db174f3c17330bcd,/69/70/8990/,PDF,,,,,,,,,,,bcd1b68617759b1dfcff0403a6b5a8d1
+70,8991,fba7957b35e6e9cabd979b6ef4035891,/69/70/8991/,XML,,,,,,,,,,,3501bb093d363810b671059b9cfed3f8

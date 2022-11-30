@@ -1,0 +1,39 @@
+name: 'Editor Vivere il comune'
+policies:
+  -
+    ModuleName: content
+    FunctionName: create
+    Limitation:
+      Node:
+        - $contenttree_Vivere-il-comune_Luoghi_path_string
+      Class:
+        - $class_place
+  -
+    ModuleName: content
+    FunctionName: create
+    Limitation:
+      Node:
+        - $contenttree_Vivere-il-comune_Eventi_node
+      Class:
+        - $class_event
+  -
+    ModuleName: content
+    FunctionName: edit
+    Limitation:
+      Class:
+        - $class_event
+        - $class_place
+  -
+    ModuleName: state
+    FunctionName: assign
+    Limitation:
+      Class:
+        - $class_event
+        - $class_place
+  -
+    ModuleName: content
+    FunctionName: remove
+    Limitation:
+      Class:
+        - $class_event
+        - $class_place

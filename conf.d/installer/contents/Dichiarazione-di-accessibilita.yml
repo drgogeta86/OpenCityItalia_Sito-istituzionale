@@ -1,0 +1,19 @@
+metadata:
+    remoteId: accessibility-link
+    classIdentifier: link
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+    parentNodes:
+        - $content_Banner_node
+data:
+    ita-IT:
+        name: 'Dichiarazione di accessibilità'
+        short_name: null
+        abstract: '<p>Modifica questo contenuto e inserisci il link alla dichiarazione di accessibilità: <a  href="https://form.agid.gov.it/" title="Link a https://form.agid.gov.it/" >https://form.agid.gov.it/</a> </p>'
+        location: 'https://form.agid.gov.it/view/c299ac76-6d08-4c34-9957-00519dde4ea9'
+        internal_location: {  }
+        descrizione: ''
+        image: null
+        data_archiviazione: null
+sort_data: null

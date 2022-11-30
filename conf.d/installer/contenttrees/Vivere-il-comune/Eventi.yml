@@ -1,0 +1,47 @@
+metadata:
+    remoteId: all-events
+    classIdentifier: pagina_sito
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        name: Eventi
+        short_name: null
+        menu_name: 'Esplora per categoria'
+        abstract: '<p>Calendario delle manifestazioni di interesse culturale, turistico e sportivo</p>'
+        description: ''
+        image: {  }
+        show_children: 1
+        layout:
+            zone_layout: desItaGlobal
+            global:
+                zone_id: 9e9de3d601831571084d1188a952280b
+                blocks:
+                    -
+                        block_id: de17f9d642266643709c9527974597ca
+                        name: ''
+                        type: Eventi
+                        view: default
+                        custom_attributes:
+                            includi_classi: event
+                            show_facets: '0'
+                            topic_node_id: ''
+                            size: big
+                            calendar_view: month
+                            color_style: ''
+                            container_style: ''
+                            max_events: ''
+                            intro_text: ''
+                        valid_items: {  }
+        icon: it-calendar
+        show_topics: 0
+        show_search_form: 0
+        tag_menu:
+            - 'Tematiche eventi'
+        publish_date: null
+        show_tag_cards: 1
+sort_data:
+    sort_field: 2
+    sort_order: 0
+    priority: 0

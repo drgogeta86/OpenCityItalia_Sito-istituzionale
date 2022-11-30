@@ -1,0 +1,389 @@
+identifier: organization
+contentobject_name: '<legal_name>'
+serialized_name_list:
+    always-available: ita-IT
+    ger-DE: Amt
+    ita-IT: 'Unità organizzativa'
+serialized_description_list:
+    ger-DE: 'Ein Amt der Organisation; in öffentlichen Organisationen wird es auch als Organisationseinheit oder Amt bezeichnet '
+    ita-IT: 'Struttura amministrativa (area, ufficio) o struttura politica (consiglio, giunta, commissione)'
+always_available: 1
+sort_field: 9
+data_map:
+    legal_name:
+        identifier: legal_name
+        serialized_description_list:
+            ger-DE: 'Hauptname oder rechtlicher Name des Amtes'
+            ita-IT: 'Nome della struttura. Può essere una struttura amministrativa (e quindi un''area o un ufficio), oppure una struttura politica (la giunta comunale, il consiglio comunale, una commissione o altro) oppure una struttura che non rientra nelle precedenti (una biblioteca, un museo, etc...)'
+        serialized_name_list:
+            always-available: ita-IT
+            ger-DE: Name
+            ita-IT: 'Nome dell''unità organizzativa'
+        data_type_string: ezstring
+        placement: 1
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        serialized_data_text: {  }
+    alt_name:
+        identifier: alt_name
+        serialized_description_list:
+            always-available: ita-IT
+            ger-DE: 'Ein alternativer Name für das Amt (z. B. ein umgangssprachlicher Name)'
+            ita-IT: 'Un nome alternativo della struttura (e.g., un nome colloquiale)'
+        serialized_name_list:
+            always-available: ita-IT
+            ger-DE: 'Alternativer Name'
+            ita-IT: 'Nome alternativo'
+        data_type_string: ezstring
+        placement: 2
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    topics:
+        identifier: topics
+        serialized_description_list:
+            always-available: ita-IT
+            ger-DE: 'Themen, die von dieser Organisation behandelt werden'
+            ita-IT: 'Argomenti di cui si occupa'
+        serialized_name_list:
+            always-available: ita-IT
+            ger-DE: Themen
+            ita-IT: Argomenti
+        data_type_string: ezobjectrelationlist
+        placement: 3
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '3'
+            type: '2'
+            class_constraint_list:
+                - topic
+            default_placement:
+                node_id: $contenttree_OpenCity_Argomenti_node
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    image:
+        identifier: image
+        serialized_description_list:
+            always-available: ita-IT
+            ger-DE: 'Hauptname oder rechtlicher Name des Amtes'
+            ita-IT: 'Immagine principale e rappresentativa della struttura'
+        serialized_name_list:
+            always-available: ita-IT
+            ger-DE: Bilder
+            ita-IT: Immagini
+        data_type_string: ezobjectrelationlist
+        placement: 4
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - image
+            default_placement:
+                node_id: $content_Images_node
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    abstract:
+        identifier: abstract
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Sintetica descrizione della struttura (si suggerisce inferiore ai 160 caratteri.'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Descrizione breve'
+        data_type_string: ezxmltext
+        placement: 5
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        data_int1: 5
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    main_function:
+        identifier: main_function
+        serialized_description_list:
+            ger-DE: 'Funktion des Amtes und Verzeichnis der Zuständigkeiten'
+            ita-IT: 'Elenco/descrizione dei compiti assegnati alla struttura'
+        serialized_name_list:
+            always-available: ita-IT
+            ger-DE: 'Zuständigkeiten und Funktionen'
+            ita-IT: Competenze
+        data_type_string: ezxmltext
+        placement: 6
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        data_int1: 5
+        serialized_data_text: {  }
+    type:
+        identifier: type
+        serialized_description_list:
+            always-available: ita-IT
+            ger-DE: 'Geben Sie die institutionelle Organisationsstruktur der Stadtverwaltung an'
+            ita-IT: 'Indicare la tipologia di struttura organizzativa. Scegli la più specifica possibile (es.: NON "Struttura amministrativa" ma "Area" o "Ufficio")'
+        serialized_name_list:
+            always-available: ita-IT
+            ger-DE: Organisationsaufbau
+            ita-IT: 'Tipo di organizzazione'
+        data_type_string: eztags
+        placement: 7
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        data_int1: 'tag(Organizzazione / Tipo di struttura organizzativa)'
+        data_int3: 1
+        data_int4: 2
+        data_text1: Tree
+        category: content
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    hold_employment:
+        identifier: hold_employment
+        serialized_description_list:
+            always-available: ita-IT
+            ger-DE: 'Organisationsstruktur, von der es abhängt (höhere Ebene)'
+            ita-IT: 'Struttura organizzativa da cui dipende (livello più alto; ad esempio l''area, il servizio o l''ufficio da cui l''unità organizzativa dipende)'
+        serialized_name_list:
+            always-available: ita-IT
+            ger-DE: 'Verbindungen mit anderen Strukturen'
+            ita-IT: 'Unità organizzativa di livello superiore'
+        data_type_string: ezobjectrelationlist
+        placement: 8
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - organization
+            default_placement:
+                node_id: $contenttree_Amministrazione_Aree-amministrative_node
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+#    related_offices:
+#        identifier: related_offices
+#        serialized_description_list:
+#            always-available: ita-IT
+#            ita-IT: ''
+#        serialized_name_list:
+#            always-available: ita-IT
+#            ger-DE: Ämter
+#            ita-IT: 'Unità organizzative di livello inferiore'
+#        data_type_string: openpareverserelationlist
+#        placement: 9
+#        can_translate: 1
+#        data_text5: ''
+#        serialized_data_text:
+#            always-available: ita-IT
+#            ita-IT: ''
+    office_manager:
+        identifier: office_manager
+        serialized_description_list:
+            always-available: ita-IT
+            ger-DE: 'Verantwortlicher Leiter der Struktur'
+            ita-IT: 'Persona responsabile della struttura (tipicamente una persona politica o un funzionario amministrativo se la struttura è di tipo politico o amministrativo). Attenzione: per compilare questo campo clicca su "Vai a Gestione ruoli amministrativi" e inserisci un nuovo ruolo di tipo "Responsabile"'
+        serialized_name_list:
+            always-available: ita-IT
+            ger-DE: Leitung
+            ita-IT: Responsabile
+        data_type_string: openparole
+        placement: 10
+        can_translate: 1
+        data_text5: '{"roletype_root_tag":"Persone\/Ruoli","select":2,"view":3,"filter":["Responsabile"],"sort":1}'
+        category: details
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    political_reference:
+        identifier: political_reference
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'L''assessore di riferimento della struttura, se esiste. Attenzione: per compilare questo campo clicca su "Vai a Gestione ruoli amministrativi" e inserisci un nuovo ruolo di tipo "Assessore"'
+        serialized_name_list:
+            always-available: ita-IT
+            ger-DE: 'Zuständiger Stadtrat'
+            ita-IT: 'Assessore di riferimento'
+        data_type_string: openparole
+        placement: 11
+        can_translate: 1
+        data_text5: '{"roletype_root_tag":"Persone\/Ruoli","select":1,"view":3,"filter":["Assessore"],"sort":1}'
+        category: details
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    people:
+        identifier: people
+        serialized_description_list:
+            always-available: ita-IT
+            ger-DE: 'Hinweise auf die Datenblätter jedes einzelnen Mitarbeiters des Amtes (Liste der Funktionäre)'
+            ita-IT: 'Attenzione: questo è un attributo OBBLIGATORIO. Attraverso questo campo vengono mostrati i riferimenti alle schede persona per ciascuno dei componenti della struttura (lista funzionari o politici). Per compilare questo campo clicca su "Vai a Gestione ruoli amministrativi" e inserisci uno o più ruoli relazionati a questa struttura/unità organizzativa. Se è la prima volta che inserisci questo unità organizzativa "Pubblica" prima questa scheda e torna qui successivamente.'
+        serialized_name_list:
+            always-available: ita-IT
+            ger-DE: 'Mitarbeiterinnen und Mitarbeiter'
+            ita-IT: 'Persone che compongono la struttura'
+        data_type_string: openparole
+        placement: 12
+        is_required: 0
+        can_translate: 1
+        data_text5: '{"roletype_root_tag":"Persone\/Ruoli","select":2,"view":3,"filter":[],"sort":3}'
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+#    servizi_offerti:
+#        identifier: servizi_offerti
+#        serialized_description_list:
+#            always-available: ita-IT
+#            ita-IT: ''
+#        serialized_name_list:
+#            always-available: ita-IT
+#            ger-DE: 'Angebotene Dienste'
+#            ita-IT: 'Servizi offerti'
+#        data_type_string: openpareverserelationlist
+#        placement: 13
+#        can_translate: 1
+#        data_text5: ''
+#        category: details
+#        serialized_data_text:
+#            always-available: ita-IT
+#            ita-IT: ''
+    has_spatial_coverage:
+        identifier: has_spatial_coverage
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Indicare la sede fisica principale o eventuali altri luoghi che sono definibili come sedi'
+        serialized_name_list:
+            always-available: ita-IT
+            ger-DE: Sitz/Adresse
+            ita-IT: Sedi
+        data_type_string: ezobjectrelationlist
+        placement: 14
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - place
+            default_placement:
+                node_id: $contenttree_Vivere-il-comune_Luoghi_node
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    has_online_contact_point:
+        identifier: has_online_contact_point
+        serialized_description_list:
+            always-available: ita-IT
+            ger-DE: 'Kontaktstellen für weitere Informationen'
+            ita-IT: 'Eventuali contatti dell''unità organizzativa'
+        serialized_name_list:
+            always-available: ita-IT
+            ger-DE: Kontaktstellen
+            ita-IT: Contatti
+        data_type_string: ezobjectrelationlist
+        placement: 15
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - online_contact_point
+            default_placement:
+                node_id: $contenttree_Classificazioni_Punti-di-contatto_node
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    attachments:
+        identifier: attachments
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ger-DE: Anhänge
+            ita-IT: Allegati
+        data_type_string: ezobjectrelationlist
+        placement: 16
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - document
+            default_placement:
+                node_id: $contenttree_Documenti-e-dati_Documenti-tecnici-di-supporto_node
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    more_information:
+        identifier: more_information
+        serialized_description_list:
+            always-available: ita-IT
+            ger-DE: 'Zusätzliche Informationen über die Struktur (Amt, Organisation), die nicht durch die vorherigen Felder abgedeckt sind'
+            ita-IT: 'Ulteriori informazioni sulla struttura non contemplate dai campi precedenti'
+        serialized_name_list:
+            always-available: ita-IT
+            ger-DE: 'Weitere Informationen'
+            ita-IT: 'Ulteriori informazioni'
+        data_type_string: ezxmltext
+        placement: 17
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 5
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    identifier:
+        identifier: identifier
+        serialized_description_list:
+            always-available: ita-IT
+            ger-DE: 'Von der Stadtverwaltung erstellter Kodex, für den internen Gebrauch'
+            ita-IT: 'Codice stabilito dal Comune, ad uso interno; Codice definito da Indice PA'
+        serialized_name_list:
+            always-available: ita-IT
+            ger-DE: 'Einheitliche interne Kennnummer'
+            ita-IT: 'Identificatore univoco interno'
+        data_type_string: ezstring
+        placement: 18
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    tax_code_e_invoice_service:
+        identifier: tax_code_e_invoice_service
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ger-DE: 'Steuernummern elektronische Verrechnung'
+            ita-IT: 'Codice fiscale servizio di fatturazione elettronica'
+        data_type_string: ezstring
+        placement: 19
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+groups:
+    - 'Organizzazione (COV)'

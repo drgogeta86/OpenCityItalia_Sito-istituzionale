@@ -1,0 +1,23 @@
+metadata:
+    remoteId: 4c246236f96f06a1a73a8ca05ebf71e7
+    classIdentifier: place
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+    parentNodes:
+        - $contenttree_Vivere-il-comune_Luoghi_node
+data:
+    ita-IT:
+        name: 'Palazzo del municipio (da modificare)'
+        alternative_name: null
+        accessibility: 'La struttura è provvista di rampa d’accesso per disabili, servoscala con pedana e ascensore'
+        help:
+            - $content_Contatti-URP_object
+        topics:
+            - topic_9
+        type:
+            - Palazzo
+        has_address:
+            latitude: 36.6658272
+            longitude: -2.8930994
+            address: 'Mar Mediterraneo'

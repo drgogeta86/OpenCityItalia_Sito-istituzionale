@@ -1,0 +1,26 @@
+metadata:
+    remoteId: 0dfc780404e1e86d3013c942f812e262
+    classIdentifier: topic
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        name: 'Tassa sui servizi'
+        managed_by_area: {  }
+        managed_by_political_body: {  }
+        type: null
+        description: null
+        eu: 'http://eurovoc.europa.eu/1317'
+        theme: null
+        data_themes_eurovocs: {  }
+        image: {  }
+        abstract: ''
+        icon: null
+        layout: {  }
+        help: {  }
+        show_topic_children: 1
+sort_data:
+    sort_field: 9
+    sort_order: 1
+    priority: 0

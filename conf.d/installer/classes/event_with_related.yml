@@ -1,0 +1,19 @@
+imports:
+    - resource: classes/event.yml
+data_map:
+    related_event:
+        identifier: related_event
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Appuntamenti
+        data_type_string: openpareverserelationlist
+        placement: 36
+        can_translate: 1
+        data_text5: '{"attribute_id_list":[classattributeid(event/sub_event_of)],"sort":"published","order":"asc","limit":4}'
+        category: details
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''

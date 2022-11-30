@@ -1,0 +1,36 @@
+metadata:
+  remoteId: consiglio_comunale
+  classIdentifier: organization
+  sectionIdentifier: standard
+  languages:
+    - ita-IT
+  parentNodes:
+    - $contenttree_Amministrazione_Organi-politici_node
+data:
+  ita-IT:
+    legal_name: 'Consiglio comunale'
+    alt_name: null
+    topics:
+      - topic_1_governo_e_settore_pubblico
+      - topic_2_vita_istituzionale
+    has_spatial_coverage:
+      - $content_Palazzo-del-municipio_object
+    has_online_contact_point:
+      - $content_Contatti-URP_object
+    image:
+      - img-consiglio-comunale
+    abstract: '<p>Il Consiglio comunale di è l''organo di indirizzo e di controllo politico-amministrativo. E'' composto da 18 consiglieri, che restano in carica 5 anni.</p>'
+    main_function: '<p>Il Consiglio comunale è titolare della funzione di indirizzo, programmazione e controllo politico-amministrativo nei confronti degli altri organi comunali, dell''organizzazione amministrativa e degli enti comunali dipendenti.</p><p>Le funzioni del Consiglio comunale sono espressamente previste dall''art. 49 del Codice degli Enti locali della Regione autonoma Trentino Alto Adige e dall''art. 14 dello statuto comunale.</p><p>E'' composto da 18 membri, compreso il sindaco e gli assessori (esclusi eventuali assessori scelti al di fuori del consiglio).</p>'
+    type:
+      - 'Consiglio comunale'
+    hold_employment: { }
+    related_offices: null
+    office_manager: null
+    political_reference: null
+    people: null
+    servizi_offerti: null
+    attachments: null
+    more_information: ''
+    identifier: null
+    tax_code_e_invoice_service: null
+sort_data: null

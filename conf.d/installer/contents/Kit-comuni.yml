@@ -1,0 +1,21 @@
+metadata:
+    remoteId: kit-comuni
+    classIdentifier: banner
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+    parentNodes:
+        - $content_Banner_node
+data:
+    ita-IT:
+        name: Il sito e i servizi digitali dei Comuni italiani
+        description: '<p>Tutte le risorse per realizzare con facilità esperienze digitali semplici e accessibili per i cittadini </p>'
+        image:
+            filename: comuni-2022.png
+            url: 'https://s3-eu-west-1.amazonaws.com/static.opencity.opencontent.it/installer/comuni-2022.png'
+        internal_location: {  }
+        location: 'https://designers.italia.it/modello/comuni/'
+        background_color:
+            - primary-bg
+        topics: {  }
+sort_data: null

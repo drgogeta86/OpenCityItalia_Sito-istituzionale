@@ -1,0 +1,26 @@
+metadata:
+    remoteId: 901ac93a6d4baaa901cc17ac155101ca
+    classIdentifier: topic
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        name: Estero
+        managed_by_area: {  }
+        managed_by_political_body: {  }
+        type: null
+        description: null
+        eu: 'http://eurovoc.europa.eu/100143'
+        theme: null
+        data_themes_eurovocs: {  }
+        image: {  }
+        abstract: ''
+        icon: null
+        layout: {  }
+        help: {  }
+        show_topic_children: 1
+sort_data:
+    sort_field: 9
+    sort_order: 1
+    priority: 0

@@ -1,0 +1,26 @@
+metadata:
+    remoteId: 82f3daf9f172801c57f13d95000facfb
+    classIdentifier: topic
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        name: 'Politica commerciale'
+        managed_by_area: {  }
+        managed_by_political_body: {  }
+        type: null
+        description: null
+        eu: 'http://eurovoc.europa.eu/2449'
+        theme: null
+        data_themes_eurovocs: {  }
+        image: {  }
+        abstract: ''
+        icon: null
+        layout: {  }
+        help: {  }
+        show_topic_children: 1
+sort_data:
+    sort_field: 9
+    sort_order: 1
+    priority: 0

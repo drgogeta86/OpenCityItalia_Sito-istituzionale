@@ -1,0 +1,42 @@
+metadata:
+    remoteId: topic_1_popolazione_e_societa
+    classIdentifier: topic
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+        - ger-DE
+data:
+    ita-IT:
+        name: 'Popolazione e società'
+        managed_by_area: {  }
+        managed_by_political_body: {  }
+        type: null
+        description: null
+        eu: 'http://publications.europa.eu/resource/authority/data-theme/SOCI'
+        theme: null
+        data_themes_eurovocs: {  }
+        image: {  }
+        abstract: '<p>In questo tema rientra tutto ciò che concerne lo sviluppo della società, le condizioni della società, la cittadinanza, la demografia, il welfare.</p>'
+        icon: null
+        layout: {  }
+        help: {  }
+        show_topic_children: 1
+    ger-DE:
+        name: 'Mensch und Gesellschaft'
+        managed_by_area: {  }
+        managed_by_political_body: {  }
+        type: null
+        description: null
+        eu: 'http://publications.europa.eu/resource/authority/data-theme/SOCI'
+        theme: null
+        data_themes_eurovocs: {  }
+        image: {  }
+        abstract: ''
+        icon: null
+        layout: {  }
+        help: {  }
+        show_topic_children: 1
+sort_data:
+    sort_field: 9
+    sort_order: 1
+    priority: 0

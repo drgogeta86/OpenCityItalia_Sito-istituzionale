@@ -1,0 +1,35 @@
+metadata:
+  remoteId: commissione
+  classIdentifier: organization
+  sectionIdentifier: standard
+  languages:
+    - ita-IT
+  parentNodes:
+    - $contenttree_Amministrazione_Organi-politici_node
+data:
+  ita-IT:
+    legal_name: 'Commissione'
+    alt_name: null
+    topics:
+      - topic_1_governo_e_settore_pubblico
+      - topic_2_vita_istituzionale
+    image: null
+    abstract: '<p>Il Consiglio comunale istituisce nel suo ambito le Commissioni Consiliari permanenti per materia, o gruppi di materie affini o complementari, con compiti istruttori o di controllo.</p>'
+    main_function: '<p>I componenti della Commissione, compresi i loro presidenti e i vice presidenti, sono nominati con provvedimento del presidente del Consiglio comunale. Le Commissioni svolgono una funzione consultiva e preparatoria degli atti di competenza del Consiglio nonché vigilanza sull''attività amministrativa del Comune ed hanno facoltà propositiva nei riguardi della Giunta.</p>'
+    type:
+      - 'Giunta comunale'
+    hold_employment: { }
+    related_offices: null
+    office_manager: null
+    political_reference: null
+    people: null
+    servizi_offerti: null
+    has_spatial_coverage:
+      - $content_Palazzo-del-municipio_object
+    has_online_contact_point:
+      - $content_Contatti-URP_object
+    attachments: null
+    more_information: ''
+    identifier: null
+    tax_code_e_invoice_service: null
+sort_data: null

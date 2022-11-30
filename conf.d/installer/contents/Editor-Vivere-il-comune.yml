@@ -1,0 +1,10 @@
+metadata:
+    remoteId: editors_vivere_il_comune
+    classIdentifier: user_group
+    languages:
+        - ita-IT
+    parentNodes:
+        - $content_Editor-Base_node
+data:
+    ita-IT:
+        name: Editors Vivere il comune

@@ -1,0 +1,19 @@
+imports:
+    - resource: classes/image.yml
+data_map:
+    used_by:
+        identifier: used_by
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ger-DE: 'Verwendet in'
+            ita-IT: 'Utilizzata in'
+        data_type_string: openpareverserelationlist
+        placement: 9
+        can_translate: 1
+        data_text5: '{"attribute_id_list":[classattributeid_list(organization/image,topic/image,article/image,channel/image,event/image,frontpage/image,place/image,private_organization/image,output/image,pagina_sito/image,public_service/image)],"sort":"name","order":"asc","limit":4}'
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''

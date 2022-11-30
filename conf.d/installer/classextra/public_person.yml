@@ -1,0 +1,122 @@
+attribute_group:
+    altre_cariche:
+        '*': 'Altre cariche'
+        altre_cariche: '1'
+        eventuali_incarichi: '1'
+    biografia:
+        '*': Biografia
+        bio: '1'
+    content:
+        '*': 'Contenuti principali'
+        has_role: '1'
+    curriculum_vitae:
+        '*': 'Curriculum Vitae'
+        curriculum: '1'
+    details:
+        '*': 'Contenuti secondari'
+    dichiarazione_dei_redditi:
+        '*': 'Dichiarazione dei redditi'
+        dichiarazione_redditi: '1'
+    enabled:
+        '*': '1'
+    'ita-IT::altre_cariche':
+        '*': 'Altre cariche'
+    'ita-IT::biografia':
+        '*': Biografia
+    'ita-IT::content':
+        '*': Incarichi
+    'ita-IT::curriculum_vitae':
+        '*': 'Curriculum Vitae'
+    'ita-IT::details':
+        '*': Organizzazioni
+    'ita-IT::dichiarazione_dei_redditi':
+        '*': 'Dichiarazione dei redditi'
+    'ita-IT::meta':
+        '*': 'Punti di contatto'
+    'ita-IT::situazione_patrimoniale':
+        '*': 'Situazione patrimoniale'
+    'ita-IT::spese_elettorali':
+        '*': 'Spese elettorali'
+    'ita-IT::ulteriori_informazioni':
+        '*': 'Ulteriori informazioni'
+    meta:
+        '*': Meta
+        has_contact_point: '1'
+    situazione_patrimoniale:
+        '*': 'Situazione patrimoniale'
+        dichiarazioni_patrimoniali_parenti: '1'
+        dichiarazioni_patrimoniali_soggetto: '1'
+        situazione_patrimoniale: '1'
+        variazioni_situazione_patrimoniale: '1'
+    'sort::altre_cariche':
+        '*': '5'
+    'sort::biografia':
+        '*': '0'
+    'sort::content':
+        '*': '0'
+    'sort::curriculum_vitae':
+        '*': '1'
+    'sort::details':
+        '*': '0'
+    'sort::dichiarazione_dei_redditi':
+        '*': '3'
+    'sort::meta':
+        '*': '1'
+    'sort::situazione_patrimoniale':
+        '*': '2'
+    'sort::spese_elettorali':
+        '*': '4'
+    'sort::ulteriori_informazioni':
+        '*': '6'
+    spese_elettorali:
+        '*': 'Spese elettorali'
+        spese_elettorali: '1'
+        spese_elettorali_files: '1'
+    ulteriori_informazioni:
+        '*': 'Ulteriori informazioni'
+        dichiarazione_incompatibilita: '1'
+        notes: '1'
+        related_news: '1'
+card_small_view:
+    enabled:
+        '*': '1'
+    show:
+        abstract: '1'
+        competenze: '1'
+        content_show_read_more: '1'
+        has_role: '1'
+table_view:
+    enabled:
+        '*': '1'
+    in_overview:
+        abstract: '1'
+        has_role: '1'
+    main_image:
+        image: '1'
+    show:
+        altre_cariche: '1'
+        bio: '1'
+        curriculum: '1'
+        dichiarazione_incompatibilita: '1'
+        dichiarazione_redditi: '1'
+        dichiarazioni_patrimoniali_parenti: '1'
+        dichiarazioni_patrimoniali_soggetto: '1'
+        eventuali_incarichi: '1'
+        has_contact_point: '1'
+        has_role: '1'
+        image: '1'
+        notes: '1'
+        related_news: '1'
+        situazione_patrimoniale: '1'
+        spese_elettorali: '1'
+        spese_elettorali_files: '1'
+        variazioni_situazione_patrimoniale: '1'
+    show_label:
+        dichiarazione_incompatibilita: '1'
+        dichiarazioni_patrimoniali_parenti: '1'
+        dichiarazioni_patrimoniali_soggetto: '1'
+        eventuali_incarichi: '1'
+        related_news: '1'
+        variazioni_situazione_patrimoniale: '1'
+    show_link:
+        has_contact_point: '1'

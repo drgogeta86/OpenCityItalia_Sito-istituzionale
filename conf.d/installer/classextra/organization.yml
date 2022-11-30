@@ -1,0 +1,114 @@
+attribute_group:
+    allegati:
+        '*': Allegati
+        attachments: '1'
+    competenze:
+        '*': Competenze
+        main_function: '1'
+    contatti:
+        '*': Contatti
+        has_online_contact_point: '1'
+    enabled:
+        '*': '1'
+    'ita-IT::allegati':
+        '*': Allegati
+    'ita-IT::competenze':
+        '*': Competenze
+    'ita-IT::contatti':
+        '*': Contatti
+    'ita-IT::persone_che_compongono_la_struttura':
+        '*': 'Persone che compongono la struttura'
+    'ita-IT::sede':
+        '*': Sede
+    'ita-IT::servizi_offerti':
+        '*': 'Servizi offerti'
+    'ita-IT::struttura':
+        '*': Struttura
+    'ita-IT::ulteriori_informazioni':
+        '*': 'Ulteriori informazioni'
+    persone_che_compongono_la_struttura:
+        '*': 'Persone che compongono la struttura'
+        office_manager: '1'
+        people: '1'
+        political_reference: '1'
+    sede:
+        '*': Sede
+        has_spatial_coverage: '1'
+    servizi_offerti:
+        '*': 'Servizi offerti'
+        servizi_offerti: '1'
+    'sort::allegati':
+        '*': '6'
+    'sort::competenze':
+        '*': '0'
+    'sort::contatti':
+        '*': '5'
+    'sort::persone_che_compongono_la_struttura':
+        '*': '2'
+    'sort::sede':
+        '*': '4'
+    'sort::servizi_offerti':
+        '*': '3'
+    'sort::struttura':
+        '*': '1'
+    'sort::ulteriori_informazioni':
+        '*': '7'
+    struttura:
+        '*': Struttura
+        hold_employment: '1'
+        related_offices: '1'
+        type: '1'
+    ulteriori_informazioni:
+        '*': 'Ulteriori informazioni'
+        identifier: '1'
+        more_information: '1'
+        tax_code_e_invoice_service: '1'
+bootstrapitalia_icon:
+    enabled:
+        '*': '1'
+    icon:
+        '*': it-pa
+card_small_view:
+    enabled:
+        '*': '1'
+    show:
+        abstract: '1'
+        content_show_read_more: '1'
+        image: '1'
+table_view:
+    enabled:
+        '*': '1'
+    in_overview:
+        abstract: '1'
+        alt_name: '1'
+    main_image:
+        image: '1'
+    show:
+        attachments: '1'
+        content_show_modified: '1'
+        has_online_contact_point: '1'
+        has_spatial_coverage: '1'
+        hold_employment: '1'
+        identifier: '1'
+        main_function: '1'
+        more_information: '1'
+        office_manager: '1'
+        people: '1'
+        political_reference: '1'
+        related_offices: '1'
+        servizi_offerti: '1'
+        tax_code_e_invoice_service: '1'
+        type: '1'
+    show_label:
+        content_show_modified: '1'
+        hold_employment: '1'
+        identifier: '1'
+        office_manager: '1'
+        political_reference: '1'
+        related_offices: '1'
+        tax_code_e_invoice_service: '1'
+        type: '1'
+    show_link:
+        has_online_contact_point: '1'
+        has_spatial_coverage: '1'
+        hold_employment: '1'

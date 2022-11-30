@@ -1,0 +1,42 @@
+metadata:
+    remoteId: fe63739f7047ad84533d1055c9380444
+    classIdentifier: topic
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+        - ger-DE
+data:
+    ita-IT:
+        name: Elezioni
+        managed_by_area: {  }
+        managed_by_political_body: {  }
+        type: '-'
+        description: null
+        eu: 'http://eurovoc.europa.eu/695'
+        theme: '-'
+        data_themes_eurovocs: {  }
+        image: {  }
+        abstract: '<p>Informazioni sulle modalità per l''espressione del voto, orario di apertura dei seggi e degli uffici comunali.</p><p>Come, quando e dove votare, come aggiornare o rifare la tessera elettorale, informazioni sul voto assistito e domiciliare, affluenze e risultati.</p>'
+        icon: it-card
+        layout: {  }
+        help: {  }
+        show_topic_children: 1
+    ger-DE:
+        name: Wahlverfahren
+        managed_by_area: {  }
+        managed_by_political_body: {  }
+        type: null
+        description: null
+        eu: 'http://eurovoc.europa.eu/4750'
+        theme: null
+        data_themes_eurovocs: {  }
+        image: {  }
+        abstract: ''
+        icon: null
+        layout: {  }
+        help: {  }
+        show_topic_children: 1
+sort_data:
+    sort_field: 9
+    sort_order: 1
+    priority: 0
