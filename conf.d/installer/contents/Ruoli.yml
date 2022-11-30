@@ -5,7 +5,7 @@ metadata:
     languages:
         - ita-IT
     parentNodes:
-        - 43
+        - $media_root_node
 data:
     ita-IT:
         name: Ruoli

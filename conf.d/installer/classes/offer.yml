@@ -2,12 +2,12 @@ identifier: offer
 contentobject_name: '<description>'
 serialized_name_list:
     always-available: ita-IT
-    ita-IT: Offerta
     ger-DE: Angebot
+    ita-IT: Offerta
 serialized_description_list:
     always-available: ita-IT
-    ita-IT: 'Descrive un''offerta, ad esempio una riduzione per uno specifico tipo di utenti'
     ger-DE: 'Beschreibt ein Angebot, z. B. eine Ermäßigung für eine bestimmte Zielgruppe'
+    ita-IT: 'Descrive un''offerta, ad esempio una riduzione per uno specifico tipo di utenti'
 data_map:
     description:
         identifier: description
@@ -16,8 +16,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: Descrizione
             ger-DE: Beschreibung
+            ita-IT: Descrizione
         data_type_string: ezstring
         placement: 1
         is_searchable: 1
@@ -30,12 +30,12 @@ data_map:
         identifier: has_price_specification
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: 'Indicare l''importo (IVA inclusa) in numero decimale'
             ger-DE: 'Geben Sie den Betrag (einschließlich MwSt.) in Dezimalzahlen an'
+            ita-IT: 'Indicare l''importo (IVA inclusa) in numero decimale'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: Importo
             ger-DE: Betrag
+            ita-IT: Importo
         data_type_string: ezfloat
         placement: 2
         is_required: 1
@@ -50,8 +50,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: Valuta
             ger-DE: Währung
+            ita-IT: Valuta
         data_type_string: eztags
         placement: 3
         is_searchable: 1
@@ -68,12 +68,12 @@ data_map:
         identifier: has_eligible_user
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: 'Indicare la fascia di popolazione a cui è riservata l''offerta'
             ger-DE: 'Geben Sie die Bevölkerungsgruppe an, für die das Angebot reserviert ist'
+            ita-IT: 'Indicare la fascia di popolazione a cui è riservata l''offerta'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Prezzo riservato a'
             ger-DE: 'Preis für'
+            ita-IT: 'Prezzo riservato a'
         data_type_string: eztags
         placement: 4
         is_searchable: 1
@@ -89,12 +89,12 @@ data_map:
         identifier: start_time
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: 'Primo giorno di validità dell''offerta '
             ger-DE: 'Erster Tag der Gültigkeit des Angebots'
+            ita-IT: 'Primo giorno di validità dell''offerta '
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Valido dal'
             ger-DE: 'Gültig von'
+            ita-IT: 'Valido dal'
         data_type_string: ezdate
         placement: 5
         is_searchable: 1
@@ -106,12 +106,12 @@ data_map:
         identifier: end_time
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: 'Ultimo giorno di validità dell''offerta'
             ger-DE: 'Letzter Tag der Gültigkeit des Angebots'
+            ita-IT: 'Ultimo giorno di validità dell''offerta'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Valido al'
             ger-DE: 'Gültig bis'
+            ita-IT: 'Valido al'
         data_type_string: ezdate
         placement: 6
         is_searchable: 1
@@ -123,12 +123,12 @@ data_map:
         identifier: note
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: 'Eventuali note in cui indicare particolari condizioni che caratterizzano l''offerta'
             ger-DE: 'Anmerkungen für besondere Bedingungen, die das Angebot kennzeichnen, falls vorhanden'
+            ita-IT: 'Eventuali note in cui indicare particolari condizioni che caratterizzano l''offerta'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: Note
             ger-DE: Anmerkungen
+            ita-IT: Note
         data_type_string: eztext
         placement: 7
         is_searchable: 1

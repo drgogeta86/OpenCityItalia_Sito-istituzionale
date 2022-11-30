@@ -1,856 +1,370 @@
 name: OpenCity
-version: 2.1.12
+version: 3.0.0
 variables:
-    -
-        name: identifier
-        value: 'OpenPABase::getCurrentSiteaccessIdentifier'
-    -
-        name: root_node
-        value: 'ini(NodeSettings,RootNode,content.ini)'
-    -
-        name: anonymous_user
-        value: 'ini(UserSettings,AnonymousUserID,site.ini)'
-    -
-        name: members
-        value: 11
-    -
-        name: members_node
-        value: 12
-    -
-        name: members_path_string
-        value: /1/5/12/
-    -
-        name: users
-        value: 5
-    -
-        name: recaptcha_public
-        value: env(RECAPTCHA_PUBLIC)
-    -
-        name: recaptcha_private
-        value: env(RECAPTCHA_PRIVATE)
-    -
-        name: recaptcha_v3_public
-        value: env(RECAPTCHA_V3_PUBLIC)
-    -
-        name: recaptcha_v3_private
-        value: env(RECAPTCHA_V3_PRIVATE)
-    -
-        name: section_standard
-        value: 1
-    -
-        name: section_media
-        value: 3
-    -
-        name: content_Files_node
-        value: 52
-    -
-        name: content_Files_path_string
-        value: /1/43/52/
-    -
-        name: content_Images_node
-        value: 51
-    -
-        name: content_Images_path_string
-        value: /1/43/51/
-    -
-        name: content_Multimedia_node
-        value: 53
-    -
-        name: content_Multimedia_path_string
-        value: /1/43/53/
-    -
-        name: check_eztags_sequence
-        value: env(CHECK_EZTAGS_SEQUENCE)
+  - name: identifier
+    value: 'OpenPABase::getCurrentSiteaccessIdentifier'
+  - name: root_node
+    value: 'ini(NodeSettings,RootNode,content.ini)'
+  - name: media_root_node
+    value: 'ini(NodeSettings,MediaRootNode,content.ini)'
+  - name: anonymous_user
+    value: 'ini(UserSettings,AnonymousUserID,site.ini)'
+  - name: members
+    value: 11
+  - name: members_node
+    value: 12
+  - name: members_path_string
+    value: /1/5/12/
+  - name: users
+    value: 5
+  - name: recaptcha_public
+    value: env(RECAPTCHA_PUBLIC)
+  - name: recaptcha_private
+    value: env(RECAPTCHA_PRIVATE)
+  - name: recaptcha_v3_public
+    value: env(RECAPTCHA_V3_PUBLIC)
+  - name: recaptcha_v3_private
+    value: env(RECAPTCHA_V3_PRIVATE)
+  - name: section_standard
+    value: 1
+  - name: section_media
+    value: 3
+  - name: content_Files_node
+    value: 52
+  - name: content_Files_path_string
+    value: /1/43/52/
+  - name: content_Images_node
+    value: 51
+  - name: content_Images_path_string
+    value: /1/43/51/
+  - name: content_Multimedia_node
+    value: 53
+  - name: content_Multimedia_path_string
+    value: /1/43/53/
+  - name: check_eztags_sequence
+    value: env(CHECK_EZTAGS_SEQUENCE)
 steps:
-    -
-        type: sql
-        identifier: alter_contentobject_date_interger_type
-    -
-        type: sql_copy_from_tsv
-        identifier: eztags
-        table: eztags
-        condition: $is_install_from_scratch
-    -
-        type: sql_copy_from_tsv
-        identifier: eztags_keyword
-        table: eztags_keyword
-        condition: $is_install_from_scratch
-    -
-        type: sql
-        identifier: check_eztags_sequence
-        condition: $is_install_from_scratch
-    -
-        type: sql
-        current_version_le: 2.0.7
-        current_version_ge: 0.0.0
-        identifier: update_dataset_remote_id
-    -
-        type: sql
-        current_version_le: 2.0.8
-        current_version_ge: 0.0.0
-        identifier: rename_deprecated_administrative_area_attributes
-    -
-        type: state
-        identifier: albotelematico
-    -
-        type: state
-        identifier: moderation
-    -
-        type: state
-        identifier: privacy
-    -
-        type: section
-        identifier: intranet
-    -
-        type: state
-        identifier: concorso
-    -
-        type: section
-        identifier: restricted
-    -
-        type: section
-        identifier: oggetti_scaduti
-    -
-        type: section
-        identifier: cjw_newsletter
-    -
-        type: class
-        identifier: folder
-    -
-        type: classextra
-        identifier: folder
-    -
-        type: class
-        identifier: pagina_sito
-    -
-        type: classextra
-        identifier: pagina_sito
-    -
-        type: class
-        identifier: frontpage
-    -
-        type: classextra
-        identifier: frontpage
-    -
-        type: contenttree
-        identifier: OpenCity
-        parent: $root_node
-    -
-        type: contenttree
-        identifier: Privacy
-        parent: $contenttree_OpenCity_Privacy_node
-    -
-        type: contenttree
-        identifier: Amministrazione
-        parent: $contenttree_OpenCity_Amministrazione_node
-    -
-        type: contenttree
-        identifier: Novita
-        parent: $contenttree_OpenCity_Novita_node
-    -
-        type: contenttree
-        identifier: Documenti-e-dati
-        parent: $contenttree_OpenCity_Documenti-e-dati_node
-    -
-        type: contenttree
-        identifier: Classificazioni
-        parent: $contenttree_OpenCity_Classificazioni_node
-    -
-        type: class
-        identifier: topic
-    -
-        type: classextra
-        identifier: topic
-    -
-        type: contenttree
-        identifier: Argomenti
-        parent: $contenttree_OpenCity_Argomenti_node
-        condition: $is_install_from_scratch
-    -
-        type: content
-        identifier: Speciali
-    -
-        type: content
-        identifier: Ruoli
-    -
-        type: content
-        identifier: Banner
-    -
-        type: class
-        identifier: homepage
-    -
-        type: classextra
-        identifier: homepage
-    -
-        type: content
-        identifier: OpenCity
-        swap_with: $root_node
-        remove_swapped: true
-    -
-        type: class
-        identifier: user_group
-    -
-        type: classextra
-        identifier: user_group
-    -
-        type: class
-        identifier: user
-        remove_extra: true
-    -
-        type: classextra
-        identifier: user
-    -
-        type: class
-        identifier: link
-    -
-        type: classextra
-        identifier: link
-    -
-        type: class
-        identifier: file
-    -
-        type: classextra
-        identifier: file
-    -
-        type: class
-        identifier: chart
-    -
-        type: classextra
-        identifier: chart
-    -
-        type: class
-        identifier: gallery
-    -
-        type: classextra
-        identifier: gallery
-    -
-        type: class
-        identifier: banner
-    -
-        type: classextra
-        identifier: banner
-#    -
-#        type: class
-#        identifier: valuation
-#        remove_extra: true
-#    -
-#        type: classextra
-#        identifier: valuation
-#    -
-#        type: content
-#        identifier: Segnala-un-problema
-    -
-        type: class
-        identifier: audio
-    -
-        type: classextra
-        identifier: audio
-    -
-        type: class
-        identifier: apps_container
-    -
-        type: classextra
-        identifier: apps_container
-    -
-        type: class
-        identifier: channel
-    -
-        type: classextra
-        identifier: channel
-    -
-        type: class
-        identifier: output
-    -
-        type: classextra
-        identifier: output
-    -
-        type: class
-        identifier: rule
-    -
-        type: classextra
-        identifier: rule
-    -
-        type: class
-        identifier: homogeneous_organizational_area
-    -
-        type: classextra
-        identifier: homogeneous_organizational_area
-    -
-        type: class
-        identifier: time_indexed_role
-    -
-        type: classextra
-        identifier: time_indexed_role
-    -
-        type: class
-        identifier: offer
-    -
-        type: classextra
-        identifier: offer
-    -
-        type: class
-        identifier: politico
-    -
-        type: classextra
-        identifier: politico
-    -
-        type: class
-        identifier: political_body
-    -
-        type: classextra
-        identifier: political_body
-    -
-        type: class
-        identifier: public_organization
-    -
-        type: classextra
-        identifier: public_organization
-    -
-        type: class
-        identifier: event
-    -
-        type: classextra
-        identifier: event
-    -
-        type: class
-        identifier: private_organization
-    -
-        type: classextra
-        identifier: private_organization
-    -
-        type: sql
-        current_version_le: 2.0.12
-        current_version_ge: 0.0.0
-        identifier: change_public_service_conditions_to_ezxmltext
-    -
-        type: tagtree
-        identifier: Tipologia-di-procedimento
-    -
-        type: class
-        identifier: public_service
-    -
-        type: classextra
-        identifier: public_service
-    -
-        type: class
-        identifier: office
-    -
-        type: class
-        identifier: office_with_related
-    -
-        type: classextra
-        identifier: office
-    -
-        type: class
-        identifier: administrative_area
-    -
-        type: classextra
-        identifier: administrative_area
-    -
-        type: class
-        identifier: document
-    -
-        type: classextra
-        identifier: document
-    -
-        type: class
-        identifier: place
-    -
-        type: classextra
-        identifier: place
-    -
-        type: class
-        identifier: online_contact_point
-    -
-        type: classextra
-        identifier: online_contact_point
-    -
-        type: class
-        identifier: opening_hours_specification
-    -
-        type: classextra
-        identifier: opening_hours_specification
-    -
-        type: class
-        identifier: employee
-    -
-        type: classextra
-        identifier: employee
-    -
-        type: class
-        identifier: article
-    -
-        type: class
-        identifier: public_service_with_related
-    -
-        type: classextra
-        identifier: article
-    -
-        type: class
-        identifier: person
-    -
-        type: classextra
-        identifier: person
-    -
-        type: class
-        identifier: dataset
-    -
-        type: classextra
-        identifier: dataset
-    -
-        type: class
-        identifier: partecipazione_societaria
-    -
-        type: classextra
-        identifier: partecipazione_societaria
-    -
-        type: class
-        identifier: restriced_area
-    -
-        type: classextra
-        identifier: restriced_area
-    -
-        type: class
-        identifier: image
-    -
-        type: classextra
-        identifier: image
-    -
-        type: workflow
-        identifier: Post-pubblicazione
-        trigger:
-            module: content
-            function: publish
-            connection_type: after
-    -
-        type: workflow
-        identifier: Pre-pubblicazione
-        trigger:
-            module: content
-            function: publish
-            connection_type: before
-    -
-        type: content
-        identifier: Contenuti-obsoleti
-    -
-        type: content
-        identifier: Editor-Base
-    -
-        type: content
-        identifier: Editor-Amministrazione
-    -
-        type: content
-        identifier: Editor-Documenti
-    -
-        type: content
-        identifier: Editor-Novita
-    -
-        type: content
-        identifier: Editor-Servizi
-    -
-        type: content
-        identifier: Editor-Utenti
-    -
-        type: content
-        identifier: Editor-Sito
-    -
-        type: role
-        identifier: Anonymous
-        apply_to:
-            - $anonymous_user
-            - $members
-            - $contenttree_Amministrazione_Politici_object
-    -
-        type: role
-        current_version_le: 2.0.5
-        current_version_gt: 0.0.0
-        identifier: Anonymous
-        remove_from:
-            - $content_Editor-Amministrazione_object
-            - $content_Editor-Base_object
-            - $content_Editor-Documenti_object
-            - $content_Editor-Novita_object
-            - $content_Editor-Servizi_object
-            - $content_Editor-Utenti_object
-            - $content_Editor-Sito_object
-    -
-        type: role
-        identifier: Members
-        apply_to:
-            - $members
-            - $content_Editor-Base_object
-    -
-        type: role
-        current_version_le: 2.0.5
-        current_version_gt: 0.0.0
-        identifier: Members
-        remove_from:
-            - $content_Editor-Amministrazione_object
-            - $content_Editor-Documenti_object
-            - $content_Editor-Novita_object
-            - $content_Editor-Servizi_object
-            - $content_Editor-Utenti_object
-    -
-        type: role
-        identifier: Editor-Base
-        apply_to:
-            - $content_Editor-Base_object
-    -
-        type: role
-        identifier: Editor-Amministrazione
-        apply_to:
-            - $content_Editor-Amministrazione_object
-    -
-        type: role
-        identifier: Editor-Classificazioni
-        apply_to:
-            - $content_Editor-Base_object
-    -
-        type: role
-        identifier: Editor-Documenti
-        apply_to:
-            - $content_Editor-Documenti_object
-    -
-        type: role
-        identifier: Editor-Novita
-        apply_to:
-            - $content_Editor-Novita_object
-    -
-        type: role
-        identifier: Editor-Servizi
-        apply_to:
-            - $content_Editor-Servizi_object
-    -
-        type: role
-        identifier: Editor-Utenti
-        apply_to:
-            - $content_Editor-Utenti_object
-#    -
-#        type: role
-#        identifier: Gestione-Area-riservata
-    -
-        type: role
-        identifier: Editor-Sito
-        apply_to:
-            - $content_Editor-Sito_object
-    -
-        type: openparecaptcha
-        public: $recaptcha_public
-        private: $recaptcha_private
-        condition: $is_install_from_scratch
-    -
-        type: add_tag
-        current_version_ge: 0.0.0
-        current_version_lt: 2.0.10
-        identifier: Persone_Ruoli_Vicesegretario
-        parent: tag(Persone/Ruoli)
-        tags:
-            -
-                keyword: Vicesegretario
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: Vicesegretario
-    -
-        type: patch_content
-        current_version_lt: 2.0.12
-        current_version_ge: 0.0.0
-        identifier: a9d783ef0712ac3e37edb23796990714
-        attributes:
-            name: Uffici
-        sort_data:
-            sort_field: 9
-            sort_order: 1
-            priority: 20
-    -
-        type: patch_content
-        current_version_lt: 2.0.12
-        current_version_ge: 0.0.0
-        identifier: organi_politici
-        attributes:
-            name: 'Organi di governo'
-    -
-        type: tagtree
-        current_version_le: 2.1.6
-        current_version_ge: 0.0.0
-        identifier: Tipi-di-luogo
-    -
-        type: role
-        identifier: Editor-Backend
-    -
-        type: change_state
-        identifier: default
-    -
-        type: change_section
-        identifier: default
-    -
-        type: tag_description
-        current_version_le: 2.0.13
-        identifier: Tipologia-del-servizio
-        root: 'tag(Servizi pubblici/Tipologia del servizio (TD))'
-    -
-        type: patch_content
-        current_version_le: 2.0.13
-        current_version_ge: 0.0.0
-        identifier: b04a731ca8cc79de8b7cf9f6c2f37705
-        attributes:
-            show_tag_cards: '1'
-    -
-        type: reindex
-        current_version_le: 2.0.14
-        current_version_ge: 0.0.1
-        identifier: time_indexed_role
-    -
-        type: remove_tag
-        parent: 'tag(Servizi pubblici/Stato del servizio)'
-        tags:
-            -
-                keyword: 'Servizio interno all''ente'
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: 'Servizio interno all''ente'
-    -
-        type: tagtree
-        identifier: Tipo-di-documento
-        current_version_lt: 2.0.18
-        current_version_ge: 0.0.0
-    -
-        type: openparecaptcha_v3
-        public: $recaptcha_v3_public
-        private: $recaptcha_v3_private
-        condition: $is_install_from_scratch
-    -
-        type: patch_content
-        current_version_lt: 2.1.0
-        current_version_ge: 0.0.1
-        identifier: custom_topics
-        attributes:
-            icon: it-star-outline
-    -
-        type: patch_content
-        current_version_lt: 2.1.0
-        current_version_ge: 0.0.1
-        identifier: 3bb4f45279e3c4efe2ac84630e53a7b4
-        attributes:
-            icon: it-share
-    -
-        type: patch_content
-        current_version_lt: 2.1.0
-        current_version_ge: 0.0.1
-        identifier: f1c1c3e7404f162fa27d7accbe742f3d
-        attributes:
-            icon: it-card
-    -
-        type: patch_content
-        current_version_lt: 2.1.0
-        current_version_ge: 0.0.1
-        identifier: f10a85a4ddd1810f10f655785dd84e75
-        attributes:
-            icon: it-clock
-    -
-        type: patch_content
-        current_version_lt: 2.1.0
-        current_version_ge: 0.0.1
-        identifier: punti_di_contatto
-        attributes:
-            icon: it-share
-    -
-        type: patch_content
-        current_version_lt: 2.1.0
-        current_version_ge: 0.0.1
-        identifier: 13a222ce7f77968fa48914e86848ae6c
-        attributes:
-            icon: it-file
-    -
-        type: patch_content
-        current_version_lt: 2.1.0
-        current_version_ge: 0.0.1
-        identifier: dataset
-        attributes:
-            icon: it-chart-line
-    -
-        type: patch_content
-        current_version_lt: 2.1.0
-        current_version_ge: 0.0.1
-        identifier: 9a1756e11164d0d550ee950657154db8
-        attributes:
-            icon: it-horn
-    -
-        type: patch_content
-        current_version_lt: 2.1.0
-        current_version_ge: 0.0.1
-        identifier: 16a65071f99a1be398a677e5e4bef93f
-        attributes:
-            icon: it-horn
-    -
-        type: patch_content
-        current_version_lt: 2.1.0
-        current_version_ge: 0.0.1
-        identifier: c14707f384972ee940f6a0598f48b241
-        attributes:
-            icon: it-calendar
-    -
-        type: patch_content
-        current_version_lt: 2.1.0
-        current_version_ge: 0.0.1
-        identifier: ea708fa69006941b4dc235a348f1431d
-        attributes:
-            icon: it-horn
-    -
-        type: patch_content
-        current_version_lt: 2.1.0
-        current_version_ge: 0.0.1
-        identifier: 11ee98a24f1921081236b6fb080eea24
-        attributes:
-            icon: it-folder
-    -
-        type: patch_content
-        current_version_lt: 2.1.0
-        current_version_ge: 0.0.1
-        identifier: 25cd509e30c449f14d0c37cc70c424e7
-        attributes:
-            icon: it-locked
-    -
-        type: class
-        identifier: politico_with_related
+  - type: sql
+    identifier: alter_contentobject_date_interger_type
 
-    -
-        type: content
-        current_version_le: 2.1.1
-        current_version_ge: 0.0.1
-        identifier: Modulistica
-        update: true
-    -
-        type: remove_tag
-        current_version_ge: 0.0.0
-        current_version_lt: 2.1.4
-        parent: 'tag(Servizi pubblici/Tipologia del servizio (TD))'
-        tags:
-            -
-                keyword: 'Appalti pubblici'
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: 'Appalti pubblici'
-                    ita-PA: 'https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/5'
-    -
-        type: rename_tag
-        tag: 'tag(Servizi pubblici/Tipologia del servizio (TD)/Catasto e urbanistica)'
-        keywords:
-            ita-IT: 'Edilizia e urbanistica'
-    -
-        type: patch_content
-        current_version_le: 2.1.6
-        current_version_ge: 0.0.0
-        identifier: fa52241c11d26c8aa24ab93813995e10
-        attributes:
-            name: 'Orari uffici e strutture'
-            icon: it-clock
-            show_children: 0
-            layout:
-                zone_layout: desItaGlobal
-                global:
-                    zone_id: da8eb7f1f4391a4fdda26dc90a0f4bee
-                    blocks:
-                        -
-                            block_id: 7fe32fa415361edb5e02078ae869f77c
-                            name: ''
-                            type: OpendataRemoteContents
-                            view: default
-                            custom_attributes:
-                                remote_url: ""
-                                query: "classes [opening_hours_specification] subtree [$contenttree_Classificazioni_Orari-strutture_node]"
-                                show_grid: "1"
-                                show_map: "0"
-                                show_search: "1"
-                                input_search_placeholder: ""
-                                limit: "9"
-                                items_per_row: "3"
-                                fields: ""
-                                facets: ""
-                                simple_geo_api: "0"
-                                template: ""
-                                color_style: ""
-                                container_style: ""
-                                show_all_link: ""
-                                show_all_text: ""
-    -
-        type: sql
-        identifier: update_webhooks
-        current_version_le: 2.1.8
-        current_version_ge: 0.0.1
-    -
-        type: role
-        identifier: Dashboard-Luoghi
-        apply_to:
-            - $content_Editor-Amministrazione_object
-    -
-        type: class
-        identifier: opening_hours_specification_with_related
-    -
-        type: add_tag
-        current_version_ge: 0.0.0
-        current_version_lt: 2.1.11
-        identifier: Persone_Ruoli_Dipendente
-        parent: tag(Persone/Ruoli)
-        tags:
-            -
-                keyword: Dipendente
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: Dipendente
-    -
-        type: add_tag
-        current_version_ge: 0.0.0
-        current_version_lt: 2.1.11
-        identifier: Organizzazione_Tipo-di-organo-politico_Consulta
-        parent: tag(Organizzazione/Tipo di organo politico)
-        tags:
-            -
-                keyword: Consulta
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: Consulta
-    -
-        type: add_tag
-        current_version_ge: 0.0.0
-        current_version_lt: 2.1.11
-        identifier: Organizzazione_Tipo-di-organo-politico_Presidente
-        parent: tag(Organizzazione/Tipo di organo politico)
-        tags:
-            -
-                keyword: Presidente
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: Presidente
-    -
-        type: add_tag
-        current_version_ge: 0.0.0
-        current_version_lt: 2.1.11
-        identifier: Organizzazione_Tipo-di-organo-politico_Commissione
-        parent: tag(Organizzazione/Tipo di organo politico)
-        tags:
-            -
-                keyword: Commissione
-                locale: ita-IT
-                alwaysAvailable: true
-                synonyms: {  }
-                keywordTranslations:
-                    ita-IT: Commissione
-    -
-        type: patch_content
-        current_version_le: 2.1.10
-        current_version_ge: 0.0.0
-        identifier: banners
-        attributes:
-            name: 'Banner e link'
+  - type: states
+    identifiers:
+      - moderation
+      - privacy
+      - albotelematico
+      - concorso
+
+  - type: sections
+    identifiers:
+      - intranet
+      - restricted
+      - oggetti_scaduti
+
+  - type: tagtree_csv
+    identifiers:
+      - costi_e_prezzi
+      - data_themes_eurovocs
+      - dataset
+      - documenti
+      - esito_servizi_al_cittadino
+      - eventi
+      - licenze
+      - lingue_in_cui_e_disponibile_un_servizio_un_evento
+      - luoghi
+      - organizzazione
+      - parole_chiave_generali
+      - persone
+      - servizi_pubblici
+      - tipi_di_notizia
+
+  - type: php_callable
+    identifier: 'OpenPAComuniItaliani::import'
+    condition: $is_install_from_scratch
+
+  - type: class_with_extra
+    identifier: folder
+  - type: class_with_extra
+    identifier: pagina_sito
+  - type: class_with_extra
+    identifier: frontpage
+  - type: class_with_extra
+    identifier: image
+  - type: class_with_extra
+    identifier: link
+
+  - type: images_from_url
+    urls:
+      - https://s3-eu-west-1.amazonaws.com/static.opencity.opencontent.it/installer/Consiglio-comunale.jpg
+      - https://s3-eu-west-1.amazonaws.com/static.opencity.opencontent.it/installer/Giunta-comunale.jpg
+      - https://s3-eu-west-1.amazonaws.com/static.opencity.opencontent.it/installer/Il-nuovo-modello-di-sito-web-comunale.png
+      - https://s3-eu-west-1.amazonaws.com/static.opencity.opencontent.it/installer/competenze-digitali.png
+      - https://s3-eu-west-1.amazonaws.com/static.opencity.opencontent.it/installer/comuni-2022.png
+      - https://s3-eu-west-1.amazonaws.com/static.opencity.opencontent.it/installer/kit_architettura.png
+      - https://s3-eu-west-1.amazonaws.com/static.opencity.opencontent.it/installer/opencityitalia.png
+      - https://s3-eu-west-1.amazonaws.com/static.opencity.opencontent.it/installer/sindaco.jpg
+      - https://s3-eu-west-1.amazonaws.com/static.opencity.opencontent.it/installer/viale-alberato.jpg
+      - https://s3-eu-west-1.amazonaws.com/static.opencity.opencontent.it/installer/digitale.jpg
+    parent: $content_Images_node
+    attributes:
+      license:
+        - "Licenza sconosciuta"
+      author: "Autore sconosciuto"
+
+  - type: contenttree
+    identifier: OpenCity
+    parent: $root_node
+  - type: contenttree
+    identifier: Amministrazione
+    parent: $contenttree_OpenCity_Amministrazione_node
+  - type: contenttree
+    identifier: Privacy
+    parent: $contenttree_OpenCity_Privacy_node
+  - type: contenttree
+    identifier: Novita
+    parent: $contenttree_OpenCity_Novita_node
+  - type: contenttree
+    identifier: Vivere-il-comune
+    parent: $contenttree_OpenCity_Vivere-il-comune_node
+  - type: contenttree
+    identifier: Documenti-e-dati
+    parent: $contenttree_OpenCity_Documenti-e-dati_node
+  - type: contenttree
+    identifier: Classificazioni
+    parent: $contenttree_OpenCity_Classificazioni_node
+
+  - type: class_with_extra
+    identifier: topic
+  - type: contenttree
+    identifier: Argomenti
+    parent: $contenttree_OpenCity_Argomenti_node
+  - type: contenttree
+    identifier: Argomenti-Agricoltura-e-alimentazione
+    parent: $contenttree_Argomenti_Agricoltura-e-alimentazione_node
+  - type: contenttree
+    identifier: Argomenti-Ambiente
+    parent: $contenttree_Argomenti_Ambiente_node
+  - type: contenttree
+    identifier: Argomenti-Economia-e-finanze
+    parent: $contenttree_Argomenti_Economia-e-finanze_node
+  - type: contenttree
+    identifier: Argomenti-Energia
+    parent: $contenttree_Argomenti_Energia_node
+  - type: contenttree
+    identifier: Argomenti-Giustizia-sistema-giuridico
+    parent: $contenttree_Argomenti_Giustizia-sistema-giuridico-e-sicurezza-pubblica_node
+  - type: contenttree
+    identifier: Argomenti-Governo-e-settore
+    parent: $contenttree_Argomenti_Governo-e-settore-pubblico_node
+  - type: contenttree
+    identifier: Argomenti-Istruzione-cultura-e
+    parent: $contenttree_Argomenti_Istruzione-cultura-e-sport_node
+  - type: contenttree
+    identifier: Argomenti-Mobilita-e-trasporti
+    parent: $contenttree_Argomenti_Mobilita-e-trasporti_node
+  - type: contenttree
+    identifier: Argomenti-Popolazione-e-societa
+    parent: $contenttree_Argomenti_Popolazione-e-societa_node
+  - type: contenttree
+    identifier: Argomenti-Salute
+    parent: $contenttree_Argomenti_Salute_node
+  - type: contenttree
+    identifier: Argomenti-Scienza-e-tecnologia
+    parent: $contenttree_Argomenti_Scienza-e-tecnologia_node
+  - type: contenttree
+    identifier: Argomenti-Tematiche-internazionali
+    parent: $contenttree_Argomenti_Tematiche-internazionali_node
+  - type: contenttree
+    identifier: Argomenti-Territorio
+    parent: $contenttree_Argomenti_Territorio_node
+
+  - type: content
+    identifier: Speciali
+  - type: content
+    identifier: Ruoli
+  - type: content
+    identifier: Banner
+  - type: content
+    identifier: Contenuti-obsoleti
+  - type: content
+    identifier: Dichiarazione-di-accessibilita
+
+  - type: content
+    identifier: Editor-Base
+  - type: content
+    identifier: Editor-Amministrazione
+  - type: content
+    identifier: Editor-Vivere-il-comune
+  - type: content
+    identifier: Editor-Novita
+  - type: content
+    identifier: Editor-Servizi
+  - type: content
+    identifier: Editor-Utenti
+  - type: content
+    identifier: Editor-Sito
+
+  - type: class
+    identifier: apps_container
+  - type: class_with_extra
+    identifier: user_group
+  - type: class_with_extra
+    identifier: user
+    remove_extra: true
+  - type: class_with_extra
+    identifier: file
+  - type: class_with_extra
+    identifier: chart
+  - type: class_with_extra
+    identifier: banner
+  - type: class_with_extra
+    identifier: audio
+  - type: class_with_extra
+    identifier: channel
+  - type: class_with_extra
+    identifier: output
+  - type: class_with_extra
+    identifier: time_indexed_role
+  - type: class_with_extra
+    identifier: offer
+  - type: class_with_extra
+    identifier: article
+  - type: class_with_extra
+    identifier: public_person
+  - type: class_with_extra
+    identifier: organization
+  - type: class_with_extra
+    identifier: private_organization
+  - type: class_with_extra
+    identifier: event
+  - type: class_with_extra
+    identifier: public_service
+  - type: class_with_extra
+    identifier: document
+  - type: class_with_extra
+    identifier: place
+  - type: class_with_extra
+    identifier: online_contact_point
+  - type: class_with_extra
+    identifier: opening_hours_specification
+  - type: class_with_extra
+    identifier: dataset
+
+  - type: class
+    identifier: event_with_related
+  - type: class
+    identifier: organization_with_related
+  - type: class
+    identifier: opening_hours_specification_with_related
+  - type: class
+    identifier: image_with_related
+  - type: class
+    identifier: public_service_with_related
+
+  - type: content
+    identifier: Contatti-URP
+  - type: content
+    identifier: Palazzo-del-municipio
+  - type: content
+    identifier: Ufficio-relazioni-con-il-pubblico
+  - type: content
+    identifier: Consiglio-comunale
+  - type: content
+    identifier: Giunta-comunale
+  - type: content
+    identifier: Commissione
+  - type: content
+    identifier: PNRR-la-digitalizzazione-dei-servizi-comunali
+    update: 1
+  - type: content
+    identifier: Con-il-nuovo-sito-web-il-comune-e-sempre-piu-digitale
+    update: 1
+  - type: content
+    identifier: Kit-comuni
+  - type: content
+    identifier: OpenCityitalia
+  - type: content
+    identifier: Architettura-e-contenuti
+
+  - type: class_with_extra
+    identifier: homepage
+  - type: content
+    identifier: OpenCity
+    swap_with: $root_node
+    remove_swapped: true
+    update: 1
+
+  - type: role
+    identifier: Anonymous
+    apply_to:
+      - $anonymous_user
+      - $members
+  - type: role
+    identifier: Members
+    apply_to:
+      - $members
+      - $content_Editor-Base_object
+  - type: role
+    identifier: Editor-Base
+    apply_to:
+      - $content_Editor-Base_object
+  - type: role
+    identifier: Editor-Amministrazione
+    apply_to:
+      - $content_Editor-Amministrazione_object
+  - type: role
+    identifier: Editor-Classificazioni
+    apply_to:
+      - $content_Editor-Base_object
+  - type: role
+    identifier: Editor-Vivere-il-comune
+    apply_to:
+      - $content_Editor-Vivere-il-comune_object
+  - type: role
+    identifier: Editor-Novita
+    apply_to:
+      - $content_Editor-Novita_object
+  - type: role
+    identifier: Editor-Servizi
+    apply_to:
+      - $content_Editor-Servizi_object
+  - type: role
+    identifier: Editor-Utenti
+    apply_to:
+      - $content_Editor-Utenti_object
+  - type: role
+    identifier: Editor-Sito
+    apply_to:
+      - $content_Editor-Sito_object
+  - type: role
+    identifier: Editor-Backend
+  - type: role
+    identifier: Dashboard-Luoghi
+    apply_to:
+      - $content_Editor-Vivere-il-comune_object
+
+  - type: openparecaptcha
+    public: $recaptcha_public
+    private: $recaptcha_private
+    condition: $is_install_from_scratch
+  - type: openparecaptcha_v3
+    public: $recaptcha_v3_public
+    private: $recaptcha_v3_private
+    condition: $is_install_from_scratch
+
+  - type: workflow
+    identifier: Post-pubblicazione
+    trigger:
+      module: content
+      function: publish
+      connection_type: after
+  - type: workflow
+    identifier: Pre-pubblicazione
+    trigger:
+      module: content
+      function: publish
+      connection_type: before
+
+  - type: change_state
+    identifier: default
+  - type: change_section
+    identifier: default

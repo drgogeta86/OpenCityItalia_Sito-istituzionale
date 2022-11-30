@@ -38,7 +38,6 @@ policies:
                 - $content_Editor-Base_path_string
             Class:
                 - $class_user
-                - $class_employee
     -
         ModuleName: content
         FunctionName: edit
@@ -46,7 +45,6 @@ policies:
             Class:
                 - $class_user
                 - $class_pagina_sito
-                - $class_employee
     -
         ModuleName: bootstrapitalia
         FunctionName: permissions

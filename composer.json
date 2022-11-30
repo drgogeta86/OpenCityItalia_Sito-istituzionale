@@ -59,7 +59,7 @@
     "opencontent/ocgdprtools-ls": "1.*",
     "opencontent/oci18n": "dev-master",
     "opencontent/ocinigui-ls": "1.*",
-    "opencontent/ocinstaller": "dev-master",
+    "opencontent/ocinstaller": "dev-wip",
     "opencontent/ocmaintenance-ls": "2.*",
     "opencontent/ocmap-ls": "1.*",
     "opencontent/ocmultibinary-ls": "3.1.*",

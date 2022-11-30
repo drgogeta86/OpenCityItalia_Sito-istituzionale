@@ -1,9 +1,10 @@
 metadata:
-    remoteId: 25cd509e30c449f14d0c37cc70c424e7
+    remoteId: privacy-policy-link
     classIdentifier: pagina_sito
     sectionIdentifier: standard
     languages:
         - ita-IT
+        - ger-DE
 data:
     ita-IT:
         name: Privacy
@@ -19,7 +20,24 @@ data:
         show_search_form: 1
         tag_menu: {  }
         publish_date: null
+        show_tag_cards: 0
+    ger-DE:
+        name: Der Datenschutz
+        short_name: null
+        menu_name: null
+        abstract: '<p>In diesem Abschnitt finden Sie die von unseren kommunalen Strukturen verwendeten allgemeinen Offenlegungsmodelle sowie die Referenzen des Datenschutzbeauftragten.</p>'
+        description: ''
+        image: {  }
+        show_children: 1
+        layout: {  }
+        icon: it-locked
+        show_topics: 1
+        show_search_form: 1
+        tag_menu: {  }
+        publish_date: null
+        show_tag_cards: 0
 sort_data:
     sort_field: 8
     sort_order: 1
     priority: 0
+

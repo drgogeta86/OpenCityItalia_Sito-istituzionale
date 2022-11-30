@@ -19,9 +19,9 @@ policies:
                 - $class_pagina_sito
                 - $class_frontpage
             Subtree:
-                - $contenttree_OpenCity_Documenti-e-dati_path_string
+                - $contenttree_OpenCity_Vivere-il-comune_path_string
             Node:
-                - $contenttree_OpenCity_Documenti-e-dati_node
+                - $contenttree_OpenCity_Vivere-il-comune_node
     -
         ModuleName: content
         FunctionName: edit

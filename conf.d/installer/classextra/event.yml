@@ -1,22 +1,25 @@
 attribute_group:
+    a_chi_e_rivolto:
+        '*': 'A chi è rivolto'
+        about_target_audience: '1'
+        maximum_attendee_capacity: '1'
+        target_audience: '1'
+        typical_age_range: '1'
     appuntamenti:
         '*': Appuntamenti
+        related_event: '1'
     contatti:
         '*': Contatti
         has_online_contact_point: '1'
-        organizer: '1'
     cos_e:
         '*': 'Cos''è'
-        about_target_audience: '1'
+        attendee: '1'
         description: '1'
-        event_content_keyword: '1'
-        has_video: '1'
         image: '1'
-        performer: '1'
-        target_audience: '1'
-        typical_age_range: '1'
+        video: '1'
     costi:
         '*': Costi
+        cost_notes: '1'
         has_offer: '1'
         is_accessible_for_free: '1'
     date_e_orari:
@@ -28,38 +31,8 @@ attribute_group:
         has_playbill: '1'
     enabled:
         '*': '1'
-    'eng-GB::appuntamenti':
-        '*': Appointments
-    'eng-GB::contatti':
-        '*': Contacts
-    'eng-GB::cos_e':
-        '*': 'What is it?'
-    'eng-GB::costi':
-        '*': Costs
-    'eng-GB::date_e_orari':
-        '*': 'Dates and times'
-    'eng-GB::documenti':
-        '*': Documents
-    'eng-GB::luogo':
-        '*': Place
-    'eng-GB::ulteriori_informazioni':
-        '*': 'Further information'
-    'ger-DE::appuntamenti':
-        '*': Termine
-    'ger-DE::contatti':
-        '*': Kontakt
-    'ger-DE::cos_e':
-        '*': 'Was Sie wissen müssen  '
-    'ger-DE::costi':
-        '*': 'Kosten und Gebühren'
-    'ger-DE::date_e_orari':
-        '*': 'Daten und Uhrzeiten'
-    'ger-DE::documenti':
-        '*': Dokumente
-    'ger-DE::luogo':
-        '*': Ort
-    'ger-DE::ulteriori_informazioni':
-        '*': 'Weitere Informationen'
+    'ita-IT::a_chi_e_rivolto':
+        '*': 'A chi è rivolto'
     'ita-IT::appuntamenti':
         '*': Appuntamenti
     'ita-IT::contatti':
@@ -79,12 +52,14 @@ attribute_group:
     luogo:
         '*': Luogo
         takes_place_in: '1'
+    'sort::a_chi_e_rivolto':
+        '*': '1'
     'sort::appuntamenti':
         '*': '7'
     'sort::contatti':
         '*': '6'
     'sort::cos_e':
-        '*': '1'
+        '*': '0'
     'sort::costi':
         '*': '4'
     'sort::date_e_orari':
@@ -98,15 +73,19 @@ attribute_group:
     ulteriori_informazioni:
         '*': 'Ulteriori informazioni'
         aggregate_rating: '1'
-        attendee: '1'
         composer: '1'
         content_show_history: '1'
         content_show_modified: '1'
+        event_content_keyword: '1'
         funder: '1'
-        has_public_event_typology: '1'
+        funder_notes: '1'
+        organizer: '1'
+        performer: '1'
         sponsor: '1'
+        sponsor_notes: '1'
         sub_event_of: '1'
         translator: '1'
+        ulteriori_informazioni: '1'
 bootstrapitalia_icon:
     enabled:
         '*': '1'
@@ -116,11 +95,11 @@ card_small_view:
     enabled:
         '*': '1'
     show:
+        content_show_read_more: '1'
         event_abstract: '1'
         event_title: '1'
         image: '1'
         short_event_title: '1'
-        content_show_read_more: '1'
 line_view:
     enabled:
         '*': '1'
@@ -169,10 +148,8 @@ table_view:
         event_abstract: '1'
     main_image:
         image: '1'
-        takes_place_in: '0'
     show:
         about_target_audience: '1'
-        address: '1'
         aggregate_rating: '1'
         attachment: '1'
         attendee: '1'
@@ -181,68 +158,42 @@ table_view:
         content_show_modified: '1'
         content_show_published: '1'
         content_tree_related: '1'
-        costi: '1'
+        cost_notes: '1'
         description: '1'
-        destinatari: '1'
-        durata: '1'
-        file: '1'
         funder: '1'
         has_offer: '1'
         has_online_contact_point: '1'
         has_playbill: '1'
-        has_video: '1'
         image: '1'
-        informazioni: '1'
-        iniziativa: '1'
         is_accessible_for_free: '1'
-        location: '1'
+        maximum_attendee_capacity: '1'
+        organizer: '1'
+        performer: '1'
+        related_event: '1'
+        sponsor: '1'
+        sub_event_of: '1'
+        takes_place_in: '1'
+        target_audience: '1'
+        time_interval: '1'
+        translator: '1'
+        typical_age_range: '1'
+        ulteriori_informazioni: '1'
+        video: '1'
+    show_empty:
+        aggregate_rating: '1'
+    show_label:
+        attendee: '1'
+        composer: '1'
+        funder: '1'
         maximum_attendee_capacity: '1'
         organizer: '1'
         performer: '1'
         sponsor: '1'
         sub_event_of: '1'
-        takes_place_in: '1'
-        target_audience: '1'
-        text: '1'
-        time_interval: '1'
-        translator: '1'
-        typical_age_range: '1'
-    show_empty:
-        aggregate_rating: '1'
-    show_label:
-        address: '1'
-        attendee: '1'
-        circoscrizione: '1'
-        composer: '1'
-        costi: '1'
-        destinatari: '1'
-        durata: '1'
-        file: '1'
-        fonte: '1'
-        from_time: '1'
-        funder: '1'
-        image: '1'
-        informazioni: '1'
-        iniziativa: '1'
-        location: '1'
-        luogo_svolgimento: '1'
-        materia: '1'
-        orario_svolgimento: '1'
-        organizer: '1'
-        periodo_svolgimento: '1'
-        progressivo: '1'
-        short_title: '1'
-        sponsor: '1'
-        stato: '1'
-        sub_event_of: '1'
-        target_audience: '1'
-        tipo_evento: '1'
-        to_time: '1'
         translator: '1'
         typical_age_range: '1'
     show_link:
-        address: '1'
         has_online_contact_point: '1'
-        location: '1'
         organizer: '1'
+        sub_event_of: '1'
         takes_place_in: '1'

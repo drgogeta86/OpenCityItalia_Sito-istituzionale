@@ -6,7 +6,7 @@ metadata:
         - ita-IT
         - ger-DE
     parentNodes:
-        - $root_node
+        - $media_root_node
 data:
     ita-IT:
         name: Contenuti obsoleti

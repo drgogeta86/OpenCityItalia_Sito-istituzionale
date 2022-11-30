@@ -1,3 +1,8 @@
+card_small_view:
+    enabled:
+        '*': '1'
+    show:
+        content_show_read_more: '1'
 table_view:
     enabled:
         '*': '1'
@@ -8,8 +13,3 @@ table_view:
         image: '1'
     show:
         managed_by_area: '1'
-card_small_view:
-    enabled:
-        '*': '1'
-    show:
-        content_show_read_more: '1'

@@ -17,25 +17,25 @@ attribute_group:
     enabled:
         '*': '1'
     'eng-GB::contatti':
-        '*': Contacts
+        '*': Contatti
     'eng-GB::descrizione':
-        '*': Description
+        '*': Descrizione
     'eng-GB::dove':
-        '*': 'Where?'
+        '*': Dove
     'eng-GB::modalita_di_accesso':
-        '*': 'How to access'
+        '*': 'Modalità di accesso '
     'eng-GB::orari_di_apertura':
-        '*': 'Opening time'
+        '*': 'Orari di apertura'
     'eng-GB::servizi':
-        '*': Services
+        '*': Servizi
     'eng-GB::ulteriori_informazioni':
-        '*': 'Further information'
+        '*': 'Ulteriori informazioni'
     'ger-DE::contatti':
         '*': Kontakt
     'ger-DE::descrizione':
         '*': Beschreibung
     'ger-DE::dove':
-        '*': 'Wo Sie uns finden'
+        '*': 'Wo '
     'ger-DE::modalita_di_accesso':
         '*': 'Zugang zu den Dienstleistungen'
     'ger-DE::orari_di_apertura':

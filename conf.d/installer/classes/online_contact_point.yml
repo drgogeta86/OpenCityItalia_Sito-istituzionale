@@ -2,24 +2,23 @@ identifier: online_contact_point
 contentobject_name: '<name>'
 serialized_name_list:
     always-available: ita-IT
-    ita-IT: 'Punto di contatto on-line'
     ger-DE: Online-Ansprechpartner
+    ita-IT: 'Punto di contatto'
 serialized_description_list:
     always-available: ita-IT
-    ita-IT: 'Raggruppa un insieme di tipi di canali digitali, come email, social network, siti web, ecc...'
     ger-DE: 'Gruppiert eine Reihe von digitalen Kanälen, wie z. B. E-Mail, soziale Netzwerke, Websites usw..'
+    ita-IT: 'Raggruppa un insieme di tipi di canali digitali, come email, social network, siti web, ecc...'
 always_available: 1
-is_container: 0
 data_map:
     name:
         identifier: name
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: ''
+            ita-IT: 'Es.: "Contatti Ufficio Anagrafe"'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Nome del punto di contatto'
             ger-DE: 'Name der Kontaktstelle'
+            ita-IT: 'Titolo punto di contatto'
         data_type_string: ezstring
         placement: 1
         is_searchable: 1
@@ -32,12 +31,12 @@ data_map:
         identifier: contact
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: 'Specificare tutti i contatti '
             ger-DE: 'Geben Sie alle Kontakte an'
+            ita-IT: 'Specificare per ogni contatto il tipo di contatto (Email, Telefono, URL, PEC) e il suo valore specifico (il numero compreso di prefisso internazionale (se telefono), l''account (se social network), l''URL (se sito o pagina web), l''indirizzo email (se email)).'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: Contatti
             ger-DE: Kontakt
+            ita-IT: Contatti
         data_type_string: ezmatrix
         placement: 2
         is_searchable: 1
@@ -55,13 +54,14 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: Note
             ger-DE: Hinweise
+            ita-IT: Note
         data_type_string: eztext
         placement: 3
         is_searchable: 1
         can_translate: 1
         data_int1: 2
+        category: hidden
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
@@ -72,8 +72,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Orari di disponibilità telefonica'
             ger-DE: 'Telefonische Ansprechzeiten'
+            ita-IT: 'Orari di disponibilità telefonica'
         data_type_string: ezobjectrelationlist
         placement: 4
         is_searchable: 1
@@ -93,16 +93,16 @@ data_map:
         identifier: is_contact_point_of_organizations
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: 'Strutture (uffici, aree, organizzazioni) collegate al Punto di contatto'
             ger-DE: 'Einrichtungen (Ämter, Bereiche, Organisationen), die mit der Kontaktstelle verbunden sind'
+            ita-IT: 'Strutture (uffici, aree, organizzazioni) collegate al Punto di contatto'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Strutture collegate'
             ger-DE: 'Zugeordnete Einrichtungen'
+            ita-IT: 'Strutture collegate'
         data_type_string: openpareverserelationlist
         placement: 5
         can_translate: 1
-        data_text5: '{"attribute_id_list":[classattributeid_list(administrative_area/has_online_contact_point,place/help,office/has_online_contact_point)],"sort":"name","order":"asc","limit":6}'
+        data_text5: '{"attribute_id_list":[classattributeid(organization/has_online_contact_point)],"sort":"name","order":"asc","limit":6,"attribute_id_subtree":[]}'
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''

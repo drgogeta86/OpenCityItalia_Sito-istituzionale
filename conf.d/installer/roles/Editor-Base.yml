@@ -80,7 +80,6 @@ policies:
         ModuleName: websitetoolbar
         FunctionName: '*'
         Limitation: {  }
-
     -
         ModuleName: ezflow
         FunctionName: '*'

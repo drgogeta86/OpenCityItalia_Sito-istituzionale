@@ -1,3 +1,8 @@
+card_small_view:
+    enabled:
+        '*': '1'
+    show:
+        content_show_read_more: '1'
 search_form:
     enabled:
         '*': '1'
@@ -17,8 +22,3 @@ table_view:
     show_label:
         name: '1'
         short_name: '1'
-card_small_view:
-    enabled:
-        '*': '1'
-    show:
-        content_show_read_more: '1'

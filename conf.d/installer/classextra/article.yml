@@ -6,18 +6,30 @@ attribute_group:
         '*': Corpo
         audio: '1'
         body: '1'
-        video: '1'
         related_service: '0'
+        video: '1'
     dataset:
         '*': Dataset
         dataset: '1'
     documenti:
         '*': Documenti
         attachment: '1'
-        image: '1'
         files: '1'
+        image: '1'
     enabled:
         '*': '1'
+    'ger-DE::contatti':
+        '*': Kontakt
+    'ger-DE::corpo':
+        '*': Beschreibung
+    'ger-DE::dataset':
+        '*': Datensatz
+    'ger-DE::documenti':
+        '*': Dokumente
+    'ger-DE::ulteriori_informazioni':
+        '*': 'Weitere Informationen'
+    'hidden::corpo':
+        '*': corpo
     'ita-IT::contatti':
         '*': Contatti
     'ita-IT::corpo':
@@ -43,33 +55,21 @@ attribute_group:
         content_show_modified: '1'
         license: '1'
         related_service: '1'
-    'hidden::corpo':
-        '*': corpo
-    'ger-DE::contatti':
-        '*': Kontakt
-    'ger-DE::corpo':
-        '*': Beschreibung
-    'ger-DE::dataset':
-        '*': Datensatz
-    'ger-DE::documenti':
-        '*': Dokumente
-    'ger-DE::ulteriori_informazioni':
-        '*': 'Weitere Informationen'
-    'eng-GB::contatti':
-        '*': Contacts
-    'eng-GB::corpo':
-        '*': Description
-    'eng-GB::dataset':
-        '*': Dataset
-    'eng-GB::documenti':
-        '*': Documents
-    'eng-GB::ulteriori_informazioni':
-        '*': 'Further information'
 bootstrapitalia_icon:
     enabled:
         '*': '1'
     icon:
         '*': it-note
+card_small_view:
+    enabled:
+        '*': '1'
+    show:
+        abstract: '1'
+        content_show_read_more: '1'
+        image: '1'
+        published: '1'
+    show_label:
+        published: '1'
 line_view:
     enabled:
         '*': '1'
@@ -111,31 +111,19 @@ table_view:
         content_show_published: '1'
         content_tree_related: '1'
         dataset: '1'
+        files: '1'
         help: '1'
         image: '1'
-        license: '1'
         location: '1'
         people: '1'
         published: '1'
         reading_time: '1'
-        video: '1'
-        files: '1'
         related_service: '1'
+        video: '1'
     show_label:
-        license: '1'
         title: '1'
     show_link:
         attachment: '1'
         help: '1'
         location: '1'
         related_service: '1'
-card_small_view:
-    enabled:
-        '*': '1'
-    show:
-        abstract: '1'
-        image: '1'
-        published: '1'
-        content_show_read_more: '1'
-    show_label:
-        published: '1'

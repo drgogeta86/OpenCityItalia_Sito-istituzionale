@@ -1,5 +1,5 @@
 rootNodeIdList:
-    document: '$contenttree_OpenCity_Documenti-e-dati_node'
+    document: '$contenttree_Amministrazione_Documenti-e-dati_node'
 dataTimeAttributeIdentifierList:
     document: expiration_time
 sectionIdList:

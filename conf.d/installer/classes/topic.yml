@@ -261,5 +261,21 @@ data_map:
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
+    show_topic_children:
+        identifier: show_topic_children
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Mostra i link agli argomenti figli nella descrizione'
+            ger-DE: Inhaltselemente anzeigen
+        data_type_string: ezboolean
+        placement: 15
+        can_translate: 1
+        data_int3: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
 groups:
     - CPSV-AP_IT

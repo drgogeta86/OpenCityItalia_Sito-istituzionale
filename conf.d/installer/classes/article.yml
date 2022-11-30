@@ -2,48 +2,29 @@ identifier: article
 contentobject_name: '<title>'
 serialized_name_list:
     always-available: ita-IT
-    ita-IT: 'Avviso - Notizia - Comunicato'
     ger-DE: 'Bekanntmachung - Nachricht - Pressemitteilung'
+    ita-IT: 'Avviso - Notizia - Comunicato'
 serialized_description_list:
     always-available: ita-IT
-    ita-IT: 'Format che consente di pubblicare una notizia, un comunicato stampa, un avviso'
     ger-DE: 'Format zur Veröffentlichung einer Nachricht, Pressemitteilung oder Bekanntmachung'
+    ita-IT: 'Format che consente di pubblicare una notizia, un comunicato stampa, un avviso'
 always_available: 1
 data_map:
     title:
         identifier: title
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: 'Titolo della notizia, comunicato stampa o avviso'
             ger-DE: 'Titel der Nachricht, Pressemitteilung oder Bekanntmachung'
+            ita-IT: 'Il titolo della notizia, del comunicato o dell''avviso.'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: Titolo
             ger-DE: 'Titel '
+            ita-IT: 'Titolo della notizia'
         data_type_string: ezstring
         placement: 1
-        is_required: 1
         is_searchable: 1
-        can_translate: 1
-        serialized_data_text:
-            always-available: ita-IT
-            ita-IT: ''
-    abstract:
-        identifier: abstract
-        serialized_description_list:
-            always-available: ita-IT
-            ita-IT: 'Descrizione sintetica del contenuto, inferiore a 160 caratteri'
-            ger-DE: 'Kurze Beschreibung des Inhalts, weniger als 160 Zeichen'
-        serialized_name_list:
-            always-available: ita-IT
-            ita-IT: 'Breve descrizione'
-            ger-DE: 'Kurze Beschreibung'
-        data_type_string: eztext
-        placement: 2
         is_required: 1
-        is_searchable: 1
         can_translate: 1
-        data_int1: 2
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
@@ -51,89 +32,40 @@ data_map:
         identifier: content_type
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: 'Specificare la tipologia di contenuto trattato'
             ger-DE: 'Geben Sie die Art des behandelten Inhalts an'
+            ita-IT: 'Specificare il tipo di notizia'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Tipologia di contenuto'
             ger-DE: 'Art des Inhalts'
+            ita-IT: 'Tipo di notizia'
         data_type_string: eztags
-        placement: 3
+        placement: 2
         is_searchable: 1
         is_required: 1
         can_translate: 1
-        data_int1: 'tag(Comunicazione / Tipologia di articolo)'
+        data_int1: 'tag(Tipi di notizia)'
         data_int3: 1
         data_int4: 1
         data_text1: Tree
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
-    id_comunicato:
-        identifier: id_comunicato
+    abstract:
+        identifier: abstract
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: 'Se è un comunicato stampa, indica un''eventuale numero progressivo del comunicato stampa'
-            ger-DE: 'Wenn es sich um eine Pressemitteilung handelt, geben Sie evt. eine fortlaufende Nummer der Pressemitteilung an'
+            ger-DE: 'Kurze Beschreibung des Inhalts, weniger als 160 Zeichen'
+            ita-IT: 'Descrizione sintetica del contenuto, inferiore a 160 caratteri'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Numero comunicato'
-            ger-DE: 'Nummer Pressemitteilung'
-        data_type_string: ezstring
-        placement: 4
-        is_searchable: 1
-        can_translate: 1
-        serialized_data_text:
-            always-available: ita-IT
-            ita-IT: ''
-    author:
-        identifier: author
-        serialized_description_list:
-            always-available: ita-IT
-            ita-IT: 'Ufficio responsabile del contenuto e/o autore della comunicazione'
-            ger-DE: 'Für den Inhalt verantwortliche Stelle und/oder Verfasser dieser Mitteilung'
-        serialized_name_list:
-            always-available: ita-IT
-            ita-IT: 'A cura di'
-            ger-DE: 'Bearbeitet von'
-        data_type_string: ezobjectrelationlist
-        placement: 5
+            ger-DE: 'Kurze Beschreibung'
+            ita-IT: 'Descrizione breve'
+        data_type_string: eztext
+        placement: 3
         is_searchable: 1
         is_required: 1
         can_translate: 1
-        data_text5:
-            object_class: ''
-            selection_type: '0'
-            type: '2'
-            class_constraint_list:
-                - office
-            default_placement:
-                node_id: $contenttree_Amministrazione_Uffici_node
-        serialized_data_text:
-            always-available: ita-IT
-            ita-IT: ''
-    image:
-        identifier: image
-        serialized_description_list:
-            always-available: ita-IT
-            ita-IT: 'Immagini relative al contenuto pubblicato'
-            ger-DE: 'Bilder zu veröffentlichten Inhalten'
-        serialized_name_list:
-            always-available: ita-IT
-            ita-IT: Immagini
-            ger-DE: Bilder
-        data_type_string: ezobjectrelationlist
-        placement: 6
-        is_searchable: 1
-        can_translate: 1
-        data_text5:
-            object_class: ''
-            selection_type: '0'
-            type: '2'
-            class_constraint_list:
-                - image
-            default_placement:
-                node_id: $content_Images_node
+        data_int1: 2
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
@@ -141,14 +73,14 @@ data_map:
         identifier: published
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: 'Indica la data di pubblicazione del contenuto sul sito'
             ger-DE: 'Zeigt das Datum der Veröffentlichung des Inhalts auf der Website an'
+            ita-IT: 'Data di pubblicazione della notizia'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Data di pubblicazione'
             ger-DE: 'Tag der Veröffentlichung'
+            ita-IT: 'Data della notizia'
         data_type_string: ezdate
-        placement: 7
+        placement: 4
         is_searchable: 1
         is_required: 1
         can_translate: 1
@@ -160,14 +92,31 @@ data_map:
         identifier: dead_line
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: 'Indica un''eventuale data di scadenza dell''avviso pubblicato'
             ger-DE: 'Gibt das Fälligkeitsdatum der veröffentlichten Bekanntmachung an'
+            ita-IT: 'Eventuale data di scadenza (in caso di avviso pubblicato)'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Data di scadenza'
             ger-DE: 'Letzter Veröffentlichungstag '
+            ita-IT: 'Data di scadenza'
         data_type_string: ezdate
-        placement: 8
+        placement: 5
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    id_comunicato:
+        identifier: id_comunicato
+        serialized_description_list:
+            always-available: ita-IT
+            ger-DE: 'Wenn es sich um eine Pressemitteilung handelt, geben Sie evt. eine fortlaufende Nummer der Pressemitteilung an'
+            ita-IT: 'Se è un comunicato stampa, indica un''eventuale numero progressivo del comunicato stampa'
+        serialized_name_list:
+            always-available: ita-IT
+            ger-DE: 'Nummer Pressemitteilung'
+            ita-IT: 'Numero progressivo comunicato stampa'
+        data_type_string: ezstring
+        placement: 6
         is_searchable: 1
         can_translate: 1
         serialized_data_text:
@@ -177,14 +126,14 @@ data_map:
         identifier: topics
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: 'Argomenti che caratterizzano il contenuto trattato; IMPORTANTE: gli argomenti accompagnano il cittadino nella navigazione del sito'
             ger-DE: 'Themen, die den behandelten Inhalt kennzeichnen; WICHTIG: Die Themen begleiten den Bürger beim Navigieren auf der Website'
+            ita-IT: 'Argomenti che caratterizzano il contenuto trattato. È importante compilare questo campo nella maniera più pertinente possibile poiché gli argomenti accompagnano il cittadino nella navigazione del sito.'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: Argomenti
             ger-DE: Themen
+            ita-IT: Argomenti
         data_type_string: ezobjectrelationlist
-        placement: 9
+        placement: 7
         is_searchable: 1
         is_required: 1
         can_translate: 1
@@ -199,16 +148,60 @@ data_map:
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
+    image:
+        identifier: image
+        serialized_description_list:
+            always-available: ita-IT
+            ger-DE: 'Bilder zu veröffentlichten Inhalten'
+            ita-IT: 'Una o più immagini, relative al contenuto pubblicato, corredate da didascalie.'
+        serialized_name_list:
+            always-available: ita-IT
+            ger-DE: Bilder
+            ita-IT: Immagini
+        data_type_string: ezobjectrelationlist
+        placement: 8
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - image
+            default_placement:
+                node_id: $content_Images_node
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    body:
+        identifier: body
+        serialized_description_list:
+            always-available: ita-IT
+            ger-DE: 'Haupttext der Nachricht; Sie können mit der Taste <quote> Zitate einfügen'
+            ita-IT: 'Testo principale della notizia. È possibile inserire citazioni usando il pulsante <quote>'
+        serialized_name_list:
+            always-available: ita-IT
+            ger-DE: 'Hauptteil der Nachricht'
+            ita-IT: 'Testo completo della notizia'
+        data_type_string: ezxmltext
+        placement: 9
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        data_int1: 10
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
     people:
         identifier: people
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: 'Indicare uno o più politici interessati o citati nel contenuto'
             ger-DE: 'Geben Sie einen oder mehrere Politiker an, die betroffen sind oder im Inhalt erwähnt werden'
+            ita-IT: 'Persone dell''amministrazione citate nella notizia'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Persone dell''amministrazione'
             ger-DE: 'Mitarbeiterinnen und Mitarbeiter'
+            ita-IT: Persone
         data_type_string: ezobjectrelationlist
         placement: 10
         is_searchable: 1
@@ -218,7 +211,7 @@ data_map:
             selection_type: '4'
             type: '2'
             class_constraint_list:
-                - politico
+                - public_person
             default_placement:
                 node_id: $contenttree_Amministrazione_Politici_node
         serialized_data_text:
@@ -228,12 +221,12 @@ data_map:
         identifier: location
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: 'Luoghi a cui si riferisce il contenuto'
             ger-DE: 'Orte, auf die sich der Inhalt bezieht'
+            ita-IT: 'Luoghi del sito citati nella notizia'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Luoghi di riferimento'
             ger-DE: 'Orte, auf die sich der Inhalt bezieht'
+            ita-IT: Luoghi
         data_type_string: ezobjectrelationlist
         placement: 11
         is_searchable: 1
@@ -245,26 +238,7 @@ data_map:
             class_constraint_list:
                 - place
             default_placement:
-                node_id: $contenttree_Amministrazione_Luoghi_node
-        serialized_data_text:
-            always-available: ita-IT
-            ita-IT: ''
-    body:
-        identifier: body
-        serialized_description_list:
-            always-available: ita-IT
-            ita-IT: 'Testo principale della news; è possibile inserire citazioni usando il pulsante <quote>'
-            ger-DE: 'Haupttext der Nachricht; Sie können mit der Taste <quote> Zitate einfügen'
-        serialized_name_list:
-            always-available: ita-IT
-            ita-IT: 'Corpo della news'
-            ger-DE: 'Hauptteil der Nachricht'
-        data_type_string: ezxmltext
-        placement: 12
-        is_searchable: 1
-        is_required: 1
-        can_translate: 1
-        data_int1: 10
+                node_id: $contenttree_Vivere-il-comune_Luoghi_node
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
@@ -272,15 +246,41 @@ data_map:
         identifier: video
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: 'Link ad un video esterno'
             ger-DE: 'Link zu einem externen Video'
+            ita-IT: 'Link ad un video esterno o una galleria di video, corredati da didascalie.'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: Video
             ger-DE: Video
+            ita-IT: Video
         data_type_string: ezurl
-        placement: 13
+        placement: 12
         can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    author:
+        identifier: author
+        serialized_description_list:
+            always-available: ita-IT
+            ger-DE: 'Für den Inhalt verantwortliche Stelle und/oder Verfasser dieser Mitteilung'
+            ita-IT: 'Ufficio responsabile del contenuto e/o autore della comunicazione'
+        serialized_name_list:
+            always-available: ita-IT
+            ger-DE: 'Bearbeitet von'
+            ita-IT: 'A cura di'
+        data_type_string: ezobjectrelationlist
+        placement: 13
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - office
+            default_placement:
+                node_id: $contenttree_Amministrazione_Uffici_node
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
@@ -288,12 +288,12 @@ data_map:
         identifier: audio
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: 'Audio riferite alla notizia o comunicato stampa'
             ger-DE: 'Audio der Nachricht oder Pressemitteilung'
+            ita-IT: 'Audio riferite alla notizia o comunicato stampa'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: Audio
             ger-DE: 'Audio der Nachricht oder Pressemitteilung'
+            ita-IT: Audio
         data_type_string: ezobjectrelationlist
         placement: 14
         is_searchable: 1
@@ -306,6 +306,7 @@ data_map:
                 - audio
             default_placement:
                 node_id: $content_Multimedia_node
+        category: hidden
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
@@ -313,11 +314,11 @@ data_map:
         identifier: attachment
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: ''
+            ita-IT: 'Inserire qui soltanto i documenti istituzionali che sono già presenti nell''archivio "Documenti e dati" o che dovranno confluire lì.'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Documenti allegati'
             ger-DE: 'Angehängte Dokumente'
+            ita-IT: 'Documenti allegati'
         data_type_string: ezobjectrelationlist
         placement: 15
         is_searchable: 1
@@ -337,17 +338,17 @@ data_map:
         identifier: files
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: 'File allegati'
             ger-DE: 'Angehängte Dateien'
+            ita-IT: 'Inserire qui tutti i file allegati che NON fanno parte dell''archivio istituzionale del Comune (es.: brochure, volantini o altri documenti prodotti da Enti esterni)'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'File allegati'
             ger-DE: 'Angehängte Dateien'
+            ita-IT: 'File allegati'
         data_type_string: ocmultibinary
-        data_int3: 1
         placement: 16
         is_searchable: 1
         can_translate: 1
+        data_int3: 1
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
@@ -355,12 +356,12 @@ data_map:
         identifier: dataset
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: 'Indicare eventuali dati (ad esempio, in formato tabellare)'
             ger-DE: 'Geben Sie beliebige Daten an (z. B. in Tabellenformat)'
+            ita-IT: 'Dataset collegati al documento'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: Dataset
             ger-DE: Dataset
+            ita-IT: Dataset
         data_type_string: ezobjectrelationlist
         placement: 17
         is_searchable: 1
@@ -380,16 +381,15 @@ data_map:
         identifier: help
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: 'Indicare il punto di contatto per maggiori informazioni'
             ger-DE: 'Geben Sie die Kontaktstelle für weitere Informationen an'
+            ita-IT: 'Indicare il punto di contatto per maggiori informazioni'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Per informazioni'
             ger-DE: 'Für weitere Informationen'
+            ita-IT: 'Per informazioni'
         data_type_string: ezobjectrelationlist
         placement: 18
         is_searchable: 1
-        is_required: 1
         can_translate: 1
         data_text5:
             object_class: ''
@@ -399,6 +399,7 @@ data_map:
                 - online_contact_point
             default_placement:
                 node_id: $contenttree_Classificazioni_Punti-di-contatto_node
+        category: hidden
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
@@ -406,21 +407,21 @@ data_map:
         identifier: license
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: 'Indicare la licenza con cui i materiali vengono rilasciati (allegati inclusi)'
             ger-DE: 'Geben Sie die Lizenz an, unter der die Dokumente freigegeben werden (einschließlich Anhänge)'
+            ita-IT: 'Indicare la licenza con cui i materiali vengono rilasciati (allegati inclusi)'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Licenza d''uso'
             ger-DE: Benutzerlizenz
+            ita-IT: 'Licenza d''uso'
         data_type_string: eztags
         placement: 19
         is_searchable: 1
-        is_required: 1
         can_translate: 1
         data_int1: tag(Licenze)
         data_int3: 1
         data_int4: 1
         data_text1: Tree
+        category: hidden
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
@@ -429,17 +430,18 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             eng-GB: 'Stima del tempo di lettura della pagina evento, in minuti primi'
-            ita-IT: 'Stima del tempo di lettura della pagina evento, in minuti primi'
             ger-DE: 'Schätzung der Lesezeit (in Minuten) der Webseite Veranstaltungen'
+            ita-IT: 'Stima del tempo di lettura della pagina evento, in minuti primi'
         serialized_name_list:
             always-available: ita-IT
             eng-GB: 'Tempo di lettura'
-            ita-IT: 'Tempo di lettura'
             ger-DE: Lesezeit
+            ita-IT: 'Tempo di lettura'
         data_type_string: ezinteger
         placement: 20
         is_searchable: 1
         can_translate: 1
+        category: details
         serialized_data_text:
             always-available: ita-IT
             eng-GB: ''
@@ -448,11 +450,11 @@ data_map:
         identifier: related_service
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: null
+            ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Riferimento al servizio pubblico'
             ger-DE: 'Hinweis auf den öffentlichen Dienst'
+            ita-IT: 'Riferimento al servizio pubblico'
         data_type_string: ezobjectrelationlist
         placement: 21
         is_searchable: 1
@@ -465,6 +467,7 @@ data_map:
                 - public_service
             default_placement:
                 node_id: $contenttree_OpenCity_Servizi_node
+        category: details
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''

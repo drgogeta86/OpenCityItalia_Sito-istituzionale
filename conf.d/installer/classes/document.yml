@@ -2,152 +2,108 @@ identifier: document
 contentobject_name: '<name>'
 serialized_name_list:
     always-available: ita-IT
-    ita-IT: Documento
     ger-DE: Dokument
+    ita-IT: Documento
 serialized_description_list:
-    ita-IT: 'Qualsiasi tipo di documentazione prodotta dall''ente o da esso pubblicata all''interno dei propri canali digitali; ciascun file allegato deve essere accompagnato da opportuni metadati'
     ger-DE: 'Jede Art von Dokumentation, die von der Stadtgemeinde erstellt oder in den eigenen digitalen Kanälen veröffentlicht wird; jede angehängte Datei muss von entsprechenden Metadaten begleitet werden'
+    ita-IT: 'Qualsiasi tipo di documentazione prodotta dall''ente o da esso pubblicata all''interno dei propri canali digitali; ciascun file allegato deve essere accompagnato da opportuni metadati'
 always_available: 1
 sort_field: 9
 data_map:
     name:
         identifier: name
         serialized_description_list:
-            ita-IT: 'Nome del documento. Il nome del Documento deve essere facilmente comprensibile dai cittadini. Vincoli: massimo 60 caratteri spazi inclusi'
             ger-DE: 'Name des Dokuments. Der Name des Dokuments muss für die Bürger leicht verständlich sein. Einschränkungen: maximal 60 Zeichen inklusive Leerzeichen'
+            ita-IT: 'Nome del documento. Il nome del Documento deve essere facilmente comprensibile dai cittadini. Vincoli: massimo 160 caratteri spazi inclusi'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: Titolo
             ger-DE: Titel
+            ita-IT: Titolo
         data_type_string: ezstring
         placement: 1
         is_searchable: 1
         is_required: 1
         can_translate: 1
-        data_int1: 60
+        data_int1: 160
         serialized_data_text: {  }
     has_code:
         identifier: has_code
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: 'Un numero identificativo del documento, univoco; se esite uno standard: DOI, ISBN, ecc... oppure numero+anno se è un atto'
             ger-DE: 'Eine einheitliche Identifikationsnummer des Dokuments; wenn ein Standard existiert: DOI, ISBN, etc... oder Nummer+Jahr, wenn es sich um einen Akt handelt.'
+            ita-IT: 'Un numero identificativo del documento, univoco (se esiste uno standard: DOI, ISBN, etc. oppure "numero+anno" (es.: delibera/01/2022) se è un atto)'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Identificativo del documento'
             ger-DE: Dokument-ID-Nummer
+            ita-IT: 'Identificativo del documento'
         data_type_string: ezstring
         placement: 2
         is_searchable: 1
-        is_required: 1
         can_translate: 1
         category: content
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
-    document_type:
-        identifier: document_type
+    protocollo:
+        identifier: protocollo
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: ''
+            ita-IT: 'Numero di protocollo del documento'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Tipologia di documento'
-            ger-DE: 'Art des Dokuments'
-        data_type_string: eztags
+            ger-DE: Protokollnummer
+            ita-IT: Protocollo
+        data_type_string: ezstring
         placement: 3
         is_searchable: 1
         is_required: 1
         can_translate: 1
-        data_int1: 'tag(Documenti / Tipo di documento)'
-        data_int3: 1
-        data_int4: 1
-        data_text1: Tree
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
-    announcement_type:
-        identifier: announcement_type
+    data_protocollazione:
+        identifier: data_protocollazione
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: 'da compilare soltanto in caso la tipologia di documento selezionata sia "Bando di gara"'
-            ger-DE: 'Nr auszufüllen, wenn der gewählte Dokumententyp "Ausschreibung" ist.'
+            ita-IT: 'Data di protocollo del documento'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Tipologia di bando'
-            ger-DE: Ausschreibungen
-        data_type_string: eztags
+            ger-DE: Protokolldatum
+            ita-IT: 'Data protocollazione'
+        data_type_string: ezdate
         placement: 4
-        is_searchable: 1
-        can_translate: 1
-        data_int1: 'tag(Documenti / Tipologia di bando di gara)'
-        data_int4: 1
-        data_text1: Tree
-        serialized_data_text:
-            always-available: ita-IT
-            ita-IT: ''
-    description:
-        identifier: description
-        serialized_description_list:
-            always-available: ita-IT
-            ita-IT: 'Indicare l’oggetto del documento, utilizzando un linguaggio semplice che possa aiutare qualsiasi utente a identificare con chiarezza il documento. Non utilizzare un linguaggio ricco di riferimenti normativi'
-            ger-DE: 'Geben Sie das Betreff des Dokuments an, indem Sie eine einfache Sprache verwenden, die jedem Benutzer hilft, das Dokument eindeutig zu identifizieren. Verwenden Sie keine Sprache voller normativer Hinweise.'
-        serialized_name_list:
-            always-available: ita-IT
-            ita-IT: Descrizione/oggetto
-            ger-DE: Beschreibung/Betreff
-        data_type_string: eztext
-        placement: 5
         is_searchable: 1
         is_required: 1
         can_translate: 1
-        data_int1: 5
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
     image:
         identifier: image
         serialized_description_list:
-            ita-IT: 'Immagine principale del documento'
             ger-DE: 'Hauptbild des Dokuments'
+            ita-IT: 'Immagine principale del documento'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: Immagine
             ger-DE: Bild
+            ita-IT: Immagine
         data_type_string: ezimage
-        placement: 6
+        placement: 5
         can_translate: 1
+        category: hidden
         serialized_data_text: {  }
-    full_description:
-        identifier: full_description
-        serialized_description_list:
-            always-available: ita-IT
-            ita-IT: 'Descrizione estesa del documento'
-            ger-DE: 'Ausführliche Beschreibung des Dokuments'
-        serialized_name_list:
-            always-available: ita-IT
-            ita-IT: 'Descrizione completa'
-            ger-DE: 'Vollständige Beschreibung'
-        data_type_string: ezxmltext
-        placement: 7
-        is_searchable: 1
-        can_translate: 1
-        data_int1: 10
-        serialized_data_text:
-            always-available: ita-IT
-            ita-IT: ''
     images:
         identifier: images
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: 'Galleria di immagini significative relative a un documento, corredate da didascalia'
             ger-DE: 'Galerie mit aussagekräftigen Bildern zu einem Dokument, mit Bildtext versehen'
+            ita-IT: 'Una o più immagini significative, relative al documento, corredate da didascalia'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Galleria immagini'
             ger-DE: Bildergalerie
+            ita-IT: Immagini
         data_type_string: ezobjectrelationlist
-        placement: 8
+        placement: 6
         is_searchable: 1
         can_translate: 1
         data_text5:
@@ -158,21 +114,41 @@ data_map:
                 - image
             default_placement:
                 node_id: $content_Images_node
-        category: details
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    document_type:
+        identifier: document_type
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ger-DE: 'Art des Dokuments'
+            ita-IT: 'Tipo di documento'
+        data_type_string: eztags
+        placement: 7
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        data_int1: 'tag(Documenti / Tipo di documento)'
+        data_int3: 1
+        data_int4: 1
+        data_text1: Tree
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
     topics:
         identifier: topics
         serialized_description_list:
-            ita-IT: 'Materia del documento'
             ger-DE: 'Inhalt des Dokuments'
+            ita-IT: 'Materia del documento'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: Argomento
             ger-DE: Thema
+            ita-IT: Argomenti
         data_type_string: ezobjectrelationlist
-        placement: 9
+        placement: 8
         is_searchable: 1
         is_required: 1
         can_translate: 1
@@ -184,50 +160,86 @@ data_map:
                 - topic
             default_placement:
                 node_id: $contenttree_OpenCity_Argomenti_node
+        category: taxonomy
         serialized_data_text: {  }
+    abstract:
+        identifier: abstract
+        serialized_description_list:
+            always-available: ita-IT
+            ger-DE: 'Geben Sie das Betreff des Dokuments an, indem Sie eine einfache Sprache verwenden, die jedem Benutzer hilft, das Dokument eindeutig zu identifizieren. Verwenden Sie keine Sprache voller normativer Hinweise.'
+            ita-IT: 'Descrizione sintetica del documento (suggeriti 160 caratteri) utilizzando un linguaggio semplice che possa aiutare qualsiasi utente a identificare con chiarezza il documento. Non utilizzare un linguaggio ricco di riferimenti normativi.'
+        serialized_name_list:
+            always-available: ita-IT
+            ger-DE: Beschreibung/Betreff
+            ita-IT: 'Descrizione breve'
+        data_type_string: eztext
+        placement: 9
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        data_int1: 5
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    full_description:
+        identifier: full_description
+        serialized_description_list:
+            always-available: ita-IT
+            ger-DE: 'Ausführliche Beschreibung des Dokuments'
+            ita-IT: 'L''oggetto del documento, utilizzando un linguaggio semplice che possa aiutare qualsiasi utente a identificare con chiarazza il documento. Non utilizzare un linguaggio ricco di riferimenti normativi.'
+        serialized_name_list:
+            always-available: ita-IT
+            ger-DE: 'Vollständige Beschreibung'
+            ita-IT: Descrizione
+        data_type_string: ezxmltext
+        placement: 10
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 10
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
     file:
         identifier: file
         serialized_description_list:
-            ita-IT: 'Allegare il documento vero e proprio, in un formato scaricabile e stampabile da parte dell''utente (es. PDF)'
             ger-DE: 'Hängen Sie das eigentliche Dokument an, in einem Format, das vom Benutzer heruntergeladen und gedruckt werden kann (z. B. PDF)'
+            ita-IT: 'Link al documento vero e proprio, in un formato scaricabile attraverso una URL. Allegare il documento principale vero e proprio, in un formato scaricabile e stampabile da parte dell''utente (es. PDF)'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Link al documento vero e proprio'
             ger-DE: 'Link zum aktuellen Dokument'
+            ita-IT: 'URL documento'
         data_type_string: ezbinaryfile
-        placement: 10
-        is_required: 0
+        placement: 11
         can_translate: 1
         serialized_data_text: {  }
     link:
         identifier: link
         serialized_description_list:
-            ita-IT: 'In alternativa al campo precedente: se il documento è esterno al sito, inserire il collegamento ipertestuale'
             ger-DE: 'Als Alternative zum vorherigen Feld: Wenn das Dokument extern ist, fügen Sie den Hyperlink ein'
+            ita-IT: 'In alternativa al campo precedente: se il documento è esterno al sito, inserire il collegamento ipertestuale'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Link esterno al documento'
             ger-DE: 'Externer Link auf das Dokument'
+            ita-IT: 'Link esterno al documento'
         data_type_string: ezurl
-        placement: 11
-        is_required: 0
+        placement: 12
         can_translate: 1
         serialized_data_text: {  }
     attachments:
         identifier: attachments
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: 'File allegati'
             ger-DE: 'Angehängte Dateien'
+            ita-IT: 'File allegati al documento principale'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Documenti allegati'
             ger-DE: 'Beigefügte Dokumente'
+            ita-IT: 'Documenti allegati'
         data_type_string: ocmultibinary
-        data_int3: 1
-        placement: 12
+        placement: 13
         is_searchable: 1
         can_translate: 1
+        data_int3: 1
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
@@ -238,10 +250,10 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Area responsabile del documento'
             ger-DE: 'Verantwortlicher Bereich für das Dokument'
+            ita-IT: 'Area responsabile del documento'
         data_type_string: ezobjectrelationlist
-        placement: 13
+        placement: 14
         is_searchable: 1
         can_translate: 1
         data_text5:
@@ -249,7 +261,7 @@ data_map:
             selection_type: '2'
             type: '2'
             class_constraint_list:
-                - administrative_area
+                - organization
             default_placement:
                 node_id: $contenttree_Amministrazione_Aree-amministrative_node
         serialized_data_text:
@@ -258,14 +270,14 @@ data_map:
     has_organization:
         identifier: has_organization
         serialized_description_list:
-            ita-IT: 'Ufficio che si occupa del documento; ufficio proponente'
             ger-DE: 'Amt, welches das Dokument verfasst und bearbeitet'
+            ita-IT: 'Indicare l''ufficio che si occupa del documento oppure l''ufficio proponente.'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Ufficio responsabile/proponente del documento'
             ger-DE: 'Zuständige/vorlegende Stelle'
+            ita-IT: 'Ufficio responsabile del documento'
         data_type_string: ezobjectrelationlist
-        placement: 14
+        placement: 15
         is_searchable: 1
         is_required: 1
         can_translate: 1
@@ -274,21 +286,64 @@ data_map:
             selection_type: '0'
             type: '2'
             class_constraint_list:
-                - office
+                - organization
             default_placement:
                 node_id: $contenttree_Amministrazione_Uffici_node
         serialized_data_text: {  }
+    license:
+        identifier: license
+        serialized_description_list:
+            always-available: ita-IT
+            ger-DE: 'Lizenz, unter der das Dokument verteilt wird'
+            ita-IT: 'Licenza con la quale il documento viene distribuito'
+        serialized_name_list:
+            always-available: ita-IT
+            ger-DE: Vertriebslizenz
+            ita-IT: 'Licenza di distribuzione'
+        data_type_string: eztags
+        placement: 16
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        data_int1: tag(Licenze)
+        data_int3: 1
+        data_int4: 1
+        data_text1: Tree
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    format:
+        identifier: format
+        serialized_description_list:
+            always-available: ita-IT
+            ger-DE: 'Liste der Dateiformate, in denen das Dokument verfügbar ist'
+            ita-IT: 'Lista dei formati in cui è disponibile il documento'
+        serialized_name_list:
+            always-available: ita-IT
+            ger-DE: 'Verfügbare Dateiformate'
+            ita-IT: 'Formati disponibili'
+        data_type_string: eztags
+        placement: 17
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        data_int1: 'tag(Documenti / Formati)'
+        data_int3: 1
+        data_text1: Tree
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
     start_time:
         identifier: start_time
         serialized_description_list:
-            ita-IT: 'Data a partire dalla quale il documento è valido'
             ger-DE: 'Gültig/wirksam ab (erster Geltungstag)'
+            ita-IT: 'Data a partire dalla quale il documento è valido'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Data di inizio validità/efficacia'
             ger-DE: 'Gültig/wirksam ab '
+            ita-IT: 'Data di inizio validità/efficacia'
         data_type_string: ezdate
-        placement: 15
+        placement: 18
         is_searchable: 1
         is_required: 1
         can_translate: 1
@@ -298,14 +353,14 @@ data_map:
     end_time:
         identifier: end_time
         serialized_description_list:
-            ita-IT: 'Data a partire dalla quale il documento non è valido'
             ger-DE: 'Gültig/wirksam bis (letzter Geltungstag)'
+            ita-IT: 'Data a partire dalla quale il documento non è valido'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Data di fine validità/efficacia'
             ger-DE: 'Gültig/wirksam bis'
+            ita-IT: 'Data di fine validità/efficacia'
         data_type_string: ezdate
-        placement: 16
+        placement: 19
         is_searchable: 1
         can_translate: 1
         category: riferimenti_temporali
@@ -313,14 +368,14 @@ data_map:
     publication_start_time:
         identifier: publication_start_time
         serialized_description_list:
-            ita-IT: 'Data in cui il documento è pubblicato. A partire da questa data, il documento sarà visibile sul sito web.'
             ger-DE: 'Tag, an dem das Dokument veröffentlicht wird und von dem an das Dokument auf der Website einsehbar ist'
+            ita-IT: 'Data in cui il documento è pubblicato. A partire da questa data, il documento sarà visibile sul sito web.'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Data di inizio pubblicazione'
             ger-DE: 'Tag der Veröffentlichung'
+            ita-IT: 'Data di inizio pubblicazione'
         data_type_string: ezdate
-        placement: 17
+        placement: 20
         is_searchable: 1
         is_required: 1
         can_translate: 1
@@ -330,14 +385,14 @@ data_map:
     publication_end_time:
         identifier: publication_end_time
         serialized_description_list:
-            ita-IT: 'Data in cui il documento è archiviato. A partire da questa data, il documento sarà reperibile nell''archivio.'
             ger-DE: 'Datum, an dem das Dokument archiviert wird. Ab diesem Datum ist das Dokument nur noch im Archiv abrufbar'
+            ita-IT: 'Data in cui il documento è archiviato. A partire da questa data, il documento sarà reperibile nell''archivio.'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Data di fine pubblicazione'
             ger-DE: 'Letzter Veröffentlichungstag '
+            ita-IT: 'Data di fine pubblicazione'
         data_type_string: ezdate
-        placement: 18
+        placement: 21
         is_searchable: 1
         can_translate: 1
         category: riferimenti_temporali
@@ -346,14 +401,14 @@ data_map:
         identifier: expiration_time
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: 'Data a partire dalla quale il documento non sarà più pubblico sul sito.'
             ger-DE: 'An diesem Tag wird das Dokument von der Website genommen, d. h., es ist nicht mehr öffentlich einsehbar'
+            ita-IT: 'Data a partire dalla quale il documento non sarà più pubblico sul sito.'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Data di rimozione'
             ger-DE: 'Tag der Entfernung von der Website '
+            ita-IT: 'Data di rimozione'
         data_type_string: ezdate
-        placement: 19
+        placement: 22
         is_searchable: 1
         can_translate: 1
         category: riferimenti_temporali
@@ -364,31 +419,30 @@ data_map:
         identifier: data_di_firma
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: 'Data di firma del documento'
             ger-DE: 'Datum, an dem das Dokument unterzeichnet wurde'
+            ita-IT: 'Data di firma del documento'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Data di firma'
             ger-DE: 'Datum der Unterzeichnung des Dokuments'
+            ita-IT: 'Data di firma'
         data_type_string: ezdate
-        placement: 20
+        placement: 23
         is_searchable: 1
         can_translate: 1
         category: riferimenti_temporali
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
-    reference_doc:
-        identifier: reference_doc
+    has_dataset:
+        identifier: has_dataset
         serialized_description_list:
-            ita-IT: 'Oggetti correlati con il documento'
-            ger-DE: 'Mit dem Dokument verbundene Objekte'
+            always-available: ita-IT
+            ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: Riferimento
-            ger-DE: Bezugsangabe
+            ita-IT: Dataset
         data_type_string: ezobjectrelationlist
-        placement: 21
+        placement: 24
         is_searchable: 1
         can_translate: 1
         data_text5:
@@ -396,60 +450,9 @@ data_map:
             selection_type: '0'
             type: '2'
             class_constraint_list:
-                - document
+                - dataset
             default_placement:
-                node_id: $contenttree_Documenti-e-dati_Documenti-tecnici-di-supporto_node
-        serialized_data_text: {  }
-    keyword:
-        identifier: keyword
-        serialized_description_list:
-            ita-IT: 'Concetti più significativi riguardanti il contenuto del documento, separati da virgola'
-            ger-DE: 'Wichtigste Begriffe, die den Inhalt des Dokuments betreffen, durch Komma getrennt'
-        serialized_name_list:
-            always-available: ita-IT
-            ita-IT: 'Parola chiave'
-            ger-DE: Schlüsselwort
-        data_type_string: ezkeyword
-        placement: 22
-        is_searchable: 1
-        can_translate: 1
-        category: details
-        serialized_data_text: {  }
-    license:
-        identifier: license
-        serialized_description_list:
-            always-available: ita-IT
-            ita-IT: 'Licenza con il quale il documento viene distribuito'
-            ger-DE: 'Lizenz, unter der das Dokument verteilt wird'
-        serialized_name_list:
-            always-available: ita-IT
-            ita-IT: 'Licenza di distribuzione'
-            ger-DE: Vertriebslizenz
-        data_type_string: eztags
-        placement: 23
-        is_searchable: 1
-        can_translate: 1
-        data_int1: tag(Licenze)
-        data_int3: 1
-        data_int4: 1
-        data_text1: Tree
-        category: details
-        serialized_data_text:
-            always-available: ita-IT
-            ita-IT: ''
-    has_service:
-        identifier: has_service
-        serialized_description_list:
-            always-available: ita-IT
-            ita-IT: 'Se il servizio ha un canale digitale Link per avviare la procedura di prenotazione o attivazione del servizio. Questo campo mette in relazione "Servizio" con il suo canale digitale di attivazione. Es. Vai al servizio bandi on line'
-            ger-DE: 'Wenn der Dienst über einen digitalen Kanal verfügt Link zum Einleiten des Buchungs- oder Aktivierungsvorgangs für den Dienst. Dieses Feld verknüpft "Service" mit seinem digitalen Aktivierungskanal. Z.B. Gehen Sie zum Informationssystem Öffentliche Verträge'
-        serialized_name_list:
-            always-available: ita-IT
-            ita-IT: 'Canale digitale del servizio collegato'
-            ger-DE: 'Digitaler Kanal des verknüpften Dienstes'
-        data_type_string: ezurl
-        placement: 24
-        can_translate: 1
+                node_id: $contenttree_Documenti-e-dati_Dataset_node
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
@@ -457,12 +460,12 @@ data_map:
         identifier: other_information
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: 'Ulteriori informazioni sul documento'
             ger-DE: 'Weitere Informationen zum Dokument'
+            ita-IT: 'Ulteriori informazioni sul documento'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Ulteriori informazioni'
             ger-DE: 'Weitere Informationen'
+            ita-IT: 'Ulteriori informazioni'
         data_type_string: ezxmltext
         placement: 25
         is_searchable: 1
@@ -476,12 +479,12 @@ data_map:
         identifier: legal_notes
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: 'Indicare i riferimenti normativi o una lista di link ai riferimenti normativi presenti su web'
             ger-DE: 'Geben Sie die Gesetzesbestimmungen oder eine Liste von Links zu Rechtsquellen im Internet an'
+            ita-IT: 'Indicare i riferimenti normativi o una lista di link ai riferimenti normativi presenti su web utili per il documento'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Riferimenti normativi'
             ger-DE: 'Verweis auf Gesetzesbestimmungen'
+            ita-IT: 'Riferimenti normativi'
         data_type_string: ezxmltext
         placement: 26
         is_searchable: 1
@@ -491,127 +494,17 @@ data_map:
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
-    protocollo:
-        identifier: protocollo
+    reference_doc:
+        identifier: reference_doc
         serialized_description_list:
-            always-available: ita-IT
-            ita-IT: ''
+            ger-DE: 'Mit dem Dokument verbundene Objekte'
+            ita-IT: 'Link ai documenti collegati, strutturati a loro volta come documenti'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Numero di protocollo'
-            ger-DE: Protokollnummer
-        data_type_string: ezstring
-        placement: 27
-        is_searchable: 1
-        can_translate: 1
-        category: protocollo
-        serialized_data_text:
-            always-available: ita-IT
-            ita-IT: ''
-    data_protocollazione:
-        identifier: data_protocollazione
-        serialized_description_list:
-            always-available: ita-IT
-            ita-IT: ''
-        serialized_name_list:
-            always-available: ita-IT
-            ita-IT: 'Data di protocollazione'
-            ger-DE: Protokolldatum
-        data_type_string: ezdate
-        placement: 28
-        is_searchable: 1
-        can_translate: 1
-        category: protocollo
-        serialized_data_text:
-            always-available: ita-IT
-            ita-IT: ''
-    anno_protocollazione:
-        identifier: anno_protocollazione
-        serialized_description_list:
-            always-available: ita-IT
-            ita-IT: ''
-        serialized_name_list:
-            always-available: ita-IT
-            ita-IT: 'Anno di protocollazione'
-            ger-DE: 'Jahr der Protokollierung/Registrierung'
-        data_type_string: ezstring
-        placement: 29
-        is_searchable: 1
-        can_translate: 1
-        data_int1: 4
-        category: protocollo
-        serialized_data_text:
-            always-available: ita-IT
-            ita-IT: ''
-    life_event:
-        identifier: life_event
-        serialized_description_list:
-            always-available: ita-IT
-            ita-IT: ''
-        serialized_name_list:
-            always-available: ita-IT
-            ita-IT: 'Fa parte di un evento della vita'
-            ger-DE: 'Teil eines Lebensereignisses'
-        data_type_string: eztags
-        placement: 30
-        is_searchable: 1
-        can_translate: 1
-        data_int1: 'tag(Servizi pubblici / Eventi della vita ed eventi delle aziende)'
-        data_int3: 1
-        data_int4: 1
-        data_text1: Tree
-        serialized_data_text:
-            always-available: ita-IT
-            ita-IT: ''
-    author:
-        identifier: author
-        serialized_description_list:
-            always-available: ita-IT
-            ita-IT: ''
-        serialized_name_list:
-            always-available: ita-IT
-            ita-IT: Autore/i
-            ger-DE: Autor(en)
-        data_type_string: ezauthor
-        placement: 31
-        is_searchable: 1
-        can_translate: 1
-        serialized_data_text:
-            always-available: ita-IT
-            ita-IT: ''
-    format:
-        identifier: format
-        serialized_description_list:
-            always-available: ita-IT
-            ita-IT: 'Lista dei formati in cui è disponibile il documento'
-            ger-DE: 'Liste der Dateiformate, in denen das Dokument verfügbar ist'
-        serialized_name_list:
-            always-available: ita-IT
-            ita-IT: 'Formati disponibili'
-            ger-DE: 'Verfügbare Dateiformate'
-        data_type_string: eztags
-        placement: 32
-        is_searchable: 1
-        can_translate: 1
-        data_int1: 'tag(Documenti / Formati)'
-        data_int3: 1
-        data_text1: Tree
-        category: details
-        serialized_data_text:
-            always-available: ita-IT
-            ita-IT: ''
-    help:
-        identifier: help
-        serialized_description_list:
-            always-available: ita-IT
-            ita-IT: 'Eventuali contatti di supporto all''utente. Per esempio i riferimenti dell''URP'
-            ger-DE: 'Mögliche Supportkontakte für den Benutzer. Zum Beispiel  Bürgerschalter'
-        serialized_name_list:
-            always-available: ita-IT
-            ita-IT: 'Box d''aiuto'
-            ger-DE: 'Hilfebox '
+            ger-DE: Bezugsangabe
+            ita-IT: 'Documenti collegati'
         data_type_string: ezobjectrelationlist
-        placement: 33
+        placement: 27
         is_searchable: 1
         can_translate: 1
         data_text5:
@@ -619,9 +512,40 @@ data_map:
             selection_type: '0'
             type: '2'
             class_constraint_list:
-                - online_contact_point
+                - document
             default_placement:
-                node_id: $contenttree_Classificazioni_Punti-di-contatto_node
+                node_id: $contenttree_Documenti-e-dati_Documenti-tecnici-di-supporto_node
+        category: details
+        serialized_data_text: {  }
+    keyword:
+        identifier: keyword
+        serialized_description_list:
+            ger-DE: 'Wichtigste Begriffe, die den Inhalt des Dokuments betreffen, durch Komma getrennt'
+            ita-IT: 'Concetti più significativi riguardanti il contenuto del documento, separati da virgola'
+        serialized_name_list:
+            always-available: ita-IT
+            ger-DE: Schlüsselwort
+            ita-IT: 'Parola chiave'
+        data_type_string: ezkeyword
+        placement: 28
+        is_searchable: 1
+        can_translate: 1
+        category: details
+        serialized_data_text: {  }
+    has_service:
+        identifier: has_service
+        serialized_description_list:
+            always-available: ita-IT
+            ger-DE: 'Wenn der Dienst über einen digitalen Kanal verfügt Link zum Einleiten des Buchungs- oder Aktivierungsvorgangs für den Dienst. Dieses Feld verknüpft "Service" mit seinem digitalen Aktivierungskanal. Z.B. Gehen Sie zum Informationssystem Öffentliche Verträge'
+            ita-IT: 'Se il servizio ha un canale digitale Link per avviare la procedura di prenotazione o attivazione del servizio. Questo campo mette in relazione "Servizio" con il suo canale digitale di attivazione. Es. Vai al servizio bandi on line'
+        serialized_name_list:
+            always-available: ita-IT
+            ger-DE: 'Digitaler Kanal des verknüpften Dienstes'
+            ita-IT: 'Canale digitale del servizio collegato'
+        data_type_string: ezurl
+        placement: 29
+        can_translate: 1
+        category: hidden
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
@@ -632,12 +556,113 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Servizi collegati'
             ger-DE: 'Zugeordnete Dienste'
+            ita-IT: 'Servizi '
         data_type_string: openpareverserelationlist
-        placement: 34
+        placement: 30
         can_translate: 1
-        data_text5: '{"attribute_id_list":[classattributeid(public_service/has_module_input),classattributeid(public_service/is_compliant_with_rule)],"sort":"name","order":"asc","limit":4}'
+        data_text5: '{"attribute_id_list":[classattributeid_list(public_service/has_module_input,public_service/is_compliant_with_rule)],"sort":"name","order":"asc","limit":4,"attribute_id_subtree":{"$contenttree_Documenti-e-dati_Modulistica_node":0,"$contenttree_Documenti-e-dati_Normative_node":0}}'
+        category: details
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    anno_protocollazione:
+        identifier: anno_protocollazione
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ger-DE: 'Jahr der Protokollierung/Registrierung'
+            ita-IT: 'Anno di protocollazione'
+        data_type_string: ezstring
+        placement: 31
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 4
+        category: hidden
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    life_event:
+        identifier: life_event
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Collega il Documento pubblico a un evento della vita di una persona'
+        serialized_name_list:
+            always-available: ita-IT
+            ger-DE: 'Teil eines Lebensereignisses'
+            ita-IT: 'Life events'
+        data_type_string: eztags
+        placement: 32
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 'tag(Servizi pubblici / Eventi della vita delle persone e delle imprese / Persone)'
+        data_int3: 1
+        data_int4: 1
+        data_text1: Tree
+        category: taxonomy
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    business_event:
+        identifier: business_event
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Collega il Documento pubblico a un evento della vita di un''impresa'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Business Events'
+        data_type_string: eztags
+        placement: 33
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 'tag(Servizi pubblici / Eventi della vita delle persone e delle imprese / Imprese)'
+        data_int3: 1
+        data_int4: 3
+        data_text1: Tree
+        category: taxonomy
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    author:
+        identifier: author
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ger-DE: Autor(en)
+            ita-IT: Autore/i
+        data_type_string: ezauthor
+        placement: 34
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    help:
+        identifier: help
+        serialized_description_list:
+            always-available: ita-IT
+            ger-DE: 'Mögliche Supportkontakte für den Benutzer. Zum Beispiel  Bürgerschalter'
+            ita-IT: 'Eventuali contatti di supporto all''utente. Per esempio i riferimenti dell''URP'
+        serialized_name_list:
+            always-available: ita-IT
+            ger-DE: 'Hilfebox '
+            ita-IT: 'Box d''aiuto'
+        data_type_string: ezobjectrelationlist
+        placement: 35
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - online_contact_point
+            default_placement:
+                node_id: $contenttree_Classificazioni_Punti-di-contatto_node
         category: hidden
         serialized_data_text:
             always-available: ita-IT
@@ -649,10 +674,10 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Tipo di risposta'
             ger-DE: 'Art der Beantwortung'
+            ita-IT: 'Tipo di risposta'
         data_type_string: ezselection
-        placement: 35
+        placement: 36
         is_searchable: 1
         can_translate: 1
         data_text5: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<ezselection><options><option id=\"0\" name=\"Orale\"/><option id=\"1\" name=\"Scritta\"/></options></ezselection>\n"
@@ -667,10 +692,10 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: Interroganti
             ger-DE: Anfragesteller
+            ita-IT: Interroganti
         data_type_string: ezobjectrelationlist
-        placement: 36
+        placement: 37
         is_searchable: 1
         can_translate: 1
         data_text5:
@@ -692,10 +717,10 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Gruppo consiliare'
             ger-DE: Ratsfraktion
+            ita-IT: 'Gruppo consiliare'
         data_type_string: ezobjectrelationlist
-        placement: 37
+        placement: 38
         is_searchable: 1
         can_translate: 1
         data_text5:
@@ -717,10 +742,10 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Data di invio agli uffici'
             ger-DE: 'Datum Übermittlung an die Ämter'
+            ita-IT: 'Data di invio agli uffici'
         data_type_string: ezdate
-        placement: 38
+        placement: 39
         is_searchable: 1
         can_translate: 1
         category: attivita_politica
@@ -734,10 +759,10 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Data di passaggio in Giunta'
             ger-DE: 'Datum Einbringung im Stadtrat'
+            ita-IT: 'Data di passaggio in Giunta'
         data_type_string: ezdate
-        placement: 39
+        placement: 40
         is_searchable: 1
         can_translate: 1
         category: attivita_politica
@@ -751,10 +776,10 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Data di risposta al consigliere'
             ger-DE: 'Datum  Beantwortung der Anfrage an den Gemeinderat'
+            ita-IT: 'Data di risposta al consigliere'
         data_type_string: ezdate
-        placement: 40
+        placement: 41
         is_searchable: 1
         can_translate: 1
         category: attivita_politica
@@ -768,10 +793,10 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Giorni per la risposta'
             ger-DE: 'Tage für die Beantwortung der Anfrage'
+            ita-IT: 'Giorni per la risposta'
         data_type_string: ezinteger
-        placement: 41
+        placement: 42
         is_searchable: 1
         can_translate: 1
         category: attivita_politica
@@ -785,10 +810,10 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Data trattazione/risposta in Consiglio'
             ger-DE: 'Datum der Bearbeitung/Beantwortung durch den Gemeinderat'
+            ita-IT: 'Data trattazione/risposta in Consiglio'
         data_type_string: ezdate
-        placement: 42
+        placement: 43
         is_searchable: 1
         can_translate: 1
         category: attivita_politica
@@ -802,13 +827,35 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Giorni per l''adozione'
             ger-DE: 'Tage für die Verabschiedung'
+            ita-IT: 'Giorni per l''adozione'
         data_type_string: ezinteger
-        placement: 43
+        placement: 44
         is_searchable: 1
         can_translate: 1
         category: attivita_politica
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    announcement_type:
+        identifier: announcement_type
+        serialized_description_list:
+            always-available: ita-IT
+            ger-DE: 'Nr auszufüllen, wenn der gewählte Dokumententyp "Ausschreibung" ist.'
+            ita-IT: 'da compilare soltanto in caso la tipologia di documento selezionata sia "Bando di gara"'
+        serialized_name_list:
+            always-available: ita-IT
+            ger-DE: Ausschreibungen
+            ita-IT: 'Tipologia di bando'
+        data_type_string: eztags
+        placement: 45
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 'tag(Documenti / Tipologia di bando di gara)'
+        data_int3: 1
+        data_int4: 1
+        data_text1: Tree
+        category: bandi_progetti
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
@@ -821,7 +868,7 @@ data_map:
             always-available: ita-IT
             ita-IT: 'Data di scadenza delle iscrizioni'
         data_type_string: ezdatetime
-        placement: 44
+        placement: 46
         is_searchable: 1
         can_translate: 1
         category: bandi_progetti
@@ -837,7 +884,7 @@ data_map:
             always-available: ita-IT
             ita-IT: 'Data di conclusione del bando/progetto'
         data_type_string: ezdate
-        placement: 45
+        placement: 47
         is_searchable: 1
         can_translate: 1
         category: bandi_progetti

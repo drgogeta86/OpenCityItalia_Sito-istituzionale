@@ -4,6 +4,8 @@ metadata:
     sectionIdentifier: standard
     languages:
         - ita-IT
+    stateIdentifiers:
+        - privacy.public
     parentNodes:
         - $contenttree_OpenCity_Argomenti_node
 data:

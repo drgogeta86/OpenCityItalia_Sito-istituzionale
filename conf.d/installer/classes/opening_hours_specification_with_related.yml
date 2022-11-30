@@ -2,6 +2,22 @@ imports:
     -
         resource: classes/opening_hours_specification.yml
 data_map:
+    place:
+        identifier: place
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ger-DE: 'Orte und Kontaktstellen'
+            ita-IT: 'Luoghi e punti di contatto'
+        data_type_string: openpareverserelationlist
+        placement: 8
+        can_translate: 1
+        data_text5: '{"attribute_id_list":[classattributeid_list(place/opening_hours_specification,online_contact_point/phone_availability_time)],"sort":"name","order":"asc","limit":4}'
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
     used_by:
         identifier: used_by
         serialized_description_list:

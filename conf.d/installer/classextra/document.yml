@@ -2,27 +2,35 @@ attribute_group:
     accedere_al_servizio:
         '*': 'Accedere al servizio'
         end_time: '1'
+        has_service: '1'
         image: '1'
         publication_start_time: '1'
         related_public_services: '1'
-        has_service: '1'
     descrizione:
         '*': Descrizione
+        area: '1'
         attachments: '1'
         description: '1'
         document_type: '1'
         end_time: '1'
         file: '1'
         full_description: '1'
+        has_organization: '1'
+        images: '1'
         interroganti: '1'
         link: '1'
-        start_time: '1'
-        area: '1'
-        has_organization: '1'
         reference_doc: '1'
-        images: '1'
+        start_time: '1'
     enabled:
         '*': '1'
+    'ger-DE::accedere_al_servizio':
+        '*': 'So geht''s'
+    'ger-DE::descrizione':
+        '*': Beschreibung
+    'ger-DE::tempi_e_scadenze':
+        '*': 'Fristen und Fälligkeiten'
+    'ger-DE::ulteriori_informazioni':
+        '*': 'Weitere Informationen'
     'ita-IT::accedere_al_servizio':
         '*': 'Accedere al servizio'
     'ita-IT::descrizione':
@@ -44,8 +52,8 @@ attribute_group:
         area: '0'
         end_time: '1'
         images: '0'
-        topics: '1'
         link: '0'
+        topics: '1'
     ulteriori_informazioni:
         '*': 'Ulteriori informazioni'
         content_show_history: '1'
@@ -53,22 +61,6 @@ attribute_group:
         has_organization: '0'
         other_information: '1'
         reference_doc: '0'
-    'ger-DE::accedere_al_servizio':
-        '*': 'So geht''s'
-    'ger-DE::descrizione':
-        '*': Beschreibung
-    'ger-DE::tempi_e_scadenze':
-        '*': 'Fristen und Fälligkeiten'
-    'ger-DE::ulteriori_informazioni':
-        '*': 'Weitere Informationen'
-    'eng-GB::accedere_al_servizio':
-        '*': 'Access the service'
-    'eng-GB::descrizione':
-        '*': Description
-    'eng-GB::tempi_e_scadenze':
-        '*': 'Times and deadlines'
-    'eng-GB::ulteriori_informazioni':
-        '*': 'Further information'
 bootstrapitalia_icon:
     enabled:
         '*': '1'
@@ -76,8 +68,8 @@ bootstrapitalia_icon:
         '*': it-file
 card_small_view:
     show:
-        description: '1'
         content_show_read_more: '1'
+        description: '1'
 table_view:
     enabled:
         '*': '1'
@@ -87,6 +79,7 @@ table_view:
     main_image:
         image: '1'
     show:
+        area: '1'
         attachments: '1'
         content_show_modified: '1'
         content_show_published: '1'
@@ -100,15 +93,14 @@ table_view:
         interroganti: '1'
         link: '1'
         other_information: '1'
-        related_public_services: '1'
-        area: '1'
         reference_doc: '1'
-    show_link:
-        area: '1'
-        has_organization: '1'
+        related_public_services: '1'
     show_label:
+        area: '1'
         document_type: '1'
-        interroganti: '1'
+        has_organization: '1'
         has_service: '1'
+        interroganti: '1'
+    show_link:
         area: '1'
         has_organization: '1'

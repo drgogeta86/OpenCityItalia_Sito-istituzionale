@@ -2,13 +2,13 @@ identifier: folder
 contentobject_name: '<short_name|name>'
 serialized_name_list:
     always-available: ita-IT
-    ita-IT: Cartella
     ger-DE: Ordner
+    ita-IT: Cartella
 serialized_description_list:
     0: ''
     always-available: false
-    ita-IT: 'Struttura dati necessaria al funzionamento della piattaforma'
     ger-DE: 'Für den Betrieb der Plattform notwendige Datenstruktur'
+    ita-IT: 'Struttura dati necessaria al funzionamento della piattaforma'
 always_available: 1
 sort_field: 9
 is_container: 1
@@ -21,8 +21,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: Titolo
             ger-DE: Titel
+            ita-IT: Titolo
         data_type_string: ezstring
         placement: 1
         is_searchable: 1
@@ -31,8 +31,8 @@ data_map:
         data_int1: 255
         data_text1: Folder
         serialized_data_text:
-            always-available: eng-GB
-            eng-GB: ''
+            always-available: ita-IT
+            ita-IT: ''
     short_name:
         identifier: short_name
         serialized_description_list:
@@ -41,35 +41,35 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Titolo breve'
             ger-DE: 'Kurzer Titel'
+            ita-IT: 'Titolo breve'
         data_type_string: ezstring
         placement: 2
         is_searchable: 1
         can_translate: 1
         data_int1: 100
         serialized_data_text:
-            always-available: eng-GB
-            eng-GB: ''
+            always-available: ita-IT
+            ita-IT: ''
     short_description:
         identifier: short_description
         serialized_description_list:
             always-available: eng-GB
             eng-GB: ''
-            ita-IT: 'Sintesi del contenuto: massimo tre righe'
             ger-DE: 'Inhaltsangabe: maximal drei Zeilen'
+            ita-IT: 'Sintesi del contenuto: massimo tre righe'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Descrizione breve'
             ger-DE: 'Kurze Beschreibung'
+            ita-IT: 'Descrizione breve'
         data_type_string: ezxmltext
         placement: 3
         is_searchable: 1
         can_translate: 1
         data_int1: 5
         serialized_data_text:
-            always-available: eng-GB
-            eng-GB: ''
+            always-available: ita-IT
+            ita-IT: ''
     description:
         identifier: description
         serialized_description_list:
@@ -78,16 +78,16 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: Descrizione
             ger-DE: Beschreibung
+            ita-IT: Descrizione
         data_type_string: ezxmltext
         placement: 4
         is_searchable: 1
         can_translate: 1
         data_int1: 20
         serialized_data_text:
-            always-available: eng-GB
-            eng-GB: ''
+            always-available: ita-IT
+            ita-IT: ''
     show_children:
         identifier: show_children
         serialized_description_list:
@@ -96,15 +96,15 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Visualizza elementi contenuti'
             ger-DE: 'Inhaltselemente anzeigen'
+            ita-IT: 'Visualizza elementi contenuti'
         data_type_string: ezboolean
         placement: 5
         data_int3: 1
         category: meta
         serialized_data_text:
-            always-available: eng-GB
-            eng-GB: ''
+            always-available: ita-IT
+            ita-IT: ''
     tags:
         identifier: tags
         serialized_description_list:
@@ -113,8 +113,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Parole chiave'
             ger-DE: Schlüsselwörter
+            ita-IT: 'Parole chiave'
         data_type_string: ezkeyword
         placement: 6
         can_translate: 1
@@ -130,8 +130,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Data di inizio pubblicazione'
             ger-DE: 'Tag der Veröffentlichung'
+            ita-IT: 'Data di inizio pubblicazione'
         data_type_string: ezdatetime
         placement: 7
         can_translate: 1

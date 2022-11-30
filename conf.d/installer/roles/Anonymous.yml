@@ -30,7 +30,6 @@ policies:
             Class:
                 - $class_file
                 - $class_image
-                - $class_gallery
                 - $class_banner
                 - $class_link
                 - $class_chart

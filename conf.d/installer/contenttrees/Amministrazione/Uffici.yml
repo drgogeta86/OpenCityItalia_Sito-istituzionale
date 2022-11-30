@@ -7,7 +7,20 @@ metadata:
 data:
     ita-IT:
         name: Uffici
+        short_name: null
+        menu_name: null
+        abstract: ''
+        description: ''
+        image: {  }
+        show_children: 1
+        layout: {  }
+        icon: null
+        show_topics: 0
+        show_search_form: 1
+        tag_menu: {  }
+        publish_date: null
+        show_tag_cards: 0
 sort_data:
     sort_field: 9
     sort_order: 1
-    priority: 20
+    priority: -10

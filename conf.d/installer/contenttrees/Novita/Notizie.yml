@@ -19,7 +19,8 @@ data:
         show_search_form: 1
         tag_menu: {  }
         publish_date: null
+        show_tag_cards: 0
 sort_data:
     sort_field: 2
     sort_order: 0
-    priority: 0
+    priority: -6

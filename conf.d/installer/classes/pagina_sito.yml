@@ -2,12 +2,12 @@ identifier: pagina_sito
 contentobject_name: '<name>'
 serialized_name_list:
     always-available: ita-IT
-    ita-IT: 'Pagina del sito'
     ger-DE: Site-Seite
+    ita-IT: 'Pagina del sito'
 serialized_description_list:
     always-available: ita-IT
-    ita-IT: 'Contenitore che consente di raggruppare una o più tipologie di contenuti'
     ger-DE: 'Container, in dem Sie einen oder mehrere Inhaltstypen gruppieren können'
+    ita-IT: 'Contenitore che consente di raggruppare una o più tipologie di contenuti'
 url_alias_name: '<short_name|name>'
 sort_field: 2
 sort_order: 0
@@ -20,8 +20,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Titolo della pagina'
             ger-DE: 'Titel der Seite'
+            ita-IT: 'Titolo della pagina'
         data_type_string: ezstring
         placement: 1
         is_searchable: 1
@@ -37,8 +37,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Suffisso dell''url'
             ger-DE: 'Suffix der Url'
+            ita-IT: 'Suffisso dell''url'
         data_type_string: ezstring
         placement: 2
         is_searchable: 1
@@ -54,8 +54,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Titolo del menu'
             ger-DE: Menü-Titel
+            ita-IT: 'Titolo del menu'
         data_type_string: ezstring
         placement: 3
         is_searchable: 1
@@ -71,8 +71,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Descrizione breve'
             ger-DE: 'Kurze Beschreibung'
+            ita-IT: 'Descrizione breve'
         data_type_string: ezxmltext
         placement: 4
         is_searchable: 1
@@ -88,8 +88,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: Descrizione
             ger-DE: Beschreibung
+            ita-IT: Descrizione
         data_type_string: ezxmltext
         placement: 5
         is_searchable: 1
@@ -105,8 +105,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: Immagini
             ger-DE: Bilder
+            ita-IT: Immagini
         data_type_string: ezobjectrelationlist
         placement: 6
         is_searchable: 1
@@ -129,8 +129,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Mostra elementi figli'
             ger-DE: 'Untergeordnete Elemente anzeigen'
+            ita-IT: 'Mostra elementi figli'
         data_type_string: ezboolean
         placement: 7
         is_searchable: 1
@@ -147,8 +147,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: Layout
             ger-DE: Layout
+            ita-IT: Layout
         data_type_string: ezpage
         placement: 8
         can_translate: 1
@@ -162,8 +162,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: Icona
             ger-DE: Symbol
+            ita-IT: Icona
         data_type_string: openpabootstrapitaliaicon
         placement: 9
         can_translate: 1
@@ -178,13 +178,13 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Mostra argomenti del sottoalbero'
             ger-DE: 'Teilbaumthemen anzeigen'
+            ita-IT: 'Mostra argomenti del sottoalbero'
         data_type_string: ezboolean
         placement: 10
         is_searchable: 1
         can_translate: 1
-        category: meta
+        category: hidden
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
@@ -195,14 +195,14 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Mostra motore di ricerca'
             ger-DE: 'Suchmaschine anzeigen'
+            ita-IT: 'Mostra motore di ricerca'
         data_type_string: ezboolean
         placement: 11
         is_searchable: 1
         can_translate: 1
         data_int3: 1
-        category: meta
+        category: hidden
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
@@ -213,8 +213,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Virtualizza il menu su un''alberatura di tag'
             ger-DE: 'Menü in einem Tag-Baum virtualisieren'
+            ita-IT: 'Virtualizza il menu su un''alberatura di tag'
         data_type_string: eztags
         placement: 12
         is_searchable: 1
@@ -232,8 +232,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Data di pubblicazione'
             ger-DE: 'Datum der Veröffentlichung'
+            ita-IT: 'Data di pubblicazione'
         data_type_string: ezdate
         placement: 13
         is_searchable: 1
@@ -246,12 +246,12 @@ data_map:
         identifier: show_tag_cards
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: 'In caso di virtualizzazione del menu su un''alberatura di tag, visualizza le card dei tag invece degli elementi figli quando nessun tag è selezionato'
             ger-DE: 'Bei der Menüvirtualisierung in einem Tag-Baum werden Tag-Cards anstelle von untergeordneten Elementen angezeigt, wenn kein Element ausgewählt ist.'
+            ita-IT: 'In caso di virtualizzazione del menu su un''alberatura di tag, visualizza le card dei tag invece degli elementi figli quando nessun tag è selezionato'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Visualizza elenco tag'
             ger-DE: 'Tag-Liste anzeigen'
+            ita-IT: 'Visualizza elenco tag'
         data_type_string: ezboolean
         placement: 14
         is_searchable: 1

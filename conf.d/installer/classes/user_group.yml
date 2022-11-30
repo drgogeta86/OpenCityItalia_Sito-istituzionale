@@ -2,13 +2,13 @@ identifier: user_group
 contentobject_name: '<name>'
 serialized_name_list:
     always-available: ita-IT
-    ita-IT: Gruppo
     ger-DE: Gruppe
+    ita-IT: Gruppo
 serialized_description_list:
     0: ''
     always-available: false
-    ita-IT: 'Struttura dati necessaria al funzionamento della piattaforma'
     ger-DE: 'Für den Betrieb der Plattform notwendige Datenstruktur'
+    ita-IT: 'Struttura dati necessaria al funzionamento della piattaforma'
 always_available: 1
 is_container: 1
 data_map:
@@ -20,8 +20,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: Nome
             ger-DE: Name
+            ita-IT: Nome
         data_type_string: ezstring
         placement: 1
         is_searchable: 1
@@ -29,8 +29,8 @@ data_map:
         can_translate: 1
         data_int1: 255
         serialized_data_text:
-            0: ''
-            always-available: false
+            always-available: ita-IT
+            ita-IT: ''
     description:
         identifier: description
         serialized_description_list:
@@ -39,15 +39,15 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: Descrizione
             ger-DE: Beschreibung
+            ita-IT: Descrizione
         data_type_string: ezstring
         placement: 2
         is_searchable: 1
         can_translate: 1
         data_int1: 255
         serialized_data_text:
-            0: ''
-            always-available: false
+            always-available: ita-IT
+            ita-IT: ''
 groups:
     - Users

@@ -4,6 +4,9 @@ attribute_group:
 bootstrapitalia_icon:
     icon:
         '*': ''
+card_small_view:
+    show:
+        content_show_read_more: '1'
 line_view:
     show:
         abstract: '1'

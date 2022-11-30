@@ -9,6 +9,8 @@ search_form:
 table_view:
     enabled:
         '*': '1'
+    main_image:
+        image: '1'
     show:
         author: '1'
         caption: '1'

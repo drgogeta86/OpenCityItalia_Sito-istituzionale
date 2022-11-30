@@ -11,14 +11,41 @@ data:
         menu_name: null
         abstract: ''
         description: ''
-        image: {  }
-        show_children: 1
-        layout: {  }
+        show_children: 0
+        layout:
+            zone_layout: desItaGlobal
+            global:
+                zone_id: da8eb7f1f4391a4fdda26dc90a0f4bee
+                blocks:
+                    -
+                        block_id: 7fe32fa415361edb5e02078ae869f77c
+                        name: ''
+                        type: OpendataRemoteContents
+                        view: default
+                        custom_attributes:
+                            remote_url: ''
+                            query: 'classes [opening_hours_specification] subtree [2]'
+                            show_grid: '1'
+                            show_map: '0'
+                            show_search: '1'
+                            input_search_placeholder: ''
+                            limit: '9'
+                            items_per_row: '3'
+                            fields: ''
+                            facets: ''
+                            simple_geo_api: '0'
+                            template: ''
+                            color_style: ''
+                            container_style: ''
+                            show_all_link: ''
+                            show_all_text: ''
+                        valid_items: {  }
         icon: it-clock
         show_topics: 0
         show_search_form: 1
         tag_menu: {  }
         publish_date: null
+        show_tag_cards: 0
 sort_data:
     sort_field: 2
     sort_order: 0

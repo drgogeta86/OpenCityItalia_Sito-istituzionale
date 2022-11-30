@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0753177697dcd9ff065c51de466a8819",
+    "content-hash": "636fe50208493466e0d2e79b2cf7b18c",
     "packages": [
         {
             "name": "arnebratt/batchtool",
@@ -89,16 +89,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.246.1",
+            "version": "3.251.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "34c2e3d699d08bc8f212d57f0d7a374a7404c653"
+                "reference": "ff9cc2d44675ebb74a5506b68e55c86b122fdf2f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/34c2e3d699d08bc8f212d57f0d7a374a7404c653",
-                "reference": "34c2e3d699d08bc8f212d57f0d7a374a7404c653",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/ff9cc2d44675ebb74a5506b68e55c86b122fdf2f",
+                "reference": "ff9cc2d44675ebb74a5506b68e55c86b122fdf2f",
                 "shasum": ""
             },
             "require": {
@@ -177,9 +177,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.246.1"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.251.0"
             },
-            "time": "2022-11-19T22:48:18+00:00"
+            "time": "2022-11-30T19:19:28+00:00"
         },
         {
             "name": "clue/stream-filter",
@@ -1443,16 +1443,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.275.0",
+            "version": "v0.276.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "fe34eef7717556c2e64dfc37de3fde930a23a68f"
+                "reference": "9a0bab5e4472d46bf979e06208da4bd03a5e6103"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/fe34eef7717556c2e64dfc37de3fde930a23a68f",
-                "reference": "fe34eef7717556c2e64dfc37de3fde930a23a68f",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/9a0bab5e4472d46bf979e06208da4bd03a5e6103",
+                "reference": "9a0bab5e4472d46bf979e06208da4bd03a5e6103",
                 "shasum": ""
             },
             "require": {
@@ -1481,22 +1481,22 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.275.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.276.0"
             },
-            "time": "2022-11-18T01:28:37+00:00"
+            "time": "2022-11-25T01:16:27+00:00"
         },
         {
             "name": "google/auth",
-            "version": "v1.23.1",
+            "version": "v1.24.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-auth-library-php.git",
-                "reference": "cb43cb8ccde76ace65ec40130a9e9c2a15ecfe17"
+                "reference": "1f8cff5aa324700d041efd2df1a0855112a2e7ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-auth-library-php/zipball/cb43cb8ccde76ace65ec40130a9e9c2a15ecfe17",
-                "reference": "cb43cb8ccde76ace65ec40130a9e9c2a15ecfe17",
+                "url": "https://api.github.com/repos/googleapis/google-auth-library-php/zipball/1f8cff5aa324700d041efd2df1a0855112a2e7ae",
+                "reference": "1f8cff5aa324700d041efd2df1a0855112a2e7ae",
                 "shasum": ""
             },
             "require": {
@@ -1511,8 +1511,8 @@
                 "guzzlehttp/promises": "0.1.1|^1.3",
                 "kelvinmo/simplejwt": "^0.2.5|^0.5.1",
                 "phpseclib/phpseclib": "^2.0.31",
-                "phpspec/prophecy-phpunit": "^1.1",
-                "phpunit/phpunit": "^7.5||^8.5",
+                "phpspec/prophecy-phpunit": "^1.1||^2.0",
+                "phpunit/phpunit": "^7.5||^9.0.0",
                 "sebastian/comparator": ">=1.2.3",
                 "squizlabs/php_codesniffer": "^3.5"
             },
@@ -1539,9 +1539,9 @@
             "support": {
                 "docs": "https://googleapis.github.io/google-auth-library-php/main/",
                 "issues": "https://github.com/googleapis/google-auth-library-php/issues",
-                "source": "https://github.com/googleapis/google-auth-library-php/tree/v1.23.1"
+                "source": "https://github.com/googleapis/google-auth-library-php/tree/v1.24.0"
             },
-            "time": "2022-10-26T20:30:45+00:00"
+            "time": "2022-11-28T18:29:23+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -3565,23 +3565,22 @@
         },
         {
             "name": "opencontent/ocinstaller",
-            "version": "dev-master",
+            "version": "dev-wip",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/ocinstaller.git",
-                "reference": "5fd5bdd603b632717a6d9021a44e1b5b6ec42440"
+                "reference": "e6878cf4bc159b1b3ebd0d59583b131be0a80ece"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/ocinstaller/zipball/5fd5bdd603b632717a6d9021a44e1b5b6ec42440",
-                "reference": "5fd5bdd603b632717a6d9021a44e1b5b6ec42440",
+                "url": "https://api.github.com/repos/OpencontentCoop/ocinstaller/zipball/e6878cf4bc159b1b3ebd0d59583b131be0a80ece",
+                "reference": "e6878cf4bc159b1b3ebd0d59583b131be0a80ece",
                 "shasum": ""
             },
             "require": {
                 "psr/log": "*",
                 "symfony/yaml": "*"
             },
-            "default-branch": true,
             "bin": [
                 "bin/ocinstall"
             ],
@@ -3602,10 +3601,10 @@
             ],
             "description": "Opencontent Installer",
             "support": {
-                "source": "https://github.com/OpencontentCoop/ocinstaller/tree/master",
+                "source": "https://github.com/OpencontentCoop/ocinstaller/tree/wip",
                 "issues": "https://github.com/OpencontentCoop/ocinstaller/issues"
             },
-            "time": "2022-04-14T14:42:38+00:00"
+            "time": "2022-11-30T23:22:04+00:00"
         },
         {
             "name": "opencontent/ocmaintenance-ls",
@@ -3723,16 +3722,16 @@
         },
         {
             "name": "opencontent/ocopenapi-ls",
-            "version": "1.3.12",
+            "version": "1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/ocopenapi-ls.git",
-                "reference": "6b48e9614becfcb762761586f3d28a60b57a30b8"
+                "reference": "7c48f700904439c24ef8648dfe731b3792740b62"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/ocopenapi-ls/zipball/6b48e9614becfcb762761586f3d28a60b57a30b8",
-                "reference": "6b48e9614becfcb762761586f3d28a60b57a30b8",
+                "url": "https://api.github.com/repos/OpencontentCoop/ocopenapi-ls/zipball/7c48f700904439c24ef8648dfe731b3792740b62",
+                "reference": "7c48f700904439c24ef8648dfe731b3792740b62",
                 "shasum": ""
             },
             "require": {
@@ -3757,9 +3756,9 @@
             "description": "OpenContent OpenApi extension",
             "support": {
                 "issues": "https://github.com/OpencontentCoop/ocopenapi-ls/issues",
-                "source": "https://github.com/OpencontentCoop/ocopenapi-ls/tree/1.3.12"
+                "source": "https://github.com/OpencontentCoop/ocopenapi-ls/tree/1.4.1"
             },
-            "time": "2022-03-28T07:48:55+00:00"
+            "time": "2022-11-24T13:20:26+00:00"
         },
         {
             "name": "opencontent/ocopendata-ls",
@@ -4186,12 +4185,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/openpa_bootstrapitalia.git",
-                "reference": "f238faa1ba6597f5d2866ef6c0496837a2339c9d"
+                "reference": "b3571e7d0fc7fbb6d246c2e1c3a18dd3dcc7f653"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/openpa_bootstrapitalia/zipball/f238faa1ba6597f5d2866ef6c0496837a2339c9d",
-                "reference": "f238faa1ba6597f5d2866ef6c0496837a2339c9d",
+                "url": "https://api.github.com/repos/OpencontentCoop/openpa_bootstrapitalia/zipball/b3571e7d0fc7fbb6d246c2e1c3a18dd3dcc7f653",
+                "reference": "b3571e7d0fc7fbb6d246c2e1c3a18dd3dcc7f653",
                 "shasum": ""
             },
             "require": {
@@ -4218,7 +4217,7 @@
                 "issues": "https://github.com/OpencontentCoop/openpa_bootstrapitalia/issues",
                 "source": "https://github.com/OpencontentCoop/openpa_bootstrapitalia/tree/v2"
             },
-            "time": "2022-11-15T20:13:55+00:00"
+            "time": "2022-11-30T23:21:28+00:00"
         },
         {
             "name": "opencontent/openpa_newsletter-ls",
@@ -4955,12 +4954,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "08c27ae48aebe3e76cf4f7b3be15d2c4ddb20739"
+                "reference": "68aa48de66c80d096fb414891e8abc1e78c1f552"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/08c27ae48aebe3e76cf4f7b3be15d2c4ddb20739",
-                "reference": "08c27ae48aebe3e76cf4f7b3be15d2c4ddb20739",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/68aa48de66c80d096fb414891e8abc1e78c1f552",
+                "reference": "68aa48de66c80d096fb414891e8abc1e78c1f552",
                 "shasum": ""
             },
             "require": {
@@ -5057,7 +5056,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-10-28T04:07:38+00:00"
+            "time": "2022-11-29T12:09:31+00:00"
         },
         {
             "name": "predis/predis",
@@ -5065,12 +5064,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/predis/predis.git",
-                "reference": "94bd54b2afabced2a5be7b37b20eb749fd4c8d2b"
+                "reference": "cfd6f030bc842f752d644c094e88fd49a2137d56"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/predis/predis/zipball/94bd54b2afabced2a5be7b37b20eb749fd4c8d2b",
-                "reference": "94bd54b2afabced2a5be7b37b20eb749fd4c8d2b",
+                "url": "https://api.github.com/repos/predis/predis/zipball/cfd6f030bc842f752d644c094e88fd49a2137d56",
+                "reference": "cfd6f030bc842f752d644c094e88fd49a2137d56",
                 "shasum": ""
             },
             "require": {
@@ -5129,7 +5128,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-11-17T15:48:16+00:00"
+            "time": "2022-11-30T21:23:08+00:00"
         },
         {
             "name": "psr/cache",
@@ -6884,12 +6883,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "e83fe9a72011f07c662da46a05603d66deeeb487"
+                "reference": "ebd37c71f62d5ec5f6e27de3e06fee492d4c6298"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/e83fe9a72011f07c662da46a05603d66deeeb487",
-                "reference": "e83fe9a72011f07c662da46a05603d66deeeb487",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/ebd37c71f62d5ec5f6e27de3e06fee492d4c6298",
+                "reference": "ebd37c71f62d5ec5f6e27de3e06fee492d4c6298",
                 "shasum": ""
             },
             "require": {
@@ -6951,7 +6950,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-10-03T15:15:50+00:00"
+            "time": "2022-11-25T16:04:03+00:00"
         },
         {
             "name": "thingengineer/mysqli-database-class",
@@ -7215,21 +7214,23 @@
         },
         {
             "name": "zetacomponents/base",
-            "version": "1.9.3",
+            "version": "1.9.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zetacomponents/Base.git",
-                "reference": "2f432f4117a5aa2164d4fb1784f84db91dbdd3b8"
+                "reference": "b6ae5f6177f6e51c5fc3514800e1c3fb076ec4be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zetacomponents/Base/zipball/2f432f4117a5aa2164d4fb1784f84db91dbdd3b8",
-                "reference": "2f432f4117a5aa2164d4fb1784f84db91dbdd3b8",
+                "url": "https://api.github.com/repos/zetacomponents/Base/zipball/b6ae5f6177f6e51c5fc3514800e1c3fb076ec4be",
+                "reference": "b6ae5f6177f6e51c5fc3514800e1c3fb076ec4be",
                 "shasum": ""
             },
             "require-dev": {
-                "phpunit/phpunit": "~8.0",
-                "zetacomponents/unit-test": "*"
+                "phpunit/php-invoker": "^2.0|^3.1",
+                "phpunit/phpunit": "~9.0",
+                "zetacomponents/coding-standard": "dev-main",
+                "zetacomponents/unit-test": "~1.2.3"
             },
             "type": "library",
             "autoload": {
@@ -7277,9 +7278,9 @@
             "homepage": "https://github.com/zetacomponents",
             "support": {
                 "issues": "https://github.com/zetacomponents/Base/issues",
-                "source": "https://github.com/zetacomponents/Base/tree/1.9.3"
+                "source": "https://github.com/zetacomponents/Base/tree/1.9.4"
             },
-            "time": "2021-07-25T15:46:08+00:00"
+            "time": "2022-11-30T16:16:25+00:00"
         },
         {
             "name": "zetacomponents/cache",
@@ -7497,23 +7498,23 @@
         },
         {
             "name": "zetacomponents/database",
-            "version": "1.5.2",
+            "version": "1.5.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zetacomponents/Database.git",
-                "reference": "85a2fd2af4e49f64d5c7616b6fb82c1b88de53b4"
+                "reference": "eb14f929de48b3cda47f75e52001fca0f226fdc5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zetacomponents/Database/zipball/85a2fd2af4e49f64d5c7616b6fb82c1b88de53b4",
-                "reference": "85a2fd2af4e49f64d5c7616b6fb82c1b88de53b4",
+                "url": "https://api.github.com/repos/zetacomponents/Database/zipball/eb14f929de48b3cda47f75e52001fca0f226fdc5",
+                "reference": "eb14f929de48b3cda47f75e52001fca0f226fdc5",
                 "shasum": ""
             },
             "require": {
                 "zetacomponents/base": "~1.8"
             },
             "require-dev": {
-                "phpunit/phpunit": "~8.0",
+                "phpunit/phpunit": "~9.0",
                 "zetacomponents/database-schema": "~1.5",
                 "zetacomponents/unit-test": "*"
             },
@@ -7572,9 +7573,9 @@
             "homepage": "https://github.com/zetacomponents",
             "support": {
                 "issues": "https://github.com/zetacomponents/Database/issues",
-                "source": "https://github.com/zetacomponents/Database/tree/1.5.2"
+                "source": "https://github.com/zetacomponents/Database/tree/1.5.3"
             },
-            "time": "2022-02-11T17:18:33+00:00"
+            "time": "2022-11-30T17:20:12+00:00"
         },
         {
             "name": "zetacomponents/debug",

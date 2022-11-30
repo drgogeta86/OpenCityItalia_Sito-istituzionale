@@ -2,12 +2,12 @@ identifier: homepage
 contentobject_name: '<name>'
 serialized_name_list:
     always-available: ita-IT
-    ita-IT: Homepage
     ger-DE: Startseite
+    ita-IT: Homepage
 serialized_description_list:
     always-available: ita-IT
-    ita-IT: 'Struttura dati necessaria al funzionamento della piattaforma'
     ger-DE: 'Für den Betrieb der Plattform erforderliche Datenstruktur'
+    ita-IT: 'Struttura dati necessaria al funzionamento della piattaforma'
 always_available: 1
 sort_field: 8
 is_container: 1
@@ -19,8 +19,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: Titolo
             ger-DE: Titel
+            ita-IT: Titolo
         data_type_string: ezstring
         placement: 1
         is_searchable: 1
@@ -36,8 +36,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: Layout
             ger-DE: Layout
+            ita-IT: Layout
         data_type_string: ezpage
         placement: 2
         can_translate: 1
@@ -51,8 +51,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: Logo
             ger-DE: Logo
+            ita-IT: Logo
         data_type_string: ezimage
         placement: 3
         can_translate: 1
@@ -66,21 +66,21 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Link al menu orizzontale'
             ger-DE: 'Link zum horizontalen Menü'
+            ita-IT: 'Link al menu orizzontale'
         data_type_string: ezobjectrelationlist
         placement: 4
         is_searchable: 1
         can_translate: 1
-        category: hidden
         data_text5:
             object_class: ''
             selection_type: '0'
             type: '2'
             class_constraint_list:
-                - pagina_sito
                 - frontpage
+                - pagina_sito
             default_placement: false
+        category: hidden
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
@@ -91,8 +91,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Link nell''header'
             ger-DE: 'Link in der Kopfzeile'
+            ita-IT: 'Link nell''header'
         data_type_string: ezobjectrelationlist
         placement: 5
         is_searchable: 1
@@ -113,8 +113,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Link nel footer'
             ger-DE: 'Link in der Fußzeile'
+            ita-IT: 'Link nel footer'
         data_type_string: ezobjectrelationlist
         placement: 6
         is_searchable: 1
@@ -135,8 +135,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Informazioni nel footer'
             ger-DE: 'Informationen in der Fußzeile'
+            ita-IT: 'Informazioni nel footer'
         data_type_string: ezxmltext
         placement: 7
         can_translate: 1
@@ -151,8 +151,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: Contatti
             ger-DE: Kontakt
+            ita-IT: Contatti
         data_type_string: ezmatrix
         placement: 8
         is_searchable: 1
@@ -165,12 +165,12 @@ data_map:
         identifier: stemma
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: 'Stemma ufficiale'
             ger-DE: 'Offizielles Wappen'
+            ita-IT: 'Stemma ufficiale'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: Stemma
             ger-DE: Wappen
+            ita-IT: Stemma
         data_type_string: ezimage
         placement: 9
         can_translate: 1
@@ -184,8 +184,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Colora il logo di bianco'
             ger-DE: 'Logo weiß einfärben'
+            ita-IT: 'Colora il logo di bianco'
         data_type_string: ezboolean
         placement: 10
         is_searchable: 1
@@ -201,8 +201,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Solo logo'
             ger-DE: 'Nur Logo'
+            ita-IT: 'Solo logo'
         data_type_string: ezboolean
         placement: 11
         can_translate: 1
@@ -217,8 +217,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Menu argomenti '
             ger-DE: 'Menü Themen '
+            ita-IT: 'Menu argomenti '
         data_type_string: ezobjectrelationlist
         placement: 12
         is_searchable: 1
@@ -237,12 +237,12 @@ data_map:
         identifier: organization
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: 'Organizzazione pubblica che descrive l''ente'
             ger-DE: 'Beschreibung der öffentlichen Körperschaft'
+            ita-IT: 'Organizzazione pubblica che descrive l''ente'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Organizzazione pubblica'
             ger-DE: 'Öffentliche Körperschaft'
+            ita-IT: 'Organizzazione pubblica'
         data_type_string: ezobjectrelation
         placement: 13
         is_searchable: 1
@@ -255,12 +255,12 @@ data_map:
         identifier: contact_point
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: 'Punto di contatto principale dell''ente'
             ger-DE: 'Wichtigste Kontaktstelle der Körperschaft '
+            ita-IT: 'Punto di contatto principale dell''ente'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Punto di contatto'
             ger-DE: Kontaktstelle
+            ita-IT: 'Punto di contatto'
         data_type_string: ezobjectrelation
         placement: 14
         is_searchable: 1
@@ -273,18 +273,17 @@ data_map:
         identifier: spatial
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: 'Copertura geografica dell''ente'
             ger-DE: 'Geografische Abdeckung der Körperschaft'
+            ita-IT: 'Copertura geografica dell''ente'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Copertura geografica'
             ger-DE: 'Geografische Abdeckung'
-        data_type_string: eztags
+            ita-IT: 'Copertura geografica'
+        data_type_string: openpacomuniitaliani
         placement: 15
         is_searchable: 1
         can_translate: 1
-        data_int1: 'tag(Luoghi/Comuni italiani)'
-        data_text1: Default
+        data_int1: 0
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
@@ -295,8 +294,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Immagine anteprima sito'
             ger-DE: 'Vorschaubild der Webseite'
+            ita-IT: 'Immagine anteprima sito'
         data_type_string: ezimage
         placement: 16
         can_translate: 1
@@ -306,33 +305,39 @@ data_map:
     service_url:
         identifier: service_url
         serialized_description_list:
-            ita-IT: "Amminsitrazione afferente"
+            ita-IT: 'Amminsitrazione afferente'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: "Indirizzo del sito web dell'amministrazione afferente"
+            ita-IT: 'Indirizzo del sito web dell''amministrazione afferente'
         data_type_string: ezurl
         placement: 17
         can_translate: 1
-        serialized_data_text: { }
         category: hidden
+        serialized_data_text: {  }
     hide_access_menu:
         identifier: hide_access_menu
+        serialized_description_list:
+            ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: "Nasconde il link di accesso all'area personale"
+            ita-IT: 'Nasconde il link di accesso all''area personale'
         data_type_string: ezboolean
         placement: 18
         can_translate: 1
         category: hidden
+        serialized_data_text: {  }
     editor_access_in_footer:
         identifier: editor_access_in_footer
+        serialized_description_list:
+            ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: "Posiziona sul footer il menu di accesso dei redattori"
+            ita-IT: 'Posiziona sul footer il menu di accesso dei redattori'
         data_type_string: ezboolean
         placement: 19
         can_translate: 1
         category: hidden
+        serialized_data_text: {  }
     topic_menu_label:
         identifier: topic_menu_label
         serialized_description_list:
@@ -345,8 +350,11 @@ data_map:
         placement: 20
         can_translate: 1
         category: hidden
+        serialized_data_text: {  }
     hide_topic_menu:
         identifier: hide_topic_menu
+        serialized_description_list:
+            ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Nasconde la voce di menu "Argomenti"'
@@ -354,35 +362,48 @@ data_map:
         placement: 21
         can_translate: 1
         category: hidden
+        serialized_data_text: {  }
     hide_footer_menu:
         identifier: hide_footer_menu
+        serialized_description_list:
+            ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: "Nasconde il menu nel footer"
+            ita-IT: 'Nasconde il menu nel footer'
         data_type_string: ezboolean
         placement: 22
         can_translate: 1
         category: hidden
+        serialized_data_text: {  }
     show_extended_menu:
         identifier: show_extended_menu
+        serialized_description_list:
+            ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: "Visualizza il menu principale esteso (con dropdown)"
+            ita-IT: 'Visualizza il menu principale esteso (con dropdown)'
         data_type_string: ezboolean
         placement: 23
         can_translate: 1
         category: hidden
+        serialized_data_text: {  }
     cookie_alert_text:
         identifier: cookie_alert_text
+        serialized_description_list:
+            ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Testo del cookie alert'
         data_type_string: eztext
         placement: 24
         can_translate: 1
+        data_int1: 10
         category: hidden
+        serialized_data_text: {  }
     cookie_alert_info_button_link:
         identifier: cookie_alert_info_button_link
+        serialized_description_list:
+            ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Link alle informazioni nel cookie alert'
@@ -390,8 +411,11 @@ data_map:
         placement: 25
         can_translate: 1
         category: hidden
+        serialized_data_text: {  }
     cookie_alert_info_button_text:
         identifier: cookie_alert_info_button_text
+        serialized_description_list:
+            ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Testo del link alle informazioni del cookie alert'
@@ -399,8 +423,11 @@ data_map:
         placement: 26
         can_translate: 1
         category: hidden
+        serialized_data_text: {  }
     cookie_alert_accept_button_text:
         identifier: cookie_alert_accept_button_text
+        serialized_description_list:
+            ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Testo del bottone di accettazione del cookie alert'
@@ -408,8 +435,11 @@ data_map:
         placement: 27
         can_translate: 1
         category: hidden
+        serialized_data_text: {  }
     footer_info_label:
         identifier: footer_info_label
+        serialized_description_list:
+            ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Personalizza etichetta "Informazioni" nel footer'
@@ -417,14 +447,16 @@ data_map:
         placement: 28
         can_translate: 1
         category: hidden
+        serialized_data_text: {  }
     favicon:
         identifier: favicon
         serialized_description_list:
             ita-IT: 'Allegare un file di tipo .ico'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Favicon'
+            ita-IT: Favicon
         data_type_string: ezbinaryfile
         placement: 29
+        serialized_data_text: {  }
 groups:
     - Content

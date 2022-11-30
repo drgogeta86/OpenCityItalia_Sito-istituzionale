@@ -3,6 +3,7 @@ metadata:
     classIdentifier: pagina_sito
     sectionIdentifier: standard
     languages:
+        - ger-DE
         - ita-IT
 data:
     ita-IT:
@@ -12,32 +13,29 @@ data:
         abstract: '<p>Gli argomenti rispondono a un''esigenza di organizzazione dei contenuti del sito istituzionale per temi e rappresentano le principali categorie di contenuti, informazioni e documenti specifici.</p>'
         description: ''
         image: {  }
-        show_children: 0
-        layout:
-            zone_layout: desItaGlobal
-            right:
-                zone_id: f684e2e7a1a16f4177c5194ed9ddad9d
-                blocks:
-                    -
-                        block_id: 2d0b12b15401b7b2c3ada320f738e7ac
-                        name: ''
-                        type: ListaPaginata
-                        view: lista_paginata
-                        custom_attributes:
-                            limite: '9'
-                            includi_classi: topic
-                            ordinamento: name
-                            state_id: ''
-                            topic_node_id: ''
-                            color_style: ''
-                            container_style: ''
-                            node_id: $root_node
-                        valid_items: {  }
+        show_children: 1
+        layout: {  }
         icon: it-settings
         show_topics: 0
         show_search_form: 1
         tag_menu: {  }
         publish_date: null
+        show_tag_cards: 0
+    ger-DE:
+        name: Themen
+        short_name: null
+        menu_name: null
+        abstract: '<p>Hier finden Sie eine Auflistung aller Dienstleistungen nach Themenbereichen geordnet. Durch Anklicken des jeweiligen Themenbereichs erhalten Sie Informationen zum Dienstleistungsangebot, zu den Anlaufstellen und zu den benötigten Unterlagen.</p>'
+        description: ''
+        image: {  }
+        show_children: 1
+        layout: {  }
+        icon: it-settings
+        show_topics: 0
+        show_search_form: 1
+        tag_menu: {  }
+        publish_date: null
+        show_tag_cards: 0
 sort_data:
     sort_field: 9
     sort_order: 1

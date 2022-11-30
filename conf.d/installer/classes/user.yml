@@ -2,13 +2,13 @@ identifier: user
 contentobject_name: '<first_name> <last_name>'
 serialized_name_list:
     always-available: ita-IT
-    ita-IT: Utente
     ger-DE: Benutzer
+    ita-IT: Utente
 serialized_description_list:
     0: ''
     always-available: false
-    ita-IT: "Utente tecnico; struttura dati necessaria al funzionamento della piattaforma\t"
     ger-DE: 'Technischer Benutzer; Datenstruktur, die für das Funktionieren der Plattform notwendig ist'
+    ita-IT: "Utente tecnico; struttura dati necessaria al funzionamento della piattaforma\t"
 always_available: 1
 data_map:
     first_name:
@@ -19,8 +19,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: Nome
             ger-DE: Name
+            ita-IT: Nome
         data_type_string: ezstring
         placement: 1
         is_searchable: 1
@@ -28,8 +28,8 @@ data_map:
         can_translate: 1
         data_int1: 255
         serialized_data_text:
-            0: ''
-            always-available: false
+            always-available: ita-IT
+            ita-IT: ''
     last_name:
         identifier: last_name
         serialized_description_list:
@@ -38,8 +38,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: Cognome
             ger-DE: Nachname
+            ita-IT: Cognome
         data_type_string: ezstring
         placement: 2
         is_searchable: 1
@@ -47,8 +47,8 @@ data_map:
         can_translate: 1
         data_int1: 255
         serialized_data_text:
-            0: ''
-            always-available: false
+            always-available: ita-IT
+            ita-IT: ''
     user_account:
         identifier: user_account
         serialized_description_list:
@@ -57,15 +57,15 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: Account
             ger-DE: Konto
+            ita-IT: Account
         data_type_string: ezuser
         placement: 3
         is_searchable: 1
         is_required: 1
         serialized_data_text:
-            0: ''
-            always-available: false
+            always-available: ita-IT
+            ita-IT: ''
     password_expiry:
         identifier: password_expiry
         serialized_description_list:
@@ -73,8 +73,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Scadenza password'
             ger-DE: 'Ablauf des Passworts'
+            ita-IT: 'Scadenza password'
         data_type_string: ezpaex
         placement: 4
         is_searchable: 1
@@ -89,8 +89,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Accettazione termini di utilizzo'
             ger-DE: 'Akzeptieren der Nutzungsbedingungen'
+            ita-IT: 'Accettazione termini di utilizzo'
         data_type_string: ocgdpr
         placement: 5
         is_required: 1

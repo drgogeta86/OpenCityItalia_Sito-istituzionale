@@ -2,23 +2,23 @@ identifier: private_organization
 contentobject_name: '<legal_name>'
 serialized_name_list:
     always-available: ita-IT
-    ita-IT: 'Organizzazione privata'
     ger-DE: 'Private Organisation'
+    ita-IT: 'Organizzazione privata'
 serialized_description_list:
-    ita-IT: 'Un''organizzazione privata ufficialmente registrata presso un registro nazionale (registro imprese) o al registro delle associazioni'
     ger-DE: 'Eine private Organisation, die offiziell in einem nationalen Register (Unternehmensregister) oder im Vereinsregister eingetragen ist.'
+    ita-IT: 'Un''organizzazione privata ufficialmente registrata presso un registro nazionale (registro imprese) o al registro delle associazioni'
 always_available: 1
 sort_field: 9
 data_map:
     legal_name:
         identifier: legal_name
         serialized_description_list:
-            ita-IT: 'Nome primario o il nome legale dell''organizzazione'
             ger-DE: 'Hauptname oder rechtlicher Name der Organisation'
+            ita-IT: 'Nome primario o il nome legale dell''organizzazione'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: Nome
             ger-DE: Name
+            ita-IT: Nome
         data_type_string: ezstring
         placement: 1
         is_searchable: 1
@@ -29,12 +29,12 @@ data_map:
         identifier: alt_name
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: 'un nome alternativo dell''organizzazione (e.g., un nome colloquiale)'
             ger-DE: 'Ein alternativer Name der Organisation (z. B. ein umgangssprachlicher Name)'
+            ita-IT: 'un nome alternativo dell''organizzazione (e.g., un nome colloquiale)'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Nome alternativo'
             ger-DE: 'Alternativer Name'
+            ita-IT: 'Nome alternativo'
         data_type_string: ezstring
         placement: 2
         is_searchable: 1
@@ -46,12 +46,12 @@ data_map:
         identifier: acronym
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: 'eventuale acronimo dell''organizzazione'
             ger-DE: 'Gegebenenfalls Kürzel der Organisation angeben'
+            ita-IT: 'eventuale acronimo dell''organizzazione'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: Acronimo
             ger-DE: Abkürzung
+            ita-IT: Acronimo
         data_type_string: ezstring
         placement: 3
         is_searchable: 1
@@ -62,12 +62,12 @@ data_map:
     description:
         identifier: description
         serialized_description_list:
-            ita-IT: 'Descrizione completa dell''organizzazione'
             ger-DE: 'Ausführliche Beschreibung der Organisation'
+            ita-IT: 'Descrizione completa dell''organizzazione'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: Descrizione
             ger-DE: Beschreibung
+            ita-IT: Descrizione
         data_type_string: ezxmltext
         placement: 4
         is_required: 1
@@ -77,12 +77,12 @@ data_map:
     business_objective:
         identifier: business_objective
         serialized_description_list:
-            ita-IT: 'Specificare l''oggetto sociale'
             ger-DE: 'Zielsetzung der Organisation'
+            ita-IT: 'Specificare l''oggetto sociale'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Oggetto sociale'
             ger-DE: 'Zielsetzung der Organisation'
+            ita-IT: 'Oggetto sociale'
         data_type_string: ezxmltext
         placement: 5
         can_translate: 1
@@ -91,12 +91,12 @@ data_map:
     has_logo:
         identifier: has_logo
         serialized_description_list:
-            ita-IT: 'Logo dell''organizzazione'
             ger-DE: 'Logo der Organisation'
+            ita-IT: 'Logo dell''organizzazione'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: Logo
             ger-DE: Logo
+            ita-IT: Logo
         data_type_string: ezimage
         placement: 6
         can_translate: 1
@@ -105,12 +105,12 @@ data_map:
         identifier: image
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: 'Immagine/i principale/i dell''organizzazione'
             ger-DE: 'Hauptbild(er) der Organisation'
+            ita-IT: 'Immagine/i principale/i dell''organizzazione'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: Immagini
             ger-DE: Bilder
+            ita-IT: Immagini
         data_type_string: ezobjectrelationlist
         placement: 7
         is_searchable: 1
@@ -129,12 +129,12 @@ data_map:
     start_time:
         identifier: start_time
         serialized_description_list:
-            ita-IT: 'Data a partire dalla quale l''organizzazione è attiva'
             ger-DE: 'Datum, ab dem die Organisation aktiv ist'
+            ita-IT: 'Data a partire dalla quale l''organizzazione è attiva'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Data inizio validità'
             ger-DE: 'Gültig/wirksam ab '
+            ita-IT: 'Data inizio validità'
         data_type_string: ezdate
         placement: 8
         can_translate: 1
@@ -143,12 +143,12 @@ data_map:
     end_time:
         identifier: end_time
         serialized_description_list:
-            ita-IT: 'Data di fine attività dell''organizzazione'
             ger-DE: 'Datum Tätigkeitsende der Organisation'
+            ita-IT: 'Data di fine attività dell''organizzazione'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Data fine validità'
             ger-DE: 'Gültig/wirksam bis '
+            ita-IT: 'Data fine validità'
         data_type_string: ezdate
         placement: 9
         can_translate: 1
@@ -161,8 +161,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: Sedi
             ger-DE: Sitz/Adresse
+            ita-IT: Sedi
         data_type_string: ezobjectrelationlist
         placement: 10
         is_searchable: 1
@@ -174,7 +174,7 @@ data_map:
             class_constraint_list:
                 - place
             default_placement:
-                node_id: $contenttree_Amministrazione_Luoghi_node
+                node_id: $contenttree_Vivere-il-comune_Luoghi_node
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
@@ -185,8 +185,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Punti di contatto'
             ger-DE: Kontaktstellen
+            ita-IT: 'Punti di contatto'
         data_type_string: ezobjectrelationlist
         placement: 11
         is_searchable: 1
@@ -206,12 +206,12 @@ data_map:
         identifier: foundation_date
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: 'la data di costituzione dell''organizzazione'
             ger-DE: 'Gründungsdatum der Organisation'
+            ita-IT: 'la data di costituzione dell''organizzazione'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Data di costituzione'
             ger-DE: 'Gründungsdatum '
+            ita-IT: 'Data di costituzione'
         data_type_string: ezdate
         placement: 12
         is_searchable: 1
@@ -226,8 +226,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Tipo di attività'
             ger-DE: Tätikeitsbereich
+            ita-IT: 'Tipo di attività'
         data_type_string: eztags
         placement: 13
         is_searchable: 1
@@ -243,12 +243,12 @@ data_map:
         identifier: topics
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: 'tematiche trattate da questa organizzazione'
             ger-DE: 'Themen, die von dieser Organisation behandelt werden'
+            ita-IT: 'tematiche trattate da questa organizzazione'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: Argomenti
             ger-DE: Themen
+            ita-IT: Argomenti
         data_type_string: ezobjectrelationlist
         placement: 14
         is_searchable: 1
@@ -271,8 +271,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: Allegati
             ger-DE: Anhänge
+            ita-IT: Allegati
         data_type_string: ezobjectrelationlist
         placement: 15
         is_searchable: 1
@@ -292,12 +292,12 @@ data_map:
         identifier: more_information
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: 'Ulteriori informazioni sulla struttura non contemplate dai campi precedenti'
             ger-DE: 'Zusätzliche Informationen über die Struktur, die nicht von den vorherigen Feldern abgedeckt werden'
+            ita-IT: 'Ulteriori informazioni sulla struttura non contemplate dai campi precedenti'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Ulteriori informazioni'
             ger-DE: 'Weitere Informationen'
+            ita-IT: 'Ulteriori informazioni'
         data_type_string: ezxmltext
         placement: 16
         is_searchable: 1
@@ -310,12 +310,12 @@ data_map:
         identifier: identifier
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: 'Codice stabilito dal Comune, con validità interna'
             ger-DE: 'Von der Stadtverwaltung erstellter Kodex mit interner Gültigkeit'
+            ita-IT: 'Codice stabilito dal Comune, con validità interna'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Identificativo univoco interno'
             ger-DE: 'Einheitliche interne Kennnummer'
+            ita-IT: 'Identificativo univoco interno'
         data_type_string: ezstring
         placement: 17
         is_searchable: 1
@@ -331,8 +331,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Riveste un ruolo nel tempo'
             ger-DE: 'Übernimmt im Laufe der Zeit eine Funktion'
+            ita-IT: 'Riveste un ruolo nel tempo'
         data_type_string: ezobjectrelationlist
         placement: 18
         is_searchable: 1
@@ -355,8 +355,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Codice fiscale'
             ger-DE: Steuernummer
+            ita-IT: 'Codice fiscale'
         data_type_string: ezstring
         placement: 19
         is_searchable: 1
@@ -368,12 +368,12 @@ data_map:
         identifier: vat_code
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: 'Numero di partita IVA'
             ger-DE: MwSt.-Nummer
+            ita-IT: 'Numero di partita IVA'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Partita IVA'
             ger-DE: MwSt.-Nummer
+            ita-IT: 'Partita IVA'
         data_type_string: ezstring
         placement: 20
         is_searchable: 1
@@ -386,12 +386,12 @@ data_map:
         identifier: rea_number
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: 'Il numero REA è costituito da un numero decimale progressivo ed è sempre associato ad una codifica, che precede il numero progressivo, della provincia/CCIAA che lo ha assegnato e, nella prassi, comprende anche tale codifica (ad es. RM-123456). Ogni soggetto/impresa obbligato per legge all´iscrizione al REA riceve un numero REA diverso per ogni provincia/CCIAA in cui apre Sede/Unità Locali.'
             ger-DE: 'Die Eintragungsnummer (REA-Nummer) besteht aus einer fortlaufenden Dezimalzahl und ist immer mit einem der fortlaufenden Zahl vorangestellten Code der Provinz /CCIAA, die sie vergeben hat, verbunden und enthält in der Praxis auch diesen Code (z.B. RM-123456). Jedes Subjekt / Unternehmen, das gesetzlich verpflichtet ist, sich bei der REA ( im Verzeichnis der Wirtschafts- und Verwaltungsdaten) anzumelden, erhält für jede Provinz / CCIAA, in der es ein Büro / eine lokale Einheit eröffnet, eine andere REA-Nummer.'
+            ita-IT: 'Il numero REA è costituito da un numero decimale progressivo ed è sempre associato ad una codifica, che precede il numero progressivo, della provincia/CCIAA che lo ha assegnato e, nella prassi, comprende anche tale codifica (ad es. RM-123456). Ogni soggetto/impresa obbligato per legge all´iscrizione al REA riceve un numero REA diverso per ogni provincia/CCIAA in cui apre Sede/Unità Locali.'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: REA
             ger-DE: 'Eintragungsnummer (REA-Nummer)'
+            ita-IT: REA
         data_type_string: ezstring
         placement: 21
         is_searchable: 1
@@ -406,8 +406,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Categoria di organizzazione privata'
             ger-DE: 'Kategorie der privaten Organisation'
+            ita-IT: 'Categoria di organizzazione privata'
         data_type_string: eztags
         placement: 22
         is_searchable: 1
@@ -423,12 +423,12 @@ data_map:
         identifier: legal_status_code
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: 'codice della forma giuridica'
             ger-DE: 'Kodex Rechtsform'
+            ita-IT: 'codice della forma giuridica'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Forma giuridica'
             ger-DE: Rechtsform
+            ita-IT: 'Forma giuridica'
         data_type_string: eztags
         placement: 23
         is_searchable: 1

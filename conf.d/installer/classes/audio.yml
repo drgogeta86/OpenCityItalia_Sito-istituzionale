@@ -2,12 +2,12 @@ identifier: audio
 contentobject_name: '<name>'
 serialized_name_list:
     always-available: ita-IT
-    ita-IT: Audio
     ger-DE: Audio
+    ita-IT: Audio
 serialized_description_list:
     always-available: ita-IT
-    ita-IT: 'Traccia audio'
     ger-DE: Audiospur
+    ita-IT: 'Traccia audio'
 sort_field: 9
 is_container: 1
 data_map:
@@ -18,8 +18,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: Nome
             ger-DE: Name
+            ita-IT: Nome
         data_type_string: ezstring
         placement: 1
         is_searchable: 1
@@ -34,8 +34,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'File media'
             ger-DE: Medien-Dateien
+            ita-IT: 'File media'
         data_type_string: ezmedia
         placement: 2
         is_required: 1
@@ -51,8 +51,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: Sottotitolo
             ger-DE: Untertitel
+            ita-IT: Sottotitolo
         data_type_string: ezstring
         placement: 3
         is_searchable: 1
@@ -68,8 +68,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Abstract (descrizione in breve)'
             ger-DE: 'Abstract (Kurze Beschreibung)'
+            ita-IT: 'Abstract (descrizione in breve)'
         data_type_string: ezxmltext
         placement: 4
         is_searchable: 1
@@ -85,8 +85,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: Durata
             ger-DE: Dauer
+            ita-IT: Durata
         data_type_string: ezstring
         placement: 5
         can_translate: 1
@@ -101,8 +101,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Data di inizio pubblicazione'
             ger-DE: 'Tag der Veröffentlichung'
+            ita-IT: 'Data di inizio pubblicazione'
         data_type_string: ezdate
         placement: 6
         can_translate: 1
@@ -117,8 +117,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Data di archiviazione'
             ger-DE: Archivierungsdatum
+            ita-IT: 'Data di archiviazione'
         data_type_string: ezdate
         placement: 7
         can_translate: 1
@@ -133,8 +133,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: Icona
             ger-DE: Symbol
+            ita-IT: Icona
         data_type_string: ezimage
         placement: 8
         can_translate: 1
@@ -149,8 +149,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Immagine iniziale'
             ger-DE: Eingangsbild
+            ita-IT: 'Immagine iniziale'
         data_type_string: ezimage
         placement: 9
         can_translate: 1
@@ -165,8 +165,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: Descrizione
             ger-DE: Beschreibung
+            ita-IT: Descrizione
         data_type_string: ezxmltext
         placement: 10
         can_translate: 1
@@ -182,8 +182,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: Argomento
             ger-DE: Thema
+            ita-IT: Argomento
         data_type_string: ezobjectrelationlist
         placement: 11
         is_searchable: 1

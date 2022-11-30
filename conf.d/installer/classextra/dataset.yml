@@ -7,6 +7,10 @@ attribute_group:
         resources: '1'
     enabled:
         '*': '1'
+    'ger-DE::dataset':
+        '*': Datensatz
+    'ger-DE::informazioni_sul_dataset':
+        '*': 'Informationen über den Datensatz'
     informazioni_sul_dataset:
         '*': 'Informazioni sul dataset'
         accrualperiodicity: '1'
@@ -25,14 +29,6 @@ attribute_group:
         '*': '1'
     'sort::informazioni_sul_dataset':
         '*': '2'
-    'ger-DE::dataset':
-        '*': Datensatz
-    'ger-DE::informazioni_sul_dataset':
-        '*': 'Informationen über den Datensatz'
-    'eng-GB::dataset':
-        '*': Dataset
-    'eng-GB::informazioni_sul_dataset':
-        '*': 'Informations about the dataset'
 table_view:
     collapse_label:
         spatial: '1'

@@ -26,7 +26,7 @@ data:
                         custom_attributes:
                             limite: '50'
                             elementi_per_riga: '3'
-                            includi_classi: politico
+                            includi_classi: public_person
                             escludi_classi: ''
                             ordinamento: name
                             livello_profondita: ''
@@ -35,13 +35,21 @@ data:
                             color_style: ''
                             container_style: ''
                             node_id: $root_node
+                            tags: 'tag(Persone/Tipi di incarichi/Amministrativo)'
+                            show_all_link: ''
+                            show_all_text: ''
+                            intro_text: ''
                         valid_items: {  }
+            global:
+                zone_id: 4f281cecf6d974fbf398d8122200d100
+                blocks: {  }
         icon: it-user
         show_topics: 0
         show_search_form: 1
         tag_menu: {  }
         publish_date: null
+        show_tag_cards: 0
 sort_data:
     sort_field: 2
     sort_order: 0
-    priority: 30
+    priority: -6

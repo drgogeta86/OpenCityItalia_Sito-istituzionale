@@ -2,11 +2,11 @@ identifier: file
 contentobject_name: '<name>'
 serialized_name_list:
     always-available: always-available
-    ita-IT: File
     ger-DE: Datei
+    ita-IT: File
 serialized_description_list:
-    ita-IT: 'Struttura dati necessaria al funzionamento della piattaforma'
     ger-DE: 'Für den Betrieb der Plattform notwendige Datenstruktur'
+    ita-IT: 'Struttura dati necessaria al funzionamento della piattaforma'
 data_map:
     name:
         identifier: name
@@ -14,8 +14,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: always-available
-            ita-IT: 'Nome del file'
             ger-DE: Dateiname
+            ita-IT: 'Nome del file'
         data_type_string: ezstring
         placement: 1
         is_required: 1
@@ -28,8 +28,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: always-available
-            ita-IT: Descrizione
             ger-DE: Beschreibung
+            ita-IT: Descrizione
         data_type_string: ezxmltext
         placement: 2
         can_translate: 1
@@ -41,8 +41,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: always-available
-            ita-IT: File
             ger-DE: Datei
+            ita-IT: File
         data_type_string: ezbinaryfile
         placement: 3
         is_required: 1
@@ -55,8 +55,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: always-available
-            ita-IT: Tags
             ger-DE: Tags
+            ita-IT: Tags
         data_type_string: ezkeyword
         placement: 4
         can_translate: 1
@@ -67,8 +67,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Percorso univoco del file'
             ger-DE: 'Eindeutiger Pfad zur Datei'
+            ita-IT: 'Percorso univoco del file'
         data_type_string: ezstring
         placement: 5
         is_searchable: 1

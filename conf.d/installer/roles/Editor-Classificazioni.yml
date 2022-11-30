@@ -5,15 +5,6 @@ policies:
         FunctionName: create
         Limitation:
             Subtree:
-                - $contenttree_Classificazioni_Regole-leggi-riferimenti-normativi-e-linee-guida-per-i-servizi_path_string
-            Class:
-                - $class_rule
-    
-    -
-        ModuleName: content
-        FunctionName: create
-        Limitation:
-            Subtree:
                 - $contenttree_Classificazioni_Canali-digitali_path_string
             Class:
                 - $class_channel
@@ -56,7 +47,6 @@ policies:
         FunctionName: edit
         Limitation:
             Class:
-                - $class_rule
                 - $class_channel
                 - $class_output
                 - $class_online_contact_point
@@ -67,7 +57,6 @@ policies:
         FunctionName: remove
         Limitation:
             Class:
-                - $class_rule
                 - $class_channel
                 - $class_output
                 - $class_online_contact_point

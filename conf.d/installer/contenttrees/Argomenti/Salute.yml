@@ -4,6 +4,7 @@ metadata:
     sectionIdentifier: standard
     languages:
         - ita-IT
+        - ger-DE
 data:
     ita-IT:
         name: Salute
@@ -11,7 +12,7 @@ data:
         managed_by_political_body: {  }
         type: null
         description: null
-        eu: 'https://publications.europa.eu/en/web/eu-vocabularies/th-concept-scheme/-/resource/eurovoc/100215'
+        eu: 'http://publications.europa.eu/resource/authority/data-theme/HEAL'
         theme: null
         data_themes_eurovocs: {  }
         image: {  }
@@ -19,7 +20,23 @@ data:
         icon: null
         layout: {  }
         help: {  }
+        show_topic_children: 1
+    ger-DE:
+        name: Gesundheit
+        managed_by_area: {  }
+        managed_by_political_body: {  }
+        type: null
+        description: null
+        eu: 'http://publications.europa.eu/resource/authority/data-theme/HEAL'
+        theme: null
+        data_themes_eurovocs: {  }
+        image: {  }
+        abstract: ''
+        icon: null
+        layout: {  }
+        help: {  }
+        show_topic_children: 1
 sort_data:
-    sort_field: 1
+    sort_field: 9
     sort_order: 1
     priority: 0

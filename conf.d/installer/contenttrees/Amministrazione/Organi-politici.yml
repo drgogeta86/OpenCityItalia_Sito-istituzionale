@@ -14,12 +14,13 @@ data:
         image: {  }
         show_children: 1
         layout: {  }
-        icon: null
+        icon: it-pa
         show_topics: 0
         show_search_form: 1
         tag_menu: {  }
         publish_date: null
+        show_tag_cards: 0
 sort_data:
     sort_field: 8
     sort_order: 1
-    priority: 1
+    priority: -14

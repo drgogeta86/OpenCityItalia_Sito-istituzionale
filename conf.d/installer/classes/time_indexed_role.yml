@@ -2,51 +2,25 @@ identifier: time_indexed_role
 contentobject_name: 'Ruolo "<role>" di <for_entity>'
 serialized_name_list:
     always-available: ita-IT
-    ita-IT: 'Ruolo di una persona nel tempo'
     ger-DE: 'Zuständigkeiten/Funktion einer Person im Laufe der Zeit'
+    ita-IT: 'Ruolo/incarico di una persona'
 serialized_description_list:
     always-available: ita-IT
-    ita-IT: 'Rappresentazione di un ruolo di un dipendente o di un politico associato ad un intervallo temporale determinato'
     ger-DE: 'Zuständigkeiten/Funktion eines Mitabeiters oder eines Politikers in einem bestimmten Zeitintervall'
+    ita-IT: 'Incarico o carica di un dipendente o di un politico all''interno di un Comune, associato ad un intervallo temporale determinato.'
 data_map:
     person:
         identifier: person
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: 'Puoi selezionare un politico o un dipendente'
             ger-DE: 'Einen Politiker oder Mitarbeiter auswählen'
+            ita-IT: 'Seleziona la persona (politico o dipendente) che ha la carica e l''incarico.'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Persona che ha il ruolo'
             ger-DE: 'Person, welche die Funktion oder Tätigkeit ausübt'
+            ita-IT: 'Persona che ha il ruolo'
         data_type_string: ezobjectrelationlist
         placement: 1
-        is_searchable: 1
-        can_translate: 1
-        data_text5:
-            object_class: ''
-            selection_type: '1'
-            type: '2'
-            class_constraint_list:
-                - employee
-                - politico
-            default_placement:
-                node_id: $contenttree_OpenCity_Amministrazione_node
-        serialized_data_text:
-            always-available: ita-IT
-            ita-IT: ''
-    for_entity:
-        identifier: for_entity
-        serialized_description_list:
-            always-available: ita-IT
-            ita-IT: 'Puoi selezionare un ufficio, un''area, una organizzazione pubblica, un''organizzazione privata'
-            ger-DE: 'Sie können ein Amt, einen Bereich, eine öffentliche oder private Einrichtung auswählen'
-        serialized_name_list:
-            always-available: ita-IT
-            ita-IT: 'Ha un ruolo rispetto a:'
-            ger-DE: 'Übt eine Funktion aus in Bezug auf: '
-        data_type_string: ezobjectrelationlist
-        placement: 2
         is_searchable: 1
         is_required: 1
         can_translate: 1
@@ -55,11 +29,7 @@ data_map:
             selection_type: '1'
             type: '2'
             class_constraint_list:
-                - administrative_area
-                - private_organization
-                - public_organization
-                - political_body
-                - office
+                - public_person
             default_placement:
                 node_id: $contenttree_OpenCity_Amministrazione_node
         serialized_data_text:
@@ -69,13 +39,13 @@ data_map:
         identifier: role
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: ''
+            ita-IT: 'Inserisci la carica o incarico/ruolo che la persona ricopre o ha ricoperto.'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: Ruolo
             ger-DE: Funktion
+            ita-IT: Ruolo
         data_type_string: eztags
-        placement: 3
+        placement: 2
         is_searchable: 1
         is_required: 1
         can_translate: 1
@@ -86,19 +56,98 @@ data_map:
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
+    type:
+        identifier: type
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Tipo di incarico'
+        data_type_string: eztags
+        placement: 3
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        data_int1: 'tag(Persone / Tipi di incarichi)'
+        data_text1: Tree
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    for_entity:
+        identifier: for_entity
+        serialized_description_list:
+            always-available: ita-IT
+            ger-DE: 'Sie können ein Amt, einen Bereich, eine öffentliche oder private Einrichtung auswählen'
+            ita-IT: 'Seleziona l''organizzazione presso la quale la persona svolge l''incarico (ufficio, area, organo politico, organizzazione pubblica o privata)'
+        serialized_name_list:
+            always-available: ita-IT
+            ger-DE: 'Übt eine Funktion aus in Bezug auf: '
+            ita-IT: 'Unità organizzativa'
+        data_type_string: ezobjectrelationlist
+        placement: 4
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '1'
+            type: '2'
+            class_constraint_list:
+                - private_organization
+                - public_organization
+                - organization
+            default_placement:
+                node_id: $contenttree_OpenCity_Amministrazione_node
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    compensi:
+        identifier: compensi
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Solo per incarico politico: compensi di qualsiasi natura connessi all''assunzione della carica'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: Compensi
+        data_type_string: ezxmltext
+        placement: 5
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 10
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    importi:
+        identifier: importi
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Solo per incarico politico: importi di viaggi di servizio e missioni pagati con fondi pubblici'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Importi di viaggio e/o servizio'
+        data_type_string: ezxmltext
+        placement: 6
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 10
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
     start_time:
         identifier: start_time
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: 'Indica la data in cui inizia questo ruolo (es. incarico)'
             ger-DE: 'Zeigt das Datum an, an dem die Person diese Funktion übernimmt (z. B. Amtsantritt)'
+            ita-IT: 'Indica la data in cui inizia questo ruolo/incarico'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Data inizio incarico'
             ger-DE: Amtsantritt
+            ita-IT: 'Data inizio incarico'
         data_type_string: ezdate
-        placement: 4
+        placement: 7
         is_searchable: 1
+        is_required: 1
         can_translate: 1
         serialized_data_text:
             always-available: ita-IT
@@ -107,16 +156,54 @@ data_map:
         identifier: end_time
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: 'Indica la data in cui scade questo ruolo (es. incarico)'
             ger-DE: 'Zeigt das Datum an, an dem die Funktion dieser Person abläuft (z. B. Ende Amtszeit)'
+            ita-IT: 'Data in cui termina l''incarico o la carica'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Data conclusione incarico'
             ger-DE: 'Ende der Amtszeit'
+            ita-IT: 'Data conclusione incarico'
         data_type_string: ezdate
-        placement: 5
+        placement: 8
         is_searchable: 1
         can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    data_insediamento:
+        identifier: data_insediamento
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Solo per incarichi politici: specificare la data di insediamento'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Data insediamento'
+        data_type_string: ezdate
+        placement: 9
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    atto_nomina:
+        identifier: atto_nomina
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Atto di nomina'
+        data_type_string: ezobjectrelationlist
+        placement: 10
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - document
+            default_placement:
+                node_id: $contenttree_Documenti-e-dati_Documenti-albo-pretorio_node
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
@@ -124,14 +211,14 @@ data_map:
         identifier: competences
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: 'Indicare le competenze della persona, specificandone una per riga'
             ger-DE: 'Geben Sie die Kompetenzen der Person an, eine pro Zeile '
+            ita-IT: 'Indicare le competenze della persona, specificandone una per riga'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: Competenze
             ger-DE: Zuständigkeiten
+            ita-IT: Competenze
         data_type_string: ezmatrix
-        placement: 6
+        placement: 11
         is_searchable: 1
         can_translate: 1
         data_text5: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<ezmatrix><column-name id=\"competence\" idx=\"0\">Competenza</column-name></ezmatrix>\n"
@@ -142,14 +229,14 @@ data_map:
         identifier: delegations
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: 'Indicare le deleghe della persona, specificandone una per riga'
             ger-DE: 'Geben Sie die delegierten Aufgabenbereiche der Person an, eine pro Zeile '
+            ita-IT: 'Indicare le deleghe della persona, specificandone una per riga'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: Deleghe
             ger-DE: 'Delegierte Aufgabenbereiche'
+            ita-IT: Deleghe
         data_type_string: ezmatrix
-        placement: 7
+        placement: 12
         is_searchable: 1
         can_translate: 1
         data_text5: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<ezmatrix><column-name id=\"delega\" idx=\"0\">Delega</column-name></ezmatrix>\n"
@@ -163,10 +250,10 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Incarichi di posizione organizzativa'
             ger-DE: 'Aufträge mit Organisationsfunktionen'
+            ita-IT: 'Incarichi di posizione organizzativa'
         data_type_string: ezboolean
-        placement: 8
+        placement: 13
         is_searchable: 1
         can_translate: 1
         serialized_data_text:
@@ -179,10 +266,10 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Incarico dirigenziale'
             ger-DE: Führungsauftrag
+            ita-IT: 'Incarico dirigenziale'
         data_type_string: ezboolean
-        placement: 9
+        placement: 14
         is_searchable: 1
         can_translate: 1
         serialized_data_text:
@@ -192,14 +279,14 @@ data_map:
         identifier: ruolo_principale
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: 'Viene visualizzato in apertura'
             ger-DE: 'Wird am Anfang angezeigt'
+            ita-IT: 'Viene visualizzato in apertura'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Ruolo principale'
             ger-DE: Hauptfunktion
+            ita-IT: 'Ruolo principale'
         data_type_string: ezboolean
-        placement: 10
+        placement: 15
         is_searchable: 1
         can_translate: 1
         data_int3: 1
@@ -210,17 +297,32 @@ data_map:
         identifier: priorita
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: 'Numero maggiore indica maggiore priorità di visualizzazione (es: 1000 più importante, 1 meno importante)'
             ger-DE: 'Höhere Zahl bedeutet höhere Anzeigepriorität (z. B.: 1000 am wichtigsten, 1 weniger wichtig)'
+            ita-IT: 'Se la Persona pubblica ha più ruoli, puoi scegliere l''ordinamento con cui visualizzare l''elenco dei ruoli, specificando qui la priorità del ruolo che si sta inserendo. Un numero maggiore indica una maggiore priorità di visualizzazione (es: 1000 più importante, 1 meno importante)'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: Priorità
             ger-DE: Priorität
+            ita-IT: Priorità
         data_type_string: ezinteger
-        placement: 11
+        placement: 16
         is_searchable: 1
         can_translate: 1
-        data_int3: 0
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    notes:
+        identifier: notes
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Ulteriori informazioni relative all''incarico'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Ulteriori informazioni'
+        data_type_string: ezxmltext
+        placement: 17
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 10
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''

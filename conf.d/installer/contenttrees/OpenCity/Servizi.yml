@@ -1,24 +1,137 @@
 metadata:
-    remoteId: b04a731ca8cc79de8b7cf9f6c2f37705
+    remoteId: all-services
     classIdentifier: frontpage
     sectionIdentifier: standard
     languages:
         - ita-IT
+        - ger-DE
 data:
     ita-IT:
         name: Servizi
         short_name: null
-        menu_name: 'Tutti i servizi'
+        menu_name: 'Esplora per categoria'
         abstract: '<p>Pagamenti, domande e iscrizioni, contributi e graduatorie, segnalazioni, autorizzazioni e concessioni, certificati e dichiarazioni, servizi pubblici.</p>'
         description: ''
         image: {  }
         show_children: 1
+        layout:
+            zone_layout: desItaGlobal
+            global:
+                zone_id: 3799f33101dc057fc10d65fc3de262ae
+                blocks:
+                    -
+                        block_id: d04a178be64a6d3a1babfcc89a8b2277
+                        name: 'In evidenza'
+                        type: ListaAutomatica
+                        view: lista_card_teaser
+                        custom_attributes:
+                            limite: '3'
+                            elementi_per_riga: '3'
+                            includi_classi: public_service
+                            escludi_classi: ''
+                            ordinamento: name
+                            livello_profondita: ''
+                            state_id: ''
+                            topic_node_id: '157'
+                            tags: ''
+                            color_style: ''
+                            container_style: ''
+                            show_all_link: ''
+                            show_all_text: ''
+                            intro_text: ''
+                        valid_items: {  }
+                    -
+                        block_id: ed7c1e34c4dd89035a8157e6599376f8
+                        name: ' Esplora tutti i servizi'
+                        type: OpendataQueriedContents
+                        view: default
+                        custom_attributes:
+                            query: 'classes [public_service]'
+                            ignore_policy: '0'
+                            show_grid: '1'
+                            show_map: '1'
+                            show_search: '1'
+                            input_search_placeholder: 'Cerca per parola chiave'
+                            limit: '6'
+                            items_per_row: '2'
+                            facets: 'Argomenti:topics.name,Tipologia:type'
+                            view_api: card_teaser
+                            fields: ''
+                            simple_geo_api: '0'
+                            template: ''
+                            color_style: bg-100
+                            container_style: ''
+                            intro_text: ''
+                        valid_items: {  }
         icon: it-settings
         show_topics: 1
         show_search_form: 1
         tag_menu:
-            - 'Tipologia del servizio (TD)'
+            - 'Categoria del servizio'
         publish_date: null
+        show_tag_cards: 1
+    ger-DE:
+        name: Bürgerservice
+        short_name: null
+        menu_name: 'Entdecken Sie nach Kategorie'
+        abstract: '<p>Zahlungen, Anträge und Registrierungen, Zuweisungen und Rankings, Benachrichtigungen, Genehmigungen und Konzessionen, Zertifizierungen und Erklärungen, öffentliche Dienste.</p>'
+        description: ''
+        image: { }
+        show_children: 1
+        layout:
+            zone_layout: desItaGlobal
+            global:
+                zone_id: 3799f33101dc057fc10d65fc3de262ae
+                blocks:
+                    - block_id: d04a178be64a6d3a1babfcc89a8b2277
+                      name: ''
+                      type: ListaAutomatica
+                      view: lista_card_teaser
+                      custom_attributes:
+                          limite: '3'
+                          elementi_per_riga: '3'
+                          includi_classi: public_service
+                          escludi_classi: ''
+                          ordinamento: name
+                          livello_profondita: ''
+                          state_id: ''
+                          topic_node_id: '157'
+                          tags: ''
+                          color_style: ''
+                          container_style: ''
+                          show_all_link: ''
+                          show_all_text: ''
+                          intro_text: ''
+                      valid_items: { }
+                    - block_id: ed7c1e34c4dd89035a8157e6599376f8
+                      name: 'Entdecken Sie alle Services für Bürger'
+                      type: OpendataQueriedContents
+                      view: default
+                      custom_attributes:
+                          query: 'classes [public_service]'
+                          ignore_policy: '0'
+                          show_grid: '1'
+                          show_map: '1'
+                          show_search: '1'
+                          input_search_placeholder: 'Cerca per parola chiave'
+                          limit: '6'
+                          items_per_row: '2'
+                          facets: 'Argomenti:topics.name,Tipologia:type'
+                          view_api: card_teaser
+                          fields: ''
+                          simple_geo_api: '0'
+                          template: ''
+                          color_style: bg-100
+                          container_style: ''
+                          intro_text: ''
+                      valid_items: { }
+        icon: it-settings
+        show_topics: 1
+        show_search_form: 1
+        tag_menu:
+            - 'Categoria del servizio'
+        publish_date: null
+        show_tag_cards: 1
 sort_data:
     sort_field: 8
     sort_order: 1

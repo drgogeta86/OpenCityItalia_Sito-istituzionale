@@ -3,145 +3,107 @@ attribute_group:
         '*': 'A chi si rivolge'
         applicants: '1'
         audience: '1'
-        has_spatial_coverage: '1'
     accedere_al_servizio:
         '*': 'Accedere al servizio'
-        has_authentication_method: '1'
-        has_channel: '1'
-        how_to: '1'
-        produces_output: '1'
-        is_physically_available_at: '1'
-        on_line_booking: '1'
-    casi_particolari:
-        '*': 'Casi particolari'
         exceptions: '1'
+        has_channel: '1'
+        is_physically_available_at: '1'
+    come_fare:
+        '*': 'Come fare'
+        how_to: '1'
+    condizioni_di_servizio:
+        '*': 'Condizioni di servizio'
+        output_notes: '1'
     contatti:
         '*': Contatti
         has_online_contact_point: '1'
-        holds_role_in_time_area: '1'
-        holds_role_in_time_ufficio: '1'
+        holds_role_in_time: '1'
     cos_e:
         '*': 'Cos''è'
         description: '1'
+        has_spatial_coverage: '1'
     cosa_serve:
         '*': 'Cosa serve'
         has_input: '1'
         has_module_input: '1'
+    cosa_si_ottiene:
+        '*': 'Cosa si ottiene'
+        produces_output: '1'
     costi_e_vincoli:
         '*': 'Costi e vincoli'
         conditions: '1'
         has_cost: '1'
-    documenti:
-        '*': Documenti
-        is_compliant_with_rule: '1'
     enabled:
         '*': '1'
-    'eng-GB::a_chi_si_rivolge':
-        '*': 'Who is it for?'
-    'eng-GB::accedere_al_servizio':
-        '*': 'Access the service'
-    'eng-GB::casi_particolari':
-        '*': 'Particular cases'
-    'eng-GB::contatti':
-        '*': Contacts
-    'eng-GB::cos_e':
-        '*': 'What is it?'
-    'eng-GB::cosa_serve':
-        '*': 'What is it for?'
-    'eng-GB::costi_e_vincoli':
-        '*': 'Costs and constraints'
-    'eng-GB::documenti':
-        '*': Documents
-    'eng-GB::siti_esterni':
-        '*': 'External websites'
-    'eng-GB::tempi_e_scadenze':
-        '*': 'Times and deadlines'
-    'eng-GB::ulteriori_informazioni':
-        '*': 'Further information'
-    'ger-DE::a_chi_si_rivolge':
-        '*': 'An wen sich diese Dienstleistung richtet'
-    'ger-DE::accedere_al_servizio':
-        '*': 'So geht''s'
-    'ger-DE::casi_particolari':
-        '*': Sonderfälle
-    'ger-DE::contatti':
-        '*': Kontakt
-    'ger-DE::cos_e':
-        '*': 'Was Sie wissen müssen  '
-    'ger-DE::cosa_serve':
-        '*': 'Diese Dokumente müssen Sie vorlegen'
-    'ger-DE::costi_e_vincoli':
-        '*': 'Kosten und Bedingungen'
-    'ger-DE::documenti':
-        '*': Dokumente
-    'ger-DE::siti_esterni':
-        '*': Websites
-    'ger-DE::tempi_e_scadenze':
-        '*': 'Fristen und Fälligkeiten'
-    'ger-DE::ulteriori_informazioni':
-        '*': 'Weitere Informationen'
+    'evidence::accedere_al_servizio':
+        '*': accedere_al_servizio
+    'hidden::ulteriori_informazioni':
+        '*': ulteriori_informazioni
     'ita-IT::a_chi_si_rivolge':
-        '*': 'A chi si rivolge'
+        '*': 'A chi è rivolto'
     'ita-IT::accedere_al_servizio':
-        '*': 'Accedere al servizio '
-    'ita-IT::casi_particolari':
-        '*': 'Casi particolari'
+        '*': 'Accedi al servizio'
+    'ita-IT::come_fare':
+        '*': 'Come fare'
+    'ita-IT::condizioni_di_servizio':
+        '*': 'Condizioni di servizio'
     'ita-IT::contatti':
         '*': Contatti
     'ita-IT::cos_e':
-        '*': 'Cos''è'
+        '*': Descrizione
     'ita-IT::cosa_serve':
         '*': 'Cosa serve'
+    'ita-IT::cosa_si_ottiene':
+        '*': 'Cosa si ottiene'
     'ita-IT::costi_e_vincoli':
-        '*': 'Costi e vincoli'
-    'ita-IT::documenti':
-        '*': Documenti
-    'ita-IT::siti_esterni':
-        '*': 'Siti esterni'
+        '*': Costi
     'ita-IT::tempi_e_scadenze':
         '*': 'Tempi e scadenze'
+    'ita-IT::tipologia_servizio':
+        '*': 'Tipologia servizio'
     'ita-IT::ulteriori_informazioni':
         '*': 'Ulteriori informazioni'
-    siti_esterni:
-        '*': 'Siti esterni'
-        link: '1'
     'sort::a_chi_si_rivolge':
-        '*': '2'
-    'sort::accedere_al_servizio':
-        '*': '3'
-    'sort::casi_particolari':
-        '*': '7'
-    'sort::contatti':
-        '*': '8'
-    'sort::cos_e':
         '*': '1'
+    'sort::accedere_al_servizio':
+        '*': '8'
+    'sort::come_fare':
+        '*': '3'
+    'sort::condizioni_di_servizio':
+        '*': '14'
+    'sort::contatti':
+        '*': '16'
+    'sort::cos_e':
+        '*': '2'
     'sort::cosa_serve':
         '*': '4'
-    'sort::costi_e_vincoli':
+    'sort::cosa_si_ottiene':
         '*': '5'
-    'sort::documenti':
-        '*': '9'
-    'sort::siti_esterni':
-        '*': '10'
+    'sort::costi_e_vincoli':
+        '*': '7'
     'sort::tempi_e_scadenze':
         '*': '6'
+    'sort::tipologia_servizio':
+        '*': '18'
     'sort::ulteriori_informazioni':
-        '*': '11'
+        '*': '17'
     tempi_e_scadenze:
         '*': 'Tempi e scadenze'
+        average_processing_time: '1'
         has_processing_time: '1'
         has_temporal_coverage: '1'
-        requires_service: '1'
-        average_processing_time: '1'
-        output_notes: '0'
+    tipologia_servizio:
+        identifier: '1'
+        other_service_code: '1'
+        topics: '1'
+        type: '1'
     ulteriori_informazioni:
         '*': 'Ulteriori informazioni'
         content_show_history: '1'
         content_show_modified: '1'
         help: '1'
-        relation_service: '1'
+        link: '1'
         news_and_updates: '1'
-        output_notes: '1'
 bootstrapitalia_icon:
     enabled:
         '*': '1'
@@ -155,17 +117,27 @@ card_small_view:
     show:
         abstract: '1'
         content_show_read_more: '1'
+        image: '1'
+easyontology:
+    easyontology:
+        '*': GovernmentService
+    enabled:
+        '*': '1'
 table_view:
+    collapse_label:
+        topics: '1'
+        type: '1'
     enabled:
         '*': '1'
     in_overview:
-        alternative_name: '1'
         abstract: '1'
+        alternative_name: '1'
     main_image:
         image: '1'
     show:
         applicants: '1'
         audience: '1'
+        average_processing_time: '1'
         conditions: '1'
         content_show_modified: '1'
         content_tree_related: '1'
@@ -181,45 +153,39 @@ table_view:
         has_spatial_coverage: '1'
         has_temporal_coverage: '1'
         help: '1'
-        holds_role_in_time_area: '1'
-        holds_role_in_time_ufficio: '1'
+        holds_role_in_time: '1'
         how_to: '1'
         is_compliant_with_rule: '1'
         is_physically_available_at: '1'
         link: '1'
+        news_and_updates: '1'
         on_line_booking: '1'
+        output_notes: '1'
         produces_output: '1'
         relation_service: '1'
         requires_service: '1'
         service_keyword: '1'
         service_theme: '1'
-        type: '1'
-        news_and_updates: '1'
-        average_processing_time: '1'
-        output_notes: '1'
+        topics: '1'
     show_label:
         applicants: '1'
+        exceptions: '1'
         has_authentication_method: '1'
-        has_channel: '0'
-        has_input: '1'
-        has_module_input: '1'
         has_spatial_coverage: '1'
-        produces_output: '1'
-        service_keyword: '1'
-        service_theme: '1'
-        type: '1'
         is_physically_available_at: '1'
+        link: '1'
         news_and_updates: '1'
         requires_service: '1'
-        output_notes: '1'
+        service_keyword: '1'
+        service_theme: '1'
+        topics: '1'
     show_link:
         has_channel: '1'
         has_online_contact_point: '1'
         has_temporal_coverage: '1'
         help: '1'
-        holds_role_in_time_area: '1'
-        holds_role_in_time_ufficio: '1'
+        holds_role_in_time: '1'
+        is_physically_available_at: '1'
         produces_output: '1'
         relation_service: '1'
         requires_service: '1'
-        is_physically_available_at: '1'

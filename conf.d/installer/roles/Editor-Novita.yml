@@ -7,29 +7,7 @@ policies:
         Limitation:
             Node:
                 - $contenttree_Novita_Avvisi_node
-            Class:
-                - $class_article
-    -
-        ModuleName: content
-        FunctionName: create
-        Limitation:
-            Node:
-                - $contenttree_Novita_Eventi_node
-            Class:
-                - $class_event
-    -
-        ModuleName: content
-        FunctionName: create
-        Limitation:
-            Node:
                 - $contenttree_Novita_Comunicati-stampa_node
-            Class:
-                - $class_article
-    -
-        ModuleName: content
-        FunctionName: create
-        Limitation:
-            Node:
                 - $contenttree_Novita_Notizie_node
             Class:
                 - $class_article
@@ -38,7 +16,7 @@ policies:
         FunctionName: create
         Limitation:
             Node:
-                - $contenttree_Amministrazione_Luoghi_node
+                - $contenttree_Vivere-il-comune_Luoghi_path_string
             Class:
                 - $class_place
     -
@@ -48,7 +26,7 @@ policies:
             Node:
                 - $contenttree_Amministrazione_Enti-e-fondazioni_node
             Class:
-                - $class_public_organization
+                - $class_organization
                 - $class_private_organization
     -
         ModuleName: content
@@ -56,15 +34,12 @@ policies:
         Limitation:
             Class:
                 - $class_article
-                - $class_event
     -
         ModuleName: state
         FunctionName: assign
         Limitation:
             Class:
                 - $class_article
-                - $class_event
-                - $class_homepage
                 - $class_place
     -
         ModuleName: content
@@ -72,6 +47,5 @@ policies:
         Limitation:
             Class:
                 - $class_article
-                - $class_event
                 - $class_banner
                 - $class_link
