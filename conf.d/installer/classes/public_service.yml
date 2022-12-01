@@ -879,8 +879,8 @@ data_map:
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
-    ife_event:
-        identifier: ife_event
+    life_event:
+        identifier: life_event
         serialized_description_list:
             always-available: ita-IT
             ger-DE: 'Verbindet den öffentlichen Dienst mit einem Lebensereignis einer Person oder eines Unternehmens'

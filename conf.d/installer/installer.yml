@@ -286,14 +286,12 @@ steps:
     identifier: Commissione
   - type: content
     identifier: PNRR-la-digitalizzazione-dei-servizi-comunali
-    update: 1
   - type: content
     identifier: Con-il-nuovo-sito-web-il-comune-e-sempre-piu-digitale
-    update: 1
   - type: content
     identifier: Kit-comuni
   - type: content
-    identifier: OpenCityitalia
+    identifier: Opencityitalia
   - type: content
     identifier: Architettura-e-contenuti
 
