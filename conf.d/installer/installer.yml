@@ -47,6 +47,18 @@ steps:
   - type: sql
     identifier: alter_contentobject_date_interger_type
 
+  - type: sql_copy_from_tsv
+    identifier: eztags
+    table: eztags
+    condition: $is_install_from_scratch
+  - type: sql_copy_from_tsv
+    identifier: eztags_keyword
+    table: eztags_keyword
+    condition: $is_install_from_scratch
+  - type: sql
+    identifier: check_eztags_sequence
+    condition: $is_install_from_scratch
+
   - type: states
     identifiers:
       - moderation
