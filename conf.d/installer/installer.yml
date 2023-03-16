@@ -47,6 +47,8 @@ variables:
     value: env(UPDATE_COMUNI)
   - name: do_lock
     value: false #wip
+  - name: reset
+    value: true #wip
 steps:
   - type: sql
     identifier: alter_contentobject_date_interger_type
@@ -136,7 +138,13 @@ steps:
     identifier: OpenCity
     parent: $root_node
     lock: $do_lock
-    update: true
+    reset:
+      - name
+      - abstract
+      - show_children
+      - layout
+      - tag_menu
+      - show_tag_cards
   - type: content
     identifier: Privacy
   - type: content
@@ -145,7 +153,13 @@ steps:
     identifier: Amministrazione
     parent: $contenttree_OpenCity_Amministrazione_node
     lock: $do_lock
-    update: true
+    reset:
+      - name
+      - abstract
+      - show_children
+      - layout
+      - tag_menu
+      - show_tag_cards
   - type: contenttree
     identifier: Privacy
     parent: $content_Privacy_node
@@ -153,21 +167,45 @@ steps:
     identifier: Novita
     parent: $contenttree_OpenCity_Novita_node
     lock: $do_lock
-    update: true
+    reset:
+      - name
+      - abstract
+      - show_children
+      - layout
+      - tag_menu
+      - show_tag_cards
   - type: contenttree
     identifier: Vivere-il-comune
     parent: $contenttree_OpenCity_Vivere-il-comune_node
     lock: $do_lock
-    update: true
+    reset:
+      - name
+      - abstract
+      - show_children
+      - layout
+      - tag_menu
+      - show_tag_cards
   - type: content
     identifier: Vivere-il-comune
     lock: $do_lock
-    update: true
+    reset:
+      - name
+      - abstract
+      - show_children
+      - layout
+      - tag_menu
+      - show_tag_cards
   - type: contenttree
     identifier: Documenti-e-dati
     parent: $contenttree_Amministrazione_Documenti-e-dati_node
     lock: $do_lock
-    update: true
+    reset:
+      - name
+      - abstract
+      - show_children
+      - layout
+      - tag_menu
+      - show_tag_cards
   - type: contenttree
     identifier: Classificazioni
     parent: $contenttree_OpenCity_Classificazioni_node
@@ -179,58 +217,100 @@ steps:
     identifier: Argomenti
     parent: $contenttree_OpenCity_Argomenti_node
     lock: $do_lock
+    reset:
+      - name
+      - eu
   - type: contenttree
     identifier: Argomenti-Agricoltura-silvicoltura-e
     parent: $contenttree_Argomenti_Agricoltura-silvicoltura-e-pesca_node
     lock: $do_lock
+    reset:
+      - name
+      - eu
   - type: contenttree
     identifier: Argomenti-Ambiente
     parent: $contenttree_Argomenti_Ambiente_node
     lock: $do_lock
+    reset:
+      - name
+      - eu
   - type: contenttree
     identifier: Argomenti-Demografia-e-popolazione
     parent: $contenttree_Argomenti_Demografia-e-popolazione_node
     lock: $do_lock
+    reset:
+      - name
+      - eu
   - type: contenttree
     identifier: Argomenti-Diritto
     parent: $contenttree_Argomenti_Diritto_node
     lock: $do_lock
+    reset:
+      - name
+      - eu
   - type: contenttree
     identifier: Argomenti-Economia
     parent: $contenttree_Argomenti_Economia_node
     lock: $do_lock
+    reset:
+      - name
+      - eu
   - type: contenttree
     identifier: Argomenti-Energia
     parent: $contenttree_Argomenti_Energia_node
     lock: $do_lock
+    reset:
+      - name
+      - eu
   - type: contenttree
     identifier: Argomenti-Innovazione
     parent: $contenttree_Argomenti_Innovazione_node
     lock: $do_lock
+    reset:
+      - name
+      - eu
   - type: contenttree
     identifier: Argomenti-Istruzione
     parent: $contenttree_Argomenti_Istruzione_node
     lock: $do_lock
+    reset:
+      - name
+      - eu
   - type: contenttree
     identifier: Argomenti-Pianificazione-del-territorio
     parent: $contenttree_Argomenti_Pianificazione-del-territorio_node
     lock: $do_lock
+    reset:
+      - name
+      - eu
   - type: contenttree
     identifier: Argomenti-Politica
     parent: $contenttree_Argomenti_Politica_node
     lock: $do_lock
+    reset:
+      - name
+      - eu
   - type: contenttree
     identifier: Argomenti-Questioni-sociali
     parent: $contenttree_Argomenti_Questioni-sociali_node
     lock: $do_lock
+    reset:
+      - name
+      - eu
   - type: contenttree
     identifier: Argomenti-Relazioni-internazionali
     parent: $contenttree_Argomenti_Relazioni-internazionali_node
     lock: $do_lock
+    reset:
+      - name
+      - eu
   - type: contenttree
     identifier: Argomenti-Tempo-libero
     parent: $contenttree_Argomenti_Tempo-libero_node
     lock: $do_lock
+    reset:
+      - name
+      - eu
   - type: contenttree
     identifier: Argomenti-Trasporto-pubblico
     parent: $contenttree_Argomenti_Trasporto-pubblico_node
@@ -346,7 +426,10 @@ steps:
     swap_with: $root_node
     remove_swapped: true
     lock: $do_lock
-    update: true
+    reset:
+      - page
+      - link_al_menu_orizzontale
+      - link_nel_footer
 
   - type: role
     identifier: Anonymous
