@@ -2,13 +2,14 @@ card_small_view:
     enabled:
         '*': '1'
     show:
+        abstract: '1'
         content_show_read_more: '1'
+        image: '1'
 table_view:
     enabled:
         '*': '1'
     in_overview:
         abstract: '1'
-        managed_by_political_body: '0'
     main_image:
         image: '1'
     show:

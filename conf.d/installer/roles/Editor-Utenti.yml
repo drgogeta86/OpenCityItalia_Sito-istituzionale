@@ -45,6 +45,8 @@ policies:
             Class:
                 - $class_user
                 - $class_pagina_sito
+            StateGroup_opencity_lock:
+                - $state_opencity_lock_not_locked
     -
         ModuleName: bootstrapitalia
         FunctionName: permissions
@@ -58,7 +60,7 @@ policies:
         FunctionName: create
         Limitation:
             Node:
-                - $contenttree_OpenCity_Privacy_node
+                - $content_Privacy_node
             Class:
                 - $class_pagina_sito
     -
@@ -66,18 +68,18 @@ policies:
         FunctionName: edit
         Limitation:
             Subtree:
-                - $contenttree_OpenCity_Privacy_path_string
+                - $content_Privacy_path_string
     -
         ModuleName: content
         FunctionName: edit
         Limitation:
             Node:
-                - $contenttree_OpenCity_Note-legali_node
+                - $content_Note-legali_node
     -
         ModuleName: content
         FunctionName: remove
         Limitation:
             Subtree:
-                - $contenttree_OpenCity_Privacy_path_string
+                - $content_Privacy_path_string
             Class:
                 - $class_pagina_sito

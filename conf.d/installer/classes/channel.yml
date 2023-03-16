@@ -39,7 +39,7 @@ data_map:
         data_type_string: eztags
         placement: 2
         is_searchable: 1
-        is_required: 1
+        is_required: 0
         can_translate: 1
         data_int1: 'tag(Servizi pubblici / Tipologia del canale del servizio)'
         data_int3: 1
@@ -61,6 +61,7 @@ data_map:
         data_type_string: ezxmltext
         placement: 3
         is_searchable: 1
+        is_required: 1
         can_translate: 1
         data_int1: 10
         serialized_data_text:
@@ -97,6 +98,7 @@ data_map:
         data_type_string: ezurl
         placement: 5
         can_translate: 1
+        is_required: 1
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
@@ -117,6 +119,7 @@ data_map:
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
+        category: hidden
     has_cost:
         identifier: has_cost
         serialized_description_list:

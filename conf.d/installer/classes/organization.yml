@@ -67,6 +67,23 @@ data_map:
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
+    abstract:
+        identifier: abstract
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Sintetica descrizione della struttura (si suggerisce inferiore ai 160 caratteri.'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Descrizione breve'
+        data_type_string: ezxmltext
+        placement: 4
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        data_int1: 5
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
     image:
         identifier: image
         serialized_description_list:
@@ -78,7 +95,7 @@ data_map:
             ger-DE: Bilder
             ita-IT: Immagini
         data_type_string: ezobjectrelationlist
-        placement: 4
+        placement: 5
         is_searchable: 1
         can_translate: 1
         data_text5:
@@ -89,23 +106,6 @@ data_map:
                 - image
             default_placement:
                 node_id: $content_Images_node
-        serialized_data_text:
-            always-available: ita-IT
-            ita-IT: ''
-    abstract:
-        identifier: abstract
-        serialized_description_list:
-            always-available: ita-IT
-            ita-IT: 'Sintetica descrizione della struttura (si suggerisce inferiore ai 160 caratteri.'
-        serialized_name_list:
-            always-available: ita-IT
-            ita-IT: 'Descrizione breve'
-        data_type_string: ezxmltext
-        placement: 5
-        is_searchable: 1
-        is_required: 1
-        can_translate: 1
-        data_int1: 5
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
@@ -125,29 +125,6 @@ data_map:
         can_translate: 1
         data_int1: 5
         serialized_data_text: {  }
-    type:
-        identifier: type
-        serialized_description_list:
-            always-available: ita-IT
-            ger-DE: 'Geben Sie die institutionelle Organisationsstruktur der Stadtverwaltung an'
-            ita-IT: 'Indicare la tipologia di struttura organizzativa. Scegli la più specifica possibile (es.: NON "Struttura amministrativa" ma "Area" o "Ufficio")'
-        serialized_name_list:
-            always-available: ita-IT
-            ger-DE: Organisationsaufbau
-            ita-IT: 'Tipo di organizzazione'
-        data_type_string: eztags
-        placement: 7
-        is_searchable: 1
-        is_required: 1
-        can_translate: 1
-        data_int1: 'tag(Organizzazione / Tipo di struttura organizzativa)'
-        data_int3: 1
-        data_int4: 2
-        data_text1: Tree
-        category: content
-        serialized_data_text:
-            always-available: ita-IT
-            ita-IT: ''
     hold_employment:
         identifier: hold_employment
         serialized_description_list:
@@ -159,7 +136,7 @@ data_map:
             ger-DE: 'Verbindungen mit anderen Strukturen'
             ita-IT: 'Unità organizzativa di livello superiore'
         data_type_string: ezobjectrelationlist
-        placement: 8
+        placement: 7
         is_searchable: 1
         can_translate: 1
         data_text5:
@@ -173,22 +150,6 @@ data_map:
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
-#    related_offices:
-#        identifier: related_offices
-#        serialized_description_list:
-#            always-available: ita-IT
-#            ita-IT: ''
-#        serialized_name_list:
-#            always-available: ita-IT
-#            ger-DE: Ämter
-#            ita-IT: 'Unità organizzative di livello inferiore'
-#        data_type_string: openpareverserelationlist
-#        placement: 9
-#        can_translate: 1
-#        data_text5: ''
-#        serialized_data_text:
-#            always-available: ita-IT
-#            ita-IT: ''
     office_manager:
         identifier: office_manager
         serialized_description_list:
@@ -200,10 +161,33 @@ data_map:
             ger-DE: Leitung
             ita-IT: Responsabile
         data_type_string: openparole
-        placement: 10
+        placement: 8
         can_translate: 1
         data_text5: '{"roletype_root_tag":"Persone\/Ruoli","select":2,"view":3,"filter":["Responsabile"],"sort":1}'
         category: details
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    type:
+        identifier: type
+        serialized_description_list:
+            always-available: ita-IT
+            ger-DE: 'Geben Sie die institutionelle Organisationsstruktur der Stadtverwaltung an'
+            ita-IT: 'Indicare la tipologia di struttura organizzativa. Scegli la più specifica possibile (es.: NON "Struttura amministrativa" ma "Area" o "Ufficio")'
+        serialized_name_list:
+            always-available: ita-IT
+            ger-DE: Organisationsaufbau
+            ita-IT: 'Tipo di organizzazione'
+        data_type_string: eztags
+        placement: 9
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        data_int1: 'tag(Organizzazione / Tipo di struttura organizzativa)'
+        data_int3: 1
+        data_int4: 2
+        data_text1: Tree
+        category: content
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
@@ -217,7 +201,7 @@ data_map:
             ger-DE: 'Zuständiger Stadtrat'
             ita-IT: 'Assessore di riferimento'
         data_type_string: openparole
-        placement: 11
+        placement: 10
         can_translate: 1
         data_text5: '{"roletype_root_tag":"Persone\/Ruoli","select":2,"view":3,"filter":["Assessore"],"sort":1}'
         category: details
@@ -235,30 +219,29 @@ data_map:
             ger-DE: 'Mitarbeiterinnen und Mitarbeiter'
             ita-IT: 'Persone che compongono la struttura'
         data_type_string: openparole
-        placement: 12
-        is_required: 0
+        placement: 11
         can_translate: 1
         data_text5: '{"roletype_root_tag":"Persone\/Ruoli","select":2,"view":3,"filter":[],"sort":3}'
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
-#    servizi_offerti:
-#        identifier: servizi_offerti
-#        serialized_description_list:
-#            always-available: ita-IT
-#            ita-IT: ''
-#        serialized_name_list:
-#            always-available: ita-IT
-#            ger-DE: 'Angebotene Dienste'
-#            ita-IT: 'Servizi offerti'
-#        data_type_string: openpareverserelationlist
-#        placement: 13
-#        can_translate: 1
-#        data_text5: ''
-#        category: details
-#        serialized_data_text:
-#            always-available: ita-IT
-#            ita-IT: ''
+    servizi_offerti:
+        identifier: servizi_offerti
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ger-DE: 'Angebotene Dienste'
+            ita-IT: 'Servizi offerti'
+        data_type_string: openpareverserelationlist
+        placement: 12
+        can_translate: 1
+        data_text5: ''
+        category: details
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
     has_spatial_coverage:
         identifier: has_spatial_coverage
         serialized_description_list:
@@ -269,7 +252,7 @@ data_map:
             ger-DE: Sitz/Adresse
             ita-IT: Sedi
         data_type_string: ezobjectrelationlist
-        placement: 14
+        placement: 13
         is_searchable: 1
         is_required: 1
         can_translate: 1
@@ -295,7 +278,7 @@ data_map:
             ger-DE: Kontaktstellen
             ita-IT: Contatti
         data_type_string: ezobjectrelationlist
-        placement: 15
+        placement: 14
         is_searchable: 1
         is_required: 1
         can_translate: 1
@@ -320,7 +303,7 @@ data_map:
             ger-DE: Anhänge
             ita-IT: Allegati
         data_type_string: ezobjectrelationlist
-        placement: 16
+        placement: 15
         is_searchable: 1
         can_translate: 1
         data_text5:
@@ -345,7 +328,7 @@ data_map:
             ger-DE: 'Weitere Informationen'
             ita-IT: 'Ulteriori informazioni'
         data_type_string: ezxmltext
-        placement: 17
+        placement: 16
         is_searchable: 1
         can_translate: 1
         data_int1: 5
@@ -363,7 +346,7 @@ data_map:
             ger-DE: 'Einheitliche interne Kennnummer'
             ita-IT: 'Identificatore univoco interno'
         data_type_string: ezstring
-        placement: 18
+        placement: 17
         is_searchable: 1
         can_translate: 1
         serialized_data_text:
@@ -379,9 +362,25 @@ data_map:
             ger-DE: 'Steuernummern elektronische Verrechnung'
             ita-IT: 'Codice fiscale servizio di fatturazione elettronica'
         data_type_string: ezstring
-        placement: 19
+        placement: 18
         is_searchable: 1
         can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    related_offices:
+        identifier: related_offices
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ger-DE: Ämter
+            ita-IT: 'Unità organizzative di livello inferiore'
+        data_type_string: openpareverserelationlist
+        placement: 19
+        can_translate: 1
+        data_text5: ''
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''

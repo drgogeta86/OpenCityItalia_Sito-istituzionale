@@ -371,7 +371,7 @@ data_map:
         data_type_string: openpareverserelationlist
         placement: 22
         can_translate: 1
-        data_text5: '{"attribute_id_list":[classattributeid(article/people)],"sort":"published","order":"desc","limit":4,"attribute_id_subtree":[]}'
+        data_text5: '{"attribute_id_list":[classattributeid_list(article/people)],"sort":"published","order":"desc","limit":4,"attribute_id_subtree":[]}'
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''

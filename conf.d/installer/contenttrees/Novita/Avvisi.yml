@@ -9,7 +9,7 @@ data:
         name: Avvisi
         short_name: null
         menu_name: null
-        abstract: ''
+        abstract: 'Bandi di gara, avvisi di concorso e tutte le opportunità per cittadini e imprese.'
         description: ''
         image: {  }
         show_children: 1

@@ -15,7 +15,7 @@ data:
         show_children: 0
         layout:
             zone_layout: desItaGlobal
-            right:
+            global:
                 zone_id: 0869d22e58a83d40997120e239c0748e
                 blocks:
                     -
@@ -24,7 +24,7 @@ data:
                         type: RicercaDocumenti
                         view: default
                         custom_attributes:
-                            root_tag: 'Documenti/Tipo di documento/Funzionamento interno'
+                            root_tag: 'Documenti/Tipo di documento/Documenti funzionamento interno'
                             hide_first_level: '0'
                             color_style: ''
                             container_style: ''

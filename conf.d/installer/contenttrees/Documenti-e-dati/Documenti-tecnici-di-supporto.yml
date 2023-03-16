@@ -6,7 +6,7 @@ metadata:
         - ita-IT
 data:
     ita-IT:
-        name: "Documenti (tecnici) di supporto\t"
+        name: "Documenti tecnici di supporto\t"
         short_name: null
         menu_name: null
         abstract: '<p>Qualunque documento, anche di natura tecnica, pubblicato dall''amministrazione (e.g., slide, pubblicazioni generiche, rapporti tecnici, documenti di progetto, linee guida diverse da quelle dell''articolo 71 del Codice dell''Amministrazione Digitale)</p>'

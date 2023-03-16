@@ -1,0 +1,26 @@
+metadata:
+    remoteId: f85de55bbafcd80eeed201a2d99d2351
+    classIdentifier: topic
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        name: 'Prima infanzia'
+        managed_by_area: {  }
+        managed_by_political_body: {  }
+        type: null
+        description: null
+        eu: 'http://eurovoc.europa.eu/2594'
+        theme: null
+        data_themes_eurovocs: {  }
+        image: {  }
+        abstract: '<p>Informazioni e servizi per la prima infanzia, come l''asilo nido</p>'
+        icon: null
+        layout: {  }
+        help: {  }
+        show_topic_children: 1
+sort_data:
+    sort_field: 1
+    sort_order: 1
+    priority: 0

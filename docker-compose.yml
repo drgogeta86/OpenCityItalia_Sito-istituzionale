@@ -2,8 +2,10 @@ version: '3.7'
 
 services:
 
-    php-nginx:
-        image: registry.gitlab.com/opencity-labs/sito-istituzionale/cms/php-nginx:latest
+    app:
+        #image: registry.gitlab.com/opencity-labs/sito-istituzionale/cms/app:latest
+        build:
+            context: .
         restart: unless-stopped
         depends_on:
             - minio
@@ -31,13 +33,11 @@ services:
             NO_FORCE_CONTAINER_REFRESH: 1
             RUN_INSTALLER: 'true'
             RUN_INSTALLER_TRASPARENZA: 'true'
-            RUN_INSTALLER_NEWSLETTER: 'true'
-            RUN_INSTALLER_DEMO: 'true'
-            RUN_INSTALLER_FAQ: 'true'
+            RUN_INSTALLER_NEWSLETTER: 'false'
             RUN_REINDEX_CONTENT: 'false'
 
             GOOGLE_CREDENTIAL_JSON_FILE: "/var/www/html/google_credentials.json"
-    
+
             #### Chiavi recaptcha
             RECAPTCHA_PUBLIC: 6LctC7oUAAAAAKHOT1O4ifUBJd-Wedt5F8NsisG7
             RECAPTCHA_PRIVATE: 6LctC7oUAAAAAN7nNSTwtCY3GP4rpq1AvvA6u7B4
@@ -60,7 +60,7 @@ services:
 
             #### Impostazioni varnish
             EZINI_site__HTTPHeaderSettings__CustomHeader: 'enabled' #enabled/disabled html varnish cache
-            EZINI_site__VarnishSettings__VarnishHostName: 'varnish' #vedi conf.d/varnish/default.vcl.tmpl#L9
+            EZINI_site__VarnishSettings__VarnishHostName: 'varnish' #vedi ./docker/varnish/default.vcl.tmpl#L9
             EZINI_site__VarnishSettings__VarnishPort: '6081'
 
             #### Impostazioni db
@@ -116,6 +116,7 @@ services:
             ## occorre configurare AWS_PROFILE oppure AWS_ACCESS_KEY_ID,AWS_SECRET_ACCESS_KEY,AWS_SESSION_TOKEN:
             AWS_ACCESS_KEY_ID: AKIAIOSFODNN7EXAMPLE
             AWS_SECRET_ACCESS_KEY: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+
 #        labels:
 #            traefik.enable: 'true'
 #            traefik.http.services.opencity-nginx.loadbalancer.server.port: 80
@@ -125,9 +126,8 @@ services:
 #            traefik.http.routers.opencity-nginx-http.rule: Host(`opencity.localtest.me`)
 #            traefik.http.routers.opencity-nginx-http.entrypoints: web
 
-
     varnish:
-        image: registry.gitlab.com/opencity-labs/sito-istituzionale/cms/varnish:latest
+        image: registry.gitlab.com/opencity-labs/sito-istituzionale/varnish:main
         restart: unless-stopped
         labels:
             traefik.enable: 'true'
@@ -140,26 +140,31 @@ services:
             traefik.http.routers.opencity-http.entrypoints: web
             traefik.http.middlewares.frame-allow-self.headers.customFrameOptionsValue: 'SAMEORIGIN'
         depends_on:
-            - php-nginx
+            - app
         environment:
             VARNISH_BACKEND_GRACE: 10m
-            VARNISH_BACKEND_HOST: php-nginx
+            VARNISH_BACKEND_HOST: app
             VARNISH_BACKEND_PORT: 80
             VARNISH_CACHE_STATIC_FILES: 1 #attivo ma non gestibile dal vcl iniettato
             VARNISH_DEFAULT_TTL: 300s
             VARNISH_ERRORS_GRACE: 60s
 
     solr:
-        image: registry.gitlab.com/opencity-labs/sito-istituzionale/cms/solr:latest
+        image: registry.gitlab.com/opencity-labs/sito-istituzionale/solr:main
         command: '-s /opt/ez'
         restart: unless-stopped
         volumes:
             - 'solrdata:/opt/ez/ezp-default/data'
         environment:
             EZ_INSTANCE: opencity
+        labels:
+            traefik.enable: 'true'
+            traefik.http.services.opencity-solr.loadbalancer.server.port: 8983
+            traefik.http.routers.opencity-solr-http.rule: Host(`solr-opencity.localtest.me`)
+            traefik.http.routers.opencity-solr-http.entrypoints: web
 
     postgres:
-        image: 'postgres:9.6-alpine'
+        image: 'postgres:10.21-alpine'
         restart: unless-stopped
         environment:
             POSTGRES_DB: opencity
@@ -167,6 +172,7 @@ services:
             POSTGRES_PASSWORD: openp4ssword
         volumes:
             - 'pgdata:/var/lib/postgresql/data'
+            - './docker/postgres:/docker-entrypoint-initdb.d'
         healthcheck:
             test: ["CMD-SHELL", "pg_isready --user openpa --dbname opencity"]
             interval: 10s
@@ -216,8 +222,8 @@ services:
             traefik.http.middlewares.goodheaders.headers.customresponseheaders.Cache-control: 'no-cache, private'
             traefik.http.middlewares.gotossl.redirectscheme.scheme: https
         volumes:
-            - ./conf.d/traefik/certs:/tools/certs
-            - ./conf.d/traefik/config.yml:/etc/traefik/dynamic_conf/conf.yml
+            - ./docker/traefik/certs:/tools/certs
+            - ./docker/traefik/config.yml:/etc/traefik/dynamic_conf/conf.yml
             - '/var/run/docker.sock:/var/run/docker.sock'
 
     mailhog:
@@ -274,7 +280,7 @@ services:
             /bin/sh -c "
             while ! /usr/bin/mc config host add minio http://minio:9000 AKIAIOSFODNN7EXAMPLE wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY; do echo 'Wait minio to startup...' && sleep 0.1; done;
             /usr/bin/mc mb minio/opencity-bucket;
-            /usr/bin/mc policy set public minio/opencity-bucket;            
+            /usr/bin/mc anonymous set public minio/opencity-bucket;            
             exit 0;
             "  
 

@@ -16,6 +16,6 @@ data:
     internal_location: {  }
     location: 'https://docs.google.com/spreadsheets/d/1D4KbaA__xO9x_iBm08KvZASjrrFLYLKX/edit?usp=sharing&ouid=109069620194773449819&rtpof=true&sd=true'
     background_color:
-      - primary-bg
+      - blue
     topics: {  }
 sort_data: null

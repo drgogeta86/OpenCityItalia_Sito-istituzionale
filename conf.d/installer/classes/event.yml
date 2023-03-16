@@ -516,9 +516,8 @@ data_map:
             type: '2'
             class_constraint_list:
                 - private_organization
-                - public_organization
-                - politico
-                - office
+                - organization
+                - public_person
             default_placement:
                 node_id: $contenttree_Amministrazione_Enti-e-fondazioni_node
         category: details
@@ -638,9 +637,8 @@ data_map:
             type: '2'
             class_constraint_list:
                 - private_organization
-                - public_organization
-                - politico
-                - office
+                - organization
+                - public_person
             default_placement:
                 node_id: $contenttree_OpenCity_Amministrazione_node
         category: altre_info

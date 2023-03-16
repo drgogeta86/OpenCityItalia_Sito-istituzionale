@@ -1,106 +1,168 @@
 attribute_group:
-    accedere_al_servizio:
-        '*': 'Accedere al servizio'
-        end_time: '1'
-        has_service: '1'
-        image: '1'
-        publication_start_time: '1'
-        related_public_services: '1'
     descrizione:
         '*': Descrizione
-        area: '1'
-        attachments: '1'
-        description: '1'
-        document_type: '1'
-        end_time: '1'
-        file: '1'
+        announcement_type: '1'
+        format: '1'
         full_description: '1'
+        gruppo_politico: '1'
         has_organization: '1'
-        images: '1'
+        image: '1'
         interroganti: '1'
-        link: '1'
+        license: '1'
         reference_doc: '1'
-        start_time: '1'
+        tipo_di_risposta: '1'
+    documenti:
+        '*': Documenti
+        attachments: '1'
+        file: '1'
+        link: '1'
     enabled:
         '*': '1'
-    'ger-DE::accedere_al_servizio':
-        '*': 'So geht''s'
-    'ger-DE::descrizione':
-        '*': Beschreibung
-    'ger-DE::tempi_e_scadenze':
-        '*': 'Fristen und Fälligkeiten'
-    'ger-DE::ulteriori_informazioni':
-        '*': 'Weitere Informationen'
-    'ita-IT::accedere_al_servizio':
-        '*': 'Accedere al servizio'
+    'evidence::documenti':
+        '*': documenti
     'ita-IT::descrizione':
         '*': Descrizione
+    'ita-IT::documenti':
+        '*': Documenti
     'ita-IT::tempi_e_scadenze':
-        '*': 'Tempi e scadenze'
+        '*': Date
     'ita-IT::ulteriori_informazioni':
         '*': 'Ulteriori informazioni'
-    'sort::accedere_al_servizio':
-        '*': '2'
+    'ita-PA::descrizione':
+        '*': ''
+    'ita-PA::documenti':
+        '*': ''
+    'ita-PA::tempi_e_scadenze':
+        '*': ''
+    'ita-PA::ulteriori_informazioni':
+        '*': ''
     'sort::descrizione':
         '*': '1'
+    'sort::documenti':
+        '*': '2'
     'sort::tempi_e_scadenze':
         '*': '3'
     'sort::ulteriori_informazioni':
         '*': '5'
     tempi_e_scadenze:
         '*': 'Tempi e scadenze'
-        area: '0'
+        data_consiglio: '1'
+        data_di_conclusione: '1'
+        data_di_firma: '1'
+        data_di_scadenza_delle_iscrizioni: '1'
+        data_giunta: '1'
+        data_invio_uffici: '1'
+        data_risposta_consigliere: '1'
         end_time: '1'
-        images: '0'
-        link: '0'
-        topics: '1'
+        expiration_time: '1'
+        giorni_adozione: '1'
+        giorni_interrogazione: '1'
+        publication_end_time: '1'
+        publication_start_time: '1'
+        start_time: '1'
     ulteriori_informazioni:
         '*': 'Ulteriori informazioni'
+        author: '1'
+        business_event: '1'
         content_show_history: '1'
         content_show_modified: '1'
-        has_organization: '0'
+        has_code: '1'
+        has_dataset: '1'
+        legal_notes: '1'
+        life_event: '1'
         other_information: '1'
-        reference_doc: '0'
+        reference_doc: '1'
+        related_public_services: '1'
 bootstrapitalia_icon:
     enabled:
         '*': '1'
     icon:
         '*': it-file
 card_small_view:
+    enabled:
+        '*': '1'
     show:
+        abstract: '1'
         content_show_read_more: '1'
-        description: '1'
 table_view:
     enabled:
         '*': '1'
     in_overview:
+        abstract: '1'
         content_show_published: '1'
-        description: '1'
-    main_image:
-        image: '1'
+        data_protocollazione: '1'
+        document_type: '1'
+        has_code: '1'
+        protocollo: '1'
     show:
-        area: '1'
+        announcement_type: '1'
         attachments: '1'
+        author: '1'
+        business_event: '1'
         content_show_modified: '1'
         content_show_published: '1'
-        content_tree_related: '1'
+        content_tree_related: '0'
+        data_consiglio: '1'
+        data_di_conclusione: '1'
+        data_di_firma: '1'
+        data_di_scadenza_delle_iscrizioni: '1'
+        data_giunta: '1'
+        data_invio_uffici: '1'
+        data_protocollazione: '1'
+        data_risposta_consigliere: '1'
         document_type: '1'
+        end_time: '1'
         file: '1'
+        format: '1'
         full_description: '1'
+        giorni_adozione: '1'
+        giorni_interrogazione: '1'
+        has_code: '1'
+        has_dataset: '1'
         has_organization: '1'
-        has_service: '1'
-        images: '1'
+        image: '1'
         interroganti: '1'
+        legal_notes: '1'
+        license: '1'
+        life_event: '1'
         link: '1'
         other_information: '1'
+        protocollo: '1'
+        publication_end_time: '1'
+        publication_start_time: '1'
         reference_doc: '1'
         related_public_services: '1'
+        start_time: '1'
     show_label:
-        area: '1'
+        announcement_type: '1'
+        author: '1'
+        business_event: '1'
+        data_consiglio: '1'
+        data_di_conclusione: '1'
+        data_di_firma: '1'
+        data_di_scadenza_delle_iscrizioni: '1'
+        data_giunta: '1'
+        data_invio_uffici: '1'
+        data_protocollazione: '1'
+        data_risposta_consigliere: '1'
         document_type: '1'
+        end_time: '1'
+        format: '1'
+        giorni_adozione: '1'
+        giorni_interrogazione: '1'
+        has_code: '1'
+        has_dataset: '1'
         has_organization: '1'
-        has_service: '1'
         interroganti: '1'
+        legal_notes: '1'
+        license: '1'
+        life_event: '1'
+        protocollo: '1'
+        publication_end_time: '1'
+        publication_start_time: '1'
+        related_public_services: '1'
+        start_time: '1'
     show_link:
-        area: '1'
+        has_dataset: '1'
         has_organization: '1'
+        image: '1'

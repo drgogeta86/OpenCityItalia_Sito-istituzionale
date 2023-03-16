@@ -1,0 +1,70 @@
+identifier: faq_group
+contentobject_name: '<name>'
+serialized_name_list:
+    always-available: ita-IT
+    ger-DE: FAQ-Gruppe
+    ita-IT: 'Lista di FAQ'
+serialized_description_list: {  }
+always_available: 1
+sort_field: 9
+is_container: 1
+data_map:
+    name:
+        identifier: name
+        serialized_description_list:
+            always-available: ita-IT
+        serialized_name_list:
+            always-available: ita-IT
+            ger-DE: Titel
+            ita-IT: Titolo
+        data_type_string: ezstring
+        placement: 1
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        data_int1: 255
+        serialized_data_text:
+            always-available: ita-IT
+    description:
+        identifier: description
+        serialized_description_list:
+            always-available: ita-IT
+        serialized_name_list:
+            always-available: ita-IT
+            ger-DE: Beschreibung
+            ita-IT: Descrizione
+        data_type_string: ezxmltext
+        placement: 2
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 20
+        serialized_data_text:
+            always-available: ita-IT
+    image:
+        identifier: image
+        serialized_description_list:
+            always-available: ita-IT
+            ger-DE: 'Bild zur Identifizierung des Dienstes'
+            ita-IT: 'Immagine identificativa del servizio'
+        serialized_name_list:
+            always-available: ita-IT
+            ger-DE: Bild
+            ita-IT: Immagine
+        data_type_string: ezobjectrelationlist
+        placement: 3
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - image
+            default_placement:
+                node_id: $content_Images_node
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+groups:
+    - Faq

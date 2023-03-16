@@ -16,7 +16,7 @@ data:
         theme: null
         data_themes_eurovocs: {  }
         image: {  }
-        abstract: ''
+        abstract: '<p>Iniziative di sensibilizzazione della popolazione, informazioni utili per il cittadino</p>'
         icon: null
         layout: {  }
         help: {  }

@@ -9,6 +9,21 @@ serialized_description_list:
     ger-DE: 'Zuständigkeiten/Funktion eines Mitabeiters oder eines Politikers in einem bestimmten Zeitintervall'
     ita-IT: 'Incarico o carica di un dipendente o di un politico all''interno di un Comune, associato ad un intervallo temporale determinato.'
 data_map:
+    label:
+        identifier: label
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Specificare il titolo dell''incarico (se non popolato il titolo verrà composto dal ruolo e della struttura)'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Titolo dell''incarico'
+        data_type_string: ezstring
+        placement: 1
+        is_searchable: 1
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
     person:
         identifier: person
         serialized_description_list:
@@ -20,7 +35,7 @@ data_map:
             ger-DE: 'Person, welche die Funktion oder Tätigkeit ausübt'
             ita-IT: 'Persona che ha il ruolo'
         data_type_string: ezobjectrelationlist
-        placement: 1
+        placement: 2
         is_searchable: 1
         is_required: 1
         can_translate: 1
@@ -45,7 +60,7 @@ data_map:
             ger-DE: Funktion
             ita-IT: Ruolo
         data_type_string: eztags
-        placement: 2
+        placement: 3
         is_searchable: 1
         is_required: 1
         can_translate: 1
@@ -65,7 +80,7 @@ data_map:
             always-available: ita-IT
             ita-IT: 'Tipo di incarico'
         data_type_string: eztags
-        placement: 3
+        placement: 4
         is_searchable: 1
         is_required: 1
         can_translate: 1
@@ -85,7 +100,7 @@ data_map:
             ger-DE: 'Übt eine Funktion aus in Bezug auf: '
             ita-IT: 'Unità organizzativa'
         data_type_string: ezobjectrelationlist
-        placement: 4
+        placement: 5
         is_searchable: 1
         is_required: 1
         can_translate: 1
@@ -95,7 +110,6 @@ data_map:
             type: '2'
             class_constraint_list:
                 - private_organization
-                - public_organization
                 - organization
             default_placement:
                 node_id: $contenttree_OpenCity_Amministrazione_node
@@ -111,7 +125,7 @@ data_map:
             always-available: ita-IT
             ita-IT: Compensi
         data_type_string: ezxmltext
-        placement: 5
+        placement: 6
         is_searchable: 1
         can_translate: 1
         data_int1: 10
@@ -127,7 +141,7 @@ data_map:
             always-available: ita-IT
             ita-IT: 'Importi di viaggio e/o servizio'
         data_type_string: ezxmltext
-        placement: 6
+        placement: 7
         is_searchable: 1
         can_translate: 1
         data_int1: 10
@@ -145,7 +159,7 @@ data_map:
             ger-DE: Amtsantritt
             ita-IT: 'Data inizio incarico'
         data_type_string: ezdate
-        placement: 7
+        placement: 8
         is_searchable: 1
         is_required: 1
         can_translate: 1
@@ -163,7 +177,7 @@ data_map:
             ger-DE: 'Ende der Amtszeit'
             ita-IT: 'Data conclusione incarico'
         data_type_string: ezdate
-        placement: 8
+        placement: 9
         is_searchable: 1
         can_translate: 1
         serialized_data_text:
@@ -178,7 +192,7 @@ data_map:
             always-available: ita-IT
             ita-IT: 'Data insediamento'
         data_type_string: ezdate
-        placement: 9
+        placement: 10
         is_searchable: 1
         can_translate: 1
         serialized_data_text:
@@ -193,7 +207,7 @@ data_map:
             always-available: ita-IT
             ita-IT: 'Atto di nomina'
         data_type_string: ezobjectrelationlist
-        placement: 10
+        placement: 11
         is_searchable: 1
         can_translate: 1
         data_text5:
@@ -218,7 +232,7 @@ data_map:
             ger-DE: Zuständigkeiten
             ita-IT: Competenze
         data_type_string: ezmatrix
-        placement: 11
+        placement: 12
         is_searchable: 1
         can_translate: 1
         data_text5: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<ezmatrix><column-name id=\"competence\" idx=\"0\">Competenza</column-name></ezmatrix>\n"
@@ -236,7 +250,7 @@ data_map:
             ger-DE: 'Delegierte Aufgabenbereiche'
             ita-IT: Deleghe
         data_type_string: ezmatrix
-        placement: 12
+        placement: 13
         is_searchable: 1
         can_translate: 1
         data_text5: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<ezmatrix><column-name id=\"delega\" idx=\"0\">Delega</column-name></ezmatrix>\n"
@@ -253,7 +267,7 @@ data_map:
             ger-DE: 'Aufträge mit Organisationsfunktionen'
             ita-IT: 'Incarichi di posizione organizzativa'
         data_type_string: ezboolean
-        placement: 13
+        placement: 14
         is_searchable: 1
         can_translate: 1
         serialized_data_text:
@@ -269,7 +283,7 @@ data_map:
             ger-DE: Führungsauftrag
             ita-IT: 'Incarico dirigenziale'
         data_type_string: ezboolean
-        placement: 14
+        placement: 15
         is_searchable: 1
         can_translate: 1
         serialized_data_text:
@@ -286,7 +300,7 @@ data_map:
             ger-DE: Hauptfunktion
             ita-IT: 'Ruolo principale'
         data_type_string: ezboolean
-        placement: 15
+        placement: 16
         is_searchable: 1
         can_translate: 1
         data_int3: 1
@@ -304,7 +318,7 @@ data_map:
             ger-DE: Priorität
             ita-IT: Priorità
         data_type_string: ezinteger
-        placement: 16
+        placement: 17
         is_searchable: 1
         can_translate: 1
         serialized_data_text:
@@ -319,7 +333,7 @@ data_map:
             always-available: ita-IT
             ita-IT: 'Ulteriori informazioni'
         data_type_string: ezxmltext
-        placement: 17
+        placement: 18
         is_searchable: 1
         can_translate: 1
         data_int1: 10

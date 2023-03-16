@@ -1,0 +1,54 @@
+metadata:
+    remoteId: topic_1_scienza_e_tecnologia
+    classIdentifier: topic
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+        - ger-DE
+data:
+    ita-IT:
+        name: Innovazione
+        managed_by_area: {  }
+        managed_by_political_body: {  }
+        type: null
+        description: null
+        eu: 'http://eurovoc.europa.eu/143'
+        theme: null
+        data_themes_eurovocs:
+            - 'Scienza e tecnologia'
+        image:
+            -
+                id: 684
+                remoteId: 1979e4760cd53c0dd84f2e34210175e3
+                classIdentifier: image
+                class: image
+                languages:
+                    - ita-IT
+                name:
+                    ita-IT: Innovazione
+                link: read/684
+                mainNodeId: '653'
+        abstract: '<p>Tutto ciò che riguarda ricerca, innovazione, tecnologia, banda larga, informatica e dati e il mondo produttivo</p>'
+        icon: null
+        layout: {  }
+        help: {  }
+        show_topic_children: 1
+    ger-DE:
+        name: 'Wissenschaft und Technik'
+        managed_by_area: {  }
+        managed_by_political_body: {  }
+        type: null
+        description: null
+        eu: 'http://publications.europa.eu/resource/authority/data-theme/TECH'
+        theme: null
+        data_themes_eurovocs: {  }
+        image: {  }
+        abstract: ''
+        icon: null
+        layout: {  }
+        help: {  }
+        show_topic_children: 1
+sort_data:
+    sort_field: 9
+    sort_order: 1
+    priority: -18

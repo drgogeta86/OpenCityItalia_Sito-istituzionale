@@ -1,405 +1,395 @@
 parent_id,id,remote_id,path_string,keyword_it,keyword_de,keyword_pa,keyword_en,synonyms_it,synonyms_de,synonyms_pa,synonyms_en,description_it,description_de,description_en,hash
-0,586,a8af5a6c5a02d72698cb40753127e244,/586/,Organizzazione,,,,,,,,,,,7d70b980a6012fbfbb40cc8b5cc9a890
-586,10035,1c13f942dc00d970bc26a26cf2fcaa06,/586/10035/,"Legal status privato",,,,,,,,,,,36ba31e1b868c937f82276cc4c09869c
-10035,10036,2bd40d7d58117c372dceed619dcca1ec,/586/10035/10036/,"Altra forma di ente privato con personalità giuridica",,,,,,,,,,,253a12b4c89f3455874c652394708e76
-10035,10037,0d58ed52265f431a872923dcdc23bce6,/586/10035/10037/,"Altra forma di ente privato senza personalità giuridica",,,,,,,,,,,c109aed8453b6e5293299acb7f086f1f
-10035,10038,83b7a5df4cdb0b2e35290198ca916f5a,/586/10035/10038/,"Associazione non riconosciuta",,,,,,,,,,,77ac305b82791f87ade557748945aae7
-10035,10039,954f29e860ee648fdf1aecd03aa0150e,/586/10035/10039/,"Associazione o raggruppamento temporaneo di imprese",,,,,,,,,,,c5b73c7972c3c2ce19334bb801d9a8b1
-10035,10040,c5a5515a5c9ece7b76d6dccd12d37e4f,/586/10035/10040/,"Associazione riconosciuta",,,,,,,,,,,decfcf82a4da7dd016696aa7dc2735cd
-10035,10041,580be675949848af689738fa2286daea,/586/10035/10041/,"Azienda pubblica di servizi alle persone ai sensi del d.lgs n. 207/2001",,,,,,,,,,,1c0464def016ca41bbd47ef728d65933
-10035,10042,0286be0ebe79a7a35ddf0125574e879d,/586/10035/10042/,"Azienda speciale ai sensi del t.u. 267/2000",,,,,,,,,,,b134929c7cad31e12a837cd99116e5b9
-10035,10043,70757cbec78ea1067707976a25a3d061,/586/10035/10043/,Comitato,,,,,,,,,,,831fa35469ceb7ab63ce1dd99a51dd3f
-10035,10044,451149cea694357e1c393b9524d34f57,/586/10035/10044/,Condominio,,,,,,,,,,,2bbbab11bdeb522ef43df6411f7969b4
-10035,10045,5218d10378182c797cda3e5643268b96,/586/10035/10045/,"Consorzio di diritto privato",,,,,,,,,,,67290b6e8d81ea264277a77b3e39bdd7
-10035,10046,0526fe900fc769e19bbd75881211aace,/586/10035/10046/,"Ente ecclesiastico",,,,,,,,,,,f6cda6cb6a366f5a62b9834f7e073f52
-10035,10047,01710673eedf2dcb0e16495afdbb0dab,/586/10035/10047/,"Ente pubblico economico",,,,,,,,,,,1c40461bba28dadb796ec1ed532c62a5
-10035,10048,00abe219348fc08b3a118d87ec0f1bb0,/586/10035/10048/,"Fondazione bancaria",,,,,,,,,,,b619c61ab0e11b97219147e266dccbb1
-10035,10049,13600e6e4aaa9a7f5f50d28ca9423595,/586/10035/10049/,"Fondazione (esclusa fondazione bancaria)",,,,,,,,,,,f8837184d72aa251ed3e073df6b22bd8
-10035,10050,a9a738b65053348944bc84ef463d8136,/586/10035/10050/,"Gruppo europeo di interesse economico",,,,,,,,,,,4fdc0c00b3394829742e965dcb949c17
-10035,10051,5a5261427f0b81abcac9688e67130ceb,/586/10035/10051/,"Imprenditore individuale agricolo",,,,,,,,,,,19d005ed1b8c2535ad42c6240f359d62
-10035,10052,55da3212cf3a6d036cdde753cffbcb13,/586/10035/10052/,"Imprenditore individuale non agricolo",,,,,,,,,,,c61edd6252b478d972bc45947ac778f8
-10035,10053,67099b89940de995bc8f651ed948c40d,/586/10035/10053/,"Impresa o ente privato costituito all'estero non altrimenti classificabile che svolge una attività economica in Italia",,,,,,,,,,,246f32d4d39d21545d423c585379b5aa
-10035,10054,cdf5ad08b62eda33ed0f93c2d6660b45,/586/10035/10054/,"Lavoratore autonomo",,,,,,,,,,,99e8d62bc908d3213e2b2c80a93ee107
-10035,10055,23fbe31b6542f27d29700fd6c014dee5,/586/10035/10055/,"Libero professionista",,,,,,,,,,,b064e0356d86510ce97a4019f4365e59
-10035,10056,184314c9ed443b73637844917ffdb03f,/586/10035/10056/,"Società a responsabilità limitata",,,,,,,,,,,d7fecbd10e64e8c9863875521590d729
-10035,10057,6a854faa3c56d2587c847b54a84117b0,/586/10035/10057/,"Società a responsabilità limitata con un unico socio",,,,,,,,,,,981bffa682969d09ba4871e13de03fa4
-10035,10058,9a8ed6cd822f4b32d5082015ffdf79b1,/586/10035/10058/,"Società consortile",,,,,,,,,,,8fd1a82afcafae84143a9481c4adc25a
-10035,10059,37d8593f3c4819d93186e844e18b8698,/586/10035/10059/,"Società cooperativa a mutualità prevalente",,,,,,,,,,,d8a2865f89eae06c5dfd54cf22b2b96b
-10035,10060,727a865c5d188bd2d86c5f41b4932e8e,/586/10035/10060/,"Società cooperativa diversa",,,,,,,,,,,5ae7b7dbe388c92e20560e2c19e61c3d
-10035,10061,f7fa11d8e3f7aaa24a62b91bd8d0bbb9,/586/10035/10061/,"Società cooperativa sociale",,,,,,,,,,,5c2bb509b861ec04ae5b5593ba47fdaf
-10035,10062,c7efcdb8361104396dfc155c91221f25,/586/10035/10062/,"Società di fatto o irregolare / comunione ereditaria",,,,,,,,,,,f73df6fa28f2fb7c167550c953249efa
-10035,10063,165d3950b03f2ba204b5b3540e121ad4,/586/10035/10063/,"Società di mutua assicurazione",,,,,,,,,,,13f5fbd805f6af9ed7422cbb226d482a
-10035,10064,3193c7853df6594617d0ed5ec620d669,/586/10035/10064/,"Società di mutuo soccorso",,,,,,,,,,,b6bbeb34d91297b7c35892c73f3b0d43
-10035,10065,a4be31ac1da2171939e8fe1be052d690,/586/10035/10065/,"Società in accomandita per azioni",,,,,,,,,,,8982227d16c3dea4be61f7b4cc339e50
-10035,10066,e166f6191fa2152492cdfc180d232f41,/586/10035/10066/,"Società in accomandita semplice",,,,,,,,,,,696805f183196d14128a47fa57cb6349
-10035,10067,d8ad23c830f43593a282544ac43510c4,/586/10035/10067/,"Società in nome collettivo",,,,,,,,,,,795f3b83e866cf065dc687cce5077d45
-10035,10068,60912072a631df684a80f2fa2e0639a0,/586/10035/10068/,"Società per azioni",,,,,,,,,,,a6c3871e20c8e60afb2c39fd6bc90aed
-10035,10069,9a4a506f82767879f3f700c91b0d4ecb,/586/10035/10069/,"Società semplice",,,,,,,,,,,b8d71680b896914f112d04344df37803
-10035,10070,7b87020da827e0c6d1f01eabf518479b,/586/10035/10070/,"Studio associato e società di professionisti",,,,,,,,,,,f16ad5b9e7255a197b4c1aa947c546be
-586,10071,8cb7c2dbde95e4d1087ec2f3a629dbee,/586/10071/,"Tipo di organizzazione privata (ATECO)",,,,,,,,,,,38a4310d36b837b2ef47217175ce0d88
-10071,14095,"ateco-2007/ A",/586/10071/14095/,"agricoltura, silvicoltura e pesca - A",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ A",,,,,,,,,07aeb92f67805a44e5340633cd5ad8df
-14095,14096,"ateco-2007/ 01",/586/10071/14095/14096/,"coltivazioni agricole e produzione di prodotti animali, caccia e servizi connessi - 01",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 01",,,,,,,,,2eed5c49b20cb0630478904f235f6d96
-14095,14097,"ateco-2007/ 011",/586/10071/14095/14097/,"coltivazione di colture agricole non permanenti - 01.1",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 011",,,,,,,,,c411b59e93b384ae4bc4a9dd67f3ab3a
-14095,14098,"ateco-2007/ 012",/586/10071/14095/14098/,"coltivazione di colture permanenti - 01.2",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 012",,,,,,,,,1154ff13ac885a21a3c64493ce5c4733
-14095,14099,"ateco-2007/ 017",/586/10071/14095/14099/,"caccia, cattura di animali e servizi connessi - 01.7",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 017",,,,,,,,,801b153df0e0f9ba16b84868106ccb43
-14095,14100,"ateco-2007/ 02",/586/10071/14095/14100/,"silvicoltura ed utilizzo di aree forestali - 02",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 02",,,,,,,,,d2556da4441af85048a6ada2563c2cbd
-14095,14101,"ateco-2007/ 0210",/586/10071/14095/14101/,"silvicoltura ed altre attività forestali - 02.10",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 0210",,,,,,,,,b93fd3b0a2eb504a9a8359d0c777203a
-14095,14102,"ateco-2007/ 0220",/586/10071/14095/14102/,"utilizzo di aree forestali - 02.20",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 0220",,,,,,,,,6747ac81543d306777c42c581bfd0d19
-14095,14103,"ateco-2007/ 0230",/586/10071/14095/14103/,"raccolta di prodotti selvatici non legnosi - 02.30",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 0230",,,,,,,,,4fef58350590c514ccb524a5801aae52
-14095,14104,"ateco-2007/ 0240",/586/10071/14095/14104/,"servizi di supporto per la silvicoltura - 02.40",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 0240",,,,,,,,,591d8c46da71fb03bc43e159f3b1200e
-14095,14105,"ateco-2007/ 03",/586/10071/14095/14105/,"pesca e acquacoltura - 03",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 03",,,,,,,,,2a26b1fc490ee2f86f320299d6839bb8
-14095,14106,"ateco-2007/ 031",/586/10071/14095/14106/,"pesca - 03.1",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 031",,,,,,,,,98a39d384243eb2c3e42bc4bf90d8953
-14095,14107,"ateco-2007/ 032",/586/10071/14095/14107/,"acquacoltura - 03.2",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 032",,,,,,,,,e6486eecd9a565ba4bc5e4a20947462f
-10071,14108,"ateco-2007/ B",/586/10071/14108/,"estrazione di minerali da cave e miniere - B",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ B",,,,,,,,,82b5424ec12c4134f08de1610bde8f5d
-14108,14110,"ateco-2007/ 06",/586/10071/14108/14110/,"estrazione di petrolio greggio e di gas naturale - 06",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 06",,,,,,,,,3add75b44cbaa26c408dc8b71ac04b92
-14108,14111,"ateco-2007/ 07",/586/10071/14108/14111/,"estrazione di minerali metalliferi - 07",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 07",,,,,,,,,73e504b8332146b8ea4bf494705061ad
-14108,14112,"ateco-2007/ 08",/586/10071/14108/14112/,"altre attività di estrazione di minerali da cave e miniere - 08",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 08",,,,,,,,,ee816bf03f05d8bf3e4768a4e394896a
-14108,14113,"ateco-2007/ 081",/586/10071/14108/14113/,"estrazione di pietra, sabbia e argilla - 08.1",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 081",,,,,,,,,eca86523f3757d6a3ae9bf33d175f64b
-14108,14114,"ateco-2007/ 089",/586/10071/14108/14114/,"estrazione di minerali da cave e miniere n.c.a. - 08.9",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 089",,,,,,,,,6ebdf4c19400364f120f4ad80a656518
-14108,14115,"ateco-2007/ 09",/586/10071/14108/14115/,"attività dei servizi di supporto all'estrazione - 09",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 09",,,,,,,,,83bc3cd7c1b5230cc1d5de05fa46c416
-10071,14116,"ateco-2007/ C",/586/10071/14116/,"attività manifatturiere - C",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ C",,,,,,,,,0e1e2e2b83e374c05ee53ef572fabdd7
-14116,14117,"ateco-2007/ 10",/586/10071/14116/14117/,"industrie alimentari - 10",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 10",,,,,,,,,462afc4812c1ceec0126444ebbf47c68
-10071,14118,"ateco-2007/ D",/586/10071/14118/,"fornitura di energia elettrica, gas, vapore e aria condizionata - D",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ D",,,,,,,,,71ba2ceb1ee5e1fe50e3a9363b7feb3a
-14118,14119,ateco-2007/35,/586/10071/14118/14119/,"fornitura di energia elettrica, gas, vapore e aria condizionata - 35",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/35,,,,,,,,,cbc976a3ac7cfa02a4c30cb9a2ea74ca
-10071,14120,"ateco-2007/ E",/586/10071/14120/,"fornitura di acqua; reti fognarie, attività di gestione dei rifiuti e risanamento - E",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ E",,,,,,,,,23cb1ba3576b4f53de34a1724bfe7498
-14120,14121,"ateco-2007/ 3600",/586/10071/14120/14121/,"raccolta, trattamento e fornitura di acqua - 36.00",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 3600",,,,,,,,,02758b1188235079c5f703ec042ab5c9
-14120,14122,"ateco-2007/ 3700",/586/10071/14120/14122/,"gestione delle reti fognarie - 37.00",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 3700",,,,,,,,,ce61d4049757f62bf54aa887e1409def
-14120,14123,ateco-2007/38,/586/10071/14120/14123/,"attività di raccolta, trattamento e smaltimento dei rifiuti; recupero dei materiali - 38",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/38,,,,,,,,,0a193b9478808216d2be5b16a6e8a5db
-14120,14124,ateco-2007/381,/586/10071/14120/14124/,"raccolta dei rifiuti - 38.1",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/381,,,,,,,,,a6194b03289b67c605f1dcd3fa9e3dac
-14120,14125,ateco-2007/382,/586/10071/14120/14125/,"trattamento e smaltimento dei rifiuti - 38.2",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/382,,,,,,,,,f207d81db810936cb8f95a1d0d8f1194
-14120,14126,ateco-2007/383,/586/10071/14120/14126/,"recupero dei materiali - 38.3",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/383,,,,,,,,,06298454e37523b4c36b69713ed655b7
-14120,14127,ateco-2007/39,/586/10071/14120/14127/,"attività di risanamento e altri servizi di gestione dei rifiuti - 39",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/39,,,,,,,,,b6453863e4955629b4a3910266bf682c
-10071,14128,"ateco-2007/ F",/586/10071/14128/,"costruzioni - F",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ F",,,,,,,,,2df8e00887eba1ad5e8077c9a4c99457
-14128,14129,ateco-2007/41,/586/10071/14128/14129/,"costruzione di edifici - 41",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/41,,,,,,,,,deaa3bc0c86d358be078e1e184071627
-14128,14130,ateco-2007/42,/586/10071/14128/14130/,"ingegneria civile - 42",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/42,,,,,,,,,522c4c05a78964f907581bd5f526ffa6
-14128,14131,ateco-2007/421,/586/10071/14128/14131/,"costruzione di strade e ferrovie - 42.1",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/421,,,,,,,,,c4521725ca78eeb1842a4b04c524509c
-14128,14132,ateco-2007/422,/586/10071/14128/14132/,"costruzione di opere di pubblica utilità - 42.2",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/422,,,,,,,,,cd686b76c24d11ec3ffcc9d033b5985c
-14128,14133,ateco-2007/429,/586/10071/14128/14133/,"costruzione di altre opere di ingegneria civile - 42.9",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/429,,,,,,,,,45e2ab0751e7d87fb35b193c2fd6fd36
-14128,14134,ateco-2007/43,/586/10071/14128/14134/,"lavori di costruzione specializzati - 43",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/43,,,,,,,,,921f397cc14c733d6b80609679bf9355
-14128,14135,ateco-2007/431,/586/10071/14128/14135/,"demolizione e preparazione del cantiere edile - 43.1",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/431,,,,,,,,,2af5e400d631bbff8bf9c662947b72a9
-14128,14136,ateco-2007/432,/586/10071/14128/14136/,"installazione di impianti elettrici, idraulici ed altri lavori di costruzione e installazione - 43.2",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/432,,,,,,,,,e55a6742c92ace35558e7ba44096247c
-14128,14137,ateco-2007/433,/586/10071/14128/14137/,"completamento e finitura di edifici - 43.3",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/433,,,,,,,,,e52d4ae70f4e31b05377522bbc48a3d7
-14128,14138,ateco-2007/439,/586/10071/14128/14138/,"altri lavori specializzati di costruzione - 43.9",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/439,,,,,,,,,a273963f2aff996809415169802003ed
-10071,14139,"ateco-2007/ G",/586/10071/14139/,"commercio all'ingrosso e al dettaglio; riparazione di autoveicoli e motocicli - G",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ G",,,,,,,,,1ab072b79069b31fd73d6774d3b21a86
-10071,14140,"ateco-2007/ H",/586/10071/14140/,"trasporto e magazzinaggio - H",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ H",,,,,,,,,3cfd89e05fdd342bc894f3c73a1eadde
-14140,14141,ateco-2007/49,/586/10071/14140/14141/,"trasporto terrestre e trasporto mediante condotte - 49",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/49,,,,,,,,,ad0095a1645f5a50e2316c5588f180f3
-14140,14142,ateco-2007/491,/586/10071/14140/14142/,"trasporto ferroviario di passeggeri (interurbano) - 49.1",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/491,,,,,,,,,df22b5c3c5d7b728edebe93219e51e1a
-14140,14143,ateco-2007/492,/586/10071/14140/14143/,"trasporto ferroviario di merci - 49.2",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/492,,,,,,,,,21dd4ade807128a138e3e36057c27d08
-14140,14144,ateco-2007/493,/586/10071/14140/14144/,"altri trasporti terrestri di passeggeri - 49.3",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/493,,,,,,,,,2a09416ba7ae6259456a26dcbe63e5ff
-14140,14145,ateco-2007/494,/586/10071/14140/14145/,"trasporto di merci su strada e servizi di trasloco - 49.4",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/494,,,,,,,,,88e87bee1046d5537b25d088cf7cc31b
-14140,14146,ateco-2007/495,/586/10071/14140/14146/,"trasporto mediante condotte - 49.5",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/495,,,,,,,,,19cf93cc58972ed1b6bd09d61ab7da92
-14140,14147,"ateco-2007/ 50",/586/10071/14140/14147/,"trasporto marittimo e per vie d'acqua - 50",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 50",,,,,,,,,d4ac5b5536219efbe725ac3e7302abe0
-14140,14148,ateco-2007/51,/586/10071/14140/14148/,"trasporto aereo - 51",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/51,,,,,,,,,6052d62b7af954b59a88b8e59b4fa2dc
-14140,14149,ateco-2007/52,/586/10071/14140/14149/,"magazzinaggio e attività di supporto ai trasporti - 52",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/52,,,,,,,,,6bfd54f72764d9ebdd8001f698eb9475
-14140,14150,ateco-2007/53,/586/10071/14140/14150/,"servizi postali e attività di corriere - 53",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/53,,,,,,,,,2e9910477056e7452ab8e1d9ccc72110
-10071,14151,"ateco-2007/ I",/586/10071/14151/,"attività dei servizi di alloggio e di ristorazione - I",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ I",,,,,,,,,b2366b12d3533ee240e0cb1c01e81e00
-14151,14152,ateco-2007/55,/586/10071/14151/14152/,"alloggio - 55",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/55,,,,,,,,,67b5d20615acc4f87a3f43dc0765875f
-14151,14153,"ateco-2007/ 5510",/586/10071/14151/14153/,"alberghi e strutture simili - 55.10",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 5510",,,,,,,,,71154342bb06370480ca6eb76b56deb6
-14151,14154,"ateco-2007/ 5520",/586/10071/14151/14154/,"alloggi per vacanze e altre strutture per brevi soggiorni - 55.20",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 5520",,,,,,,,,cfe9614c81f8137b36e7eb0d027ce864
-14151,14155,"ateco-2007/ 5530",/586/10071/14151/14155/,"aree di campeggio e aree attrezzate per camper e roulotte - 55.30",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 5530",,,,,,,,,c3ca3f40b8774d99e9a1e732bad65686
-14151,14156,"ateco-2007/ 5590",/586/10071/14151/14156/,"altri alloggi - 55.90",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 5590",,,,,,,,,7ca5559d9290882f38478f64e18b9976
-14151,14157,ateco-2007/56,/586/10071/14151/14157/,"attività dei servizi di ristorazione - 56",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/56,,,,,,,,,f7ce2d3cb17c5f1ada91ba391afd626c
-14151,14158,"ateco-2007/ 5610",/586/10071/14151/14158/,"ristoranti e attività di ristorazione mobile - 56.10",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 5610",,,,,,,,,114910c0b99c7a975f203cfe43b90933
-14151,14159,"ateco-2007/ 561041",/586/10071/14151/14159/,"gelaterie e pasticcerie ambulanti - 56.10.41",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 561041",,,,,,,,,f204a26e996d8d3ef0aad669eb5a981f
-14151,14160,"ateco-2007/ 561042",/586/10071/14151/14160/,"ristorazione ambulante - 56.10.42",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 561042",,,,,,,,,cbe1994683aa5905da98d68192e5a8cc
-14151,14161,ateco-2007/562,/586/10071/14151/14161/,"fornitura di pasti preparati (catering) e altri servizi di ristorazione - 56.2",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/562,,,,,,,,,f48690292353bd6589ab4021f084cf55
-14151,14162,ateco-2007/5629,/586/10071/14151/14162/,"mense e catering continuativo su base contrattuale - 56.29",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/5629,,,,,,,,,4438c62711d50bda11b4744bbf2c7de6
-14151,14163,"ateco-2007/ 56291",/586/10071/14151/14163/,"mense - 56.29.1",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 56291",,,,,,,,,528835cc90e952e37a24fc24d3dce014
-14151,14164,ateco-2007/563,/586/10071/14151/14164/,"bar e altri esercizi simili senza cucina - 56.3",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/563,,,,,,,,,743885c1db993e45c04ebae17742d3a5
-10071,14165,"ateco-2007/ J",/586/10071/14165/,"servizi di informazione e comunicazione - J",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ J",,,,,,,,,6c52bdebf5c84be931aea7f8a4b87768
-14165,14166,ateco-2007/58,/586/10071/14165/14166/,"attività editoriali - 58",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/58,,,,,,,,,ab263954af83f7d9f27e2176f7f06335
-14165,14167,ateco-2007/59,/586/10071/14165/14167/,"attività di produzione cinematografica, di video e di programmi televisivi, di registrazioni musicali e sonore - 59",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/59,,,,,,,,,30f62af2e9e98d118e1e3c3161b32b9f
-14165,14168,"ateco-2007/ 60",/586/10071/14165/14168/,"attività di programmazione e trasmissione - 60",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 60",,,,,,,,,66651b60b9886e00d64859740a14a318
-14165,14169,ateco-2007/61,/586/10071/14165/14169/,"telecomunicazioni - 61",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/61,,,,,,,,,a1abd330b52ed1e7427a22dba99edf17
-14165,14170,ateco-2007/62,/586/10071/14165/14170/,"produzione di software, consulenza informatica e attività connesse - 62",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/62,,,,,,,,,5786aa23e8278c28af1cc006c3cb73d0
-14165,14171,ateco-2007/63,/586/10071/14165/14171/,"attività dei servizi d'informazione e altri servizi informatici - 63",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/63,,,,,,,,,5f706835d3a5cd9e4bfd8384205faf21
-10071,14172,"ateco-2007/ L",/586/10071/14172/,"attività immobiliari - L",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ L",,,,,,,,,9cfed6db9089e211ad037ed9d14ec0e7
-14172,14173,ateco-2007/68,/586/10071/14172/14173/,"attività immobiliari - 68",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/68,,,,,,,,,faf1a688c9614087909d8c2bdad68ae6
-14172,14174,"ateco-2007/ 6810",/586/10071/14172/14174/,"compravendita di beni immobili effettuata su beni propri - 68.10",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 6810",,,,,,,,,c270691b4c01dcce169e9d18b12f81ee
-14172,14175,ateco-2007/682,/586/10071/14172/14175/,"affitto e gestione di immobili di proprietà o in leasing - 68.2",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/682,,,,,,,,,14fd3b38bdd005da2b7a83290e96b951
-14172,14176,ateco-2007/683,/586/10071/14172/14176/,"attività immobiliari per conto terzi - 68.3",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/683,,,,,,,,,79b9e067b1b930118891b18f6f0b1347
-10071,14177,"ateco-2007/ M",/586/10071/14177/,"attività professionali, scientifiche e tecniche - M",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ M",,,,,,,,,aa2234f927608508bf78d817463071ab
-14177,14178,ateco-2007/69,/586/10071/14177/14178/,"attività legali e contabilità - 69",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/69,,,,,,,,,b6041e6497bfcd4b2229cecf24e042d2
-14177,14179,"ateco-2007/ 6920",/586/10071/14177/14179/,"contabilità, controllo e revisione contabile, consulenza in materia fiscale e del lavoro - 69.20",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 6920",,,,,,,,,d8569ea1ce9e9b4474d748c8621e8674
-14177,14180,ateco-2007/71,/586/10071/14177/14180/,"attività degli studi di architettura e d'ingegneria; collaudi ed analisi tecniche - 71",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/71,,,,,,,,,0c9603efd0e603c32ed59377f857739c
-14177,14181,ateco-2007/711,/586/10071/14177/14181/,"attività degli studi di architettura, ingegneria ed altri studi tecnici - 71.1",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/711,,,,,,,,,fe69a0c8e247775ca260755a88522a73
-14177,14182,ateco-2007/712,/586/10071/14177/14182/,"collaudi ed analisi tecniche - 71.2",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/712,,,,,,,,,cc8f15ec2635e5ccfd3b995174c56df1
-10071,14183,"ateco-2007/ N",/586/10071/14183/,"noleggio, agenzie di viaggio, servizi di supporto alle imprese - N",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ N",,,,,,,,,a5c258ebcd6e6fd00c0087bf497ddd71
-14183,14184,ateco-2007/77,/586/10071/14183/14184/,"attività di noleggio e leasing operativo - 77",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/77,,,,,,,,,c38270e5f7ae197be616bd94670293d8
-14183,14185,ateco-2007/771,/586/10071/14183/14185/,"noleggio di autoveicoli - 77.1",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/771,,,,,,,,,42d7ae14f6e4202bbc7905be2379d6c3
-14183,14186,ateco-2007/772,/586/10071/14183/14186/,"noleggio di beni per uso personale e per la casa - 77.2",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/772,,,,,,,,,3343bdec2c01bf7c1db60a4711afaad4
-14183,14187,ateco-2007/773,/586/10071/14183/14187/,"noleggio di altre macchine, attrezzature e beni materiali - 77.3",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/773,,,,,,,,,9daa8033e27e1c66cfe8fe41e54f7636
-14183,14188,ateco-2007/774,/586/10071/14183/14188/,"concessione dei diritti di sfruttamento di proprietà intellettuale e prodotti simili (escluse le opere protette dal copyright) - 77.4",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/774,,,,,,,,,8b03950d8b645c6f2f3c51c89dde660d
-14183,14189,ateco-2007/78,/586/10071/14183/14189/,"attività di ricerca, selezione, fornitura di personale - 78",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/78,,,,,,,,,704c9e53c04781161dcc787b235b857b
-14183,14190,ateco-2007/81,/586/10071/14183/14190/,"attività di servizi per edifici e paesaggio - 81",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/81,,,,,,,,,92321d322ec9ac7143e0fcc5a3fa902d
-14183,14191,ateco-2007/811,/586/10071/14183/14191/,"servizi integrati di gestione agli edifici - 81.1",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/811,,,,,,,,,c6c075106ad28f6e0e69e738e33525bc
-14183,14192,ateco-2007/812,/586/10071/14183/14192/,"attività di pulizia e disinfestazione - 81.2",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/812,,,,,,,,,bcad30d761953a9c0bfa9d46beda18b5
-14183,14193,ateco-2007/813,/586/10071/14183/14193/,"cura e manutenzione del paesaggio - 81.3",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/813,,,,,,,,,8b6e5b60e784381381e12bdb4bf0df9e
-14183,14194,ateco-2007/823,/586/10071/14183/14194/,"organizzazione di convegni e fiere - 82.3",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/823,,,,,,,,,e0b5d6c990b98b0541fefe3831497945
-10071,14195,"ateco-2007/ O",/586/10071/14195/,"amministrazione pubblica e difesa; assicurazione sociale obbligatoria - O",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ O",,,,,,,,,b9fdb880a2dfc887d2efaec1e96e03e0
-14195,14196,ateco-2007/84,/586/10071/14195/14196/,"amministrazione pubblica e difesa; assicurazione sociale obbligatoria - 84",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/84,,,,,,,,,47ec6bc00fee7fc02b7eaddb01e93446
-14195,14197,ateco-2007/841,/586/10071/14195/14197/,"amministrazione pubblica: amministrazione generale, economica e sociale - 84.1",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/841,,,,,,,,,f16182518cadf809c29e25bc2d438dc0
-14195,14198,ateco-2007/8411,/586/10071/14195/14198/,"attività generali di amministrazione pubblica - 84.11",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/8411,,,,,,,,,429044c5b640e549f79570562b47e010
-14195,14199,"ateco-2007/ 84111",/586/10071/14195/14199/,"attività degli organi legislativi ed esecutivi, centrali e locali; amministrazione finanziaria; amministrazioni regionali, provinciali e comunali - 84.11.1",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 84111",,,,,,,,,171b88b5e1348f9fb1f53e6e99cad028
-14195,14200,"ateco-2007/ 84112",/586/10071/14195/14200/,"attività di pianificazione generale e servizi statistici generali - 84.11.2",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 84112",,,,,,,,,8d62e7cdb5cd51c5002668e3832891ce
-14195,14201,ateco-2007/8412,/586/10071/14195/14201/,"regolamentazione delle attività relative alla fornitura di servizi di assistenza sanitaria, dell'istruzione, di servizi culturali e ad altri servizi sociali (esclusa l'assicurazione sociale obbligatoria) - 84.12",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/8412,,,,,,,,,79c78fde7178231049e6baf695b0db39
-14195,14202,"ateco-2007/ 84121",/586/10071/14195/14202/,"regolamentazione dell'attività degli organismi preposti alla sanità - 84.12.1",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 84121",,,,,,,,,2aeaed006d1de29e334926d9bf542fad
-14195,14203,"ateco-2007/ 84122",/586/10071/14195/14203/,"regolamentazione dell'attività degli organismi preposti all'istruzione - 84.12.2",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 84122",,,,,,,,,c16b2bb43461d9c6d0f2856218e98be8
-14195,14204,"ateco-2007/ 84123",/586/10071/14195/14204/,"regolamentazione dell'attività degli organismi preposti alla gestione di progetti per l'edilizia abitativa e l'assetto del territorio e per la tutela dell'ambiente - 84.12.3",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 84123",,,,,,,,,cfb9103283745812071f811b78719eeb
-14195,14205,"ateco-2007/ 84124",/586/10071/14195/14205/,"regolamentazione dell'attività degli organismi preposti ai servizi ricreativi, culturali e sociali vari - 84.12.4",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 84124",,,,,,,,,29178a85545add4723378ace17bae85f
-14195,14206,ateco-2007/8413,/586/10071/14195/14206/,"regolamentazione delle attività che contribuiscono ad una più efficiente gestione delle attività economiche - 84.13",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/8413,,,,,,,,,17721237cc5398bec6d7b6814c33be4a
-14195,14207,"ateco-2007/ 84131",/586/10071/14195/14207/,"regolamentazione degli affari concernenti i combustibili e l'energia - 84.13.1",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 84131",,,,,,,,,1ad5a51916ab24133846c80472b257d9
-14195,14208,"ateco-2007/ 84132",/586/10071/14195/14208/,"regolamentazione degli affari e servizi concernenti l'agricoltura, silvicoltura, caccia e pesca - 84.13.2",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 84132",,,,,,,,,02258018530d77c650bc39bfff7317f0
-14195,14210,"ateco-2007/ 84134",/586/10071/14195/14210/,"regolamentazione degli affari e servizi concernenti la costruzione di strade - 84.13.4",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 84134",,,,,,,,,2cd4f42e5039f91b5ee119158020fab3
-14195,14211,"ateco-2007/ 84135",/586/10071/14195/14211/,"regolamentazione degli affari e servizi concernenti la costruzione di opere per la navigazione interna e marittima - 84.13.5",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 84135",,,,,,,,,474d70e1f41c1775f7f524030df2d373
-14195,14212,"ateco-2007/ 84136",/586/10071/14195/14212/,"regolamentazione degli affari e servizi concernenti i trasporti e le comunicazioni - 84.13.6",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 84136",,,,,,,,,f55dbf2a2f0418d52ae420162442c2e4
-14195,14213,"ateco-2007/ 84137",/586/10071/14195/14213/,"regolamentazione degli affari e servizi concernenti il commercio interno - 84.13.7",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 84137",,,,,,,,,4cee316f5517c8029d70a5de97aa8cb2
-14195,14214,"ateco-2007/ 84138",/586/10071/14195/14214/,"regolamentazione degli affari e servizi concernenti il turismo - 84.13.8",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 84138",,,,,,,,,81f8d706bdf36af0ae31dbfd8b90b41a
-14195,14215,"ateco-2007/ 84139",/586/10071/14195/14215/,"regolamentazione di altri affari e servizi economici - 84.13.9",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 84139",,,,,,,,,0c8494d6df198a536789318fc965e4c5
-14195,14216,ateco-2007/8423,/586/10071/14195/14216/,"giustizia ed attività giudiziarie - 84.23",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/8423,,,,,,,,,f92cd90e2088f83d75a4e6007c70045c
-14195,14217,ateco-2007/8424,/586/10071/14195/14217/,"ordine pubblico e sicurezza nazionale - 84.24",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/8424,,,,,,,,,7aeaf55b6cdcdb6b318115c62b958066
-10071,14218,"ateco-2007/ P",/586/10071/14218/,"istruzione - P",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ P",,,,,,,,,89d0a2500cc3702ec7eea54c0072e348
-14218,14219,ateco-2007/85,/586/10071/14218/14219/,"istruzione - 85",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/85,,,,,,,,,8896e91667fcaf2547231990f3f31ea2
-14218,14220,ateco-2007/851,/586/10071/14218/14220/,"istruzione prescolastica - 85.1",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/851,,,,,,,,,0d44fac63e63e2dc2eb0093fc4bbaa6e
-14218,14221,ateco-2007/852,/586/10071/14218/14221/,"istruzione primaria - 85.2",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/852,,,,,,,,,1dc7e71fb6504b1493bb6db23affd2a8
-14218,14222,ateco-2007/853,/586/10071/14218/14222/,"istruzione secondaria - 85.3",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/853,,,,,,,,,ffb14ee39f786569942cbd4df60be742
-10071,14223,"ateco-2007/ Q",/586/10071/14223/,"sanità e assistenza sociale - Q",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ Q",,,,,,,,,e8562935bdcc7c78f89c1c25dec01d2c
-14223,14224,ateco-2007/86,/586/10071/14223/14224/,"assistenza sanitaria - 86",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/86,,,,,,,,,b6039de7409aba671582810fe420a5b7
-14223,14225,ateco-2007/87,/586/10071/14223/14225/,"servizi di assistenza sociale residenziale - 87",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/87,,,,,,,,,ca6dcafa38f02eb545ab728f0e38cbec
-14223,14226,"ateco-2007/ 8710",/586/10071/14223/14226/,"strutture di assistenza infermieristica residenziale - 87.10",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 8710",,,,,,,,,3bae0f5dc54e23e417de678835232b95
-14223,14227,"ateco-2007/ 8720",/586/10071/14223/14227/,"strutture di assistenza residenziale per persone affette da ritardi mentali, disturbi mentali o che abusano di sostanze stupefacenti - 87.20",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 8720",,,,,,,,,a13e95ff0d183e7e31e90137bb04b9b5
-14223,14228,"ateco-2007/ 8730",/586/10071/14223/14228/,"strutture di assistenza residenziale per anziani e disabili - 87.30",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 8730",,,,,,,,,fd99bb9d50e20ff2a8ca52da07117a2a
-14223,14229,"ateco-2007/ 8790",/586/10071/14223/14229/,"altre strutture di assistenza sociale residenziale - 87.90",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 8790",,,,,,,,,b31db5d5417b2ace0e51aa5b4b52e486
-14223,14230,ateco-2007/88,/586/10071/14223/14230/,"assistenza sociale non residenziale - 88",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/88,,,,,,,,,b0e0caed3ef728cb4659467170320ec9
-14223,14231,"ateco-2007/ 8810",/586/10071/14223/14231/,"assistenza sociale non residenziale per anziani e disabili - 88.10",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 8810",,,,,,,,,25ebad88f8d855cc9ab0f4ae62c0a5e6
-14223,14232,ateco-2007/8891,/586/10071/14223/14232/,"servizi di asili nido; assistenza diurna per minori disabili - 88.91",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/8891,,,,,,,,,0e3a5b5e781512db65618282c5d4809a
-14223,14233,ateco-2007/8899,/586/10071/14223/14233/,"altre attività di assistenza sociale non residenziale n.c.a. - 88.99",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/8899,,,,,,,,,99171733e0c83f5cc7e37a584439ff4a
-10071,14234,"ateco-2007/ R",/586/10071/14234/,"attività artistiche, sportive, di intrattenimento e divertimento - R",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ R",,,,,,,,,874b20f7f3dd4bea70279e809009982a
-14234,14235,"ateco-2007/ 90",/586/10071/14234/14235/,"attività creative, artistiche e di intrattenimento - 90",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 90",,,,,,,,,adf61027ce3bcd5863d685bd35ddd473
-14234,14236,ateco-2007/91,/586/10071/14234/14236/,"attività di biblioteche, archivi, musei ed altre attività culturali - 91",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/91,,,,,,,,,a9d8deb5beb0f4320f0e474ea23cb327
-14234,14237,"ateco-2007/ 9101",/586/10071/14234/14237/,"attività di biblioteche ed archivi - 91.01",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 9101",,,,,,,,,51622c9576f72c999a56de53451cec6f
-14234,14238,"ateco-2007/ 9102",/586/10071/14234/14238/,"attività di musei - 91.02",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 9102",,,,,,,,,c0c02e3454e441dc9f0fd87b130e4535
-14234,14239,"ateco-2007/ 9103",/586/10071/14234/14239/,"gestione di luoghi e monumenti storici e attrazioni simili - 91.03",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 9103",,,,,,,,,a530a57bf76772f5a88b07270a3dd728
-14234,14240,"ateco-2007/ 9104",/586/10071/14234/14240/,"attività degli orti botanici, dei giardini zoologici e delle riserve naturali - 91.04",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 9104",,,,,,,,,3763a0f569f96ffe8c99bb843112f2d6
-14234,14241,ateco-2007/92,/586/10071/14234/14241/,"attività riguardanti le lotterie, le scommesse, le case da gioco - 92",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/92,,,,,,,,,d9e1bdb8f3a5735bc563ff8a895db3c8
-14234,14242,ateco-2007/93,/586/10071/14234/14242/,"attività sportive, di intrattenimento e di divertimento - 93",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/93,,,,,,,,,907bc9c82b08e7095cb47b0e2983dfe9
-14234,14243,ateco-2007/931,/586/10071/14234/14243/,"attività sportive - 93.1",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/931,,,,,,,,,c295e891e89dca730e34f7a9c024891c
-14234,14244,ateco-2007/9311,/586/10071/14234/14244/,"gestione di impianti sportivi - 93.11",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/9311,,,,,,,,,e67cac4ba477c5f210211583e015a69c
-14234,14245,ateco-2007/9312,/586/10071/14234/14245/,"attività di club sportivi - 93.12",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/9312,,,,,,,,,5ef190b1c4dcad64f00881b467c1142b
-14234,14246,ateco-2007/9313,/586/10071/14234/14246/,"palestre - 93.13",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/9313,,,,,,,,,fe523bc55b965871f90ff0e2132b66df
-14234,14247,ateco-2007/9319,/586/10071/14234/14247/,"altre attività sportive - 93.19",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/9319,,,,,,,,,80b855ae2876db1cf3b73011e4227478
-14234,14248,ateco-2007/932,/586/10071/14234/14248/,"attività ricreative e di divertimento - 93.2",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/932,,,,,,,,,8655797483c06f2580a2ad7a1bc5996e
-10071,14249,"ateco-2007/ S",/586/10071/14249/,"altre attività di servizi - S",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ S",,,,,,,,,38ab8bf8249b95a5b17e6e7cd54baa82
-14249,14250,ateco-2007/94,/586/10071/14249/14250/,"attività di organizzazioni associative - 94",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/94,,,,,,,,,4508a2f91256316b19ddcfbbf39bdf13
-14249,14251,ateco-2007/9411,/586/10071/14249/14251/,"attività di organizzazioni economiche e di datori di lavoro - 94.11",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/9411,,,,,,,,,3274ef0b1639940011d98be510c4590b
-14249,14252,ateco-2007/9412,/586/10071/14249/14252/,"attività di organizzazioni associative professionali - 94.12",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/9412,,,,,,,,,42e24547bff995bf3f8bd34e4ba342fc
-14249,14253,ateco-2007/949,/586/10071/14249/14253/,"attività di altre organizzazioni associative - 94.9",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/949,,,,,,,,,136c66cd06687daca283c0904909b32a
-14249,14254,ateco-2007/96,/586/10071/14249/14254/,"altre attività di servizi per la persona - 96",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/96,,,,,,,,,957ed00131e3cfe68219a3fbb769a07b
-14249,14255,"ateco-2007/ 9603",/586/10071/14249/14255/,"servizi di pompe funebri e attività connesse - 96.03",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 9603",,,,,,,,,0f05c4bb91b7d795a832a067e223749a
-14249,14256,"ateco-2007/ 9604",/586/10071/14249/14256/,"servizi dei centri per il benessere fisico - 96.04",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 9604",,,,,,,,,2dfc3d16745e603c9fedede327b0833c
-14249,14257,"ateco-2007/ 9609",/586/10071/14249/14257/,"attività di servizi per la persona n.c.a. - 96.09",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 9609",,,,,,,,,6231e99c549a8a6a587550ff8f94d6e2
-586,587,025658acdbc02a2360abb936803cd491,/586/587/,COFOG,,,,,,,,,,,48396fbd24584225a0acb1677dfbb3f0
-587,10025,c3924074676c4957767fa587cc242ae1,/586/587/10025/,"10.1.1 - Malattia",,,,,,,,,,,ff247ccd92675be5cd89091427928ce5
-587,10026,95b9fa7a7238ed6ba2ae677be615a5e8,/586/587/10026/,"10.1.2 - Invalidità",,,,,,,,,,,fc30ced2048dfb0be38e3acb1048ffa2
-587,10027,0748fdb3d3fd9b7ccb7a5d0138fbb486,/586/587/10027/,"10.2.1 - Vecchiaia",,,,,,,,,,,1c90189aa6396e98ff821603fc047b26
-587,10028,2b9b3a2049c694724a6b643f229f50ad,/586/587/10028/,"10.3.1 - Superstiti",,,,,,,,,,,148f6ff23adcabbbe6b680a3983ebd60
-587,10029,5453e4948b00898001ecafe415359d0d,/586/587/10029/,"10.4.1 - Famiglia",,,,,,,,,,,29423af72b71de7fe3bb2f7985b30126
-587,10030,b8e42a548edca3c8a771e01e66fd590a,/586/587/10030/,"10.5.1 - Disoccupazione",,,,,,,,,,,0cbfce230c7d5cfff484428d18b118dd
-587,10031,de716d0d68a2245b14d66db526c1107b,/586/587/10031/,"10.6.1 - Abitazioni",,,,,,,,,,,044b6e10727b3a09ee33e235e6a6e14a
-587,10032,0e902cbabf4e0e638c30d13c2db8d694,/586/587/10032/,"10.7.1 - Esclusione sociale non altrove classificata",,,,,,,,,,,e0df78122ddacfe1b07b13cdd14765b8
-587,10033,6ca994718fbccc77af584b346aec6b2c,/586/587/10033/,"10.8.1 - Ricerca & Sviluppo per la protezione sociale",,,,,,,,,,,c7ba34135bcce72ee4c34edc93a84980
-587,10034,f58ad86cf7dc5910df7db85ef4499f5d,/586/587/10034/,"10.9.1 - Protezione sociale non altrove classificata",,,,,,,,,,,470a61ce7a7393a9d7477b45aafdf53d
-587,588,3be1bfefaea11e6c63a9f4600b3654dd,/586/587/588/,"01.1.1 - Organi esecutivi e legislativi",,,,,,,,,,,c7f54875143c8e4548c872ba0039b041
-587,589,1443648c322380b42e374da39817a94c,/586/587/589/,"01.1.2 - Affari finanziari e fiscali",,,,,,,,,,,b6ac1d17459afd24016319ffaba079d5
-587,590,965e4f470256fc86a4922e260bea9110,/586/587/590/,"01.1.3 - Affari esteri",,,,,,,,,,,ae5b91efcff31fe70c06d173474f7dde
-587,591,15c045541dd12634b0f09394d225dbfa,/586/587/591/,"01.2.1 - Aiuti economici ai paesi in via di sviluppo ed in transizione",,,,,,,,,,,39dc4bed1aad4dbfb799cc80bde7ad25
-587,592,1ef3b3a027115ece07da99a8e1ded67c,/586/587/592/,"01.2.2 - Aiuti economici erogati attraverso organismi internazionali",,,,,,,,,,,acc4feb533f2fe14b5cf1d338a4da067
-587,593,5de05959983d2a88b821fbc7fec237f6,/586/587/593/,"01.3.1 - Servizi generali del personale",,,,,,,,,,,2aaac1366f5dcbe20fdade8584c6682c
-587,594,aa21fe8c6d6ce6dd6571f917697fc528,/586/587/594/,"01.3.2 - Servizi di programmazione",,,,,,,,,,,adfd6faaddf8a7c24cabf5e34f53eb0a
-587,595,14e5c308c88927abfc8f39a305083e0c,/586/587/595/,"01.3.3 - Servizi statistici",,,,,,,,,,,9e64180c07e92a3dbb39af0a7433c452
-587,596,522a2f33dd10a1b41981c2b05c20bd35,/586/587/596/,"01.3.4 - Altri servizi",,,,,,,,,,,e43664db0226da07d7298cb1cd69081a
-587,597,d5bc9a594555d030782d7c7ce30503ff,/586/587/597/,"01.4.1 - Ricerca di base",,,,,,,,,,,a3c6c3bdee94d1447fd260fea71b024f
-587,598,c23730d6839d056144c6a95590d91ec1,/586/587/598/,"01.5.1 - Ricerca & Sviluppo per i servizi pubblici generali",,,,,,,,,,,9068b9258bbed99f3544b9d004d525bb
-587,599,41d264a2e9d991310fa36d4778a0e4e3,/586/587/599/,"01.6.1 - Servizi pubblici generali non altrove classificati",,,,,,,,,,,a59b32351bfaab820d432add8b14cd74
-587,600,c8a4678ed1991ec15681bafd746b0393,/586/587/600/,"01.7.1 - Transazioni relative al debito pubblico",,,,,,,,,,,9689cfd678a0b6ee2dea4a4777f55225
-587,601,913d3f3e92bbf46b7f0b2226909a6632,/586/587/601/,"01.8.1 - Trasferimenti a carattere generale tra diversi livelli di amministrazione",,,,,,,,,,,7887780aac708acf3b63d61cb88ed856
-587,602,4a741cbe058809e8f4ead2773d663609,/586/587/602/,"02.1.1 - Difesa militare",,,,,,,,,,,261ea913a0c4cf8b47a3aabd0ecee5f7
-587,603,9f8ce6f7d3c802f85ea789f55e718938,/586/587/603/,"02.2.1 - Difesa civile",,,,,,,,,,,4d378bdddda958b5c8cfe8d6c5f3019e
-587,604,6eefdf151c331746765a0560de631a17,/586/587/604/,"02.3.1 - Aiuti militari all'estero",,,,,,,,,,,a845ce90ea6ebd3170f130bbc82e633b
-587,605,6507daff323fef0784c83bcd3a27d4a0,/586/587/605/,"02.4.1 - Ricerca & Sviluppo per la Difesa",,,,,,,,,,,b09070303f86bc62cdd8f2607ca7e98e
-587,606,335246d62d369e52f3f703464b392efc,/586/587/606/,"02.5.1 - Difesa non altrove classificata",,,,,,,,,,,415b4e1e6ef95b5be4c0d85c9b3714ef
-587,607,da97a1126c48d1800b1a5e43fbf18930,/586/587/607/,"03.1.1 - Servizi di polizia",,,,,,,,,,,c348957f00dd531de8647d849afbd5dc
-587,608,d0d59d7eb9270809af86cc296f1d14b9,/586/587/608/,"03.2.1 - Servizi antincendio",,,,,,,,,,,e7e9f52684d303ad0dee51d509c8a4ec
-587,609,af1136de559e1150aad680a0d4ccb09a,/586/587/609/,"03.3.1 - Tribunali",,,,,,,,,,,ca4d8842a529c666308d5d49497a71c0
-587,610,cab33ddf98492967135e498f281c8b87,/586/587/610/,"03.4.1 - Carceri",,,,,,,,,,,83b1d76d661b7d9861869d20d0ebebab
-587,611,0e69c7573bf39fc00ed397fe217f2f1f,/586/587/611/,"03.5.1 - Ricerca & Sviluppo connessi all'ordine pubblico e sicurezza",,,,,,,,,,,ecf2554a3af58c1e4f3f12f89b10d97d
-587,612,9df0a6763db59dd9726868a00e419abc,/586/587/612/,"03.6.1 - Ordine pubblico e sicurezza non altrove classificati",,,,,,,,,,,4fd49975530d8ccb882902ebf99b931f
-587,613,04e17d4872abb26881f30a98c3d1d2dd,/586/587/613/,"04.1.1 - Affari generali economici e commerciali",,,,,,,,,,,50276c7dc7f8084f1cee495b7a7f0ff1
-587,614,772c508b82ab9e1bcc5881cd57349a84,/586/587/614/,"04.1.2 - Affari generali del lavoro",,,,,,,,,,,908e811ba8c5be0274566bfe39375f96
-587,615,5b917540424a0bb36a303b3f41a9801c,/586/587/615/,"04.2.1 - Agricoltura",,,,,,,,,,,fb663e6c2fc857e6fbb3290af5b55b7e
-587,616,23d144f3958ee48d4f6799b046e29e3d,/586/587/616/,"04.2.2 - Silvicoltura",,,,,,,,,,,e0ff8a313c95d498da181ad4f383be27
-587,617,8860e0f6f15158866f9982711f914077,/586/587/617/,"04.2.3 - Pesca e caccia",,,,,,,,,,,3a0dde5d4f9baca2f785080bbe769ff7
-587,618,c6cc8867d7efc486e58073c88ab456db,/586/587/618/,"04.3.1 - Carbone ed altri combustibili solidi minerali",,,,,,,,,,,e15d19183444dfdd55d0482b4975ee7e
-587,619,fe736caff2343cd76912a51ebd006790,/586/587/619/,"04.3.2 - Petrolio e gas naturali",,,,,,,,,,,6e1cb7d05595678e6555f1e5ce22d93d
-587,620,90c49f46a6ccbe9e944f7907b96122f0,/586/587/620/,"04.3.3 - Combustibili nucleari",,,,,,,,,,,3d1880aa041b79cfa6b53a0003f011dd
-587,621,12a09f7632a600fa9dfb2283bfb29c4f,/586/587/621/,"04.3.4 - Altri combustibili",,,,,,,,,,,464e71649f03b0dcb0caf97350f0e8b0
-587,622,e24bae3879f6fc24b4487ea58edd5399,/586/587/622/,"04.3.5 - Energia elettrica",,,,,,,,,,,1b05363e138705b7c26e4cfacca6653e
-587,623,a6d331d2f357ea06ce5027f0e64aa857,/586/587/623/,"04.3.6 - Energia non elettrica",,,,,,,,,,,c8cf1b995dfbdaf457ad7b1d3f9a7aee
-587,624,b9a3d08a8ee1ffa54e49c079e44e68cf,/586/587/624/,"04.4.1 - Attività estrattive di minerali diversi dai combustibili",,,,,,,,,,,502c9b795fc015065247615ad65de358
-587,625,0d26d498e985741f10c72f571175eace,/586/587/625/,"04.4.2 - Attività manifatturiere",,,,,,,,,,,5530502391cbe1309821dc85c8d9f080
-587,626,d74864b03feeef27d95c7d6163e115f9,/586/587/626/,"04.4.3 - Attività edilizia",,,,,,,,,,,0a91a5d4cd9782c29e2a43c74743c0d4
-587,627,dde5d856495187b146036a1185e2d4de,/586/587/627/,"04.5.1 - Trasporti su strada",,,,,,,,,,,f6d2f76819fd84a8c7ed68eb8c284682
-587,628,7159a690c2d36f94687079a98b7632f7,/586/587/628/,"04.5.2 - Trasporti per vie d'acqua",,,,,,,,,,,4a2fbb185d68ab8d6ccf95b4a0a2e5ff
-587,629,750b7e936728e9d6d5e8888fa59eb000,/586/587/629/,"04.5.3 - Trasporti su rotaia",,,,,,,,,,,88170a8667746c8c472aa0fa8073dab6
-587,630,1f36f8ccc59e5f686163cf428578793d,/586/587/630/,"04.5.4 - Trasporti aerei",,,,,,,,,,,08ae44280a0a02566409bd5cb42a5647
-587,631,9b497d82d02a46ee935e56405bd72549,/586/587/631/,"04.5.5 - Condotte ed altri sistemi di trasporto",,,,,,,,,,,aa50d9ff73e499436314073b957c53f8
-587,632,1af4ed1298a3c8b05b2c125a8e86ddd0,/586/587/632/,"04.6.1 - Comunicazioni",,,,,,,,,,,a43adb0d115273f2c388fa869ed32a3a
-587,633,e4c391e79b2dde268a5824c9cc6a5b6a,/586/587/633/,"04.7.1 - Distribuzione commerciale; conservazione e magazzinaggio",,,,,,,,,,,b06d395539819e628fb49c897e936d66
-587,634,2120027707a303d253788e82db49eff8,/586/587/634/,"04.7.2 - Alberghi e pubblici esercizi",,,,,,,,,,,465efaca5e8798a7a0b5b4f3c456dabd
-587,635,fd4aec47ada4179d9b07d3555039545b,/586/587/635/,"04.7.3 - Turismo",,,,,,,,,,,909efa64ee6606134027302f5123feae
-587,636,81df8b7887ab7ded2d74e10d3eb26ba7,/586/587/636/,"04.7.4 - Progetti di sviluppo plurifunzionali",,,,,,,,,,,afed142a221327c058a3812a4faed60e
-587,637,8948a86a86b5d9e4ac7bf39928bab74a,/586/587/637/,"04.8.1 - R&S per gli affari generali economici; commerciali e del lavoro",,,,,,,,,,,f44726ebb2e84160e93e67d446885c0f
-587,638,f9f81501151241b897411acc101d29f4,/586/587/638/,"04.8.2 - R&S per agricoltura; silvicoltura; pesca e caccia",,,,,,,,,,,2110bb7c4996af76563cf2fb5134e17d
-587,639,cc2b54896594a01b3ac91fd7f7c6eb4f,/586/587/639/,"04.8.3 - R&S per combustibili ed energia",,,,,,,,,,,5d89a05bafdb1fb0eab77127468cb370
-587,640,a92fe19232ea2454ba498734123e5e39,/586/587/640/,"04.8.4 - R&S per attività estrattive; manifatturiere ed edilizie",,,,,,,,,,,71ecfa345d827ff7e1ae3a6915325f95
-587,641,c47aa989c7068ae28f77f31c96632719,/586/587/641/,"04.8.5 - R&S per trasporti",,,,,,,,,,,acd0ad36549dbcec26dc9cd3b5689c03
-587,642,c23ebaf9ff897d48236e405f1266f6d9,/586/587/642/,"04.8.6 - R&S per comunicazioni",,,,,,,,,,,9c9ebf1585a5d2cc0e888b86d9f1b125
-587,643,7c0bddb3a8060152b3010dd74247effa,/586/587/643/,"04.8.7 - R&S per altri settori",,,,,,,,,,,2cfb6653e39806e765f3d8e25e01f827
-587,644,e049d59ab57e49dc150219de2f0554eb,/586/587/644/,"04.9.1 - Affari economici non altrove classificati",,,,,,,,,,,570c2357a39e67acedb0f6bbe0327e82
-587,645,75034e515d35fa10b27db74b36ae95ec,/586/587/645/,"05.1.1 - Trattamento dei rifiuti",,,,,,,,,,,d030f4f82dedaf26c91505b92ddd35f3
-587,646,56c4ebbef1e6a14beb29b5d21a78a619,/586/587/646/,"05.2.1 - Trattamento delle acque reflue",,,,,,,,,,,baf8210bbf755c71d7f3c36cb129b046
-587,647,85596e353d7ff83224ae59d475f9ed84,/586/587/647/,"05.3.1 - Riduzione dell'inquinamento",,,,,,,,,,,e3f816487bada51d652188f199e7cb4b
-587,648,ae44df3a2ee4627ca53421ba051cd5c3,/586/587/648/,"05.4.1 - Protezione delle biodiversità e dei beni paesaggistici",,,,,,,,,,,2b814ff3c98a6c90658e01705359acf6
-587,649,94bbb6ea459cc26d851cd4785cd4c9b7,/586/587/649/,"05.5.1 - Ricerca & Sviluppo per la protezione dell'ambiente",,,,,,,,,,,42620fcc2cabbba9ed810d0e94c31668
-587,650,c4ec38ea64e16f51c108c216c5e6f90e,/586/587/650/,"05.6.1 - Protezione dell'ambiente non altrove classificata",,,,,,,,,,,a524e884490bb91f6e69c4b431a5f265
-587,651,cda1d1459c33dd06d37b3b31fd86d6a9,/586/587/651/,"06.1.1 - Sviluppo delle abitazioni",,,,,,,,,,,b9b763012be6adf0375d3a9cd50925d7
-587,652,f789a06cf14d3585dc0c81f5a93cf912,/586/587/652/,"06.2.1 - Assetto territoriale",,,,,,,,,,,daca0ab9f52dae154e6abbc7d194d173
-587,653,18d2be547b106505c60d8090ae3253ac,/586/587/653/,"06.3.1 - Approvvigionamento idrico",,,,,,,,,,,2b931373ecc328cda8884eea18edf1b3
-587,654,4a2e8f7dc6362829557319a884cc9463,/586/587/654/,"06.4.1 - Illuminazione stradale",,,,,,,,,,,e9a11bd76f764ec6bc33dfe9c843d57c
-587,655,40119999755bba666e8701f256b25f8c,/586/587/655/,"06.5.1 - Ricerca & Sviluppo per abitazioni e assetto territoriale",,,,,,,,,,,03a7b06d0f8c14fcee6b48285454727c
-587,656,db8b2359219cee824c09b2cd6e77b439,/586/587/656/,"06.6.1 - Abitazioni e assetto territoriale non altrove classificati",,,,,,,,,,,41436372043a705105fb0c6581f9f0bc
-587,657,7305cf240129250806b8dcf781f61198,/586/587/657/,"07.1.1 - Prodotti farmaceutici",,,,,,,,,,,9ab60e899965a7eaadc56d4185902818
-587,658,65f70beb046fb89584d2bd7e6fdecd99,/586/587/658/,"07.1.2 - Altri prodotti sanitari",,,,,,,,,,,eb1aa27fb41966aca96bcd35e4def77b
-587,659,bdab4763736bcba4cfd8252fe4e830c1,/586/587/659/,"07.1.3 - Apparecchi e attrezzature terapeutiche",,,,,,,,,,,71c7b5dacee767089965dc54dd7b235b
-587,660,5632d3e98f98e911b858cd94aa4c44bd,/586/587/660/,"07.2.1 - Servizi medici generici",,,,,,,,,,,fb996fadc88069e53891f95a44084566
-587,661,556defdac1c9717f3e73fbb2163df7f3,/586/587/661/,"07.2.2 - Servizi medici specialistici",,,,,,,,,,,18ec9f11fafcb10b2b3066e91cbd5fdf
-587,662,4da2ba2dba73518d859a35b2643e3757,/586/587/662/,"07.2.3 - Servizi odontoiatrici",,,,,,,,,,,9c2fd650abdae4e5cc61ad4fafd1fcdf
-587,663,443c5c4ff2fbe9f40dd238ac2a8fff69,/586/587/663/,"07.2.4 - Servizi paramedici",,,,,,,,,,,76b53c10fe544cc8c8c9b10ca18b087e
-587,664,4e442dee6a51329a0324eb866401ea5f,/586/587/664/,"07.3.1 - Servizi ospedalieri generici",,,,,,,,,,,6dc01ea4e1ee24555ae57dacc3d67b48
-587,665,edd8f7976bdc1ef01b94c39a9e1fd11c,/586/587/665/,"07.3.2 - Servizi ospedalieri specialistici",,,,,,,,,,,73a356a2b6882283848415b2549fae43
-587,666,6ab838182086fed740b297f86c4f2caa,/586/587/666/,"07.3.3 - Centri di servizi per la maternità e medici",,,,,,,,,,,e2c117f493790f65ed9f832e09c10d20
-587,667,3378d1ae380cdcf80d05707682ff1582,/586/587/667/,"07.3.4 - Case di cura e riabilitazione",,,,,,,,,,,2e1f928bf0bd9ac9848b3bb4dd69a57a
-587,668,16f2fbcbb9319d705bff5cd181d5f0d0,/586/587/668/,"07.4.1 - Servizi di sanità pubblica",,,,,,,,,,,1a88598827a9895443466692c8f7f400
-587,669,1caa340de6a1913cbb537cd8d0fabf44,/586/587/669/,"07.5.1 - Ricerca & Sviluppo per la sanità",,,,,,,,,,,98318ae6f6e635d687115c0408def89e
-587,670,f1b1a05ae662da9136a56726706c8cd2,/586/587/670/,"07.6.1 - Sanità non altrove classificata",,,,,,,,,,,2e1aee196475a02bb030aa600b23134a
-587,671,712425596288f5f175fa56b7a6f8280f,/586/587/671/,"08.1.1 - Attività ricreative",,,,,,,,,,,f060d3e17d110682b91683591fc04502
-587,672,660667d18fabd86fdcded6dd33cd3be7,/586/587/672/,"08.2.1 - Attività culturali",,,,,,,,,,,9a5b8fbd5ace3435cd1ea70d7f77a780
-587,673,e6ce70fc76d55b1924c651a0173e884a,/586/587/673/,"08.3.1 - Servizi radiotelevisivi e di editoria",,,,,,,,,,,a2c9eec5890990ee73672d98e69ae009
-587,674,9f102bd4e296bbcb1f1ae017c450ebec,/586/587/674/,"08.4.1 - Servizi di culto e altri servizi per le comunità",,,,,,,,,,,e63ce87ba366440ab6bff76a46ad7a64
-587,675,bc355fe49347e50e4266650e53a81b6f,/586/587/675/,"08.5.1 - Ricerca & Sviluppo per attività ricreative; culturali e di culto",,,,,,,,,,,5a6920b2b0510bdbf26ee4bb171c7ad0
-587,676,69cbc3481c1ddb1ecb451227a6ff77bc,/586/587/676/,"08.6.1 - Attività ricreative; culturali e di culto non altrove classificate",,,,,,,,,,,168d098746c7649b0643981d0b27f72d
-587,677,ff738debcb4d3d1c86ac7a2a7fd50826,/586/587/677/,"09.1.1 - Istruzione prescolastica",,,,,,,,,,,ab38628d393ea29660a089a854007342
-587,678,7eb1423069e6e7209a55574bf056d11c,/586/587/678/,"09.1.2 - Istruzione primaria",,,,,,,,,,,50f57e9143a46119938940189324c172
-587,679,8d08e9bc0cabe7807e65729d3d22ddf0,/586/587/679/,"09.2.1 - Istruzione secondaria inferiore",,,,,,,,,,,cb50658cf1040540c02948be124afd77
-587,680,fcb4f8850a3f82c742d0f31eb8e7fa41,/586/587/680/,"09.2.2 - Istruzione secondaria superiore",,,,,,,,,,,6e547763413bcc82f8af70a0b6a87e14
-587,681,f389da63e1993d6ed08aabcfc25c53f7,/586/587/681/,"09.3.0 - Istruzione postsecondaria non superiore",,,,,,,,,,,368b68ca2bd60541e4fb9a20062f1425
-587,682,3dee28bac46b845a4b11f61db384c5d6,/586/587/682/,"09.4.1 - Primo grado di istruzione superiore",,,,,,,,,,,abfc3426423ceb3305917aebda56149c
-587,683,28d065e2d8fd59198090c06e6a25827a,/586/587/683/,"09.4.2 - Secondo grado di istruzione superior",,,,,,,,,,,620fb2f339b1c80ebd85e1f08a3d47b6
-587,684,b34654883401461a70e0ddfa2aed2d6c,/586/587/684/,"09.5.0 - Istruzione di diverso tipo",,,,,,,,,,,8c7a8441c7e8d9f32cdab2b9d0e3c422
-587,685,7f0957ce673fdc4a93bb44d29e81b247,/586/587/685/,"09.6.0 - Servizi ausiliari dell'istruzione",,,,,,,,,,,2e027f5f457f84bed4376441c0e4feb8
-587,686,01a8180e7fa2fee541e8cb468dc73987,/586/587/686/,"09.7.0 - Ricerca & Sviluppo per l'istruzione",,,,,,,,,,,725319de65190a4703fe5d20c056bec9
-587,687,1f4685bbb264fe3bcb960ebfa56306d2,/586/587/687/,"09.8.0 - Istruzione non altrove classificata",,,,,,,,,,,a06e490106f7ec8d427a959f1964580b
-587,9091,30e1105e00c644ded54d6fad5147aaeb,/586/587/9091/,"10.1.1 - Malattia",,,,,,,,,,,ff247ccd92675be5cd89091427928ce5
-587,9092,53b5048a6abc0cb44e1c756650618e0f,/586/587/9092/,"10.1.2 - Invalidità",,,,,,,,,,,fc30ced2048dfb0be38e3acb1048ffa2
-587,9093,6637a3a9f8a565841d37f18f5b6579c6,/586/587/9093/,"10.2.1 - Vecchiaia",,,,,,,,,,,1c90189aa6396e98ff821603fc047b26
-587,9094,f5f5b507a451023b462d15df96b6dc74,/586/587/9094/,"10.3.1 - Superstiti",,,,,,,,,,,148f6ff23adcabbbe6b680a3983ebd60
-587,9095,1898c7770aa187c22b07f21d9b94f4f3,/586/587/9095/,"10.4.1 - Famiglia",,,,,,,,,,,29423af72b71de7fe3bb2f7985b30126
-587,9096,5ce14aabd60d9684285afd5e88d379b2,/586/587/9096/,"10.5.1 - Disoccupazione",,,,,,,,,,,0cbfce230c7d5cfff484428d18b118dd
-587,9097,3c92ff0b386e4126444cfb6818412f27,/586/587/9097/,"10.6.1 - Abitazioni",,,,,,,,,,,044b6e10727b3a09ee33e235e6a6e14a
-587,9098,1a17e217c7f3f76463cc4cee348a585b,/586/587/9098/,"10.7.1 - Esclusione sociale non altrove classificata",,,,,,,,,,,e0df78122ddacfe1b07b13cdd14765b8
-587,9099,a45ff4d46b33348ce44b414c21b4d47e,/586/587/9099/,"10.8.1 - Ricerca & Sviluppo per la protezione sociale",,,,,,,,,,,c7ba34135bcce72ee4c34edc93a84980
-587,9100,afbb47f5383a77f9f5dd98ded2aa7503,/586/587/9100/,"10.9.1 - Protezione sociale non altrove classificata",,,,,,,,,,,470a61ce7a7393a9d7477b45aafdf53d
-586,688,9d9ec45ed4c9d385502a20c154942b18,/586/688/,"legal status privato",,,,,,,,,,,7d4a2cd8091a9a2bd324d867c52bb75c
-688,689,241467d15fbdcf3e4bf51f664686ddeb,/586/688/689/,"Altra forma di ente privato con personalità giuridica",,,,,,,,,,,253a12b4c89f3455874c652394708e76
-688,690,063ea96ffd46b09124a9662c71d80dc2,/586/688/690/,"Altra forma di ente privato senza personalità giuridica",,,,,,,,,,,c109aed8453b6e5293299acb7f086f1f
-688,691,503e22f44fc153f56aa0bd0567246cda,/586/688/691/,"Associazione non riconosciuta",,,,,,,,,,,77ac305b82791f87ade557748945aae7
-688,692,aec3aa7df364b2979d5138c561ec5823,/586/688/692/,"Associazione o raggruppamento temporaneo di imprese",,,,,,,,,,,c5b73c7972c3c2ce19334bb801d9a8b1
-688,693,ad1dd19edc8b17c95066f8ec76a2615b,/586/688/693/,"Associazione riconosciuta",,,,,,,,,,,decfcf82a4da7dd016696aa7dc2735cd
-688,694,0478421a6c269bf36843cb6d5abcdb9a,/586/688/694/,"Azienda pubblica di servizi alle persone ai sensi del d.lgs n. 207/2001",,,,,,,,,,,1c0464def016ca41bbd47ef728d65933
-688,695,0531bab70a914951abad9c5aa11c3bae,/586/688/695/,"Azienda speciale ai sensi del t.u. 267/2000",,,,,,,,,,,b134929c7cad31e12a837cd99116e5b9
-688,696,ab2ceedf6bf42b8ce97cfb370227d0ec,/586/688/696/,Comitato,,,,,,,,,,,831fa35469ceb7ab63ce1dd99a51dd3f
-688,697,ec5fdf4500c97efb46dc3ce190913a28,/586/688/697/,Condominio,,,,,,,,,,,2bbbab11bdeb522ef43df6411f7969b4
-688,698,8d7c1b405959e601c7a52b55c792bc56,/586/688/698/,"Consorzio di diritto privato",,,,,,,,,,,67290b6e8d81ea264277a77b3e39bdd7
-688,699,f9e8c93cb03e4913c7b554486740de1b,/586/688/699/,"Ente ecclesiastico",,,,,,,,,,,f6cda6cb6a366f5a62b9834f7e073f52
-688,700,10a3bd4102f9a0e87d0d6b8c6cedad09,/586/688/700/,"Ente pubblico economico",,,,,,,,,,,1c40461bba28dadb796ec1ed532c62a5
-688,701,2f72a19081bd1690e660c7b846435347,/586/688/701/,"Fondazione bancaria",,,,,,,,,,,b619c61ab0e11b97219147e266dccbb1
-688,702,862c3faa16ebeda338a8c1eb4c804f87,/586/688/702/,"Fondazione (esclusa fondazione bancaria)",,,,,,,,,,,f8837184d72aa251ed3e073df6b22bd8
-688,703,2583e403ac7748329cd655c7658bf1d0,/586/688/703/,"Gruppo europeo di interesse economico",,,,,,,,,,,4fdc0c00b3394829742e965dcb949c17
-688,704,a6bf16445bb409eba0495fbd231d126d,/586/688/704/,"Imprenditore individuale agricolo",,,,,,,,,,,19d005ed1b8c2535ad42c6240f359d62
-688,705,e1a727ec9043b33cbaabc24f8f684412,/586/688/705/,"Imprenditore individuale non agricolo",,,,,,,,,,,c61edd6252b478d972bc45947ac778f8
-688,706,51b3b22646fb31bdeb7b5e99ba155cdd,/586/688/706/,"Impresa o ente privato costituito all'estero non altrimenti classificabile che svolge una attività economica in Italia",,,,,,,,,,,246f32d4d39d21545d423c585379b5aa
-688,707,619deb2517274d9ba316f0dce64b4dfb,/586/688/707/,"Lavoratore autonomo",,,,,,,,,,,99e8d62bc908d3213e2b2c80a93ee107
-688,708,04ace7ea3ffd70397b9fae737d0aac1a,/586/688/708/,"Libero professionista",,,,,,,,,,,b064e0356d86510ce97a4019f4365e59
-688,709,452929803b30815e4a550f069a576c8a,/586/688/709/,"Società a responsabilità limitata",,,,,,,,,,,d7fecbd10e64e8c9863875521590d729
-688,710,60b27537557f6eb04650e4d59f24c8e1,/586/688/710/,"Società a responsabilità limitata con un unico socio",,,,,,,,,,,981bffa682969d09ba4871e13de03fa4
-688,711,85c8e56d85f30e53ecd55b745182dd28,/586/688/711/,"Società consortile",,,,,,,,,,,8fd1a82afcafae84143a9481c4adc25a
-688,712,df00aa462cda7314b862bf1ef694c8f8,/586/688/712/,"Società cooperativa a mutualità prevalente",,,,,,,,,,,d8a2865f89eae06c5dfd54cf22b2b96b
-688,713,fb553882d9a7d61b90853b573ac9a357,/586/688/713/,"Società cooperativa diversa",,,,,,,,,,,5ae7b7dbe388c92e20560e2c19e61c3d
-688,714,0af837fa1744c62a336e55e4d42e1211,/586/688/714/,"Società cooperativa sociale",,,,,,,,,,,5c2bb509b861ec04ae5b5593ba47fdaf
-688,715,e7bb31ba0e57b1ba18d029bb15e6e7d5,/586/688/715/,"Società di fatto o irregolare / comunione ereditaria",,,,,,,,,,,f73df6fa28f2fb7c167550c953249efa
-688,716,d583bf181417a47a93b241e442c05827,/586/688/716/,"Società di mutua assicurazione",,,,,,,,,,,13f5fbd805f6af9ed7422cbb226d482a
-688,717,785dc31b5373cc9b9a8c2c7aa607a944,/586/688/717/,"Società di mutuo soccorso",,,,,,,,,,,b6bbeb34d91297b7c35892c73f3b0d43
-688,718,c1e5d5cbcca14b17831c5bc4161beca3,/586/688/718/,"Società in accomandita per azioni",,,,,,,,,,,8982227d16c3dea4be61f7b4cc339e50
-688,719,c94d0360a18c3464c323c22f2298e3da,/586/688/719/,"Società in accomandita semplice",,,,,,,,,,,696805f183196d14128a47fa57cb6349
-688,720,705f0bf28dafdb4e7976e716c9d186bf,/586/688/720/,"Società in nome collettivo",,,,,,,,,,,795f3b83e866cf065dc687cce5077d45
-688,721,1b93198bbd63e70de9f16be001937cec,/586/688/721/,"Società per azioni",,,,,,,,,,,a6c3871e20c8e60afb2c39fd6bc90aed
-688,722,e86e860f72d1f7cf12649c914bb34a1a,/586/688/722/,"Società semplice",,,,,,,,,,,b8d71680b896914f112d04344df37803
-688,723,c7eba7426aab906469dadb0706ae632f,/586/688/723/,"Studio associato e società di professionisti",,,,,,,,,,,f16ad5b9e7255a197b4c1aa947c546be
-586,724,239bc338697327793d0a04ea4bda3610,/586/724/,"Legal status pubblico",,,,,,,,,,,2b6f1e1de0cbd2a9da24162b47c1ac09
-724,725,b7dc884e8964b2e75294adc9099e24d0,/586/724/725/,"Agenzia dello Stato",,,,,,,,,,,8af421313e8e1a5ac202a8c48752644d
-724,726,6421225ba188138947051b4134681e0c,/586/724/726/,"Altro ente pubblico non economico nazionale",,,,,,,,,,,f7404666d4df17b6356872b5160330fe
-724,727,10cf53f64ca36779a13f33762796d36a,/586/724/727/,"Archivio notarile",,,,,,,,,,,daf747a925dee1da161faad0c034f4b3
-724,728,cd8ed7f638c4ec744fc952a3d1367604,/586/724/728/,"Autorità indipendenti",,,,,,,,,,,75361425ea15b92c24d74466c1e95e66
-724,729,b90988a2643bcdc64233eb923028d1a1,/586/724/729/,"Azienda o ente del servizio sanitario nazionale",,,,,,,,,,,600abb5394b2315426cd0da91ade5cc3
-724,730,231f8bdca97edc43ca2ca4b0e381dd51,/586/724/730/,"Camera di commercio",,,,,,,,,,,3dda7ef1aa39f6a3d320160ffbf6aec3
-724,731,f9d53b984c511c9da53ed2e99590ca45,/586/724/731/,"Città metropolitana",,,,,,,,,,,4a51790714d2f2ffd2eb76bc097f7085
-724,732,067ed6be7874c59e468c81a74ee72283,/586/724/732/,Comune,,,,,,,,,,,e1df50145ff0d8be67b6d42f91fab654
-724,733,6e488f8477ec4d66387721c3e3ed1e2f,/586/724/733/,"Comunità montana o isolana",,,,,,,,,,,2513a06328a6e35a0a8650cd2395b0ef
-724,734,bb452cfbaa9e4657936d83edea48056e,/586/724/734/,"Consorzio di diritto pubblico",,,,,,,,,,,4a4c9a9394cb3ce8fdbed08e83347d0b
-724,735,e082b6c811fea9d07c36af170f251efb,/586/724/735/,"Ente ambientale regionale",,,,,,,,,,,87c9b61dce700e8772449a474cd8d207
-724,736,891e02e453df3924cb6bea132b2aff87,/586/724/736/,"Ente di sviluppo agricolo regionale o di altro ente locale",,,,,,,,,,,2cf803daa0c7c74ab2121905ce104669
-724,737,69d78fe68b639908f3fb7fbb34b9088c,/586/724/737/,"Ente o autorità portuale",,,,,,,,,,,467f2a6cfbc097f63f3119719bd56adc
-724,738,c1b0f8c8c72fb4e922917b32b880d228,/586/724/738/,"Ente parco",,,,,,,,,,,f2bc20b94d5b455654f9eabd70282314
-724,739,7fe913bf8dd569078cd45d8d6071c716,/586/724/739/,"Ente per il turismo",,,,,,,,,,,ca8d37a7d1d5755ec8e1d318275444d2
-724,740,0ca0c15b3b5135c20406762002c5edba,/586/724/740/,"Ente per la ricerca e per l'aggiornamento educativo",,,,,,,,,,,175467a7f215402be62124cbe0e51167
-724,741,c5a14f78d608f57d4c5f23aaaa368f80,/586/724/741/,"Istituto e scuola pubblica di ogni ordine e grado",,,,,,,,,,,9402cc055909d3c3231afd9be219bff1
-724,742,8cd25ce035a3db989bacf3c760a725b8,/586/724/742/,"Istituto o ente pubblico di ricerca",,,,,,,,,,,75f369bbbb469e4df3cc3dd1b27770ac
-724,743,a8e7b88174d76c713175cdb8a10f6159,/586/724/743/,"Istituto pubblico di assistenza e beneficenza",,,,,,,,,,,b0c983f4785488a7b6a23d2bf37431f3
-724,744,27519eba034ff025f6cf2192d25e13a2,/586/724/744/,Ministero,,,,,,,,,,,1a0288398813677fcc64aec136980695
-724,745,ad3418d96883b64a7bfa9548ad29c215,/586/724/745/,"Ordine e collegio professionale",,,,,,,,,,,757da5c736540a550f5a5cc1548d5af8
-724,746,613d86d32f90ee1241d03b0f57b1c140,/586/724/746/,"Organo costituzionale o a rilevanza costituzionale",,,,,,,,,,,c3fe34d2ce6235f4f81b69bb783d12e6
-724,747,3f111622917b1a410a4741ee1e437df6,/586/724/747/,"Presidenza del consiglio",,,,,,,,,,,66afe80cf7874a3b183c128449647c05
-724,748,6685d2e07988d89e20b90396e9c1999e,/586/724/748/,Provincia,,,,,,,,,,,c4836ef8c2be34f38ccc6b1145d086e0
-724,749,a58752a119d19d0c18f6211c1d4975ea,/586/724/749/,Regione,,,,,,,,,,,06a920b21e134917210954ef5c6559d5
-724,750,7767b68e92e7630c22fae81febce58a5,/586/724/750/,"Unione di comuni",,,,,,,,,,,5e1e816ccd39fc0212c2fe063830649b
-724,751,7f9e72c12ce72650af8dd65645bc0b3d,/586/724/751/,"Università pubblica",,,,,,,,,,,1e5235be99b490b2fb66f927c27b8de0
-586,762,1f2bad5a6b014c8762bf9272d4e28501,/586/762/,"Tipo di struttura organizzativa",,,,,,,,,,,c7eaabb68782c9391cabad882dc13f70
-762,13766,1227c1bef6b787b8ac584f3806c6a167,/586/762/13766/,"Struttura politica",,,,,,,,,,,ff87dd9ebd3c2075db1e305d3915465b
-13766,13057,971b931cdc5ab7ca1e1fffacd4618fa2,/586/762/13766/13057/,"Giunta comunale",,,,,,,,,,,bb9a677b0e63bab3d20cd16fefdf4c0b
-13766,13058,e2adf022d01f42728bb31d352da5c284,/586/762/13766/13058/,"Consiglio comunale",,,,,,,,,,,f19fbcf088ab95e24933daad4cd94f5e
-13766,13684,ab9a78c723de518d46ce21d032f69ee4,/586/762/13766/13684/,Commissione,,,,,,,,,,,10f8a52b8a3fe4c4afedd6a576a8a7b6
-762,763,b15ce8508aef86765e81cd66f685758c,/586/762/763/,"Altra struttura",,,,,,,,,,,d439af8a6f6af6234834a9e38a65dfd7
-763,13798,71e8bab82b84d8a3a247acfc7078e6bc,/586/762/763/13798/,"Azienda municipalizzata",,,,,,,,,,,7452e152ad13ca469d63f582ecfc3d93
-763,754,1eba7f7df583830bbf334fd3ca92cbfa,/586/762/763/754/,Biblioteca,,,,,,,,,,,999816d7a617e650c796109566e1337c
-763,755,a3e7ad377cf0116964807382f812091e,/586/762/763/755/,"Centro culturale",,,,,,,,,,,cb105f56f6c910810921f9dc30a5397f
-763,757,759d37d35bb0e87bfeb6648ac1d98af2,/586/762/763/757/,Ente,,,,,,,,,,,46a991394b46157bb5d369914b54cd58
-763,758,9166321af67278a83fff909ac6cb51f0,/586/762/763/758/,Fondazione,,,,,,,,,,,c688e7a69c804c83b431a565ca0a1849
-763,759,b3ae3ee70842907974b8fc0dcc797b09,/586/762/763/759/,Museo,,,,,,,,,,,cae4e61c54d11d62d7395e2c172b20d9
-763,760,e7f88dce317bfc2f08c8a3917be8841f,/586/762/763/760/,Scuola,,,,,,,,,,,042d8c40f9cc56f8ccb7978799c91321
-762,9103,d2a46e44a1634e5108ed4c9b40fd84a1,/586/762/9103/,"Struttura amministrativa",,,,,,,,,,,5fdd557554ed0c21c1b4bab983b8b1da
-9103,13765,bd177d065ac1ed3bc06a911d58d326b3,/586/762/9103/13765/,Area,,,,,,,,,,,deec4ff19974f12ed781cb9a59064214
-9103,765,ffa0db96c3ef447ae77164593a07b499,/586/762/9103/765/,Ufficio,,,,,,,,,,,d5206603c52c16df2727bec2ec463c3d
-586,766,577bb3b6653a31d30936b2135c565156,/586/766/,"Tipologia di punti di contatto",,,,,,,,,,,a99eff1d510df035ae4b5884e36a6433
-766,767,ce20b391fb9a6abcaa617cd2e6ee00b0,/586/766/767/,Amministrazione,,,,,,,,,,,a72ab84f434535ec00467f00acd01bc2
-766,768,7944b0fd4a74cdc3ceb3bfe07a46c115,/586/766/768/,Segreteria,,,,,,,,,,,595dbe41aba1a169b19182f1e5125f21
-766,769,1efc11e3ea793a8bf1e593e091e6ce79,/586/766/769/,"Supporto specialistico",,,,,,,,,,,fb4269cb222a967b3f33d215a8c21935
+0,1,a8af5a6c5a02d72698cb40753127e244,/891/,Organizzazione,,,,,,,,,,,7d70b980a6012fbfbb40cc8b5cc9a890
+1,2,025658acdbc02a2360abb936803cd491,/891/1090/,COFOG,,,,,,,,,,,48396fbd24584225a0acb1677dfbb3f0
+2,3,30e1105e00c644ded54d6fad5147aaeb,/891/1090/1091/,Malattia,,,,"10.1.1 - Malattia",,,,,,,f450eb69c24771701d7582ac1251de6c
+2,4,53b5048a6abc0cb44e1c756650618e0f,/891/1090/1092/,Invalidità,,,,"10.1.2 - Invalidità",,,,,,,5f3c087fcda57284397d5901cead82cd
+2,5,6637a3a9f8a565841d37f18f5b6579c6,/891/1090/1093/,Vecchiaia,,,,"10.2.1 - Vecchiaia",,,,,,,9a6e70aa4536c465e3bff0b11d8a57db
+2,6,f5f5b507a451023b462d15df96b6dc74,/891/1090/1094/,Superstiti,,,,"10.3.1 - Superstiti",,,,,,,dcc9ade1c02b80b416c46adff062893f
+2,7,1898c7770aa187c22b07f21d9b94f4f3,/891/1090/1095/,Famiglia,,,,"10.4.1 - Famiglia",,,,,,,2ff5de2f379253175e5fc2b50507ee07
+2,8,5ce14aabd60d9684285afd5e88d379b2,/891/1090/1096/,Disoccupazione,,,,"10.5.1 - Disoccupazione",,,,,,,149fcea28d744417bfd6ea8669fbb07f
+2,9,3c92ff0b386e4126444cfb6818412f27,/891/1090/1097/,Abitazioni,,,,"10.6.1 - Abitazioni",,,,,,,43887c86c9d0f78b6ec8200cda523fb4
+2,10,1a17e217c7f3f76463cc4cee348a585b,/891/1090/1098/,"Esclusione sociale non altrove classificata",,,,"10.7.1 - Esclusione sociale non altrove classificata",,,,,,,839196eb971c09fd7c63f894887cc219
+2,11,a45ff4d46b33348ce44b414c21b4d47e,/891/1090/1099/,"Ricerca & Sviluppo per la protezione sociale",,,,"10.8.1 - Ricerca & Sviluppo per la protezione sociale",,,,,,,7666136c0a14cab2ca14bf0d39fc2fc6
+2,12,afbb47f5383a77f9f5dd98ded2aa7503,/891/1090/1100/,"Protezione sociale non altrove classificata",,,,"10.9.1 - Protezione sociale non altrove classificata",,,,,,,283ead1fe4237b3f305bdb4db1aeb81b
+2,13,3be1bfefaea11e6c63a9f4600b3654dd,/891/1090/1101/,"Organi esecutivi e legislativi",,,,"01.1.1 - Organi esecutivi e legislativi",,,,,,,d281864e1511db94e612ccfde3c928a0
+2,14,1443648c322380b42e374da39817a94c,/891/1090/1102/,"Affari finanziari e fiscali",,,,"01.1.2 - Affari finanziari e fiscali",,,,,,,a883eedf41c880778876085a81f4de4d
+2,15,965e4f470256fc86a4922e260bea9110,/891/1090/1103/,"Affari esteri",,,,"01.1.3 - Affari esteri",,,,,,,03d29c21fbeffe1a0539911c46b7e5ed
+2,16,15c045541dd12634b0f09394d225dbfa,/891/1090/1104/,"Aiuti economici ai paesi in via di sviluppo ed in transizione",,,,"01.2.1 - Aiuti economici ai paesi in via di sviluppo ed in transizione",,,,,,,c4b7032750571f732887b305fe9af49b
+2,17,1ef3b3a027115ece07da99a8e1ded67c,/891/1090/1105/,"Aiuti economici erogati attraverso organismi internazionali",,,,"01.2.2 - Aiuti economici erogati attraverso organismi internazionali",,,,,,,261509dc8a4e36d63b4da51ec4425c43
+2,18,5de05959983d2a88b821fbc7fec237f6,/891/1090/1106/,"Servizi generali del personale",,,,"01.3.1 - Servizi generali del personale",,,,,,,6d6f8a09bb1b2a79eceafe1d23254fc3
+2,19,aa21fe8c6d6ce6dd6571f917697fc528,/891/1090/1107/,"Servizi di programmazione",,,,"01.3.2 - Servizi di programmazione",,,,,,,4da6f02215caf429cefee04f30a79924
+2,20,14e5c308c88927abfc8f39a305083e0c,/891/1090/1108/,"Servizi statistici",,,,"01.3.3 - Servizi statistici",,,,,,,6022ce53b8559eb67192eb09cca0d1ed
+2,21,522a2f33dd10a1b41981c2b05c20bd35,/891/1090/1109/,"Altri servizi",,,,"01.3.4 - Altri servizi",,,,,,,2af6e7a9ff9cba3700e1bf116347cf90
+2,22,d5bc9a594555d030782d7c7ce30503ff,/891/1090/1110/,"Ricerca di base",,,,"01.4.1 - Ricerca di base",,,,,,,bd780c6542344f2ae4af620680d25946
+2,23,c23730d6839d056144c6a95590d91ec1,/891/1090/1111/,"Ricerca & Sviluppo per i servizi pubblici generali",,,,"01.5.1 - Ricerca & Sviluppo per i servizi pubblici generali",,,,,,,bd36f89789b47d028003c5fcce28aded
+2,24,41d264a2e9d991310fa36d4778a0e4e3,/891/1090/1112/,"Servizi pubblici generali non altrove classificati",,,,"01.6.1 - Servizi pubblici generali non altrove classificati",,,,,,,a69def9b342775945345e69afaffbf1a
+2,25,c8a4678ed1991ec15681bafd746b0393,/891/1090/1113/,"Transazioni relative al debito pubblico",,,,"01.7.1 - Transazioni relative al debito pubblico",,,,,,,99c7c8e642465fa8020dbc54c0bc0389
+2,26,913d3f3e92bbf46b7f0b2226909a6632,/891/1090/1114/,"Trasferimenti a carattere generale tra diversi livelli di amministrazione",,,,"01.8.1 - Trasferimenti a carattere generale tra diversi livelli di amministrazione",,,,,,,fea2579e6f6f9842ad3d04643067d533
+2,27,4a741cbe058809e8f4ead2773d663609,/891/1090/1115/,"Difesa militare",,,,"02.1.1 - Difesa militare",,,,,,,d3c578aded6fd203e7001ff2994a5b84
+2,28,9f8ce6f7d3c802f85ea789f55e718938,/891/1090/1116/,"Difesa civile",,,,"02.2.1 - Difesa civile",,,,,,,a538880cf39f259e7531d815f9466d40
+2,29,6eefdf151c331746765a0560de631a17,/891/1090/1117/,"Aiuti militari all'estero",,,,"02.3.1 - Aiuti militari all'estero",,,,,,,c3dbe76fdc53de1fb6a03cbfb689f3dd
+2,30,6507daff323fef0784c83bcd3a27d4a0,/891/1090/1118/,"Ricerca & Sviluppo per la Difesa",,,,"02.4.1 - Ricerca & Sviluppo per la Difesa",,,,,,,05d8545ad1e7ffbf04f1a7664905ce5e
+2,31,335246d62d369e52f3f703464b392efc,/891/1090/1119/,"Difesa non altrove classificata",,,,"02.5.1 - Difesa non altrove classificata",,,,,,,745b971e547ae88b5957779c29a54567
+2,32,da97a1126c48d1800b1a5e43fbf18930,/891/1090/1120/,"Servizi di polizia",,,,"03.1.1 - Servizi di polizia",,,,,,,0d4855d1f9e308de1eeda525e1370761
+2,33,d0d59d7eb9270809af86cc296f1d14b9,/891/1090/1121/,"Servizi antincendio",,,,"03.2.1 - Servizi antincendio",,,,,,,929a22196d9876a87a036c34e719c6fe
+2,34,af1136de559e1150aad680a0d4ccb09a,/891/1090/1122/,Tribunali,,,,"03.3.1 - Tribunali",,,,,,,d5fc8fd3152d957bfd01ac94997bfdcd
+2,35,cab33ddf98492967135e498f281c8b87,/891/1090/1123/,Carceri,,,,"03.4.1 - Carceri",,,,,,,3eb946126acf796b22352a78f6a82d0c
+2,36,0e69c7573bf39fc00ed397fe217f2f1f,/891/1090/1124/,"Ricerca & Sviluppo connessi all'ordine pubblico e sicurezza",,,,"03.5.1 - Ricerca & Sviluppo connessi all'ordine pubblico e sicurezza",,,,,,,434bbc31a15a9a41454ff0fd13682a57
+2,37,9df0a6763db59dd9726868a00e419abc,/891/1090/1125/,"Ordine pubblico e sicurezza non altrove classificati",,,,"03.6.1 - Ordine pubblico e sicurezza non altrove classificati",,,,,,,83ab86606032b161c82b4beb5770c98f
+2,38,04e17d4872abb26881f30a98c3d1d2dd,/891/1090/1126/,"Affari generali economici e commerciali",,,,"04.1.1 - Affari generali economici e commerciali",,,,,,,93d0d4e15e9d57b5a11ede8b24244cfc
+2,39,772c508b82ab9e1bcc5881cd57349a84,/891/1090/1127/,"Affari generali del lavoro",,,,"04.1.2 - Affari generali del lavoro",,,,,,,afc5c4fc9bd8db6bf8dc9e3e96c74e7c
+2,40,5b917540424a0bb36a303b3f41a9801c,/891/1090/1128/,Agricoltura,,,,"04.2.1 - Agricoltura",,,,,,,f9b8a34de9d998bec009fc7ac1d1f5ba
+2,41,23d144f3958ee48d4f6799b046e29e3d,/891/1090/1129/,Silvicoltura,,,,"04.2.2 - Silvicoltura",,,,,,,826b88c5553a5a504f8ac5f3de60f08b
+2,42,8860e0f6f15158866f9982711f914077,/891/1090/1130/,"Pesca e caccia",,,,"04.2.3 - Pesca e caccia",,,,,,,0bb9ffc94ce0e4a44728a9eba95956f5
+2,43,c6cc8867d7efc486e58073c88ab456db,/891/1090/1131/,"Carbone ed altri combustibili solidi minerali",,,,"04.3.1 - Carbone ed altri combustibili solidi minerali",,,,,,,89945e1ffcceefcf2eed8342a96cf255
+2,44,fe736caff2343cd76912a51ebd006790,/891/1090/1132/,"Petrolio e gas naturali",,,,"04.3.2 - Petrolio e gas naturali",,,,,,,1cd520a8d5a77f84d020026470beb5b8
+2,45,90c49f46a6ccbe9e944f7907b96122f0,/891/1090/1133/,"Combustibili nucleari",,,,"04.3.3 - Combustibili nucleari",,,,,,,2879cb136fbc78839e9ac18f37a9fe16
+2,46,12a09f7632a600fa9dfb2283bfb29c4f,/891/1090/1134/,"Altri combustibili",,,,"04.3.4 - Altri combustibili",,,,,,,da5aae56b11d1cd236c2a49a0147e8f9
+2,47,e24bae3879f6fc24b4487ea58edd5399,/891/1090/1135/,"Energia elettrica",,,,"04.3.5 - Energia elettrica",,,,,,,c0bac01cdc451b52633c4e3bb5691a8f
+2,48,a6d331d2f357ea06ce5027f0e64aa857,/891/1090/1136/,"Energia non elettrica",,,,"04.3.6 - Energia non elettrica",,,,,,,a57ff7be02f256b9cbefbec532138c8f
+2,49,b9a3d08a8ee1ffa54e49c079e44e68cf,/891/1090/1137/,"Attività estrattive di minerali diversi dai combustibili",,,,"04.4.1 - Attività estrattive di minerali diversi dai combustibili",,,,,,,3660811b37abc04db7a8f29897d86239
+2,50,0d26d498e985741f10c72f571175eace,/891/1090/1138/,"Attività manifatturiere",,,,"04.4.2 - Attività manifatturiere",,,,,,,f04bab4c20a307cf79f21e23a60aadbe
+2,51,d74864b03feeef27d95c7d6163e115f9,/891/1090/1139/,"Attività edilizia",,,,"04.4.3 - Attività edilizia",,,,,,,28e6c3f59e24814e9f363a76693751bc
+2,52,dde5d856495187b146036a1185e2d4de,/891/1090/1140/,"Trasporti su strada",,,,"04.5.1 - Trasporti su strada",,,,,,,62084096b899ef70ca404a09333d0f6b
+2,53,7159a690c2d36f94687079a98b7632f7,/891/1090/1141/,"Trasporti per vie d'acqua",,,,"04.5.2 - Trasporti per vie d'acqua",,,,,,,6e3576120daf6bc04418e59acb30d988
+2,54,750b7e936728e9d6d5e8888fa59eb000,/891/1090/1142/,"Trasporti su rotaia",,,,"04.5.3 - Trasporti su rotaia",,,,,,,33546b48ad9b8447cd783517486b3775
+2,55,1f36f8ccc59e5f686163cf428578793d,/891/1090/1143/,"Trasporti aerei",,,,"04.5.4 - Trasporti aerei",,,,,,,3f2464edcccb9cd4a55d32fead6516d5
+2,56,9b497d82d02a46ee935e56405bd72549,/891/1090/1144/,"Condotte ed altri sistemi di trasporto",,,,"04.5.5 - Condotte ed altri sistemi di trasporto",,,,,,,4f31d8b0747bf59ca111476e9d149f07
+2,57,1af4ed1298a3c8b05b2c125a8e86ddd0,/891/1090/1145/,Comunicazioni,,,,"04.6.1 - Comunicazioni",,,,,,,6fac6aa5a17a3f619ef5c44ce12bf4d2
+2,58,e4c391e79b2dde268a5824c9cc6a5b6a,/891/1090/1146/,"Distribuzione commerciale; conservazione e magazzinaggio",,,,"04.7.1 - Distribuzione commerciale;conservazione e magazzinaggio",,,,,,,f21a67ca8bf27ec2981e925bccfb5831
+2,59,2120027707a303d253788e82db49eff8,/891/1090/1147/,"Alberghi e pubblici esercizi",,,,"04.7.2 - Alberghi e pubblici esercizi",,,,,,,2ba7960d3938f60af599bdb300f1f7c4
+2,60,fd4aec47ada4179d9b07d3555039545b,/891/1090/1148/,Turismo,,,,"04.7.3 - Turismo",,,,,,,722cc8c2b92fc2c9f2f9d118603d4e75
+2,61,81df8b7887ab7ded2d74e10d3eb26ba7,/891/1090/1149/,"Progetti di sviluppo plurifunzionali",,,,"04.7.4 - Progetti di sviluppo plurifunzionali",,,,,,,1213d83111fcd86b9663e49f43aff5db
+2,62,8948a86a86b5d9e4ac7bf39928bab74a,/891/1090/1150/,"R&S per gli affari generali economici; commerciali e del lavoro",,,,"04.8.1 - R&S per gli affari generali economici;commerciali e del lavoro",,,,,,,294e4a11447f7a3125377f05eace98d6
+2,63,f9f81501151241b897411acc101d29f4,/891/1090/1151/,"R&S per agricoltura; silvicoltura; pesca e caccia",,,,"04.8.2 - R&S per agricoltura;pesca e caccia;silvicoltura",,,,,,,438c2b6235ab61389f60270d080f3f58
+2,64,cc2b54896594a01b3ac91fd7f7c6eb4f,/891/1090/1152/,"R&S per combustibili ed energia",,,,"04.8.3 - R&S per combustibili ed energia",,,,,,,7db7c990bc8c55d185c50eecae92f58c
+2,65,a92fe19232ea2454ba498734123e5e39,/891/1090/1153/,"R&S per attività estrattive; manifatturiere ed edilizie",,,,"04.8.4 - R&S per attività estrattive;manifatturiere ed edilizie",,,,,,,5349888b35833d993a0bc63da66ae83e
+2,66,c47aa989c7068ae28f77f31c96632719,/891/1090/1154/,"R&S per trasporti",,,,"04.8.5 - R&S per trasporti",,,,,,,81bd51cef9d24065aec8722423e0c908
+2,67,c23ebaf9ff897d48236e405f1266f6d9,/891/1090/1155/,"R&S per comunicazioni",,,,"04.8.6 - R&S per comunicazioni",,,,,,,ee535c8edf23c33a43eaa6b9425d9783
+2,68,7c0bddb3a8060152b3010dd74247effa,/891/1090/1156/,"R&S per altri settori",,,,"04.8.7 - R&S per altri settori",,,,,,,529ad965e4ac284462a38ca43eb0019a
+2,69,e049d59ab57e49dc150219de2f0554eb,/891/1090/1157/,"Affari economici non altrove classificati",,,,"04.9.1 - Affari economici non altrove classificati",,,,,,,039d800afb1e7d639dd0e29466fc9b4d
+2,70,75034e515d35fa10b27db74b36ae95ec,/891/1090/1158/,"Trattamento dei rifiuti",,,,"05.1.1 - Trattamento dei rifiuti",,,,,,,a9875abe696edaf1e6e27670d9034bc6
+2,71,56c4ebbef1e6a14beb29b5d21a78a619,/891/1090/1159/,"Trattamento delle acque reflue",,,,"05.2.1 - Trattamento delle acque reflue",,,,,,,9a3fcd4412152dc50cabf497a4013acb
+2,72,85596e353d7ff83224ae59d475f9ed84,/891/1090/1160/,"Riduzione dell'inquinamento",,,,"05.3.1 - Riduzione dell'inquinamento",,,,,,,77c7a9ea1ef0f24ebd510323d0a56938
+2,73,ae44df3a2ee4627ca53421ba051cd5c3,/891/1090/1161/,"Protezione delle biodiversità e dei beni paesaggistici",,,,"05.4.1 - Protezione delle biodiversità e dei beni paesaggistici",,,,,,,c59c55d06361aa8e58246d6864c3da61
+2,74,94bbb6ea459cc26d851cd4785cd4c9b7,/891/1090/1162/,"Ricerca & Sviluppo per la protezione dell'ambiente",,,,"05.5.1 - Ricerca & Sviluppo per la protezione dell'ambiente",,,,,,,4d6ac27c761150e7d561da254408552b
+2,75,c4ec38ea64e16f51c108c216c5e6f90e,/891/1090/1163/,"Protezione dell'ambiente non altrove classificata",,,,"05.6.1 - Protezione dell'ambiente non altrove classificata",,,,,,,1fc908102f556c56e415c31391176e0e
+2,76,cda1d1459c33dd06d37b3b31fd86d6a9,/891/1090/1164/,"Sviluppo delle abitazioni",,,,"06.1.1 - Sviluppo delle abitazioni",,,,,,,7f4929ea6af6c64fb6fa54ddd35b8887
+2,77,f789a06cf14d3585dc0c81f5a93cf912,/891/1090/1165/,"Assetto territoriale",,,,"06.2.1 - Assetto territoriale",,,,,,,e7f44a0c7652af93d30d4ce42afc7a4a
+2,78,18d2be547b106505c60d8090ae3253ac,/891/1090/1166/,"Approvvigionamento idrico",,,,"06.3.1 - Approvvigionamento idrico",,,,,,,33d0aaa27f586ab1b893cf0c1fe581e0
+2,79,4a2e8f7dc6362829557319a884cc9463,/891/1090/1167/,"Illuminazione stradale",,,,"06.4.1 - Illuminazione stradale",,,,,,,608559bb7486de789817775f34cf22e9
+2,80,40119999755bba666e8701f256b25f8c,/891/1090/1168/,"Ricerca & Sviluppo per abitazioni e assetto territoriale",,,,"06.5.1 - Ricerca & Sviluppo per abitazioni e assetto territoriale",,,,,,,c2fcde06506f7e8b16eecf07e99d09af
+2,81,db8b2359219cee824c09b2cd6e77b439,/891/1090/1169/,"Abitazioni e assetto territoriale non altrove classificati",,,,"06.6.1 - Abitazioni e assetto territoriale non altrove classificati",,,,,,,aafff3d89102ac588281371838a4324c
+2,82,7305cf240129250806b8dcf781f61198,/891/1090/1170/,"Prodotti farmaceutici",,,,"07.1.1 - Prodotti farmaceutici",,,,,,,2934a19c31f96d4ae17fbee761223972
+2,83,65f70beb046fb89584d2bd7e6fdecd99,/891/1090/1171/,"Altri prodotti sanitari",,,,"07.1.2 - Altri prodotti sanitari",,,,,,,07aad5a4ae7ebfbe982390bea5b05761
+2,84,bdab4763736bcba4cfd8252fe4e830c1,/891/1090/1172/,"Apparecchi e attrezzature terapeutiche",,,,"07.1.3 - Apparecchi e attrezzature terapeutiche",,,,,,,b8a3d64e180efd7a07a8eb623d71546c
+2,85,5632d3e98f98e911b858cd94aa4c44bd,/891/1090/1173/,"Servizi medici generici",,,,"07.2.1 - Servizi medici generici",,,,,,,03dd2c2b78b912565cf1b67559b89abc
+2,86,556defdac1c9717f3e73fbb2163df7f3,/891/1090/1174/,"Servizi medici specialistici",,,,"07.2.2 - Servizi medici specialistici",,,,,,,23b8bd207e3ddb725bab35419e5e1b8b
+2,87,4da2ba2dba73518d859a35b2643e3757,/891/1090/1175/,"Servizi odontoiatrici",,,,"07.2.3 - Servizi odontoiatrici",,,,,,,3726d2f7ed870b91d4f82fa72f382f98
+2,88,443c5c4ff2fbe9f40dd238ac2a8fff69,/891/1090/1176/,"Servizi paramedici",,,,"07.2.4 - Servizi paramedici",,,,,,,ac71f47e2c90fe94a940ec3006bb5b54
+2,89,4e442dee6a51329a0324eb866401ea5f,/891/1090/1177/,"Servizi ospedalieri generici",,,,"07.3.1 - Servizi ospedalieri generici",,,,,,,3c3329b6c49f1dee53a34dd34636ad01
+2,90,edd8f7976bdc1ef01b94c39a9e1fd11c,/891/1090/1178/,"Servizi ospedalieri specialistici",,,,"07.3.2 - Servizi ospedalieri specialistici",,,,,,,be23184026cc14dc7f6f9d55e09f0dcb
+2,91,6ab838182086fed740b297f86c4f2caa,/891/1090/1179/,"Centri di servizi per la maternità e medici",,,,"07.3.3 - Centri di servizi per la maternità e medici",,,,,,,0e5bb605dc2f54f14bef7fe760ba2936
+2,92,3378d1ae380cdcf80d05707682ff1582,/891/1090/1180/,"Case di cura e riabilitazione",,,,"07.3.4 - Case di cura e riabilitazione",,,,,,,3f240830d494718b8b5d31fb0ff2284b
+2,93,16f2fbcbb9319d705bff5cd181d5f0d0,/891/1090/1181/,"Servizi di sanità pubblica",,,,"07.4.1 - Servizi di sanità pubblica",,,,,,,a0469a37872f88f0993e50b6c9e879ff
+2,94,1caa340de6a1913cbb537cd8d0fabf44,/891/1090/1182/,"Ricerca & Sviluppo per la sanità",,,,"07.5.1 - Ricerca & Sviluppo per la sanità",,,,,,,8eb00bff470235bd58fe2f86cee83da0
+2,95,f1b1a05ae662da9136a56726706c8cd2,/891/1090/1183/,"Sanità non altrove classificata",,,,"07.6.1 - Sanità non altrove classificata",,,,,,,7e735715606579a680407349fd029cb4
+2,96,712425596288f5f175fa56b7a6f8280f,/891/1090/1184/,"Attività ricreative",,,,"08.1.1 - Attività ricreative",,,,,,,277049f9d67b9f805d0adb8e7779009e
+2,97,660667d18fabd86fdcded6dd33cd3be7,/891/1090/1185/,"Attività culturali",,,,"08.2.1 - Attività culturali",,,,,,,af007bfb08a564ea903bf8cad20826ae
+2,98,e6ce70fc76d55b1924c651a0173e884a,/891/1090/1186/,"Servizi radiotelevisivi e di editoria",,,,"08.3.1 - Servizi radiotelevisivi e di editoria",,,,,,,e4cb7ee78fad47c1c9f5499541b802e5
+2,99,9f102bd4e296bbcb1f1ae017c450ebec,/891/1090/1187/,"Servizi di culto e altri servizi per le comunità",,,,"08.4.1 - Servizi di culto e altri servizi per le comunità",,,,,,,5b2ab67b22faeddf72761d2f2f401ba7
+2,100,bc355fe49347e50e4266650e53a81b6f,/891/1090/1188/,"Ricerca & Sviluppo per attività ricreative; culturali e di culto",,,,"08.5.1 - Ricerca & Sviluppo per attività ricreative;culturali e di culto",,,,,,,6027f7a6f856e64391126bca98cf3972
+2,101,69cbc3481c1ddb1ecb451227a6ff77bc,/891/1090/1189/,"Attività ricreative; culturali e di culto non altrove classificate",,,,"08.6.1 - Attività ricreative;culturali e di culto non altrove classificate",,,,,,,ec2761109c30455628f494ac214aac81
+2,102,ff738debcb4d3d1c86ac7a2a7fd50826,/891/1090/1190/,"Istruzione prescolastica",,,,"09.1.1 - Istruzione prescolastica",,,,,,,cfaf811eeaf7798fb0a91773b17d562a
+2,103,7eb1423069e6e7209a55574bf056d11c,/891/1090/1191/,"Istruzione primaria",,,,"09.1.2 - Istruzione primaria",,,,,,,77d0c0d2850c0e2b928c22a70e170bad
+2,104,8d08e9bc0cabe7807e65729d3d22ddf0,/891/1090/1192/,"Istruzione secondaria inferiore",,,,"09.2.1 - Istruzione secondaria inferiore",,,,,,,97d0f2ff022271b1e82b480d9e6fad5f
+2,105,fcb4f8850a3f82c742d0f31eb8e7fa41,/891/1090/1193/,"Istruzione secondaria superiore",,,,"09.2.2 - Istruzione secondaria superiore",,,,,,,5d09e484bc2bffe95d4be9bb35ac2909
+2,106,f389da63e1993d6ed08aabcfc25c53f7,/891/1090/1194/,"Istruzione postsecondaria non superiore",,,,"09.3.0 - Istruzione postsecondaria non superiore",,,,,,,33009f25ede8367c8e9e239e74b543ed
+2,107,3dee28bac46b845a4b11f61db384c5d6,/891/1090/1195/,"Primo grado di istruzione superiore",,,,"09.4.1 - Primo grado di istruzione superiore",,,,,,,15083bfee2495f31ca156f9a8405706d
+2,108,28d065e2d8fd59198090c06e6a25827a,/891/1090/1196/,"Secondo grado di istruzione superior",,,,"09.4.2 - Secondo grado di istruzione superior",,,,,,,5a923e1530b25f697e2ebb97288ac692
+2,109,b34654883401461a70e0ddfa2aed2d6c,/891/1090/1197/,"Istruzione di diverso tipo",,,,"09.5.0 - Istruzione di diverso tipo",,,,,,,3b726aecca09a2eb3534c400a527fb2a
+2,110,7f0957ce673fdc4a93bb44d29e81b247,/891/1090/1198/,"Servizi ausiliari dell'istruzione",,,,"09.6.0 - Servizi ausiliari dell'istruzione",,,,,,,234ec0e6a19a048e3c0b8d4f6093f96e
+2,111,01a8180e7fa2fee541e8cb468dc73987,/891/1090/1199/,"Ricerca & Sviluppo per l'istruzione",,,,"09.7.0 - Ricerca & Sviluppo per l'istruzione",,,,,,,62a9065346e54d5f81c4dd24c0980cad
+2,112,1f4685bbb264fe3bcb960ebfa56306d2,/891/1090/1200/,"Istruzione non altrove classificata",,,,"09.8.0 - Istruzione non altrove classificata",,,,,,,d7c9e88807a79105769e44922972b4f8
+1,113,9d9ec45ed4c9d385502a20c154942b18,/891/1201/,"legal status privato",,,,,,,,,,,7d4a2cd8091a9a2bd324d867c52bb75c
+113,114,241467d15fbdcf3e4bf51f664686ddeb,/891/1201/1202/,"Altra forma di ente privato con personalità giuridica",,,,,,,,,,,253a12b4c89f3455874c652394708e76
+113,115,063ea96ffd46b09124a9662c71d80dc2,/891/1201/1203/,"Altra forma di ente privato senza personalità giuridica",,,,,,,,,,,c109aed8453b6e5293299acb7f086f1f
+113,116,503e22f44fc153f56aa0bd0567246cda,/891/1201/1204/,"Associazione non riconosciuta",,,,,,,,,,,77ac305b82791f87ade557748945aae7
+113,117,aec3aa7df364b2979d5138c561ec5823,/891/1201/1205/,"Associazione o raggruppamento temporaneo di imprese",,,,,,,,,,,c5b73c7972c3c2ce19334bb801d9a8b1
+113,118,ad1dd19edc8b17c95066f8ec76a2615b,/891/1201/1206/,"Associazione riconosciuta",,,,,,,,,,,decfcf82a4da7dd016696aa7dc2735cd
+113,119,0478421a6c269bf36843cb6d5abcdb9a,/891/1201/1207/,"Azienda pubblica di servizi alle persone ai sensi del d.lgs n. 207/2001",,,,,,,,,,,1c0464def016ca41bbd47ef728d65933
+113,120,0531bab70a914951abad9c5aa11c3bae,/891/1201/1208/,"Azienda speciale ai sensi del t.u. 267/2000",,,,,,,,,,,b134929c7cad31e12a837cd99116e5b9
+113,121,ab2ceedf6bf42b8ce97cfb370227d0ec,/891/1201/1209/,Comitato,,,,,,,,,,,831fa35469ceb7ab63ce1dd99a51dd3f
+113,122,ec5fdf4500c97efb46dc3ce190913a28,/891/1201/1210/,Condominio,,,,,,,,,,,2bbbab11bdeb522ef43df6411f7969b4
+113,123,8d7c1b405959e601c7a52b55c792bc56,/891/1201/1211/,"Consorzio di diritto privato",,,,,,,,,,,67290b6e8d81ea264277a77b3e39bdd7
+113,124,f9e8c93cb03e4913c7b554486740de1b,/891/1201/1212/,"Ente ecclesiastico",,,,,,,,,,,f6cda6cb6a366f5a62b9834f7e073f52
+113,125,10a3bd4102f9a0e87d0d6b8c6cedad09,/891/1201/1213/,"Ente pubblico economico",,,,,,,,,,,1c40461bba28dadb796ec1ed532c62a5
+113,126,2f72a19081bd1690e660c7b846435347,/891/1201/1214/,"Fondazione bancaria",,,,,,,,,,,b619c61ab0e11b97219147e266dccbb1
+113,127,862c3faa16ebeda338a8c1eb4c804f87,/891/1201/1215/,"Fondazione (esclusa fondazione bancaria)",,,,,,,,,,,f8837184d72aa251ed3e073df6b22bd8
+113,128,2583e403ac7748329cd655c7658bf1d0,/891/1201/1216/,"Gruppo europeo di interesse economico",,,,,,,,,,,4fdc0c00b3394829742e965dcb949c17
+113,129,a6bf16445bb409eba0495fbd231d126d,/891/1201/1217/,"Imprenditore individuale agricolo",,,,,,,,,,,19d005ed1b8c2535ad42c6240f359d62
+113,130,e1a727ec9043b33cbaabc24f8f684412,/891/1201/1218/,"Imprenditore individuale non agricolo",,,,,,,,,,,c61edd6252b478d972bc45947ac778f8
+113,131,51b3b22646fb31bdeb7b5e99ba155cdd,/891/1201/1219/,"Impresa o ente privato costituito all'estero non altrimenti classificabile che svolge una attività economica in Italia",,,,,,,,,,,246f32d4d39d21545d423c585379b5aa
+113,132,619deb2517274d9ba316f0dce64b4dfb,/891/1201/1220/,"Lavoratore autonomo",,,,,,,,,,,99e8d62bc908d3213e2b2c80a93ee107
+113,133,04ace7ea3ffd70397b9fae737d0aac1a,/891/1201/1221/,"Libero professionista",,,,,,,,,,,b064e0356d86510ce97a4019f4365e59
+113,134,452929803b30815e4a550f069a576c8a,/891/1201/1222/,"Società a responsabilità limitata",,,,,,,,,,,d7fecbd10e64e8c9863875521590d729
+113,135,60b27537557f6eb04650e4d59f24c8e1,/891/1201/1223/,"Società a responsabilità limitata con un unico socio",,,,,,,,,,,981bffa682969d09ba4871e13de03fa4
+113,136,85c8e56d85f30e53ecd55b745182dd28,/891/1201/1224/,"Società consortile",,,,,,,,,,,8fd1a82afcafae84143a9481c4adc25a
+113,137,df00aa462cda7314b862bf1ef694c8f8,/891/1201/1225/,"Società cooperativa a mutualità prevalente",,,,,,,,,,,d8a2865f89eae06c5dfd54cf22b2b96b
+113,138,fb553882d9a7d61b90853b573ac9a357,/891/1201/1226/,"Società cooperativa diversa",,,,,,,,,,,5ae7b7dbe388c92e20560e2c19e61c3d
+113,139,0af837fa1744c62a336e55e4d42e1211,/891/1201/1227/,"Società cooperativa sociale",,,,,,,,,,,5c2bb509b861ec04ae5b5593ba47fdaf
+113,140,e7bb31ba0e57b1ba18d029bb15e6e7d5,/891/1201/1228/,"Società di fatto o irregolare / comunione ereditaria",,,,,,,,,,,f73df6fa28f2fb7c167550c953249efa
+113,141,d583bf181417a47a93b241e442c05827,/891/1201/1229/,"Società di mutua assicurazione",,,,,,,,,,,13f5fbd805f6af9ed7422cbb226d482a
+113,142,785dc31b5373cc9b9a8c2c7aa607a944,/891/1201/1230/,"Società di mutuo soccorso",,,,,,,,,,,b6bbeb34d91297b7c35892c73f3b0d43
+113,143,c1e5d5cbcca14b17831c5bc4161beca3,/891/1201/1231/,"Società in accomandita per azioni",,,,,,,,,,,8982227d16c3dea4be61f7b4cc339e50
+113,144,c94d0360a18c3464c323c22f2298e3da,/891/1201/1232/,"Società in accomandita semplice",,,,,,,,,,,696805f183196d14128a47fa57cb6349
+113,145,705f0bf28dafdb4e7976e716c9d186bf,/891/1201/1233/,"Società in nome collettivo",,,,,,,,,,,795f3b83e866cf065dc687cce5077d45
+113,146,1b93198bbd63e70de9f16be001937cec,/891/1201/1234/,"Società per azioni",,,,,,,,,,,a6c3871e20c8e60afb2c39fd6bc90aed
+113,147,e86e860f72d1f7cf12649c914bb34a1a,/891/1201/1235/,"Società semplice",,,,,,,,,,,b8d71680b896914f112d04344df37803
+113,148,c7eba7426aab906469dadb0706ae632f,/891/1201/1236/,"Studio associato e società di professionisti",,,,,,,,,,,f16ad5b9e7255a197b4c1aa947c546be
+1,149,239bc338697327793d0a04ea4bda3610,/891/1237/,"Legal status pubblico",,,,,,,,,,,2b6f1e1de0cbd2a9da24162b47c1ac09
+149,150,b7dc884e8964b2e75294adc9099e24d0,/891/1237/1238/,"Agenzia dello Stato",,,,,,,,,,,8af421313e8e1a5ac202a8c48752644d
+149,151,6421225ba188138947051b4134681e0c,/891/1237/1239/,"Altro ente pubblico non economico nazionale",,,,,,,,,,,f7404666d4df17b6356872b5160330fe
+149,152,10cf53f64ca36779a13f33762796d36a,/891/1237/1240/,"Archivio notarile",,,,,,,,,,,daf747a925dee1da161faad0c034f4b3
+149,153,cd8ed7f638c4ec744fc952a3d1367604,/891/1237/1241/,"Autorità indipendenti",,,,,,,,,,,75361425ea15b92c24d74466c1e95e66
+149,154,b90988a2643bcdc64233eb923028d1a1,/891/1237/1242/,"Azienda o ente del servizio sanitario nazionale",,,,,,,,,,,600abb5394b2315426cd0da91ade5cc3
+149,155,231f8bdca97edc43ca2ca4b0e381dd51,/891/1237/1243/,"Camera di commercio",,,,,,,,,,,3dda7ef1aa39f6a3d320160ffbf6aec3
+149,156,f9d53b984c511c9da53ed2e99590ca45,/891/1237/1244/,"Città metropolitana",,,,,,,,,,,4a51790714d2f2ffd2eb76bc097f7085
+149,157,067ed6be7874c59e468c81a74ee72283,/891/1237/1245/,Comune,,,,,,,,,,,e1df50145ff0d8be67b6d42f91fab654
+149,158,6e488f8477ec4d66387721c3e3ed1e2f,/891/1237/1246/,"Comunità montana o isolana",,,,,,,,,,,2513a06328a6e35a0a8650cd2395b0ef
+149,159,bb452cfbaa9e4657936d83edea48056e,/891/1237/1247/,"Consorzio di diritto pubblico",,,,,,,,,,,4a4c9a9394cb3ce8fdbed08e83347d0b
+149,160,e082b6c811fea9d07c36af170f251efb,/891/1237/1248/,"Ente ambientale regionale",,,,,,,,,,,87c9b61dce700e8772449a474cd8d207
+149,161,891e02e453df3924cb6bea132b2aff87,/891/1237/1249/,"Ente di sviluppo agricolo regionale o di altro ente locale",,,,,,,,,,,2cf803daa0c7c74ab2121905ce104669
+149,162,69d78fe68b639908f3fb7fbb34b9088c,/891/1237/1250/,"Ente o autorità portuale",,,,,,,,,,,467f2a6cfbc097f63f3119719bd56adc
+149,163,c1b0f8c8c72fb4e922917b32b880d228,/891/1237/1251/,"Ente parco",,,,,,,,,,,f2bc20b94d5b455654f9eabd70282314
+149,164,7fe913bf8dd569078cd45d8d6071c716,/891/1237/1252/,"Ente per il turismo",,,,,,,,,,,ca8d37a7d1d5755ec8e1d318275444d2
+149,165,0ca0c15b3b5135c20406762002c5edba,/891/1237/1253/,"Ente per la ricerca e per l'aggiornamento educativo",,,,,,,,,,,175467a7f215402be62124cbe0e51167
+149,166,c5a14f78d608f57d4c5f23aaaa368f80,/891/1237/1254/,"Istituto e scuola pubblica di ogni ordine e grado",,,,,,,,,,,9402cc055909d3c3231afd9be219bff1
+149,167,8cd25ce035a3db989bacf3c760a725b8,/891/1237/1255/,"Istituto o ente pubblico di ricerca",,,,,,,,,,,75f369bbbb469e4df3cc3dd1b27770ac
+149,168,a8e7b88174d76c713175cdb8a10f6159,/891/1237/1256/,"Istituto pubblico di assistenza e beneficenza",,,,,,,,,,,b0c983f4785488a7b6a23d2bf37431f3
+149,169,27519eba034ff025f6cf2192d25e13a2,/891/1237/1257/,Ministero,,,,,,,,,,,1a0288398813677fcc64aec136980695
+149,170,ad3418d96883b64a7bfa9548ad29c215,/891/1237/1258/,"Ordine e collegio professionale",,,,,,,,,,,757da5c736540a550f5a5cc1548d5af8
+149,171,613d86d32f90ee1241d03b0f57b1c140,/891/1237/1259/,"Organo costituzionale o a rilevanza costituzionale",,,,,,,,,,,c3fe34d2ce6235f4f81b69bb783d12e6
+149,172,3f111622917b1a410a4741ee1e437df6,/891/1237/1260/,"Presidenza del consiglio",,,,,,,,,,,66afe80cf7874a3b183c128449647c05
+149,173,6685d2e07988d89e20b90396e9c1999e,/891/1237/1261/,Provincia,,,,,,,,,,,c4836ef8c2be34f38ccc6b1145d086e0
+149,174,a58752a119d19d0c18f6211c1d4975ea,/891/1237/1262/,Regione,,,,,,,,,,,06a920b21e134917210954ef5c6559d5
+149,175,7767b68e92e7630c22fae81febce58a5,/891/1237/1263/,"Unione di comuni",,,,,,,,,,,5e1e816ccd39fc0212c2fe063830649b
+149,176,7f9e72c12ce72650af8dd65645bc0b3d,/891/1237/1264/,"Università pubblica",,,,,,,,,,,1e5235be99b490b2fb66f927c27b8de0
+1,177,1f2bad5a6b014c8762bf9272d4e28501,/891/1265/,"Tipo di struttura organizzativa",,,,,,,,,,,c7eaabb68782c9391cabad882dc13f70
+177,178,1227c1bef6b787b8ac584f3806c6a167,/891/1265/1266/,"Struttura politica",,,,,,,,,,,ff87dd9ebd3c2075db1e305d3915465b
+178,179,971b931cdc5ab7ca1e1fffacd4618fa2,/891/1265/1266/1267/,"Giunta comunale",,,,,,,,,,,bb9a677b0e63bab3d20cd16fefdf4c0b
+178,180,e2adf022d01f42728bb31d352da5c284,/891/1265/1266/1268/,"Consiglio comunale",,,,,,,,,,,f19fbcf088ab95e24933daad4cd94f5e
+178,181,ab9a78c723de518d46ce21d032f69ee4,/891/1265/1266/1269/,Commissione,,,,,,,,,,,10f8a52b8a3fe4c4afedd6a576a8a7b6
+177,182,b15ce8508aef86765e81cd66f685758c,/891/1265/1270/,"Altra struttura",,,,,,,,,,,d439af8a6f6af6234834a9e38a65dfd7
+182,183,71e8bab82b84d8a3a247acfc7078e6bc,/891/1265/1270/1271/,"Azienda municipalizzata",,,,,,,,,,,7452e152ad13ca469d63f582ecfc3d93
+182,184,1eba7f7df583830bbf334fd3ca92cbfa,/891/1265/1270/1272/,Biblioteca,,,,,,,,,,,999816d7a617e650c796109566e1337c
+182,185,a3e7ad377cf0116964807382f812091e,/891/1265/1270/1273/,"Centro culturale",,,,,,,,,,,cb105f56f6c910810921f9dc30a5397f
+182,186,759d37d35bb0e87bfeb6648ac1d98af2,/891/1265/1270/1274/,Ente,,,,,,,,,,,46a991394b46157bb5d369914b54cd58
+182,187,9166321af67278a83fff909ac6cb51f0,/891/1265/1270/1275/,Fondazione,,,,,,,,,,,c688e7a69c804c83b431a565ca0a1849
+182,188,b3ae3ee70842907974b8fc0dcc797b09,/891/1265/1270/1276/,Museo,,,,,,,,,,,cae4e61c54d11d62d7395e2c172b20d9
+182,189,e7f88dce317bfc2f08c8a3917be8841f,/891/1265/1270/1277/,Scuola,,,,,,,,,,,042d8c40f9cc56f8ccb7978799c91321
+177,190,d2a46e44a1634e5108ed4c9b40fd84a1,/891/1265/1278/,"Struttura amministrativa",,,,,,,,,,,5fdd557554ed0c21c1b4bab983b8b1da
+190,191,bd177d065ac1ed3bc06a911d58d326b3,/891/1265/1278/1279/,Area,,,,,,,,,,,deec4ff19974f12ed781cb9a59064214
+190,192,ffa0db96c3ef447ae77164593a07b499,/891/1265/1278/1280/,Ufficio,,,,,,,,,,,d5206603c52c16df2727bec2ec463c3d
+1,193,577bb3b6653a31d30936b2135c565156,/891/1281/,"Tipologia di punti di contatto",,,,,,,,,,,a99eff1d510df035ae4b5884e36a6433
+193,194,ce20b391fb9a6abcaa617cd2e6ee00b0,/891/1281/1282/,Amministrazione,,,,,,,,,,,a72ab84f434535ec00467f00acd01bc2
+193,195,7944b0fd4a74cdc3ceb3bfe07a46c115,/891/1281/1283/,Segreteria,,,,,,,,,,,595dbe41aba1a169b19182f1e5125f21
+193,196,1efc11e3ea793a8bf1e593e091e6ce79,/891/1281/1284/,"Supporto specialistico",,,,,,,,,,,fb4269cb222a967b3f33d215a8c21935
+1,197,1c13f942dc00d970bc26a26cf2fcaa06,/891/892/,"Legal status privato",,,,,,,,,,,36ba31e1b868c937f82276cc4c09869c
+197,198,2bd40d7d58117c372dceed619dcca1ec,/891/892/893/,"Altra forma di ente privato con personalità giuridica",,,,,,,,,,,253a12b4c89f3455874c652394708e76
+197,199,0d58ed52265f431a872923dcdc23bce6,/891/892/894/,"Altra forma di ente privato senza personalità giuridica",,,,,,,,,,,c109aed8453b6e5293299acb7f086f1f
+197,200,83b7a5df4cdb0b2e35290198ca916f5a,/891/892/895/,"Associazione non riconosciuta",,,,,,,,,,,77ac305b82791f87ade557748945aae7
+197,201,954f29e860ee648fdf1aecd03aa0150e,/891/892/896/,"Associazione o raggruppamento temporaneo di imprese",,,,,,,,,,,c5b73c7972c3c2ce19334bb801d9a8b1
+197,202,c5a5515a5c9ece7b76d6dccd12d37e4f,/891/892/897/,"Associazione riconosciuta",,,,,,,,,,,decfcf82a4da7dd016696aa7dc2735cd
+197,203,580be675949848af689738fa2286daea,/891/892/898/,"Azienda pubblica di servizi alle persone ai sensi del d.lgs n. 207/2001",,,,,,,,,,,1c0464def016ca41bbd47ef728d65933
+197,204,0286be0ebe79a7a35ddf0125574e879d,/891/892/899/,"Azienda speciale ai sensi del t.u. 267/2000",,,,,,,,,,,b134929c7cad31e12a837cd99116e5b9
+197,205,70757cbec78ea1067707976a25a3d061,/891/892/900/,Comitato,,,,,,,,,,,831fa35469ceb7ab63ce1dd99a51dd3f
+197,206,451149cea694357e1c393b9524d34f57,/891/892/901/,Condominio,,,,,,,,,,,2bbbab11bdeb522ef43df6411f7969b4
+197,207,5218d10378182c797cda3e5643268b96,/891/892/902/,"Consorzio di diritto privato",,,,,,,,,,,67290b6e8d81ea264277a77b3e39bdd7
+197,208,0526fe900fc769e19bbd75881211aace,/891/892/903/,"Ente ecclesiastico",,,,,,,,,,,f6cda6cb6a366f5a62b9834f7e073f52
+197,209,01710673eedf2dcb0e16495afdbb0dab,/891/892/904/,"Ente pubblico economico",,,,,,,,,,,1c40461bba28dadb796ec1ed532c62a5
+197,210,00abe219348fc08b3a118d87ec0f1bb0,/891/892/905/,"Fondazione bancaria",,,,,,,,,,,b619c61ab0e11b97219147e266dccbb1
+197,211,13600e6e4aaa9a7f5f50d28ca9423595,/891/892/906/,"Fondazione (esclusa fondazione bancaria)",,,,,,,,,,,f8837184d72aa251ed3e073df6b22bd8
+197,212,a9a738b65053348944bc84ef463d8136,/891/892/907/,"Gruppo europeo di interesse economico",,,,,,,,,,,4fdc0c00b3394829742e965dcb949c17
+197,213,5a5261427f0b81abcac9688e67130ceb,/891/892/908/,"Imprenditore individuale agricolo",,,,,,,,,,,19d005ed1b8c2535ad42c6240f359d62
+197,214,55da3212cf3a6d036cdde753cffbcb13,/891/892/909/,"Imprenditore individuale non agricolo",,,,,,,,,,,c61edd6252b478d972bc45947ac778f8
+197,215,67099b89940de995bc8f651ed948c40d,/891/892/910/,"Impresa o ente privato costituito all'estero non altrimenti classificabile che svolge una attività economica in Italia",,,,,,,,,,,246f32d4d39d21545d423c585379b5aa
+197,216,cdf5ad08b62eda33ed0f93c2d6660b45,/891/892/911/,"Lavoratore autonomo",,,,,,,,,,,99e8d62bc908d3213e2b2c80a93ee107
+197,217,23fbe31b6542f27d29700fd6c014dee5,/891/892/912/,"Libero professionista",,,,,,,,,,,b064e0356d86510ce97a4019f4365e59
+197,218,184314c9ed443b73637844917ffdb03f,/891/892/913/,"Società a responsabilità limitata",,,,,,,,,,,d7fecbd10e64e8c9863875521590d729
+197,219,6a854faa3c56d2587c847b54a84117b0,/891/892/914/,"Società a responsabilità limitata con un unico socio",,,,,,,,,,,981bffa682969d09ba4871e13de03fa4
+197,220,9a8ed6cd822f4b32d5082015ffdf79b1,/891/892/915/,"Società consortile",,,,,,,,,,,8fd1a82afcafae84143a9481c4adc25a
+197,221,37d8593f3c4819d93186e844e18b8698,/891/892/916/,"Società cooperativa a mutualità prevalente",,,,,,,,,,,d8a2865f89eae06c5dfd54cf22b2b96b
+197,222,727a865c5d188bd2d86c5f41b4932e8e,/891/892/917/,"Società cooperativa diversa",,,,,,,,,,,5ae7b7dbe388c92e20560e2c19e61c3d
+197,223,f7fa11d8e3f7aaa24a62b91bd8d0bbb9,/891/892/918/,"Società cooperativa sociale",,,,,,,,,,,5c2bb509b861ec04ae5b5593ba47fdaf
+197,224,c7efcdb8361104396dfc155c91221f25,/891/892/919/,"Società di fatto o irregolare / comunione ereditaria",,,,,,,,,,,f73df6fa28f2fb7c167550c953249efa
+197,225,165d3950b03f2ba204b5b3540e121ad4,/891/892/920/,"Società di mutua assicurazione",,,,,,,,,,,13f5fbd805f6af9ed7422cbb226d482a
+197,226,3193c7853df6594617d0ed5ec620d669,/891/892/921/,"Società di mutuo soccorso",,,,,,,,,,,b6bbeb34d91297b7c35892c73f3b0d43
+197,227,a4be31ac1da2171939e8fe1be052d690,/891/892/922/,"Società in accomandita per azioni",,,,,,,,,,,8982227d16c3dea4be61f7b4cc339e50
+197,228,e166f6191fa2152492cdfc180d232f41,/891/892/923/,"Società in accomandita semplice",,,,,,,,,,,696805f183196d14128a47fa57cb6349
+197,229,d8ad23c830f43593a282544ac43510c4,/891/892/924/,"Società in nome collettivo",,,,,,,,,,,795f3b83e866cf065dc687cce5077d45
+197,230,60912072a631df684a80f2fa2e0639a0,/891/892/925/,"Società per azioni",,,,,,,,,,,a6c3871e20c8e60afb2c39fd6bc90aed
+197,231,9a4a506f82767879f3f700c91b0d4ecb,/891/892/926/,"Società semplice",,,,,,,,,,,b8d71680b896914f112d04344df37803
+197,232,7b87020da827e0c6d1f01eabf518479b,/891/892/927/,"Studio associato e società di professionisti",,,,,,,,,,,f16ad5b9e7255a197b4c1aa947c546be
+1,233,8cb7c2dbde95e4d1087ec2f3a629dbee,/891/928/,"Tipo di organizzazione privata (ATECO)",,,,,,,,,,,38a4310d36b837b2ef47217175ce0d88
+233,234,"ateco-2007/ L",/891/928/1005/,"attività immobiliari - L",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ L",,,,,,,,,9cfed6db9089e211ad037ed9d14ec0e7
+234,235,ateco-2007/68,/891/928/1005/1006/,"attività immobiliari - 68",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/68,,,,,,,,,faf1a688c9614087909d8c2bdad68ae6
+234,236,"ateco-2007/ 6810",/891/928/1005/1007/,"compravendita di beni immobili effettuata su beni propri - 68.10",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 6810",,,,,,,,,c270691b4c01dcce169e9d18b12f81ee
+234,237,ateco-2007/682,/891/928/1005/1008/,"affitto e gestione di immobili di proprietà o in leasing - 68.2",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/682,,,,,,,,,14fd3b38bdd005da2b7a83290e96b951
+234,238,ateco-2007/683,/891/928/1005/1009/,"attività immobiliari per conto terzi - 68.3",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/683,,,,,,,,,79b9e067b1b930118891b18f6f0b1347
+233,239,"ateco-2007/ M",/891/928/1010/,"attività professionali, scientifiche e tecniche - M",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ M",,,,,,,,,aa2234f927608508bf78d817463071ab
+239,240,ateco-2007/69,/891/928/1010/1011/,"attività legali e contabilità - 69",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/69,,,,,,,,,b6041e6497bfcd4b2229cecf24e042d2
+239,241,"ateco-2007/ 6920",/891/928/1010/1012/,"contabilità, controllo e revisione contabile, consulenza in materia fiscale e del lavoro - 69.20",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 6920",,,,,,,,,d8569ea1ce9e9b4474d748c8621e8674
+239,242,ateco-2007/71,/891/928/1010/1013/,"attività degli studi di architettura e d'ingegneria; collaudi ed analisi tecniche - 71",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/71,,,,,,,,,0c9603efd0e603c32ed59377f857739c
+239,243,ateco-2007/711,/891/928/1010/1014/,"attività degli studi di architettura, ingegneria ed altri studi tecnici - 71.1",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/711,,,,,,,,,fe69a0c8e247775ca260755a88522a73
+239,244,ateco-2007/712,/891/928/1010/1015/,"collaudi ed analisi tecniche - 71.2",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/712,,,,,,,,,cc8f15ec2635e5ccfd3b995174c56df1
+233,245,"ateco-2007/ N",/891/928/1016/,"noleggio, agenzie di viaggio, servizi di supporto alle imprese - N",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ N",,,,,,,,,a5c258ebcd6e6fd00c0087bf497ddd71
+245,246,ateco-2007/77,/891/928/1016/1017/,"attività di noleggio e leasing operativo - 77",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/77,,,,,,,,,c38270e5f7ae197be616bd94670293d8
+245,247,ateco-2007/771,/891/928/1016/1018/,"noleggio di autoveicoli - 77.1",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/771,,,,,,,,,42d7ae14f6e4202bbc7905be2379d6c3
+245,248,ateco-2007/772,/891/928/1016/1019/,"noleggio di beni per uso personale e per la casa - 77.2",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/772,,,,,,,,,3343bdec2c01bf7c1db60a4711afaad4
+245,249,ateco-2007/773,/891/928/1016/1020/,"noleggio di altre macchine, attrezzature e beni materiali - 77.3",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/773,,,,,,,,,9daa8033e27e1c66cfe8fe41e54f7636
+245,250,ateco-2007/774,/891/928/1016/1021/,"concessione dei diritti di sfruttamento di proprietà intellettuale e prodotti simili (escluse le opere protette dal copyright) - 77.4",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/774,,,,,,,,,8b03950d8b645c6f2f3c51c89dde660d
+245,251,ateco-2007/78,/891/928/1016/1022/,"attività di ricerca, selezione, fornitura di personale - 78",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/78,,,,,,,,,704c9e53c04781161dcc787b235b857b
+245,252,ateco-2007/81,/891/928/1016/1023/,"attività di servizi per edifici e paesaggio - 81",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/81,,,,,,,,,92321d322ec9ac7143e0fcc5a3fa902d
+245,253,ateco-2007/811,/891/928/1016/1024/,"servizi integrati di gestione agli edifici - 81.1",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/811,,,,,,,,,c6c075106ad28f6e0e69e738e33525bc
+245,254,ateco-2007/812,/891/928/1016/1025/,"attività di pulizia e disinfestazione - 81.2",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/812,,,,,,,,,bcad30d761953a9c0bfa9d46beda18b5
+245,255,ateco-2007/813,/891/928/1016/1026/,"cura e manutenzione del paesaggio - 81.3",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/813,,,,,,,,,8b6e5b60e784381381e12bdb4bf0df9e
+245,256,ateco-2007/823,/891/928/1016/1027/,"organizzazione di convegni e fiere - 82.3",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/823,,,,,,,,,e0b5d6c990b98b0541fefe3831497945
+233,257,"ateco-2007/ O",/891/928/1028/,"amministrazione pubblica e difesa; assicurazione sociale obbligatoria - O",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ O",,,,,,,,,b9fdb880a2dfc887d2efaec1e96e03e0
+257,258,ateco-2007/84,/891/928/1028/1029/,"amministrazione pubblica e difesa; assicurazione sociale obbligatoria - 84",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/84,,,,,,,,,47ec6bc00fee7fc02b7eaddb01e93446
+257,259,ateco-2007/841,/891/928/1028/1030/,"amministrazione pubblica: amministrazione generale, economica e sociale - 84.1",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/841,,,,,,,,,f16182518cadf809c29e25bc2d438dc0
+257,260,ateco-2007/8411,/891/928/1028/1031/,"attività generali di amministrazione pubblica - 84.11",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/8411,,,,,,,,,429044c5b640e549f79570562b47e010
+257,261,"ateco-2007/ 84111",/891/928/1028/1032/,"attività degli organi legislativi ed esecutivi, centrali e locali; amministrazione finanziaria; amministrazioni regionali, provinciali e comunali - 84.11.1",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 84111",,,,,,,,,171b88b5e1348f9fb1f53e6e99cad028
+257,262,"ateco-2007/ 84112",/891/928/1028/1033/,"attività di pianificazione generale e servizi statistici generali - 84.11.2",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 84112",,,,,,,,,8d62e7cdb5cd51c5002668e3832891ce
+257,263,ateco-2007/8412,/891/928/1028/1034/,"regolamentazione delle attività relative alla fornitura di servizi di assistenza sanitaria, dell'istruzione, di servizi culturali e ad altri servizi sociali (esclusa l'assicurazione sociale obbligatoria) - 84.12",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/8412,,,,,,,,,79c78fde7178231049e6baf695b0db39
+257,264,"ateco-2007/ 84121",/891/928/1028/1035/,"regolamentazione dell'attività degli organismi preposti alla sanità - 84.12.1",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 84121",,,,,,,,,2aeaed006d1de29e334926d9bf542fad
+257,265,"ateco-2007/ 84122",/891/928/1028/1036/,"regolamentazione dell'attività degli organismi preposti all'istruzione - 84.12.2",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 84122",,,,,,,,,c16b2bb43461d9c6d0f2856218e98be8
+257,266,"ateco-2007/ 84123",/891/928/1028/1037/,"regolamentazione dell'attività degli organismi preposti alla gestione di progetti per l'edilizia abitativa e l'assetto del territorio e per la tutela dell'ambiente - 84.12.3",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 84123",,,,,,,,,cfb9103283745812071f811b78719eeb
+257,267,"ateco-2007/ 84124",/891/928/1028/1038/,"regolamentazione dell'attività degli organismi preposti ai servizi ricreativi, culturali e sociali vari - 84.12.4",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 84124",,,,,,,,,29178a85545add4723378ace17bae85f
+257,268,ateco-2007/8413,/891/928/1028/1039/,"regolamentazione delle attività che contribuiscono ad una più efficiente gestione delle attività economiche - 84.13",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/8413,,,,,,,,,17721237cc5398bec6d7b6814c33be4a
+257,269,"ateco-2007/ 84131",/891/928/1028/1040/,"regolamentazione degli affari concernenti i combustibili e l'energia - 84.13.1",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 84131",,,,,,,,,1ad5a51916ab24133846c80472b257d9
+257,270,"ateco-2007/ 84132",/891/928/1028/1041/,"regolamentazione degli affari e servizi concernenti l'agricoltura, silvicoltura, caccia e pesca - 84.13.2",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 84132",,,,,,,,,02258018530d77c650bc39bfff7317f0
+257,271,"ateco-2007/ 84134",/891/928/1028/1042/,"regolamentazione degli affari e servizi concernenti la costruzione di strade - 84.13.4",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 84134",,,,,,,,,2cd4f42e5039f91b5ee119158020fab3
+257,272,"ateco-2007/ 84135",/891/928/1028/1043/,"regolamentazione degli affari e servizi concernenti la costruzione di opere per la navigazione interna e marittima - 84.13.5",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 84135",,,,,,,,,474d70e1f41c1775f7f524030df2d373
+257,273,"ateco-2007/ 84136",/891/928/1028/1044/,"regolamentazione degli affari e servizi concernenti i trasporti e le comunicazioni - 84.13.6",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 84136",,,,,,,,,f55dbf2a2f0418d52ae420162442c2e4
+257,274,"ateco-2007/ 84137",/891/928/1028/1045/,"regolamentazione degli affari e servizi concernenti il commercio interno - 84.13.7",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 84137",,,,,,,,,4cee316f5517c8029d70a5de97aa8cb2
+257,275,"ateco-2007/ 84138",/891/928/1028/1046/,"regolamentazione degli affari e servizi concernenti il turismo - 84.13.8",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 84138",,,,,,,,,81f8d706bdf36af0ae31dbfd8b90b41a
+257,276,"ateco-2007/ 84139",/891/928/1028/1047/,"regolamentazione di altri affari e servizi economici - 84.13.9",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 84139",,,,,,,,,0c8494d6df198a536789318fc965e4c5
+257,277,ateco-2007/8423,/891/928/1028/1048/,"giustizia ed attività giudiziarie - 84.23",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/8423,,,,,,,,,f92cd90e2088f83d75a4e6007c70045c
+257,278,ateco-2007/8424,/891/928/1028/1049/,"ordine pubblico e sicurezza nazionale - 84.24",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/8424,,,,,,,,,7aeaf55b6cdcdb6b318115c62b958066
+233,279,"ateco-2007/ P",/891/928/1050/,"istruzione - P",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ P",,,,,,,,,89d0a2500cc3702ec7eea54c0072e348
+279,280,ateco-2007/85,/891/928/1050/1051/,"istruzione - 85",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/85,,,,,,,,,8896e91667fcaf2547231990f3f31ea2
+279,281,ateco-2007/851,/891/928/1050/1052/,"istruzione prescolastica - 85.1",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/851,,,,,,,,,0d44fac63e63e2dc2eb0093fc4bbaa6e
+279,282,ateco-2007/852,/891/928/1050/1053/,"istruzione primaria - 85.2",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/852,,,,,,,,,1dc7e71fb6504b1493bb6db23affd2a8
+279,283,ateco-2007/853,/891/928/1050/1054/,"istruzione secondaria - 85.3",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/853,,,,,,,,,ffb14ee39f786569942cbd4df60be742
+233,284,"ateco-2007/ Q",/891/928/1055/,"sanità e assistenza sociale - Q",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ Q",,,,,,,,,e8562935bdcc7c78f89c1c25dec01d2c
+284,285,ateco-2007/86,/891/928/1055/1056/,"assistenza sanitaria - 86",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/86,,,,,,,,,b6039de7409aba671582810fe420a5b7
+284,286,ateco-2007/87,/891/928/1055/1057/,"servizi di assistenza sociale residenziale - 87",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/87,,,,,,,,,ca6dcafa38f02eb545ab728f0e38cbec
+284,287,"ateco-2007/ 8710",/891/928/1055/1058/,"strutture di assistenza infermieristica residenziale - 87.10",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 8710",,,,,,,,,3bae0f5dc54e23e417de678835232b95
+284,288,"ateco-2007/ 8720",/891/928/1055/1059/,"strutture di assistenza residenziale per persone affette da ritardi mentali, disturbi mentali o che abusano di sostanze stupefacenti - 87.20",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 8720",,,,,,,,,a13e95ff0d183e7e31e90137bb04b9b5
+284,289,"ateco-2007/ 8730",/891/928/1055/1060/,"strutture di assistenza residenziale per anziani e disabili - 87.30",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 8730",,,,,,,,,fd99bb9d50e20ff2a8ca52da07117a2a
+284,290,"ateco-2007/ 8790",/891/928/1055/1061/,"altre strutture di assistenza sociale residenziale - 87.90",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 8790",,,,,,,,,b31db5d5417b2ace0e51aa5b4b52e486
+284,291,ateco-2007/88,/891/928/1055/1062/,"assistenza sociale non residenziale - 88",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/88,,,,,,,,,b0e0caed3ef728cb4659467170320ec9
+284,292,"ateco-2007/ 8810",/891/928/1055/1063/,"assistenza sociale non residenziale per anziani e disabili - 88.10",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 8810",,,,,,,,,25ebad88f8d855cc9ab0f4ae62c0a5e6
+284,293,ateco-2007/8891,/891/928/1055/1064/,"servizi di asili nido; assistenza diurna per minori disabili - 88.91",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/8891,,,,,,,,,0e3a5b5e781512db65618282c5d4809a
+284,294,ateco-2007/8899,/891/928/1055/1065/,"altre attività di assistenza sociale non residenziale n.c.a. - 88.99",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/8899,,,,,,,,,99171733e0c83f5cc7e37a584439ff4a
+233,295,"ateco-2007/ R",/891/928/1066/,"attività artistiche, sportive, di intrattenimento e divertimento - R",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ R",,,,,,,,,874b20f7f3dd4bea70279e809009982a
+295,296,"ateco-2007/ 90",/891/928/1066/1067/,"attività creative, artistiche e di intrattenimento - 90",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 90",,,,,,,,,adf61027ce3bcd5863d685bd35ddd473
+295,297,ateco-2007/91,/891/928/1066/1068/,"attività di biblioteche, archivi, musei ed altre attività culturali - 91",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/91,,,,,,,,,a9d8deb5beb0f4320f0e474ea23cb327
+295,298,"ateco-2007/ 9101",/891/928/1066/1069/,"attività di biblioteche ed archivi - 91.01",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 9101",,,,,,,,,51622c9576f72c999a56de53451cec6f
+295,299,"ateco-2007/ 9102",/891/928/1066/1070/,"attività di musei - 91.02",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 9102",,,,,,,,,c0c02e3454e441dc9f0fd87b130e4535
+295,300,"ateco-2007/ 9103",/891/928/1066/1071/,"gestione di luoghi e monumenti storici e attrazioni simili - 91.03",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 9103",,,,,,,,,a530a57bf76772f5a88b07270a3dd728
+295,301,"ateco-2007/ 9104",/891/928/1066/1072/,"attività degli orti botanici, dei giardini zoologici e delle riserve naturali - 91.04",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 9104",,,,,,,,,3763a0f569f96ffe8c99bb843112f2d6
+295,302,ateco-2007/92,/891/928/1066/1073/,"attività riguardanti le lotterie, le scommesse, le case da gioco - 92",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/92,,,,,,,,,d9e1bdb8f3a5735bc563ff8a895db3c8
+295,303,ateco-2007/93,/891/928/1066/1074/,"attività sportive, di intrattenimento e di divertimento - 93",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/93,,,,,,,,,907bc9c82b08e7095cb47b0e2983dfe9
+295,304,ateco-2007/931,/891/928/1066/1075/,"attività sportive - 93.1",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/931,,,,,,,,,c295e891e89dca730e34f7a9c024891c
+295,305,ateco-2007/9311,/891/928/1066/1076/,"gestione di impianti sportivi - 93.11",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/9311,,,,,,,,,e67cac4ba477c5f210211583e015a69c
+295,306,ateco-2007/9312,/891/928/1066/1077/,"attività di club sportivi - 93.12",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/9312,,,,,,,,,5ef190b1c4dcad64f00881b467c1142b
+295,307,ateco-2007/9313,/891/928/1066/1078/,"palestre - 93.13",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/9313,,,,,,,,,fe523bc55b965871f90ff0e2132b66df
+295,308,ateco-2007/9319,/891/928/1066/1079/,"altre attività sportive - 93.19",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/9319,,,,,,,,,80b855ae2876db1cf3b73011e4227478
+295,309,ateco-2007/932,/891/928/1066/1080/,"attività ricreative e di divertimento - 93.2",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/932,,,,,,,,,8655797483c06f2580a2ad7a1bc5996e
+233,310,"ateco-2007/ S",/891/928/1081/,"altre attività di servizi - S",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ S",,,,,,,,,38ab8bf8249b95a5b17e6e7cd54baa82
+310,311,ateco-2007/94,/891/928/1081/1082/,"attività di organizzazioni associative - 94",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/94,,,,,,,,,4508a2f91256316b19ddcfbbf39bdf13
+310,312,ateco-2007/9411,/891/928/1081/1083/,"attività di organizzazioni economiche e di datori di lavoro - 94.11",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/9411,,,,,,,,,3274ef0b1639940011d98be510c4590b
+310,313,ateco-2007/9412,/891/928/1081/1084/,"attività di organizzazioni associative professionali - 94.12",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/9412,,,,,,,,,42e24547bff995bf3f8bd34e4ba342fc
+310,314,ateco-2007/949,/891/928/1081/1085/,"attività di altre organizzazioni associative - 94.9",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/949,,,,,,,,,136c66cd06687daca283c0904909b32a
+310,315,ateco-2007/96,/891/928/1081/1086/,"altre attività di servizi per la persona - 96",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/96,,,,,,,,,957ed00131e3cfe68219a3fbb769a07b
+310,316,"ateco-2007/ 9603",/891/928/1081/1087/,"servizi di pompe funebri e attività connesse - 96.03",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 9603",,,,,,,,,0f05c4bb91b7d795a832a067e223749a
+310,317,"ateco-2007/ 9604",/891/928/1081/1088/,"servizi dei centri per il benessere fisico - 96.04",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 9604",,,,,,,,,2dfc3d16745e603c9fedede327b0833c
+310,318,"ateco-2007/ 9609",/891/928/1081/1089/,"attività di servizi per la persona n.c.a. - 96.09",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 9609",,,,,,,,,6231e99c549a8a6a587550ff8f94d6e2
+233,319,"ateco-2007/ A",/891/928/929/,"agricoltura, silvicoltura e pesca - A",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ A",,,,,,,,,07aeb92f67805a44e5340633cd5ad8df
+319,320,"ateco-2007/ 01",/891/928/929/930/,"coltivazioni agricole e produzione di prodotti animali, caccia e servizi connessi - 01",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 01",,,,,,,,,2eed5c49b20cb0630478904f235f6d96
+319,321,"ateco-2007/ 011",/891/928/929/931/,"coltivazione di colture agricole non permanenti - 01.1",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 011",,,,,,,,,c411b59e93b384ae4bc4a9dd67f3ab3a
+319,322,"ateco-2007/ 012",/891/928/929/932/,"coltivazione di colture permanenti - 01.2",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 012",,,,,,,,,1154ff13ac885a21a3c64493ce5c4733
+319,323,"ateco-2007/ 017",/891/928/929/933/,"caccia, cattura di animali e servizi connessi - 01.7",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 017",,,,,,,,,801b153df0e0f9ba16b84868106ccb43
+319,324,"ateco-2007/ 02",/891/928/929/934/,"silvicoltura ed utilizzo di aree forestali - 02",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 02",,,,,,,,,d2556da4441af85048a6ada2563c2cbd
+319,325,"ateco-2007/ 0210",/891/928/929/935/,"silvicoltura ed altre attività forestali - 02.10",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 0210",,,,,,,,,b93fd3b0a2eb504a9a8359d0c777203a
+319,326,"ateco-2007/ 0220",/891/928/929/936/,"utilizzo di aree forestali - 02.20",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 0220",,,,,,,,,6747ac81543d306777c42c581bfd0d19
+319,327,"ateco-2007/ 0230",/891/928/929/937/,"raccolta di prodotti selvatici non legnosi - 02.30",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 0230",,,,,,,,,4fef58350590c514ccb524a5801aae52
+319,328,"ateco-2007/ 0240",/891/928/929/938/,"servizi di supporto per la silvicoltura - 02.40",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 0240",,,,,,,,,591d8c46da71fb03bc43e159f3b1200e
+319,329,"ateco-2007/ 03",/891/928/929/939/,"pesca e acquacoltura - 03",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 03",,,,,,,,,2a26b1fc490ee2f86f320299d6839bb8
+319,330,"ateco-2007/ 031",/891/928/929/940/,"pesca - 03.1",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 031",,,,,,,,,98a39d384243eb2c3e42bc4bf90d8953
+319,331,"ateco-2007/ 032",/891/928/929/941/,"acquacoltura - 03.2",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 032",,,,,,,,,e6486eecd9a565ba4bc5e4a20947462f
+233,332,"ateco-2007/ B",/891/928/942/,"estrazione di minerali da cave e miniere - B",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ B",,,,,,,,,82b5424ec12c4134f08de1610bde8f5d
+332,333,"ateco-2007/ 06",/891/928/942/943/,"estrazione di petrolio greggio e di gas naturale - 06",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 06",,,,,,,,,3add75b44cbaa26c408dc8b71ac04b92
+332,334,"ateco-2007/ 07",/891/928/942/944/,"estrazione di minerali metalliferi - 07",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 07",,,,,,,,,73e504b8332146b8ea4bf494705061ad
+332,335,"ateco-2007/ 08",/891/928/942/945/,"altre attività di estrazione di minerali da cave e miniere - 08",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 08",,,,,,,,,ee816bf03f05d8bf3e4768a4e394896a
+332,336,"ateco-2007/ 081",/891/928/942/946/,"estrazione di pietra, sabbia e argilla - 08.1",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 081",,,,,,,,,eca86523f3757d6a3ae9bf33d175f64b
+332,337,"ateco-2007/ 089",/891/928/942/947/,"estrazione di minerali da cave e miniere n.c.a. - 08.9",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 089",,,,,,,,,6ebdf4c19400364f120f4ad80a656518
+332,338,"ateco-2007/ 09",/891/928/942/948/,"attività dei servizi di supporto all'estrazione - 09",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 09",,,,,,,,,83bc3cd7c1b5230cc1d5de05fa46c416
+233,339,"ateco-2007/ C",/891/928/949/,"attività manifatturiere - C",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ C",,,,,,,,,0e1e2e2b83e374c05ee53ef572fabdd7
+339,340,"ateco-2007/ 10",/891/928/949/950/,"industrie alimentari - 10",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 10",,,,,,,,,462afc4812c1ceec0126444ebbf47c68
+233,341,"ateco-2007/ D",/891/928/951/,"fornitura di energia elettrica, gas, vapore e aria condizionata - D",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ D",,,,,,,,,71ba2ceb1ee5e1fe50e3a9363b7feb3a
+341,342,ateco-2007/35,/891/928/951/952/,"fornitura di energia elettrica, gas, vapore e aria condizionata - 35",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/35,,,,,,,,,cbc976a3ac7cfa02a4c30cb9a2ea74ca
+233,343,"ateco-2007/ E",/891/928/953/,"fornitura di acqua; reti fognarie, attività di gestione dei rifiuti e risanamento - E",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ E",,,,,,,,,23cb1ba3576b4f53de34a1724bfe7498
+343,344,"ateco-2007/ 3600",/891/928/953/954/,"raccolta, trattamento e fornitura di acqua - 36.00",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 3600",,,,,,,,,02758b1188235079c5f703ec042ab5c9
+343,345,"ateco-2007/ 3700",/891/928/953/955/,"gestione delle reti fognarie - 37.00",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 3700",,,,,,,,,ce61d4049757f62bf54aa887e1409def
+343,346,ateco-2007/38,/891/928/953/956/,"attività di raccolta, trattamento e smaltimento dei rifiuti; recupero dei materiali - 38",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/38,,,,,,,,,0a193b9478808216d2be5b16a6e8a5db
+343,347,ateco-2007/381,/891/928/953/957/,"raccolta dei rifiuti - 38.1",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/381,,,,,,,,,a6194b03289b67c605f1dcd3fa9e3dac
+343,348,ateco-2007/382,/891/928/953/958/,"trattamento e smaltimento dei rifiuti - 38.2",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/382,,,,,,,,,f207d81db810936cb8f95a1d0d8f1194
+343,349,ateco-2007/383,/891/928/953/959/,"recupero dei materiali - 38.3",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/383,,,,,,,,,06298454e37523b4c36b69713ed655b7
+343,350,ateco-2007/39,/891/928/953/960/,"attività di risanamento e altri servizi di gestione dei rifiuti - 39",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/39,,,,,,,,,b6453863e4955629b4a3910266bf682c
+233,351,"ateco-2007/ F",/891/928/961/,"costruzioni - F",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ F",,,,,,,,,2df8e00887eba1ad5e8077c9a4c99457
+351,352,ateco-2007/41,/891/928/961/962/,"costruzione di edifici - 41",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/41,,,,,,,,,deaa3bc0c86d358be078e1e184071627
+351,353,ateco-2007/42,/891/928/961/963/,"ingegneria civile - 42",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/42,,,,,,,,,522c4c05a78964f907581bd5f526ffa6
+351,354,ateco-2007/421,/891/928/961/964/,"costruzione di strade e ferrovie - 42.1",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/421,,,,,,,,,c4521725ca78eeb1842a4b04c524509c
+351,355,ateco-2007/422,/891/928/961/965/,"costruzione di opere di pubblica utilità - 42.2",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/422,,,,,,,,,cd686b76c24d11ec3ffcc9d033b5985c
+351,356,ateco-2007/429,/891/928/961/966/,"costruzione di altre opere di ingegneria civile - 42.9",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/429,,,,,,,,,45e2ab0751e7d87fb35b193c2fd6fd36
+351,357,ateco-2007/43,/891/928/961/967/,"lavori di costruzione specializzati - 43",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/43,,,,,,,,,921f397cc14c733d6b80609679bf9355
+351,358,ateco-2007/431,/891/928/961/968/,"demolizione e preparazione del cantiere edile - 43.1",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/431,,,,,,,,,2af5e400d631bbff8bf9c662947b72a9
+351,359,ateco-2007/432,/891/928/961/969/,"installazione di impianti elettrici, idraulici ed altri lavori di costruzione e installazione - 43.2",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/432,,,,,,,,,e55a6742c92ace35558e7ba44096247c
+351,360,ateco-2007/433,/891/928/961/970/,"completamento e finitura di edifici - 43.3",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/433,,,,,,,,,e52d4ae70f4e31b05377522bbc48a3d7
+351,361,ateco-2007/439,/891/928/961/971/,"altri lavori specializzati di costruzione - 43.9",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/439,,,,,,,,,a273963f2aff996809415169802003ed
+233,362,"ateco-2007/ G",/891/928/972/,"commercio all'ingrosso e al dettaglio; riparazione di autoveicoli e motocicli - G",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ G",,,,,,,,,1ab072b79069b31fd73d6774d3b21a86
+233,363,"ateco-2007/ H",/891/928/973/,"trasporto e magazzinaggio - H",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ H",,,,,,,,,3cfd89e05fdd342bc894f3c73a1eadde
+363,364,ateco-2007/49,/891/928/973/974/,"trasporto terrestre e trasporto mediante condotte - 49",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/49,,,,,,,,,ad0095a1645f5a50e2316c5588f180f3
+363,365,ateco-2007/491,/891/928/973/975/,"trasporto ferroviario di passeggeri (interurbano) - 49.1",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/491,,,,,,,,,df22b5c3c5d7b728edebe93219e51e1a
+363,366,ateco-2007/492,/891/928/973/976/,"trasporto ferroviario di merci - 49.2",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/492,,,,,,,,,21dd4ade807128a138e3e36057c27d08
+363,367,ateco-2007/493,/891/928/973/977/,"altri trasporti terrestri di passeggeri - 49.3",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/493,,,,,,,,,2a09416ba7ae6259456a26dcbe63e5ff
+363,368,ateco-2007/494,/891/928/973/978/,"trasporto di merci su strada e servizi di trasloco - 49.4",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/494,,,,,,,,,88e87bee1046d5537b25d088cf7cc31b
+363,369,ateco-2007/495,/891/928/973/979/,"trasporto mediante condotte - 49.5",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/495,,,,,,,,,19cf93cc58972ed1b6bd09d61ab7da92
+363,370,"ateco-2007/ 50",/891/928/973/980/,"trasporto marittimo e per vie d'acqua - 50",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 50",,,,,,,,,d4ac5b5536219efbe725ac3e7302abe0
+363,371,ateco-2007/51,/891/928/973/981/,"trasporto aereo - 51",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/51,,,,,,,,,6052d62b7af954b59a88b8e59b4fa2dc
+363,372,ateco-2007/52,/891/928/973/982/,"magazzinaggio e attività di supporto ai trasporti - 52",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/52,,,,,,,,,6bfd54f72764d9ebdd8001f698eb9475
+363,373,ateco-2007/53,/891/928/973/983/,"servizi postali e attività di corriere - 53",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/53,,,,,,,,,2e9910477056e7452ab8e1d9ccc72110
+233,374,"ateco-2007/ I",/891/928/984/,"attività dei servizi di alloggio e di ristorazione - I",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ I",,,,,,,,,b2366b12d3533ee240e0cb1c01e81e00
+374,375,ateco-2007/55,/891/928/984/985/,"alloggio - 55",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/55,,,,,,,,,67b5d20615acc4f87a3f43dc0765875f
+374,376,"ateco-2007/ 5510",/891/928/984/986/,"alberghi e strutture simili - 55.10",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 5510",,,,,,,,,71154342bb06370480ca6eb76b56deb6
+374,377,"ateco-2007/ 5520",/891/928/984/987/,"alloggi per vacanze e altre strutture per brevi soggiorni - 55.20",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 5520",,,,,,,,,cfe9614c81f8137b36e7eb0d027ce864
+374,378,"ateco-2007/ 5530",/891/928/984/988/,"aree di campeggio e aree attrezzate per camper e roulotte - 55.30",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 5530",,,,,,,,,c3ca3f40b8774d99e9a1e732bad65686
+374,379,"ateco-2007/ 5590",/891/928/984/989/,"altri alloggi - 55.90",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 5590",,,,,,,,,7ca5559d9290882f38478f64e18b9976
+374,380,ateco-2007/56,/891/928/984/990/,"attività dei servizi di ristorazione - 56",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/56,,,,,,,,,f7ce2d3cb17c5f1ada91ba391afd626c
+374,381,"ateco-2007/ 5610",/891/928/984/991/,"ristoranti e attività di ristorazione mobile - 56.10",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 5610",,,,,,,,,114910c0b99c7a975f203cfe43b90933
+374,382,"ateco-2007/ 561041",/891/928/984/992/,"gelaterie e pasticcerie ambulanti - 56.10.41",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 561041",,,,,,,,,f204a26e996d8d3ef0aad669eb5a981f
+374,383,"ateco-2007/ 561042",/891/928/984/993/,"ristorazione ambulante - 56.10.42",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 561042",,,,,,,,,cbe1994683aa5905da98d68192e5a8cc
+374,384,ateco-2007/562,/891/928/984/994/,"fornitura di pasti preparati (catering) e altri servizi di ristorazione - 56.2",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/562,,,,,,,,,f48690292353bd6589ab4021f084cf55
+374,385,ateco-2007/5629,/891/928/984/995/,"mense e catering continuativo su base contrattuale - 56.29",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/5629,,,,,,,,,4438c62711d50bda11b4744bbf2c7de6
+374,386,"ateco-2007/ 56291",/891/928/984/996/,"mense - 56.29.1",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 56291",,,,,,,,,528835cc90e952e37a24fc24d3dce014
+374,387,ateco-2007/563,/891/928/984/997/,"bar e altri esercizi simili senza cucina - 56.3",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/563,,,,,,,,,743885c1db993e45c04ebae17742d3a5
+233,388,"ateco-2007/ J",/891/928/998/,"servizi di informazione e comunicazione - J",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ J",,,,,,,,,6c52bdebf5c84be931aea7f8a4b87768
+388,389,ateco-2007/59,/891/928/998/1000/,"attività di produzione cinematografica, di video e di programmi televisivi, di registrazioni musicali e sonore - 59",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/59,,,,,,,,,30f62af2e9e98d118e1e3c3161b32b9f
+388,390,"ateco-2007/ 60",/891/928/998/1001/,"attività di programmazione e trasmissione - 60",,"https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 60",,,,,,,,,66651b60b9886e00d64859740a14a318
+388,391,ateco-2007/61,/891/928/998/1002/,"telecomunicazioni - 61",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/61,,,,,,,,,a1abd330b52ed1e7427a22dba99edf17
+388,392,ateco-2007/62,/891/928/998/1003/,"produzione di software, consulenza informatica e attività connesse - 62",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/62,,,,,,,,,5786aa23e8278c28af1cc006c3cb73d0
+388,393,ateco-2007/63,/891/928/998/1004/,"attività dei servizi d'informazione e altri servizi informatici - 63",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/63,,,,,,,,,5f706835d3a5cd9e4bfd8384205faf21
+388,394,ateco-2007/58,/891/928/998/999/,"attività editoriali - 58",,https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/58,,,,,,,,,ab263954af83f7d9f27e2176f7f06335

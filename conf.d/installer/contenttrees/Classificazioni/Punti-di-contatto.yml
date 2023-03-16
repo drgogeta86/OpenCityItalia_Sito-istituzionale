@@ -21,6 +21,6 @@ data:
         publish_date: null
         show_tag_cards: 0
 sort_data:
-    sort_field: 2
+    sort_field: 9
     sort_order: 0
     priority: 0

@@ -1,135 +1,135 @@
 metadata:
-    remoteId: news
-    classIdentifier: frontpage
-    sectionIdentifier: standard
-    languages:
-        - ita-IT
-        - ger-DE
+  remoteId: news
+  classIdentifier: frontpage
+  sectionIdentifier: standard
+  languages:
+    - ita-IT
+    - ger-DE
 data:
-    ita-IT:
-        name: Novità
-        short_name: null
-        menu_name: 'Esplora le novità'
-        abstract: '<p>Eventi culturali e sportivi, comunicati stampa e notizie più importanti sempre aggiornate, della città</p>'
-        description: ''
-        image: {  }
-        show_children: 1
-        layout:
-            zone_layout: desItaGlobal
-            right:
-                zone_id: 7610bd4ea9de128569ded18bedf2f0b8
-                blocks:
-                    -
-                        block_id: faea9447f60187ee41982a5e776206b0
-                        name: 'In evidenza'
-                        type: ListaAutomatica
-                        view: lista_card
-                        custom_attributes:
-                            limite: '3'
-                            elementi_per_riga: unset
-                            includi_classi: article
-                            escludi_classi: ''
-                            ordinamento: pubblicato
-                            livello_profondita: ''
-                            state_id: ''
-                            topic_node_id: ''
-                            color_style: bg-100
-                            container_style: ''
-                            node_id: $root_node
-                            tags: ''
-                            show_all_link: ''
-                            show_all_text: ''
-                            intro_text: ''
-                        valid_items: {  }
-                    -
-                        block_id: a9231a415956213498ff7403e206d821
-                        name: 'Tutte le novità'
-                        type: ListaPaginata
-                        view: lista_paginata
-                        custom_attributes:
-                            limite: '3'
-                            elementi_per_riga: '3'
-                            includi_classi: article
-                            ordinamento: pubblicato
-                            state_id: ''
-                            topic_node_id: ''
-                            tags: ''
-                            color_style: ''
-                            container_style: ''
-                            show_all_link: ''
-                            show_all_text: ''
-                            intro_text: ''
-                        valid_items: {  }
-            global:
-                zone_id: 18b58eef82105d96265b423615c5e36b
-                blocks: {  }
-        icon: it-calendar
-        show_topics: 0
-        show_search_form: 0
-        tag_menu: {  }
-        publish_date: null
-        show_tag_cards: 0
-    ger-DE:
-        name: News
-        short_name: null
-        menu_name: 'Aktuelles'
-        abstract: '<p>Hier finden Sie aktuelle Informationen zum Stadtleben und den Veranstaltungskalender sowie Pressemitteilungen und aktuelle Meldungen aus dem Rathaus.</p>'
-        description: ''
-        image: {  }
-        show_children: 1
-        layout:
-            zone_layout: desItaGlobal
-            global:
-                zone_id: a610bd4ea9de128569ded18bedf2f0b8
-                blocks:
-                    -
-                        block_id: aaea9447f60187ee41982a5e776206b0
-                        name: 'Aktuelles'
-                        type: ListaAutomatica
-                        view: lista_card
-                        custom_attributes:
-                            limite: '3'
-                            elementi_per_riga: unset
-                            includi_classi: article
-                            escludi_classi: ''
-                            ordinamento: pubblicato
-                            livello_profondita: ''
-                            state_id: ''
-                            topic_node_id: ''
-                            color_style: bg-100
-                            container_style: ''
-                            node_id: $root_node
-                            tags: ''
-                            show_all_link: ''
-                            show_all_text: ''
-                            intro_text: ''
-                        valid_items: {  }
-                    -
-                        block_id: b9231a415956213498ff7403e206d821
-                        name: 'Bekanntmachungen'
-                        type: ListaPaginata
-                        view: lista_paginata
-                        custom_attributes:
-                            limite: '3'
-                            elementi_per_riga: '3'
-                            includi_classi: article
-                            ordinamento: pubblicato
-                            state_id: ''
-                            topic_node_id: ''
-                            tags: ''
-                            color_style: ''
-                            container_style: ''
-                            show_all_link: ''
-                            show_all_text: ''
-                            intro_text: ''
-                        valid_items: {  }
-        icon: it-calendar
-        show_topics: 0
-        show_search_form: 0
-        tag_menu: {  }
-        publish_date: null
-        show_tag_cards: 0
+  ita-IT:
+    name: Novità
+    short_name: null
+    menu_name: 'Esplora per categoria'
+    abstract: '<p>Avvisi, comunicati stampa e notizie più importanti sempre aggiornate, della città</p>'
+    description: ''
+    image: { }
+    show_children: 1
+    layout:
+      zone_layout: desItaGlobal
+      global:
+        zone_id: 7610bd4ea9de128569ded18bedf2f0b8
+        blocks:
+          - block_id: faea9447f60187ee41982a5e776206b0
+            name: 'In evidenza'
+            type: ListaAutomatica
+            view: lista_card
+            custom_attributes:
+              limite: '3'
+              elementi_per_riga: unset
+              includi_classi: article
+              escludi_classi: ''
+              ordinamento: pubblicato
+              livello_profondita: ''
+              state_id: ''
+              topic_node_id: ''
+              color_style: bg-100
+              container_style: ''
+              node_id: $root_node
+              tags: ''
+              show_all_link: ''
+              show_all_text: ''
+              intro_text: ''
+            valid_items: { }
+          - block_id: a9231a415956213498ff7403e206d821
+            name: 'Esplora tutte le novità'
+            type: OpendataRemoteContents
+            view: default
+            custom_attributes:
+              remote_url: ''
+              query: classes [article] sort [published=>desc]
+              show_grid: '1'
+              show_map: '0'
+              show_search: '1'
+              input_search_placeholder: Cerca per parola chiave
+              limit: '3'
+              items_per_row: '3'
+              facets: ''
+              view_api: card
+              fields: ''
+              simple_geo_api: '0'
+              template: ''
+              color_style: bg-100
+              container_style: ''
+              intro_text: ''
+            valid_items: { }
+    icon: it-calendar
+    show_topics: 0
+    show_search_form: 0
+    tag_menu: { }
+    publish_date: null
+    show_tag_cards: 0
+  ger-DE:
+    name: News
+    short_name: null
+    menu_name: 'Aktuelles'
+    abstract: '<p>Hier finden Sie aktuelle Informationen zum Stadtleben und den Veranstaltungskalender sowie Pressemitteilungen und aktuelle Meldungen aus dem Rathaus.</p>'
+    description: ''
+    image: { }
+    show_children: 1
+    layout:
+      zone_layout: desItaGlobal
+      global:
+        zone_id: a610bd4ea9de128569ded18bedf2f0b8
+        blocks:
+          - block_id: aaea9447f60187ee41982a5e776206b0
+            name: 'Aktuelles'
+            type: ListaAutomatica
+            view: lista_card
+            custom_attributes:
+              limite: '3'
+              elementi_per_riga: unset
+              includi_classi: article
+              escludi_classi: ''
+              ordinamento: pubblicato
+              livello_profondita: ''
+              state_id: ''
+              topic_node_id: ''
+              color_style: bg-100
+              container_style: ''
+              node_id: $root_node
+              tags: ''
+              show_all_link: ''
+              show_all_text: ''
+              intro_text: ''
+            valid_items: { }
+          - block_id: a9231a415956213498ff7403e206d821
+            name: 'Bekanntmachungen'
+            type: OpendataRemoteContents
+            view: default
+            custom_attributes:
+              remote_url: ''
+              query: classes [article] sort [published=>desc]
+              show_grid: '1'
+              show_map: '0'
+              show_search: '1'
+              input_search_placeholder: Cerca per parola chiave
+              limit: '3'
+              items_per_row: '3'
+              facets: ''
+              view_api: card
+              fields: ''
+              simple_geo_api: '0'
+              template: ''
+              color_style: bg-100
+              container_style: ''
+              intro_text: ''
+    icon: it-calendar
+    show_topics: 0
+    show_search_form: 0
+    tag_menu: { }
+    publish_date: null
+    show_tag_cards: 0
 sort_data:
-    sort_field: 8
-    sort_order: 1
-    priority: 20
+  sort_field: 8
+  sort_order: 1
+  priority: 20

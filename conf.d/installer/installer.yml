@@ -1,5 +1,5 @@
 name: OpenCity
-version: 3.0.0
+version: 3.0.2
 variables:
   - name: identifier
     value: 'OpenPABase::getCurrentSiteaccessIdentifier'
@@ -43,6 +43,10 @@ variables:
     value: /1/43/53/
   - name: check_eztags_sequence
     value: env(CHECK_EZTAGS_SEQUENCE)
+  - name: update_comuni
+    value: env(UPDATE_COMUNI)
+  - name: do_lock
+    value: false #wip
 steps:
   - type: sql
     identifier: alter_contentobject_date_interger_type
@@ -61,6 +65,7 @@ steps:
 
   - type: states
     identifiers:
+      - opencity_lock
       - moderation
       - privacy
       - albotelematico
@@ -89,9 +94,14 @@ steps:
       - servizi_pubblici
       - tipi_di_notizia
 
+  - type: sql_copy_from_tsv
+    identifier: openpacomuniitaliani
+    table: openpacomuniitaliani
+    condition: $is_install_from_scratch
+
   - type: php_callable
     identifier: 'OpenPAComuniItaliani::import'
-    condition: $is_install_from_scratch
+    condition: $update_comuni
 
   - type: class_with_extra
     identifier: folder
@@ -125,72 +135,106 @@ steps:
   - type: contenttree
     identifier: OpenCity
     parent: $root_node
+    lock: $do_lock
+    update: true
+  - type: content
+    identifier: Privacy
+  - type: content
+    identifier: Note-legali
   - type: contenttree
     identifier: Amministrazione
     parent: $contenttree_OpenCity_Amministrazione_node
+    lock: $do_lock
+    update: true
   - type: contenttree
     identifier: Privacy
-    parent: $contenttree_OpenCity_Privacy_node
+    parent: $content_Privacy_node
   - type: contenttree
     identifier: Novita
     parent: $contenttree_OpenCity_Novita_node
+    lock: $do_lock
+    update: true
   - type: contenttree
     identifier: Vivere-il-comune
     parent: $contenttree_OpenCity_Vivere-il-comune_node
+    lock: $do_lock
+    update: true
+  - type: content
+    identifier: Vivere-il-comune
+    lock: $do_lock
+    update: true
   - type: contenttree
     identifier: Documenti-e-dati
-    parent: $contenttree_OpenCity_Documenti-e-dati_node
+    parent: $contenttree_Amministrazione_Documenti-e-dati_node
+    lock: $do_lock
+    update: true
   - type: contenttree
     identifier: Classificazioni
     parent: $contenttree_OpenCity_Classificazioni_node
+    lock: $do_lock
 
   - type: class_with_extra
     identifier: topic
   - type: contenttree
     identifier: Argomenti
     parent: $contenttree_OpenCity_Argomenti_node
+    lock: $do_lock
   - type: contenttree
-    identifier: Argomenti-Agricoltura-e-alimentazione
-    parent: $contenttree_Argomenti_Agricoltura-e-alimentazione_node
+    identifier: Argomenti-Agricoltura-silvicoltura-e
+    parent: $contenttree_Argomenti_Agricoltura-silvicoltura-e-pesca_node
+    lock: $do_lock
   - type: contenttree
     identifier: Argomenti-Ambiente
     parent: $contenttree_Argomenti_Ambiente_node
+    lock: $do_lock
   - type: contenttree
-    identifier: Argomenti-Economia-e-finanze
-    parent: $contenttree_Argomenti_Economia-e-finanze_node
+    identifier: Argomenti-Demografia-e-popolazione
+    parent: $contenttree_Argomenti_Demografia-e-popolazione_node
+    lock: $do_lock
+  - type: contenttree
+    identifier: Argomenti-Diritto
+    parent: $contenttree_Argomenti_Diritto_node
+    lock: $do_lock
+  - type: contenttree
+    identifier: Argomenti-Economia
+    parent: $contenttree_Argomenti_Economia_node
+    lock: $do_lock
   - type: contenttree
     identifier: Argomenti-Energia
     parent: $contenttree_Argomenti_Energia_node
+    lock: $do_lock
   - type: contenttree
-    identifier: Argomenti-Giustizia-sistema-giuridico
-    parent: $contenttree_Argomenti_Giustizia-sistema-giuridico-e-sicurezza-pubblica_node
+    identifier: Argomenti-Innovazione
+    parent: $contenttree_Argomenti_Innovazione_node
+    lock: $do_lock
   - type: contenttree
-    identifier: Argomenti-Governo-e-settore
-    parent: $contenttree_Argomenti_Governo-e-settore-pubblico_node
+    identifier: Argomenti-Istruzione
+    parent: $contenttree_Argomenti_Istruzione_node
+    lock: $do_lock
   - type: contenttree
-    identifier: Argomenti-Istruzione-cultura-e
-    parent: $contenttree_Argomenti_Istruzione-cultura-e-sport_node
+    identifier: Argomenti-Pianificazione-del-territorio
+    parent: $contenttree_Argomenti_Pianificazione-del-territorio_node
+    lock: $do_lock
   - type: contenttree
-    identifier: Argomenti-Mobilita-e-trasporti
-    parent: $contenttree_Argomenti_Mobilita-e-trasporti_node
+    identifier: Argomenti-Politica
+    parent: $contenttree_Argomenti_Politica_node
+    lock: $do_lock
   - type: contenttree
-    identifier: Argomenti-Popolazione-e-societa
-    parent: $contenttree_Argomenti_Popolazione-e-societa_node
+    identifier: Argomenti-Questioni-sociali
+    parent: $contenttree_Argomenti_Questioni-sociali_node
+    lock: $do_lock
   - type: contenttree
-    identifier: Argomenti-Salute
-    parent: $contenttree_Argomenti_Salute_node
+    identifier: Argomenti-Relazioni-internazionali
+    parent: $contenttree_Argomenti_Relazioni-internazionali_node
+    lock: $do_lock
   - type: contenttree
-    identifier: Argomenti-Scienza-e-tecnologia
-    parent: $contenttree_Argomenti_Scienza-e-tecnologia_node
+    identifier: Argomenti-Tempo-libero
+    parent: $contenttree_Argomenti_Tempo-libero_node
+    lock: $do_lock
   - type: contenttree
-    identifier: Argomenti-Tematiche-internazionali
-    parent: $contenttree_Argomenti_Tematiche-internazionali_node
-  - type: contenttree
-    identifier: Argomenti-Territorio
-    parent: $contenttree_Argomenti_Territorio_node
+    identifier: Argomenti-Trasporto-pubblico
+    parent: $contenttree_Argomenti_Trasporto-pubblico_node
 
-  - type: content
-    identifier: Speciali
   - type: content
     identifier: Ruoli
   - type: content
@@ -301,7 +345,8 @@ steps:
     identifier: OpenCity
     swap_with: $root_node
     remove_swapped: true
-    update: 1
+    lock: $do_lock
+    update: true
 
   - type: role
     identifier: Anonymous
@@ -378,3 +423,29 @@ steps:
     identifier: default
   - type: change_section
     identifier: default
+
+  - type: rename
+    condition: $is_install_from_scratch
+
+  - type: class
+    identifier: faq_root
+  - type: class_with_extra
+    identifier: faq_section
+  - type: class_with_extra
+    identifier: faq_group
+  - type: class_with_extra
+    identifier: faq
+  - type: content
+    identifier: FAQ
+  - type: contenttree
+    identifier: FAQs
+    parent: $content_FAQ_node
+  - type: content
+    identifier: Editor-Faq
+  - type: role
+    identifier: Editor-Faq
+    apply_to:
+      - $content_Editor-Faq_object
+
+  - type: php_callable
+    identifier: 'BootstrapItaliaInstallerUtils::setGovernmentServiceOntologyMap'

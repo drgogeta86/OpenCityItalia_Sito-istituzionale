@@ -1,61 +1,61 @@
 parent_id,id,remote_id,path_string,keyword_it,keyword_de,keyword_pa,keyword_en,synonyms_it,synonyms_de,synonyms_pa,synonyms_en,description_it,description_de,description_en,hash
-0,76,fe49fbb2189273062c03102081ca0425,/76/,Licenze,,,,,,,,,,,1ec1c8ede8ccdccf18d925c087f692d9
-76,13179,5408e8fdb24d4c5d89b249db18154d65,/76/13179/,"Licenza sconosciuta",,https://ontopia-lodview.agid.gov.it/controlled-vocabulary/licences/C_Unknown,,,,,,,,,a30ec9d848b0ac3ffe32169d5d4cabeb
-76,13180,9f49934dcc60b2c91e514478fad38665,/76/13180/,"Licenza proprietaria",,,,,,,,,,,38aa178401f82d72605afa64e4833bb1
-76,13864,335aa94c76a29f29303b41d5392e657c,/76/13864/,"Licenza aperta",,https://ontopia-lodview.agid.gov.it/controlled-vocabulary/licences/A_OpenLicense,,,,,,,,,1650c7f70a063ccc8816f2309456d315
-13864,13127,064e0bbefae79ac0c45fc6af2fa8bda0,/76/13864/13127/,"Dominio pubblico",,https://ontopia-lodview.agid.gov.it/controlled-vocabulary/licences/A1_PublicDomain,,,,,,,,,c28ab6eceea8315abe2b7382c5356b89
-13127,119,2d0c76fc73f9202f5322c0b78f3f79d7,/76/13864/13127/119/,"Creative Commons CC0 1.0 Universal - Public Domain Dedication (CC0 1.0)",,https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10,,,,,,,,,b2ab9ad775d8912a7c82e3c6a5918edc
-13127,124,2439a33201aed43c1e1966facf84451c,/76/13864/13127/124/,"ODC Public Domain Dedication and License (PDDL)",,,,,,,,,,,6991bc6ccf95be3583807f7ae6b7c7f5
-13864,13128,86b72200b7051ec94b74717817887393,/76/13864/13128/,Attribuzione,,https://ontopia-lodview.agid.gov.it/controlled-vocabulary/licences/A2_Attribution,,,,,,,,,cd095148686c5091ec7d6658ef02b611
-13128,13129,86de94081e3e499c80c561bdec2f75b6,/76/13864/13128/13129/,"Creative Commons Attribution 1.0 Generic (CC BY 1.0)",,,,,,,,,,,9ffe6b67509e2397376eb97f304fc69a
-13128,13130,d836d1acdb5380cc7f6cff35496faba2,/76/13864/13128/13130/,"Creative Commons Attribution 2.0 Generic (CC BY 2.0)",,,,,,,,,,,d9ced8550d85b7022380b9d031428f8c
-13128,13131,4a07370e054f363b7778e459f4bee435,/76/13864/13128/13131/,"Creative Commons Attribution 2.5 Generic (CC BY 2.5)",,,,,,,,,,,a575c94f3d5fe621c20cd131a11c6db6
-13128,13132,d1dc13bd7dcf9b55d3296df805db5007,/76/13864/13128/13132/,"Creative Commons Attribution 3.0 Unported (CC BY 3.0)",,,,,,,,,,,950331704e4caee5d4146901dc30b07c
-13128,13133,cd32b56663528a3431421358ed67bd25,/76/13864/13128/13133/,"Creative Commons Attribution 4.0 International (CC BY 4.0)",,,,,,,,,,,934c70599ca996e1bc7d5af1588ce614
-13128,13134,ad87cd888d900ce8515ac778480555df,/76/13864/13128/13134/,"Creative Commons Attribuzione 2.0 Italia (CC BY 2.0 IT)",,,,,,,,,,,7d794de421dee5b2e57425d72d12da89
-13128,13135,c8374882bcea25eae1742a8cb394045f,/76/13864/13128/13135/,"Creative Commons Attribuzione 2.5 Italia (CC BY 2.5 IT)",,,,,,,,,,,07bb33cb84c9ef7df9095a850161b222
-13128,13136,7724d987abf34d3deb454648d81f0e2b,/76/13864/13128/13136/,"Creative Commons Attribuzione Italia 3.0 (CC BY 3.0 IT)",,,,,,,,,,,2559fcd2c4c6388a9a9fcae4442923a2
-13128,13137,8250641b5517e6e9414e0c44e413e565,/76/13864/13128/13137/,"Italian Open Data License 2.0 (IODL 2.0)",,,,,,,,,,,e17a86d44dab7f84976ecc09db10c83e
-13128,13138,bb7ef1b7bbb7a8a8da1e322dfe3277e5,/76/13864/13128/13138/,"Open Data Commons Attribution License (ODC_BY)",,,,,,,,,,,5a225612c1debaea23613bd800fdbd80
-13864,13150,17dd6e9d8e93098745a1a42548f50780,/76/13864/13150/,"Condivisione allo stesso modo / copyleft non compatibile",,https://ontopia-lodview.agid.gov.it/controlled-vocabulary/licences/A4_ShareAlikeCopyleftNonComp,,,,,,,,,7a3ec88b91b49c04ef938ad9287ab17c
-13150,13151,a7a6678d8b1a4ee405d5b4588f27a917,/76/13864/13150/13151/,"Against DRM (2.0)",,,,,,,,,,,6fc182b11d3d1fffa66fb458eb4217be
-13864,88,b21964d35456087f60331146288b6f33,/76/13864/88/,"Effetto Virale (a.k.a. Condivisione allo stesso modo)",,https://ontopia-lodview.agid.gov.it/controlled-vocabulary/licences/A3_ShareAlike,,,,,,,,,b5961ac17dd58a1cbed49a52cbb7ac8e
-88,13139,5abe43a2719faf0c77cfdf1002c53e18,/76/13864/88/13139/,"Creative Commons Attributon–ShareAlike 4.0 International (CC BY-SA 4.0)",,,,,,,,,,,aca9be7f4ccfed86a3593ae0a5311cae
-88,13140,713f87b9964cef031d8e2bb128cde985,/76/13864/88/13140/,"Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)",,,,,,,,,,,a6fb13d8f364453c68a3634446222abc
-88,13141,3b92626a0e1c3c80bb303d0e4b67e378,/76/13864/88/13141/,"Creative Commons Attribuzione - Condividi allo stesso modo 3.0 Italia (CC BY-SA 3.0 IT)",,,,,,,,,,,392c9585cd2508b50bb1081eb77bdf2f
-88,13142,33265bfd28ff7daf6a5335e2e91ac83e,/76/13864/88/13142/,"Creative Commons Attribution-ShareAlike 2.5 Generic (CC BY-SA 2.5)",,,,,,,,,,,5811d2ba07c2fe2942cd5eb66a07ac00
-88,13143,8b490c6a0e3e3d84452aac3880fe360b,/76/13864/88/13143/,"Creative Commons Attribuzione - Condividi allo stesso modo 2.5 Italia (CC-BY-SA 2.5 IT)",,,,,,,,,,,783b67c6d4200fddca61626ecbe358f5
-88,13144,b8e2b3df960be3a598ee099f677549d3,/76/13864/88/13144/,"Creative Commons Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)",,,,,,,,,,,5d143d3902b231aab9153674b8100b03
-88,13145,c4a08f885873d7d6b6a603f22f8d0a2b,/76/13864/88/13145/,"Creative Commons Attribuzione - Condividi allo stesso modo 2.0 Italia (CC BY-SA 2.0 IT)",,,,,,,,,,,96a2c0fe4ae987b19658bd788b5420ec
-88,13146,919a5046020985858db5414a2edb802d,/76/13864/88/13146/,"Creative Commons Attribution - ShareAlike 1.0 Generic (CC BY-SA 1.0)",,,,,,,,,,,11021c2415242ce8062dfca092dbbff7
-88,13147,ed651b9ec16a9556130857417a6bad4b,/76/13864/88/13147/,"Italian Open Data License 1.0 (IODL 1.0)",,,,,,,,,,,47454cfd0c3907971136026eeac8f289
-88,13148,c22c15b60230341be9cb88ce286a0753,/76/13864/88/13148/,"Open Data Commons Open Database License 1.0 (ODbL)",,,,,,,,,,,85a326ebca4458308c194e34a6fdc0ec
-88,13149,d51fb8f3d5bdb04a1476ced510a58eed,/76/13864/88/13149/,"GNU Free Documentation License 1.3 (GFDL 1.3)",,,,,,,,,,,c2067de1910d93389c8175be4fa56d3f
-76,13897,b7cc24d1fdf79c2faa4888b55634ef83,/76/13897/,"Licenza non aperta",,https://ontopia-lodview.agid.gov.it/controlled-vocabulary/licences/B_NonOpenLicense,,,,,,,,,421e05c5f9a467aa2733ea52366b0933
-13897,13152,ddee4330f7a6e97633aef05de68f243e,/76/13897/13152/,"Solo uso non commerciale",,https://ontopia-lodview.agid.gov.it/controlled-vocabulary/licences/B1_NonCommercial,,,,,,,,,27c1b577782649b1ce52afde028dd529
-13152,13153,a7629e9e60ae236dc0778df624992198,/76/13897/13152/13153/,"Creative Commons Attribution–NonCommercial 4.0 International (CC BY-NC 4.0)",,,,,,,,,,,961be477d3569a52629eb33411c505a2
-13152,13154,fdb50dee35f957ef49ac97a13dbb32ca,/76/13897/13152/13154/,"Creative Commons Attribution-NonCommercial 3.0 Unported (CC BY-NC 3.0)",,,,,,,,,,,7bc098f2c39a9535ed56d0bd59a2f30a
-13152,13155,f5e84d9ac7137963ffb1bc99deb41e66,/76/13897/13152/13155/,"Creative Commons Attribuzione - Non Commerciale 3.0 Italia (CC BY-NC 3.0 IT)",,,,,,,,,,,11ff56a3ab8c2c51f1249587393e0072
-13152,13156,082f392ffdda1a8f5d4535f78edf842d,/76/13897/13152/13156/,"Creative Commons Attribution-NonCommercial 2.5 Generic (CC BY-NC 2.5)",,,,,,,,,,,baaa7f68776a33588496393caa77ae2e
-13152,13157,4823a90b580be5db295e6e578b998dd2,/76/13897/13152/13157/,"Creative Commons Attribuzione - Non Commerciale 2.5 Italia (CC BY-NC 2.5 IT)",,,,,,,,,,,7d9f0ca9fe3aba426bae4715e33dcf44
-13152,13158,5d67d522234b9359f5a57b3aea172a4d,/76/13897/13152/13158/,"Creative Commons Attribution-NonCommercial 2.0 Generic (CC BY-NC 2.0)",,,,,,,,,,,7bcdb4fbcbf8fdb3be96edca92d0ac69
-13152,13159,627a8333b31aebf3761f4a4929c5c29c,/76/13897/13152/13159/,"Creative Commons Attribuzione - Non Commerciale 2.0 Italia (CC BY-NC 2.0 IT)",,,,,,,,,,,4ea6b590b32d88832a9f18b820d2fa87
-13152,13160,678fea2356f2c99b1509f64e447675f0,/76/13897/13152/13160/,"Creative Commons Attribution - NonCommercial 1.0 Generic (CC BY-NC 1.0)",,,,,,,,,,,6476c6bfd95d1880997ffba2a51e8e97
-13152,13161,dd78f8274333ae66582b23439089db63,/76/13897/13152/13161/,"Creative Commons Attribution–NonCommercial - ShareAlike 4.0 International (CC BY-NC-SA 4.0)",,,,,,,,,,,243caf81134cdd85db599a30a0592670
-13152,13162,6f1cbbf859b5cc44049daf8e356b7ebb,/76/13897/13152/13162/,"Creative Commons Attribution-NonCommercial - ShareAlike 3.0 Unported (CC BY-NC-SA 3.0)",,,,,,,,,,,c4a845c2723bb6a1aa14aac0fe442484
-13152,13163,b50b6cd740d62fd6ff66ba914cd33ccd,/76/13897/13152/13163/,"Creative Commons Attribuzione–Non Commerciale - Condivisione allo stesso modo 3.0 Italia (CC BY-NC-SA 3.0 IT)",,,,,,,,,,,e91069fc7fa78737044292d4cfadcae3
-13152,13164,2fb9ed149843214bcb371074b750e45f,/76/13897/13152/13164/,"Creative Commons Attribution-NonCommercial-ShareAlike 2.5 Generic (CC BY-NC-SA 2.5)",,,,,,,,,,,91d7fb61c6f74e57394365469f606445
-13152,13165,a0d9303cf193cfb4c926ff05ce8b0955,/76/13897/13152/13165/,"Creative Commons Attribuzione–Non Commerciale - Condivisione allo stesso modo 2.5 Italia (CC BY-NC-SA 2.5 IT)",,,,,,,,,,,c3667ef437c2b72da9a1e68f9140f9f4
-13152,13166,02fb2e9cd8bfa00e5098a4c571b808f2,/76/13897/13152/13166/,"Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Generic (CC BY-NC-SA 2.0)",,,,,,,,,,,0abd6ee62433296863b84bc56c2c2edd
-13152,13167,b45c84cafc78cff03ecb90bce4809adb,/76/13897/13152/13167/,"Creative Commons Attribuzione–Non Commerciale - Condivisione allo stesso modo 2.0 Italia (CC BY-NC-SA 2.0 IT)",,,,,,,,,,,c32db25c7a7e03292a3ae22c1f2d262f
-13152,13168,a65d0cb63f72e1b7f94b0001e7ca939e,/76/13897/13152/13168/,"Creative Commons Attribution–NonCommercial - ShareAlike 1.0 Generic (CC-BY-NC-SA 1.0)",,,,,,,,,,,3cb59bc05fb6e8f82de9f90bea0af79b
-13897,13169,ef710809b3e1f8fb0d18bc98ce2d4855,/76/13897/13169/,"Non opere derivate",,https://ontopia-lodview.agid.gov.it/controlled-vocabulary/licences/B2_NoDerivs,,,,,,,,,a098eeb73f4f1023277cf7a7a50a0799
-13169,13170,8b8d380da0f77b7c2a01b0433a6f34c3,/76/13897/13169/13170/,"Creative Commons Attribution–NoDerivs 4.0 International (CC BY-ND 4.0)",,https://w3id.org/italia/controlled-vocabulary/licences/B21_CCBYND40,,,,,,,,,c3cdd1dad51cbd051c6f87e86822825d
-13169,13171,94ab55479e81c5f5cc486fd369d67b13,/76/13897/13169/13171/,"Creative Commons Attribution-NoDerivs 3.0 Unported (CC BY-ND 3.0)",,https://w3id.org/italia/controlled-vocabulary/licences/B22_CCBYND30,,,,,,,,,d848d25165a371bd751ad5557c751bec
-13169,13172,c0dc1c9d4962b8d342b5ff02a13ad453,/76/13897/13169/13172/,"Creative Commons Attribuzione–Non opere derivate 3.0 Italia (CC BY-ND 3.0 IT)",,https://w3id.org/italia/controlled-vocabulary/licences/B23_CCBYND30IT,,,,,,,,,2ba041405361cd15a447463eb09893b6
-13169,13173,10dd503a4a6410420d56d5e6553a7399,/76/13897/13169/13173/,"Creative Commons Attribution-NoDerivs 2.5 Generic (CC BY-ND 2.5)",,https://w3id.org/italia/controlled-vocabulary/licences/B24_CCBYND25,,,,,,,,,c8c4f39f8d9bc9521ab9b4d436cae0ad
-13169,13174,9173bf8df183e8e6029bc4db6861c29d,/76/13897/13169/13174/,"Creative Commons Attribution–Non opere derivate 2.5 Italia (CC BY-ND 2.5 IT)",,https://w3id.org/italia/controlled-vocabulary/licences/B25_CCBYND25IT,,,,,,,,,f94b43e5ce84b0c71991a568e589b97d
-13169,13175,45e88e6d6ae5516c88aaa83ab7ee841a,/76/13897/13169/13175/,"Creative Commons Attribution-NoDerivs 2.0 Generic (CC BY-ND 2.0)",,https://w3id.org/italia/controlled-vocabulary/licences/B26_CCBYND20,,,,,,,,,fcae046e1f932e1a9053fd9f2f948204
-13169,13176,6810d1d03ec0bb9bda43f3170bdac2c2,/76/13897/13169/13176/,"Creative Commons Attribution–Non opere derivate 2.0 italia (CC BY-ND 2.0 IT)",,https://w3id.org/italia/controlled-vocabulary/licences/B27_CCBYND20IT,,,,,,,,,e5bb10388226f8ef0aaac4116b1e9186
-13169,13177,0fb191bc551b14a80b7166ef9aad8b1d,/76/13897/13169/13177/,"Creative Commons Attribution–NonDerivs 1.0 Generic (CC BY-ND 1.0)",,https://w3id.org/italia/controlled-vocabulary/licences/B28_CCBYND10,,,,,,,,,510e3b52caf8be06f89f0996fc079014
-13169,13178,f8b5a25efc655f90f43c2f5ac8a9fcc8,/76/13897/13169/13178/,"Creative Commons Attribution–NoDerivs-NonCommercial 1.0 Generic (CC BY-ND-NC 1.0)",,https://w3id.org/italia/controlled-vocabulary/licences/B29_CCBYNDNC10,,,,,,,,,8cf706c94bde440c861a01846ea62d28
+0,1,fe49fbb2189273062c03102081ca0425,/377/,Licenze,,,,,,,,,,,1ec1c8ede8ccdccf18d925c087f692d9
+1,2,5408e8fdb24d4c5d89b249db18154d65,/377/378/,"Licenza sconosciuta",,https://ontopia-lodview.agid.gov.it/controlled-vocabulary/licences/C_Unknown,,,,,,,,,a30ec9d848b0ac3ffe32169d5d4cabeb
+1,3,9f49934dcc60b2c91e514478fad38665,/377/379/,"Licenza proprietaria",,,,,,,,,,,38aa178401f82d72605afa64e4833bb1
+1,4,335aa94c76a29f29303b41d5392e657c,/377/380/,"Licenza aperta",,https://ontopia-lodview.agid.gov.it/controlled-vocabulary/licences/A_OpenLicense,,,,,,,,,1650c7f70a063ccc8816f2309456d315
+4,5,064e0bbefae79ac0c45fc6af2fa8bda0,/377/380/381/,"Dominio pubblico",,https://ontopia-lodview.agid.gov.it/controlled-vocabulary/licences/A1_PublicDomain,,,,,,,,,c28ab6eceea8315abe2b7382c5356b89
+5,6,2d0c76fc73f9202f5322c0b78f3f79d7,/377/380/381/382/,"Creative Commons CC0 1.0 Universal - Public Domain Dedication (CC0 1.0)",,https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10,,,,,,,,,b2ab9ad775d8912a7c82e3c6a5918edc
+5,7,2439a33201aed43c1e1966facf84451c,/377/380/381/383/,"ODC Public Domain Dedication and License (PDDL)",,,,,,,,,,,6991bc6ccf95be3583807f7ae6b7c7f5
+4,8,86b72200b7051ec94b74717817887393,/377/380/384/,Attribuzione,,https://ontopia-lodview.agid.gov.it/controlled-vocabulary/licences/A2_Attribution,,,,,,,,,cd095148686c5091ec7d6658ef02b611
+8,9,86de94081e3e499c80c561bdec2f75b6,/377/380/384/385/,"Creative Commons Attribution 1.0 Generic (CC BY 1.0)",,,,,,,,,,,9ffe6b67509e2397376eb97f304fc69a
+8,10,d836d1acdb5380cc7f6cff35496faba2,/377/380/384/386/,"Creative Commons Attribution 2.0 Generic (CC BY 2.0)",,,,,,,,,,,d9ced8550d85b7022380b9d031428f8c
+8,11,4a07370e054f363b7778e459f4bee435,/377/380/384/387/,"Creative Commons Attribution 2.5 Generic (CC BY 2.5)",,,,,,,,,,,a575c94f3d5fe621c20cd131a11c6db6
+8,12,d1dc13bd7dcf9b55d3296df805db5007,/377/380/384/388/,"Creative Commons Attribution 3.0 Unported (CC BY 3.0)",,,,,,,,,,,950331704e4caee5d4146901dc30b07c
+8,13,cd32b56663528a3431421358ed67bd25,/377/380/384/389/,"Creative Commons Attribution 4.0 International (CC BY 4.0)",,,,,,,,,,,934c70599ca996e1bc7d5af1588ce614
+8,14,ad87cd888d900ce8515ac778480555df,/377/380/384/390/,"Creative Commons Attribuzione 2.0 Italia (CC BY 2.0 IT)",,,,,,,,,,,7d794de421dee5b2e57425d72d12da89
+8,15,c8374882bcea25eae1742a8cb394045f,/377/380/384/391/,"Creative Commons Attribuzione 2.5 Italia (CC BY 2.5 IT)",,,,,,,,,,,07bb33cb84c9ef7df9095a850161b222
+8,16,7724d987abf34d3deb454648d81f0e2b,/377/380/384/392/,"Creative Commons Attribuzione Italia 3.0 (CC BY 3.0 IT)",,,,,,,,,,,2559fcd2c4c6388a9a9fcae4442923a2
+8,17,8250641b5517e6e9414e0c44e413e565,/377/380/384/393/,"Italian Open Data License 2.0 (IODL 2.0)",,,,,,,,,,,e17a86d44dab7f84976ecc09db10c83e
+8,18,bb7ef1b7bbb7a8a8da1e322dfe3277e5,/377/380/384/394/,"Open Data Commons Attribution License (ODC_BY)",,,,,,,,,,,5a225612c1debaea23613bd800fdbd80
+4,19,17dd6e9d8e93098745a1a42548f50780,/377/380/395/,"Condivisione allo stesso modo / copyleft non compatibile",,https://ontopia-lodview.agid.gov.it/controlled-vocabulary/licences/A4_ShareAlikeCopyleftNonComp,,,,,,,,,7a3ec88b91b49c04ef938ad9287ab17c
+19,20,a7a6678d8b1a4ee405d5b4588f27a917,/377/380/395/396/,"Against DRM (2.0)",,,,,,,,,,,6fc182b11d3d1fffa66fb458eb4217be
+4,21,b21964d35456087f60331146288b6f33,/377/380/397/,"Effetto Virale (a.k.a. Condivisione allo stesso modo)",,https://ontopia-lodview.agid.gov.it/controlled-vocabulary/licences/A3_ShareAlike,,,,,,,,,b5961ac17dd58a1cbed49a52cbb7ac8e
+21,22,5abe43a2719faf0c77cfdf1002c53e18,/377/380/397/398/,"Creative Commons Attributon–ShareAlike 4.0 International (CC BY-SA 4.0)",,,,,,,,,,,aca9be7f4ccfed86a3593ae0a5311cae
+21,23,713f87b9964cef031d8e2bb128cde985,/377/380/397/399/,"Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)",,,,,,,,,,,a6fb13d8f364453c68a3634446222abc
+21,24,3b92626a0e1c3c80bb303d0e4b67e378,/377/380/397/400/,"Creative Commons Attribuzione - Condividi allo stesso modo 3.0 Italia (CC BY-SA 3.0 IT)",,,,,,,,,,,392c9585cd2508b50bb1081eb77bdf2f
+21,25,33265bfd28ff7daf6a5335e2e91ac83e,/377/380/397/401/,"Creative Commons Attribution-ShareAlike 2.5 Generic (CC BY-SA 2.5)",,,,,,,,,,,5811d2ba07c2fe2942cd5eb66a07ac00
+21,26,8b490c6a0e3e3d84452aac3880fe360b,/377/380/397/402/,"Creative Commons Attribuzione - Condividi allo stesso modo 2.5 Italia (CC-BY-SA 2.5 IT)",,,,,,,,,,,783b67c6d4200fddca61626ecbe358f5
+21,27,b8e2b3df960be3a598ee099f677549d3,/377/380/397/403/,"Creative Commons Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)",,,,,,,,,,,5d143d3902b231aab9153674b8100b03
+21,28,c4a08f885873d7d6b6a603f22f8d0a2b,/377/380/397/404/,"Creative Commons Attribuzione - Condividi allo stesso modo 2.0 Italia (CC BY-SA 2.0 IT)",,,,,,,,,,,96a2c0fe4ae987b19658bd788b5420ec
+21,29,919a5046020985858db5414a2edb802d,/377/380/397/405/,"Creative Commons Attribution - ShareAlike 1.0 Generic (CC BY-SA 1.0)",,,,,,,,,,,11021c2415242ce8062dfca092dbbff7
+21,30,ed651b9ec16a9556130857417a6bad4b,/377/380/397/406/,"Italian Open Data License 1.0 (IODL 1.0)",,,,,,,,,,,47454cfd0c3907971136026eeac8f289
+21,31,c22c15b60230341be9cb88ce286a0753,/377/380/397/407/,"Open Data Commons Open Database License 1.0 (ODbL)",,,,,,,,,,,85a326ebca4458308c194e34a6fdc0ec
+21,32,d51fb8f3d5bdb04a1476ced510a58eed,/377/380/397/408/,"GNU Free Documentation License 1.3 (GFDL 1.3)",,,,,,,,,,,c2067de1910d93389c8175be4fa56d3f
+1,33,b7cc24d1fdf79c2faa4888b55634ef83,/377/409/,"Licenza non aperta",,https://ontopia-lodview.agid.gov.it/controlled-vocabulary/licences/B_NonOpenLicense,,,,,,,,,421e05c5f9a467aa2733ea52366b0933
+33,34,ddee4330f7a6e97633aef05de68f243e,/377/409/410/,"Solo uso non commerciale",,https://ontopia-lodview.agid.gov.it/controlled-vocabulary/licences/B1_NonCommercial,,,,,,,,,27c1b577782649b1ce52afde028dd529
+34,35,a7629e9e60ae236dc0778df624992198,/377/409/410/411/,"Creative Commons Attribution–NonCommercial 4.0 International (CC BY-NC 4.0)",,,,,,,,,,,961be477d3569a52629eb33411c505a2
+34,36,fdb50dee35f957ef49ac97a13dbb32ca,/377/409/410/412/,"Creative Commons Attribution-NonCommercial 3.0 Unported (CC BY-NC 3.0)",,,,,,,,,,,7bc098f2c39a9535ed56d0bd59a2f30a
+34,37,f5e84d9ac7137963ffb1bc99deb41e66,/377/409/410/413/,"Creative Commons Attribuzione - Non Commerciale 3.0 Italia (CC BY-NC 3.0 IT)",,,,,,,,,,,11ff56a3ab8c2c51f1249587393e0072
+34,38,082f392ffdda1a8f5d4535f78edf842d,/377/409/410/414/,"Creative Commons Attribution-NonCommercial 2.5 Generic (CC BY-NC 2.5)",,,,,,,,,,,baaa7f68776a33588496393caa77ae2e
+34,39,4823a90b580be5db295e6e578b998dd2,/377/409/410/415/,"Creative Commons Attribuzione - Non Commerciale 2.5 Italia (CC BY-NC 2.5 IT)",,,,,,,,,,,7d9f0ca9fe3aba426bae4715e33dcf44
+34,40,5d67d522234b9359f5a57b3aea172a4d,/377/409/410/416/,"Creative Commons Attribution-NonCommercial 2.0 Generic (CC BY-NC 2.0)",,,,,,,,,,,7bcdb4fbcbf8fdb3be96edca92d0ac69
+34,41,627a8333b31aebf3761f4a4929c5c29c,/377/409/410/417/,"Creative Commons Attribuzione - Non Commerciale 2.0 Italia (CC BY-NC 2.0 IT)",,,,,,,,,,,4ea6b590b32d88832a9f18b820d2fa87
+34,42,678fea2356f2c99b1509f64e447675f0,/377/409/410/418/,"Creative Commons Attribution - NonCommercial 1.0 Generic (CC BY-NC 1.0)",,,,,,,,,,,6476c6bfd95d1880997ffba2a51e8e97
+34,43,dd78f8274333ae66582b23439089db63,/377/409/410/419/,"Creative Commons Attribution–NonCommercial - ShareAlike 4.0 International (CC BY-NC-SA 4.0)",,,,,,,,,,,243caf81134cdd85db599a30a0592670
+34,44,6f1cbbf859b5cc44049daf8e356b7ebb,/377/409/410/420/,"Creative Commons Attribution-NonCommercial - ShareAlike 3.0 Unported (CC BY-NC-SA 3.0)",,,,,,,,,,,c4a845c2723bb6a1aa14aac0fe442484
+34,45,b50b6cd740d62fd6ff66ba914cd33ccd,/377/409/410/421/,"Creative Commons Attribuzione–Non Commerciale - Condivisione allo stesso modo 3.0 Italia (CC BY-NC-SA 3.0 IT)",,,,,,,,,,,e91069fc7fa78737044292d4cfadcae3
+34,46,2fb9ed149843214bcb371074b750e45f,/377/409/410/422/,"Creative Commons Attribution-NonCommercial-ShareAlike 2.5 Generic (CC BY-NC-SA 2.5)",,,,,,,,,,,91d7fb61c6f74e57394365469f606445
+34,47,a0d9303cf193cfb4c926ff05ce8b0955,/377/409/410/423/,"Creative Commons Attribuzione–Non Commerciale - Condivisione allo stesso modo 2.5 Italia (CC BY-NC-SA 2.5 IT)",,,,,,,,,,,c3667ef437c2b72da9a1e68f9140f9f4
+34,48,02fb2e9cd8bfa00e5098a4c571b808f2,/377/409/410/424/,"Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Generic (CC BY-NC-SA 2.0)",,,,,,,,,,,0abd6ee62433296863b84bc56c2c2edd
+34,49,b45c84cafc78cff03ecb90bce4809adb,/377/409/410/425/,"Creative Commons Attribuzione–Non Commerciale - Condivisione allo stesso modo 2.0 Italia (CC BY-NC-SA 2.0 IT)",,,,,,,,,,,c32db25c7a7e03292a3ae22c1f2d262f
+34,50,a65d0cb63f72e1b7f94b0001e7ca939e,/377/409/410/426/,"Creative Commons Attribution–NonCommercial - ShareAlike 1.0 Generic (CC-BY-NC-SA 1.0)",,,,,,,,,,,3cb59bc05fb6e8f82de9f90bea0af79b
+33,51,ef710809b3e1f8fb0d18bc98ce2d4855,/377/409/427/,"Non opere derivate",,https://ontopia-lodview.agid.gov.it/controlled-vocabulary/licences/B2_NoDerivs,,,,,,,,,a098eeb73f4f1023277cf7a7a50a0799
+51,52,8b8d380da0f77b7c2a01b0433a6f34c3,/377/409/427/428/,"Creative Commons Attribution–NoDerivs 4.0 International (CC BY-ND 4.0)",,https://w3id.org/italia/controlled-vocabulary/licences/B21_CCBYND40,,,,,,,,,c3cdd1dad51cbd051c6f87e86822825d
+51,53,94ab55479e81c5f5cc486fd369d67b13,/377/409/427/429/,"Creative Commons Attribution-NoDerivs 3.0 Unported (CC BY-ND 3.0)",,https://w3id.org/italia/controlled-vocabulary/licences/B22_CCBYND30,,,,,,,,,d848d25165a371bd751ad5557c751bec
+51,54,c0dc1c9d4962b8d342b5ff02a13ad453,/377/409/427/430/,"Creative Commons Attribuzione–Non opere derivate 3.0 Italia (CC BY-ND 3.0 IT)",,https://w3id.org/italia/controlled-vocabulary/licences/B23_CCBYND30IT,,,,,,,,,2ba041405361cd15a447463eb09893b6
+51,55,10dd503a4a6410420d56d5e6553a7399,/377/409/427/431/,"Creative Commons Attribution-NoDerivs 2.5 Generic (CC BY-ND 2.5)",,https://w3id.org/italia/controlled-vocabulary/licences/B24_CCBYND25,,,,,,,,,c8c4f39f8d9bc9521ab9b4d436cae0ad
+51,56,9173bf8df183e8e6029bc4db6861c29d,/377/409/427/432/,"Creative Commons Attribution–Non opere derivate 2.5 Italia (CC BY-ND 2.5 IT)",,https://w3id.org/italia/controlled-vocabulary/licences/B25_CCBYND25IT,,,,,,,,,f94b43e5ce84b0c71991a568e589b97d
+51,57,45e88e6d6ae5516c88aaa83ab7ee841a,/377/409/427/433/,"Creative Commons Attribution-NoDerivs 2.0 Generic (CC BY-ND 2.0)",,https://w3id.org/italia/controlled-vocabulary/licences/B26_CCBYND20,,,,,,,,,fcae046e1f932e1a9053fd9f2f948204
+51,58,6810d1d03ec0bb9bda43f3170bdac2c2,/377/409/427/434/,"Creative Commons Attribution–Non opere derivate 2.0 italia (CC BY-ND 2.0 IT)",,https://w3id.org/italia/controlled-vocabulary/licences/B27_CCBYND20IT,,,,,,,,,e5bb10388226f8ef0aaac4116b1e9186
+51,59,0fb191bc551b14a80b7166ef9aad8b1d,/377/409/427/435/,"Creative Commons Attribution–NonDerivs 1.0 Generic (CC BY-ND 1.0)",,https://w3id.org/italia/controlled-vocabulary/licences/B28_CCBYND10,,,,,,,,,510e3b52caf8be06f89f0996fc079014
+51,60,f8b5a25efc655f90f43c2f5ac8a9fcc8,/377/409/427/436/,"Creative Commons Attribution–NoDerivs-NonCommercial 1.0 Generic (CC BY-ND-NC 1.0)",,https://w3id.org/italia/controlled-vocabulary/licences/B29_CCBYNDNC10,,,,,,,,,8cf706c94bde440c861a01846ea62d28

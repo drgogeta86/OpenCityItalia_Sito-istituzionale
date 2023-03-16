@@ -36,6 +36,7 @@ table_view:
         has_spatial_coverage: '1'
         holds_role_in_time: '1'
         identifier: '1'
+        image: '1'
         legal_status_code: '1'
         more_information: '1'
         private_organization_category: '1'
@@ -47,3 +48,4 @@ table_view:
     show_link:
         has_online_contact_point: '1'
         has_spatial_coverage: '1'
+        image: '1'

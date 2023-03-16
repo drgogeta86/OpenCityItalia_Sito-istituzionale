@@ -12,11 +12,12 @@ data:
         managed_by_political_body: {  }
         type: null
         description: null
-        eu: 'http://publications.europa.eu/resource/authority/data-theme/ENER'
-        theme: null
-        data_themes_eurovocs: {  }
+        eu: 'http://eurovoc.europa.eu/100159'
+        theme: 'http://publications.europa.eu/resource/authority/data-theme/ENER'
+        data_themes_eurovocs:
+            - Energia
         image: {  }
-        abstract: ''
+        abstract: '<p>Informazioni relative ai consumi, risparmi, iniziative e politiche promosse dal Comune in ambito energetico</p>'
         icon: null
         layout: {  }
         help: {  }
@@ -39,4 +40,4 @@ data:
 sort_data:
     sort_field: 9
     sort_order: 1
-    priority: 0
+    priority: -20

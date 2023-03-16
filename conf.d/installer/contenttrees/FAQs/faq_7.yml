@@ -1,0 +1,11 @@
+metadata:
+  remoteId: faq_7
+  classIdentifier: faq
+  sectionIdentifier: standard
+  languages:
+    - ita-IT
+data:
+  ita-IT:
+    question: "Come prenoto un appuntamento in Comune?"
+    answer: "<p>Per prenotare un appuntamento cerca il servizio &quot;Prenotazione appuntamento&quot; nella sezione servizi, nel footer del sito (la fascia in fondo a ogni pagina del sito) o attraverso il motore di ricerca del sito (icona della lente in alto a destra). Vai al servizio prenotazione di un appuntamento</p>"
+    priority: null

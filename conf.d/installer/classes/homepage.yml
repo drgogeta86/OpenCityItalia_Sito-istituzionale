@@ -283,7 +283,6 @@ data_map:
         placement: 15
         is_searchable: 1
         can_translate: 1
-        data_int1: 0
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''

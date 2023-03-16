@@ -1,6 +1,6 @@
 parent_id,id,remote_id,path_string,keyword_it,keyword_de,keyword_pa,keyword_en,synonyms_it,synonyms_de,synonyms_pa,synonyms_en,description_it,description_de,description_en,hash
-0,64,3ae7d11f42cd48ccf805f66eb5591991,/64/,"Costi e prezzi",,,,,,,,,,,262af97fd1a810732a1294333d30e839
-64,65,904599a5e356c6132bedc6be481bdc91,/64/65/,Valute,,,,,,,,,,,9e85bc2aa4a28af4824b92d69b0b82de
-65,66,0557e6fbacd253e7cf2ac033870a46aa,/64/65/66/,Dollari,,,,,,,,,,,08d8f5659b04f1d514c676b3abe47eb8
-65,67,185b0840b975dac09585f39c00938a97,/64/65/67/,Euro,,,,,,,,,,,3e823fac7473e42888932c7761c224fc
-65,68,dfd08f89e4f1675bd0debab6bf78dd84,/64/65/68/,Sterline,,,,,,,,,,,cf6268a1fd3499b4ded44387848d5051
+0,1,3ae7d11f42cd48ccf805f66eb5591991,/1/,"Costi e prezzi",,,,,,,,,,,262af97fd1a810732a1294333d30e839
+1,2,904599a5e356c6132bedc6be481bdc91,/1/2/,Valute,,,,,,,,,,,9e85bc2aa4a28af4824b92d69b0b82de
+2,3,0557e6fbacd253e7cf2ac033870a46aa,/1/2/3/,Dollari,,,,,,,,,,,08d8f5659b04f1d514c676b3abe47eb8
+2,4,185b0840b975dac09585f39c00938a97,/1/2/4/,Euro,,,,,,,,,,,3e823fac7473e42888932c7761c224fc
+2,5,dfd08f89e4f1675bd0debab6bf78dd84,/1/2/5/,Sterline,,,,,,,,,,,cf6268a1fd3499b4ded44387848d5051

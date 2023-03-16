@@ -1,5 +1,5 @@
 parent_id,id,remote_id,path_string,keyword_it,keyword_de,keyword_pa,keyword_en,synonyms_it,synonyms_de,synonyms_pa,synonyms_en,description_it,description_de,description_en,hash
-0,12916,478bbddb15920c6e35d12d5c0347a597,/12916/,"Tipi di notizia",,,,,,,,,,,4de8bad3bb657e31110d1b9279b97eb1
-12916,12917,dde18cc8e58fc6f3ce4853a4bf81250d,/12916/12917/,News,,,,Notizia,,,,,,,7a1dfaf7f5c2aaf64a2600856d7571dc
-12916,12918,0a2f56dad9809dcd2a145c83d1909a15,/12916/12918/,"Comunicato stampa",,,,,,,,,,,ee92b78dade869a6996aa48c2d6ce208
-12916,12919,8523689cfed3204b694405209f5b8dc2,/12916/12919/,Avviso,,,,,,,,,,,22085f9155fadb54e8b9f52051e4e249
+0,1,478bbddb15920c6e35d12d5c0347a597,/2486/,"Tipi di notizia",,,,,,,,,,,4de8bad3bb657e31110d1b9279b97eb1
+1,2,dde18cc8e58fc6f3ce4853a4bf81250d,/2486/2487/,News,,,,Notizia,,,,,,,7a1dfaf7f5c2aaf64a2600856d7571dc
+1,3,0a2f56dad9809dcd2a145c83d1909a15,/2486/2489/,"Comunicato stampa",,,,,,,,,,,ee92b78dade869a6996aa48c2d6ce208
+1,4,8523689cfed3204b694405209f5b8dc2,/2486/2490/,Avviso,,,,,,,,,,,22085f9155fadb54e8b9f52051e4e249

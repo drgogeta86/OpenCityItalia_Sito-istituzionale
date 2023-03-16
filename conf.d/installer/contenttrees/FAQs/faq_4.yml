@@ -1,0 +1,11 @@
+metadata:
+  remoteId: faq_4
+  classIdentifier: faq
+  sectionIdentifier: standard
+  languages:
+    - ita-IT
+data:
+  ita-IT:
+    question: "Dove trovo i servizi del mio Comune?"
+    answer: "<p>Nel menù di navigazione del sito del tuo Comune trovi una voce &quot;Servizi&quot;. Fai clic sulla voce e accedi alla sezione dedicata ai servizi comunali. In alternativa, inserisci nel motore di ricerca (icona della lente in alto a destra nel sito) il nome del del servizio di cui hai bisogno e cerca tra i risultati. Vai alla sezione servizi</p>"
+    priority: null

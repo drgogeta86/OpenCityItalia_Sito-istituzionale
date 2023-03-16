@@ -1,0 +1,11 @@
+metadata:
+  remoteId: faq_2
+  classIdentifier: faq
+  sectionIdentifier: standard
+  languages:
+    - ita-IT
+data:
+  ita-IT:
+    question: "Perché il sito mi chiede di valutare la chiarezza informativa di una pagina o la qualità di un servizio on line?"
+    answer: "<p>La raccolta di queste informazioni permette di individuare problematiche e, dove necessario, rendere più chiari i contenuti e più semplici i servizi che il tuo Comune mette a disposizione di cittadini e imprese</p>"
+    priority: null

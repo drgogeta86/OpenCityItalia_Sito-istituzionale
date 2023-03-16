@@ -1,0 +1,26 @@
+metadata:
+    remoteId: custom_topics
+    classIdentifier: pagina_sito
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        name: Speciali
+        short_name: null
+        menu_name: null
+        abstract: '<p>Tematiche di interesse specifico del Comune</p>'
+        description: ''
+        image: {  }
+        show_children: 1
+        layout: {  }
+        icon: it-star-outline
+        show_topics: 0
+        show_search_form: 0
+        tag_menu: {  }
+        publish_date: null
+        show_tag_cards: 0
+sort_data:
+    sort_field: 9
+    sort_order: 1
+    priority: -2

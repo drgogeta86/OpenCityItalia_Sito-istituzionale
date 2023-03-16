@@ -1,0 +1,42 @@
+metadata:
+    remoteId: topic_1_giustizia_sistema_giuridico_e_sicurezza_pubblica
+    classIdentifier: topic
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+        - ger-DE
+data:
+    ita-IT:
+        name: Diritto
+        managed_by_area: {  }
+        managed_by_political_body: {  }
+        type: null
+        description: null
+        eu: 'http://eurovoc.europa.eu/100145'
+        theme: 'http://publications.europa.eu/resource/authority/data-theme/JUST'
+        data_themes_eurovocs: {  }
+        image: {  }
+        abstract: '<p>Tutto ciò che riguarda sicurezza pubblica, frodi, crimini, polizia municipale e protezione civile</p>'
+        icon: null
+        layout: {  }
+        help: {  }
+        show_topic_children: 1
+    ger-DE:
+        name: 'Recht, öffentliche Sicherheit und Ordnung'
+        managed_by_area: {  }
+        managed_by_political_body: {  }
+        type: null
+        description: null
+        eu: 'http://publications.europa.eu/resource/authority/data-theme/JUST'
+        theme: null
+        data_themes_eurovocs: {  }
+        image: {  }
+        abstract: ''
+        icon: null
+        layout: {  }
+        help: {  }
+        show_topic_children: 1
+sort_data:
+    sort_field: 9
+    sort_order: 1
+    priority: -24

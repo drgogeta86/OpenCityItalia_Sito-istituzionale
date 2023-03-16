@@ -16,7 +16,7 @@ data:
         theme: null
         data_themes_eurovocs: {  }
         image: {  }
-        abstract: ''
+        abstract: '<p>Provvedimenti comunali, regolamenti, dati</p>'
         icon: null
         layout: {  }
         help: {  }

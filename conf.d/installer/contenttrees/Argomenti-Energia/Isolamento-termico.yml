@@ -1,0 +1,26 @@
+metadata:
+    remoteId: ff27f221bb1a1105319f758da98f1005
+    classIdentifier: topic
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        name: 'Isolamento termico'
+        managed_by_area: {  }
+        managed_by_political_body: {  }
+        type: null
+        description: null
+        eu: 'http://eurovoc.europa.eu/1516'
+        theme: null
+        data_themes_eurovocs: {  }
+        image: {  }
+        abstract: '<p>Incentivi ed agevolazioni, informazioni e servizi</p>'
+        icon: null
+        layout: {  }
+        help: {  }
+        show_topic_children: 1
+sort_data:
+    sort_field: 9
+    sort_order: 1
+    priority: 0

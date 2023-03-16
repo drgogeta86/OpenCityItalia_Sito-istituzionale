@@ -1,0 +1,44 @@
+metadata:
+    remoteId: topic_1_istruzione_cultura_e_sport
+    classIdentifier: topic
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+        - ger-DE
+data:
+    ita-IT:
+        name: Istruzione
+        managed_by_area: {  }
+        managed_by_political_body: {  }
+        type: null
+        description: null
+        eu: 'http://eurovoc.europa.eu/668'
+        theme: null
+        data_themes_eurovocs:
+            - Istruzione
+            - 'cultura e sport'
+        image: {  }
+        abstract: '<p>Tutto ciò che riguarda l''educazione, l''istruzione, l''insegnamento, l''organizzazione scolastica</p>'
+        icon: null
+        layout: {  }
+        help: {  }
+        show_topic_children: 1
+    ger-DE:
+        name: 'Bildung, Kultur und Sport'
+        managed_by_area: {  }
+        managed_by_political_body: {  }
+        type: null
+        description: null
+        eu: 'http://eurovoc.europa.eu/317'
+        theme: null
+        data_themes_eurovocs: {  }
+        image: {  }
+        abstract: ''
+        icon: null
+        layout: {  }
+        help: {  }
+        show_topic_children: 1
+sort_data:
+    sort_field: 9
+    sort_order: 1
+    priority: -16

@@ -6,16 +6,11 @@ stages:
 
 variables:
     DOCKER_BUILDKIT: 1
-    PHP_IMAGE: "${CI_REGISTRY_IMAGE}/php-nginx"
-    PHP_TMP_IMAGE: "${CI_REGISTRY_IMAGE}/php-nginx:${CI_COMMIT_SHORT_SHA}"
-    SOLR_IMAGE: "${CI_REGISTRY_IMAGE}/solr"
-    SOLR_TMP_IMAGE: "${CI_REGISTRY_IMAGE}/solr:${CI_COMMIT_SHORT_SHA}"
-    VARNISH_IMAGE: "${CI_REGISTRY_IMAGE}/varnish"
-    VARNISH_TMP_IMAGE: "${CI_REGISTRY_IMAGE}/varnish:${CI_COMMIT_SHORT_SHA}"
+    APP_IMAGE: "${CI_REGISTRY_IMAGE}/app"
+    APP_TMP_IMAGE: "${CI_REGISTRY_IMAGE}/app:${CI_COMMIT_SHORT_SHA}"
 
 services:
     - docker:dind
-
 
 before_script:
     - docker login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD" $CI_REGISTRY
@@ -26,120 +21,42 @@ publiccode:
     script:
       - docker run -i italia/publiccode-parser-go /dev/stdin < publiccode.yml
 
-tmp_build_php:
+tmp_build_app:
     stage: build
     script:
-        - docker pull $PHP_IMAGE:latest || true
-        - docker pull  $PHP_TMP_IMAGE || docker build --build-arg CI_COMMIT_REF_NAME=$CI_COMMIT_REF_NAME --build-arg CI_COMMIT_TAG=$CI_COMMIT_TAG --build-arg CI_COMMIT_SHORT_SHA=$CI_COMMIT_SHORT_SHA --pull -t $PHP_TMP_IMAGE -f Dockerfile.php-nginx .
-        - docker push  $PHP_TMP_IMAGE
+        - docker pull $APP_IMAGE:latest || true
+        - docker pull  $APP_TMP_IMAGE || docker build --build-arg CI_COMMIT_REF_NAME=$CI_COMMIT_REF_NAME --build-arg CI_COMMIT_TAG=$CI_COMMIT_TAG --build-arg CI_COMMIT_SHORT_SHA=$CI_COMMIT_SHORT_SHA --pull -t $APP_TMP_IMAGE -f Dockerfile .
+        - docker push  $APP_TMP_IMAGE
     only:
         - branches
         - tags
 
-tmp_build_solr:
-    stage: build
-    script:
-        - docker pull $SOLR_IMAGE:latest || true
-        - docker pull $SOLR_TMP_IMAGE || docker build --pull -t $SOLR_TMP_IMAGE -f Dockerfile.solr .
-        - docker push $SOLR_TMP_IMAGE
-    only:
-        - branches
-        - tags
-
-tmp_build_varnish:
-    stage: build
-    script:
-        - docker pull $VARNISH_IMAGE:latest || true
-        - docker pull $VARNISH_TMP_IMAGE || docker build --pull -t $VARNISH_TMP_IMAGE -f Dockerfile.varnish .
-        - docker push $VARNISH_TMP_IMAGE
-    only:
-        - branches
-        - tags
-
-push_php_branches:
+push_app_branches:
     stage: push
     script:
-        - docker pull  $PHP_TMP_IMAGE
-        - docker tag   $PHP_TMP_IMAGE "$PHP_IMAGE:$CI_COMMIT_REF_NAME"
-        - docker push "$PHP_IMAGE:$CI_COMMIT_REF_NAME"
+        - docker pull  $APP_TMP_IMAGE
+        - docker tag   $APP_TMP_IMAGE "$APP_IMAGE:$CI_COMMIT_REF_NAME"
+        - docker push "$APP_IMAGE:$CI_COMMIT_REF_NAME"
     only:
         - branches
     except:
         - master
 
-push_php_tags:
+push_app_tags:
     stage: push
     script:
-        - docker pull  $PHP_TMP_IMAGE
-        - docker tag   $PHP_TMP_IMAGE "$PHP_IMAGE:$CI_COMMIT_TAG"
-        - docker push "$PHP_IMAGE:$CI_COMMIT_TAG"
+        - docker pull  $APP_TMP_IMAGE
+        - docker tag   $APP_TMP_IMAGE "$APP_IMAGE:$CI_COMMIT_TAG"
+        - docker push "$APP_IMAGE:$CI_COMMIT_TAG"
     only:
         - tags
 
-push_php_latest:
+push_app_latest:
     stage: push
     script:
-        - docker pull  $PHP_TMP_IMAGE
-        - docker tag   $PHP_TMP_IMAGE "$PHP_IMAGE:latest"
-        - docker push "$PHP_IMAGE:latest"
-    only:
-        - master
-
-push_solr_branches:
-    stage: push
-    script:
-        - docker pull  $SOLR_TMP_IMAGE
-        - docker tag   $SOLR_TMP_IMAGE "$SOLR_IMAGE:${CI_COMMIT_REF_NAME/\//-}"
-        - docker push "$SOLR_IMAGE:${CI_COMMIT_REF_NAME/\//-}"
-    only:
-        - branches
-    except:
-        - master
-
-push_solr_tags:
-    stage: push
-    script:
-        - docker pull  $SOLR_TMP_IMAGE
-        - docker tag   $SOLR_TMP_IMAGE "$SOLR_IMAGE:$CI_COMMIT_TAG"
-        - docker push "$SOLR_IMAGE:$CI_COMMIT_TAG"
-    only:
-        - tags
-
-push_solr_latest:
-    stage: push
-    script:
-        - docker pull  $SOLR_TMP_IMAGE
-        - docker tag   $SOLR_TMP_IMAGE "$SOLR_IMAGE:latest"
-        - docker push "$SOLR_IMAGE:latest"
-    only:
-        - master
-
-push_varnish_branches:
-    stage: push
-    script:
-        - docker pull  $VARNISH_TMP_IMAGE
-        - docker tag   $VARNISH_TMP_IMAGE "$VARNISH_IMAGE:${CI_COMMIT_REF_NAME/\//-}"
-        - docker push "$VARNISH_IMAGE:${CI_COMMIT_REF_NAME/\//-}"
-    only:
-        - branches
-    except:
-        - master
-
-push_varnish_tags:
-    stage: push
-    script:
-        - docker pull  $VARNISH_TMP_IMAGE
-        - docker tag   $VARNISH_TMP_IMAGE "$VARNISH_IMAGE:$CI_COMMIT_TAG"
-        - docker push "$VARNISH_IMAGE:$CI_COMMIT_TAG"
-    only:
-        - tags
-
-push_varnish_latest:
-    stage: push
-    script:
-        - docker pull  $VARNISH_TMP_IMAGE
-        - docker tag   $VARNISH_TMP_IMAGE "$VARNISH_IMAGE:latest"
-        - docker push "$VARNISH_IMAGE:latest"
+        - docker pull  $APP_TMP_IMAGE
+        - docker tag   $APP_TMP_IMAGE "$APP_IMAGE:latest"
+        - docker push "$APP_IMAGE:latest"
     only:
         - master
 

@@ -157,6 +157,20 @@ data_map:
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
+    csv_resource:
+        identifier: csv_resource
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Risorsa strutturata'
+        data_type_string: opendatadataset
+        placement: 9
+        can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
     modified:
         identifier: modified
         serialized_description_list:
@@ -168,7 +182,7 @@ data_map:
             ger-DE: 'Datum der letzten Änderung'
             ita-IT: 'Data di ultima modifica'
         data_type_string: ezdate
-        placement: 9
+        placement: 10
         is_searchable: 1
         is_required: 1
         can_translate: 1
@@ -187,7 +201,7 @@ data_map:
             ger-DE: Eigentümer
             ita-IT: Titolare
         data_type_string: ezobjectrelationlist
-        placement: 10
+        placement: 11
         is_searchable: 1
         is_required: 1
         can_translate: 1
@@ -196,9 +210,9 @@ data_map:
             selection_type: '0'
             type: '2'
             class_constraint_list:
-                - public_organization
+                - organization
             default_placement:
-                node_id: $contenttree_Amministrazione_Enti-e-fondazioni_node
+                node_id: $contenttree_OpenCity_Amministrazione_node
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
@@ -213,7 +227,7 @@ data_map:
             ger-DE: 'Frequenz der Aktualisierung'
             ita-IT: 'Frequenza di aggiornamento'
         data_type_string: eztags
-        placement: 11
+        placement: 12
         is_searchable: 1
         is_required: 1
         can_translate: 1
@@ -234,7 +248,7 @@ data_map:
             ger-DE: 'Andere ID-Nummer'
             ita-IT: Identificatore
         data_type_string: ezstring
-        placement: 12
+        placement: 13
         is_searchable: 1
         can_translate: 1
         category: details
@@ -252,7 +266,7 @@ data_map:
             ger-DE: 'Geografische Abdeckung'
             ita-IT: 'Copertura geografica'
         data_type_string: openpacomuniitaliani
-        placement: 13
+        placement: 14
         is_searchable: 1
         is_required: 1
         can_translate: 1
@@ -273,7 +287,7 @@ data_map:
             ger-DE: 'Datum der Freigabe'
             ita-IT: 'Data di rilascio'
         data_type_string: ezdate
-        placement: 14
+        placement: 15
         is_searchable: 1
         can_translate: 1
         data_int1: 1
@@ -292,7 +306,7 @@ data_map:
             ger-DE: 'Zeitliche Ausdehnung'
             ita-IT: 'Estensione temporale'
         data_type_string: ezobjectrelationlist
-        placement: 15
+        placement: 16
         is_searchable: 1
         can_translate: 1
         data_text5:
@@ -318,7 +332,7 @@ data_map:
             ger-DE: 'Autor(en) des Datensatzes'
             ita-IT: 'Autore/i del dataset'
         data_type_string: ezobjectrelationlist
-        placement: 16
+        placement: 17
         is_searchable: 1
         can_translate: 1
         data_text5:
@@ -326,9 +340,9 @@ data_map:
             selection_type: '0'
             type: '2'
             class_constraint_list:
-                - public_organization
+                - organization
             default_placement:
-                node_id: $contenttree_Amministrazione_Enti-e-fondazioni_node
+                node_id: $contenttree_OpenCity_Amministrazione_node
         category: details
         serialized_data_text:
             always-available: ita-IT
@@ -344,7 +358,7 @@ data_map:
             ger-DE: Herausgeber
             ita-IT: Editore
         data_type_string: ezobjectrelationlist
-        placement: 17
+        placement: 18
         is_searchable: 1
         can_translate: 1
         data_text5:
@@ -369,7 +383,7 @@ data_map:
             ger-DE: Konformitätsstandard
             ita-IT: 'Standard di conformità'
         data_type_string: eztags
-        placement: 18
+        placement: 19
         is_searchable: 1
         can_translate: 1
         data_int1: 'tag(Dataset / Standard di conformità)'
@@ -389,7 +403,7 @@ data_map:
             ger-DE: Sprache
             ita-IT: Lingua
         data_type_string: eztags
-        placement: 19
+        placement: 20
         is_searchable: 1
         is_required: 1
         can_translate: 1
@@ -410,7 +424,7 @@ data_map:
             ger-DE: Version
             ita-IT: Versione
         data_type_string: ezstring
-        placement: 20
+        placement: 21
         is_searchable: 1
         can_translate: 1
         category: details
@@ -428,7 +442,7 @@ data_map:
             ger-DE: Kontaktstellen
             ita-IT: Contatti
         data_type_string: ezobjectrelationlist
-        placement: 21
+        placement: 22
         is_searchable: 1
         can_translate: 1
         data_text5:
@@ -454,7 +468,7 @@ data_map:
             ger-DE: Schlüsselwörter
             ita-IT: 'Parole chiave'
         data_type_string: ezstring
-        placement: 22
+        placement: 23
         is_searchable: 1
         can_translate: 1
         category: details

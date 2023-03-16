@@ -12,11 +12,11 @@ data:
         managed_by_political_body: {  }
         type: null
         description: null
-        eu: 'http://publications.europa.eu/resource/authority/data-theme/ENVI'
-        theme: null
+        eu: 'http://eurovoc.europa.eu/100155'
+        theme: 'http://publications.europa.eu/resource/authority/data-theme/ENVI'
         data_themes_eurovocs: {  }
-        image: {  }
-        abstract: '<p>In questo tema rientra tutto ciò che riguarda l’ambiente (rifiuti, consumo del suolo, oceani, ecc.) e il clima/meteo.</p>'
+        image: { }
+        abstract: '<p>Informazioni relative ad ambiente, rifiuti, consumo del suolo, clima, aria, spazi verdi, inquinamento</p>'
         icon: null
         layout: {  }
         help: {  }
@@ -39,4 +39,4 @@ data:
 sort_data:
     sort_field: 9
     sort_order: 1
-    priority: 0
+    priority: -28

@@ -1,21 +1,21 @@
 name: 'Editor Trasparenza'
 policies:
-    -
-        ModuleName: content
-        FunctionName: create
-        Limitation:
-            Subtree:
-                - $contenttree_Trasparenza-Ammi-Tras_Enti-controllati_path_string
-            Class:
-                - classid(partecipazione_societaria)
-    -
-        ModuleName: content
-        FunctionName: edit
-        Limitation:
-            Subtree:
-                - $contenttree_Trasparenza-Ammi-Tras_Enti-controllati_path_string
-            Class:
-                - classid(partecipazione_societaria)
+#    -
+#        ModuleName: content
+#        FunctionName: create
+#        Limitation:
+#            Subtree:
+#                - $contenttree_Trasparenza-Ammi-Tras_Enti-controllati_path_string
+#            Class:
+#                - classid(partecipazione_societaria)
+#    -
+#        ModuleName: content
+#        FunctionName: edit
+#        Limitation:
+#            Subtree:
+#                - $contenttree_Trasparenza-Ammi-Tras_Enti-controllati_path_string
+#            Class:
+#                - classid(partecipazione_societaria)
     -
         ModuleName: content
         FunctionName: create
@@ -25,8 +25,7 @@ policies:
             Class:
                 - classid(link)
                 - classid(document)
-                - classid(politico)
-                - classid(employee)
+                - classid(public_person)
                 - $class_nota_trasparenza
                 - $class_pagina_trasparenza
                 - classid(folder)
@@ -48,8 +47,7 @@ policies:
             Class:
                 - classid(link)
                 - classid(document)
-                - classid(politico)
-                - classid(employee)
+                - classid(public_person)
                 - $class_nota_trasparenza
                 - $class_pagina_trasparenza
                 - classid(folder)
@@ -65,8 +63,7 @@ policies:
             Class:
                 - classid(link)
                 - classid(document)
-                - classid(politico)
-                - classid(employee)
+                - classid(public_person)
                 - $class_nota_trasparenza
                 - classid(folder)
                 - $class_lotto
@@ -88,7 +85,7 @@ policies:
             Node:
                 - $content_Enti-e-fondazioni_node
             Class:
-                - classid(public_organization)
+                - classid(organization)
                 - classid(private_organization)
     -
         ModuleName: content

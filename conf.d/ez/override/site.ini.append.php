@@ -154,5 +154,4 @@ Rules[]=module;user/forgotpassword
 [Event]
 Listeners[]=content/download@OpenPADownloadFilter::addXRobotsTagHeader
 
-
 */ ?>

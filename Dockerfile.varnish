@@ -1,2 +1,0 @@
-FROM wodby/varnish
-COPY ./conf.d/varnish/default.vcl.tmpl /etc/gotpl/default.vcl.tmpl

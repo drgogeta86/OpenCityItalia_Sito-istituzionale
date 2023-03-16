@@ -278,7 +278,7 @@ data_map:
             selection_type: '0'
             type: '2'
             class_constraint_list:
-                - office
+                - organization
             default_placement:
                 node_id: $contenttree_Amministrazione_Uffici_node
         serialized_data_text:

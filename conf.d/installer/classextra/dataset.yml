@@ -1,41 +1,62 @@
 attribute_group:
     dataset:
         '*': Dataset
-        download_file: '1'
-        download_url: '1'
         license: '1'
-        resources: '1'
     enabled:
         '*': '1'
-    'ger-DE::dataset':
-        '*': Datensatz
-    'ger-DE::informazioni_sul_dataset':
-        '*': 'Informationen über den Datensatz'
+    'evidence::risorse':
+        '*': risorse
     informazioni_sul_dataset:
         '*': 'Informazioni sul dataset'
         accrualperiodicity: '1'
         conforms_to: '1'
         contact_point: '1'
+        content_show_modified: '1'
+        creator: '1'
+        format: '1'
+        issued: '1'
         language: '1'
         modified: '1'
+        publisher: '1'
         rights_holder: '1'
+        spatial: '1'
+        temporal: '1'
         theme: '1'
         version_info: '1'
     'ita-IT::dataset':
         '*': Dataset
     'ita-IT::informazioni_sul_dataset':
         '*': 'Informazioni sul dataset'
+    'ita-IT::risorse':
+        '*': Risorse
+    risorse:
+        '*': Risorse
+        csv_resource: '1'
+        download_file: '1'
+        download_url: '1'
+        resources: '1'
     'sort::dataset':
         '*': '1'
     'sort::informazioni_sul_dataset':
+        '*': '4'
+    'sort::risorse':
         '*': '2'
+card_small_view:
+    enabled:
+        '*': '1'
+    show:
+        abstract: '1'
+        content_show_read_more: '1'
+        format: '1'
+        modified: '1'
+    show_label:
+        format: '1'
+        modified: '1'
 table_view:
-    collapse_label:
-        spatial: '1'
     enabled:
         '*': '1'
     in_overview:
-        description: '1'
+        abstract: '1'
     show:
         accrualperiodicity: '1'
         conforms_to: '1'
@@ -43,9 +64,9 @@ table_view:
         content_show_history: '1'
         content_show_modified: '1'
         content_show_published: '1'
-        content_tree_related: '1'
+        content_tree_related: '0'
         creator: '1'
-        description: '1'
+        csv_resource: '1'
         download_file: '1'
         download_url: '1'
         identifier: '1'
@@ -68,7 +89,7 @@ table_view:
         content_show_history: '1'
         content_show_modified: '1'
         content_show_published: '1'
-        content_tree_related: '1'
+        content_tree_related: '0'
         creator: '1'
         issued: '1'
         keyword: '1'

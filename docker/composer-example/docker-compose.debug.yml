@@ -1,0 +1,52 @@
+version: "3.7"
+
+services:
+
+  app:
+    environment:
+      # Modalità sviluppo: abilita il debug e disabilita la cache
+      EZINI_site__OverrideSettings__Cache: 'disabled'
+      EZINI_site__DesignSettings__DesignLocationCache: 'disabled'
+      EZINI_site__ContentSettings__ViewCaching: 'disabled'
+      EZINI_site__TemplateSettings__DevelopmentMode: 'enabled'
+      EZINI_site__TemplateSettings__ShowXHTMLCode: 'enabled'
+      EZINI_site__TemplateSettings__TemplateCache: 'disabled'
+      EZINI_site__TemplateSettings__TemplateCompile: 'disabled'
+      EZINI_site__TemplateSettings__ShowUsedTemplates: 'enabled'
+      EZINI_site__DebugSettings__DebugOutput: 'enabled'
+      EZINI_site__DebugSettings__DebugToolbar: 'enabled'
+      EZINI_ezjscore__eZJSCore__Packer: 'disabled'
+    volumes:
+      - ./html/kernel:/var/www/html/kernel:rw,cached
+      - ./html/lib:/var/www/html/lib:rw,cached
+      - ./html/extension:/var/www/html/extension:rw,cached
+      - ./html/vendor:/var/www/html/vendor:rw,cached
+      - ./conf.d/ez/siteaccess:/var/www/html/settings/siteaccess:rw,cached
+      - ./conf.d/ez/override:/var/www/html/settings/override:rw,cached
+      - ./conf.d/installer:/var/www/installer:rw,cached
+      - ./composer.json:/var/www/composer.json
+      - ./composer.lock:/var/www/composer.lock
+
+  pgweb:
+    image: sosedoff/pgweb
+    environment:
+      DATABASE_URL: postgres://openpa:openp4ssword@postgres:5432/opencity?sslmode=disable
+    depends_on:
+      - postgres
+    labels:
+      traefik.enable: 'true'
+      traefik.http.services.opencity-pgweb.loadbalancer.server.port: 8081
+      traefik.http.routers.opencity-pgweb-https.rule: Host(`pgweb-opencity.localtest.me`)
+      traefik.http.routers.opencity-pgweb-https.entrypoints: websecure
+      traefik.http.routers.opencity-pgweb-https.tls: null
+      traefik.http.routers.opencity-pgweb-https.middlewares: goodheaders
+      traefik.http.routers.opencity-pgweb-http.rule: Host(`pgweb-opencity.localtest.me`)
+      traefik.http.routers.opencity-pgweb-http.entrypoints: web
+
+  redisweb:
+    image: marian/rebrow
+    volumes:
+      - redisdata:/data
+    ports:
+      - 5001:5001
+

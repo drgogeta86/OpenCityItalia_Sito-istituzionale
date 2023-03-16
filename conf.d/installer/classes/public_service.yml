@@ -9,7 +9,6 @@ serialized_description_list:
     ger-DE: 'Präsentationsblatt des Dienstes für Bürger. Eine öffentliche Dienstleistung ist jede Pflicht- oder Ermessenshandlung, die von einer öffentlichen Verwaltung (oder im Namen einer öffentlichen Verwaltung) gegenüber Bürgern, Unternehmen/Berufstätigen durchgeführt wird.'
     ita-IT: 'Scheda di presentazione del servizio ai cittadini. Per servizio pubblico si intende qualsiasi atto obbligatorio o discrezionale espletato da una pubblica amministrazione (o per conto di una pubblica amministrazione) nei confronti di cittadini, imprese/professionisti.'
 always_available: 1
-is_container: 1
 data_map:
     type:
         identifier: type
@@ -28,6 +27,7 @@ data_map:
         can_translate: 1
         data_int1: 'tag(Servizi pubblici / Categoria del servizio)'
         data_int3: 1
+        data_int4: 1
         data_text1: Tree
         serialized_data_text:
             always-available: ita-IT
@@ -84,7 +84,7 @@ data_map:
         placement: 4
         is_searchable: 1
         can_translate: 1
-        category: details
+        category: hidden
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
@@ -177,17 +177,17 @@ data_map:
         identifier: abstract
         serialized_description_list:
             always-available: ita-IT
-            ger-DE: 'Beschreiben Sie kurz und bündig, worin diese Dienstleistung besteht (max. 160 Zeichen). Verwenden Sie hierfür eine einfache Sprache, die es allen Bürgerinnen und Bürgern ermöglicht, die Dienstleistung sofort einzuordnen. Vermeiden Sie Verweise auf Rechtsquellen.'
             ita-IT: 'Indicare una sintetica descrizione del Servizio (max 160 caratteri) utilizzando un linguaggio semplice che possa aiutare qualsiasi utente a identificare con chiarezza il Servizio. Non utilizzare un linguaggio ricco di riferimenti normativi'
         serialized_name_list:
             always-available: ita-IT
-            ger-DE: Kurzbeschreibung
             ita-IT: 'Descrizione breve'
-        data_type_string: ezxmltext
+        data_type_string: ezstring
         placement: 9
         is_searchable: 1
+        is_required: 1
         can_translate: 1
-        data_int1: 2
+        data_int1: 160
+        category: content
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
@@ -196,7 +196,7 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ger-DE: 'Nennen Sie die wichtigsten Personengruppen, die diese Leistung in Anspruch nehmen können'
-            ita-IT: 'Descrizione testuale dei principali destinatari del Servizio. Il campo viene visualizzato nelle scheda del servizio all''interno della voce "A chi si rivolge".'
+            ita-IT: 'Descrizione testuale dei principali destinatari del servizio'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: 'Beschreibung der Personengruppen, die diese Leistung in Anspruch nehmen'
@@ -259,11 +259,13 @@ data_map:
         placement: 13
         is_searchable: 1
         can_translate: 1
+        data_int1: 1
         data_int3: 1
         data_text1: Tree
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
+        is_required: 1
     process:
         identifier: process
         serialized_description_list:
@@ -276,11 +278,12 @@ data_map:
         data_type_string: eztags
         placement: 14
         is_searchable: 1
+        is_required: 1
         can_translate: 1
         data_int1: 'tag(Servizi pubblici / Tipologia di procedimento)'
         data_int3: 1
         data_text1: Tree
-        category: details
+        category: taxonomy
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
@@ -324,7 +327,7 @@ data_map:
         data_int3: 1
         data_int4: 2
         data_text1: Tree
-        category: details
+        category: hidden
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
@@ -341,11 +344,12 @@ data_map:
         data_type_string: eztags
         placement: 17
         is_searchable: 1
+        is_required: 1
         can_translate: 1
         data_int1: 'tag(Lingue in cui è disponibile (un servizio, un evento, ...))'
         data_int3: 1
         data_text1: Tree
-        category: details
+        category: content
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
@@ -380,8 +384,9 @@ data_map:
         data_type_string: ezxmltext
         placement: 19
         is_searchable: 1
+        is_required: 1
         can_translate: 1
-        data_int1: 10
+        data_int1: 5
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
@@ -423,6 +428,7 @@ data_map:
         data_type_string: ezobjectrelationlist
         placement: 21
         is_searchable: 1
+        is_required: 1
         can_translate: 1
         data_text5:
             object_class: ''
@@ -572,12 +578,10 @@ data_map:
         identifier: output_notes
         serialized_description_list:
             always-available: ita-IT
-            ger-DE: 'Was Sie tun müssen, um das Ergebnis des Verfahrens zu erfahren oder Dokument abholen können (Link zum Büro, Öffnungszeiten, Schalternummer)'
-            ita-IT: 'Cosa fare per conoscere l''esito della procedura, e dove eventualmente ritirare l''esito (link all''ufficio, orari, numero sportello, etc.)'
+            ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ger-DE: 'Verfahren und damit verbundenes Ergebnis'
-            ita-IT: 'Procedure collegate all''esito'
+            ita-IT: 'Procedure collegate all''esito '
         data_type_string: ezxmltext
         placement: 28
         is_searchable: 1
@@ -591,15 +595,16 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ger-DE: 'Kanal/e für die Dienstaktivierung. Dieses Feld verknüpft den "Dienst" mit seinem Aktivierungskanal (Website, E-Mail, Telefon, ...)'
-            ita-IT: 'Link per avviare la procedura di attivazione del servizio. Questo campo mette in relazione "Servizio" con il suo canale digitale di attivazione. Il campo viene visualizzate nella scheda del Servizio all''interno della voce "Accedi al servizio".'
+            ita-IT: 'Servizio on-line per avviare la procedura di attivazione del servizio (con autenticazione SPID/CIE) o per prenotare un appuntamento con l''ufficio di competenza'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: 'Digitale Kanäle'
-            ita-IT: 'Accedi al servizio (Canali digitali)'
+            ita-IT: 'Accedi al servizio (canale digitale)'
         data_type_string: ezobjectrelationlist
         placement: 29
         is_searchable: 1
         can_translate: 1
+        is_required: 1
         data_text5:
             object_class: ''
             selection_type: '0'
@@ -611,18 +616,34 @@ data_map:
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
+    is_physically_available_at_how_to:
+        identifier: is_physically_available_at_how_to
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: 'Breve testo che segnala la presenza di una o più sedi per fruire il servizio. Es "Il servizio è disponibile in tutte le sedi dell''ufficio anagrafe"'
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Istruzioni per accedere al servizio (canale fisico)'
+        data_type_string: eztext
+        placement: 30
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 2
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
     is_physically_available_at:
         identifier: is_physically_available_at
         serialized_description_list:
             always-available: ita-IT
             ger-DE: 'Gemeindesitze, in denen der Dienst erbracht wird, auch Schalter und Infostellen'
-            ita-IT: 'Sedi presso le quali il servizio viene erogato. Indicare sia sportelli fisici che totem. Il campo viene visualizzate nella scheda del Servizio all''interno della voce "Accedi al servizio".'
+            ita-IT: 'Sedi presso le quali il servizio viene erogato. Indicare sia sportelli fisici che totem'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: 'So erreichen Sie uns'
-            ita-IT: 'Dove recarsi'
+            ita-IT: 'Accedi al servizio (Canale fisico)'
         data_type_string: ezobjectrelationlist
-        placement: 30
+        placement: 31
         is_searchable: 1
         is_required: 1
         can_translate: 1
@@ -648,7 +669,7 @@ data_map:
             ger-DE: Voraussetzungen
             ita-IT: Vincoli
         data_type_string: ezxmltext
-        placement: 31
+        placement: 32
         is_searchable: 1
         can_translate: 1
         data_int1: 5
@@ -666,10 +687,27 @@ data_map:
             ger-DE: Sonderfälle
             ita-IT: 'Casi particolari'
         data_type_string: ezxmltext
-        placement: 32
+        placement: 33
         is_searchable: 1
         can_translate: 1
         data_int1: 5
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    terms_of_service:
+        identifier: terms_of_service
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ita-IT: 'Condizioni di servizio'
+        data_type_string: ocmultibinary
+        placement: 34
+        is_searchable: 1
+        is_required: 1
+        can_translate: 1
+        data_int3: 1
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
@@ -684,7 +722,7 @@ data_map:
             ger-DE: Kontaktstellen
             ita-IT: Contatti
         data_type_string: ezobjectrelationlist
-        placement: 33
+        placement: 35
         is_searchable: 1
         is_required: 1
         can_translate: 1
@@ -710,7 +748,7 @@ data_map:
             ger-DE: 'Verantwortliches Amt'
             ita-IT: 'Unità organizzativa responsabile'
         data_type_string: ezobjectrelationlist
-        placement: 34
+        placement: 36
         is_searchable: 1
         is_required: 1
         can_translate: 1
@@ -734,7 +772,7 @@ data_map:
             always-available: ita-IT
             ita-IT: Documenti
         data_type_string: ezobjectrelationlist
-        placement: 35
+        placement: 37
         is_searchable: 1
         can_translate: 1
         data_text5:
@@ -759,7 +797,7 @@ data_map:
             ger-DE: Themen
             ita-IT: Argomenti
         data_type_string: ezobjectrelationlist
-        placement: 36
+        placement: 38
         is_searchable: 1
         is_required: 1
         can_translate: 1
@@ -786,7 +824,7 @@ data_map:
             ger-DE: Anmeldung
             ita-IT: Autenticazione
         data_type_string: eztags
-        placement: 37
+        placement: 39
         is_searchable: 1
         can_translate: 1
         data_int1: 'tag(Servizi pubblici / Tipo di autenticazione)'
@@ -807,7 +845,7 @@ data_map:
             ger-DE: 'Grad der Interaktivität'
             ita-IT: 'Livello di interattività'
         data_type_string: eztags
-        placement: 38
+        placement: 40
         is_searchable: 1
         can_translate: 1
         data_int1: 'tag(Servizi pubblici / Livello di interattività)'
@@ -829,7 +867,7 @@ data_map:
             ger-DE: Vormerkung
             ita-IT: 'Per prenotare'
         data_type_string: ezurl
-        placement: 39
+        placement: 41
         can_translate: 1
         category: hidden
         serialized_data_text:
@@ -846,7 +884,7 @@ data_map:
             ger-DE: 'Verordnungen, Richtlinien, Gesetzesbestimmungen'
             ita-IT: 'Regolamenti, linee guida, normative'
         data_type_string: ezobjectrelationlist
-        placement: 40
+        placement: 42
         is_searchable: 1
         can_translate: 1
         data_text5:
@@ -872,15 +910,15 @@ data_map:
             ger-DE: 'Links zu externen Webseiten'
             ita-IT: 'Link a siti esterni'
         data_type_string: ezmatrix
-        placement: 41
+        placement: 43
         is_searchable: 1
         can_translate: 1
         data_text5: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<ezmatrix><column-name id=\"nome_sito\" idx=\"0\">Nome del sito esterno</column-name><column-name id=\"link\" idx=\"1\">Link al sito esterno</column-name></ezmatrix>\n"
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
-    life_event:
-        identifier: life_event
+    ife_event:
+        identifier: ife_event
         serialized_description_list:
             always-available: ita-IT
             ger-DE: 'Verbindet den öffentlichen Dienst mit einem Lebensereignis einer Person oder eines Unternehmens'
@@ -890,7 +928,7 @@ data_map:
             ger-DE: Lebensereignis
             ita-IT: 'Life events'
         data_type_string: eztags
-        placement: 42
+        placement: 44
         is_searchable: 1
         can_translate: 1
         data_int1: 'tag(Servizi pubblici / Eventi della vita delle persone e delle imprese / Persone)'
@@ -910,7 +948,7 @@ data_map:
             always-available: ita-IT
             ita-IT: 'Business events'
         data_type_string: eztags
-        placement: 43
+        placement: 45
         is_searchable: 1
         can_translate: 1
         data_int1: 'tag(Servizi pubblici / Eventi della vita delle persone e delle imprese / Imprese)'
@@ -918,6 +956,21 @@ data_map:
         data_int4: 3
         data_text1: Tree
         category: taxonomy
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    news_and_updates:
+        identifier: news_and_updates
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ger-DE: 'Alle Neuigkeiten'
+            ita-IT: 'Notizie e aggiornamenti'
+        data_type_string: openpareverserelationlist
+        placement: 46
+        can_translate: 1
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
@@ -932,7 +985,7 @@ data_map:
             ger-DE: NACE
             ita-IT: 'Settore merceologico'
         data_type_string: eztags
-        placement: 44
+        placement: 47
         is_searchable: 1
         can_translate: 1
         data_int1: 'tag(Servizi pubblici / NACE)'
@@ -953,7 +1006,7 @@ data_map:
             ger-DE: Hilfebox
             ita-IT: 'Box d''aiuto'
         data_type_string: ezobjectrelationlist
-        placement: 45
+        placement: 48
         is_searchable: 1
         can_translate: 1
         data_text5:
@@ -968,21 +1021,5 @@ data_map:
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
-#    news_and_updates:
-#        identifier: news_and_updates
-#        serialized_description_list:
-#            always-available: ita-IT
-#            ita-IT: ''
-#        serialized_name_list:
-#            always-available: ita-IT
-#            ger-DE: 'Alle Neuigkeiten'
-#            ita-IT: 'Notizie e aggiornamenti'
-#        data_type_string: openpareverserelationlist
-#        placement: 47
-#        can_translate: 1
-#        data_text5: ''
-#        serialized_data_text:
-#            always-available: ita-IT
-#            ita-IT: ''
 groups:
     - CPSV-AP_IT

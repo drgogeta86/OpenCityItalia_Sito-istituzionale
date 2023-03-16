@@ -31,18 +31,23 @@
 28	3	Costantemente aggiornato	ita-IT	1
 15	3	Regioni e città	ita-IT	1
 15	16	http://publications.europa.eu/resource/authority/data-theme/REGI	ita-PA	1
-29	3	Ogni ora	ita-IT	1
+46	3	Rendiconti	ita-IT	1
 16	3	Salute	ita-IT	1
 16	16	http://publications.europa.eu/resource/authority/data-theme/HEAL	ita-PA	1
-30	3	Ogni due ore	ita-IT	1
+47	3	Accordi tra enti	ita-IT	1
+48	3	Accordo tra enti	ita-IT	1
 17	3	Scienza e tecnologia	ita-IT	1
 17	16	http://publications.europa.eu/resource/authority/data-theme/TECH	ita-PA	1
-31	3	Ogni 3 ore	ita-IT	1
+49	3	Accordo	ita-IT	1
 18	3	Tematiche internazionali	ita-IT	1
 18	16	http://publications.europa.eu/resource/authority/data-theme/INTR	ita-PA	1
-32	3	Standard di conformità	ita-IT	1
+50	3	Accordi	ita-IT	1
 19	3	Trasporti	ita-IT	1
 19	16	http://publications.europa.eu/resource/authority/data-theme/TRAN	ita-PA	1
+29	3	Ogni ora	ita-IT	1
+30	3	Ogni due ore	ita-IT	1
+31	3	Ogni 3 ore	ita-IT	1
+32	3	Standard di conformità	ita-IT	1
 33	3	SKOS	ita-IT	1
 34	3	Documenti	ita-IT	1
 35	3	Tipo di documento	ita-IT	1
@@ -56,11 +61,6 @@
 43	3	Bilancio preventivo	ita-IT	1
 44	3	Bilanci preventivi	ita-IT	1
 45	3	Rendiconto	ita-IT	1
-46	3	Rendiconti	ita-IT	1
-47	3	Accordi tra enti	ita-IT	1
-48	3	Accordo tra enti	ita-IT	1
-49	3	Accordo	ita-IT	1
-50	3	Accordi	ita-IT	1
 51	3	Convenzione	ita-IT	1
 52	3	Convenzioni	ita-IT	1
 53	3	Parere	ita-IT	1
@@ -69,102 +69,145 @@
 56	3	Partnerships	ita-IT	1
 57	3	Documenti Albo Pretorio	ita-IT	1
 58	3	Documento Albo Pretorio	ita-IT	1
-64	3	Decreti del Dirigente	ita-IT	1
+193	3	Notifica di nomina	ita-IT	1
 59	3	Atto amministrativo	ita-IT	1
 59	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A	ita-PA	1
 60	3	Atti amministrativi	ita-IT	1
-67	3	Deliberazione	ita-IT	1
+194	3	Ricevuta dall'ente	ita-IT	1
 61	3	Decreto	ita-IT	1
 61	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-01	ita-PA	1
 62	3	Decreti	ita-IT	1
-66	3	Decreto sindacale	ita-IT	1
+195	3	Tesserino hobbista	ita-IT	1
 63	3	Decreto del Dirigente	ita-IT	1
+196	3	Eventi	ita-IT	1
+197	3	Patrocinatori di eventi	ita-IT	1
+198	3	Tematiche eventi	ita-IT	1
+199	4	Cultural event	eng-GB	1
+199	3	Evento culturale	ita-IT	1
+199	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/1	ita-PA	1
+200	3	Eventi culturali	ita-IT	1
 63	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-01-01	ita-PA	1
-67	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02	ita-PA	1
+64	3	Decreti del Dirigente	ita-IT	1
+85	3	Determinazione del Sindaco	ita-IT	1
+85	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-03-02	ita-PA	1
 65	3	Decreto del Sindaco	ita-IT	1
 65	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-01-02	ita-PA	1
+66	3	Decreto sindacale	ita-IT	1
+86	3	Determinazione sindacale	ita-IT	1
+67	3	Deliberazione	ita-IT	1
+67	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02	ita-PA	1
 68	3	Delibera	ita-IT	1
-70	3	Delibere del Commissario ad acta	ita-IT	1
 69	3	Deliberazione del Commissario ad acta	ita-IT	1
+113	3	Avviso di deposito in casa comunale	ita-IT	1
 69	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02-03	ita-PA	1
-72	3	Delibere del Consiglio circoscrizionale	ita-IT	1
+70	3	Delibere del Commissario ad acta	ita-IT	1
+357	4	Race	eng-GB	1
+87	3	Ordinanza	ita-IT	1
 71	3	Deliberazione del Consiglio circoscrizionale	ita-IT	1
 71	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02-04	ita-PA	1
+72	3	Delibere del Consiglio circoscrizionale	ita-IT	1
+87	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-04	ita-PA	1
+88	3	Ordinanze	ita-IT	1
 73	3	Deliberazione del Consiglio comunale	ita-IT	1
 73	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02-01	ita-PA	1
 74	3	Deliberazione consiliare	ita-IT	1
-95	3	Pubblicazione di matrimonio	ita-IT	1
-95	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C-03-01	ita-PA	1
+98	3	Provvedimenti di cancellazione per irreperibilità	ita-IT	1
 75	3	Deliberazione della Giunta comunale	ita-IT	1
 75	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02-02	ita-PA	1
 76	3	Deliberazione giuntale	ita-IT	1
-96	3	Pubblicazioni di matrimonio	ita-IT	1
 77	3	Deliberazione dell'Esecutivo circoscrizionale	ita-IT	1
 77	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02-05	ita-PA	1
 78	3	Deliberazioni dell'Esecutivo circoscrizionale	ita-IT	1
+89	3	Ordinanza del Dirigente	ita-IT	1
+89	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-04-01	ita-PA	1
 79	3	Deliberazione di altri Organi	ita-IT	1
 79	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-02-06	ita-PA	1
 80	3	Delibere di altri Organi	ita-IT	1
-115	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-01-02	ita-PA	1
-97	3	Provvedimento di cancellazione per irreperibilità	ita-IT	1
+357	3	Corsa	ita-IT	1
 81	3	Determinazione	ita-IT	1
 81	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-03	ita-PA	1
 82	3	Determina	ita-IT	1
-97	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C-01-01	ita-PA	1
-98	3	Provvedimenti di cancellazione per irreperibilità	ita-IT	1
+95	3	Pubblicazione di matrimonio	ita-IT	1
+95	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C-03-01	ita-PA	1
 83	3	Determinazione del Dirigente	ita-IT	1
 83	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-03-01	ita-PA	1
 84	3	Determinazione dirigenziale	ita-IT	1
-85	3	Determinazione del Sindaco	ita-IT	1
-85	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-03-02	ita-PA	1
-86	3	Determinazione sindacale	ita-IT	1
-87	3	Ordinanza	ita-IT	1
-87	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-04	ita-PA	1
-88	3	Ordinanze	ita-IT	1
-99	3	Pubblicazione cambio nome	ita-IT	1
-99	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C-02-01	ita-PA	1
-89	3	Ordinanza del Dirigente	ita-IT	1
-89	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-04-01	ita-PA	1
+96	3	Pubblicazioni di matrimonio	ita-IT	1
 90	3	Ordinanza dirigenziale	ita-IT	1
-100	3	Pubblicazioni cambio nomi	ita-IT	1
+357	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/515	ita-PA	1
 91	3	Ordinanza del Sindaco	ita-IT	1
 91	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/A-04-02	ita-PA	1
 92	3	Ordinanza sindacale	ita-IT	1
-107	3	Bando di contributi e vantaggi economici	ita-IT	1
+358	3	Corse	ita-IT	1
+99	3	Pubblicazione cambio nome	ita-IT	1
 93	3	Atto dello stato civile	ita-IT	1
 93	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C	ita-PA	1
 94	3	Atti dello stato civile	ita-IT	1
-107	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-02-02	ita-PA	1
-108	3	Bando di contributo e vantaggio economico	ita-IT	1
+359	3	Raduno sportivo	ita-IT	1
+97	3	Provvedimento di cancellazione per irreperibilità	ita-IT	1
+97	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C-01-01	ita-PA	1
+99	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/C-02-01	ita-PA	1
+100	3	Pubblicazioni cambio nomi	ita-IT	1
+359	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/516	ita-PA	1
 101	3	Atto generico	ita-IT	1
 101	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D	ita-PA	1
 102	3	Atti generici	ita-IT	1
-116	3	Manifesto	ita-IT	1
+361	3	Target utenti	ita-IT	1
 103	3	Bando	ita-IT	1
+362	3	Età utenti	ita-IT	1
+359	4	Sport gathering	eng-GB	1
+360	3	Raduni sportivi	ita-IT	1
+363	3	0-3 anni	ita-IT	1
+364	3	11-14 anni	ita-IT	1
+365	3	14-17 anni	ita-IT	1
+366	3	18-21 anni	ita-IT	1
+367	3	3-5 anni	ita-IT	1
+368	3	6-8 anni	ita-IT	1
+369	3	9-11 anni	ita-IT	1
+370	3	Oltre 65 anni	ita-IT	1
+371	3	Fasce generali di popolazione	ita-IT	1
+372	3	Adulti	ita-IT	1
 103	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-02	ita-PA	1
 104	3	Bandi	ita-IT	1
-113	3	Avviso di deposito in casa comunale	ita-IT	1
-109	3	Bando di gara	ita-IT	1
+132	3	Mozione	ita-IT	1
 105	3	Bando di concorso	ita-IT	1
 105	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-02-01	ita-PA	1
 106	3	Bandi di concorso	ita-IT	1
+133	3	Mozioni	ita-IT	1
+107	3	Bando di contributi e vantaggi economici	ita-IT	1
+107	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-02-02	ita-PA	1
+108	3	Bando di contributo e vantaggio economico	ita-IT	1
+134	3	Ordine del giorno	ita-IT	1
+135	3	OdG	ita-IT	1
+109	3	Bando di gara	ita-IT	1
 109	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-02-03	ita-PA	1
 110	3	Bandi di gara	ita-IT	1
-113	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-01-01	ita-PA	1
-114	3	Avvisi di deposito in casa comunale	ita-IT	1
+136	3	Seduta del consiglio	ita-IT	1
 111	3	Avviso	ita-IT	1
 111	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-01	ita-PA	1
 112	3	Avvisi	ita-IT	1
-118	3	Pubblicazioni esterne	ita-IT	1
-117	3	Pubblicazione esterna	ita-IT	1
+137	3	Sedute del consiglio	ita-IT	1
+113	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-01-01	ita-PA	1
+114	3	Avvisi di deposito in casa comunale	ita-IT	1
+138	3	Documenti (tecnici) di supporto	ita-IT	1
+139	3	Documento (tecnico) di supporto	ita-IT	1
 115	3	Avviso/Manifesto	ita-IT	1
+115	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/D-01-02	ita-PA	1
+116	3	Manifesto	ita-IT	1
+140	3	Piano/Progetto	ita-IT	1
+117	3	Pubblicazione esterna	ita-IT	1
 117	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/E	ita-PA	1
-120	3	Atti di terzi	ita-IT	1
+118	3	Pubblicazioni esterne	ita-IT	1
+141	3	Progetto	ita-IT	1
 119	3	Atto di terzi	ita-IT	1
 119	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/E-01-01	ita-PA	1
-122	3	Atti autorizzativi	ita-IT	1
+120	3	Atti di terzi	ita-IT	1
+142	3	Pubblicazione	ita-IT	1
+143	3	Pubblicazioni	ita-IT	1
 121	3	Atto autorizzativo	ita-IT	1
 121	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/B	ita-PA	1
+122	3	Atti autorizzativi	ita-IT	1
+144	3	Rapporto	ita-IT	1
 123	3	Permesso a costruire	ita-IT	1
 123	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-documents/municipal-notice-board/B-01-01	ita-PA	1
 124	3	Concessione	ita-IT	1
@@ -175,19 +218,6 @@
 129	3	Interpellanze	ita-IT	1
 130	3	Interrogazione	ita-IT	1
 131	3	Interrogazioni	ita-IT	1
-132	3	Mozione	ita-IT	1
-133	3	Mozioni	ita-IT	1
-134	3	Ordine del giorno	ita-IT	1
-135	3	OdG	ita-IT	1
-136	3	Seduta del consiglio	ita-IT	1
-137	3	Sedute del consiglio	ita-IT	1
-138	3	Documenti (tecnici) di supporto	ita-IT	1
-139	3	Documento (tecnico) di supporto	ita-IT	1
-140	3	Piano/Progetto	ita-IT	1
-141	3	Progetto	ita-IT	1
-142	3	Pubblicazione	ita-IT	1
-143	3	Pubblicazioni	ita-IT	1
-144	3	Rapporto	ita-IT	1
 145	3	Rapporti	ita-IT	1
 146	3	Documenti funzionamento interno	ita-IT	1
 147	3	Documento funzionamento interno	ita-IT	1
@@ -236,393 +266,378 @@
 190	3	Certificato di residenza	ita-IT	1
 191	3	Comunicazione	ita-IT	1
 192	3	Graduatoria	ita-IT	1
-193	3	Notifica di nomina	ita-IT	1
-194	3	Ricevuta dall'ente	ita-IT	1
-195	3	Tesserino hobbista	ita-IT	1
-196	3	Eventi	ita-IT	1
-197	3	Patrocinatori di eventi	ita-IT	1
-198	3	Tematiche eventi	ita-IT	1
-202	3	Manifestazioni artistiche	ita-IT	1
-204	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/112	ita-PA	1
-205	3	Mostre	ita-IT	1
-199	4	Cultural event	eng-GB	1
-199	3	Evento culturale	ita-IT	1
-199	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/1	ita-PA	1
-200	3	Eventi culturali	ita-IT	1
-203	3	Festival	ita-IT	1
-203	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/111	ita-PA	1
-206	3	Spettacolo teatrale	ita-IT	1
+218	3	Letture (pubbliche)	ita-IT	1
+236	4	Course	eng-GB	1
 201	4	Arts exhibition	eng-GB	1
 201	3	Manifestazione artistica	ita-IT	1
 201	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/11	ita-PA	1
-206	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/113	ita-PA	1
-211	3	danza	ita-IT	1
-207	3	Spettacoli teatrali	ita-IT	1
-208	3	teatro	ita-IT	1
+202	3	Manifestazioni artistiche	ita-IT	1
+236	3	Corso	ita-IT	1
+203	3	Festival	ita-IT	1
+203	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/111	ita-PA	1
+236	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/126	ita-PA	1
+219	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/118	ita-PA	1
+219	4	Cinema projection	eng-GB	1
 204	4	Exhibition	eng-GB	1
 204	3	Mostra	ita-IT	1
-206	4	Theatral show	eng-GB	1
-209	3	Spettacolo di danza	ita-IT	1
-209	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/114	ita-PA	1
-209	4	Dance show	eng-GB	1
-210	3	Spettacoli di danza	ita-IT	1
-213	3	Concerto di musica	ita-IT	1
-214	3	Manifestazioni musicali	ita-IT	1
-212	4	Music event	eng-GB	1
-212	3	Manifestazione musicale	ita-IT	1
-212	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/115	ita-PA	1
-216	3	Visite guidate	ita-IT	1
-217	3	Lettura (pubblica)	ita-IT	1
-215	4	Guided tour	eng-GB	1
-215	3	Visita guidata	ita-IT	1
-215	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/116	ita-PA	1
-370	3	Oltre 65 anni	ita-IT	1
-244	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/132	ita-PA	1
-217	4	(Public) reading	eng-GB	1
-217	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/117	ita-PA	1
-218	3	Letture (pubbliche)	ita-IT	1
-250	3	Giornata aperta	ita-IT	1
-234	4	Book presentation	eng-GB	1
-234	3	Presentazione libro	ita-IT	1
-234	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/125	ita-PA	1
-219	4	Cinema projection	eng-GB	1
-219	3	Proiezione cinematografica	ita-IT	1
-219	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/118	ita-PA	1
+204	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/112	ita-PA	1
+205	3	Mostre	ita-IT	1
 220	3	Proiezioni cinematografiche	ita-IT	1
 221	3	cinema	ita-IT	1
-235	3	Presentazioni libri	ita-IT	1
-250	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/141	ita-PA	1
-222	4	Free tour	eng-GB	1
-222	3	Visita libera	ita-IT	1
-222	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/119	ita-PA	1
-223	3	Visite libere	ita-IT	1
-251	3	Giornate aperte	ita-IT	1
-252	3	Incontro informativo	ita-IT	1
-236	4	Course	eng-GB	1
+237	3	Corsi	ita-IT	1
+206	4	Theatral show	eng-GB	1
+206	3	Spettacolo teatrale	ita-IT	1
+206	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/113	ita-PA	1
+207	3	Spettacoli teatrali	ita-IT	1
+208	3	teatro	ita-IT	1
+233	3	Laboratori	ita-IT	1
+210	3	Spettacoli di danza	ita-IT	1
+211	3	danza	ita-IT	1
+373	3	Anziani	ita-IT	1
 224	4	Training and workshop event	eng-GB	1
 224	3	Evento di formazione	ita-IT	1
+212	4	Music event	eng-GB	1
+212	3	Manifestazione musicale	ita-IT	1
+266	5	Public debates	eng-GB	1
+212	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/115	ita-PA	1
+213	3	Concerto di musica	ita-IT	1
+214	3	Manifestazioni musicali	ita-IT	1
 224	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/12	ita-PA	1
 225	3	Eventi di formazione	ita-IT	1
 226	5	Training and workshops	eng-GB	1
-236	3	Corso	ita-IT	1
-236	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/126	ita-PA	1
-237	3	Corsi	ita-IT	1
-227	4	Summer/Winter school	eng-GB	1
-227	3	Scuola estiva / invernale	ita-IT	1
-227	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/121	ita-PA	1
-228	3	Scuole estive/invernali	ita-IT	1
-245	4	Congress	eng-GB	1
-229	3	Webinar	ita-IT	1
-229	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/122	ita-PA	1
-245	3	Congresso	ita-IT	1
-245	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/133	ita-PA	1
-246	3	Congressi	ita-IT	1
-238	4	Conference and summit	eng-GB	1
+215	4	Guided tour	eng-GB	1
+215	3	Visita guidata	ita-IT	1
+215	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/116	ita-PA	1
+216	3	Visite guidate	ita-IT	1
+374	3	Bambini	ita-IT	1
+217	4	(Public) reading	eng-GB	1
+217	3	Lettura (pubblica)	ita-IT	1
+217	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/117	ita-PA	1
 230	4	Seminar	eng-GB	1
 230	3	Seminario	ita-IT	1
 230	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/123	ita-PA	1
 231	3	Seminari	ita-IT	1
-238	3	Conferenza e summit	ita-IT	1
-238	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/13	ita-PA	1
-239	3	Conferenze	ita-IT	1
-240	5	Conferences and summits	eng-GB	1
+222	4	Free tour	eng-GB	1
+222	3	Visita libera	ita-IT	1
+222	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/119	ita-PA	1
+223	3	Visite libere	ita-IT	1
+227	4	Summer/Winter school	eng-GB	1
+227	3	Scuola estiva / invernale	ita-IT	1
+227	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/121	ita-PA	1
+228	3	Scuole estive/invernali	ita-IT	1
+235	3	Presentazioni libri	ita-IT	1
+229	3	Webinar	ita-IT	1
+229	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/122	ita-PA	1
+375	3	Famiglie	ita-IT	1
+376	3	Giovani	ita-IT	1
 232	4	Workshop	eng-GB	1
 232	3	Laboratorio	ita-IT	1
 232	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/124	ita-PA	1
-233	3	Laboratori	ita-IT	1
-255	4	Competition and award ceremony	eng-GB	1
+377	3	Licenze	ita-IT	1
+234	4	Book presentation	eng-GB	1
+234	3	Presentazione libro	ita-IT	1
+234	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/125	ita-PA	1
+209	3	Spettacolo di danza	ita-IT	1
+209	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/114	ita-PA	1
+378	3	Licenza sconosciuta	ita-IT	1
+378	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/licences/C_Unknown	ita-PA	1
+238	4	Conference and summit	eng-GB	1
+238	3	Conferenza e summit	ita-IT	1
+238	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/13	ita-PA	1
+239	3	Conferenze	ita-IT	1
+379	3	Licenza proprietaria	ita-IT	1
+209	4	Dance show	eng-GB	1
+219	3	Proiezione cinematografica	ita-IT	1
+380	3	Licenza aperta	ita-IT	1
+380	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/licences/A_OpenLicense	ita-PA	1
+240	5	Conferences and summits	eng-GB	1
+258	4	Ceremony	eng-GB	1
+258	3	Cerimonia	ita-IT	1
 241	4	Conference	eng-GB	1
 241	3	Convegno / Conferenza	ita-IT	1
 241	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/131	ita-PA	1
 242	3	Conferenze	ita-IT	1
 243	3	Convegni	ita-IT	1
-255	3	Concorso e cerimonia	ita-IT	1
-247	4	Info day	eng-GB	1
-255	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/21	ita-PA	1
-253	4	Social event	eng-GB	1
+258	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/211	ita-PA	1
+259	3	Cerimonie	ita-IT	1
+260	5	Ceremonies	eng-GB	1
+381	3	Dominio pubblico	ita-IT	1
 244	4	Summit	eng-GB	1
 244	3	Vertice	ita-IT	1
+244	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/132	ita-PA	1
+381	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/licences/A1_PublicDomain	ita-PA	1
+245	4	Congress	eng-GB	1
+245	3	Congresso	ita-IT	1
+245	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/133	ita-PA	1
+246	3	Congressi	ita-IT	1
+261	4	Competition	eng-GB	1
+261	3	Concorso / Competizione	ita-IT	1
+261	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/212	ita-PA	1
+262	3	Concorsi / Competizioni	ita-IT	1
+247	4	Info day	eng-GB	1
 247	3	Giornata informativa	ita-IT	1
 247	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/14	ita-PA	1
 248	3	Giornate informative	ita-IT	1
 249	5	Info days	eng-GB	1
-253	3	Evento sociale	ita-IT	1
-253	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/2	ita-PA	1
-256	3	Concorsi e cerimonie	ita-IT	1
-257	5	Competitions and award ceremonies	eng-GB	1
-250	4	Open day	eng-GB	1
-254	3	Eventi sociali	ita-IT	1
-261	4	Competition	eng-GB	1
-258	4	Ceremony	eng-GB	1
-258	3	Cerimonia	ita-IT	1
-258	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/211	ita-PA	1
-261	3	Concorso / Competizione	ita-IT	1
 263	5	Contest	eng-GB	1
-259	3	Cerimonie	ita-IT	1
-260	5	Ceremonies	eng-GB	1
-261	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/212	ita-PA	1
-262	3	Concorsi / Competizioni	ita-IT	1
-265	3	Dibattiti pubblici	ita-IT	1
-266	5	Public debates	eng-GB	1
-264	4	Public Debate	eng-GB	1
-264	3	Dibattito pubblico	ita-IT	1
-264	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/22	ita-PA	1
-527	3	COSTA	ita-IT	1
-528	3	COSTARELLA	ita-IT	1
-267	4	Public Debate / Dialogue	eng-GB	1
-267	3	Dibattito / Dialogo pubblico	ita-IT	1
-529	3	CUPA	ita-IT	1
-530	3	DISCESA	ita-IT	1
-531	3	EMICICLO	ita-IT	1
-267	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/221	ita-PA	1
-268	3	Dibattiti / Dialoghi pubblici	ita-IT	1
-269	5	Dialogue	eng-GB	1
-293	4	Religious event	eng-GB	1
-270	3	Forum	ita-IT	1
-270	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/222	ita-PA	1
-285	4	Historical Tournament	eng-GB	1
-285	3	Torneo storico / Palio	ita-IT	1
-285	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/243	ita-PA	1
-286	3	Tornei storici	ita-IT	1
 271	4	Partner meeting	eng-GB	1
 271	3	Incontro con esperti	ita-IT	1
+250	4	Open day	eng-GB	1
+250	3	Giornata aperta	ita-IT	1
+250	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/141	ita-PA	1
+251	3	Giornate aperte	ita-IT	1
+252	3	Incontro informativo	ita-IT	1
 271	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/23	ita-PA	1
 272	3	Incontri con gli esperti	ita-IT	1
 273	5	Partner meetings	eng-GB	1
-293	3	Evento religioso	ita-IT	1
-293	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/25	ita-PA	1
-294	3	Eventi religiosi	ita-IT	1
+264	4	Public Debate	eng-GB	1
+253	4	Social event	eng-GB	1
+253	3	Evento sociale	ita-IT	1
+253	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/2	ita-PA	1
+254	3	Eventi sociali	ita-IT	1
+264	3	Dibattito pubblico	ita-IT	1
+264	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/22	ita-PA	1
+265	3	Dibattiti pubblici	ita-IT	1
+255	4	Competition and award ceremony	eng-GB	1
+255	3	Concorso e cerimonia	ita-IT	1
+255	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/21	ita-PA	1
+256	3	Concorsi e cerimonie	ita-IT	1
+257	5	Competitions and award ceremonies	eng-GB	1
+387	3	Creative Commons Attribution 2.5 Generic (CC BY 2.5)	ita-IT	1
+277	4	Hackathon /Datathon	eng-GB	1
+277	3	Hackathon / Datathon	ita-IT	1
+277	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/232	ita-PA	1
+267	4	Public Debate / Dialogue	eng-GB	1
+267	3	Dibattito / Dialogo pubblico	ita-IT	1
+267	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/221	ita-PA	1
+268	3	Dibattiti / Dialoghi pubblici	ita-IT	1
+269	5	Dialogue	eng-GB	1
+270	3	Forum	ita-IT	1
+270	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/222	ita-PA	1
+382	3	Creative Commons CC0 1.0 Universal - Public Domain Dedication (CC0 1.0)	ita-IT	1
+382	16	https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10	ita-PA	1
 274	4	Experts / stakeholdesr meeting	eng-GB	1
 274	3	Riunione esperti / portatori interesse	ita-IT	1
 274	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/231	ita-PA	1
 275	3	Riunioni epersti/portatori interesse	ita-IT	1
 276	5	Experts / stakeholders meetings	eng-GB	1
-299	4	Procession	eng-GB	1
-287	4	Patronal Feat / Saint Feast	eng-GB	1
-287	3	Festa patronale / Festa dei santi	ita-IT	1
-287	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/244	ita-PA	1
-277	4	Hackathon /Datathon	eng-GB	1
-277	3	Hackathon / Datathon	ita-IT	1
-277	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/232	ita-PA	1
-288	3	Feste patronali / Feste dei santi	ita-IT	1
-299	3	Processione	ita-IT	1
+383	3	ODC Public Domain Dedication and License (PDDL)	ita-IT	1
 278	4	Community gathering	eng-GB	1
 278	3	Raduno di comunità	ita-IT	1
 278	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/24	ita-PA	1
 279	3	Raduni di comunità	ita-IT	1
-299	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/253	ita-PA	1
-300	3	Processioni	ita-IT	1
-289	4	Market / Street market	eng-GB	1
+389	3	Creative Commons Attribution 4.0 International (CC BY 4.0)	ita-IT	1
+384	3	Attribuzione	ita-IT	1
 280	4	Parade	eng-GB	1
 280	3	Sfilata	ita-IT	1
+384	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/licences/A2_Attribution	ita-PA	1
+385	3	Creative Commons Attribution 1.0 Generic (CC BY 1.0)	ita-IT	1
+386	3	Creative Commons Attribution 2.0 Generic (CC BY 2.0)	ita-IT	1
+388	3	Creative Commons Attribution 3.0 Unported (CC BY 3.0)	ita-IT	1
+390	3	Creative Commons Attribuzione 2.0 Italia (CC BY 2.0 IT)	ita-IT	1
+391	3	Creative Commons Attribuzione 2.5 Italia (CC BY 2.5 IT)	ita-IT	1
 280	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/241	ita-PA	1
 281	3	Siflate	ita-IT	1
-289	3	Marcato / Mercatino	ita-IT	1
-289	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/245	ita-PA	1
-290	3	Mecarti / Mercatini	ita-IT	1
+309	3	Evento politico	ita-IT	1
+303	4	Religious reading	eng-GB	1
+303	3	Lettura religiosa	ita-IT	1
+297	4	Jubilee hearing	eng-GB	1
 282	4	Popular feast	eng-GB	1
 282	3	Sagra	ita-IT	1
 282	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/242	ita-PA	1
 283	3	Sagre	ita-IT	1
 284	5	Local Festival	eng-GB	1
-295	4	Jubilee	eng-GB	1
-295	3	Giubileo	ita-IT	1
-295	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/251	ita-PA	1
-296	3	Giubilei	ita-IT	1
+297	3	Udienza giubilare	ita-IT	1
+297	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/252	ita-PA	1
+298	3	Udienze giubilari	ita-IT	1
+303	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/255	ita-PA	1
+285	4	Historical Tournament	eng-GB	1
+285	3	Torneo storico / Palio	ita-IT	1
+285	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/243	ita-PA	1
+286	3	Tornei storici	ita-IT	1
+304	3	Letture religiose	ita-IT	1
+309	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/3	ita-PA	1
+287	4	Patronal Feat / Saint Feast	eng-GB	1
+287	3	Festa patronale / Festa dei santi	ita-IT	1
+287	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/244	ita-PA	1
+288	3	Feste patronali / Feste dei santi	ita-IT	1
+299	4	Procession	eng-GB	1
+299	3	Processione	ita-IT	1
+299	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/253	ita-PA	1
+300	3	Processioni	ita-IT	1
+289	4	Market / Street market	eng-GB	1
+289	3	Marcato / Mercatino	ita-IT	1
+289	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/245	ita-PA	1
+290	3	Mecarti / Mercatini	ita-IT	1
+310	3	Eventi politici	ita-IT	1
 291	4	Commemoration	eng-GB	1
 291	3	Commemorazione	ita-IT	1
 291	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/246	ita-PA	1
 292	3	Commemorazioni	ita-IT	1
-303	4	Religious reading	eng-GB	1
-303	3	Lettura religiosa	ita-IT	1
-303	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/255	ita-PA	1
-301	4	Ecumenical Celebration	eng-GB	1
-297	4	Jubilee hearing	eng-GB	1
-297	3	Udienza giubilare	ita-IT	1
-297	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/252	ita-PA	1
-298	3	Udienze giubilari	ita-IT	1
-301	3	Celebrazione ecumenica	ita-IT	1
-301	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/254	ita-PA	1
-304	3	Letture religiose	ita-IT	1
 305	4	Religious Gathering	eng-GB	1
-302	3	Celebrazioni ecumeniche	ita-IT	1
 305	3	Raduno religioso	ita-IT	1
 305	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/256	ita-PA	1
+293	4	Religious event	eng-GB	1
+293	3	Evento religioso	ita-IT	1
+293	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/25	ita-PA	1
+294	3	Eventi religiosi	ita-IT	1
 306	3	Raduni religiosi	ita-IT	1
-308	3	Santificazioni	ita-IT	1
-307	4	Sanctification	eng-GB	1
-310	3	Eventi politici	ita-IT	1
-307	3	Santificazione	ita-IT	1
-307	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/257	ita-PA	1
-309	4	Political event	eng-GB	1
-309	3	Evento politico	ita-IT	1
-309	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/3	ita-PA	1
-312	3	Incontri politici	ita-IT	1
-313	5	Political meetings	eng-GB	1
+541	3	GRADONI	ita-IT	1
+295	4	Jubilee	eng-GB	1
+295	3	Giubileo	ita-IT	1
+295	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/251	ita-PA	1
+296	3	Giubilei	ita-IT	1
+542	3	LARGHETTO	ita-IT	1
+301	4	Ecumenical Celebration	eng-GB	1
+301	3	Celebrazione ecumenica	ita-IT	1
+301	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/254	ita-PA	1
+302	3	Celebrazioni ecumeniche	ita-IT	1
 311	4	Political meeting	eng-GB	1
 311	3	Incontro politico	ita-IT	1
 311	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/31	ita-PA	1
-314	3	Congresso / riunione di partito	ita-IT	1
-532	3	ESEDRA	ita-IT	1
-533	3	FONDAMENTA	ita-IT	1
-534	3	FORNICE	ita-IT	1
-535	3	FORO	ita-IT	1
-330	3	Riunione d'affari	ita-IT	1
+312	3	Incontri politici	ita-IT	1
+307	4	Sanctification	eng-GB	1
+307	3	Santificazione	ita-IT	1
+307	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/257	ita-PA	1
+308	3	Santificazioni	ita-IT	1
 314	4	Party congress / meeting	eng-GB	1
+314	3	Congresso / riunione di partito	ita-IT	1
 314	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/311	ita-PA	1
-315	3	Congressi / riunioni di partito	ita-IT	1
-330	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/42	ita-PA	1
-331	3	Riunioni d'affari	ita-IT	1
-332	5	Business meetings	eng-GB	1
+309	4	Political event	eng-GB	1
+313	5	Political meetings	eng-GB	1
+543	3	LARGO	ita-IT	1
 316	4	Political procession / strike	eng-GB	1
+544	3	LEA	ita-IT	1
+315	3	Congressi / riunioni di partito	ita-IT	1
 316	3	Corteo / sciopero	ita-IT	1
 316	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/312	ita-PA	1
 317	3	Cortei / sicoperi	ita-IT	1
-352	3	Gare / Tornei / Competizioni	ita-IT	1
-341	4	Sale	eng-GB	1
-341	3	Vendita di fine stagione	ita-IT	1
+545	3	LEVA’	ita-IT	1
+546	3	LITORANEA	ita-IT	1
+547	3	LOCALITA’	ita-IT	1
 318	4	Electoral speech	eng-GB	1
 318	3	Comizio elettorale	ita-IT	1
+548	3	LUNGADDA	ita-IT	1
+549	3	LUNGADIGE	ita-IT	1
+550	3	LUNGAGNO	ita-IT	1
+551	3	LUNGARGINE	ita-IT	1
+552	3	LUNGARNO	ita-IT	1
+553	3	LUNGOBISAGNO	ita-IT	1
+554	3	LUNGOCASTELLANO	ita-IT	1
+555	3	LUNGOCELANO	ita-IT	1
+556	3	LUNGOCRATI	ita-IT	1
+557	3	LUNGODORA	ita-IT	1
+558	3	LUNGOFERMULLA	ita-IT	1
+559	3	LUNGOFIUME	ita-IT	1
+560	3	LUNGOFOGLIA	ita-IT	1
+561	3	LUNGOFRIGIDO	ita-IT	1
+562	3	LUNGOGESSO	ita-IT	1
+563	3	LUNGOGLIO	ita-IT	1
 318	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/313	ita-PA	1
 319	3	Comizi elettorali	ita-IT	1
-341	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/431	ita-PA	1
-333	4	Business meeting	eng-GB	1
-333	3	Riunione d'affari	ita-IT	1
-333	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/421	ita-PA	1
-334	3	Riunioni d'affari	ita-IT	1
+336	4	Round table	eng-GB	1
+336	3	Tavola rotonda	ita-IT	1
+336	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/423	ita-PA	1
 320	4	Business event	eng-GB	1
 320	3	Evento d'affari o commerciale	ita-IT	1
 320	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/4	ita-PA	1
 321	3	Eventi d'affari o commerciali	ita-IT	1
-342	3	Saldi stagionali	ita-IT	1
-343	5	Saldi	eng-GB	1
-335	3	Convention	ita-IT	1
+337	3	Tavole rotonde	ita-IT	1
+346	4	Sport show	eng-GB	1
 322	4	Exhibition	eng-GB	1
 322	3	Fiera / Salone	ita-IT	1
 322	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/41	ita-PA	1
 323	3	Fiere / Saloni	ita-IT	1
 324	5	Exhibitions	eng-GB	1
-335	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/422	ita-PA	1
+346	3	Manifestazione sportiva	ita-IT	1
+346	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/51	ita-PA	1
+347	3	Manifestazioni sportive	ita-IT	1
+338	4	Seasonal business event	eng-GB	1
 325	4	Exhibition	eng-GB	1
 325	3	Fiera / Salone	ita-IT	1
 325	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/411	ita-PA	1
 326	3	Fiere / Saloni	ita-IT	1
 327	5	Exhibitions	eng-GB	1
-354	3	Escursioni	ita-IT	1
-336	4	Round table	eng-GB	1
-328	4	Expo global	eng-GB	1
-328	3	Esposizione / Esposizione globale	ita-IT	1
-328	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/412	ita-PA	1
-329	3	Esposizioni / Esposizioni globali	ita-IT	1
-336	3	Tavola rotonda	ita-IT	1
-336	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/423	ita-PA	1
-330	4	Business meeting	eng-GB	1
-337	3	Tavole rotonde	ita-IT	1
-344	4	Sport event	eng-GB	1
-344	3	Evento sportivo	ita-IT	1
-344	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/5	ita-PA	1
-345	3	Eventi sportivi	ita-IT	1
-338	4	Seasonal business event	eng-GB	1
 338	3	Evento stagionale commerciale	ita-IT	1
 338	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/43	ita-PA	1
 339	3	Eventi stagionali commerciali	ita-IT	1
 340	5	Seasonal business events	eng-GB	1
-349	4	Match	eng-GB	1
-349	3	Partita	ita-IT	1
-349	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/511	ita-PA	1
-350	3	Partite	ita-IT	1
-358	3	Corse	ita-IT	1
-355	4	Sport gala	eng-GB	1
-346	4	Sport show	eng-GB	1
-346	3	Manifestazione sportiva	ita-IT	1
-346	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/51	ita-PA	1
-347	3	Manifestazioni sportive	ita-IT	1
+328	4	Expo global	eng-GB	1
+328	3	Esposizione / Esposizione globale	ita-IT	1
+328	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/412	ita-PA	1
+329	3	Esposizioni / Esposizioni globali	ita-IT	1
 348	5	Sport shows	eng-GB	1
-355	3	Galà sportivo	ita-IT	1
-355	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/514	ita-PA	1
+330	4	Business meeting	eng-GB	1
+330	3	Riunione d'affari	ita-IT	1
+330	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/42	ita-PA	1
+331	3	Riunioni d'affari	ita-IT	1
+332	5	Business meetings	eng-GB	1
 351	4	Sport competition	eng-GB	1
+341	4	Sale	eng-GB	1
+341	3	Vendita di fine stagione	ita-IT	1
+341	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/431	ita-PA	1
+333	4	Business meeting	eng-GB	1
+333	3	Riunione d'affari	ita-IT	1
+333	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/421	ita-PA	1
+334	3	Riunioni d'affari	ita-IT	1
+342	3	Saldi stagionali	ita-IT	1
+343	5	Saldi	eng-GB	1
+335	3	Convention	ita-IT	1
+335	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/422	ita-PA	1
 351	3	Gara / Torneo / Competizione	ita-IT	1
 351	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/512	ita-PA	1
-356	3	Galà sportivi	ita-IT	1
+352	3	Gare / Tornei / Competizioni	ita-IT	1
+344	4	Sport event	eng-GB	1
+344	3	Evento sportivo	ita-IT	1
+344	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/5	ita-PA	1
+345	3	Eventi sportivi	ita-IT	1
 353	4	Excursion	eng-GB	1
+349	4	Match	eng-GB	1
+349	3	Partita	ita-IT	1
+594	3	PASSAGGIO PEDONALE	ita-IT	1
+349	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/511	ita-PA	1
+350	3	Partite	ita-IT	1
 353	3	Escursione	ita-IT	1
 353	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/513	ita-PA	1
-357	4	Race	eng-GB	1
-357	3	Corsa	ita-IT	1
-357	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/515	ita-PA	1
-360	3	Raduni sportivi	ita-IT	1
-361	3	Target utenti	ita-IT	1
-359	4	Sport gathering	eng-GB	1
-359	3	Raduno sportivo	ita-IT	1
-359	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/516	ita-PA	1
-362	3	Età utenti	ita-IT	1
-363	3	0-3 anni	ita-IT	1
-364	3	11-14 anni	ita-IT	1
-365	3	14-17 anni	ita-IT	1
-366	3	18-21 anni	ita-IT	1
-367	3	3-5 anni	ita-IT	1
-368	3	6-8 anni	ita-IT	1
-369	3	9-11 anni	ita-IT	1
-371	3	Fasce generali di popolazione	ita-IT	1
-372	3	Adulti	ita-IT	1
-373	3	Anziani	ita-IT	1
-374	3	Bambini	ita-IT	1
-375	3	Famiglie	ita-IT	1
-376	3	Giovani	ita-IT	1
-377	3	Licenze	ita-IT	1
-398	3	Creative Commons Attributon–ShareAlike 4.0 International (CC BY-SA 4.0)	ita-IT	1
-378	3	Licenza sconosciuta	ita-IT	1
-378	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/licences/C_Unknown	ita-PA	1
-379	3	Licenza proprietaria	ita-IT	1
-399	3	Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)	ita-IT	1
-380	3	Licenza aperta	ita-IT	1
-380	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/licences/A_OpenLicense	ita-PA	1
-400	3	Creative Commons Attribuzione - Condividi allo stesso modo 3.0 Italia (CC BY-SA 3.0 IT)	ita-IT	1
-381	3	Dominio pubblico	ita-IT	1
-381	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/licences/A1_PublicDomain	ita-PA	1
-401	3	Creative Commons Attribution-ShareAlike 2.5 Generic (CC BY-SA 2.5)	ita-IT	1
-382	3	Creative Commons CC0 1.0 Universal - Public Domain Dedication (CC0 1.0)	ita-IT	1
-382	16	https://w3id.org/italia/controlled-vocabulary/licences/A11_CCO10	ita-PA	1
-383	3	ODC Public Domain Dedication and License (PDDL)	ita-IT	1
-402	3	Creative Commons Attribuzione - Condividi allo stesso modo 2.5 Italia (CC-BY-SA 2.5 IT)	ita-IT	1
-384	3	Attribuzione	ita-IT	1
-384	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/licences/A2_Attribution	ita-PA	1
-385	3	Creative Commons Attribution 1.0 Generic (CC BY 1.0)	ita-IT	1
-386	3	Creative Commons Attribution 2.0 Generic (CC BY 2.0)	ita-IT	1
-387	3	Creative Commons Attribution 2.5 Generic (CC BY 2.5)	ita-IT	1
-388	3	Creative Commons Attribution 3.0 Unported (CC BY 3.0)	ita-IT	1
-389	3	Creative Commons Attribution 4.0 International (CC BY 4.0)	ita-IT	1
-390	3	Creative Commons Attribuzione 2.0 Italia (CC BY 2.0 IT)	ita-IT	1
-391	3	Creative Commons Attribuzione 2.5 Italia (CC BY 2.5 IT)	ita-IT	1
+354	3	Escursioni	ita-IT	1
+355	4	Sport gala	eng-GB	1
+355	3	Galà sportivo	ita-IT	1
+355	16	https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/514	ita-PA	1
+356	3	Galà sportivi	ita-IT	1
 392	3	Creative Commons Attribuzione Italia 3.0 (CC BY 3.0 IT)	ita-IT	1
 393	3	Italian Open Data License 2.0 (IODL 2.0)	ita-IT	1
 394	3	Open Data Commons Attribution License (ODC_BY)	ita-IT	1
-403	3	Creative Commons Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)	ita-IT	1
+418	3	Creative Commons Attribution - NonCommercial 1.0 Generic (CC BY-NC 1.0)	ita-IT	1
 395	3	Condivisione allo stesso modo / copyleft non compatibile	ita-IT	1
 395	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/licences/A4_ShareAlikeCopyleftNonComp	ita-PA	1
 396	3	Against DRM (2.0)	ita-IT	1
-411	3	Creative Commons Attribution–NonCommercial 4.0 International (CC BY-NC 4.0)	ita-IT	1
+419	3	Creative Commons Attribution–NonCommercial - ShareAlike 4.0 International (CC BY-NC-SA 4.0)	ita-IT	1
 397	3	Effetto Virale (a.k.a. Condivisione allo stesso modo)	ita-IT	1
 397	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/licences/A3_ShareAlike	ita-PA	1
+398	3	Creative Commons Attributon–ShareAlike 4.0 International (CC BY-SA 4.0)	ita-IT	1
+399	3	Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)	ita-IT	1
+400	3	Creative Commons Attribuzione - Condividi allo stesso modo 3.0 Italia (CC BY-SA 3.0 IT)	ita-IT	1
+401	3	Creative Commons Attribution-ShareAlike 2.5 Generic (CC BY-SA 2.5)	ita-IT	1
+402	3	Creative Commons Attribuzione - Condividi allo stesso modo 2.5 Italia (CC-BY-SA 2.5 IT)	ita-IT	1
+403	3	Creative Commons Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)	ita-IT	1
 404	3	Creative Commons Attribuzione - Condividi allo stesso modo 2.0 Italia (CC BY-SA 2.0 IT)	ita-IT	1
 405	3	Creative Commons Attribution - ShareAlike 1.0 Generic (CC BY-SA 1.0)	ita-IT	1
 406	3	Italian Open Data License 1.0 (IODL 1.0)	ita-IT	1
 407	3	Open Data Commons Open Database License 1.0 (ODbL)	ita-IT	1
 408	3	GNU Free Documentation License 1.3 (GFDL 1.3)	ita-IT	1
-412	3	Creative Commons Attribution-NonCommercial 3.0 Unported (CC BY-NC 3.0)	ita-IT	1
+420	3	Creative Commons Attribution-NonCommercial - ShareAlike 3.0 Unported (CC BY-NC-SA 3.0)	ita-IT	1
 409	3	Licenza non aperta	ita-IT	1
 409	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/licences/B_NonOpenLicense	ita-PA	1
-413	3	Creative Commons Attribuzione - Non Commerciale 3.0 Italia (CC BY-NC 3.0 IT)	ita-IT	1
+421	3	Creative Commons Attribuzione–Non Commerciale - Condivisione allo stesso modo 3.0 Italia (CC BY-NC-SA 3.0 IT)	ita-IT	1
 410	3	Solo uso non commerciale	ita-IT	1
 410	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/licences/B1_NonCommercial	ita-PA	1
+411	3	Creative Commons Attribution–NonCommercial 4.0 International (CC BY-NC 4.0)	ita-IT	1
+412	3	Creative Commons Attribution-NonCommercial 3.0 Unported (CC BY-NC 3.0)	ita-IT	1
+413	3	Creative Commons Attribuzione - Non Commerciale 3.0 Italia (CC BY-NC 3.0 IT)	ita-IT	1
 414	3	Creative Commons Attribution-NonCommercial 2.5 Generic (CC BY-NC 2.5)	ita-IT	1
 415	3	Creative Commons Attribuzione - Non Commerciale 2.5 Italia (CC BY-NC 2.5 IT)	ita-IT	1
 416	3	Creative Commons Attribution-NonCommercial 2.0 Generic (CC BY-NC 2.0)	ita-IT	1
 417	3	Creative Commons Attribuzione - Non Commerciale 2.0 Italia (CC BY-NC 2.0 IT)	ita-IT	1
-418	3	Creative Commons Attribution - NonCommercial 1.0 Generic (CC BY-NC 1.0)	ita-IT	1
-419	3	Creative Commons Attribution–NonCommercial - ShareAlike 4.0 International (CC BY-NC-SA 4.0)	ita-IT	1
-420	3	Creative Commons Attribution-NonCommercial - ShareAlike 3.0 Unported (CC BY-NC-SA 3.0)	ita-IT	1
-421	3	Creative Commons Attribuzione–Non Commerciale - Condivisione allo stesso modo 3.0 Italia (CC BY-NC-SA 3.0 IT)	ita-IT	1
 422	3	Creative Commons Attribution-NonCommercial-ShareAlike 2.5 Generic (CC BY-NC-SA 2.5)	ita-IT	1
 423	3	Creative Commons Attribuzione–Non Commerciale - Condivisione allo stesso modo 2.5 Italia (CC BY-NC-SA 2.5 IT)	ita-IT	1
 424	3	Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Generic (CC BY-NC-SA 2.0)	ita-IT	1
@@ -630,31 +645,28 @@
 426	3	Creative Commons Attribution–NonCommercial - ShareAlike 1.0 Generic (CC-BY-NC-SA 1.0)	ita-IT	1
 427	3	Non opere derivate	ita-IT	1
 427	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/licences/B2_NoDerivs	ita-PA	1
+430	3	Creative Commons Attribuzione–Non opere derivate 3.0 Italia (CC BY-ND 3.0 IT)	ita-IT	1
 428	3	Creative Commons Attribution–NoDerivs 4.0 International (CC BY-ND 4.0)	ita-IT	1
 428	16	https://w3id.org/italia/controlled-vocabulary/licences/B21_CCBYND40	ita-PA	1
+430	16	https://w3id.org/italia/controlled-vocabulary/licences/B23_CCBYND30IT	ita-PA	1
 429	3	Creative Commons Attribution-NoDerivs 3.0 Unported (CC BY-ND 3.0)	ita-IT	1
 429	16	https://w3id.org/italia/controlled-vocabulary/licences/B22_CCBYND30	ita-PA	1
-456	3	linguistica	ita-IT	1
-430	3	Creative Commons Attribuzione–Non opere derivate 3.0 Italia (CC BY-ND 3.0 IT)	ita-IT	1
-430	16	https://w3id.org/italia/controlled-vocabulary/licences/B23_CCBYND30IT	ita-PA	1
-457	3	pedagogia	ita-IT	1
 431	3	Creative Commons Attribution-NoDerivs 2.5 Generic (CC BY-ND 2.5)	ita-IT	1
 431	16	https://w3id.org/italia/controlled-vocabulary/licences/B24_CCBYND25	ita-PA	1
-458	3	psicologia	ita-IT	1
 432	3	Creative Commons Attribution–Non opere derivate 2.5 Italia (CC BY-ND 2.5 IT)	ita-IT	1
 432	16	https://w3id.org/italia/controlled-vocabulary/licences/B25_CCBYND25IT	ita-PA	1
-459	3	scienze agrarie	ita-IT	1
 433	3	Creative Commons Attribution-NoDerivs 2.0 Generic (CC BY-ND 2.0)	ita-IT	1
 433	16	https://w3id.org/italia/controlled-vocabulary/licences/B26_CCBYND20	ita-PA	1
-460	3	scienze biologiche	ita-IT	1
+476	3	Nazioni	ita-IT	1
 434	3	Creative Commons Attribution–Non opere derivate 2.0 italia (CC BY-ND 2.0 IT)	ita-IT	1
 434	16	https://w3id.org/italia/controlled-vocabulary/licences/B27_CCBYND20IT	ita-PA	1
-461	3	scienze chimiche	ita-IT	1
+477	3	Germania	ita-IT	1
 435	3	Creative Commons Attribution–NonDerivs 1.0 Generic (CC BY-ND 1.0)	ita-IT	1
 435	16	https://w3id.org/italia/controlled-vocabulary/licences/B28_CCBYND10	ita-PA	1
-462	3	scienze dell'antichità	ita-IT	1
+478	3	Grecia	ita-IT	1
 436	3	Creative Commons Attribution–NoDerivs-NonCommercial 1.0 Generic (CC BY-ND-NC 1.0)	ita-IT	1
 436	16	https://w3id.org/italia/controlled-vocabulary/licences/B29_CCBYNDNC10	ita-PA	1
+595	3	PASSAGGIO PRIVATO	ita-IT	1
 437	3	Lingue in cui è disponibile (un servizio, un evento, ...)	ita-IT	1
 438	3	Arabo	ita-IT	1
 439	3	Cinese	ita-IT	1
@@ -674,6 +686,13 @@
 453	3	ingegneria civile e architettura	ita-IT	1
 454	3	ingegneria dell'informazione	ita-IT	1
 455	3	ingegneria industriale	ita-IT	1
+456	3	linguistica	ita-IT	1
+457	3	pedagogia	ita-IT	1
+458	3	psicologia	ita-IT	1
+459	3	scienze agrarie	ita-IT	1
+460	3	scienze biologiche	ita-IT	1
+461	3	scienze chimiche	ita-IT	1
+462	3	scienze dell'antichità	ita-IT	1
 463	3	scienze della terra	ita-IT	1
 464	3	scienze economiche e statistiche	ita-IT	1
 465	3	scienze filologico-letterarie	ita-IT	1
@@ -687,9 +706,6 @@
 473	3	scienze veterinarie	ita-IT	1
 474	3	storia	ita-IT	1
 475	3	studi orientali	ita-IT	1
-476	3	Nazioni	ita-IT	1
-477	3	Germania	ita-IT	1
-478	3	Grecia	ita-IT	1
 479	3	Italia	ita-IT	1
 480	3	Spagna	ita-IT	1
 481	3	Odonimi (toponimi stradali)	ita-IT	1
@@ -738,34 +754,20 @@
 524	3	CORTE	ita-IT	1
 525	3	CORTICELLA	ita-IT	1
 526	3	CORTILE	ita-IT	1
+527	3	COSTA	ita-IT	1
+528	3	COSTARELLA	ita-IT	1
+529	3	CUPA	ita-IT	1
+530	3	DISCESA	ita-IT	1
+531	3	EMICICLO	ita-IT	1
+532	3	ESEDRA	ita-IT	1
+533	3	FONDAMENTA	ita-IT	1
+534	3	FORNICE	ita-IT	1
+535	3	FORO	ita-IT	1
 536	3	FRAZIONE	ita-IT	1
 537	3	GALLERIA	ita-IT	1
 538	3	GRADELLE	ita-IT	1
 539	3	GRADINATA	ita-IT	1
 540	3	GRADINI	ita-IT	1
-541	3	GRADONI	ita-IT	1
-542	3	LARGHETTO	ita-IT	1
-543	3	LARGO	ita-IT	1
-544	3	LEA	ita-IT	1
-545	3	LEVA’	ita-IT	1
-546	3	LITORANEA	ita-IT	1
-547	3	LOCALITA’	ita-IT	1
-548	3	LUNGADDA	ita-IT	1
-549	3	LUNGADIGE	ita-IT	1
-550	3	LUNGAGNO	ita-IT	1
-551	3	LUNGARGINE	ita-IT	1
-552	3	LUNGARNO	ita-IT	1
-553	3	LUNGOBISAGNO	ita-IT	1
-554	3	LUNGOCASTELLANO	ita-IT	1
-555	3	LUNGOCELANO	ita-IT	1
-556	3	LUNGOCRATI	ita-IT	1
-557	3	LUNGODORA	ita-IT	1
-558	3	LUNGOFERMULLA	ita-IT	1
-559	3	LUNGOFIUME	ita-IT	1
-560	3	LUNGOFOGLIA	ita-IT	1
-561	3	LUNGOFRIGIDO	ita-IT	1
-562	3	LUNGOGESSO	ita-IT	1
-563	3	LUNGOGLIO	ita-IT	1
 564	3	LUNGOLAGO	ita-IT	1
 565	3	LUNGOLARIO	ita-IT	1
 566	3	LUNGOLONA	ita-IT	1
@@ -796,8 +798,6 @@
 591	3	NUCLEO ABITATO	ita-IT	1
 592	3	PARCHEGGIO	ita-IT	1
 593	3	PASSAGGIO	ita-IT	1
-594	3	PASSAGGIO PEDONALE	ita-IT	1
-595	3	PASSAGGIO PRIVATO	ita-IT	1
 596	3	PASSANTE	ita-IT	1
 597	3	PASSEGGIATA	ita-IT	1
 598	3	PASSEGGIO	ita-IT	1
@@ -943,266 +943,266 @@
 738	3	ZONA ARTIGIANALE	ita-IT	1
 739	3	ZONA INDUSTRIALE	ita-IT	1
 740	3	Tipi di luogo	ita-IT	1
-744	3	Mercato	ita-IT	1
-744	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/L1	ita-PA	1
-741	3	Luoghi per il commercio	ita-IT	1
-741	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/L	ita-PA	1
+753	3	Casa da gioco	ita-IT	1
 742	3	ARCHITETTURA COMMERCIALE	ita-IT	1
 743	3	Architettura commerciale	ita-IT	1
-749	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/I2	ita-PA	1
+750	3	Stadio	ita-IT	1
+750	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/I3	ita-PA	1
+744	3	Mercato	ita-IT	1
+744	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/L1	ita-PA	1
 745	3	Farmacia	ita-IT	1
 745	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/L2	ita-PA	1
-748	3	Campo sportivo	ita-IT	1
-748	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/I1	ita-PA	1
+741	3	Luoghi per il commercio	ita-IT	1
 746	3	Luoghi per lo sport e il tempo libero	ita-IT	1
 746	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/I	ita-PA	1
 747	3	Luogo per lo sport e il tempo libero	ita-IT	1
-750	3	Stadio	ita-IT	1
-750	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/I3	ita-PA	1
-749	3	Piscina	ita-IT	1
-753	3	Casa da gioco	ita-IT	1
-751	3	Terme	ita-IT	1
-751	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/I4	ita-PA	1
-752	3	Casinò	ita-IT	1
-752	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/I5	ita-PA	1
+757	3	Sede municipale	ita-IT	1
+748	3	Campo sportivo	ita-IT	1
+748	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/I1	ita-PA	1
 754	3	Circolo sportivo	ita-IT	1
 754	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/I6	ita-PA	1
+749	3	Piscina	ita-IT	1
+749	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/I2	ita-PA	1
+751	3	Terme	ita-IT	1
+751	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/I4	ita-PA	1
+756	3	Centri istituzionali e amministrativi	ita-IT	1
+752	3	Casinò	ita-IT	1
+752	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/I5	ita-PA	1
+757	16	http://eurovoc.europa.eu/4180	ita-PA	1
 755	3	Piazza	ita-IT	1
 755	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/I7	ita-PA	1
-756	3	Centri istituzionali e amministrativi	ita-IT	1
-783	3	Rifugio	ita-IT	1
-757	3	Sede municipale	ita-IT	1
-757	16	http://eurovoc.europa.eu/4180	ita-PA	1
-783	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/O3	ita-PA	1
+741	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/L	ita-PA	1
 758	3	Ufficio	ita-IT	1
 758	16	https://wiki.openstreetmap.org/wiki/Tag:office%3Dgovernment	ita-PA	1
-775	3	Acquedotto	ita-IT	1
-775	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/N2	ita-PA	1
 759	3	Contrada	ita-IT	1
 759	16	https://wiki.openstreetmap.org/wiki/Tag:boundary%3Dadministrative	ita-PA	1
 760	3	Sportello per il pubblico	ita-IT	1
 760	16	https://wiki.openstreetmap.org/wiki/Tag:information%3Doffice	ita-PA	1
-789	3	Trullo	ita-IT	1
+778	3	Strutture ricettive	ita-IT	1
+778	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/O	ita-PA	1
 761	3	Centri per l'assistenza e la tutela sociale	ita-IT	1
 761	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/M	ita-PA	1
 762	3	ARCHITETTURA OSPEDALIERA, ASSISTENZIALE E PER LA TUTELA SOCIALE	ita-IT	1
 763	3	Centro per l'assistenza e la tutela sociale	ita-IT	1
-776	3	Aeroporto	ita-IT	1
-776	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/N3	ita-PA	1
+779	3	ARCHITETTURA ALBERGHIERA E RICETTIVA	ita-IT	1
+780	3	Struttura ricettiva	ita-IT	1
 764	3	Ambulatorio	ita-IT	1
 764	16	https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dclinic	ita-PA	1
+785	3	Edifici residenziali	ita-IT	1
 765	3	Casa di riposo	ita-IT	1
 765	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/M1	ita-PA	1
 766	3	Ospizio	ita-IT	1
-789	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/B2	ita-PA	1
+785	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/B	ita-PA	1
 767	3	Centro di accoglienza	ita-IT	1
 767	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/M2	ita-PA	1
-777	3	Porto	ita-IT	1
-777	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/N4	ita-PA	1
+781	3	Albergo	ita-IT	1
+781	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/O1	ita-PA	1
 768	3	Ospedale	ita-IT	1
 768	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/M3	ita-PA	1
-784	3	Rifugio per animali	ita-IT	1
+786	3	Architettura residenziale	ita-IT	1
 769	3	Infrastrutture e impianti	ita-IT	1
 769	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/N	ita-PA	1
 770	3	ARCHITETTURA PER LE INFRASTRUTTURE E IMPIANTI	ita-IT	1
 771	3	Infrastruttura e impianto	ita-IT	1
-784	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/O4	ita-PA	1
 772	3	Stazione	ita-IT	1
 772	16	https://wiki.openstreetmap.org/wiki/Tag:public_transport%3Dstation	ita-PA	1
-778	3	Strutture ricettive	ita-IT	1
-778	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/O	ita-PA	1
-773	3	Punto wifi	ita-IT	1
-773	16	https://wiki.openstreetmap.org/wiki/Key:internet_access	ita-PA	1
-774	3	Centro di raccolta	ita-IT	1
-774	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/N1	ita-PA	1
-779	3	ARCHITETTURA ALBERGHIERA E RICETTIVA	ita-IT	1
-780	3	Struttura ricettiva	ita-IT	1
-792	3	Villino	ita-IT	1
-781	3	Albergo	ita-IT	1
-781	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/O1	ita-PA	1
-785	3	Edifici residenziali	ita-IT	1
-785	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/B	ita-PA	1
 782	3	Foresteria	ita-IT	1
 782	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/O2	ita-PA	1
-786	3	Architettura residenziale	ita-IT	1
-790	3	Masseria	ita-IT	1
-790	16	https://wiki.openstreetmap.org/wiki/Tag:building%3Dfarm	ita-PA	1
+773	3	Punto wifi	ita-IT	1
+773	16	https://wiki.openstreetmap.org/wiki/Key:internet_access	ita-PA	1
+791	3	Villa	ita-IT	1
+774	3	Centro di raccolta	ita-IT	1
+774	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/N1	ita-PA	1
+791	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/B3	ita-PA	1
+775	3	Acquedotto	ita-IT	1
+775	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/N2	ita-PA	1
 787	3	Palazzo	ita-IT	1
 787	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/B1	ita-PA	1
+776	3	Aeroporto	ita-IT	1
+776	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/N3	ita-PA	1
 788	3	Palazzina	ita-IT	1
-795	3	Castello	ita-IT	1
-794	3	Architettura militare e fortificata	ita-IT	1
-791	3	Villa	ita-IT	1
-791	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/B3	ita-PA	1
-795	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/A1	ita-PA	1
+777	3	Porto	ita-IT	1
+777	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/N4	ita-PA	1
+792	3	Villino	ita-IT	1
+783	3	Rifugio	ita-IT	1
+783	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/O3	ita-PA	1
+800	3	Roccaforte	ita-IT	1
+784	3	Rifugio per animali	ita-IT	1
+784	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/O4	ita-PA	1
+798	3	Mura	ita-IT	1
 793	3	Rocche e castelli	ita-IT	1
+789	3	Trullo	ita-IT	1
+789	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/B2	ita-PA	1
 793	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/A	ita-PA	1
+794	3	Architettura militare e fortificata	ita-IT	1
+790	3	Masseria	ita-IT	1
+790	16	https://wiki.openstreetmap.org/wiki/Tag:building%3Dfarm	ita-PA	1
 797	3	Cassero	ita-IT	1
+798	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/A3	ita-PA	1
+799	3	Cinta muraria	ita-IT	1
+795	3	Castello	ita-IT	1
+795	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/A1	ita-PA	1
 796	3	Fortezza	ita-IT	1
 796	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/A2	ita-PA	1
-799	3	Cinta muraria	ita-IT	1
-798	3	Mura	ita-IT	1
-798	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/A3	ita-PA	1
-801	3	Rocca	ita-IT	1
-800	3	Roccaforte	ita-IT	1
 800	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/A4	ita-PA	1
-1303	3	Vicepresidente	ita-IT	1
+801	3	Rocca	ita-IT	1
 802	3	Torre	ita-IT	1
 802	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/A5	ita-PA	1
 803	3	Torrione	ita-IT	1
-804	3	Aree archeologiche	ita-IT	1
+821	3	ARCHITETTURA PER LA CULTURA, LA RICERCA SCIENTIFICA E LA SCUOLA	ita-IT	1
 804	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/C	ita-PA	1
 805	3	AREA ARCHEOLOGICA	ita-IT	1
 806	3	Area archeologica	ita-IT	1
-833	3	Parco archeologico	ita-IT	1
-820	3	Centri per la cultura	ita-IT	1
+822	3	Centro per la cultura	ita-IT	1
 807	3	Area archeologica	ita-IT	1
 807	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/C1	ita-PA	1
-820	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D	ita-PA	1
-821	3	ARCHITETTURA PER LA CULTURA, LA RICERCA SCIENTIFICA E LA SCUOLA	ita-IT	1
+832	3	Scuola	ita-IT	1
 808	3	Sito archeologico	ita-IT	1
 808	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/C2	ita-PA	1
-822	3	Centro per la cultura	ita-IT	1
+823	3	Anfiteatro	ita-IT	1
 809	3	Bellezze naturali	ita-IT	1
 809	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/H	ita-PA	1
 810	3	Bellezza naturale	ita-IT	1
-829	3	Osservatorio	ita-IT	1
+823	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D1	ita-PA	1
 811	3	Lago	ita-IT	1
 811	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/H2	ita-PA	1
-829	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D11	ita-PA	1
-823	3	Anfiteatro	ita-IT	1
+832	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D14	ita-PA	1
 812	3	Montagna	ita-IT	1
 812	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/H4	ita-PA	1
-823	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D1	ita-PA	1
+829	3	Osservatorio	ita-IT	1
+824	3	Archivio	ita-IT	1
 813	3	Riserva naturale	ita-IT	1
 813	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/H6	ita-PA	1
+824	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D2	ita-PA	1
 814	3	Costa marittima	ita-IT	1
 814	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/H1	ita-PA	1
-833	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D15	ita-PA	1
-824	3	Archivio	ita-IT	1
+829	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D11	ita-PA	1
 815	3	Corso d'acqua	ita-IT	1
 815	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/H3	ita-PA	1
-824	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D2	ita-PA	1
+825	3	Auditorium	ita-IT	1
 816	3	Ghiacciaio	ita-IT	1
 816	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/H5	ita-PA	1
 817	3	Ghiacciaio e circo glaciale	ita-IT	1
+825	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D3	ita-PA	1
 818	3	Foresta e bosco	ita-IT	1
 818	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/H7	ita-PA	1
-825	3	Auditorium	ita-IT	1
 819	3	Vulcano	ita-IT	1
 819	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/H8	ita-PA	1
-825	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D3	ita-PA	1
 830	3	Planetario	ita-IT	1
+820	3	Centri per la cultura	ita-IT	1
+820	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D	ita-PA	1
 830	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D12	ita-PA	1
 826	3	Cinema	ita-IT	1
 826	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D5	ita-PA	1
+838	3	Asilo nido	ita-IT	1
 827	3	Pinacoteca	ita-IT	1
+942	3	estrazione di minerali da cave e miniere - B	ita-IT	1
 827	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D8	ita-PA	1
+833	3	Parco archeologico	ita-IT	1
+833	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D15	ita-PA	1
 828	3	Acquario	ita-IT	1
 828	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D10	ita-PA	1
-841	3	Nidi	ita-IT	1
+840	3	Kindergarten	ita-IT	1
 831	3	Università/Facoltà	ita-IT	1
 831	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D13	ita-PA	1
-834	3	Biblioteca	ita-IT	1
-834	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D4	ita-PA	1
-832	3	Scuola	ita-IT	1
-832	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D14	ita-PA	1
-842	3	Nidi d'infanzia	ita-IT	1
-837	3	Antiquarium	ita-IT	1
 835	3	Galleria	ita-IT	1
 835	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D6	ita-PA	1
+841	3	Nidi	ita-IT	1
+834	3	Biblioteca	ita-IT	1
+834	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D4	ita-PA	1
+842	3	Nidi d'infanzia	ita-IT	1
+843	3	Nido d'infanzia	ita-IT	1
+804	3	Aree archeologiche	ita-IT	1
 836	3	Museo	ita-IT	1
 836	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D7	ita-PA	1
-838	3	Asilo nido	ita-IT	1
+837	3	Antiquarium	ita-IT	1
 839	3	Asili nido	ita-IT	1
-840	3	Kindergarten	ita-IT	1
-843	3	Nido d'infanzia	ita-IT	1
-846	3	ARCHITETTURA RELIGIOSA	ita-IT	1
 844	3	Teatro	ita-IT	1
 844	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/D9	ita-PA	1
-847	3	Edificio di culto	ita-IT	1
 845	3	Edifici di culto	ita-IT	1
 845	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E	ita-PA	1
+846	3	ARCHITETTURA RELIGIOSA	ita-IT	1
+847	3	Edificio di culto	ita-IT	1
+874	3	Martyrium	ita-IT	1
 848	3	Abbazia	ita-IT	1
 848	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E1	ita-PA	1
 849	3	Badia	ita-IT	1
-865	3	Cenobio	ita-IT	1
 850	3	Basilica	ita-IT	1
 850	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E2	ita-PA	1
-886	3	Belvedere	ita-IT	1
+864	3	Monastero	ita-IT	1
+864	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E15	ita-PA	1
 851	3	Battistero	ita-IT	1
 851	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E3	ita-PA	1
-878	3	Arco	ita-IT	1
-866	3	Santuario	ita-IT	1
+865	3	Cenobio	ita-IT	1
 852	3	Campanile	ita-IT	1
 852	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E4	ita-PA	1
-866	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E16	ita-PA	1
 853	3	Cappella	ita-IT	1
 853	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E5	ita-PA	1
-878	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/F1	ita-PA	1
+866	3	Santuario	ita-IT	1
 854	3	Catacomba	ita-IT	1
 854	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E6	ita-PA	1
-867	3	Sinagoga	ita-IT	1
+866	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E16	ita-PA	1
 855	3	Cattedrale	ita-IT	1
 855	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E7	ita-PA	1
-867	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E17	ita-PA	1
 856	3	Cimitero	ita-IT	1
 856	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E9	ita-PA	1
 857	3	Camposanto	ita-IT	1
-882	3	Obelisco	ita-IT	1
+875	3	Monumenti	ita-IT	1
+867	3	Sinagoga	ita-IT	1
 858	3	Convento	ita-IT	1
 858	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E10	ita-PA	1
-868	3	Tempio	ita-IT	1
+867	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E17	ita-PA	1
 859	3	Duomo	ita-IT	1
 859	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E11	ita-PA	1
-868	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E18	ita-PA	1
-869	3	Tempietto	ita-IT	1
+875	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/F	ita-PA	1
 860	3	Edicola	ita-IT	1
 860	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E12	ita-PA	1
 861	3	Capitello votivo	ita-IT	1
-882	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/F5	ita-PA	1
+876	3	ARCHITETTURA COMMEMORATIVA	ita-IT	1
+877	3	Monumento e complesso monumentale	ita-IT	1
 862	3	Eremo	ita-IT	1
 862	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E13	ita-PA	1
-879	3	Colonna	ita-IT	1
 863	3	Mausoleo	ita-IT	1
 863	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E14	ita-PA	1
-879	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/F2	ita-PA	1
-864	3	Monastero	ita-IT	1
-864	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E15	ita-PA	1
+868	3	Tempio	ita-IT	1
+868	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E18	ita-PA	1
+869	3	Tempietto	ita-IT	1
 870	3	Sepolcro	ita-IT	1
 870	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E19	ita-PA	1
 871	3	Tomba	ita-IT	1
+880	3	Complesso monumentale	ita-IT	1
 872	3	Chiesa	ita-IT	1
 872	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/E8	ita-PA	1
 873	3	Chiese	ita-IT	1
-874	3	Martyrium	ita-IT	1
-886	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/G1	ita-PA	1
-880	3	Complesso monumentale	ita-IT	1
-875	3	Monumenti	ita-IT	1
-875	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/F	ita-PA	1
-876	3	ARCHITETTURA COMMEMORATIVA	ita-IT	1
-877	3	Monumento e complesso monumentale	ita-IT	1
-880	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/F3	ita-PA	1
+878	3	Arco	ita-IT	1
+878	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/F1	ita-PA	1
 883	3	Parchi e giardini	ita-IT	1
+883	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/G	ita-PA	1
+879	3	Colonna	ita-IT	1
+879	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/F2	ita-PA	1
+880	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/F3	ita-PA	1
 881	3	Monumento	ita-IT	1
 881	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/F4	ita-PA	1
-883	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/G	ita-PA	1
+886	3	Belvedere	ita-IT	1
+886	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/G1	ita-PA	1
+882	3	Obelisco	ita-IT	1
+882	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/F5	ita-PA	1
 884	3	ARCHITETTURA DEI PARCHI E GIARDINI	ita-IT	1
 885	3	Parco e giardino	ita-IT	1
 887	3	Giardino	ita-IT	1
 887	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/G2	ita-PA	1
-890	3	Percorsi vari	ita-IT	1
+927	3	Studio associato e società di professionisti	ita-IT	1
 888	3	Parco	ita-IT	1
 888	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/G3	ita-PA	1
+928	3	Tipo di organizzazione privata (ATECO)	ita-IT	1
 889	3	Viale	ita-IT	1
 889	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-culture/cultural-interest-places/G4	ita-PA	1
+890	3	Percorsi vari	ita-IT	1
 891	3	Organizzazione	ita-IT	1
 892	3	Legal status privato	ita-IT	1
 893	3	Altra forma di ente privato con personalità giuridica	ita-IT	1
 894	3	Altra forma di ente privato senza personalità giuridica	ita-IT	1
 895	3	Associazione non riconosciuta	ita-IT	1
-1304	3	Dipendente	ita-IT	1
-1305	3	Assessore	ita-IT	1
 896	3	Associazione o raggruppamento temporaneo di imprese	ita-IT	1
 897	3	Associazione riconosciuta	ita-IT	1
 898	3	Azienda pubblica di servizi alle persone ai sensi del d.lgs n. 207/2001	ita-IT	1
@@ -1234,442 +1234,363 @@
 924	3	Società in nome collettivo	ita-IT	1
 925	3	Società per azioni	ita-IT	1
 926	3	Società semplice	ita-IT	1
-927	3	Studio associato e società di professionisti	ita-IT	1
-928	3	Tipo di organizzazione privata (ATECO)	ita-IT	1
-931	3	coltivazione di colture agricole non permanenti - 01.1	ita-IT	1
-931	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 011	ita-PA	1
 929	3	agricoltura, silvicoltura e pesca - A	ita-IT	1
 929	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ A	ita-PA	1
+934	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 02	ita-PA	1
 930	3	coltivazioni agricole e produzione di prodotti animali, caccia e servizi connessi - 01	ita-IT	1
 930	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 01	ita-PA	1
-937	3	raccolta di prodotti selvatici non legnosi - 02.30	ita-IT	1
-937	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 0230	ita-PA	1
+931	3	coltivazione di colture agricole non permanenti - 01.1	ita-IT	1
+931	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 011	ita-PA	1
+935	3	silvicoltura ed altre attività forestali - 02.10	ita-IT	1
 932	3	coltivazione di colture permanenti - 01.2	ita-IT	1
 932	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 012	ita-PA	1
+935	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 0210	ita-PA	1
 933	3	caccia, cattura di animali e servizi connessi - 01.7	ita-IT	1
 933	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 017	ita-PA	1
-944	3	estrazione di minerali metalliferi - 07	ita-IT	1
 934	3	silvicoltura ed utilizzo di aree forestali - 02	ita-IT	1
-934	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 02	ita-PA	1
-938	3	servizi di supporto per la silvicoltura - 02.40	ita-IT	1
-938	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 0240	ita-PA	1
-935	3	silvicoltura ed altre attività forestali - 02.10	ita-IT	1
-935	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 0210	ita-PA	1
-941	3	acquacoltura - 03.2	ita-IT	1
 936	3	utilizzo di aree forestali - 02.20	ita-IT	1
 936	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 0220	ita-PA	1
-941	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 032	ita-PA	1
 939	3	pesca e acquacoltura - 03	ita-IT	1
 939	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 03	ita-PA	1
-943	3	estrazione di petrolio greggio e di gas naturale - 06	ita-IT	1
+937	3	raccolta di prodotti selvatici non legnosi - 02.30	ita-IT	1
+937	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 0230	ita-PA	1
+938	3	servizi di supporto per la silvicoltura - 02.40	ita-IT	1
+938	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 0240	ita-PA	1
 940	3	pesca - 03.1	ita-IT	1
 940	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 031	ita-PA	1
-943	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 06	ita-PA	1
-942	3	estrazione di minerali da cave e miniere - B	ita-IT	1
+941	3	acquacoltura - 03.2	ita-IT	1
+941	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 032	ita-PA	1
+958	3	trattamento e smaltimento dei rifiuti - 38.2	ita-IT	1
 942	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ B	ita-PA	1
+958	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/382	ita-PA	1
+943	3	estrazione di petrolio greggio e di gas naturale - 06	ita-IT	1
+943	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 06	ita-PA	1
+953	3	fornitura di acqua; reti fognarie, attività di gestione dei rifiuti e risanamento - E	ita-IT	1
+953	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ E	ita-PA	1
+944	3	estrazione di minerali metalliferi - 07	ita-IT	1
 944	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 07	ita-PA	1
 945	3	altre attività di estrazione di minerali da cave e miniere - 08	ita-IT	1
 945	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 08	ita-PA	1
+961	3	costruzioni - F	ita-IT	1
 946	3	estrazione di pietra, sabbia e argilla - 08.1	ita-IT	1
 946	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 081	ita-PA	1
+954	3	raccolta, trattamento e fornitura di acqua - 36.00	ita-IT	1
+954	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 3600	ita-PA	1
 947	3	estrazione di minerali da cave e miniere n.c.a. - 08.9	ita-IT	1
 947	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 089	ita-PA	1
 948	3	attività dei servizi di supporto all'estrazione - 09	ita-IT	1
 948	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 09	ita-PA	1
+961	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ F	ita-PA	1
 949	3	attività manifatturiere - C	ita-IT	1
 949	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ C	ita-PA	1
-960	3	attività di risanamento e altri servizi di gestione dei rifiuti - 39	ita-IT	1
+955	3	gestione delle reti fognarie - 37.00	ita-IT	1
+955	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 3700	ita-PA	1
 950	3	industrie alimentari - 10	ita-IT	1
 950	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 10	ita-PA	1
-960	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/39	ita-PA	1
+959	3	recupero dei materiali - 38.3	ita-IT	1
+959	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/383	ita-PA	1
 951	3	fornitura di energia elettrica, gas, vapore e aria condizionata - D	ita-IT	1
 951	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ D	ita-PA	1
 952	3	fornitura di energia elettrica, gas, vapore e aria condizionata - 35	ita-IT	1
 952	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/35	ita-PA	1
-967	3	lavori di costruzione specializzati - 43	ita-IT	1
-961	3	costruzioni - F	ita-IT	1
-953	3	fornitura di acqua; reti fognarie, attività di gestione dei rifiuti e risanamento - E	ita-IT	1
-953	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ E	ita-PA	1
-961	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ F	ita-PA	1
-954	3	raccolta, trattamento e fornitura di acqua - 36.00	ita-IT	1
-954	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 3600	ita-PA	1
-967	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/43	ita-PA	1
-955	3	gestione delle reti fognarie - 37.00	ita-IT	1
-955	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 3700	ita-PA	1
-962	3	costruzione di edifici - 41	ita-IT	1
 956	3	attività di raccolta, trattamento e smaltimento dei rifiuti; recupero dei materiali - 38	ita-IT	1
 956	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/38	ita-PA	1
-962	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/41	ita-PA	1
 957	3	raccolta dei rifiuti - 38.1	ita-IT	1
 957	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/381	ita-PA	1
-958	3	trattamento e smaltimento dei rifiuti - 38.2	ita-IT	1
-958	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/382	ita-PA	1
+962	3	costruzione di edifici - 41	ita-IT	1
+962	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/41	ita-PA	1
+960	3	attività di risanamento e altri servizi di gestione dei rifiuti - 39	ita-IT	1
+960	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/39	ita-PA	1
 963	3	ingegneria civile - 42	ita-IT	1
-959	3	recupero dei materiali - 38.3	ita-IT	1
-959	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/383	ita-PA	1
 963	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/42	ita-PA	1
-968	3	demolizione e preparazione del cantiere edile - 43.1	ita-IT	1
 964	3	costruzione di strade e ferrovie - 42.1	ita-IT	1
 964	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/421	ita-PA	1
-968	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/431	ita-PA	1
 965	3	costruzione di opere di pubblica utilità - 42.2	ita-IT	1
 965	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/422	ita-PA	1
-971	3	altri lavori specializzati di costruzione - 43.9	ita-IT	1
 966	3	costruzione di altre opere di ingegneria civile - 42.9	ita-IT	1
 966	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/429	ita-PA	1
-971	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/439	ita-PA	1
+967	3	lavori di costruzione specializzati - 43	ita-IT	1
+967	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/43	ita-PA	1
+988	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 5530	ita-PA	1
+978	3	trasporto di merci su strada e servizi di trasloco - 49.4	ita-IT	1
+968	3	demolizione e preparazione del cantiere edile - 43.1	ita-IT	1
+968	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/431	ita-PA	1
+978	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/494	ita-PA	1
 969	3	installazione di impianti elettrici, idraulici ed altri lavori di costruzione e installazione - 43.2	ita-IT	1
 969	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/432	ita-PA	1
+985	3	alloggio - 55	ita-IT	1
 970	3	completamento e finitura di edifici - 43.3	ita-IT	1
 970	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/433	ita-PA	1
-974	3	trasporto terrestre e trasporto mediante condotte - 49	ita-IT	1
-974	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/49	ita-PA	1
+985	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/55	ita-PA	1
+979	3	trasporto mediante condotte - 49.5	ita-IT	1
+971	3	altri lavori specializzati di costruzione - 43.9	ita-IT	1
+971	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/439	ita-PA	1
+979	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/495	ita-PA	1
 972	3	commercio all'ingrosso e al dettaglio; riparazione di autoveicoli e motocicli - G	ita-IT	1
 972	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ G	ita-PA	1
 973	3	trasporto e magazzinaggio - H	ita-IT	1
 973	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ H	ita-PA	1
+980	3	trasporto marittimo e per vie d'acqua - 50	ita-IT	1
+974	3	trasporto terrestre e trasporto mediante condotte - 49	ita-IT	1
+974	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/49	ita-PA	1
+980	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 50	ita-PA	1
 975	3	trasporto ferroviario di passeggeri (interurbano) - 49.1	ita-IT	1
 975	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/491	ita-PA	1
 976	3	trasporto ferroviario di merci - 49.2	ita-IT	1
 976	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/492	ita-PA	1
+981	3	trasporto aereo - 51	ita-IT	1
 977	3	altri trasporti terrestri di passeggeri - 49.3	ita-IT	1
 977	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/493	ita-PA	1
-978	3	trasporto di merci su strada e servizi di trasloco - 49.4	ita-IT	1
-978	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/494	ita-PA	1
-979	3	trasporto mediante condotte - 49.5	ita-IT	1
-979	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/495	ita-PA	1
-991	3	ristoranti e attività di ristorazione mobile - 56.10	ita-IT	1
-980	3	trasporto marittimo e per vie d'acqua - 50	ita-IT	1
-980	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 50	ita-PA	1
-991	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 5610	ita-PA	1
-981	3	trasporto aereo - 51	ita-IT	1
-981	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/51	ita-PA	1
-1001	3	attività di programmazione e trasmissione - 60	ita-IT	1
-982	3	magazzinaggio e attività di supporto ai trasporti - 52	ita-IT	1
-982	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/52	ita-PA	1
-992	3	gelaterie e pasticcerie ambulanti - 56.10.41	ita-IT	1
-983	3	servizi postali e attività di corriere - 53	ita-IT	1
-983	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/53	ita-PA	1
-992	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 561041	ita-PA	1
-984	3	attività dei servizi di alloggio e di ristorazione - I	ita-IT	1
-984	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ I	ita-PA	1
-1001	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 60	ita-PA	1
-985	3	alloggio - 55	ita-IT	1
-985	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/55	ita-PA	1
-998	3	servizi di informazione e comunicazione - J	ita-IT	1
-993	3	ristorazione ambulante - 56.10.42	ita-IT	1
 986	3	alberghi e strutture simili - 55.10	ita-IT	1
-986	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 5510	ita-PA	1
-993	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 561042	ita-PA	1
+981	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/51	ita-PA	1
 987	3	alloggi per vacanze e altre strutture per brevi soggiorni - 55.20	ita-IT	1
 987	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 5520	ita-PA	1
-998	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ J	ita-PA	1
-988	3	aree di campeggio e aree attrezzate per camper e roulotte - 55.30	ita-IT	1
-988	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 5530	ita-PA	1
-994	3	fornitura di pasti preparati (catering) e altri servizi di ristorazione - 56.2	ita-IT	1
+982	3	magazzinaggio e attività di supporto ai trasporti - 52	ita-IT	1
+982	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/52	ita-PA	1
+983	3	servizi postali e attività di corriere - 53	ita-IT	1
+983	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/53	ita-PA	1
+984	3	attività dei servizi di alloggio e di ristorazione - I	ita-IT	1
+984	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ I	ita-PA	1
 989	3	altri alloggi - 55.90	ita-IT	1
+986	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 5510	ita-PA	1
 989	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 5590	ita-PA	1
-994	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/562	ita-PA	1
+988	3	aree di campeggio e aree attrezzate per camper e roulotte - 55.30	ita-IT	1
 990	3	attività dei servizi di ristorazione - 56	ita-IT	1
 990	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/56	ita-PA	1
+991	3	ristoranti e attività di ristorazione mobile - 56.10	ita-IT	1
+991	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 5610	ita-PA	1
+992	3	gelaterie e pasticcerie ambulanti - 56.10.41	ita-IT	1
+992	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 561041	ita-PA	1
+1010	3	attività professionali, scientifiche e tecniche - M	ita-IT	1
+993	3	ristorazione ambulante - 56.10.42	ita-IT	1
+993	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 561042	ita-PA	1
+1004	3	attività dei servizi d'informazione e altri servizi informatici - 63	ita-IT	1
+1004	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/63	ita-PA	1
+994	3	fornitura di pasti preparati (catering) e altri servizi di ristorazione - 56.2	ita-IT	1
+994	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/562	ita-PA	1
+1010	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ M	ita-PA	1
 995	3	mense e catering continuativo su base contrattuale - 56.29	ita-IT	1
 995	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/5629	ita-PA	1
-999	3	attività editoriali - 58	ita-IT	1
-999	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/58	ita-PA	1
 996	3	mense - 56.29.1	ita-IT	1
 996	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 56291	ita-PA	1
+1005	3	attività immobiliari - L	ita-IT	1
 1005	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ L	ita-PA	1
 997	3	bar e altri esercizi simili senza cucina - 56.3	ita-IT	1
 997	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/563	ita-PA	1
-1002	3	telecomunicazioni - 61	ita-IT	1
-1002	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/61	ita-PA	1
-1000	3	attività di produzione cinematografica, di video e di programmi televisivi, di registrazioni musicali e sonore - 59	ita-IT	1
-1000	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/59	ita-PA	1
-1006	3	attività immobiliari - 68	ita-IT	1
-1003	3	produzione di software, consulenza informatica e attività connesse - 62	ita-IT	1
-1003	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/62	ita-PA	1
-1004	3	attività dei servizi d'informazione e altri servizi informatici - 63	ita-IT	1
-1004	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/63	ita-PA	1
-1006	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/68	ita-PA	1
-1005	3	attività immobiliari - L	ita-IT	1
-1007	3	compravendita di beni immobili effettuata su beni propri - 68.10	ita-IT	1
-1007	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 6810	ita-PA	1
+998	3	servizi di informazione e comunicazione - J	ita-IT	1
+998	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ J	ita-PA	1
+999	3	attività editoriali - 58	ita-IT	1
+999	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/58	ita-PA	1
 1008	3	affitto e gestione di immobili di proprietà o in leasing - 68.2	ita-IT	1
 1008	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/682	ita-PA	1
+1000	3	attività di produzione cinematografica, di video e di programmi televisivi, di registrazioni musicali e sonore - 59	ita-IT	1
+1000	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/59	ita-PA	1
+1013	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/71	ita-PA	1
+1001	3	attività di programmazione e trasmissione - 60	ita-IT	1
+1001	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 60	ita-PA	1
+1002	3	telecomunicazioni - 61	ita-IT	1
+1002	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/61	ita-PA	1
+1011	3	attività legali e contabilità - 69	ita-IT	1
+1003	3	produzione di software, consulenza informatica e attività connesse - 62	ita-IT	1
+1003	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/62	ita-PA	1
+1011	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/69	ita-PA	1
+1006	3	attività immobiliari - 68	ita-IT	1
+1006	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/68	ita-PA	1
+1007	3	compravendita di beni immobili effettuata su beni propri - 68.10	ita-IT	1
+1007	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 6810	ita-PA	1
 1009	3	attività immobiliari per conto terzi - 68.3	ita-IT	1
 1009	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/683	ita-PA	1
-1010	3	attività professionali, scientifiche e tecniche - M	ita-IT	1
-1010	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ M	ita-PA	1
-1027	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/823	ita-PA	1
-1011	3	attività legali e contabilità - 69	ita-IT	1
-1011	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/69	ita-PA	1
-1021	3	concessione dei diritti di sfruttamento di proprietà intellettuale e prodotti simili (escluse le opere protette dal copyright) - 77.4	ita-IT	1
-1021	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/774	ita-PA	1
 1012	3	contabilità, controllo e revisione contabile, consulenza in materia fiscale e del lavoro - 69.20	ita-IT	1
 1012	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 6920	ita-PA	1
 1013	3	attività degli studi di architettura e d'ingegneria; collaudi ed analisi tecniche - 71	ita-IT	1
-1013	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/71	ita-PA	1
+1016	3	noleggio, agenzie di viaggio, servizi di supporto alle imprese - N	ita-IT	1
 1014	3	attività degli studi di architettura, ingegneria ed altri studi tecnici - 71.1	ita-IT	1
 1014	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/711	ita-PA	1
-1022	3	attività di ricerca, selezione, fornitura di personale - 78	ita-IT	1
-1022	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/78	ita-PA	1
 1015	3	collaudi ed analisi tecniche - 71.2	ita-IT	1
 1015	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/712	ita-PA	1
-1016	3	noleggio, agenzie di viaggio, servizi di supporto alle imprese - N	ita-IT	1
 1016	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ N	ita-PA	1
 1017	3	attività di noleggio e leasing operativo - 77	ita-IT	1
 1017	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/77	ita-PA	1
-1023	3	attività di servizi per edifici e paesaggio - 81	ita-IT	1
-1023	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/81	ita-PA	1
 1018	3	noleggio di autoveicoli - 77.1	ita-IT	1
 1018	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/771	ita-PA	1
-1028	3	amministrazione pubblica e difesa; assicurazione sociale obbligatoria - O	ita-IT	1
+1029	3	amministrazione pubblica e difesa; assicurazione sociale obbligatoria - 84	ita-IT	1
+1029	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/84	ita-PA	1
 1019	3	noleggio di beni per uso personale e per la casa - 77.2	ita-IT	1
 1019	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/772	ita-PA	1
-1028	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ O	ita-PA	1
+1034	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/8412	ita-PA	1
 1020	3	noleggio di altre macchine, attrezzature e beni materiali - 77.3	ita-IT	1
 1020	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/773	ita-PA	1
-1024	3	servizi integrati di gestione agli edifici - 81.1	ita-IT	1
-1024	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/811	ita-PA	1
-1025	3	attività di pulizia e disinfestazione - 81.2	ita-IT	1
-1025	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/812	ita-PA	1
-1031	3	attività generali di amministrazione pubblica - 84.11	ita-IT	1
-1029	3	amministrazione pubblica e difesa; assicurazione sociale obbligatoria - 84	ita-IT	1
-1026	3	cura e manutenzione del paesaggio - 81.3	ita-IT	1
-1026	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/813	ita-PA	1
-1031	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/8411	ita-PA	1
-1027	3	organizzazione di convegni e fiere - 82.3	ita-IT	1
-1029	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/84	ita-PA	1
+1021	3	concessione dei diritti di sfruttamento di proprietà intellettuale e prodotti simili (escluse le opere protette dal copyright) - 77.4	ita-IT	1
+1021	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/774	ita-PA	1
 1030	3	amministrazione pubblica: amministrazione generale, economica e sociale - 84.1	ita-IT	1
 1030	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/841	ita-PA	1
-1033	3	attività di pianificazione generale e servizi statistici generali - 84.11.2	ita-IT	1
+1022	3	attività di ricerca, selezione, fornitura di personale - 78	ita-IT	1
+1022	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/78	ita-PA	1
+1035	3	regolamentazione dell'attività degli organismi preposti alla sanità - 84.12.1	ita-IT	1
+1023	3	attività di servizi per edifici e paesaggio - 81	ita-IT	1
+1023	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/81	ita-PA	1
+1035	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 84121	ita-PA	1
+1024	3	servizi integrati di gestione agli edifici - 81.1	ita-IT	1
+1024	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/811	ita-PA	1
+1031	3	attività generali di amministrazione pubblica - 84.11	ita-IT	1
+1031	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/8411	ita-PA	1
+1025	3	attività di pulizia e disinfestazione - 81.2	ita-IT	1
+1025	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/812	ita-PA	1
+1026	3	cura e manutenzione del paesaggio - 81.3	ita-IT	1
+1026	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/813	ita-PA	1
+1027	3	organizzazione di convegni e fiere - 82.3	ita-IT	1
+1027	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/823	ita-PA	1
 1032	3	attività degli organi legislativi ed esecutivi, centrali e locali; amministrazione finanziaria; amministrazioni regionali, provinciali e comunali - 84.11.1	ita-IT	1
 1032	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 84111	ita-PA	1
+1028	3	amministrazione pubblica e difesa; assicurazione sociale obbligatoria - O	ita-IT	1
+1028	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ O	ita-PA	1
+1039	3	regolamentazione delle attività che contribuiscono ad una più efficiente gestione delle attività economiche - 84.13	ita-IT	1
+1033	3	attività di pianificazione generale e servizi statistici generali - 84.11.2	ita-IT	1
 1033	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 84112	ita-PA	1
-1034	3	regolamentazione delle attività relative alla fornitura di servizi di assistenza sanitaria, dell'istruzione, di servizi culturali e ad altri servizi sociali (esclusa l'assicurazione sociale obbligatoria) - 84.12	ita-IT	1
-1034	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/8412	ita-PA	1
-1035	3	regolamentazione dell'attività degli organismi preposti alla sanità - 84.12.1	ita-IT	1
-1035	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 84121	ita-PA	1
 1036	3	regolamentazione dell'attività degli organismi preposti all'istruzione - 84.12.2	ita-IT	1
 1036	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 84122	ita-PA	1
-1066	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ R	ita-PA	1
-1037	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 84123	ita-PA	1
-1067	3	attività creative, artistiche e di intrattenimento - 90	ita-IT	1
-1115	3	02.1.1 - Difesa militare	ita-IT	1
+1034	3	regolamentazione delle attività relative alla fornitura di servizi di assistenza sanitaria, dell'istruzione, di servizi culturali e ad altri servizi sociali (esclusa l'assicurazione sociale obbligatoria) - 84.12	ita-IT	1
+1039	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/8413	ita-PA	1
 1037	3	regolamentazione dell'attività degli organismi preposti alla gestione di progetti per l'edilizia abitativa e l'assetto del territorio e per la tutela dell'ambiente - 84.12.3	ita-IT	1
-1053	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/852	ita-PA	1
+1037	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 84123	ita-PA	1
 1038	3	regolamentazione dell'attività degli organismi preposti ai servizi ricreativi, culturali e sociali vari - 84.12.4	ita-IT	1
 1038	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 84124	ita-PA	1
-1039	3	regolamentazione delle attività che contribuiscono ad una più efficiente gestione delle attività economiche - 84.13	ita-IT	1
-1039	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/8413	ita-PA	1
-1047	3	regolamentazione di altri affari e servizi economici - 84.13.9	ita-IT	1
-1047	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 84139	ita-PA	1
 1040	3	regolamentazione degli affari concernenti i combustibili e l'energia - 84.13.1	ita-IT	1
 1040	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 84131	ita-PA	1
 1041	3	regolamentazione degli affari e servizi concernenti l'agricoltura, silvicoltura, caccia e pesca - 84.13.2	ita-IT	1
 1041	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 84132	ita-PA	1
+1057	3	servizi di assistenza sociale residenziale - 87	ita-IT	1
 1042	3	regolamentazione degli affari e servizi concernenti la costruzione di strade - 84.13.4	ita-IT	1
 1042	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 84134	ita-PA	1
-1048	3	giustizia ed attività giudiziarie - 84.23	ita-IT	1
-1048	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/8423	ita-PA	1
-1043	3	regolamentazione degli affari e servizi concernenti la costruzione di opere per la navigazione interna e marittima - 84.13.5	ita-IT	1
-1043	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 84135	ita-PA	1
-1044	3	regolamentazione degli affari e servizi concernenti i trasporti e le comunicazioni - 84.13.6	ita-IT	1
-1044	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 84136	ita-PA	1
-1054	3	istruzione secondaria - 85.3	ita-IT	1
-1045	3	regolamentazione degli affari e servizi concernenti il commercio interno - 84.13.7	ita-IT	1
-1045	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 84137	ita-PA	1
-1054	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/853	ita-PA	1
-1046	3	regolamentazione degli affari e servizi concernenti il turismo - 84.13.8	ita-IT	1
-1046	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 84138	ita-PA	1
-1049	3	ordine pubblico e sicurezza nazionale - 84.24	ita-IT	1
-1049	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/8424	ita-PA	1
-1050	3	istruzione - P	ita-IT	1
-1050	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ P	ita-PA	1
-1058	3	strutture di assistenza infermieristica residenziale - 87.10	ita-IT	1
-1055	3	sanità e assistenza sociale - Q	ita-IT	1
-1051	3	istruzione - 85	ita-IT	1
-1051	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/85	ita-PA	1
-1055	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ Q	ita-PA	1
 1052	3	istruzione prescolastica - 85.1	ita-IT	1
 1052	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/851	ita-PA	1
-1058	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 8710	ita-PA	1
+1043	3	regolamentazione degli affari e servizi concernenti la costruzione di opere per la navigazione interna e marittima - 84.13.5	ita-IT	1
+1043	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 84135	ita-PA	1
+1057	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/87	ita-PA	1
+1044	3	regolamentazione degli affari e servizi concernenti i trasporti e le comunicazioni - 84.13.6	ita-IT	1
+1044	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 84136	ita-PA	1
+1045	3	regolamentazione degli affari e servizi concernenti il commercio interno - 84.13.7	ita-IT	1
+1045	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 84137	ita-PA	1
 1053	3	istruzione primaria - 85.2	ita-IT	1
-1060	3	strutture di assistenza residenziale per anziani e disabili - 87.30	ita-IT	1
+1053	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/852	ita-PA	1
+1046	3	regolamentazione degli affari e servizi concernenti il turismo - 84.13.8	ita-IT	1
+1046	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 84138	ita-PA	1
+1047	3	regolamentazione di altri affari e servizi economici - 84.13.9	ita-IT	1
+1047	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 84139	ita-PA	1
+1048	3	giustizia ed attività giudiziarie - 84.23	ita-IT	1
+1048	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/8423	ita-PA	1
+1058	3	strutture di assistenza infermieristica residenziale - 87.10	ita-IT	1
+1049	3	ordine pubblico e sicurezza nazionale - 84.24	ita-IT	1
+1049	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/8424	ita-PA	1
+1058	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 8710	ita-PA	1
+1050	3	istruzione - P	ita-IT	1
+1050	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ P	ita-PA	1
+1061	3	altre strutture di assistenza sociale residenziale - 87.90	ita-IT	1
+1051	3	istruzione - 85	ita-IT	1
+1051	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/85	ita-PA	1
+1061	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 8790	ita-PA	1
+1054	3	istruzione secondaria - 85.3	ita-IT	1
+1054	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/853	ita-PA	1
+1059	3	strutture di assistenza residenziale per persone affette da ritardi mentali, disturbi mentali o che abusano di sostanze stupefacenti - 87.20	ita-IT	1
+1059	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 8720	ita-PA	1
+1055	3	sanità e assistenza sociale - Q	ita-IT	1
+1055	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ Q	ita-PA	1
 1056	3	assistenza sanitaria - 86	ita-IT	1
 1056	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/86	ita-PA	1
+1060	3	strutture di assistenza residenziale per anziani e disabili - 87.30	ita-IT	1
 1060	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 8730	ita-PA	1
-1059	3	strutture di assistenza residenziale per persone affette da ritardi mentali, disturbi mentali o che abusano di sostanze stupefacenti - 87.20	ita-IT	1
-1057	3	servizi di assistenza sociale residenziale - 87	ita-IT	1
-1057	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/87	ita-PA	1
-1059	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 8720	ita-PA	1
 1062	3	assistenza sociale non residenziale - 88	ita-IT	1
 1062	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/88	ita-PA	1
-1061	3	altre strutture di assistenza sociale residenziale - 87.90	ita-IT	1
-1061	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 8790	ita-PA	1
 1063	3	assistenza sociale non residenziale per anziani e disabili - 88.10	ita-IT	1
 1063	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 8810	ita-PA	1
 1064	3	servizi di asili nido; assistenza diurna per minori disabili - 88.91	ita-IT	1
 1064	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/8891	ita-PA	1
-1114	3	01.8.1 - Trasferimenti a carattere generale tra diversi livelli di amministrazione	ita-IT	1
 1065	3	altre attività di assistenza sociale non residenziale n.c.a. - 88.99	ita-IT	1
 1065	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/8899	ita-PA	1
 1066	3	attività artistiche, sportive, di intrattenimento e divertimento - R	ita-IT	1
+1066	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ R	ita-PA	1
+1083	3	attività di organizzazioni economiche e di datori di lavoro - 94.11	ita-IT	1
+1076	3	gestione di impianti sportivi - 93.11	ita-IT	1
+1067	3	attività creative, artistiche e di intrattenimento - 90	ita-IT	1
+1122	3	Tribunali	ita-IT	1
 1067	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 90	ita-PA	1
-1089	3	attività di servizi per la persona n.c.a. - 96.09	ita-IT	1
+1076	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/9311	ita-PA	1
 1068	3	attività di biblioteche, archivi, musei ed altre attività culturali - 91	ita-IT	1
 1068	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/91	ita-PA	1
-1085	3	attività di altre organizzazioni associative - 94.9	ita-IT	1
+1083	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/9411	ita-PA	1
 1069	3	attività di biblioteche ed archivi - 91.01	ita-IT	1
 1069	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 9101	ita-PA	1
-1079	3	altre attività sportive - 93.19	ita-IT	1
-1079	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/9319	ita-PA	1
+1077	3	attività di club sportivi - 93.12	ita-IT	1
 1070	3	attività di musei - 91.02	ita-IT	1
 1070	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 9102	ita-PA	1
-1085	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/949	ita-PA	1
+1077	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/9312	ita-PA	1
 1071	3	gestione di luoghi e monumenti storici e attrazioni simili - 91.03	ita-IT	1
 1071	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 9103	ita-PA	1
-1072	3	attività degli orti botanici, dei giardini zoologici e delle riserve naturali - 91.04	ita-IT	1
-1072	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 9104	ita-PA	1
 1080	3	attività ricreative e di divertimento - 93.2	ita-IT	1
 1080	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/932	ita-PA	1
+1072	3	attività degli orti botanici, dei giardini zoologici e delle riserve naturali - 91.04	ita-IT	1
+1072	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 9104	ita-PA	1
 1073	3	attività riguardanti le lotterie, le scommesse, le case da gioco - 92	ita-IT	1
 1073	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/92	ita-PA	1
-1089	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 9609	ita-PA	1
 1074	3	attività sportive, di intrattenimento e di divertimento - 93	ita-IT	1
 1074	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/93	ita-PA	1
-1075	3	attività sportive - 93.1	ita-IT	1
-1075	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/931	ita-PA	1
 1081	3	altre attività di servizi - S	ita-IT	1
 1081	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ S	ita-PA	1
-1076	3	gestione di impianti sportivi - 93.11	ita-IT	1
-1076	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/9311	ita-PA	1
-1077	3	attività di club sportivi - 93.12	ita-IT	1
-1077	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/9312	ita-PA	1
-1086	3	altre attività di servizi per la persona - 96	ita-IT	1
-1086	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/96	ita-PA	1
-1078	3	palestre - 93.13	ita-IT	1
-1078	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/9313	ita-PA	1
-1082	3	attività di organizzazioni associative - 94	ita-IT	1
-1082	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/94	ita-PA	1
-1090	3	COFOG	ita-IT	1
-1083	3	attività di organizzazioni economiche e di datori di lavoro - 94.11	ita-IT	1
-1083	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/9411	ita-PA	1
+1075	3	attività sportive - 93.1	ita-IT	1
+1075	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/931	ita-PA	1
 1087	3	servizi di pompe funebri e attività connesse - 96.03	ita-IT	1
 1084	3	attività di organizzazioni associative professionali - 94.12	ita-IT	1
+1078	3	palestre - 93.13	ita-IT	1
+1078	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/9313	ita-PA	1
 1084	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/9412	ita-PA	1
-1092	3	10.1.2 - Invalidità	ita-IT	1
+1079	3	altre attività sportive - 93.19	ita-IT	1
+1079	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/9319	ita-PA	1
 1087	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 9603	ita-PA	1
-1093	3	10.2.1 - Vecchiaia	ita-IT	1
+1086	3	altre attività di servizi per la persona - 96	ita-IT	1
+1086	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/96	ita-PA	1
+1082	3	attività di organizzazioni associative - 94	ita-IT	1
+1082	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/94	ita-PA	1
+1085	3	attività di altre organizzazioni associative - 94.9	ita-IT	1
+1085	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/949	ita-PA	1
 1088	3	servizi dei centri per il benessere fisico - 96.04	ita-IT	1
 1088	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 9604	ita-PA	1
-1100	3	10.9.1 - Protezione sociale non altrove classificata	ita-IT	1
-1094	3	10.3.1 - Superstiti	ita-IT	1
-1095	3	10.4.1 - Famiglia	ita-IT	1
-1096	3	10.5.1 - Disoccupazione	ita-IT	1
-1097	3	10.6.1 - Abitazioni	ita-IT	1
-1098	3	10.7.1 - Esclusione sociale non altrove classificata	ita-IT	1
-1099	3	10.8.1 - Ricerca & Sviluppo per la protezione sociale	ita-IT	1
+1089	3	attività di servizi per la persona n.c.a. - 96.09	ita-IT	1
+1089	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-organizations/ateco-2007/ 9609	ita-PA	1
+1090	3	COFOG	ita-IT	1
+1092	3	Invalidità	ita-IT	1
+1093	3	Vecchiaia	ita-IT	1
+1094	3	Superstiti	ita-IT	1
+1095	3	Famiglia	ita-IT	1
+1096	3	Disoccupazione	ita-IT	1
+1097	3	Abitazioni	ita-IT	1
+1098	3	Esclusione sociale non altrove classificata	ita-IT	1
+1099	3	Ricerca & Sviluppo per la protezione sociale	ita-IT	1
+1100	3	Protezione sociale non altrove classificata	ita-IT	1
+1101	3	Organi esecutivi e legislativi	ita-IT	1
+1102	3	Affari finanziari e fiscali	ita-IT	1
+1103	3	Affari esteri	ita-IT	1
+1104	3	Aiuti economici ai paesi in via di sviluppo ed in transizione	ita-IT	1
+1105	3	Aiuti economici erogati attraverso organismi internazionali	ita-IT	1
+1106	3	Servizi generali del personale	ita-IT	1
+1107	3	Servizi di programmazione	ita-IT	1
+1108	3	Servizi statistici	ita-IT	1
+1109	3	Altri servizi	ita-IT	1
+1110	3	Ricerca di base	ita-IT	1
+1111	3	Ricerca & Sviluppo per i servizi pubblici generali	ita-IT	1
+1112	3	Servizi pubblici generali non altrove classificati	ita-IT	1
+1113	3	Transazioni relative al debito pubblico	ita-IT	1
+1114	3	Trasferimenti a carattere generale tra diversi livelli di amministrazione	ita-IT	1
+1115	3	Difesa militare	ita-IT	1
+1116	3	Difesa civile	ita-IT	1
+1117	3	Aiuti militari all'estero	ita-IT	1
+1118	3	Ricerca & Sviluppo per la Difesa	ita-IT	1
+1119	3	Difesa non altrove classificata	ita-IT	1
+1120	3	Servizi di polizia	ita-IT	1
+1123	3	Carceri	ita-IT	1
+1281	3	Tipologia di punti di contatto	ita-IT	1
+1282	3	Amministrazione	ita-IT	1
+1283	3	Segreteria	ita-IT	1
 1201	3	legal status privato	ita-IT	1
-1101	3	01.1.1 - Organi esecutivi e legislativi	ita-IT	1
-1102	3	01.1.2 - Affari finanziari e fiscali	ita-IT	1
-1103	3	01.1.3 - Affari esteri	ita-IT	1
-1104	3	01.2.1 - Aiuti economici ai paesi in via di sviluppo ed in transizione	ita-IT	1
-1105	3	01.2.2 - Aiuti economici erogati attraverso organismi internazionali	ita-IT	1
-1106	3	01.3.1 - Servizi generali del personale	ita-IT	1
-1107	3	01.3.2 - Servizi di programmazione	ita-IT	1
-1108	3	01.3.3 - Servizi statistici	ita-IT	1
-1109	3	01.3.4 - Altri servizi	ita-IT	1
-1110	3	01.4.1 - Ricerca di base	ita-IT	1
-1111	3	01.5.1 - Ricerca & Sviluppo per i servizi pubblici generali	ita-IT	1
-1112	3	01.6.1 - Servizi pubblici generali non altrove classificati	ita-IT	1
-1113	3	01.7.1 - Transazioni relative al debito pubblico	ita-IT	1
-1091	3	10.1.1 - Malattia	ita-IT	1
-1116	3	02.2.1 - Difesa civile	ita-IT	1
-1117	3	02.3.1 - Aiuti militari all'estero	ita-IT	1
-1118	3	02.4.1 - Ricerca & Sviluppo per la Difesa	ita-IT	1
-1119	3	02.5.1 - Difesa non altrove classificata	ita-IT	1
-1120	3	03.1.1 - Servizi di polizia	ita-IT	1
-1121	3	03.2.1 - Servizi antincendio	ita-IT	1
-1122	3	03.3.1 - Tribunali	ita-IT	1
-1123	3	03.4.1 - Carceri	ita-IT	1
-1124	3	03.5.1 - Ricerca & Sviluppo connessi all'ordine pubblico e sicurezza	ita-IT	1
-1125	3	03.6.1 - Ordine pubblico e sicurezza non altrove classificati	ita-IT	1
-1126	3	04.1.1 - Affari generali economici e commerciali	ita-IT	1
-1127	3	04.1.2 - Affari generali del lavoro	ita-IT	1
-1128	3	04.2.1 - Agricoltura	ita-IT	1
-1129	3	04.2.2 - Silvicoltura	ita-IT	1
-1130	3	04.2.3 - Pesca e caccia	ita-IT	1
-1131	3	04.3.1 - Carbone ed altri combustibili solidi minerali	ita-IT	1
-1132	3	04.3.2 - Petrolio e gas naturali	ita-IT	1
-1133	3	04.3.3 - Combustibili nucleari	ita-IT	1
-1134	3	04.3.4 - Altri combustibili	ita-IT	1
-1135	3	04.3.5 - Energia elettrica	ita-IT	1
-1136	3	04.3.6 - Energia non elettrica	ita-IT	1
-1137	3	04.4.1 - Attività estrattive di minerali diversi dai combustibili	ita-IT	1
-1138	3	04.4.2 - Attività manifatturiere	ita-IT	1
-1139	3	04.4.3 - Attività edilizia	ita-IT	1
-1140	3	04.5.1 - Trasporti su strada	ita-IT	1
-1141	3	04.5.2 - Trasporti per vie d'acqua	ita-IT	1
-1142	3	04.5.3 - Trasporti su rotaia	ita-IT	1
-1143	3	04.5.4 - Trasporti aerei	ita-IT	1
-1144	3	04.5.5 - Condotte ed altri sistemi di trasporto	ita-IT	1
-1145	3	04.6.1 - Comunicazioni	ita-IT	1
-1146	3	04.7.1 - Distribuzione commerciale; conservazione e magazzinaggio	ita-IT	1
-1147	3	04.7.2 - Alberghi e pubblici esercizi	ita-IT	1
-1148	3	04.7.3 - Turismo	ita-IT	1
-1149	3	04.7.4 - Progetti di sviluppo plurifunzionali	ita-IT	1
-1150	3	04.8.1 - R&S per gli affari generali economici; commerciali e del lavoro	ita-IT	1
-1151	3	04.8.2 - R&S per agricoltura; silvicoltura; pesca e caccia	ita-IT	1
-1152	3	04.8.3 - R&S per combustibili ed energia	ita-IT	1
-1153	3	04.8.4 - R&S per attività estrattive; manifatturiere ed edilizie	ita-IT	1
-1154	3	04.8.5 - R&S per trasporti	ita-IT	1
-1155	3	04.8.6 - R&S per comunicazioni	ita-IT	1
-1156	3	04.8.7 - R&S per altri settori	ita-IT	1
-1157	3	04.9.1 - Affari economici non altrove classificati	ita-IT	1
-1158	3	05.1.1 - Trattamento dei rifiuti	ita-IT	1
-1159	3	05.2.1 - Trattamento delle acque reflue	ita-IT	1
-1160	3	05.3.1 - Riduzione dell'inquinamento	ita-IT	1
-1161	3	05.4.1 - Protezione delle biodiversità e dei beni paesaggistici	ita-IT	1
-1162	3	05.5.1 - Ricerca & Sviluppo per la protezione dell'ambiente	ita-IT	1
-1163	3	05.6.1 - Protezione dell'ambiente non altrove classificata	ita-IT	1
-1164	3	06.1.1 - Sviluppo delle abitazioni	ita-IT	1
-1165	3	06.2.1 - Assetto territoriale	ita-IT	1
-1166	3	06.3.1 - Approvvigionamento idrico	ita-IT	1
-1167	3	06.4.1 - Illuminazione stradale	ita-IT	1
-1168	3	06.5.1 - Ricerca & Sviluppo per abitazioni e assetto territoriale	ita-IT	1
-1169	3	06.6.1 - Abitazioni e assetto territoriale non altrove classificati	ita-IT	1
-1170	3	07.1.1 - Prodotti farmaceutici	ita-IT	1
-1171	3	07.1.2 - Altri prodotti sanitari	ita-IT	1
-1172	3	07.1.3 - Apparecchi e attrezzature terapeutiche	ita-IT	1
-1173	3	07.2.1 - Servizi medici generici	ita-IT	1
-1174	3	07.2.2 - Servizi medici specialistici	ita-IT	1
-1175	3	07.2.3 - Servizi odontoiatrici	ita-IT	1
-1176	3	07.2.4 - Servizi paramedici	ita-IT	1
-1177	3	07.3.1 - Servizi ospedalieri generici	ita-IT	1
-1178	3	07.3.2 - Servizi ospedalieri specialistici	ita-IT	1
-1179	3	07.3.3 - Centri di servizi per la maternità e medici	ita-IT	1
-1180	3	07.3.4 - Case di cura e riabilitazione	ita-IT	1
-1181	3	07.4.1 - Servizi di sanità pubblica	ita-IT	1
-1182	3	07.5.1 - Ricerca & Sviluppo per la sanità	ita-IT	1
-1183	3	07.6.1 - Sanità non altrove classificata	ita-IT	1
-1184	3	08.1.1 - Attività ricreative	ita-IT	1
-1185	3	08.2.1 - Attività culturali	ita-IT	1
-1186	3	08.3.1 - Servizi radiotelevisivi e di editoria	ita-IT	1
-1187	3	08.4.1 - Servizi di culto e altri servizi per le comunità	ita-IT	1
-1188	3	08.5.1 - Ricerca & Sviluppo per attività ricreative; culturali e di culto	ita-IT	1
-1189	3	08.6.1 - Attività ricreative; culturali e di culto non altrove classificate	ita-IT	1
-1190	3	09.1.1 - Istruzione prescolastica	ita-IT	1
-1191	3	09.1.2 - Istruzione primaria	ita-IT	1
-1192	3	09.2.1 - Istruzione secondaria inferiore	ita-IT	1
-1193	3	09.2.2 - Istruzione secondaria superiore	ita-IT	1
-1194	3	09.3.0 - Istruzione postsecondaria non superiore	ita-IT	1
-1195	3	09.4.1 - Primo grado di istruzione superiore	ita-IT	1
-1196	3	09.4.2 - Secondo grado di istruzione superior	ita-IT	1
-1197	3	09.5.0 - Istruzione di diverso tipo	ita-IT	1
-1198	3	09.6.0 - Servizi ausiliari dell'istruzione	ita-IT	1
-1199	3	09.7.0 - Ricerca & Sviluppo per l'istruzione	ita-IT	1
-1200	3	09.8.0 - Istruzione non altrove classificata	ita-IT	1
 1202	3	Altra forma di ente privato con personalità giuridica	ita-IT	1
 1203	3	Altra forma di ente privato senza personalità giuridica	ita-IT	1
 1204	3	Associazione non riconosciuta	ita-IT	1
@@ -1678,6 +1599,82 @@
 1207	3	Azienda pubblica di servizi alle persone ai sensi del d.lgs n. 207/2001	ita-IT	1
 1208	3	Azienda speciale ai sensi del t.u. 267/2000	ita-IT	1
 1209	3	Comitato	ita-IT	1
+1125	3	Ordine pubblico e sicurezza non altrove classificati	ita-IT	1
+1126	3	Affari generali economici e commerciali	ita-IT	1
+1127	3	Affari generali del lavoro	ita-IT	1
+1128	3	Agricoltura	ita-IT	1
+1129	3	Silvicoltura	ita-IT	1
+1130	3	Pesca e caccia	ita-IT	1
+1131	3	Carbone ed altri combustibili solidi minerali	ita-IT	1
+1132	3	Petrolio e gas naturali	ita-IT	1
+1133	3	Combustibili nucleari	ita-IT	1
+1134	3	Altri combustibili	ita-IT	1
+1135	3	Energia elettrica	ita-IT	1
+1136	3	Energia non elettrica	ita-IT	1
+1137	3	Attività estrattive di minerali diversi dai combustibili	ita-IT	1
+1138	3	Attività manifatturiere	ita-IT	1
+1139	3	Attività edilizia	ita-IT	1
+1140	3	Trasporti su strada	ita-IT	1
+1141	3	Trasporti per vie d'acqua	ita-IT	1
+1142	3	Trasporti su rotaia	ita-IT	1
+1143	3	Trasporti aerei	ita-IT	1
+1144	3	Condotte ed altri sistemi di trasporto	ita-IT	1
+1145	3	Comunicazioni	ita-IT	1
+1146	3	Distribuzione commerciale; conservazione e magazzinaggio	ita-IT	1
+1147	3	Alberghi e pubblici esercizi	ita-IT	1
+1148	3	Turismo	ita-IT	1
+1149	3	Progetti di sviluppo plurifunzionali	ita-IT	1
+1150	3	R&S per gli affari generali economici; commerciali e del lavoro	ita-IT	1
+1151	3	R&S per agricoltura; silvicoltura; pesca e caccia	ita-IT	1
+1152	3	R&S per combustibili ed energia	ita-IT	1
+1153	3	R&S per attività estrattive; manifatturiere ed edilizie	ita-IT	1
+1154	3	R&S per trasporti	ita-IT	1
+1155	3	R&S per comunicazioni	ita-IT	1
+1156	3	R&S per altri settori	ita-IT	1
+1157	3	Affari economici non altrove classificati	ita-IT	1
+1158	3	Trattamento dei rifiuti	ita-IT	1
+1159	3	Trattamento delle acque reflue	ita-IT	1
+1160	3	Riduzione dell'inquinamento	ita-IT	1
+1161	3	Protezione delle biodiversità e dei beni paesaggistici	ita-IT	1
+1162	3	Ricerca & Sviluppo per la protezione dell'ambiente	ita-IT	1
+1163	3	Protezione dell'ambiente non altrove classificata	ita-IT	1
+1164	3	Sviluppo delle abitazioni	ita-IT	1
+1165	3	Assetto territoriale	ita-IT	1
+1166	3	Approvvigionamento idrico	ita-IT	1
+1167	3	Illuminazione stradale	ita-IT	1
+1168	3	Ricerca & Sviluppo per abitazioni e assetto territoriale	ita-IT	1
+1169	3	Abitazioni e assetto territoriale non altrove classificati	ita-IT	1
+1170	3	Prodotti farmaceutici	ita-IT	1
+1171	3	Altri prodotti sanitari	ita-IT	1
+1172	3	Apparecchi e attrezzature terapeutiche	ita-IT	1
+1173	3	Servizi medici generici	ita-IT	1
+1174	3	Servizi medici specialistici	ita-IT	1
+1175	3	Servizi odontoiatrici	ita-IT	1
+1176	3	Servizi paramedici	ita-IT	1
+1177	3	Servizi ospedalieri generici	ita-IT	1
+1178	3	Servizi ospedalieri specialistici	ita-IT	1
+1179	3	Centri di servizi per la maternità e medici	ita-IT	1
+1180	3	Case di cura e riabilitazione	ita-IT	1
+1181	3	Servizi di sanità pubblica	ita-IT	1
+1182	3	Ricerca & Sviluppo per la sanità	ita-IT	1
+1183	3	Sanità non altrove classificata	ita-IT	1
+1184	3	Attività ricreative	ita-IT	1
+1185	3	Attività culturali	ita-IT	1
+1186	3	Servizi radiotelevisivi e di editoria	ita-IT	1
+1187	3	Servizi di culto e altri servizi per le comunità	ita-IT	1
+1188	3	Ricerca & Sviluppo per attività ricreative; culturali e di culto	ita-IT	1
+1189	3	Attività ricreative; culturali e di culto non altrove classificate	ita-IT	1
+1190	3	Istruzione prescolastica	ita-IT	1
+1191	3	Istruzione primaria	ita-IT	1
+1192	3	Istruzione secondaria inferiore	ita-IT	1
+1193	3	Istruzione secondaria superiore	ita-IT	1
+1194	3	Istruzione postsecondaria non superiore	ita-IT	1
+1195	3	Primo grado di istruzione superiore	ita-IT	1
+1196	3	Secondo grado di istruzione superior	ita-IT	1
+1197	3	Istruzione di diverso tipo	ita-IT	1
+1198	3	Servizi ausiliari dell'istruzione	ita-IT	1
+1199	3	Ricerca & Sviluppo per l'istruzione	ita-IT	1
+1200	3	Istruzione non altrove classificata	ita-IT	1
 1210	3	Condominio	ita-IT	1
 1211	3	Consorzio di diritto privato	ita-IT	1
 1212	3	Ente ecclesiastico	ita-IT	1
@@ -1749,9 +1746,6 @@
 1278	3	Struttura amministrativa	ita-IT	1
 1279	3	Area	ita-IT	1
 1280	3	Ufficio	ita-IT	1
-1281	3	Tipologia di punti di contatto	ita-IT	1
-1282	3	Amministrazione	ita-IT	1
-1283	3	Segreteria	ita-IT	1
 1284	3	Supporto specialistico	ita-IT	1
 1285	3	Parole chiave generali	ita-IT	1
 1286	3	Persone	ita-IT	1
@@ -1771,6 +1765,8 @@
 1300	3	Vicesindaco	ita-IT	1
 1301	3	Dirigente	ita-IT	1
 1302	3	Segretario generale	ita-IT	1
+1303	3	Vicepresidente	ita-IT	1
+1304	3	Dipendente	ita-IT	1
 1306	3	Consigliere comunale	ita-IT	1
 1307	3	Direttore generale	ita-IT	1
 1308	3	Responsabile	ita-IT	1
@@ -1783,138 +1779,149 @@
 1315	3	Imprese	ita-IT	1
 1316	3	Avvio impresa	ita-IT	1
 1316	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/1	ita-PA	1
-1331	3	Persone	ita-IT	1
-1325	3	Pagamento tasse, iva e dogane	ita-IT	1
 1317	3	Avvio nuova attività professionale	ita-IT	1
 1317	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/2	ita-PA	1
-1325	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/8	ita-PA	1
+1321	3	Chiusura impresa e attività professionale	ita-IT	1
+1321	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/10	ita-PA	1
 1318	3	Avvio/registrazione filiale	ita-IT	1
 1318	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/5	ita-PA	1
 1319	3	Bancarotta	ita-IT	1
 1319	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/14	ita-PA	1
-1334	3	Cambio di residenza o domicilio	ita-IT	1
 1326	3	Partecipazione ad appalti pubblici nazionali e trasfrontalieri	ita-IT	1
+1326	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/15	ita-PA	1
 1320	3	Chiusura filiale	ita-IT	1
 1320	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/11	ita-PA	1
-1326	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/15	ita-PA	1
-1321	3	Chiusura impresa e attività professionale	ita-IT	1
-1321	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/10	ita-PA	1
 1322	3	Finanziamento impresa	ita-IT	1
 1322	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/6	ita-PA	1
-1334	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/9	ita-PA	1
-1327	3	Registrazione impresa transfrontaliera	ita-IT	1
 1323	3	Gestione personale	ita-IT	1
 1323	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/7	ita-PA	1
-1327	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/4	ita-PA	1
-1324	3	Notifiche autorità	ita-IT	1
-1324	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/9	ita-PA	1
-1332	3	Accesso al trasporto pubblico	ita-IT	1
-1332	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/7	ita-PA	1
 1328	3	Richiesta licenze/permessi/certificati	ita-IT	1
 1328	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/3	ita-PA	1
+1324	3	Notifiche autorità	ita-IT	1
+1324	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/9	ita-PA	1
+1330	3	Vendita impresa	ita-IT	1
+1325	3	Pagamento tasse, iva e dogane	ita-IT	1
+1325	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/8	ita-PA	1
+1330	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/13	ita-PA	1
+1327	3	Registrazione impresa transfrontaliera	ita-IT	1
+1327	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/4	ita-PA	1
+1331	3	Persone	ita-IT	1
 1329	3	Ristrutturazione impresa	ita-IT	1
 1329	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/12	ita-PA	1
-1336	3	Denuncia crimini	ita-IT	1
-1330	3	Vendita impresa	ita-IT	1
-1330	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/business-event/13	ita-PA	1
-1336	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/16	ita-PA	1
-1335	3	Compravendita/affitto casa/edifici/terreni, costruzione o ristrutturazione casa/edificio	ita-IT	1
-1335	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/8	ita-PA	1
+1429	3	10.85 - Produzione di pasti e piatti preparati	ita-IT	1
+1430	3	10.86 - Produzione di preparati omogeneizzati e di alimenti dietetici	ita-IT	1
+1332	3	Accesso al trasporto pubblico	ita-IT	1
+1332	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/7	ita-PA	1
+1431	3	10.89 - Produzione di altri prodotti alimentari n.c.a.	ita-IT	1
+1432	3	10.8 - Produzione di altri prodotti alimentari	ita-IT	1
 1333	4	Access to public cultural sites	eng-GB	1
 1333	3	Accesso ai luoghi della cultura	ita-IT	1
+1433	3	03.11 - Pesca marina	ita-IT	1
+1434	3	10.91 - Produzione di mangimi per l'alimentazione degli animali da allevamento	ita-IT	1
+1435	3	10.92 - Produzione di prodotti per l'alimentazione degli animali domestici	ita-IT	1
+1786	3	35.13 - Distribuzione di energia elettrica	ita-IT	1
+1787	3	35.14 - Commercio di energia elettrica	ita-IT	1
+1788	3	35.1 - Produzione; trasmissione e distribuzione di energia elettrica	ita-IT	1
+1789	3	35.21 - Produzione di gas	ita-IT	1
 1333	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/18	ita-PA	1
+1344	3	Pensionamento	ita-IT	1
+1344	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/4	ita-PA	1
+1334	3	Cambio di residenza o domicilio	ita-IT	1
+1334	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/9	ita-PA	1
+1350	3	Richiesta passaporto, visto e assistenza viaggi internazionali	ita-IT	1
+1335	3	Compravendita/affitto casa/edifici/terreni, costruzione o ristrutturazione casa/edificio	ita-IT	1
+1335	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/8	ita-PA	1
+1350	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/11	ita-PA	1
+1336	3	Denuncia crimini	ita-IT	1
+1336	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/16	ita-PA	1
+1345	3	Possesso, cura, smarrimento animale da compagnia	ita-IT	1
+1345	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/19	ita-PA	1
+1337	3	Dichiarazione dei redditi, versamento e riscossione tributi/imposte e contributi	ita-IT	1
 1337	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/17	ita-PA	1
 1338	3	Espatrio per lavoro, studio, pensionamento	ita-IT	1
-1337	3	Dichiarazione dei redditi, versamento e riscossione tributi/imposte e contributi	ita-IT	1
 1338	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/10	ita-PA	1
+1351	3	Input-Output	ita-IT	1
 1339	3	Invalidità	ita-IT	1
 1339	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/2	ita-PA	1
+1346	3	Prenotazione e disdetta visite/esami	ita-IT	1
+1346	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/15	ita-PA	1
 1340	3	Iscrizione Scuola/Università e/o richiesta borsa di studio	ita-IT	1
 1340	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/1	ita-PA	1
 1341	3	Matrimonio e/o cambio stato civile	ita-IT	1
 1341	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/13	ita-PA	1
+1352	3	Altra documentazione	ita-IT	1
 1342	3	Morte ed eredità	ita-IT	1
 1342	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/14	ita-PA	1
-1364	3	Interazione ad una via	ita-IT	1
-1343	3	Nascita di un bambino, richiesta adozioni	ita-IT	1
-1343	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/12	ita-PA	1
-1373	3	01.15 - Coltivazione di tabacco	ita-IT	1
-1344	3	Pensionamento	ita-IT	1
-1344	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/4	ita-PA	1
-1345	3	Possesso, cura, smarrimento animale da compagnia	ita-IT	1
-1345	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/19	ita-PA	1
-1374	3	01.16 - Coltivazione di piante tessili	ita-IT	1
-1346	3	Prenotazione e disdetta visite/esami	ita-IT	1
-1346	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/15	ita-PA	1
-1361	4	One way interaction	eng-GB	1
 1347	3	Registrazione o possesso veicolo	ita-IT	1
 1347	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/6	ita-PA	1
-1361	8	Einweg-Interaktion	ger-DE	1
-1361	3	Interazione a una via	ita-IT	1
-1348	3	Ricerca di lavoro, avvio nuovo lavoro, disoccupazione	ita-IT	1
-1348	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/3	ita-PA	1
-1361	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/interactivity-level/LEVEL2	ita-PA	1
-1349	3	Richiesta o rinnovo patente	ita-IT	1
-1349	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/5	ita-PA	1
-1350	3	Richiesta passaporto, visto e assistenza viaggi internazionali	ita-IT	1
-1350	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/11	ita-PA	1
-1351	3	Input-Output	ita-IT	1
-1352	3	Altra documentazione	ita-IT	1
+1343	3	Nascita di un bambino, richiesta adozioni	ita-IT	1
+1343	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/12	ita-PA	1
 1353	3	Attestazione di identità	ita-IT	1
 1354	3	Attestazione di pagamento	ita-IT	1
+1348	3	Ricerca di lavoro, avvio nuovo lavoro, disoccupazione	ita-IT	1
+1348	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/3	ita-PA	1
+1349	3	Richiesta o rinnovo patente	ita-IT	1
+1349	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/life-business-event/life-event/5	ita-PA	1
 1355	3	Atto autorizzativo	ita-IT	1
 1356	3	Certificazione	ita-IT	1
 1357	3	Codice	ita-IT	1
 1358	3	Documentazione amministrativa	ita-IT	1
 1359	3	Istanza, richiesta	ita-IT	1
 1360	3	Livello di interattività	ita-IT	1
-1375	3	01.19 - Coltivazione di altre colture non permanenti	ita-IT	1
-1376	3	01.1 - Coltivazione di colture agricole non permanenti	ita-IT	1
-1365	4	Not Online	eng-GB	1
-1365	8	Nicht online	ger-DE	1
-1365	3	Non online	ita-IT	1
-1365	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/interactivity-level/NONE	ita-PA	1
+1361	4	One way interaction	eng-GB	1
+1361	8	Einweg-Interaktion	ger-DE	1
+1361	3	Interazione a una via	ita-IT	1
+1361	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/interactivity-level/LEVEL2	ita-PA	1
 1362	4	Information	eng-GB	1
 1362	8	Informationen	ger-DE	1
 1362	3	Informazione	ita-IT	1
 1362	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/interactivity-level/LEVEL1	ita-PA	1
-1367	4	Transaction	eng-GB	1
-1367	8	Transaktion	ger-DE	1
-1367	3	Transazione	ita-IT	1
-1367	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/interactivity-level/LEVEL4	ita-PA	1
 1363	4	Bidirectional interaction	eng-GB	1
 1363	8	Bidirektionale Interaktion	ger-DE	1
 1363	3	Interazione a due vie	ita-IT	1
 1363	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/interactivity-level/LEVEL3	ita-PA	1
-1368	3	NACE	ita-IT	1
-1369	3	01.11 - Coltivazione di cereali (tranne il riso); legumi da granella e semi oleosi	ita-IT	1
+1364	3	Interazione ad una via	ita-IT	1
+1384	3	01.28 - Coltivazione di spezie; piante aromatiche e farmaceutiche	ita-IT	1
+1385	3	01.29 - Coltivazione di altre colture permanenti	ita-IT	1
+1386	3	01.2 - Coltivazione di colture permanenti	ita-IT	1
+1387	3	01.30 - Riproduzione delle piante	ita-IT	1
+1365	4	Not Online	eng-GB	1
+1365	8	Nicht online	ger-DE	1
+1365	3	Non online	ita-IT	1
+1365	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/interactivity-level/NONE	ita-PA	1
+1388	3	01.3 - Riproduzione delle piante	ita-IT	1
+1389	3	01.41 - Allevamento di bovini da latte	ita-IT	1
+1390	3	01.42 - Allevamento di altri bovini e di bufalini	ita-IT	1
+1391	3	01.43 - Allevamento di cavalli e altri equini	ita-IT	1
+1392	3	01.44 - Allevamento di cammelli e camelidi	ita-IT	1
 1366	4	Customization	eng-GB	1
 1366	8	Personalisierung	ger-DE	1
 1366	3	Personalizzazione	ita-IT	1
 1366	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/interactivity-level/LEVEL5	ita-PA	1
-1377	3	01.21 - Coltivazione di uva	ita-IT	1
+1393	3	01.45 - Allevamento di ovini e caprini	ita-IT	1
+1394	3	01.46 - Allevamento di suini	ita-IT	1
+1395	3	01.47 - Allevamento di pollame	ita-IT	1
+1396	3	01.49 - Allevamento di altri animali	ita-IT	1
+1367	4	Transaction	eng-GB	1
+1367	8	Transaktion	ger-DE	1
+1367	3	Transazione	ita-IT	1
+1367	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/interactivity-level/LEVEL4	ita-PA	1
+1368	3	NACE	ita-IT	1
+1369	3	01.11 - Coltivazione di cereali (tranne il riso); legumi da granella e semi oleosi	ita-IT	1
 1370	3	01.12 - Coltivazione del riso	ita-IT	1
 1371	3	01.13 - Coltivazione di ortaggi e meloni; radici e tuberi	ita-IT	1
 1372	3	01.14 - Coltivazione di canna da zucchero	ita-IT	1
+1373	3	01.15 - Coltivazione di tabacco	ita-IT	1
+1374	3	01.16 - Coltivazione di piante tessili	ita-IT	1
+1375	3	01.19 - Coltivazione di altre colture non permanenti	ita-IT	1
+1376	3	01.1 - Coltivazione di colture agricole non permanenti	ita-IT	1
+1377	3	01.21 - Coltivazione di uva	ita-IT	1
 1378	3	01.22 - Coltivazione di frutta di origine tropicale e subtropicale	ita-IT	1
 1379	3	01.23 - Coltivazione di agrumi	ita-IT	1
 1380	3	01.24 - Coltivazione di pomacee e frutta a nocciolo	ita-IT	1
 1381	3	01.25 - Coltivazione di altri alberi da frutta; frutti di bosco e in guscio	ita-IT	1
 1382	3	01.26 - Coltivazione di frutti oleosi	ita-IT	1
 1383	3	01.27 - Coltivazione di piante per la produzione di bevande	ita-IT	1
-1384	3	01.28 - Coltivazione di spezie; piante aromatiche e farmaceutiche	ita-IT	1
-1385	3	01.29 - Coltivazione di altre colture permanenti	ita-IT	1
-1386	3	01.2 - Coltivazione di colture permanenti	ita-IT	1
-1387	3	01.30 - Riproduzione delle piante	ita-IT	1
-1388	3	01.3 - Riproduzione delle piante	ita-IT	1
-1389	3	01.41 - Allevamento di bovini da latte	ita-IT	1
-1390	3	01.42 - Allevamento di altri bovini e di bufalini	ita-IT	1
-1391	3	01.43 - Allevamento di cavalli e altri equini	ita-IT	1
-1392	3	01.44 - Allevamento di cammelli e camelidi	ita-IT	1
-1393	3	01.45 - Allevamento di ovini e caprini	ita-IT	1
-1394	3	01.46 - Allevamento di suini	ita-IT	1
-1395	3	01.47 - Allevamento di pollame	ita-IT	1
-1396	3	01.49 - Allevamento di altri animali	ita-IT	1
 1397	3	01.4 - Allevamento di animali	ita-IT	1
 1398	3	01.50 - Coltivazioni agricole associate all'allevamento di animali: attività mista	ita-IT	1
 1399	3	01.5 - Coltivazioni agricole associate all'allevamento di animali: attività mista	ita-IT	1
@@ -1947,13 +1954,6 @@
 1426	3	10.82 - Produzione di cacao; cioccolato; caramelle e confetterie	ita-IT	1
 1427	3	10.83 - Lavorazione del tè e del caffè	ita-IT	1
 1428	3	10.84 - Produzione di condimenti e spezie	ita-IT	1
-1429	3	10.85 - Produzione di pasti e piatti preparati	ita-IT	1
-1430	3	10.86 - Produzione di preparati omogeneizzati e di alimenti dietetici	ita-IT	1
-1431	3	10.89 - Produzione di altri prodotti alimentari n.c.a.	ita-IT	1
-1432	3	10.8 - Produzione di altri prodotti alimentari	ita-IT	1
-1433	3	03.11 - Pesca marina	ita-IT	1
-1434	3	10.91 - Produzione di mangimi per l'alimentazione degli animali da allevamento	ita-IT	1
-1435	3	10.92 - Produzione di prodotti per l'alimentazione degli animali domestici	ita-IT	1
 1436	3	10.9 - Produzione di prodotti per l'alimentazione degli animali	ita-IT	1
 1437	3	10 - Industrie alimentari	ita-IT	1
 1438	3	11.01 - Distillazione; rettifica e miscelatura di alcolici	ita-IT	1
@@ -2229,6 +2229,7 @@
 1708	3	08.1 - Estrazione di pietra; sabbia e argilla	ita-IT	1
 1709	3	28.41 - Fabbricazione di macchine per la formatura dei metalli	ita-IT	1
 1710	3	28.49 - Fabbricazione di altre macchine utensili	ita-IT	1
+2000	3	50.2 - Trasporto marittimo e costiero di merci	ita-IT	1
 1711	3	28.4 - Fabbricazione di macchine per la formatura dei metalli e di altre macchine utensili	ita-IT	1
 1712	3	28.91 - Fabbricazione di macchine per la metallurgia	ita-IT	1
 1713	3	28.92 - Fabbricazione di macchine da miniera; cava e cantiere	ita-IT	1
@@ -2304,10 +2305,6 @@
 1783	3	35.11 - Produzione di energia elettrica	ita-IT	1
 1784	3	35.12 - Trasmissione di energia elettrica	ita-IT	1
 1785	3	09.10 - Attività di supporto all'estrazione di petrolio e di gas naturale	ita-IT	1
-1786	3	35.13 - Distribuzione di energia elettrica	ita-IT	1
-1787	3	35.14 - Commercio di energia elettrica	ita-IT	1
-1788	3	35.1 - Produzione; trasmissione e distribuzione di energia elettrica	ita-IT	1
-1789	3	35.21 - Produzione di gas	ita-IT	1
 1790	3	35.22 - Distribuzione di combustibili gassosi mediante condotte	ita-IT	1
 1791	3	35.23 - Commercio di gas distribuito mediante condotte	ita-IT	1
 1792	3	35.2 - Produzione di gas; distribuzione di combustibili gassosi mediante condotte	ita-IT	1
@@ -2447,6 +2444,7 @@
 1926	3	46.90 - Commercio all'ingrosso non specializzato	ita-IT	1
 1927	3	46.9 - Commercio all'ingrosso non specializzato	ita-IT	1
 1928	3	10.39 - Altra lavorazione e conservazione di frutta e ortaggi	ita-IT	1
+2067	3	61.1 - Telecomunicazioni fisse	ita-IT	1
 1929	3	46 - Commercio all'ingrosso; escluso quello di autoveicoli e di motocicli	ita-IT	1
 1930	3	47.11 - Commercio al dettaglio in esercizi non specializzati con prevalenza di prodotti alimentari; bevande o tabacco	ita-IT	1
 1931	3	47.19 - Commercio al dettaglio in altri esercizi non specializzati	ita-IT	1
@@ -2476,7 +2474,6 @@
 1955	3	47.61 - Commercio al dettaglio di libri in esercizi specializzati	ita-IT	1
 1956	3	47.62 - Commercio al dettaglio di giornali e articoli di cartoleria in esercizi specializzati	ita-IT	1
 1957	3	47.63 - Commercio al dettaglio di registrazioni musicali e video in esercizi specializzati	ita-IT	1
-2106	3	65.3 - Fondi pensione	ita-IT	1
 1958	3	47.64 - Commercio al dettaglio di articoli sportivi in esercizi specializzati	ita-IT	1
 1959	3	47.65 - Commercio al dettaglio di giochi e giocattoli in esercizi specializzati	ita-IT	1
 1960	3	47.6 - Commercio al dettaglio di articoli culturali e ricreativi in esercizi specializzati	ita-IT	1
@@ -2519,7 +2516,6 @@
 1997	3	50.10 - Trasporto marittimo e costiero di passeggeri	ita-IT	1
 1998	3	50.1 - Trasporto marittimo e costiero di passeggeri	ita-IT	1
 1999	3	50.20 - Trasporto marittimo e costiero di merci	ita-IT	1
-2000	3	50.2 - Trasporto marittimo e costiero di merci	ita-IT	1
 2001	3	50.30 - Trasporto di passeggeri per vie d'acqua interne	ita-IT	1
 2002	3	50.3 - Trasporto di passeggeri per vie d'acqua interne	ita-IT	1
 2003	3	50.40 - Trasporto di merci per vie d'acqua interne	ita-IT	1
@@ -2547,7 +2543,6 @@
 2025	3	53 - Servizi postali e attività di corriere	ita-IT	1
 2026	3	55.10 - Alberghi e alloggi simili	ita-IT	1
 2027	3	55.1 - Alberghi e alloggi simili	ita-IT	1
-2253	3	85.5 - Altri servizi di istruzione	ita-IT	1
 2028	3	55.20 - Alloggi per vacanze e altre strutture per brevi soggiorni	ita-IT	1
 2029	3	55.2 - Alloggi per vacanze e altre strutture per brevi soggiorni	ita-IT	1
 2030	3	55.30 - Aree di campeggio e aree attrezzate per camper e roulotte	ita-IT	1
@@ -2587,7 +2582,6 @@
 2064	3	60.2 - Attività di programmazione e trasmissione televisive	ita-IT	1
 2065	3	60 - Attività di programmazione e trasmissione	ita-IT	1
 2066	3	61.10 - Telecomunicazioni fisse	ita-IT	1
-2067	3	61.1 - Telecomunicazioni fisse	ita-IT	1
 2068	3	61.20 - Telecomunicazioni mobili	ita-IT	1
 2069	3	61.2 - Telecomunicazioni mobili	ita-IT	1
 2070	3	61.30 - Telecomunicazioni satellitari	ita-IT	1
@@ -2626,6 +2620,7 @@
 2103	3	65.20 - Riassicurazioni	ita-IT	1
 2104	3	65.2 - Riassicurazioni	ita-IT	1
 2105	3	65.30 - Fondi pensione	ita-IT	1
+2106	3	65.3 - Fondi pensione	ita-IT	1
 2107	3	65 - Assicurazioni; riassicurazioni e fondi pensione; escluse le assicurazioni sociali obbligatorie	ita-IT	1
 2108	3	66.11 - Amministrazione di mercati finanziari	ita-IT	1
 2109	3	66.12 - Attività di negoziazione di contratti relativi a titoli e merci	ita-IT	1
@@ -2698,7 +2693,6 @@
 2176	3	77.32 - Noleggio e leasing di macchine e attrezzature per lavori edili e di genio civile	ita-IT	1
 2177	3	77.33 - Noleggio e leasing di macchine e attrezzature per ufficio (inclusi i computer)	ita-IT	1
 2178	3	77.34 - Noleggio e leasing di mezzi di trasporto marittimi e fluviali	ita-IT	1
-2378	3	SPID Livello 3	ita-IT	1
 2179	3	77.35 - Noleggio e leasing di mezzi di trasporto aerei	ita-IT	1
 2180	3	77.39 - Noleggio e leasing di altre macchine; attrezzature e beni materiali n.c.a.	ita-IT	1
 2181	3	77.3 - Noleggio e leasing di altre macchine; attrezzature e beni materiali	ita-IT	1
@@ -2773,6 +2767,7 @@
 2250	3	85.52 - Formazione culturale	ita-IT	1
 2251	3	85.53 - Attività di scuole guida	ita-IT	1
 2252	3	85.59 - Altri servizi di istruzione n.c.a.	ita-IT	1
+2253	3	85.5 - Altri servizi di istruzione	ita-IT	1
 2254	3	85.60 - Servizi di supporto all'istruzione	ita-IT	1
 2255	3	85.6 - Servizi di supporto all'istruzione	ita-IT	1
 2256	3	85 - Istruzione	ita-IT	1
@@ -2889,66 +2884,59 @@
 2367	3	In fase di sviluppo	ita-IT	1
 2368	3	Servizio non attivo	ita-IT	1
 2369	3	Tipo di autenticazione	ita-IT	1
-2375	4	SPID (National public system of e-ID) Credential Level 1	eng-GB	1
-2373	4	Electronic identity card	eng-GB	1
-2372	4	User ID, One Time Password and Biometric	eng-GB	1
+2374	4	National service card	eng-GB	1
+2374	8	Nationale Servicekarte	ger-DE	1
+2374	3	Carta nazionale dei servizi (CNS)	ita-IT	1
+2374	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/CNS	ita-PA	1
+2391	3	Ordine permanente	ita-IT	1
 2370	4	None - free access	eng-GB	1
 2370	8	Keine - freier Zugang	ger-DE	1
 2370	3	Nessuna - accesso libero	ita-IT	1
 2370	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/NONE	ita-PA	1
 2371	3	Nessuna	ita-IT	1
-2373	8	Elektronischer Personalausweis (CIE)	ger-DE	1
-2373	3	Carta d'identità elettronica (CIE)	ita-IT	1
-2373	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/CIE	ita-PA	1
-2372	8	Benutzer-ID, Einmalpasswort und biometrische Daten	ger-DE	1
-2372	3	User ID, One Time Password e Biometria	ita-IT	1
-2372	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/IDOTPBIO	ita-PA	1
-2375	8	SPID (Nationales öffentliches System der e-ID) Berechtigungsnachweis Stufe 1	ger-DE	1
-2374	4	National service card	eng-GB	1
-2374	8	Nationale Servicekarte	ger-DE	1
-2374	3	Carta nazionale dei servizi (CNS)	ita-IT	1
-2374	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/CNS	ita-PA	1
-2375	3	SPID Livello 1	ita-IT	1
-2376	3	Credenziale SPID Livello 1	ita-IT	1
-2375	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/SPIDL1	ita-PA	1
-2377	4	SPID (National public system of e-ID) Level 2	eng-GB	1
-2377	8	SPID (Nationales öffentliches System der e-ID) Stufe 2	ger-DE	1
-2377	3	SPID Livello 2	ita-IT	1
-2377	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/SPIDL2	ita-PA	1
-2378	4	SPID (National public system of e-ID) Level 3	eng-GB	1
-2378	8	SPID (Nationales öffentliches System der e-ID) Stufe 3	ger-DE	1
-2378	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/SPIDL3	ita-PA	1
-2411	3	Tabaccaio - Ricevitoria	ita-IT	1
-2412	3	Modello F23	ita-IT	1
-2413	3	Domicilio del cittadino	ita-IT	1
-2414	3	Non telematico diretto	ita-IT	1
-2379	4	User ID and One Time Password	eng-GB	1
-2379	8	Benutzer-ID und Einmal-Passwort	ger-DE	1
-2379	3	User ID e One Time Password	ita-IT	1
-2379	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/IDOTP	ita-PA	1
-2415	3	Email tradizionale	ita-IT	1
-2416	3	Piattaforma PAGOPA	ita-IT	1
-2417	3	Fax	ita-IT	1
-2418	3	Numero dedicato - Voce	ita-IT	1
-2419	3	Addebito diretto - SEPA	ita-IT	1
 2380	4	User ID and password	eng-GB	1
 2380	8	Benutzer-ID und Passwort	ger-DE	1
 2380	3	User ID e Password	ita-IT	1
+2378	4	SPID (National public system of e-ID) Level 3	eng-GB	1
+2378	8	SPID (Nationales öffentliches System der e-ID) Stufe 3	ger-DE	1
+2378	3	SPID Livello 3	ita-IT	1
+2372	4	User ID, One Time Password and Biometric	eng-GB	1
+2372	8	Benutzer-ID, Einmalpasswort und biometrische Daten	ger-DE	1
+2372	3	User ID, One Time Password e Biometria	ita-IT	1
+2372	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/IDOTPBIO	ita-PA	1
+2378	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/SPIDL3	ita-PA	1
+2375	4	SPID (National public system of e-ID) Credential Level 1	eng-GB	1
+2375	8	SPID (Nationales öffentliches System der e-ID) Berechtigungsnachweis Stufe 1	ger-DE	1
+2375	3	SPID Livello 1	ita-IT	1
+2538	3	04.4.2 - Attività manifatturiere	ita-IT	1
+2375	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/SPIDL1	ita-PA	1
+2376	3	Credenziale SPID Livello 1	ita-IT	1
+2373	4	Electronic identity card	eng-GB	1
+2373	8	Elektronischer Personalausweis (CIE)	ger-DE	1
+2373	3	Carta d'identità elettronica (CIE)	ita-IT	1
+2373	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/CIE	ita-PA	1
 2380	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/IDPWD	ita-PA	1
 2381	3	Tipologia del canale del servizio	ita-IT	1
 2382	3	Altro applicativo	ita-IT	1
 2383	3	GDO - Grande Distribuzione Organizzata	ita-IT	1
 2384	3	Incasso preautorizzato	ita-IT	1
+2379	4	User ID and One Time Password	eng-GB	1
+2379	8	Benutzer-ID und Einmal-Passwort	ger-DE	1
+2377	4	SPID (National public system of e-ID) Level 2	eng-GB	1
+2377	8	SPID (Nationales öffentliches System der e-ID) Stufe 2	ger-DE	1
+2377	3	SPID Livello 2	ita-IT	1
+2377	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/SPIDL2	ita-PA	1
+2379	3	User ID e One Time Password	ita-IT	1
+2379	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/authentication-type/IDOTP	ita-PA	1
 2385	3	Altro telematico	ita-IT	1
 2386	3	Non telematico con intermediario	ita-IT	1
+2392	3	Altro intermediario	ita-IT	1
+2393	3	Non Telematico	ita-IT	1
+2394	3	MAV/RAV	ita-IT	1
 2387	3	Posta Elettronica Certificata - PEC	ita-IT	1
 2388	3	Email	ita-IT	1
 2389	3	Pagamento attivo presso PSP - Prestatore di Servizio di Pagamento	ita-IT	1
 2390	3	Pagamenti bancari automatici	ita-IT	1
-2391	3	Ordine permanente	ita-IT	1
-2392	3	Altro intermediario	ita-IT	1
-2393	3	Non Telematico	ita-IT	1
-2394	3	MAV/RAV	ita-IT	1
 2395	3	Posta	ita-IT	1
 2396	3	Telefono	ita-IT	1
 2397	3	Applicazione con modulo precompilato	ita-IT	1
@@ -2965,89 +2953,218 @@
 2408	3	TV on demand	ita-IT	1
 2409	3	Modello F24	ita-IT	1
 2410	3	Sportello Pubblica Amministrazione	ita-IT	1
+2411	3	Tabaccaio - Ricevitoria	ita-IT	1
+2412	3	Modello F23	ita-IT	1
+2413	3	Domicilio del cittadino	ita-IT	1
+2414	3	Non telematico diretto	ita-IT	1
+2415	3	Email tradizionale	ita-IT	1
+2416	3	Piattaforma PAGOPA	ita-IT	1
+2417	3	Fax	ita-IT	1
+2418	3	Numero dedicato - Voce	ita-IT	1
+2419	3	Addebito diretto - SEPA	ita-IT	1
 2420	3	Cassa automatica	ita-IT	1
 2421	3	Categoria del servizio	ita-IT	1
-2435	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/7	ita-PA	1
-2447	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/13	ita-PA	1
-2455	3	Anagrafe e stato civile	ita-IT	1
 2423	3	contravvenzioni	ita-IT	1
 2424	3	contributi	ita-IT	1
 2425	3	dichiarazione redditi	ita-IT	1
-2439	3	Ambiente	ita-IT	1
-2426	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/6	ita-PA	1
-2422	3	Tributi, finanze e contravvenzioni	ita-IT	1
+2478	3	trasporto pubblico	ita-IT	1
 2427	3	case	ita-IT	1
 2428	3	edifici	ita-IT	1
 2429	3	terreni	ita-IT	1
 2430	17	https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/6	ita-PA	1
-2431	3	Vita lavorativa	ita-IT	1
-2436	3	passaporto	ita-IT	1
-2422	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/11	ita-PA	1
-2426	3	Catasto e urbanistica	ita-IT	1
+2463	3	impianti sportivi	ita-IT	1
 2432	3	disoccupazione	ita-IT	1
 2433	3	lavoro	ita-IT	1
 2434	3	pensione	ita-IT	1
+2464	3	luoghi della cultura	ita-IT	1
+2436	3	passaporto	ita-IT	1
 2437	3	viaggi	ita-IT	1
 2438	3	visto	ita-IT	1
-2444	3	pesca	ita-IT	1
-2445	3	politiche agricole	ita-IT	1
-2431	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/3	ita-PA	1
-2435	3	Turismo	ita-IT	1
 2440	3	incendi	ita-IT	1
 2441	3	rifiuti	ita-IT	1
 2442	3	verde urbano	ita-IT	1
-2439	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/12	ita-PA	1
-2443	3	Agricoltura e pesca	ita-IT	1
+2488	3	Notizia	ita-IT	1
+1305	3	Assessore di riferimento	ita-IT	1
+2444	3	pesca	ita-IT	1
+2445	3	politiche agricole	ita-IT	1
 2446	3	politiche alimentari	ita-IT	1
+2466	3	bancarotta	ita-IT	1
+2448	3	animali	ita-IT	1
 2449	3	anziani	ita-IT	1
 2450	3	esami sanitari	ita-IT	1
-2448	3	animali	ita-IT	1
 2451	3	invalidità	ita-IT	1
+2467	3	impresa nazionale/estera	ita-IT	1
+2468	3	notifiche	ita-IT	1
+2452	3	Appalti pubblici	ita-IT	1
+2447	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/13	ita-PA	1
+2455	3	Anagrafe e stato civile	ita-IT	1
+2465	3	Imprese e commercio	ita-IT	1
+2465	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/4	ita-PA	1
+2470	3	Autorizzazioni	ita-IT	1
+2470	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/14	ita-PA	1
+2474	3	Mobilità e trasporti	ita-IT	1
+2474	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/8	ita-PA	1
+2483	3	Giustizia e sicurezza pubblica	ita-IT	1
+2483	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/10	ita-PA	1
+2447	3	Salute, benessere e assistenza	ita-IT	1
+2452	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/14	ita-PA	1
 2453	3	appalti	ita-IT	1
 2454	3	appalto	ita-IT	1
-2452	3	Appalti pubblici	ita-IT	1
-2452	16	https://ontopia-lodview.agid.gov.it/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/14	ita-PA	1
-2447	3	Salute, benessere e assistenza	ita-IT	1
-2443	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/15	ita-PA	1
+2469	3	risorse umane	ita-IT	1
 2456	3	elezioni	ita-IT	1
 2457	3	espatrio	ita-IT	1
 2458	3	matrimonio	ita-IT	1
 2459	3	morte	ita-IT	1
 2460	3	nascita	ita-IT	1
 2461	3	residenza	ita-IT	1
-2463	3	impianti sportivi	ita-IT	1
-2464	3	luoghi della cultura	ita-IT	1
-2466	3	bancarotta	ita-IT	1
-2467	3	impresa nazionale/estera	ita-IT	1
-2468	3	notifiche	ita-IT	1
-2469	3	risorse umane	ita-IT	1
 2471	3	finanziamenti	ita-IT	1
 2472	3	licenze	ita-IT	1
 2473	3	permessi	ita-IT	1
-2455	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/1	ita-PA	1
+2484	3	crimini	ita-IT	1
 2475	3	automobile	ita-IT	1
 2476	3	parcheggi	ita-IT	1
 2477	3	patente	ita-IT	1
-2478	3	trasporto pubblico	ita-IT	1
-2462	3	Cultura e tempo libero	ita-IT	1
-2462	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/2	ita-PA	1
-2465	3	Imprese e commercio	ita-IT	1
-2465	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/4	ita-PA	1
 2480	3	nido	ita-IT	1
 2481	3	scuola	ita-IT	1
 2482	3	università	ita-IT	1
-2470	3	Autorizzazioni	ita-IT	1
-2470	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/14	ita-PA	1
-2474	3	Mobilità e trasporti	ita-IT	1
-2474	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/8	ita-PA	1
-2484	3	crimini	ita-IT	1
 2485	3	protezione civile	ita-IT	1
 2486	3	Tipi di notizia	ita-IT	1
 2487	3	News	ita-IT	1
-2488	3	Notizia	ita-IT	1
 2489	3	Comunicato stampa	ita-IT	1
 2490	3	Avviso	ita-IT	1
+2426	3	Catasto e urbanistica	ita-IT	1
+2426	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/6	ita-PA	1
+2431	3	Vita lavorativa	ita-IT	1
+2431	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/3	ita-PA	1
+2435	3	Turismo	ita-IT	1
+2435	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/7	ita-PA	1
+2439	3	Ambiente	ita-IT	1
+2439	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/12	ita-PA	1
+2443	3	Agricoltura e pesca	ita-IT	1
+2443	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/15	ita-PA	1
+2462	3	Cultura e tempo libero	ita-IT	1
+2462	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/2	ita-PA	1
 2479	3	Educazione e formazione	ita-IT	1
 2479	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/9	ita-PA	1
-2483	3	Giustizia e sicurezza pubblica	ita-IT	1
-2483	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/10	ita-PA	1
+1091	3	Malattia	ita-IT	1
+2491	3	10.1.1 - Malattia	ita-IT	1
+2492	3	10.1.2 - Invalidità	ita-IT	1
+2493	3	10.2.1 - Vecchiaia	ita-IT	1
+2494	3	10.3.1 - Superstiti	ita-IT	1
+2495	3	10.4.1 - Famiglia	ita-IT	1
+2496	3	10.5.1 - Disoccupazione	ita-IT	1
+2497	3	10.6.1 - Abitazioni	ita-IT	1
+2498	3	10.7.1 - Esclusione sociale non altrove classificata	ita-IT	1
+2499	3	10.8.1 - Ricerca & Sviluppo per la protezione sociale	ita-IT	1
+2500	3	10.9.1 - Protezione sociale non altrove classificata	ita-IT	1
+2501	3	01.1.1 - Organi esecutivi e legislativi	ita-IT	1
+2502	3	01.1.2 - Affari finanziari e fiscali	ita-IT	1
+2503	3	01.1.3 - Affari esteri	ita-IT	1
+2504	3	01.2.1 - Aiuti economici ai paesi in via di sviluppo ed in transizione	ita-IT	1
+2505	3	01.2.2 - Aiuti economici erogati attraverso organismi internazionali	ita-IT	1
+2506	3	01.3.1 - Servizi generali del personale	ita-IT	1
+2507	3	01.3.2 - Servizi di programmazione	ita-IT	1
+2508	3	01.3.3 - Servizi statistici	ita-IT	1
+2509	3	01.3.4 - Altri servizi	ita-IT	1
+2510	3	01.4.1 - Ricerca di base	ita-IT	1
+2511	3	01.5.1 - Ricerca & Sviluppo per i servizi pubblici generali	ita-IT	1
+2512	3	01.6.1 - Servizi pubblici generali non altrove classificati	ita-IT	1
+2513	3	01.7.1 - Transazioni relative al debito pubblico	ita-IT	1
+2514	3	01.8.1 - Trasferimenti a carattere generale tra diversi livelli di amministrazione	ita-IT	1
+2515	3	02.1.1 - Difesa militare	ita-IT	1
+2516	3	02.2.1 - Difesa civile	ita-IT	1
+2517	3	02.3.1 - Aiuti militari all'estero	ita-IT	1
+2518	3	02.4.1 - Ricerca & Sviluppo per la Difesa	ita-IT	1
+2519	3	02.5.1 - Difesa non altrove classificata	ita-IT	1
+2520	3	03.1.1 - Servizi di polizia	ita-IT	1
+1121	3	Servizi antincendio	ita-IT	1
+2521	3	03.2.1 - Servizi antincendio	ita-IT	1
+2522	3	03.3.1 - Tribunali	ita-IT	1
+2523	3	03.4.1 - Carceri	ita-IT	1
+1124	3	Ricerca & Sviluppo connessi all'ordine pubblico e sicurezza	ita-IT	1
+2524	3	03.5.1 - Ricerca & Sviluppo connessi all'ordine pubblico e sicurezza	ita-IT	1
+2525	3	03.6.1 - Ordine pubblico e sicurezza non altrove classificati	ita-IT	1
+2526	3	04.1.1 - Affari generali economici e commerciali	ita-IT	1
+2527	3	04.1.2 - Affari generali del lavoro	ita-IT	1
+2528	3	04.2.1 - Agricoltura	ita-IT	1
+2529	3	04.2.2 - Silvicoltura	ita-IT	1
+2530	3	04.2.3 - Pesca e caccia	ita-IT	1
+2531	3	04.3.1 - Carbone ed altri combustibili solidi minerali	ita-IT	1
+2532	3	04.3.2 - Petrolio e gas naturali	ita-IT	1
+2533	3	04.3.3 - Combustibili nucleari	ita-IT	1
+2534	3	04.3.4 - Altri combustibili	ita-IT	1
+2535	3	04.3.5 - Energia elettrica	ita-IT	1
+2536	3	04.3.6 - Energia non elettrica	ita-IT	1
+2537	3	04.4.1 - Attività estrattive di minerali diversi dai combustibili	ita-IT	1
+2455	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/1	ita-PA	1
+2539	3	04.4.3 - Attività edilizia	ita-IT	1
+2540	3	04.5.1 - Trasporti su strada	ita-IT	1
+2541	3	04.5.2 - Trasporti per vie d'acqua	ita-IT	1
+2542	3	04.5.3 - Trasporti su rotaia	ita-IT	1
+2543	3	04.5.4 - Trasporti aerei	ita-IT	1
+2544	3	04.5.5 - Condotte ed altri sistemi di trasporto	ita-IT	1
+2545	3	04.6.1 - Comunicazioni	ita-IT	1
+2546	3	04.7.1 - Distribuzione commerciale	ita-IT	1
+2547	3	conservazione e magazzinaggio	ita-IT	1
+2548	3	04.7.2 - Alberghi e pubblici esercizi	ita-IT	1
+2549	3	04.7.3 - Turismo	ita-IT	1
+2550	3	04.7.4 - Progetti di sviluppo plurifunzionali	ita-IT	1
+2551	3	04.8.1 - R&S per gli affari generali economici	ita-IT	1
+2552	3	commerciali e del lavoro	ita-IT	1
+2553	3	04.8.2 - R&S per agricoltura	ita-IT	1
+2554	3	pesca e caccia	ita-IT	1
+2555	3	silvicoltura	ita-IT	1
+2556	3	04.8.3 - R&S per combustibili ed energia	ita-IT	1
+2557	3	04.8.4 - R&S per attività estrattive	ita-IT	1
+2558	3	manifatturiere ed edilizie	ita-IT	1
+2559	3	04.8.5 - R&S per trasporti	ita-IT	1
+2560	3	04.8.6 - R&S per comunicazioni	ita-IT	1
+2561	3	04.8.7 - R&S per altri settori	ita-IT	1
+2562	3	04.9.1 - Affari economici non altrove classificati	ita-IT	1
+2563	3	05.1.1 - Trattamento dei rifiuti	ita-IT	1
+2564	3	05.2.1 - Trattamento delle acque reflue	ita-IT	1
+2565	3	05.3.1 - Riduzione dell'inquinamento	ita-IT	1
+2566	3	05.4.1 - Protezione delle biodiversità e dei beni paesaggistici	ita-IT	1
+2567	3	05.5.1 - Ricerca & Sviluppo per la protezione dell'ambiente	ita-IT	1
+2568	3	05.6.1 - Protezione dell'ambiente non altrove classificata	ita-IT	1
+2569	3	06.1.1 - Sviluppo delle abitazioni	ita-IT	1
+2570	3	06.2.1 - Assetto territoriale	ita-IT	1
+2571	3	06.3.1 - Approvvigionamento idrico	ita-IT	1
+2572	3	06.4.1 - Illuminazione stradale	ita-IT	1
+2573	3	06.5.1 - Ricerca & Sviluppo per abitazioni e assetto territoriale	ita-IT	1
+2574	3	06.6.1 - Abitazioni e assetto territoriale non altrove classificati	ita-IT	1
+2575	3	07.1.1 - Prodotti farmaceutici	ita-IT	1
+2576	3	07.1.2 - Altri prodotti sanitari	ita-IT	1
+2577	3	07.1.3 - Apparecchi e attrezzature terapeutiche	ita-IT	1
+2578	3	07.2.1 - Servizi medici generici	ita-IT	1
+2579	3	07.2.2 - Servizi medici specialistici	ita-IT	1
+2580	3	07.2.3 - Servizi odontoiatrici	ita-IT	1
+2581	3	07.2.4 - Servizi paramedici	ita-IT	1
+2582	3	07.3.1 - Servizi ospedalieri generici	ita-IT	1
+2583	3	07.3.2 - Servizi ospedalieri specialistici	ita-IT	1
+2584	3	07.3.3 - Centri di servizi per la maternità e medici	ita-IT	1
+2585	3	07.3.4 - Case di cura e riabilitazione	ita-IT	1
+2586	3	07.4.1 - Servizi di sanità pubblica	ita-IT	1
+2587	3	07.5.1 - Ricerca & Sviluppo per la sanità	ita-IT	1
+2588	3	07.6.1 - Sanità non altrove classificata	ita-IT	1
+2589	3	08.1.1 - Attività ricreative	ita-IT	1
+2590	3	08.2.1 - Attività culturali	ita-IT	1
+2591	3	08.3.1 - Servizi radiotelevisivi e di editoria	ita-IT	1
+2592	3	08.4.1 - Servizi di culto e altri servizi per le comunità	ita-IT	1
+2593	3	08.5.1 - Ricerca & Sviluppo per attività ricreative	ita-IT	1
+2594	3	culturali e di culto	ita-IT	1
+2595	3	08.6.1 - Attività ricreative	ita-IT	1
+2596	3	culturali e di culto non altrove classificate	ita-IT	1
+2597	3	09.1.1 - Istruzione prescolastica	ita-IT	1
+2598	3	09.1.2 - Istruzione primaria	ita-IT	1
+2599	3	09.2.1 - Istruzione secondaria inferiore	ita-IT	1
+2600	3	09.2.2 - Istruzione secondaria superiore	ita-IT	1
+2601	3	09.3.0 - Istruzione postsecondaria non superiore	ita-IT	1
+2602	3	09.4.1 - Primo grado di istruzione superiore	ita-IT	1
+2603	3	09.4.2 - Secondo grado di istruzione superior	ita-IT	1
+2604	3	09.5.0 - Istruzione di diverso tipo	ita-IT	1
+2605	3	09.6.0 - Servizi ausiliari dell'istruzione	ita-IT	1
+2606	3	09.7.0 - Ricerca & Sviluppo per l'istruzione	ita-IT	1
+2607	3	09.8.0 - Istruzione non altrove classificata	ita-IT	1
+2422	3	Tributi, finanze e contravvenzioni	ita-IT	1
+2422	16	https://w3id.org/italia/controlled-vocabulary/classifications-for-public-services/public-services-subject-matters/11	ita-PA	1

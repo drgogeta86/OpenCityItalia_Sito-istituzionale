@@ -1,0 +1,26 @@
+metadata:
+    remoteId: 6b101d7978a415884679d24a9afcec17
+    classIdentifier: topic
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+data:
+    ita-IT:
+        name: 'Scuola materna'
+        managed_by_area: {  }
+        managed_by_political_body: {  }
+        type: null
+        description: null
+        eu: 'http://eurovoc.europa.eu/630'
+        theme: null
+        data_themes_eurovocs: {  }
+        image: {  }
+        abstract: '<p>Informazioni e servizi relativo alla scuola materna</p>'
+        icon: null
+        layout: {  }
+        help: {  }
+        show_topic_children: 1
+sort_data:
+    sort_field: 1
+    sort_order: 1
+    priority: 0

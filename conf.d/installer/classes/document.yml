@@ -81,20 +81,6 @@ data_map:
     image:
         identifier: image
         serialized_description_list:
-            ger-DE: 'Hauptbild des Dokuments'
-            ita-IT: 'Immagine principale del documento'
-        serialized_name_list:
-            always-available: ita-IT
-            ger-DE: Bild
-            ita-IT: Immagine
-        data_type_string: ezimage
-        placement: 5
-        can_translate: 1
-        category: hidden
-        serialized_data_text: {  }
-    images:
-        identifier: images
-        serialized_description_list:
             always-available: ita-IT
             ger-DE: 'Galerie mit aussagekräftigen Bildern zu einem Dokument, mit Bildtext versehen'
             ita-IT: 'Una o più immagini significative, relative al documento, corredate da didascalia'
@@ -103,7 +89,7 @@ data_map:
             ger-DE: Bildergalerie
             ita-IT: Immagini
         data_type_string: ezobjectrelationlist
-        placement: 6
+        placement: 5
         is_searchable: 1
         can_translate: 1
         data_text5:
@@ -127,7 +113,7 @@ data_map:
             ger-DE: 'Art des Dokuments'
             ita-IT: 'Tipo di documento'
         data_type_string: eztags
-        placement: 7
+        placement: 6
         is_searchable: 1
         is_required: 1
         can_translate: 1
@@ -148,7 +134,7 @@ data_map:
             ger-DE: Thema
             ita-IT: Argomenti
         data_type_string: ezobjectrelationlist
-        placement: 8
+        placement: 7
         is_searchable: 1
         is_required: 1
         can_translate: 1
@@ -173,7 +159,7 @@ data_map:
             ger-DE: Beschreibung/Betreff
             ita-IT: 'Descrizione breve'
         data_type_string: eztext
-        placement: 9
+        placement: 8
         is_searchable: 1
         is_required: 1
         can_translate: 1
@@ -243,30 +229,6 @@ data_map:
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
-    area:
-        identifier: area
-        serialized_description_list:
-            always-available: ita-IT
-            ita-IT: ''
-        serialized_name_list:
-            always-available: ita-IT
-            ger-DE: 'Verantwortlicher Bereich für das Dokument'
-            ita-IT: 'Area responsabile del documento'
-        data_type_string: ezobjectrelationlist
-        placement: 14
-        is_searchable: 1
-        can_translate: 1
-        data_text5:
-            object_class: ''
-            selection_type: '2'
-            type: '2'
-            class_constraint_list:
-                - organization
-            default_placement:
-                node_id: $contenttree_Amministrazione_Aree-amministrative_node
-        serialized_data_text:
-            always-available: ita-IT
-            ita-IT: ''
     has_organization:
         identifier: has_organization
         serialized_description_list:
@@ -277,7 +239,7 @@ data_map:
             ger-DE: 'Zuständige/vorlegende Stelle'
             ita-IT: 'Ufficio responsabile del documento'
         data_type_string: ezobjectrelationlist
-        placement: 15
+        placement: 14
         is_searchable: 1
         is_required: 1
         can_translate: 1
@@ -301,7 +263,7 @@ data_map:
             ger-DE: Vertriebslizenz
             ita-IT: 'Licenza di distribuzione'
         data_type_string: eztags
-        placement: 16
+        placement: 15
         is_searchable: 1
         is_required: 1
         can_translate: 1
@@ -323,7 +285,7 @@ data_map:
             ger-DE: 'Verfügbare Dateiformate'
             ita-IT: 'Formati disponibili'
         data_type_string: eztags
-        placement: 17
+        placement: 16
         is_searchable: 1
         is_required: 1
         can_translate: 1
@@ -343,7 +305,7 @@ data_map:
             ger-DE: 'Gültig/wirksam ab '
             ita-IT: 'Data di inizio validità/efficacia'
         data_type_string: ezdate
-        placement: 18
+        placement: 17
         is_searchable: 1
         is_required: 1
         can_translate: 1
@@ -360,7 +322,7 @@ data_map:
             ger-DE: 'Gültig/wirksam bis'
             ita-IT: 'Data di fine validità/efficacia'
         data_type_string: ezdate
-        placement: 19
+        placement: 18
         is_searchable: 1
         can_translate: 1
         category: riferimenti_temporali
@@ -375,7 +337,7 @@ data_map:
             ger-DE: 'Tag der Veröffentlichung'
             ita-IT: 'Data di inizio pubblicazione'
         data_type_string: ezdate
-        placement: 20
+        placement: 19
         is_searchable: 1
         is_required: 1
         can_translate: 1
@@ -392,7 +354,7 @@ data_map:
             ger-DE: 'Letzter Veröffentlichungstag '
             ita-IT: 'Data di fine pubblicazione'
         data_type_string: ezdate
-        placement: 21
+        placement: 20
         is_searchable: 1
         can_translate: 1
         category: riferimenti_temporali
@@ -408,7 +370,7 @@ data_map:
             ger-DE: 'Tag der Entfernung von der Website '
             ita-IT: 'Data di rimozione'
         data_type_string: ezdate
-        placement: 22
+        placement: 21
         is_searchable: 1
         can_translate: 1
         category: riferimenti_temporali
@@ -426,7 +388,7 @@ data_map:
             ger-DE: 'Datum der Unterzeichnung des Dokuments'
             ita-IT: 'Data di firma'
         data_type_string: ezdate
-        placement: 23
+        placement: 22
         is_searchable: 1
         can_translate: 1
         category: riferimenti_temporali
@@ -442,7 +404,7 @@ data_map:
             always-available: ita-IT
             ita-IT: Dataset
         data_type_string: ezobjectrelationlist
-        placement: 24
+        placement: 23
         is_searchable: 1
         can_translate: 1
         data_text5:
@@ -467,7 +429,7 @@ data_map:
             ger-DE: 'Weitere Informationen'
             ita-IT: 'Ulteriori informazioni'
         data_type_string: ezxmltext
-        placement: 25
+        placement: 24
         is_searchable: 1
         can_translate: 1
         data_int1: 5
@@ -486,7 +448,7 @@ data_map:
             ger-DE: 'Verweis auf Gesetzesbestimmungen'
             ita-IT: 'Riferimenti normativi'
         data_type_string: ezxmltext
-        placement: 26
+        placement: 25
         is_searchable: 1
         can_translate: 1
         data_int1: 5
@@ -504,7 +466,7 @@ data_map:
             ger-DE: Bezugsangabe
             ita-IT: 'Documenti collegati'
         data_type_string: ezobjectrelationlist
-        placement: 27
+        placement: 26
         is_searchable: 1
         can_translate: 1
         data_text5:
@@ -527,28 +489,11 @@ data_map:
             ger-DE: Schlüsselwort
             ita-IT: 'Parola chiave'
         data_type_string: ezkeyword
-        placement: 28
+        placement: 27
         is_searchable: 1
         can_translate: 1
         category: details
         serialized_data_text: {  }
-    has_service:
-        identifier: has_service
-        serialized_description_list:
-            always-available: ita-IT
-            ger-DE: 'Wenn der Dienst über einen digitalen Kanal verfügt Link zum Einleiten des Buchungs- oder Aktivierungsvorgangs für den Dienst. Dieses Feld verknüpft "Service" mit seinem digitalen Aktivierungskanal. Z.B. Gehen Sie zum Informationssystem Öffentliche Verträge'
-            ita-IT: 'Se il servizio ha un canale digitale Link per avviare la procedura di prenotazione o attivazione del servizio. Questo campo mette in relazione "Servizio" con il suo canale digitale di attivazione. Es. Vai al servizio bandi on line'
-        serialized_name_list:
-            always-available: ita-IT
-            ger-DE: 'Digitaler Kanal des verknüpften Dienstes'
-            ita-IT: 'Canale digitale del servizio collegato'
-        data_type_string: ezurl
-        placement: 29
-        can_translate: 1
-        category: hidden
-        serialized_data_text:
-            always-available: ita-IT
-            ita-IT: ''
     related_public_services:
         identifier: related_public_services
         serialized_description_list:
@@ -559,28 +504,10 @@ data_map:
             ger-DE: 'Zugeordnete Dienste'
             ita-IT: 'Servizi '
         data_type_string: openpareverserelationlist
-        placement: 30
+        placement: 29
         can_translate: 1
-        data_text5: '{"attribute_id_list":[classattributeid_list(public_service/has_module_input,public_service/is_compliant_with_rule)],"sort":"name","order":"asc","limit":4,"attribute_id_subtree":{"$contenttree_Documenti-e-dati_Modulistica_node":0,"$contenttree_Documenti-e-dati_Normative_node":0}}'
+        data_text5: '{"attribute_id_list":[classattributeid_list(public_service/has_module_input,public_service/is_compliant_with_rule,public_service/has_document)],"sort":"name","order":"asc","limit":4,"attribute_id_subtree":{"$contenttree_Documenti-e-dati_Modulistica_node":0,"$contenttree_Documenti-e-dati_Normative_node":0}}'
         category: details
-        serialized_data_text:
-            always-available: ita-IT
-            ita-IT: ''
-    anno_protocollazione:
-        identifier: anno_protocollazione
-        serialized_description_list:
-            always-available: ita-IT
-            ita-IT: ''
-        serialized_name_list:
-            always-available: ita-IT
-            ger-DE: 'Jahr der Protokollierung/Registrierung'
-            ita-IT: 'Anno di protocollazione'
-        data_type_string: ezstring
-        placement: 31
-        is_searchable: 1
-        can_translate: 1
-        data_int1: 4
-        category: hidden
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
@@ -594,7 +521,7 @@ data_map:
             ger-DE: 'Teil eines Lebensereignisses'
             ita-IT: 'Life events'
         data_type_string: eztags
-        placement: 32
+        placement: 31
         is_searchable: 1
         can_translate: 1
         data_int1: 'tag(Servizi pubblici / Eventi della vita delle persone e delle imprese / Persone)'
@@ -614,7 +541,7 @@ data_map:
             always-available: ita-IT
             ita-IT: 'Business Events'
         data_type_string: eztags
-        placement: 33
+        placement: 32
         is_searchable: 1
         can_translate: 1
         data_int1: 'tag(Servizi pubblici / Eventi della vita delle persone e delle imprese / Imprese)'
@@ -635,35 +562,9 @@ data_map:
             ger-DE: Autor(en)
             ita-IT: Autore/i
         data_type_string: ezauthor
-        placement: 34
+        placement: 33
         is_searchable: 1
         can_translate: 1
-        serialized_data_text:
-            always-available: ita-IT
-            ita-IT: ''
-    help:
-        identifier: help
-        serialized_description_list:
-            always-available: ita-IT
-            ger-DE: 'Mögliche Supportkontakte für den Benutzer. Zum Beispiel  Bürgerschalter'
-            ita-IT: 'Eventuali contatti di supporto all''utente. Per esempio i riferimenti dell''URP'
-        serialized_name_list:
-            always-available: ita-IT
-            ger-DE: 'Hilfebox '
-            ita-IT: 'Box d''aiuto'
-        data_type_string: ezobjectrelationlist
-        placement: 35
-        is_searchable: 1
-        can_translate: 1
-        data_text5:
-            object_class: ''
-            selection_type: '0'
-            type: '2'
-            class_constraint_list:
-                - online_contact_point
-            default_placement:
-                node_id: $contenttree_Classificazioni_Punti-di-contatto_node
-        category: hidden
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
@@ -677,7 +578,7 @@ data_map:
             ger-DE: 'Art der Beantwortung'
             ita-IT: 'Tipo di risposta'
         data_type_string: ezselection
-        placement: 36
+        placement: 35
         is_searchable: 1
         can_translate: 1
         data_text5: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<ezselection><options><option id=\"0\" name=\"Orale\"/><option id=\"1\" name=\"Scritta\"/></options></ezselection>\n"
@@ -695,7 +596,7 @@ data_map:
             ger-DE: Anfragesteller
             ita-IT: Interroganti
         data_type_string: ezobjectrelationlist
-        placement: 37
+        placement: 36
         is_searchable: 1
         can_translate: 1
         data_text5:

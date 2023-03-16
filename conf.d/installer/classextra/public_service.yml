@@ -5,15 +5,19 @@ attribute_group:
         audience: '1'
     accedere_al_servizio:
         '*': 'Accedere al servizio'
+        conditions: '1'
         exceptions: '1'
         has_channel: '1'
         is_physically_available_at: '1'
+        is_physically_available_at_how_to: '1'
     come_fare:
         '*': 'Come fare'
         how_to: '1'
+        relation_service: '1'
+        requires_service: '1'
     condizioni_di_servizio:
         '*': 'Condizioni di servizio'
-        output_notes: '1'
+        terms_of_service: '1'
     contatti:
         '*': Contatti
         has_online_contact_point: '1'
@@ -28,17 +32,24 @@ attribute_group:
         has_module_input: '1'
     cosa_si_ottiene:
         '*': 'Cosa si ottiene'
+        output_notes: '1'
         produces_output: '1'
     costi_e_vincoli:
         '*': 'Costi e vincoli'
-        conditions: '1'
         has_cost: '1'
     enabled:
         '*': '1'
     'evidence::accedere_al_servizio':
         '*': accedere_al_servizio
-    'hidden::ulteriori_informazioni':
-        '*': ulteriori_informazioni
+    'evidence::cosa_serve':
+        '*': cosa_serve
+    footer:
+        '*': Footer
+        content_show_history: '1'
+        content_show_modified: '1'
+        topics: '1'
+    'hidden::footer':
+        '*': footer
     'ita-IT::a_chi_si_rivolge':
         '*': 'A chi è rivolto'
     'ita-IT::accedere_al_servizio':
@@ -57,22 +68,50 @@ attribute_group:
         '*': 'Cosa si ottiene'
     'ita-IT::costi_e_vincoli':
         '*': Costi
+    'ita-IT::footer':
+        '*': Footer
     'ita-IT::tempi_e_scadenze':
         '*': 'Tempi e scadenze'
-    'ita-IT::tipologia_servizio':
-        '*': 'Tipologia servizio'
     'ita-IT::ulteriori_informazioni':
         '*': 'Ulteriori informazioni'
+    'ita-IT::vincoli':
+        '*': Vincoli
+    'ita-PA::a_chi_si_rivolge':
+        '*': service-addressed
+    'ita-PA::accedere_al_servizio':
+        '*': ''
+    'ita-PA::come_fare':
+        '*': service-how-to
+    'ita-PA::condizioni_di_servizio':
+        '*': service-file
+    'ita-PA::contatti':
+        '*': service-area
+    'ita-PA::cos_e':
+        '*': service-extended-description
+    'ita-PA::cosa_serve':
+        '*': service-needed
+    'ita-PA::cosa_si_ottiene':
+        '*': service-achieved
+    'ita-PA::costi_e_vincoli':
+        '*': service-cost
+    'ita-PA::footer':
+        '*': ''
+    'ita-PA::tempi_e_scadenze':
+        '*': service-calendar-list
+    'ita-PA::ulteriori_informazioni':
+        '*': ''
+    'ita-PA::vincoli':
+        '*': ''
     'sort::a_chi_si_rivolge':
         '*': '1'
     'sort::accedere_al_servizio':
-        '*': '8'
+        '*': '9'
     'sort::come_fare':
         '*': '3'
     'sort::condizioni_di_servizio':
-        '*': '14'
+        '*': '12'
     'sort::contatti':
-        '*': '16'
+        '*': '13'
     'sort::cos_e':
         '*': '2'
     'sort::cosa_serve':
@@ -81,29 +120,26 @@ attribute_group:
         '*': '5'
     'sort::costi_e_vincoli':
         '*': '7'
+    'sort::footer':
+        '*': '14'
     'sort::tempi_e_scadenze':
         '*': '6'
-    'sort::tipologia_servizio':
-        '*': '18'
     'sort::ulteriori_informazioni':
-        '*': '17'
+        '*': '11'
+    'sort::vincoli':
+        '*': '10'
     tempi_e_scadenze:
         '*': 'Tempi e scadenze'
         average_processing_time: '1'
         has_processing_time: '1'
         has_temporal_coverage: '1'
-    tipologia_servizio:
-        identifier: '1'
-        other_service_code: '1'
-        topics: '1'
-        type: '1'
     ulteriori_informazioni:
         '*': 'Ulteriori informazioni'
-        content_show_history: '1'
-        content_show_modified: '1'
-        help: '1'
+        has_document: '1'
         link: '1'
         news_and_updates: '1'
+    vincoli:
+        '*': Vincoli
 bootstrapitalia_icon:
     enabled:
         '*': '1'
@@ -140,12 +176,12 @@ table_view:
         average_processing_time: '1'
         conditions: '1'
         content_show_modified: '1'
-        content_tree_related: '1'
         description: '1'
         exceptions: '1'
         has_authentication_method: '1'
         has_channel: '1'
         has_cost: '1'
+        has_document: '1'
         has_input: '1'
         has_module_input: '1'
         has_online_contact_point: '1'
@@ -157,6 +193,7 @@ table_view:
         how_to: '1'
         is_compliant_with_rule: '1'
         is_physically_available_at: '1'
+        is_physically_available_at_how_to: '1'
         link: '1'
         news_and_updates: '1'
         on_line_booking: '1'
@@ -166,13 +203,15 @@ table_view:
         requires_service: '1'
         service_keyword: '1'
         service_theme: '1'
+        terms_of_service: '1'
         topics: '1'
+    show_empty:
+        is_physically_available_at_how_to: '1'
     show_label:
         applicants: '1'
         exceptions: '1'
         has_authentication_method: '1'
         has_spatial_coverage: '1'
-        is_physically_available_at: '1'
         link: '1'
         news_and_updates: '1'
         requires_service: '1'
@@ -181,6 +220,7 @@ table_view:
         topics: '1'
     show_link:
         has_channel: '1'
+        has_document: '1'
         has_online_contact_point: '1'
         has_temporal_coverage: '1'
         help: '1'

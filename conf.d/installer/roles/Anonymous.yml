@@ -74,3 +74,23 @@ policies:
         ModuleName: rss
         FunctionName: feed
         Limitation: {  }
+    -
+        ModuleName: customcalendar
+        FunctionName: '*'
+        Limitation: {  }
+    -
+        ModuleName: customexport
+        FunctionName: '*'
+        Limitation: {  }
+    -
+        ModuleName: customdatatable
+        FunctionName: '*'
+        Limitation: {  }
+    -
+        ModuleName: customgeo
+        FunctionName: '*'
+        Limitation: {  }
+    -
+        ModuleName: customcount
+        FunctionName: '*'
+        Limitation: {  }

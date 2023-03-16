@@ -15,7 +15,7 @@ data:
         show_children: 0
         layout:
             zone_layout: desItaGlobal
-            right:
+            global:
                 zone_id: 6f2c7b6f6d0e6438397ab5530e7107db
                 blocks:
                     -

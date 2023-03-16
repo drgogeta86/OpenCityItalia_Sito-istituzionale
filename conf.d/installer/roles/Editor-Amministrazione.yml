@@ -107,7 +107,10 @@ policies:
                 - $contenttree_Documenti-e-dati_Dataset_node
             Class:
                 - $class_dataset
-
+    -
+        ModuleName: opendatadatset
+        FunctionName: '*'
+        Limitation: {  }
     -
         ModuleName: content
         FunctionName: create

@@ -2,12 +2,12 @@ identifier: topic
 contentobject_name: '<name>'
 serialized_name_list:
     always-available: ita-IT
-    ita-IT: Argomento
     ger-DE: Thema
+    ita-IT: Argomento
 serialized_description_list:
     always-available: ita-IT
-    ita-IT: 'Tematica trasversale a tutti i contenuti del sito'
     ger-DE: 'Querschnittsthema in allen Inhalten der Website'
+    ita-IT: 'Tematica trasversale a tutti i contenuti del sito'
 is_container: 1
 data_map:
     name:
@@ -17,8 +17,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: Nome
             ger-DE: Name
+            ita-IT: Nome
         data_type_string: ezstring
         placement: 1
         is_searchable: 1
@@ -31,12 +31,12 @@ data_map:
         identifier: managed_by_area
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: 'Link alle aree amministrative responsabili di questo argomento'
             ger-DE: 'Link zu den zuständigen Verwaltungsbereichen'
+            ita-IT: 'Link alle aree amministrative responsabili di questo argomento'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Area di appartenenza'
             ger-DE: 'Zugehöriger Bereich'
+            ita-IT: 'Area di appartenenza'
         data_type_string: ezobjectrelationlist
         placement: 2
         is_searchable: 1
@@ -56,12 +56,12 @@ data_map:
         identifier: managed_by_political_body
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: 'Link agli assessorati che hanno deleghe su questo argomento'
             ger-DE: 'Link zu den zuständigen Abteilungen'
+            ita-IT: 'Link agli assessorati che hanno deleghe su questo argomento'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Assessorato di riferimento'
             ger-DE: 'Zuständiges Assessorat'
+            ita-IT: 'Assessorato di riferimento'
         data_type_string: ezobjectrelationlist
         placement: 3
         is_searchable: 1
@@ -84,8 +84,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Tipologia di voce'
             ger-DE: 'Art der Einträge'
+            ita-IT: 'Tipologia di voce'
         data_type_string: ezstring
         placement: 4
         is_searchable: 1
@@ -100,8 +100,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'vocabolario controllato già esistente'
             ger-DE: 'Bestehendes kontrolliertes Vokabular'
+            ita-IT: 'vocabolario controllato già esistente'
         data_type_string: eztext
         placement: 5
         is_searchable: 1
@@ -117,8 +117,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Corrispondenza con Eurovoc'
             ger-DE: 'Übereinstimmung mit Eurovoc'
+            ita-IT: 'Corrispondenza con Eurovoc'
         data_type_string: eztext
         placement: 6
         is_searchable: 1
@@ -135,8 +135,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Corrispondenza con i Data Theme della commissione europea'
             ger-DE: 'Übereinstimmung mit den Datenthemen der Europäischen Kommission'
+            ita-IT: 'Corrispondenza con i Data Theme della commissione europea'
         data_type_string: eztext
         placement: 7
         is_searchable: 1
@@ -152,8 +152,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Data themes (eurovocs)'
             ger-DE: 'Datenthemen (eurovocs)'
+            ita-IT: 'Data themes (eurovocs)'
         data_type_string: eztags
         placement: 8
         is_searchable: 1
@@ -169,12 +169,12 @@ data_map:
         identifier: image
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: 'Immagine principale dell''argomento'
             ger-DE: 'Hauptbild zum Thema'
+            ita-IT: 'Immagine principale dell''argomento'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: Immagine
             ger-DE: Bild
+            ita-IT: Immagine
         data_type_string: ezobjectrelationlist
         placement: 9
         is_searchable: 1
@@ -197,8 +197,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Descrizione breve'
             ger-DE: 'Kurze Beschreibung'
+            ita-IT: 'Descrizione breve'
         data_type_string: ezxmltext
         placement: 10
         is_searchable: 1
@@ -214,8 +214,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: Icona
             ger-DE: Symbol
+            ita-IT: Icona
         data_type_string: openpabootstrapitaliaicon
         placement: 11
         can_translate: 1
@@ -229,8 +229,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: Layout
             ger-DE: Layout
+            ita-IT: Layout
         data_type_string: ezpage
         placement: 12
         can_translate: 1
@@ -244,8 +244,8 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Box d''aiuto'
             ger-DE: Hilfebox
+            ita-IT: 'Box d''aiuto'
         data_type_string: ezobjectrelationlist
         placement: 13
         is_searchable: 1
@@ -268,10 +268,10 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
+            ger-DE: 'Inhaltselemente anzeigen'
             ita-IT: 'Mostra i link agli argomenti figli nella descrizione'
-            ger-DE: Inhaltselemente anzeigen
         data_type_string: ezboolean
-        placement: 15
+        placement: 14
         can_translate: 1
         data_int3: 1
         serialized_data_text:
