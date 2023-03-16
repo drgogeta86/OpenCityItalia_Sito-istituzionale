@@ -36,7 +36,7 @@ COPY security.txt /var/www/html/.well-known/security.txt
 
 # Copy install script to default entrypoint script dir to extend base entrypoint without modifying it
 # @see https://github.com/OpencontentCoop/docker-ezpublish/blob/master/scripts/docker-entrypoint.sh#L84
-COPY ./docker/php/install.sh /docker-entrypoint-initdb.d/
+COPY ./docker/php/scripts/install.sh /docker-entrypoint-initdb.d/
 
 WORKDIR /var/www/html
 

@@ -32,7 +32,7 @@ services:
             EZ_INSTANCE: opencity
             NO_FORCE_CONTAINER_REFRESH: 1
             RUN_INSTALLER: 'true'
-            RUN_INSTALLER_TRASPARENZA: 'true'
+            RUN_INSTALLER_TRASPARENZA: 'false'
             RUN_INSTALLER_NEWSLETTER: 'false'
             RUN_REINDEX_CONTENT: 'false'
 
