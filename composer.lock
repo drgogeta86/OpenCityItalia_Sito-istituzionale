@@ -89,16 +89,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.261.12",
+            "version": "3.261.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "9816402afa9ad9fe8ff7ff8131ea1dca2c6b7700"
+                "reference": "233b70c951707830dd205959375c98be35cbb36e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/9816402afa9ad9fe8ff7ff8131ea1dca2c6b7700",
-                "reference": "9816402afa9ad9fe8ff7ff8131ea1dca2c6b7700",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/233b70c951707830dd205959375c98be35cbb36e",
+                "reference": "233b70c951707830dd205959375c98be35cbb36e",
                 "shasum": ""
             },
             "require": {
@@ -177,9 +177,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.261.12"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.261.13"
             },
-            "time": "2023-03-15T18:20:10+00:00"
+            "time": "2023-03-16T18:22:32+00:00"
         },
         {
             "name": "clue/stream-filter",
@@ -3190,12 +3190,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/occsvimport.git",
-                "reference": "c26fc920ef6b344003ff93cfcf5ffc7e1c928059"
+                "reference": "85342ae3fcd7503d09ee9c2bb79f5e694772e09b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/occsvimport/zipball/c26fc920ef6b344003ff93cfcf5ffc7e1c928059",
-                "reference": "c26fc920ef6b344003ff93cfcf5ffc7e1c928059",
+                "url": "https://api.github.com/repos/OpencontentCoop/occsvimport/zipball/85342ae3fcd7503d09ee9c2bb79f5e694772e09b",
+                "reference": "85342ae3fcd7503d09ee9c2bb79f5e694772e09b",
                 "shasum": ""
             },
             "require": {
@@ -3222,7 +3222,7 @@
                 "issues": "https://github.com/OpencontentCoop/occsvimport/issues",
                 "source": "https://github.com/OpencontentCoop/occsvimport/tree/v3"
             },
-            "time": "2023-03-16T00:38:46+00:00"
+            "time": "2023-03-16T08:47:34+00:00"
         },
         {
             "name": "opencontent/occustomfind-ls",
@@ -3662,12 +3662,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/ocinstaller.git",
-                "reference": "9c301e3e7bb5058e194f6057eb2d48fc46f38728"
+                "reference": "397742e439e4290ac779bda24e98705065d034fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/ocinstaller/zipball/9c301e3e7bb5058e194f6057eb2d48fc46f38728",
-                "reference": "9c301e3e7bb5058e194f6057eb2d48fc46f38728",
+                "url": "https://api.github.com/repos/OpencontentCoop/ocinstaller/zipball/397742e439e4290ac779bda24e98705065d034fd",
+                "reference": "397742e439e4290ac779bda24e98705065d034fd",
                 "shasum": ""
             },
             "require": {
@@ -3699,7 +3699,7 @@
                 "issues": "https://github.com/OpencontentCoop/ocinstaller/issues",
                 "source": "https://github.com/OpencontentCoop/ocinstaller/tree/master"
             },
-            "time": "2023-03-13T22:49:22+00:00"
+            "time": "2023-03-16T17:46:52+00:00"
         },
         {
             "name": "opencontent/ocmaintenance-ls",
@@ -4276,16 +4276,16 @@
         },
         {
             "name": "opencontent/openpa_bootstrapitalia-ls",
-            "version": "2.0.52",
+            "version": "2.0.53",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/openpa_bootstrapitalia.git",
-                "reference": "319d12704936cf258df3a86a4a640574162e673d"
+                "reference": "1937c0e2dffd4a78afc1a10405b4a524d158cd14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/openpa_bootstrapitalia/zipball/319d12704936cf258df3a86a4a640574162e673d",
-                "reference": "319d12704936cf258df3a86a4a640574162e673d",
+                "url": "https://api.github.com/repos/OpencontentCoop/openpa_bootstrapitalia/zipball/1937c0e2dffd4a78afc1a10405b4a524d158cd14",
+                "reference": "1937c0e2dffd4a78afc1a10405b4a524d158cd14",
                 "shasum": ""
             },
             "require": {
@@ -4310,9 +4310,9 @@
             "description": "Opencontent OpenPA Bootstrap Italia",
             "support": {
                 "issues": "https://github.com/OpencontentCoop/openpa_bootstrapitalia/issues",
-                "source": "https://github.com/OpencontentCoop/openpa_bootstrapitalia/tree/2.0.52"
+                "source": "https://github.com/OpencontentCoop/openpa_bootstrapitalia/tree/2.0.53"
             },
-            "time": "2023-03-16T01:08:33+00:00"
+            "time": "2023-03-16T17:54:46+00:00"
         },
         {
             "name": "opencontent/openpa_newsletter-ls",
