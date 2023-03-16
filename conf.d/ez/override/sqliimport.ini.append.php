@@ -11,5 +11,5 @@ AvailableSourceHandlers[]
 AvailableSourceHandlers[]=csvimporthandler
 AvailableSourceHandlers[]=googlespreadsheetimporthandler
 AvailableSourceHandlers[]=opendatadataset_google_import
-
+AvailableSourceHandlers[]=ocmimporthandler
 */ ?>

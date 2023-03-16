@@ -23,7 +23,6 @@ SiteURL=
 DefaultAccess=frontend
 SiteList[]
 SiteList[]=frontend
-SiteList[]=debug
 SiteList[]=backend
 
 [HTTPHeaderSettings]
@@ -75,6 +74,7 @@ PolicyOmitList[]=opendata/analyzer
 PolicyOmitList[]=opendata/help
 PolicyOmitList[]=recurrence/parse
 PolicyOmitList[]=_fos_user_context_hash
+PolicyOmitList[]=bootstrapitalia/avatar
 
 [Session]
 SessionNameHandler=custom
@@ -92,11 +92,9 @@ MatchOrder=uri
 HostMatchMapItems[]
 RelatedSiteAccessList[]
 RelatedSiteAccessList[]=frontend
-RelatedSiteAccessList[]=debug
 RelatedSiteAccessList[]=backend
 AvailableSiteAccessList[]
 AvailableSiteAccessList[]=backend
-AvailableSiteAccessList[]=debug
 AvailableSiteAccessList[]=frontend
 
 [MailSettings]
@@ -133,7 +131,6 @@ QuickSettingsList[]
 DebugToolbar=disabled
 AlwaysLog[]=error
 AlwaysLog[]=warning
-AlwaysLog[]=debug
 
 [UserFormToken]
 CookieHttponly=true

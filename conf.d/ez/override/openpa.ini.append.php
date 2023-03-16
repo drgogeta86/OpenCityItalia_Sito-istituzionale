@@ -9,19 +9,23 @@ NomeAmministrazioneAfferente=
 UrlAmministrazioneAfferente=
 LiveIPList[]
 
+[StanzaDelCittadinoBridge]
+AutoDiscover=enabled
+
 [GeneralSettings]
 tag_line=
 theme=cagliari
+AutoDiscoverProfileLinks=enabled
 
 [NetworkSettings]
 PrototypeUrl=
 
 [CreditsSettings]
-Name=OpenCity
-Url=http://www.opencontent.it/opencity
-Title=OpenCity: dialogare tra enti e cittadini è più facile
-CodeUrl=https://gitlab.com/opencontent/opencity
-CodeVersion=2.0.0
+Name=OpenCity Italia
+Url=https://opencityitalia.it/
+Title=Servizi pubblici digitali per la tua città
+CodeUrl=https://gitlab.com/opencity-labs/sito-istituzionale
+CodeVersion=3.0.0
 
 [ViewSettings]
 AvailableView[]=card
