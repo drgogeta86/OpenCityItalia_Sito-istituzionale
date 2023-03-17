@@ -130,7 +130,7 @@ Per svuotare le cache:
 
 Per ricreare il database dai dump del repository e tornare quindi al prototipo orginale è possibile eseguire
 
-    docker-compose exec php bash -c 'php vendor/bin/ocinstall --cleanup --embed-dfs-schema --no-interaction --languages=ita-IT,ita-PA ../installer/'
+    docker-compose exec app bash -c 'php vendor/bin/ocinstall --cleanup --embed-dfs-schema --no-interaction --languages=ita-IT,ita-PA ../installer/'
 
 ## Informazioni tecniche
 
