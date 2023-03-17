@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e06689574672127c9012f1ac5fc147d5",
+    "content-hash": "8911c912667e1f75e1514bc4d01ccc70",
     "packages": [
         {
             "name": "arnebratt/batchtool",
@@ -3186,16 +3186,16 @@
         },
         {
             "name": "opencontent/occsvimport-ls",
-            "version": "v3.x-dev",
+            "version": "3.4.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/occsvimport.git",
-                "reference": "85342ae3fcd7503d09ee9c2bb79f5e694772e09b"
+                "reference": "4654799051e82adfb0c736c6e29291c1a86cda52"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/occsvimport/zipball/85342ae3fcd7503d09ee9c2bb79f5e694772e09b",
-                "reference": "85342ae3fcd7503d09ee9c2bb79f5e694772e09b",
+                "url": "https://api.github.com/repos/OpencontentCoop/occsvimport/zipball/4654799051e82adfb0c736c6e29291c1a86cda52",
+                "reference": "4654799051e82adfb0c736c6e29291c1a86cda52",
                 "shasum": ""
             },
             "require": {
@@ -3220,9 +3220,9 @@
             "description": "OpenContent CSV Import",
             "support": {
                 "issues": "https://github.com/OpencontentCoop/occsvimport/issues",
-                "source": "https://github.com/OpencontentCoop/occsvimport/tree/v3"
+                "source": "https://github.com/OpencontentCoop/occsvimport/tree/3.4.9"
             },
-            "time": "2023-03-16T08:47:34+00:00"
+            "time": "2023-03-16T23:56:52+00:00"
         },
         {
             "name": "opencontent/occustomfind-ls",

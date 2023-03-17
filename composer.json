@@ -48,7 +48,7 @@
     "opencontent/occhangeobjectdate-ls": "2.*",
     "opencontent/occhart-ls": "2.*",
     "opencontent/occodicefiscale-ls": "dev-master",
-    "opencontent/occsvimport-ls": "3.*",
+    "opencontent/occsvimport-ls": "3.4.*",
     "opencontent/occustomfind-ls": "2.*",
     "opencontent/oceasyontology-ls": "dev-master",
     "opencontent/oceditorialstuff-ls": "2.*",
