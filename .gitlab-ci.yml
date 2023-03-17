@@ -2,6 +2,7 @@ image: docker:latest
 
 stages:
     - build
+    - build_nginx
     - push
 
 variables:
