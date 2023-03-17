@@ -15,6 +15,11 @@ services:
       EZINI_site__TemplateSettings__ShowUsedTemplates: 'enabled'
       EZINI_site__DebugSettings__DebugOutput: 'enabled'
       EZINI_site__DebugSettings__DebugToolbar: 'enabled'
+      EZINI_site__DebugSettings__AlwaysLog_0: 'debug'
+      EZINI_site__DebugSettings__AlwaysLog_1: 'warning'
+      EZINI_site__DebugSettings__AlwaysLog_2: 'error'
+      EZINI_site__DebugSettings__AlwaysLog_3: 'notice'
+      EZINI_site__DebugSettings__AlwaysLog_4: 'strict'
       EZINI_ezjscore__eZJSCore__Packer: 'disabled'
     volumes:
       - ./html/kernel:/var/www/html/kernel:rw,cached
@@ -26,6 +31,14 @@ services:
       - ./conf.d/installer:/var/www/installer:rw,cached
       - ./composer.json:/var/www/composer.json
       - ./composer.lock:/var/www/composer.lock
+#    labels:
+#        traefik.enable: 'true'
+#        traefik.http.services.opencity-nginx.loadbalancer.server.port: 80
+#        traefik.http.routers.opencity-nginx-https.rule: Host(`opencity.localtest.me`)
+#        traefik.http.routers.opencity-nginx-https.entrypoints: websecure
+#        traefik.http.routers.opencity-nginx-https.tls: null
+#        traefik.http.routers.opencity-nginx-http.rule: Host(`opencity.localtest.me`)
+#        traefik.http.routers.opencity-nginx-http.entrypoints: web
 
   pgweb:
     image: sosedoff/pgweb

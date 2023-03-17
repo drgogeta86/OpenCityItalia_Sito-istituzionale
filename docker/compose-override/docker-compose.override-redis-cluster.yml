@@ -11,6 +11,15 @@ services:
             EZINI_openpa_cluster__RedisDFSBackendSettings__Password: 'bitnami'
             EZINI_openpa_cluster__RedisDFSBackendSettings__Cluster: 'enabled'
 
+    app:
+        depends_on:
+            - redis-node-5
+        environment:
+            # Redis cluster
+            EZINI_openpa_cluster__RedisDFSBackendSettings__Endpoint: 'tcp://redis-node-0:6379,tcp://redis-node-1:6379,tcp://redis-node-2:6379,tcp://redis-node-3:6379,,tcp://redis-node-4:6379,,tcp://redis-node-5:6379'
+            EZINI_openpa_cluster__RedisDFSBackendSettings__Password: 'bitnami'
+            EZINI_openpa_cluster__RedisDFSBackendSettings__Cluster: 'enabled'
+
     redis-node-0:
         image: docker.io/bitnami/redis-cluster:6.2
         volumes:
