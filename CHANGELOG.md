@@ -5,6 +5,270 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [3.0.0](https://gitlab.com/opencity-labs/sito-istituzionale/cms/compare/2.1.13...3.0.0) - 2023-03-17
+- Update readme.md
+- Fix error in readme.md
+- Update readme.md Fix yml code style
+- Fix gitlab-ci error
+- Add php nginx single images
+- Update default ini files, remove debug siteaccess
+- Update block.ini Fix typo in php Dockerfile Disable installer trasparenza by default
+- Refactor repo structure Use external image for solr and varnish Update installer
+- Bugfix installer
+- Add missing sql file
+- Speedup tag installer
+- Update installer
+- Allow failure public code
+- Add EZ_INSTANCE in php nginx configurations
+- Fix gitlab ci
+- Use php-nginx combo image
+- Update default ini files
+- Update .gitlab-ci.yml file
+- Update .gitlab-ci.yml: added check for publiccode
+- Fix readme image
+- Change repo image names
+- Update publiccode.yml
+- Revert "Update publiccode.yml"
+
+
+#### Installer
+- Add reset flag
+- Fix some class extra translations
+
+#### Code dependencies
+| Changes                                | From        | To           | Compare                                                                                         |
+|----------------------------------------|-------------|--------------|-------------------------------------------------------------------------------------------------|
+| aws/aws-crt-php                        | v1.0.2      | v1.0.4       | [...](https://github.com/awslabs/aws-crt-php/compare/v1.0.2...v1.0.4)                           |
+| aws/aws-sdk-php                        | 3.211.1     | 3.261.13     | [...](https://github.com/aws/aws-sdk-php/compare/3.211.1...3.261.13)                            |
+| clue/stream-filter                     | v1.6.0      | 1.x-dev      | [...](https://github.com/clue/stream-filter/compare/v1.6.0...1.x-dev)                           |
+| composer/installers                    | b8e490f     | 2a91702      | [...](https://github.com/composer/installers/compare/b8e490f...2a91702)                         |
+| ezsystems/ezpublish-legacy             | 2020.1000.7 | 2020.1000.10 | [...](https://github.com/Opencontent/ezpublish-legacy/compare/2020.1000.7...2020.1000.10)       |
+| friendsofsymfony/http-cache            | 2.13.0      | 2.x-dev      | [...](https://github.com/FriendsOfSymfony/FOSHttpCache/compare/2.13.0...2.x-dev)                |
+| google/apiclient-services              | v0.237.0    | v0.290.1     | [...](https://github.com/googleapis/google-api-php-client-services/compare/v0.237.0...v0.290.1) |
+| google/auth                            | v1.18.0     | v1.25.0      | [...](https://github.com/googleapis/google-auth-library-php/compare/v1.18.0...v1.25.0)          |
+| guzzlehttp/promises                    | fe752ae     | b94b280      | [...](https://github.com/guzzle/promises/compare/fe752ae...b94b280)                             |
+| intervention/image                     |             | 2.7.2        |                                                                                                 |
+| lasserafn/php-initial-avatar-generator |             | 49d0b10      |                                                                                                 |
+| lasserafn/php-initials                 |             | 3.1          |                                                                                                 |
+| lasserafn/php-string-script-language   |             | 0.3          |                                                                                                 |
+| league/html-to-markdown                |             | 2185d5e      |                                                                                                 |
+| meyfa/php-svg                          |             | v0.9.1       |                                                                                                 |
+| ml/json-ld                             | 1.2.0       | 1.2.1        | [...](https://github.com/lanthaler/JsonLD/compare/1.2.0...1.2.1)                                |
+| monolog/monolog                        | fb2c324     | 2.x-dev      | [...](https://github.com/Seldaek/monolog/compare/fb2c324...2.x-dev)                             |
+| opencontent/cjwnewsletter-ls           | 3.0.5       | 3.0.8        | [...](https://github.com/Opencontent/cjw_newsletter/compare/3.0.5...3.0.8)                      |
+| opencontent/ocbootstrap-ls             | 1.10.13     | v2.x-dev     | [...](https://github.com/OpencontentCoop/ocbootstrap/compare/1.10.13...v2.x-dev)                |
+| opencontent/occodicefiscale-ls         | 24253b0     | 280d3c1      | [...](https://github.com/OpencontentCoop/occodicefiscale/compare/24253b0...280d3c1)             |
+| opencontent/occsvimport-ls             | v3.x-dev    | 3.4.9        | [...](https://github.com/OpencontentCoop/occsvimport/compare/v3.x-dev...3.4.9)                  |
+| opencontent/occustomfind-ls            | 2.4.3       | 2.4.6        | [...](https://github.com/OpencontentCoop/occustomfind/compare/2.4.3...2.4.6)                    |
+| opencontent/ocembed-ls                 | 1.5.2       | 1.5.3        | [...](https://github.com/OpencontentCoop/ocembed/compare/1.5.2...1.5.3)                         |
+| opencontent/oci18n                     | c67c37e     | e34b8d7      | [...](https://github.com/OpencontentCoop/oci18n/compare/c67c37e...e34b8d7)                      |
+| opencontent/ocinstaller                | 828b25d     | 397742e      | [...](https://github.com/OpencontentCoop/ocinstaller/compare/828b25d...397742e)                 |
+| opencontent/ocmultibinary-ls           | 3.0.11      | 3.1.3        | [...](https://github.com/OpencontentCoop/ocmultibinary/compare/3.0.11...3.1.3)                  |
+| opencontent/ocopenapi-ls               | 1.3.11      | 1.4.1        | [...](https://github.com/OpencontentCoop/ocopenapi-ls/compare/1.3.11...1.4.1)                   |
+| opencontent/ocopendata-ls              | 2.28.1      | 2.28.3       | [...](https://github.com/OpencontentCoop/ocopendata/compare/2.28.1...2.28.3)                    |
+| opencontent/ocopendata_forms-ls        | 1.6.11      | 1.6.12       | [...](https://github.com/OpencontentCoop/ocopendata_forms/compare/1.6.11...1.6.12)              |
+| opencontent/ocrecaptcha-ls             | 1.5         | 1.5.1        | [...](https://github.com/OpencontentCoop/ocrecaptcha/compare/1.5...1.5.1)                       |
+| opencontent/openpa-ls                  | 3.13.7      | 3.18.1       | [...](https://github.com/OpencontentCoop/openpa/compare/3.13.7...3.18.1)                        |
+| opencontent/openpa_bootstrapitalia-ls  | 1.28.10     | 2.0.53       | [...](https://github.com/OpencontentCoop/openpa_bootstrapitalia/compare/1.28.10...2.0.53)       |
+| opencontent/openpa_newsletter-ls       | 2.9.8       | 2.9.11       | [...](https://github.com/OpencontentCoop/openpa_newsletter/compare/2.9.8...2.9.11)              |
+| opencontent/openpa_userprofile-ls      | 3998da2     | 689bb53      | [...](https://github.com/OpencontentCoop/openpa_userprofile/compare/3998da2...689bb53)          |
+| overtrue/pinyin                        |             | 4.x-dev      |                                                                                                 |
+| paragonie/constant_time_encoding       | v2.5.0      | v2.6.3       | [...](https://github.com/paragonie/constant_time_encoding/compare/v2.5.0...v2.6.3)              |
+| php-http/client-common                 | 2.5.0       | 2.6.0        | [...](https://github.com/php-http/client-common/compare/2.5.0...2.6.0)                          |
+| php-http/discovery                     | 1.14.1      | 1.x-dev      | [...](https://github.com/php-http/discovery/compare/1.14.1...1.x-dev)                           |
+| predis/predis                          | b3a5bdf     | v2.x-dev     | [...](https://github.com/predis/predis/compare/b3a5bdf...v2.x-dev)                              |
+| psr/event-dispatcher                   | aa4f89e     | e275e2d      | [...](https://github.com/php-fig/event-dispatcher/compare/aa4f89e...e275e2d)                    |
+| psr/http-factory                       | 36fa03d     | 5a4f141      | [...](https://github.com/php-fig/http-factory/compare/36fa03d...5a4f141)                        |
+| symfony/polyfill-ctype                 | v1.24.0     | ea208ce      | [...](https://github.com/symfony/polyfill-ctype/compare/v1.24.0...ea208ce)                      |
+| symfony/polyfill-intl-idn              | v1.24.0     | ecaafce      | [...](https://github.com/symfony/polyfill-intl-idn/compare/v1.24.0...ecaafce)                   |
+| symfony/polyfill-intl-normalizer       | v1.24.0     | 8c4ad05      | [...](https://github.com/symfony/polyfill-intl-normalizer/compare/v1.24.0...8c4ad05)            |
+| symfony/polyfill-mbstring              | v1.24.0     | f9c7aff      | [...](https://github.com/symfony/polyfill-mbstring/compare/v1.24.0...f9c7aff)                   |
+| symfony/polyfill-php72                 | v1.24.0     | 70f4aeb      | [...](https://github.com/symfony/polyfill-php72/compare/v1.24.0...70f4aeb)                      |
+| symfony/polyfill-php73                 | v1.24.0     | fe2f306      | [...](https://github.com/symfony/polyfill-php73/compare/v1.24.0...fe2f306)                      |
+| symfony/polyfill-php80                 | v1.24.0     | 6caa573      | [...](https://github.com/symfony/polyfill-php80/compare/v1.24.0...6caa573)                      |
+| zetacomponents/archive                 | 1.5         | 1.5.1        | [...](https://github.com/zetacomponents/Archive/compare/1.5...1.5.1)                            |
+| zetacomponents/base                    | 1.9.3       | 1.9.4        | [...](https://github.com/zetacomponents/Base/compare/1.9.3...1.9.4)                             |
+| zetacomponents/cache                   | 1.6.1       | 1.6.2        | [...](https://github.com/zetacomponents/Cache/compare/1.6.1...1.6.2)                            |
+| zetacomponents/database                | 1.5.2       | 1.5.3        | [...](https://github.com/zetacomponents/Database/compare/1.5.2...1.5.3)                         |
+| zetacomponents/feed                    | 1.4.1       | 1.4.2        | [...](https://github.com/zetacomponents/Feed/compare/1.4.1...1.4.2)                             |
+| zetacomponents/mail                    | 1.9.2       | 1.9.4        | [...](https://github.com/zetacomponents/Mail/compare/1.9.2...1.9.4)                             |
+| zetacomponents/webdav                  | 1.2         |              |                                                                                                 |
+
+
+Relevant changes by repository:
+
+**[opencontent/cjwnewsletter-ls changes between 3.0.5 and 3.0.8](https://github.com/Opencontent/cjw_newsletter/compare/3.0.5...3.0.8)**
+* Avoid google recaptcha marketing cookies
+* Anonymize EmailSubjectPrefix
+* Empty default EmailSubjectPrefix setting
+
+**[opencontent/occodicefiscale-ls changes between 24253b0 and 280d3c1](https://github.com/OpencontentCoop/occodicefiscale/compare/24253b0...280d3c1)**
+* Aggiunge le traduzioni delle stringhe
+* Typo fix
+* Esegue il trim del valore da inserire in db
+
+**[opencontent/occustomfind-ls changes between 2.4.3 and 2.4.6](https://github.com/OpencontentCoop/occustomfind/compare/2.4.3...2.4.6)**
+* Increase dataset api search limit to 400
+* Add data-bs-toggle to tabs nav
+* Add data-bs-toggle to tabs nav
+
+**[opencontent/ocembed-ls changes between 1.5.2 and 1.5.3](https://github.com/OpencontentCoop/ocembed/compare/1.5.2...1.5.3)**
+* php 5.6 bc
+
+**[opencontent/oci18n changes between c67c37e and e34b8d7](https://github.com/OpencontentCoop/oci18n/compare/c67c37e...e34b8d7)**
+* Add csv->class util script
+
+**[opencontent/ocinstaller changes between 828b25d and 397742e](https://github.com/OpencontentCoop/ocinstaller/compare/828b25d...397742e)**
+* Add timestamp type in postgres dba
+* Add only-schema option
+* Minor bug fixes
+* Add missing tag description setter in tag from csv
+* Add sync with local feature
+* Add node_id_from_remote_id function var
+* Avoid missing node error Force regenerate class cache
+* Add reset content fields
+* Avoid published version duplication
+
+**[opencontent/ocmultibinary-ls changes between 3.0.11 and 3.1.3](https://github.com/OpencontentCoop/ocmultibinary/compare/3.0.11...3.1.3)**
+* Introduce il desgin bootstrapitalia2
+* Corregge un bug di validazione per cui il campo obbligatorio non popolato non veniva evidenziato
+* Impedisce la visualizzazione di raggruppamenti di file vuoti
+* Corregge un problema di visualizzazione nei design bootstrapitalia
+
+**[opencontent/ocopenapi-ls changes between 1.3.11 and 1.4.1](https://github.com/OpencontentCoop/ocopenapi-ls/compare/1.3.11...1.4.1)**
+* Allow OPTIONS request (with a dummy workaround)
+* Bugfix in ezpRestRoute generation Make some classes overridable
+* Improve route sorting
+* Add new AbstractSlugClassesEntryPointFactoryProvider
+* Bugfix
+
+**[opencontent/ocopendata-ls changes between 2.28.1 and 2.28.3](https://github.com/OpencontentCoop/ocopendata/compare/2.28.1...2.28.3)**
+* Fix block items priority in set Page api
+* Fix empty field validation
+
+**[opencontent/ocopendata_forms-ls changes between 1.6.11 and 1.6.12](https://github.com/OpencontentCoop/ocopendata_forms/compare/1.6.11...1.6.12)**
+* Corregge un problema di compatibilità di bootstrap nella navigazione a tab dei form
+
+**[opencontent/ocrecaptcha-ls changes between 1.5 and 1.5.1](https://github.com/OpencontentCoop/ocrecaptcha/compare/1.5...1.5.1)**
+* Avoid google recaptcha marketing cookies
+
+**[opencontent/openpa-ls changes between 3.13.7 and 3.18.1](https://github.com/OpencontentCoop/openpa/compare/3.13.7...3.18.1)**
+* Permette la configurazione cookieless degli analytcs
+* Espone un sitemap.xml essenziale
+* Permette di configurare lo storage del cluster della cache su nfs e della var/storage in S3-like
+* Corregge un problema di lettura delle configurazioni nel clustering in nfs
+* Include il remote id nella generazione dei tree menu
+* Aggiunge nuove voci nella matrice dei contatti
+* Permette di configurare un endpoint custom per servire le immagini da AWS S3
+* Permette di configurare un firewall per l'invio mail basato su bounce collector
+* Introduce un cron dedicato all'aggiornamento delle liste di newsletter in base al bounce collector se configurato
+
+**[opencontent/openpa_bootstrapitalia-ls changes between 1.28.10 and 2.0.53](https://github.com/OpencontentCoop/openpa_bootstrapitalia/compare/1.28.10...2.0.53)**
+* Eredita la configurazione cookie-less degli script analytics
+* Permette di specificare una limitazione di sotto alberatura nella definizione degli attributi di tipo 'Visualizzazione degli oggetti correlati inversi'
+* Avoid google recaptcha marketing cookies
+* Aggiunge l'attributo target al banner (se abilitato)
+* Visualizza le date nella newsletter solo per i contenuti di classe event
+* Imposta come default il cookie consente avanzato
+* Corregge un problema di internazionalizzazione delle date nelle tabelle della trasparenza
+* Introduce un endpoint openapi dedicato alle pagine dell'amministrazione trasparente
+* Corregge un problema sul campo lotto/id nell'esposizione in openapi Introduce un endpoint openapi dedicato ai lotti
+* Corregge un bug nella selezione dei filtri di ricerca
+* Introduce un nuovo design compatibile con la versione 2  di bootstrapitalia
+* Introduce una versione mock del widget di customer satisfaction
+* Corregge alcune impostazioni dei temi css
+* Introduce un nuovo design compatibile con la versione 2  di bootstrapitalia
+* Introduce una versione mock del widget di customer satisfaction
+* Corregge alcune impostazioni dei temi css
+* no message
+* Corregge alcuni bug di visualizzazione dell'indice della pagina Introduce un data handler per la visualizzazione dei meta info per stanzadelcittadino
+* Introduce i tasti di navigazione nella vista edit Corregge un bug di visualizzazione di un link al numero di telefono
+* Permette di configurare un entrypoint satisfy dalla dashboard di valutazione
+* Minor bug fixes
+* Corregge la visualizzazione dei default dei topic
+* Introduce un sistema di autodiscover per ottenere le informazione del profilo
+* Modifica la visualizzazione di default degli elementi figli
+* Introduce la configurazione AutoDiscoverProfileLinks
+* Visualizza il form di iscrizione alla newsletter nel footer
+* Corregge la visualizzazione di default degli argomenti
+* Aggiorna le dipendenze di bootstrapitalia alla versione 2.2.0
+* Corregge la formattazione della pagina FAQ
+* Introduce le configurazioni per le app built-in
+* Corregge la configurazione di build per script principale bootstrapitalia
+* Rimuove il target blank per gli url di accesso al servizio
+* Aggiorna le stringhe di traduzione
+* Corregge un bug di visualizzazione nei contatti del footer Impedisce l'upload contestuale delle immagini
+* Aggiunge l'accesso alle bozze Nasconde gli argomenti senza relazioni
+* Corregge un problema di cache nel footer
+* Carica i font il prima possibile
+* Load fonts via JS
+* Rimuove le icone nel xmltag link
+* Ottimizzazione dei javascript inclusi
+* Introduce il bottone per impersonificare l'utente in settings utente
+* Corregge un problema di visualizzazione delle immagini nelle card
+* Rimuove la stringa statica "Servizio" nello stato del public_service
+* Corregge un problema di compatibilità di bootstrap nel widget opendatabrowse
+* Imposta l'url relativo per i datatable delle pagine trasparenza
+* Nelle dashboard redazionali viene invocato il webhook postpublish al cambio stato
+* Corregge un bug per cui le faq non venivano visualizzate nella lingua corretta
+* Corregge un bug di visualizzazione del calendario remoto
+* Corregge un bug per cui i link dei contenuti correlati non erano corretti
+* Forza la visualizzazione card simple per la libreria media
+* Corregge il caricamento degli asset css e js per alleggerire il caricamento della pagina
+* Corregge la selezione dei banner colorati per ottimizzare il caricamento dei css
+* Corregge lo script di inclusione di satisfy
+* Rimuove gli spazi in eccesso dall'html prodotto
+* Specifica le dimensioni del logo eu nel footer
+* Corregge un problema di caricamento delle librerie leaflet
+* Riduce le dimensioni dell'immagine principale nel blocco singolo in versione mobile
+* Corregge la visualizzazione della mappa nei luoghi e negli eventi
+* Corregge un bug javascript nella visualizzazione della mappa
+* Corregge un bug javascript nella visualizzazione della mappa negli eventi
+* Corregge un bug javascript nella visualizzazione della mappa negli eventi
+* Permette di nascondere il blocco contatti da configurazione
+* Corregge il path per recuperare la sessione da area personale
+* Corregge il path per recuperare la sessione da area personale
+* Corregge il path per recuperare la sessione da area personale
+* Corregge una regression nel blocco calendari remoti
+* Espone un metodo di migrazione dei banner colors
+* Permette di nascondere lo slim header da configurazione
+* Aggiorna i data-element secondo quanto previsto da https://github.com/italia/app-valutazione-modelli-docs@42bc2a8
+* Corregge un bug di visualizzazione nel blocco remoto e nel blocco argomenti
+* Corregge un problema di accessibilità nel cookie consent
+* Rimuove il caricamento di default di Jquery UI
+* Rimuove il data-element="feedback" se presente il widget di satisfy
+* Inserisce il data-element legal-notes-section Corregge alcuni errori di esposizione dei data-element
+* Corregge alcuni bug di visualizzazione
+* Introduce la splash page accedi e un sistema di connessione automatica con Stanzadelcittadino
+* Corregge alcuni problemi di accessibiità nel cookieconsent
+* Fix accessibility issues in gallery ui
+* Corregge l'url di logout dell'utente remoto
+* Riduce e riorganizza il codice javascript caricato di default
+* Inserisce il testo di default per la licenza di contenuti Preconfigura i servizi builtin in base
+* Corregge il data-element di note legali
+* Corregge un errore grave nella definizione della app builtin
+* Corregge un problema di configurazione delle built in
+* Aggiunge una vista a card per il blocco calendario
+* Corregge alcune visualizzazioni e alcuni bug Introduce una libreria di utilità per l’installer
+* Permette di visualizzare i contenuti su tag oltre al secondo livello Impedisce di mostrare contenuti non corretamente collocati
+* Corregge il limite nel blocco eventi con vista card
+* Corregge una regression introdotta con la modifica delle visualizzazioni degli elementi figli
+* Corregge un typo nella chiamata al tenant info (bridge con area personale)
+* Corregge la formattazione degli attributi ezauthor
+* Corregge alcuni errori che producevano warning
+* Corregge i permessi di accesso al menu rapido Le mie bozze
+* Permette di configurare il filr src di satisfy da configurazioni ini
+
+**[opencontent/openpa_newsletter-ls changes between 2.9.8 and 2.9.11](https://github.com/OpencontentCoop/openpa_newsletter/compare/2.9.8...2.9.11)**
+* Avoid google recaptcha marketing cookies
+* Bugfix in multi list subscription
+* Fix openpa/entiocali image path
+
+**[opencontent/openpa_userprofile-ls changes between 3998da2 and 689bb53](https://github.com/OpencontentCoop/openpa_userprofile/compare/3998da2...689bb53)**
+* Invalida un profilo con indirizzo email vuoto
+* Invalida un profilo con indirizzo email non valido
+
+
 ## [2.1.13](https://gitlab.com/opencontent/opencity/compare/2.1.12...2.1.13) - 2022-06-07
 - Add allow plugins in composer.json
 
