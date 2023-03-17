@@ -30,17 +30,17 @@ competenza.
 
 ## Altri riferimenti
 
-Per maggiori informazioni è possibile consultare:
+Per maggiori informazioni è possibile:
 
-* [Demo pubblica](https://www.comune.bugliano.pi.it)
-* [Manuale utente](https://manuale.opencontent.it/opencity/)
+* visitare l'[ambiente demo](https://www.comune.bugliano.pi.it)
+* consultare il [manuale utente](https://manuale.opencontent.it/opencity/)
 
 ## API
 
-* [Endpoint API della demo](https://www.comune.bugliano.pi.it/api/openapi/)
+* [Endpoint API dell'ambiente demo](https://www.comune.bugliano.pi.it/api/openapi/)
 * [Documentazione API](https://www.comune.bugliano.pi.it/openapi/doc)
 
-## Project Status
+## Stato del progetto
 
 Il prodotto è *stabile* e *production ready* e usato in produzione in diverse città Italiane.
 Lo sviluppo avviene in modo costante, sia su richiesta degli Enti utilizzatori, sia su iniziativa autonoma del
@@ -62,9 +62,10 @@ docker-compose up -d
 Il prototipo di OpenCity sarà disponibile ai seguenti indirizzi:
 
 * [https://opencity.localtest.me](https://opencity.localtest.me)
+* [https://opencity.localtest.me/backend](https://opencity.localtest.me/backend), per l'area riservata agli
+  amministratori
 
 E' possibile fare accesso come amministratore usando l'account:
-
 * utente:  `admin`
 * password: `change_password`
 
@@ -90,16 +91,14 @@ Il prototipo di OpenCity sarà disponibile ai seguenti indirizzi:
 * [http://solr-opencity.localtest.me/solr/](http://solr-opencity.localtest.me/solr/), per l'interfaccia amministrativa
   del motore di ricerca Solr
 * [http://traefik.localtest.me](https://traefik.localtest.me) per l'interfaccia amministrativa di Traefik
-* [http://mailhog.opencity.localtest.me](https://mailhog.opencity.localtest.me/), le email inviate in questo ambiente
+* [http://mailhog.localtest.me](http://mailhog.localtest.me/), le email inviate in questo ambiente
   sono visibili in questa interfaccia web
-* [http://pgweb-opencity.localtest.me](https://pgweb.opencity.localtest.me/), interfaccia web per il database PostgreSQL
-* [http://redisweb-opencity.localtest.me](https://redisweb-opencity.localtest.me/), interfaccia web per Redis
 
 Il funzionamento del sistema è configurato per funzionare solo con il protocollo https.
 Il certificato usato per tutti i domini è un wildcard self-signed certificate sul dominio *.localtest.me, quindi al
 primo collegamento verso tutti i domini *.localtest.me si riceve l'avviso di connessione non privata.
 
-### Useful commands
+### Comandi utili
 
 Per vedere i log di tutti container:
 
@@ -126,9 +125,7 @@ Per svuotare le cache:
 
     docker-compose exec app bash -c 'php bin/php/ezcache.php --clear-all'
 
-### Rebuild database from scratch
-
-Per ricreare il database dai dump del repository e tornare quindi al prototipo orginale è possibile eseguire
+Per ricreare il database dai dump del repository e tornare quindi al prototipo originale è possibile eseguire:
 
     docker-compose exec app bash -c 'php vendor/bin/ocinstall --cleanup --embed-dfs-schema --no-interaction --languages=ita-IT,ita-PA ../installer/'
 
@@ -152,10 +149,11 @@ Il repository non contiene direttamente il codice applicativo, contiene
 invece il file delle dipendenze PHP (`composer.json`) che elenca tutti i componenti
 necessari all'applicazione: il CMS eZ Publish, le estensioni dello stesso
 utilizzate e tra queste l'estensione opencity che implementa le funzionalità
-più rilevanti. 
+più rilevanti.
 
 Con un comando `composer install` dalla stessa directory è possibile ottenere il codice dell'applicativo
-pronto all'uso (si veda anche [Dockerfile](https://gitlab.com/opencity-labs/sito-istituzionale/cms/blob/master/Dockerfile))
+pronto all'uso (si veda
+anche [Dockerfile](https://gitlab.com/opencity-labs/sito-istituzionale/cms/blob/master/Dockerfile))
 
 Il file `Dockerfile` e le directory `/docker` e `/conf.d` contengono file di supporto per la creazione delle immagini
 Docker dell'applicativo.
@@ -187,7 +185,8 @@ ovvero [opencontentcoop/ezpublish](https://hub.docker.com/r/opencontentcoop/ezpu
 Per i dettagli su questa immagine si rimanda al [repository](https://www.github.com/OpencontentCoop/docker-ezpublish) ad
 essa dedicata.
 
-Le configurazioni di Solr sono impostate nell'[immagine dedicata](https://gitlab.com/opencity-labs/sito-istituzionale/solr)
+Le configurazioni di Solr sono impostate
+nell'[immagine dedicata](https://gitlab.com/opencity-labs/sito-istituzionale/solr)
 così come [quelle di Varnish](https://gitlab.com/opencity-labs/sito-istituzionale/varnish)
 
 ### Come si esegue la build del repository
