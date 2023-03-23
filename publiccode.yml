@@ -10,7 +10,7 @@ platforms:
 usedBy:
     - 'Comune di Vicopisano (PI)'
 landingURL: 'https://gitlab.com/opencity-labs/sito-istituzionale'
-logo: images/opencontent.png
+logo: images/opencity-italia.png
 categories:
     - content-management
     - communications
