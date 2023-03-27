@@ -258,7 +258,7 @@ platforms:
   - web
 releaseDate: '2023-03-01'
 softwareType: standalone/web
-softwareVersion: 2.1.13
+softwareVersion: 3.0.0
 url: 'https://gitlab.com/opencity-labs/sito-istituzionale/cms'
 usedBy:
   - Comune di Vicopisano (PI)
