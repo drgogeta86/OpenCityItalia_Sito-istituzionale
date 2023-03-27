@@ -2,7 +2,7 @@
 # metadata file that makes public software easily discoverable.
 # More info at https://github.com/italia/publiccode.yml
 
-publiccodeYmlVersion: '0.2'
+publiccodeYmlVersion: '0.3'
 categories:
   - content-management
   - communications
@@ -100,7 +100,6 @@ description:
         Gestione di informazioni geografiche con Nominatim (geocoder) e
         OpenStreetMap (rappresentazione)
       - ntegrazione rapida con OpenCity Italia - Stanza del Cittadino
-    genericName: Sito web comunale
     longDescription: |
       **Il modello comuni di Designers Italia** 
 
@@ -215,9 +214,9 @@ description:
 developmentStatus: stable
 intendedAudience:
   countries:
-    - IT
-    - GB
-    - DE
+    - it
+    - gb
+    - de
   scope:
     - local-authorities
     - culture
