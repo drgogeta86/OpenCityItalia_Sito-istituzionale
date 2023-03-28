@@ -46,9 +46,9 @@ variables:
   - name: update_comuni
     value: env(UPDATE_COMUNI)
   - name: do_lock
-    value: false #wip
+    value: false
   - name: reset
-    value: true #wip
+    value: false
 steps:
   - type: sql
     identifier: alter_contentobject_date_interger_type
@@ -532,3 +532,11 @@ steps:
 
   - type: php_callable
     identifier: 'BootstrapItaliaInstallerUtils::setGovernmentServiceOntologyMap'
+
+  - type: class
+    identifier: edit_homepage
+    condition: $do_lock
+
+  - type: class
+    identifier: edit_page
+    condition: $do_lock

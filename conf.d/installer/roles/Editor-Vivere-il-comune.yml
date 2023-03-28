@@ -5,7 +5,7 @@ policies:
     FunctionName: create
     Limitation:
       Node:
-        - $contenttree_Vivere-il-comune_Luoghi_path_string
+        - $contenttree_Vivere-il-comune_Luoghi_node
       Class:
         - $class_place
   -

@@ -32,7 +32,7 @@ data:
               livello_profondita: ''
               state_id: ''
               topic_node_id: ''
-              color_style: bg-100
+              color_style: ''
               container_style: ''
               node_id: $root_node
               tags: ''

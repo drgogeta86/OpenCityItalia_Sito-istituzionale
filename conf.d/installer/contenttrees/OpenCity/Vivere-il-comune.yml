@@ -51,7 +51,7 @@ data:
                           escludi_classi: ''
                           ordinamento: pubblicato
                           livello_profondita: ''
-                          state_id: ''
+                          state_id: $state_privacy_public
                           topic_node_id: ''
                           tags: ''
                           color_style: ''

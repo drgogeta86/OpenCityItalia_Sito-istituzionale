@@ -24,7 +24,7 @@ data:
                         type: OpendataQueriedContents
                         view: default
                         custom_attributes:
-                            query: 'classes [place]'
+                            query: 'classes [place] and state in [privacy.public]'
                             ignore_policy: '0'
                             show_grid: '0'
                             show_map: '1'
