@@ -33,6 +33,8 @@ Cache-Control[]
 Cache-Control[/]=public, must-revalidate, max-age=60, s-maxage=600
 HeaderList[]=Vary
 Vary[/]=X-User-Context-Hash
+HeaderList[]=X-Powered-By
+X-Powered-By[/]=OpencityItalia
 
 [VarnishSettings]
 VarnishHostName=

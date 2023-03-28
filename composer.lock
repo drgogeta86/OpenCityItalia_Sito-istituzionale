@@ -39,23 +39,27 @@
         },
         {
             "name": "aws/aws-crt-php",
-            "version": "v1.0.4",
+            "version": "v1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/awslabs/aws-crt-php.git",
-                "reference": "f5c64ee7c5fce196e2519b3d9b7138649efe032d"
+                "reference": "1926277fc71d253dfa820271ac5987bdb193ccf5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/awslabs/aws-crt-php/zipball/f5c64ee7c5fce196e2519b3d9b7138649efe032d",
-                "reference": "f5c64ee7c5fce196e2519b3d9b7138649efe032d",
+                "url": "https://api.github.com/repos/awslabs/aws-crt-php/zipball/1926277fc71d253dfa820271ac5987bdb193ccf5",
+                "reference": "1926277fc71d253dfa820271ac5987bdb193ccf5",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.5"
             },
             "require-dev": {
-                "phpunit/phpunit": "^4.8.35|^5.6.3"
+                "phpunit/phpunit": "^4.8.35||^5.6.3||^9.5",
+                "yoast/phpunit-polyfills": "^1.0"
+            },
+            "suggest": {
+                "ext-awscrt": "Make sure you install awscrt native extension to use any of the functionality."
             },
             "type": "library",
             "autoload": {
@@ -74,7 +78,7 @@
                 }
             ],
             "description": "AWS Common Runtime for PHP",
-            "homepage": "http://aws.amazon.com/sdkforphp",
+            "homepage": "https://github.com/awslabs/aws-crt-php",
             "keywords": [
                 "amazon",
                 "aws",
@@ -83,22 +87,22 @@
             ],
             "support": {
                 "issues": "https://github.com/awslabs/aws-crt-php/issues",
-                "source": "https://github.com/awslabs/aws-crt-php/tree/v1.0.4"
+                "source": "https://github.com/awslabs/aws-crt-php/tree/v1.2.1"
             },
-            "time": "2023-01-31T23:08:25+00:00"
+            "time": "2023-03-24T20:22:19+00:00"
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.261.13",
+            "version": "3.262.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "233b70c951707830dd205959375c98be35cbb36e"
+                "reference": "6359e467b6f099149f93769e014416b5f841bb42"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/233b70c951707830dd205959375c98be35cbb36e",
-                "reference": "233b70c951707830dd205959375c98be35cbb36e",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/6359e467b6f099149f93769e014416b5f841bb42",
+                "reference": "6359e467b6f099149f93769e014416b5f841bb42",
                 "shasum": ""
             },
             "require": {
@@ -177,9 +181,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.261.13"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.262.2"
             },
-            "time": "2023-03-16T18:22:32+00:00"
+            "time": "2023-03-27T18:22:32+00:00"
         },
         {
             "name": "clue/stream-filter",
@@ -1443,7 +1447,7 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.290.1",
+            "version": "v0.292.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
@@ -1481,7 +1485,7 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.290.1"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.292.0"
             },
             "time": "2023-03-13T21:05:11+00:00"
         },
@@ -3186,16 +3190,16 @@
         },
         {
             "name": "opencontent/occsvimport-ls",
-            "version": "3.4.9",
+            "version": "3.4.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/occsvimport.git",
-                "reference": "4654799051e82adfb0c736c6e29291c1a86cda52"
+                "reference": "4600959a7460f55a2f241fca9a4a268df5d8fb2e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/occsvimport/zipball/4654799051e82adfb0c736c6e29291c1a86cda52",
-                "reference": "4654799051e82adfb0c736c6e29291c1a86cda52",
+                "url": "https://api.github.com/repos/OpencontentCoop/occsvimport/zipball/4600959a7460f55a2f241fca9a4a268df5d8fb2e",
+                "reference": "4600959a7460f55a2f241fca9a4a268df5d8fb2e",
                 "shasum": ""
             },
             "require": {
@@ -3220,9 +3224,9 @@
             "description": "OpenContent CSV Import",
             "support": {
                 "issues": "https://github.com/OpencontentCoop/occsvimport/issues",
-                "source": "https://github.com/OpencontentCoop/occsvimport/tree/3.4.9"
+                "source": "https://github.com/OpencontentCoop/occsvimport/tree/3.4.15"
             },
-            "time": "2023-03-16T23:56:52+00:00"
+            "time": "2023-03-28T13:01:12+00:00"
         },
         {
             "name": "opencontent/occustomfind-ls",
@@ -3662,12 +3666,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/ocinstaller.git",
-                "reference": "397742e439e4290ac779bda24e98705065d034fd"
+                "reference": "48a7fb274f25e22f13164ac7645d189b9467f966"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/ocinstaller/zipball/397742e439e4290ac779bda24e98705065d034fd",
-                "reference": "397742e439e4290ac779bda24e98705065d034fd",
+                "url": "https://api.github.com/repos/OpencontentCoop/ocinstaller/zipball/48a7fb274f25e22f13164ac7645d189b9467f966",
+                "reference": "48a7fb274f25e22f13164ac7645d189b9467f966",
                 "shasum": ""
             },
             "require": {
@@ -3699,7 +3703,7 @@
                 "issues": "https://github.com/OpencontentCoop/ocinstaller/issues",
                 "source": "https://github.com/OpencontentCoop/ocinstaller/tree/master"
             },
-            "time": "2023-03-16T17:46:52+00:00"
+            "time": "2023-03-28T13:59:13+00:00"
         },
         {
             "name": "opencontent/ocmaintenance-ls",
@@ -3779,16 +3783,16 @@
         },
         {
             "name": "opencontent/ocmultibinary-ls",
-            "version": "3.1.3",
+            "version": "3.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/ocmultibinary.git",
-                "reference": "640884e31c4aacac54ab385780581ffbb7ed7b7e"
+                "reference": "81a1a5867d81a17ff57779ca3fc673916ab59c19"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/ocmultibinary/zipball/640884e31c4aacac54ab385780581ffbb7ed7b7e",
-                "reference": "640884e31c4aacac54ab385780581ffbb7ed7b7e",
+                "url": "https://api.github.com/repos/OpencontentCoop/ocmultibinary/zipball/81a1a5867d81a17ff57779ca3fc673916ab59c19",
+                "reference": "81a1a5867d81a17ff57779ca3fc673916ab59c19",
                 "shasum": ""
             },
             "require": {
@@ -3811,9 +3815,9 @@
             "description": "Opencontent Multibinary eZPublish Legacy Datatype",
             "support": {
                 "issues": "https://github.com/OpencontentCoop/ocmultibinary/issues",
-                "source": "https://github.com/OpencontentCoop/ocmultibinary/tree/3.1.3"
+                "source": "https://github.com/OpencontentCoop/ocmultibinary/tree/3.1.5"
             },
-            "time": "2023-03-03T12:33:39+00:00"
+            "time": "2023-03-28T14:46:30+00:00"
         },
         {
             "name": "opencontent/ocopenapi-ls",
@@ -4276,16 +4280,16 @@
         },
         {
             "name": "opencontent/openpa_bootstrapitalia-ls",
-            "version": "2.0.53",
+            "version": "2.0.64",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/openpa_bootstrapitalia.git",
-                "reference": "1937c0e2dffd4a78afc1a10405b4a524d158cd14"
+                "reference": "5b6aa27afa827a5646898b1e3386d0104dd6d876"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/openpa_bootstrapitalia/zipball/1937c0e2dffd4a78afc1a10405b4a524d158cd14",
-                "reference": "1937c0e2dffd4a78afc1a10405b4a524d158cd14",
+                "url": "https://api.github.com/repos/OpencontentCoop/openpa_bootstrapitalia/zipball/5b6aa27afa827a5646898b1e3386d0104dd6d876",
+                "reference": "5b6aa27afa827a5646898b1e3386d0104dd6d876",
                 "shasum": ""
             },
             "require": {
@@ -4310,9 +4314,9 @@
             "description": "Opencontent OpenPA Bootstrap Italia",
             "support": {
                 "issues": "https://github.com/OpencontentCoop/openpa_bootstrapitalia/issues",
-                "source": "https://github.com/OpencontentCoop/openpa_bootstrapitalia/tree/2.0.53"
+                "source": "https://github.com/OpencontentCoop/openpa_bootstrapitalia/tree/2.0.64"
             },
-            "time": "2023-03-16T17:54:46+00:00"
+            "time": "2023-03-28T13:42:13+00:00"
         },
         {
             "name": "opencontent/openpa_newsletter-ls",
@@ -5057,12 +5061,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "abbc1ab7c794b6cbb7ddb2d94dfe85c02634f020"
+                "reference": "b799abd1a0c387590c2f58ee3e12a640412b6031"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/abbc1ab7c794b6cbb7ddb2d94dfe85c02634f020",
-                "reference": "abbc1ab7c794b6cbb7ddb2d94dfe85c02634f020",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/b799abd1a0c387590c2f58ee3e12a640412b6031",
+                "reference": "b799abd1a0c387590c2f58ee3e12a640412b6031",
                 "shasum": ""
             },
             "require": {
@@ -5159,7 +5163,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-03-15T02:43:29+00:00"
+            "time": "2023-03-23T18:04:07+00:00"
         },
         {
             "name": "predis/predis",
@@ -6002,12 +6006,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
-                "reference": "57b312f7fcb07f710d900c7e6f95cb883d2bfda1"
+                "reference": "1df20e45d56da29a4b1d8259dd6e950acbf1b13f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/57b312f7fcb07f710d900c7e6f95cb883d2bfda1",
-                "reference": "57b312f7fcb07f710d900c7e6f95cb883d2bfda1",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/1df20e45d56da29a4b1d8259dd6e950acbf1b13f",
+                "reference": "1df20e45d56da29a4b1d8259dd6e950acbf1b13f",
                 "shasum": ""
             },
             "require": {
@@ -6079,7 +6083,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-03-06T20:02:25+00:00"
+            "time": "2023-03-17T11:31:58+00:00"
         },
         {
             "name": "symfony/event-dispatcher-contracts",
@@ -8153,23 +8157,23 @@
         },
         {
             "name": "zetacomponents/mvc-tools",
-            "version": "1.2.1",
+            "version": "1.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zetacomponents/MvcTools.git",
-                "reference": "6e910be5b6adf9749694813417a3341ea1a628fd"
+                "reference": "3661ad0847f84c2ffb8f99c7d3a9dfcf458296f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zetacomponents/MvcTools/zipball/6e910be5b6adf9749694813417a3341ea1a628fd",
-                "reference": "6e910be5b6adf9749694813417a3341ea1a628fd",
+                "url": "https://api.github.com/repos/zetacomponents/MvcTools/zipball/3661ad0847f84c2ffb8f99c7d3a9dfcf458296f5",
+                "reference": "3661ad0847f84c2ffb8f99c7d3a9dfcf458296f5",
                 "shasum": ""
             },
             "require": {
                 "zetacomponents/base": "~1.8"
             },
             "require-dev": {
-                "phpunit/phpunit": "*",
+                "phpunit/phpunit": "~9.0",
                 "zetacomponents/unit-test": "*"
             },
             "type": "library",
@@ -8206,9 +8210,9 @@
             "homepage": "https://github.com/zetacomponents",
             "support": {
                 "issues": "https://github.com/zetacomponents/MvcTools/issues",
-                "source": "https://github.com/zetacomponents/MvcTools/tree/1.2.1"
+                "source": "https://github.com/zetacomponents/MvcTools/tree/1.2.2"
             },
-            "time": "2016-01-01T23:15:45+00:00"
+            "time": "2023-03-28T16:10:15+00:00"
         },
         {
             "name": "zetacomponents/persistent-object",
