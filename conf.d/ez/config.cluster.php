@@ -6,7 +6,7 @@ define( 'CLUSTER_STORAGE_CHARSET',       'utf8' );
 define( 'CLUSTER_METADATA_TABLE_CACHE',  'ezdfsfile_cache' );
 define( 'CLUSTER_METADATA_CACHE_PATH',   '/cache/' );
 define( 'CLUSTER_METADATA_STORAGE_PATH', '/storage/' );
-define( 'CLUSTER_EXPIRY_TIMEOUT',        2592000 );
+define( 'CLUSTER_EXPIRY_TIMEOUT',        31536000 );
 
 define( 'CLUSTER_STORAGE_HOST',          getenv('EZINI_file__eZDFSClusteringSettings__DBHost') );
 define( 'CLUSTER_STORAGE_PORT',          getenv('EZINI_file__eZDFSClusteringSettings__DBPort') );
