@@ -30,7 +30,7 @@ CustomHeader=enabled
 OnlyForAnonymous=disabled
 OnlyForContent=enabled
 Cache-Control[]
-Cache-Control[/]=public, must-revalidate, max-age=60, s-maxage=600
+Cache-Control[/]=public, max-age=3000, s-maxage=259200
 HeaderList[]=Vary
 Vary[/]=X-User-Context-Hash
 HeaderList[]=X-Powered-By
