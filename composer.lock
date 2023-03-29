@@ -3861,16 +3861,16 @@
         },
         {
             "name": "opencontent/ocopendata-ls",
-            "version": "2.28.3",
+            "version": "2.28.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/ocopendata.git",
-                "reference": "115eabd8c4ed43109e12030c8bb47f9044398b53"
+                "reference": "cdbedc19b7d7541f11f32c43eabebafaa4236519"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/ocopendata/zipball/115eabd8c4ed43109e12030c8bb47f9044398b53",
-                "reference": "115eabd8c4ed43109e12030c8bb47f9044398b53",
+                "url": "https://api.github.com/repos/OpencontentCoop/ocopendata/zipball/cdbedc19b7d7541f11f32c43eabebafaa4236519",
+                "reference": "cdbedc19b7d7541f11f32c43eabebafaa4236519",
                 "shasum": ""
             },
             "require": {
@@ -3893,9 +3893,9 @@
             "description": "Opencontent OpenData Extension",
             "support": {
                 "issues": "https://github.com/OpencontentCoop/ocopendata/issues",
-                "source": "https://github.com/OpencontentCoop/ocopendata/tree/2.28.3"
+                "source": "https://github.com/OpencontentCoop/ocopendata/tree/2.28.4"
             },
-            "time": "2023-03-15T14:21:16+00:00"
+            "time": "2023-03-29T13:44:24+00:00"
         },
         {
             "name": "opencontent/ocopendata_forms-ls",
