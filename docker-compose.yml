@@ -50,8 +50,8 @@ services:
       #### Impostazioni nome sito e corollari
       EZINI_site__SiteSettings__SiteName: "OpenCity"
       EZINI_site__SiteSettings__SiteURL: "opencity.localtest.me"
-      EZINI_openpa__InstanceSettings__NomeAmministrazioneAfferente: "OpenContent"
-      EZINI_openpa__InstanceSettings__UrlAmministrazioneAfferente: "https://www.opencontent.it/opencity"
+      EZINI_openpa__InstanceSettings__NomeAmministrazioneAfferente: "OpenCityLabs"
+      EZINI_openpa__InstanceSettings__UrlAmministrazioneAfferente: "https://opencityitalia.it/"
       EZINI_openpa__GeneralSettings__tag_line: "Il sito web per l'ente pubblico"
       EZINI_openpa__GeneralSettings__theme: default
 

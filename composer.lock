@@ -93,16 +93,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.262.2",
+            "version": "3.262.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "6359e467b6f099149f93769e014416b5f841bb42"
+                "reference": "f5c8142d43846194bbb3bb40b18e7f6df2788409"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/6359e467b6f099149f93769e014416b5f841bb42",
-                "reference": "6359e467b6f099149f93769e014416b5f841bb42",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/f5c8142d43846194bbb3bb40b18e7f6df2788409",
+                "reference": "f5c8142d43846194bbb3bb40b18e7f6df2788409",
                 "shasum": ""
             },
             "require": {
@@ -181,9 +181,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.262.2"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.262.3"
             },
-            "time": "2023-03-27T18:22:32+00:00"
+            "time": "2023-03-28T18:18:50+00:00"
         },
         {
             "name": "clue/stream-filter",
@@ -3666,12 +3666,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/ocinstaller.git",
-                "reference": "48a7fb274f25e22f13164ac7645d189b9467f966"
+                "reference": "316f8e43569741c6c0e2708074d38645ebc42d0c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/ocinstaller/zipball/48a7fb274f25e22f13164ac7645d189b9467f966",
-                "reference": "48a7fb274f25e22f13164ac7645d189b9467f966",
+                "url": "https://api.github.com/repos/OpencontentCoop/ocinstaller/zipball/316f8e43569741c6c0e2708074d38645ebc42d0c",
+                "reference": "316f8e43569741c6c0e2708074d38645ebc42d0c",
                 "shasum": ""
             },
             "require": {
@@ -3703,7 +3703,7 @@
                 "issues": "https://github.com/OpencontentCoop/ocinstaller/issues",
                 "source": "https://github.com/OpencontentCoop/ocinstaller/tree/master"
             },
-            "time": "2023-03-28T13:59:13+00:00"
+            "time": "2023-03-29T10:57:34+00:00"
         },
         {
             "name": "opencontent/ocmaintenance-ls",
@@ -4280,16 +4280,16 @@
         },
         {
             "name": "opencontent/openpa_bootstrapitalia-ls",
-            "version": "2.0.64",
+            "version": "2.0.65",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/openpa_bootstrapitalia.git",
-                "reference": "5b6aa27afa827a5646898b1e3386d0104dd6d876"
+                "reference": "cc5a91cfc990d574bb063c604001a16d74a238f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/openpa_bootstrapitalia/zipball/5b6aa27afa827a5646898b1e3386d0104dd6d876",
-                "reference": "5b6aa27afa827a5646898b1e3386d0104dd6d876",
+                "url": "https://api.github.com/repos/OpencontentCoop/openpa_bootstrapitalia/zipball/cc5a91cfc990d574bb063c604001a16d74a238f5",
+                "reference": "cc5a91cfc990d574bb063c604001a16d74a238f5",
                 "shasum": ""
             },
             "require": {
@@ -4314,9 +4314,9 @@
             "description": "Opencontent OpenPA Bootstrap Italia",
             "support": {
                 "issues": "https://github.com/OpencontentCoop/openpa_bootstrapitalia/issues",
-                "source": "https://github.com/OpencontentCoop/openpa_bootstrapitalia/tree/2.0.64"
+                "source": "https://github.com/OpencontentCoop/openpa_bootstrapitalia/tree/2.0.65"
             },
-            "time": "2023-03-28T13:42:13+00:00"
+            "time": "2023-03-29T10:54:43+00:00"
         },
         {
             "name": "opencontent/openpa_newsletter-ls",
