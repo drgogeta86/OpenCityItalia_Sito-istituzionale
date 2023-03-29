@@ -38,7 +38,6 @@ data:
                           show_all_link: '1'
                           show_all_text: Tutti gli eventi
                           intro_text: ''
-                          node_id: '90'
                       valid_items: [ ]
                     - block_id: c397de8a43b6f1080290f852f1d2463d
                       name: Luoghi in evidenza
@@ -59,7 +58,6 @@ data:
                           show_all_link: '1'
                           show_all_text: Tutti i luoghi
                           intro_text: ''
-                          node_id: '91'
                       valid_items: [ ]
         icon: null
         show_topics: 0
