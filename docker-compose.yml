@@ -4,8 +4,6 @@ services:
 
   app:
     image: registry.gitlab.com/opencity-labs/sito-istituzionale/cms/app:latest
-    build:
-      context: .
     restart: unless-stopped
     depends_on:
       - minio
@@ -118,6 +116,9 @@ services:
       ## occorre configurare AWS_PROFILE oppure AWS_ACCESS_KEY_ID,AWS_SECRET_ACCESS_KEY,AWS_SESSION_TOKEN:
       AWS_ACCESS_KEY_ID: AKIAIOSFODNN7EXAMPLE
       AWS_SECRET_ACCESS_KEY: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+
+      EZINI_openpa__ImageSettings__FlyImgBaseUrl: ''
+      EZINI_openpa__ImageSettings__LazyLoadImages: 'disabled'
 
   varnish:
     image: registry.gitlab.com/opencity-labs/sito-istituzionale/varnish:main
@@ -281,7 +282,7 @@ services:
       /usr/bin/mc mb minio/opencity-bucket;
       /usr/bin/mc anonymous set public minio/opencity-bucket;            
       exit 0;
-      "  
+      "
 
 volumes:
   dfs:
