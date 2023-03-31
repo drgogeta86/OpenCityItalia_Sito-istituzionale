@@ -236,7 +236,7 @@ it:
     spid: false
 landingURL: 'https://gitlab.com/opencity-labs/sito-istituzionale'
 legal:
-  license: AGPL-3.0-or-later
+  license: GPL-2.0-only
   mainCopyrightOwner: OpenCity Labs srl
   repoOwner: OpenCity Labs srl
 localisation:
