@@ -185,16 +185,6 @@ steps:
       - layout
       - tag_menu
       - show_tag_cards
-  - type: content
-    identifier: Vivere-il-comune
-    lock: $do_lock
-    reset:
-      - name
-      - abstract
-      - show_children
-      - layout
-      - tag_menu
-      - show_tag_cards
   - type: contenttree
     identifier: Documenti-e-dati
     parent: $contenttree_Amministrazione_Documenti-e-dati_node
@@ -338,6 +328,9 @@ steps:
     identifier: Editor-Utenti
   - type: content
     identifier: Editor-Sito
+    lock: true
+  - type: content
+    identifier: Editor-Homepage
 
   - type: class
     identifier: apps_container
@@ -479,6 +472,10 @@ steps:
     identifier: Dashboard-Luoghi
     apply_to:
       - $content_Editor-Vivere-il-comune_object
+  - type: role
+    identifier: Editor-Homepage
+    apply_to:
+      - $content_Editor-Homepage_object
 
   - type: openparecaptcha
     public: $recaptcha_public

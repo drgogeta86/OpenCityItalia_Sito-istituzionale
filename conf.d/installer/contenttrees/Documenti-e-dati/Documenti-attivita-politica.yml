@@ -30,6 +30,7 @@ data:
                             container_style: ''
                             node_id: $root_node
                             hide_empty_facets: '1'
+                            hide_publication_end_time: '1'
                         valid_items: {  }
         icon: it-file
         show_topics: 0
