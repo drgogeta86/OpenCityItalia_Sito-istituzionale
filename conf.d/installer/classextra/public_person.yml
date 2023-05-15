@@ -102,6 +102,7 @@ card_small_view:
     enabled:
         '*': '1'
     show:
+        image: '1'
         abstract: '1'
         competenze: '1'
         content_show_read_more: '1'

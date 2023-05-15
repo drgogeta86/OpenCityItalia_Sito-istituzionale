@@ -64,3 +64,7 @@ policies:
         ModuleName: bootstrapitalia
         FunctionName: opencity_locked_editor
         Limitation: {  }
+    -
+        ModuleName: bootstrapitalia
+        FunctionName: opencity_info_editor
+        Limitation: {  }

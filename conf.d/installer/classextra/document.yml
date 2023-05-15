@@ -92,7 +92,7 @@ table_view:
         content_show_published: '1'
         data_protocollazione: '1'
         document_type: '1'
-        has_code: '1'
+        has_code: '0'
         protocollo: '1'
     show:
         announcement_type: '1'

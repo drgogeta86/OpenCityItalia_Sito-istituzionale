@@ -1,6 +1,5 @@
 parent_id,id,remote_id,path_string,keyword_it,keyword_de,keyword_pa,keyword_en,synonyms_it,synonyms_de,synonyms_pa,synonyms_en,description_it,description_de,description_en,hash
 0,1,a2b6dff1f3b039712e5c6bb43a1fb673,/196/,Eventi,,,,,,,,,,,1ac7193865e75ce8ec62a75a35b400d5
-1,2,8356906c7f753e57c7aede6fbcc24187,/196/197/,"Patrocinatori di eventi",,,,,,,,,,,dd1c3a0842b542caf9fe114f0ffc4500
 1,3,4c6ccc30895454b2d9174a9dbd5f5ecb,/196/198/,"Tematiche eventi",,,,,,,,,,,b717613a3ea844878fd55a144c78f125
 3,4,cb91ded4193044f742e8453d8341200c,/196/198/199/,"Evento culturale",,https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/1,"Cultural event","Eventi culturali",,,,,,,f8e1ac87618ec43c4addc7d676fb2ce8
 4,5,59f248d113d55390a225f92fc7ce0a09,/196/198/199/201/,"Manifestazione artistica",,https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/public-event-types/11,"Arts exhibition","Manifestazioni artistiche",,,,,,,0ff126302e8b5fcfaa8f899020af38fe

@@ -15,9 +15,7 @@ data:
         eu: 'http://eurovoc.europa.eu/100156'
         theme: null
         data_themes_eurovocs:
-            - Agricoltura
-            - pesca
-            - 'silvicoltura e prodotti alimentari'
+            - 'Agricoltura, pesca, silvicoltura e prodotti alimentari'
         image: {  }
         abstract: '<p>Informazioni relative ad agricoltura, pesca, animali, politiche forestali e alimentari</p>'
         icon: null

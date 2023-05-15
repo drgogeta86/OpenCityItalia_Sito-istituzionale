@@ -1,39 +1,41 @@
 name: 'Editor Vivere il comune'
 policies:
-  -
-    ModuleName: content
+  - ModuleName: content
     FunctionName: create
     Limitation:
       Node:
-        - $contenttree_Vivere-il-comune_Luoghi_path_string
+        - $contenttree_Vivere-il-comune_Luoghi_node
       Class:
         - $class_place
-  -
-    ModuleName: content
+  - ModuleName: content
     FunctionName: create
     Limitation:
       Node:
         - $contenttree_Vivere-il-comune_Eventi_node
       Class:
         - $class_event
-  -
-    ModuleName: content
+  - ModuleName: content
     FunctionName: edit
     Limitation:
       Class:
         - $class_event
         - $class_place
-  -
-    ModuleName: state
+  - ModuleName: state
     FunctionName: assign
     Limitation:
       Class:
         - $class_event
         - $class_place
-  -
-    ModuleName: content
+  - ModuleName: content
     FunctionName: remove
     Limitation:
       Class:
         - $class_event
         - $class_place
+  - ModuleName: bootstrapitalia
+    FunctionName: opencity_locked_editor
+    Limitation:
+      Node:
+        - $contenttree_OpenCity_Vivere-il-comune_node
+      Subtree:
+        - $contenttree_OpenCity_Vivere-il-comune_path_string

@@ -67,6 +67,7 @@ attribute_group:
         location: '1'
         published: '1'
         related_service: '1'
+        people: '1'
 bootstrapitalia_icon:
     enabled:
         '*': '1'

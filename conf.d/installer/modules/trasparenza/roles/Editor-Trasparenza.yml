@@ -78,15 +78,15 @@ policies:
                 - $class_pagina_trasparenza
             Owner:
                 - 1
-    -
-        ModuleName: content
-        FunctionName: create
-        Limitation:
-            Node:
-                - $content_Enti-e-fondazioni_node
-            Class:
-                - classid(organization)
-                - classid(private_organization)
+#    -
+#        ModuleName: content
+#        FunctionName: create
+#        Limitation:
+#            Node:
+#                - $content_Enti-e-fondazioni_node
+#            Class:
+#                - classid(organization)
+#                - classid(private_organization)
     -
         ModuleName: content
         FunctionName: create

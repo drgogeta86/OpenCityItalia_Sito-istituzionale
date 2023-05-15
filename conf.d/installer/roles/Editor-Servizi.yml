@@ -31,3 +31,12 @@ policies:
         ModuleName: bootstrapitalia
         FunctionName: edit_tag_description
         Limitation: {  }
+
+    -
+        ModuleName: bootstrapitalia
+        FunctionName: opencity_locked_editor
+        Limitation:
+            Node:
+                - $contenttree_OpenCity_Servizi_node
+            Subtree:
+                - $contenttree_OpenCity_Servizi_path_string

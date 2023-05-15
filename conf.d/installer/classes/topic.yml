@@ -46,7 +46,7 @@ data_map:
             selection_type: '0'
             type: '2'
             class_constraint_list:
-                - administrative_area
+                - organization
             default_placement:
                 node_id: $contenttree_Amministrazione_Aree-amministrative_node
         serialized_data_text:
@@ -71,8 +71,7 @@ data_map:
             selection_type: '0'
             type: '2'
             class_constraint_list:
-                - political_body
-                - politico
+                - organization
             default_placement: false
         serialized_data_text:
             always-available: ita-IT

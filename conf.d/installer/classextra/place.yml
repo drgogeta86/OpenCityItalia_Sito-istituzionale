@@ -46,12 +46,14 @@ attribute_group:
         '*': ''
     modalita_di_accesso:
         '*': 'Modalità di accesso '
+        accessibility: '1'
     orari_di_apertura:
         '*': 'Orari di apertura'
         opening_hours_specification: '1'
     servizi:
         '*': Servizi
-        accessibility: '1'
+        accessibility: '0'
+        has_related_services: '1'
     'sort::contatti':
         '*': '6'
     'sort::descrizione':
@@ -112,7 +114,7 @@ table_view:
         topics: '1'
         type: '1'
     show_label:
-        accessibility: '1'
+        accessibility: '0'
         has_office: '1'
         identifier: '1'
         sede_di: '1'

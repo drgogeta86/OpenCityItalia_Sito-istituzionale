@@ -1,5 +1,5 @@
 name: OpenCity
-version: 3.0.2
+version: 3.0.3
 variables:
   - name: identifier
     value: 'OpenPABase::getCurrentSiteaccessIdentifier'
@@ -46,9 +46,9 @@ variables:
   - name: update_comuni
     value: env(UPDATE_COMUNI)
   - name: do_lock
-    value: false #wip
+    value: false
   - name: reset
-    value: true #wip
+    value: false
 steps:
   - type: sql
     identifier: alter_contentobject_date_interger_type
@@ -185,16 +185,6 @@ steps:
       - layout
       - tag_menu
       - show_tag_cards
-  - type: content
-    identifier: Vivere-il-comune
-    lock: $do_lock
-    reset:
-      - name
-      - abstract
-      - show_children
-      - layout
-      - tag_menu
-      - show_tag_cards
   - type: contenttree
     identifier: Documenti-e-dati
     parent: $contenttree_Amministrazione_Documenti-e-dati_node
@@ -220,6 +210,7 @@ steps:
     reset:
       - name
       - eu
+      - data_themes_eurovocs
   - type: contenttree
     identifier: Argomenti-Agricoltura-silvicoltura-e
     parent: $contenttree_Argomenti_Agricoltura-silvicoltura-e-pesca_node
@@ -227,6 +218,7 @@ steps:
     reset:
       - name
       - eu
+      - data_themes_eurovocs
   - type: contenttree
     identifier: Argomenti-Ambiente
     parent: $contenttree_Argomenti_Ambiente_node
@@ -234,6 +226,7 @@ steps:
     reset:
       - name
       - eu
+      - data_themes_eurovocs
   - type: contenttree
     identifier: Argomenti-Demografia-e-popolazione
     parent: $contenttree_Argomenti_Demografia-e-popolazione_node
@@ -241,6 +234,7 @@ steps:
     reset:
       - name
       - eu
+      - data_themes_eurovocs
   - type: contenttree
     identifier: Argomenti-Diritto
     parent: $contenttree_Argomenti_Diritto_node
@@ -248,6 +242,7 @@ steps:
     reset:
       - name
       - eu
+      - data_themes_eurovocs
   - type: contenttree
     identifier: Argomenti-Economia
     parent: $contenttree_Argomenti_Economia_node
@@ -255,6 +250,7 @@ steps:
     reset:
       - name
       - eu
+      - data_themes_eurovocs
   - type: contenttree
     identifier: Argomenti-Energia
     parent: $contenttree_Argomenti_Energia_node
@@ -262,6 +258,7 @@ steps:
     reset:
       - name
       - eu
+      - data_themes_eurovocs
   - type: contenttree
     identifier: Argomenti-Innovazione
     parent: $contenttree_Argomenti_Innovazione_node
@@ -269,6 +266,7 @@ steps:
     reset:
       - name
       - eu
+      - data_themes_eurovocs
   - type: contenttree
     identifier: Argomenti-Istruzione
     parent: $contenttree_Argomenti_Istruzione_node
@@ -276,6 +274,7 @@ steps:
     reset:
       - name
       - eu
+      - data_themes_eurovocs
   - type: contenttree
     identifier: Argomenti-Pianificazione-del-territorio
     parent: $contenttree_Argomenti_Pianificazione-del-territorio_node
@@ -283,6 +282,7 @@ steps:
     reset:
       - name
       - eu
+      - data_themes_eurovocs
   - type: contenttree
     identifier: Argomenti-Politica
     parent: $contenttree_Argomenti_Politica_node
@@ -290,6 +290,7 @@ steps:
     reset:
       - name
       - eu
+      - data_themes_eurovocs
   - type: contenttree
     identifier: Argomenti-Questioni-sociali
     parent: $contenttree_Argomenti_Questioni-sociali_node
@@ -297,6 +298,7 @@ steps:
     reset:
       - name
       - eu
+      - data_themes_eurovocs
   - type: contenttree
     identifier: Argomenti-Relazioni-internazionali
     parent: $contenttree_Argomenti_Relazioni-internazionali_node
@@ -304,6 +306,7 @@ steps:
     reset:
       - name
       - eu
+      - data_themes_eurovocs
   - type: contenttree
     identifier: Argomenti-Tempo-libero
     parent: $contenttree_Argomenti_Tempo-libero_node
@@ -311,6 +314,7 @@ steps:
     reset:
       - name
       - eu
+      - data_themes_eurovocs
   - type: contenttree
     identifier: Argomenti-Trasporto-pubblico
     parent: $contenttree_Argomenti_Trasporto-pubblico_node
@@ -338,6 +342,9 @@ steps:
     identifier: Editor-Utenti
   - type: content
     identifier: Editor-Sito
+    lock: true
+  - type: content
+    identifier: Editor-Homepage
 
   - type: class
     identifier: apps_container
@@ -479,6 +486,10 @@ steps:
     identifier: Dashboard-Luoghi
     apply_to:
       - $content_Editor-Vivere-il-comune_object
+  - type: role
+    identifier: Editor-Homepage
+    apply_to:
+      - $content_Editor-Homepage_object
 
   - type: openparecaptcha
     public: $recaptcha_public
@@ -532,3 +543,11 @@ steps:
 
   - type: php_callable
     identifier: 'BootstrapItaliaInstallerUtils::setGovernmentServiceOntologyMap'
+
+  - type: class
+    identifier: edit_homepage
+    condition: $do_lock
+
+  - type: class
+    identifier: edit_page
+    condition: $do_lock
