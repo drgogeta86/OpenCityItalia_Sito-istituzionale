@@ -1,0 +1,16 @@
+metadata:
+    remoteId: faq_system
+    classIdentifier: faq_root
+    sectionIdentifier: standard
+    languages:
+        - ita-IT
+    parentNodes:
+        - 43
+data:
+    ita-IT:
+        name: 'Domande frequenti'
+        description: 'Elenco di risposte alle domande più frequenti raccolte dalle richieste di assistenza dei cittadini.'
+sort_data:
+    sort_field: 9
+    sort_order: 1
+    priority: 0

@@ -24,7 +24,7 @@ data:
                         type: RicercaDocumenti
                         view: default
                         custom_attributes:
-                            root_tag: 'Documenti/Tipo di documento/Funzionamento interno'
+                            root_tag: 'Documenti/Tipo di documento/Documenti funzionamento interno'
                             hide_first_level: '0'
                             color_style: ''
                             container_style: ''

@@ -1,0 +1,17 @@
+bootstrapitalia_icon:
+    enabled:
+        '*': '1'
+    icon:
+        '*': it-help-circle
+card_small_view:
+    show:
+        description: '1'
+table_view:
+    enabled:
+        '*': '1'
+    in_overview:
+        description: '1'
+    main_image:
+        image: '1'
+    show_link:
+        image: '1'

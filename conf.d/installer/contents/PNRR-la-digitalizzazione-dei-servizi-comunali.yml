@@ -5,7 +5,7 @@ metadata:
   languages:
     - ita-IT
   parentNodes:
-    - $contenttree_Novita_Avvisi_node
+    - $contenttree_Novita_Notizie_node
 data:
   ita-IT:
     title: 'PNRR: la digitalizzazione dei servizi comunali'

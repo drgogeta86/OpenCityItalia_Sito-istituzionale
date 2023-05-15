@@ -1,0 +1,5 @@
+bootstrapitalia_icon:
+    enabled:
+        '*': '1'
+    icon:
+        '*': it-help-circle

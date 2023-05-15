@@ -13,33 +13,7 @@ data:
         description: ''
         image: {  }
         show_children: 1
-        layout:
-            zone_layout: desItaGlobal
-            global:
-                zone_id: f05047ba71e02b7e2a9251e508a4060d
-                blocks:
-                    -
-                        block_id: 5f7af6c7c5796513b3e72b7b76b8661c
-                        name: ''
-                        type: ListaAutomatica
-                        view: lista_banner
-                        custom_attributes:
-                            limite: '200'
-                            elementi_per_riga: '4'
-                            includi_classi: public_person
-                            escludi_classi: ''
-                            ordinamento: name
-                            livello_profondita: ''
-                            state_id: ''
-                            topic_node_id: ''
-                            color_style: ''
-                            container_style: ''
-                            node_id: $root_node
-                            tags: 'tag(Persone/Tipi di incarichi/Amministrativo)'
-                            show_all_link: ''
-                            show_all_text: ''
-                            intro_text: ''
-                        valid_items: {  }
+        layout: {}
         icon: it-user
         show_topics: 0
         show_search_form: 1

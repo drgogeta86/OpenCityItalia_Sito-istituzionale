@@ -1,0 +1,11 @@
+metadata:
+  remoteId: faq_1
+  classIdentifier: faq
+  sectionIdentifier: standard
+  languages:
+    - ita-IT
+data:
+  ita-IT:
+    question: "Ho problemi ad utilizzare il sito o ad accedere ai servizi comunali. Come ottengo aiuto o assistenza?"
+    answer: '<p>Puoi fare una ricerca tra le Domande frequenti (FAQ, frequently asked questions) utilizzando il motore di ricerca presente in questa pagina. Inoltre, il sito del Comune ti permette di inviare una richiesta di assistenza inserendo il tuo nome e una descrizione del problema. Per richiedere assistenza vai nel footer del sito (la fascia in basso presente in tutte le pagine del sito) e seleziona la voce &quot;Richiedi assistenza&quot;. Puoi selezionare il servizio specifico per cui hai bisogno di assistenza oppure la voce &quot;Relazioni con il pubblico&quot; a cui indirizzare qualsiasi altro genere di richiesta. Richiedi assistenza</p>'
+    priority: null

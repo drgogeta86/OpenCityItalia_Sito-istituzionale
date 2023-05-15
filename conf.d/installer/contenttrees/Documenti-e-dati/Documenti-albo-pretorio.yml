@@ -24,7 +24,7 @@ data:
                         type: RicercaDocumenti
                         view: default
                         custom_attributes:
-                            root_tag: 'Documenti/Tipo di documento/Documenti Albo Pretorio,Documenti/Tipo di documento/Esiti'
+                            root_tag: 'Documenti/Tipo di documento/Documenti Albo Pretorio'
                             color_style: ''
                             container_style: ''
                             node_id: $root_node

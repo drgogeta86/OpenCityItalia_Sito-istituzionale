@@ -4,6 +4,8 @@ metadata:
     sectionIdentifier: standard
     languages:
         - ita-IT
+    parentNodes:
+        - $root_node
 data:
     ita-IT:
         name: 'Note legali'

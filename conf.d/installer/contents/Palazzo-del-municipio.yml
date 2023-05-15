@@ -11,6 +11,7 @@ data:
         name: 'Palazzo del municipio (da modificare)'
         alternative_name: null
         accessibility: 'La struttura è provvista di rampa d’accesso per disabili, servoscala con pedana e ascensore'
+        abstract: 'Il palazzo storico sede del comune'
         help:
             - $content_Contatti-URP_object
         topics:

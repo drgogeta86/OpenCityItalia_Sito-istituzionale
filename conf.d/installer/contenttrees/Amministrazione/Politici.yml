@@ -12,34 +12,8 @@ data:
         abstract: '<p>L''elenco dei politici del comune per trovare recapiti, competenze, orari di ricevimento</p>'
         description: ''
         image: {  }
-        show_children: 0
-        layout:
-            zone_layout: desItaGlobal
-            global:
-                zone_id: 82f43d02c13d43af13a9d30ee24a8900
-                blocks:
-                    -
-                        block_id: f04250438e23378eaac8348c2b454992
-                        name: ''
-                        type: ListaAutomatica
-                        view: lista_banner
-                        custom_attributes:
-                            limite: '50'
-                            elementi_per_riga: '3'
-                            includi_classi: public_person
-                            escludi_classi: ''
-                            ordinamento: name
-                            livello_profondita: ''
-                            state_id: ''
-                            topic_node_id: ''
-                            color_style: ''
-                            container_style: ''
-                            node_id: $root_node
-                            tags: 'tag(Persone/Tipi di incarichi/Amministrativo)'
-                            show_all_link: ''
-                            show_all_text: ''
-                            intro_text: ''
-                        valid_items: {  }
+        show_children: 1
+        layout: {}
         icon: it-user
         show_topics: 0
         show_search_form: 1
@@ -47,6 +21,6 @@ data:
         publish_date: null
         show_tag_cards: 0
 sort_data:
-    sort_field: 2
-    sort_order: 0
+    sort_field: 9
+    sort_order: 1
     priority: -6

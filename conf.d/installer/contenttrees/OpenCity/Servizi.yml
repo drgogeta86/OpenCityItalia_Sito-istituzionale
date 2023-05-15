@@ -20,27 +20,6 @@ data:
                 zone_id: 3799f33101dc057fc10d65fc3de262ae
                 blocks:
                     -
-                        block_id: d04a178be64a6d3a1babfcc89a8b2277
-                        name: 'In evidenza'
-                        type: ListaAutomatica
-                        view: lista_card_teaser
-                        custom_attributes:
-                            limite: '3'
-                            elementi_per_riga: '3'
-                            includi_classi: public_service
-                            escludi_classi: ''
-                            ordinamento: name
-                            livello_profondita: ''
-                            state_id: ''
-                            topic_node_id: '157'
-                            tags: ''
-                            color_style: ''
-                            container_style: ''
-                            show_all_link: ''
-                            show_all_text: ''
-                            intro_text: ''
-                        valid_items: {  }
-                    -
                         block_id: ed7c1e34c4dd89035a8157e6599376f8
                         name: ' Esplora tutti i servizi'
                         type: OpendataQueriedContents
@@ -55,7 +34,7 @@ data:
                             limit: '6'
                             items_per_row: '2'
                             facets: 'Argomenti:topics.name,Tipologia:type'
-                            view_api: card_teaser
+                            view_api: latest_messages_item
                             fields: ''
                             simple_geo_api: '0'
                             template: ''
@@ -83,26 +62,6 @@ data:
             global:
                 zone_id: 3799f33101dc057fc10d65fc3de262ae
                 blocks:
-                    - block_id: d04a178be64a6d3a1babfcc89a8b2277
-                      name: ''
-                      type: ListaAutomatica
-                      view: lista_card_teaser
-                      custom_attributes:
-                          limite: '3'
-                          elementi_per_riga: '3'
-                          includi_classi: public_service
-                          escludi_classi: ''
-                          ordinamento: name
-                          livello_profondita: ''
-                          state_id: ''
-                          topic_node_id: '157'
-                          tags: ''
-                          color_style: ''
-                          container_style: ''
-                          show_all_link: ''
-                          show_all_text: ''
-                          intro_text: ''
-                      valid_items: { }
                     - block_id: ed7c1e34c4dd89035a8157e6599376f8
                       name: 'Entdecken Sie alle Services für Bürger'
                       type: OpendataQueriedContents
@@ -116,8 +75,8 @@ data:
                           input_search_placeholder: 'Cerca per parola chiave'
                           limit: '6'
                           items_per_row: '2'
-                          facets: 'Argomenti:topics.name,Tipologia:type'
-                          view_api: card_teaser
+                          facets: ''
+                          view_api: latest_messages_item
                           fields: ''
                           simple_geo_api: '0'
                           template: ''
