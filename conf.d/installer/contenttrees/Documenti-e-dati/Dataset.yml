@@ -10,7 +10,7 @@ data:
         name: Dataset
         short_name: null
         menu_name: null
-        abstract: 'Banche dati sono rese disponibili pubblicamente in un formato elaborabile in modo automatico da software'
+        abstract: ''
         description: ''
         image: {  }
         show_children: 1

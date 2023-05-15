@@ -96,7 +96,7 @@ data_map:
         is_required: 1
         can_translate: 1
         data_text3: 'Leggi l''informativa completa'
-        data_text4: /Privacy
+        data_text4: /Informativa-Privacy
         data_text5: 'Ho letto e accettato i termini di utilizzo del servizio'
         serialized_data_text:
             always-available: ita-IT

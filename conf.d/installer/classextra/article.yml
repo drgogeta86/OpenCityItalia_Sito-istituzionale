@@ -1,7 +1,4 @@
 attribute_group:
-    a_cura_di:
-        '*': 'A cura di'
-        author: '1'
     contatti:
         '*': Contatti
         help: '1'
@@ -22,8 +19,6 @@ attribute_group:
         '*': '1'
     'hidden::corpo':
         '*': corpo
-    'ita-IT::a_cura_di':
-        '*': 'A cura di'
     'ita-IT::contatti':
         '*': Contatti
     'ita-IT::corpo':
@@ -34,40 +29,24 @@ attribute_group:
         '*': Documenti
     'ita-IT::ulteriori_informazioni':
         '*': 'Ulteriori informazioni'
-    'ita-PA::a_cura_di':
-        '*': ''
-    'ita-PA::contatti':
-        '*': ''
-    'ita-PA::corpo':
-        '*': ''
-    'ita-PA::dataset':
-        '*': ''
-    'ita-PA::documenti':
-        '*': ''
-    'ita-PA::ulteriori_informazioni':
-        '*': ''
-    'sort::a_cura_di':
-        '*': '2'
     'sort::contatti':
-        '*': '5'
+        '*': '4'
     'sort::corpo':
         '*': '1'
     'sort::dataset':
-        '*': '4'
-    'sort::documenti':
         '*': '3'
+    'sort::documenti':
+        '*': '2'
     'sort::ulteriori_informazioni':
-        '*': '6'
+        '*': '5'
     ulteriori_informazioni:
         '*': 'Ulteriori informazioni'
         content_show_modified: '1'
         dead_line: '1'
         id_comunicato: '1'
         license: '1'
-        location: '1'
         published: '1'
         related_service: '1'
-        people: '1'
 bootstrapitalia_icon:
     enabled:
         '*': '1'
@@ -110,6 +89,7 @@ table_view:
     in_overview:
         abstract: '1'
         content_show_published: '1'
+        location: '1'
         reading_time: '1'
     main_image:
         image: '1'
@@ -120,6 +100,7 @@ table_view:
         author: '1'
         body: '1'
         content_show_published: '1'
+        content_tree_related: '1'
         dataset: '1'
         dead_line: '1'
         files: '1'
@@ -134,17 +115,11 @@ table_view:
         video: '1'
     show_label:
         dead_line: '1'
-        files: '1'
         id_comunicato: '1'
-        location: '1'
-        people: '1'
         published: '1'
         title: '1'
     show_link:
         attachment: '1'
-        author: '1'
-        dataset: '1'
         help: '1'
         location: '1'
-        people: '1'
         related_service: '1'

@@ -160,21 +160,21 @@ data_map:
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
-    used_by:
-        identifier: used_by
-        serialized_description_list:
-            always-available: ita-IT
-            ita-IT: ''
-        serialized_name_list:
-            always-available: ita-IT
-            ger-DE: 'Verwendet in'
-            ita-IT: 'Utilizzata in'
-        data_type_string: openpareverserelationlist
-        placement: 9
-        can_translate: 1
-        data_text5: ''
-        serialized_data_text:
-            always-available: ita-IT
-            ita-IT: ''
+#    used_by:
+#        identifier: used_by
+#        serialized_description_list:
+#            always-available: ita-IT
+#            ita-IT: ''
+#        serialized_name_list:
+#            always-available: ita-IT
+#            ger-DE: 'Verwendet in'
+#            ita-IT: 'Utilizzata in'
+#        data_type_string: openpareverserelationlist
+#        placement: 9
+#        can_translate: 1
+#        data_text5: ''
+#        serialized_data_text:
+#            always-available: ita-IT
+#            ita-IT: ''
 groups:
     - Media

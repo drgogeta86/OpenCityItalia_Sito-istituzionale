@@ -494,6 +494,23 @@ data_map:
         can_translate: 1
         category: details
         serialized_data_text: {  }
+    has_service:
+        identifier: has_service
+        serialized_description_list:
+            always-available: ita-IT
+            ger-DE: 'Wenn der Dienst über einen digitalen Kanal verfügt Link zum Einleiten des Buchungs- oder Aktivierungsvorgangs für den Dienst. Dieses Feld verknüpft "Service" mit seinem digitalen Aktivierungskanal. Z.B. Gehen Sie zum Informationssystem Öffentliche Verträge'
+            ita-IT: 'Se il servizio ha un canale digitale Link per avviare la procedura di prenotazione o attivazione del servizio. Questo campo mette in relazione "Servizio" con il suo canale digitale di attivazione. Es. Vai al servizio bandi on line'
+        serialized_name_list:
+            always-available: ita-IT
+            ger-DE: 'Digitaler Kanal des verknüpften Dienstes'
+            ita-IT: 'Canale digitale del servizio collegato'
+        data_type_string: ezurl
+        placement: 28
+        can_translate: 1
+        category: hidden
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
     related_public_services:
         identifier: related_public_services
         serialized_description_list:
@@ -506,8 +523,26 @@ data_map:
         data_type_string: openpareverserelationlist
         placement: 29
         can_translate: 1
-        data_text5: '{"attribute_id_list":[classattributeid_list(public_service/has_module_input,public_service/is_compliant_with_rule,public_service/has_document)],"sort":"name","order":"asc","limit":4,"attribute_id_subtree":{"$contenttree_Documenti-e-dati_Modulistica_node":0,"$contenttree_Documenti-e-dati_Normative_node":0}}'
+        data_text5: '{"attribute_id_list":[classattributeid_list(public_service/has_module_input,public_service/is_compliant_with_rule)],"sort":"name","order":"asc","limit":4,"attribute_id_subtree":{"$contenttree_Documenti-e-dati_Modulistica_node":0,"$contenttree_Documenti-e-dati_Normative_node":0}}'
         category: details
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    anno_protocollazione:
+        identifier: anno_protocollazione
+        serialized_description_list:
+            always-available: ita-IT
+            ita-IT: ''
+        serialized_name_list:
+            always-available: ita-IT
+            ger-DE: 'Jahr der Protokollierung/Registrierung'
+            ita-IT: 'Anno di protocollazione'
+        data_type_string: ezstring
+        placement: 30
+        is_searchable: 1
+        can_translate: 1
+        data_int1: 4
+        category: hidden
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
@@ -565,6 +600,32 @@ data_map:
         placement: 33
         is_searchable: 1
         can_translate: 1
+        serialized_data_text:
+            always-available: ita-IT
+            ita-IT: ''
+    help:
+        identifier: help
+        serialized_description_list:
+            always-available: ita-IT
+            ger-DE: 'Mögliche Supportkontakte für den Benutzer. Zum Beispiel  Bürgerschalter'
+            ita-IT: 'Eventuali contatti di supporto all''utente. Per esempio i riferimenti dell''URP'
+        serialized_name_list:
+            always-available: ita-IT
+            ger-DE: 'Hilfebox '
+            ita-IT: 'Box d''aiuto'
+        data_type_string: ezobjectrelationlist
+        placement: 34
+        is_searchable: 1
+        can_translate: 1
+        data_text5:
+            object_class: ''
+            selection_type: '0'
+            type: '2'
+            class_constraint_list:
+                - online_contact_point
+            default_placement:
+                node_id: $contenttree_Classificazioni_Punti-di-contatto_node
+        category: hidden
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''

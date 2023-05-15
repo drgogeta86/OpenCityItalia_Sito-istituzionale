@@ -13,7 +13,7 @@ data:
         description: ''
         image: {  }
         show_children: 1
-        layout: null
+        layout: {  }
         icon: null
         show_topics: 0
         show_search_form: 1

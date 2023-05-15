@@ -9,7 +9,7 @@ data:
     ita-IT:
         name: 'Vivere il comune'
         short_name: null
-        menu_name: Esplora il comune
+        menu_name: null
         abstract: ''
         description: ''
         image: {  }
@@ -32,7 +32,7 @@ data:
         layout: {  }
         icon: null
         show_topics: 0
-        show_search_form: 0
+        show_search_form: 1
         tag_menu: {  }
         publish_date: null
         show_tag_cards: 0

@@ -107,10 +107,7 @@ policies:
                 - $contenttree_Documenti-e-dati_Dataset_node
             Class:
                 - $class_dataset
-    -
-        ModuleName: opendatadatset
-        FunctionName: '*'
-        Limitation: {  }
+
     -
         ModuleName: content
         FunctionName: create
@@ -156,12 +153,3 @@ policies:
         Limitation:
             Class:
                 - $class_document
-
-    -
-        ModuleName: bootstrapitalia
-        FunctionName: opencity_locked_editor
-        Limitation:
-            Node:
-                - $contenttree_OpenCity_Amministrazione_node
-            Subtree:
-                - $contenttree_OpenCity_Amministrazione_path_string

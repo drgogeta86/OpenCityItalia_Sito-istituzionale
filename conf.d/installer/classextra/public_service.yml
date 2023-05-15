@@ -76,32 +76,6 @@ attribute_group:
         '*': 'Ulteriori informazioni'
     'ita-IT::vincoli':
         '*': Vincoli
-    'ita-PA::a_chi_si_rivolge':
-        '*': service-addressed
-    'ita-PA::accedere_al_servizio':
-        '*': ''
-    'ita-PA::come_fare':
-        '*': service-how-to
-    'ita-PA::condizioni_di_servizio':
-        '*': service-file
-    'ita-PA::contatti':
-        '*': service-area
-    'ita-PA::cos_e':
-        '*': service-extended-description
-    'ita-PA::cosa_serve':
-        '*': service-needed
-    'ita-PA::cosa_si_ottiene':
-        '*': service-achieved
-    'ita-PA::costi_e_vincoli':
-        '*': service-cost
-    'ita-PA::footer':
-        '*': ''
-    'ita-PA::tempi_e_scadenze':
-        '*': service-calendar-list
-    'ita-PA::ulteriori_informazioni':
-        '*': ''
-    'ita-PA::vincoli':
-        '*': ''
     'sort::a_chi_si_rivolge':
         '*': '1'
     'sort::accedere_al_servizio':
@@ -176,6 +150,7 @@ table_view:
         average_processing_time: '1'
         conditions: '1'
         content_show_modified: '1'
+        content_tree_related: '1'
         description: '1'
         exceptions: '1'
         has_authentication_method: '1'
@@ -205,8 +180,6 @@ table_view:
         service_theme: '1'
         terms_of_service: '1'
         topics: '1'
-    show_empty:
-        is_physically_available_at_how_to: '1'
     show_label:
         applicants: '1'
         exceptions: '1'
@@ -219,13 +192,12 @@ table_view:
         service_theme: '1'
         topics: '1'
     show_link:
-        has_channel: '1'
+        has_channel: '0'
         has_document: '1'
         has_online_contact_point: '1'
         has_temporal_coverage: '1'
         help: '1'
         holds_role_in_time: '1'
         is_physically_available_at: '1'
-        produces_output: '1'
         relation_service: '1'
         requires_service: '1'

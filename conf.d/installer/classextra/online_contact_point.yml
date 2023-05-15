@@ -13,16 +13,9 @@ table_view:
         '*': '1'
     show:
         contact: '1'
-        note: '1'
-        phone_availability_time: '1'
-        is_contact_point_of_people: '1'
         is_contact_point_of_organizations: '1'
+        note: '1'
     show_label:
         contact: '1'
-        is_contact_point_of_organizations: '1'
-        phone_availability_time: '1'
-        is_contact_point_of_people: '1'
     show_link:
         phone_availability_time: '1'
-    in_overview:
-        note: '1'

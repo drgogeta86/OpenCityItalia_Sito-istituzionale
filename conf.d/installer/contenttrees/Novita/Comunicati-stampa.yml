@@ -9,7 +9,7 @@ data:
         name: Comunicati
         short_name: null
         menu_name: null
-        abstract: 'Le comunicazioni ufficiali del Sindaco, degli organi politici e degli uffici comunali.'
+        abstract: ''
         description: ''
         image: {  }
         show_children: 1

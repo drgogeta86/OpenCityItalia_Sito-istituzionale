@@ -1,6 +1,6 @@
 name: 'OpenCity Trasparenza'
 type: module
-version: 0.0.14
+version: 0.0.13
 variables:
     -
         name: identifier

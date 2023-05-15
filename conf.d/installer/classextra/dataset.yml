@@ -41,17 +41,6 @@ attribute_group:
         '*': '4'
     'sort::risorse':
         '*': '2'
-card_small_view:
-    enabled:
-        '*': '1'
-    show:
-        abstract: '1'
-        content_show_read_more: '1'
-        format: '1'
-        modified: '1'
-    show_label:
-        format: '1'
-        modified: '1'
 table_view:
     enabled:
         '*': '1'
@@ -64,7 +53,7 @@ table_view:
         content_show_history: '1'
         content_show_modified: '1'
         content_show_published: '1'
-        content_tree_related: '0'
+        content_tree_related: '1'
         creator: '1'
         csv_resource: '1'
         download_file: '1'
@@ -89,7 +78,7 @@ table_view:
         content_show_history: '1'
         content_show_modified: '1'
         content_show_published: '1'
-        content_tree_related: '0'
+        content_tree_related: '1'
         creator: '1'
         issued: '1'
         keyword: '1'

@@ -16,44 +16,56 @@ attribute_group:
         has_address: '1'
     enabled:
         '*': '1'
+    'eng-GB::contatti':
+        '*': Contatti
+    'eng-GB::descrizione':
+        '*': Descrizione
+    'eng-GB::dove':
+        '*': Dove
+    'eng-GB::modalita_di_accesso':
+        '*': 'Modalità di accesso '
+    'eng-GB::orari_di_apertura':
+        '*': 'Orari di apertura'
+    'eng-GB::servizi':
+        '*': Servizi
+    'eng-GB::ulteriori_informazioni':
+        '*': 'Ulteriori informazioni'
+    'ger-DE::contatti':
+        '*': Kontakt
+    'ger-DE::descrizione':
+        '*': Beschreibung
+    'ger-DE::dove':
+        '*': 'Wo '
+    'ger-DE::modalita_di_accesso':
+        '*': 'Zugang zu den Dienstleistungen'
+    'ger-DE::orari_di_apertura':
+        '*': Öffnungszeit
+    'ger-DE::servizi':
+        '*': Dienste
+    'ger-DE::ulteriori_informazioni':
+        '*': 'Weitere Informationen'
     'ita-IT::contatti':
-        '*': 'Punti di contatto'
+        '*': Contatti
     'ita-IT::descrizione':
         '*': Descrizione
     'ita-IT::dove':
-        '*': Indirizzo
+        '*': Dove
     'ita-IT::modalita_di_accesso':
         '*': 'Modalità di accesso '
     'ita-IT::orari_di_apertura':
-        '*': 'Orario per il pubblico'
+        '*': 'Orari di apertura'
     'ita-IT::servizi':
         '*': Servizi
     'ita-IT::ulteriori_informazioni':
         '*': 'Ulteriori informazioni'
-    'ita-PA::contatti':
-        '*': ''
-    'ita-PA::descrizione':
-        '*': ''
-    'ita-PA::dove':
-        '*': ''
-    'ita-PA::modalita_di_accesso':
-        '*': ''
-    'ita-PA::orari_di_apertura':
-        '*': ''
-    'ita-PA::servizi':
-        '*': ''
-    'ita-PA::ulteriori_informazioni':
-        '*': ''
     modalita_di_accesso:
         '*': 'Modalità di accesso '
-        accessibility: '1'
     orari_di_apertura:
         '*': 'Orari di apertura'
         opening_hours_specification: '1'
     servizi:
         '*': Servizi
-        accessibility: '0'
-        has_related_services: '1'
+        accessibility: '1'
     'sort::contatti':
         '*': '6'
     'sort::descrizione':
@@ -70,7 +82,6 @@ attribute_group:
         '*': '7'
     ulteriori_informazioni:
         '*': 'Ulteriori informazioni'
-        identifier: '1'
         more_information: '1'
         sede_di: '1'
 bootstrapitalia_icon:
@@ -100,13 +111,13 @@ table_view:
         abstract: '1'
         accessibility: '1'
         contains_place: '1'
+        content_tree_related: '1'
         description: '1'
         external_contact_point: '1'
         has_address: '1'
         has_office: '1'
         has_video: '1'
         help: '1'
-        identifier: '1'
         image: '1'
         more_information: '1'
         opening_hours_specification: '1'
@@ -114,12 +125,8 @@ table_view:
         topics: '1'
         type: '1'
     show_label:
-        accessibility: '0'
-        has_office: '1'
-        identifier: '1'
         sede_di: '1'
     show_link:
         contains_place: '1'
-        has_office: '1'
         help: '1'
         opening_hours_specification: '1'

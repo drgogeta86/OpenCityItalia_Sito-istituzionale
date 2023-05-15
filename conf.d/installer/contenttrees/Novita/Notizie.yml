@@ -9,7 +9,7 @@ data:
         name: Notizie
         short_name: null
         menu_name: null
-        abstract: 'Gli ultimi aggiornamenti sugli avvenimenti e la vita culturale nel Comune.'
+        abstract: ''
         description: ''
         image: {  }
         show_children: 1

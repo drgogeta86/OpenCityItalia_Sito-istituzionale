@@ -30,7 +30,6 @@ data:
                             node_id: $root_node
                             hide_first_level: '0'
                             hide_empty_facets: '0'
-                            hide_publication_end_time: '1'
                         valid_items: {  }
         icon: it-file
         show_topics: 0

@@ -6,7 +6,7 @@ metadata:
         - ita-IT
 data:
     ita-IT:
-        name: 'Atti normativi'
+        name: Normative
         short_name: null
         menu_name: null
         abstract: '<p>Atti normativi come ad esempio la costituzione, il decreto legislativo, il decreto legge, il decreto reale, il regio decreto ecc.</p>'

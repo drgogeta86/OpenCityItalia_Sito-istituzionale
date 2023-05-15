@@ -98,28 +98,11 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ger-DE: 'Zugeordnete Einrichtungen'
-            ita-IT: 'Strutture'
+            ita-IT: 'Strutture collegate'
         data_type_string: openpareverserelationlist
         placement: 5
         can_translate: 1
         data_text5: '{"attribute_id_list":[classattributeid_list(organization/has_online_contact_point)],"sort":"name","order":"asc","limit":6,"attribute_id_subtree":[]}'
-        serialized_data_text:
-            always-available: ita-IT
-            ita-IT: ''
-    is_contact_point_of_people:
-        identifier: is_contact_point_of_people
-        serialized_description_list:
-            always-available: ita-IT
-            ger-DE: 'Mit der Kontaktstelle verbundene Personen'
-            ita-IT: 'Persone collegate al Punto di contatto'
-        serialized_name_list:
-            always-available: ita-IT
-            ger-DE: 'Assoziierte Personen'
-            ita-IT: 'Persone'
-        data_type_string: openpareverserelationlist
-        placement: 6
-        can_translate: 1
-        data_text5: '{"attribute_id_list":[classattributeid_list(public_person/has_contact_point)],"sort":"name","order":"asc","limit":6,"attribute_id_subtree":[]}'
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''

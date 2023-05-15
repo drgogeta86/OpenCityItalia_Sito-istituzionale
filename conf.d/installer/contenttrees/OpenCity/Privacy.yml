@@ -5,8 +5,6 @@ metadata:
     languages:
         - ita-IT
         - ger-DE
-    parentNodes:
-        - $root_node
 data:
     ita-IT:
         name: Privacy

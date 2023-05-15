@@ -1,5 +1,5 @@
 name: OpenCity
-version: 3.0.2
+version: 3.0.1
 variables:
   - name: identifier
     value: 'OpenPABase::getCurrentSiteaccessIdentifier'
@@ -45,10 +45,6 @@ variables:
     value: env(CHECK_EZTAGS_SEQUENCE)
   - name: update_comuni
     value: env(UPDATE_COMUNI)
-  - name: do_lock
-    value: false
-  - name: reset
-    value: false
 steps:
   - type: sql
     identifier: alter_contentobject_date_interger_type
@@ -67,7 +63,6 @@ steps:
 
   - type: states
     identifiers:
-      - opencity_lock
       - moderation
       - privacy
       - albotelematico
@@ -137,170 +132,69 @@ steps:
   - type: contenttree
     identifier: OpenCity
     parent: $root_node
-    lock: $do_lock
-    reset:
-      - name
-      - abstract
-      - show_children
-      - layout
-      - tag_menu
-      - show_tag_cards
-  - type: content
-    identifier: Privacy
-  - type: content
-    identifier: Note-legali
   - type: contenttree
     identifier: Amministrazione
     parent: $contenttree_OpenCity_Amministrazione_node
-    lock: $do_lock
-    reset:
-      - name
-      - abstract
-      - show_children
-      - layout
-      - tag_menu
-      - show_tag_cards
   - type: contenttree
     identifier: Privacy
-    parent: $content_Privacy_node
+    parent: $contenttree_OpenCity_Privacy_node
   - type: contenttree
     identifier: Novita
     parent: $contenttree_OpenCity_Novita_node
-    lock: $do_lock
-    reset:
-      - name
-      - abstract
-      - show_children
-      - layout
-      - tag_menu
-      - show_tag_cards
   - type: contenttree
     identifier: Vivere-il-comune
     parent: $contenttree_OpenCity_Vivere-il-comune_node
-    lock: $do_lock
-    reset:
-      - name
-      - abstract
-      - show_children
-      - layout
-      - tag_menu
-      - show_tag_cards
   - type: contenttree
     identifier: Documenti-e-dati
     parent: $contenttree_Amministrazione_Documenti-e-dati_node
-    lock: $do_lock
-    reset:
-      - name
-      - abstract
-      - show_children
-      - layout
-      - tag_menu
-      - show_tag_cards
   - type: contenttree
     identifier: Classificazioni
     parent: $contenttree_OpenCity_Classificazioni_node
-    lock: $do_lock
 
   - type: class_with_extra
     identifier: topic
   - type: contenttree
     identifier: Argomenti
     parent: $contenttree_OpenCity_Argomenti_node
-    lock: $do_lock
-    reset:
-      - name
-      - eu
   - type: contenttree
     identifier: Argomenti-Agricoltura-silvicoltura-e
     parent: $contenttree_Argomenti_Agricoltura-silvicoltura-e-pesca_node
-    lock: $do_lock
-    reset:
-      - name
-      - eu
   - type: contenttree
     identifier: Argomenti-Ambiente
     parent: $contenttree_Argomenti_Ambiente_node
-    lock: $do_lock
-    reset:
-      - name
-      - eu
   - type: contenttree
     identifier: Argomenti-Demografia-e-popolazione
     parent: $contenttree_Argomenti_Demografia-e-popolazione_node
-    lock: $do_lock
-    reset:
-      - name
-      - eu
   - type: contenttree
     identifier: Argomenti-Diritto
     parent: $contenttree_Argomenti_Diritto_node
-    lock: $do_lock
-    reset:
-      - name
-      - eu
   - type: contenttree
     identifier: Argomenti-Economia
     parent: $contenttree_Argomenti_Economia_node
-    lock: $do_lock
-    reset:
-      - name
-      - eu
   - type: contenttree
     identifier: Argomenti-Energia
     parent: $contenttree_Argomenti_Energia_node
-    lock: $do_lock
-    reset:
-      - name
-      - eu
   - type: contenttree
     identifier: Argomenti-Innovazione
     parent: $contenttree_Argomenti_Innovazione_node
-    lock: $do_lock
-    reset:
-      - name
-      - eu
   - type: contenttree
     identifier: Argomenti-Istruzione
     parent: $contenttree_Argomenti_Istruzione_node
-    lock: $do_lock
-    reset:
-      - name
-      - eu
   - type: contenttree
     identifier: Argomenti-Pianificazione-del-territorio
     parent: $contenttree_Argomenti_Pianificazione-del-territorio_node
-    lock: $do_lock
-    reset:
-      - name
-      - eu
   - type: contenttree
     identifier: Argomenti-Politica
     parent: $contenttree_Argomenti_Politica_node
-    lock: $do_lock
-    reset:
-      - name
-      - eu
   - type: contenttree
     identifier: Argomenti-Questioni-sociali
     parent: $contenttree_Argomenti_Questioni-sociali_node
-    lock: $do_lock
-    reset:
-      - name
-      - eu
   - type: contenttree
     identifier: Argomenti-Relazioni-internazionali
     parent: $contenttree_Argomenti_Relazioni-internazionali_node
-    lock: $do_lock
-    reset:
-      - name
-      - eu
   - type: contenttree
     identifier: Argomenti-Tempo-libero
     parent: $contenttree_Argomenti_Tempo-libero_node
-    lock: $do_lock
-    reset:
-      - name
-      - eu
   - type: contenttree
     identifier: Argomenti-Trasporto-pubblico
     parent: $contenttree_Argomenti_Trasporto-pubblico_node
@@ -328,9 +222,6 @@ steps:
     identifier: Editor-Utenti
   - type: content
     identifier: Editor-Sito
-    lock: true
-  - type: content
-    identifier: Editor-Homepage
 
   - type: class
     identifier: apps_container
@@ -418,11 +309,7 @@ steps:
     identifier: OpenCity
     swap_with: $root_node
     remove_swapped: true
-    lock: $do_lock
-    reset:
-      - page
-      - link_al_menu_orizzontale
-      - link_nel_footer
+    update: 1
 
   - type: role
     identifier: Anonymous
@@ -472,10 +359,6 @@ steps:
     identifier: Dashboard-Luoghi
     apply_to:
       - $content_Editor-Vivere-il-comune_object
-  - type: role
-    identifier: Editor-Homepage
-    apply_to:
-      - $content_Editor-Homepage_object
 
   - type: openparecaptcha
     public: $recaptcha_public
@@ -506,34 +389,3 @@ steps:
 
   - type: rename
     condition: $is_install_from_scratch
-
-  - type: class
-    identifier: faq_root
-  - type: class_with_extra
-    identifier: faq_section
-  - type: class_with_extra
-    identifier: faq_group
-  - type: class_with_extra
-    identifier: faq
-  - type: content
-    identifier: FAQ
-  - type: contenttree
-    identifier: FAQs
-    parent: $content_FAQ_node
-  - type: content
-    identifier: Editor-Faq
-  - type: role
-    identifier: Editor-Faq
-    apply_to:
-      - $content_Editor-Faq_object
-
-  - type: php_callable
-    identifier: 'BootstrapItaliaInstallerUtils::setGovernmentServiceOntologyMap'
-
-  - type: class
-    identifier: edit_homepage
-    condition: $do_lock
-
-  - type: class
-    identifier: edit_page
-    condition: $do_lock

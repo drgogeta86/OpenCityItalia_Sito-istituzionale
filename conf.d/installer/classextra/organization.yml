@@ -18,8 +18,6 @@ attribute_group:
         '*': Contatti
     'ita-IT::persone_che_compongono_la_struttura':
         '*': 'Persone che compongono la struttura'
-    'ita-IT::responsabile':
-        '*': Responsabile
     'ita-IT::sede':
         '*': Sede
     'ita-IT::servizi_offerti':
@@ -28,32 +26,11 @@ attribute_group:
         '*': Struttura
     'ita-IT::ulteriori_informazioni':
         '*': 'Ulteriori informazioni'
-    'ita-PA::allegati':
-        '*': ''
-    'ita-PA::competenze':
-        '*': ''
-    'ita-PA::contatti':
-        '*': ''
-    'ita-PA::persone_che_compongono_la_struttura':
-        '*': ''
-    'ita-PA::responsabile':
-        '*': ''
-    'ita-PA::sede':
-        '*': ''
-    'ita-PA::servizi_offerti':
-        '*': ''
-    'ita-PA::struttura':
-        '*': ''
-    'ita-PA::ulteriori_informazioni':
-        '*': ''
     persone_che_compongono_la_struttura:
         '*': 'Persone che compongono la struttura'
+        office_manager: '1'
         people: '1'
         political_reference: '1'
-        office_manager: '0'
-    responsabile:
-        '*': Responsabile
-        office_manager: '1'
     sede:
         '*': Sede
         has_spatial_coverage: '1'
@@ -61,23 +38,21 @@ attribute_group:
         '*': 'Servizi offerti'
         servizi_offerti: '1'
     'sort::allegati':
-        '*': '7'
+        '*': '6'
     'sort::competenze':
         '*': '0'
     'sort::contatti':
-        '*': '6'
+        '*': '5'
     'sort::persone_che_compongono_la_struttura':
-        '*': '3'
-    'sort::responsabile':
         '*': '2'
     'sort::sede':
-        '*': '5'
-    'sort::servizi_offerti':
         '*': '4'
+    'sort::servizi_offerti':
+        '*': '3'
     'sort::struttura':
         '*': '1'
     'sort::ulteriori_informazioni':
-        '*': '8'
+        '*': '7'
     struttura:
         '*': Struttura
         hold_employment: '1'
@@ -128,12 +103,11 @@ table_view:
         content_show_modified: '1'
         hold_employment: '1'
         identifier: '1'
+        office_manager: '1'
         political_reference: '1'
         related_offices: '1'
         tax_code_e_invoice_service: '1'
         type: '1'
-        office_manager: '0'
-        people: '0'
     show_link:
         has_online_contact_point: '1'
         has_spatial_coverage: '1'

@@ -157,7 +157,7 @@ table_view:
         content_show_history: '1'
         content_show_modified: '1'
         content_show_published: '1'
-        content_tree_related: '0'
+        content_tree_related: '1'
         cost_notes: '1'
         description: '1'
         funder: '1'

@@ -20,6 +20,8 @@ attribute_group:
         '*': '1'
     'evidence::documenti':
         '*': documenti
+    'hidden::documenti':
+        '*': documenti
     'ita-IT::descrizione':
         '*': Descrizione
     'ita-IT::documenti':
@@ -28,14 +30,6 @@ attribute_group:
         '*': Date
     'ita-IT::ulteriori_informazioni':
         '*': 'Ulteriori informazioni'
-    'ita-PA::descrizione':
-        '*': ''
-    'ita-PA::documenti':
-        '*': ''
-    'ita-PA::tempi_e_scadenze':
-        '*': ''
-    'ita-PA::ulteriori_informazioni':
-        '*': ''
     'sort::descrizione':
         '*': '1'
     'sort::documenti':
@@ -46,6 +40,7 @@ attribute_group:
         '*': '5'
     tempi_e_scadenze:
         '*': 'Tempi e scadenze'
+        anno_protocollazione: '1'
         data_consiglio: '1'
         data_di_conclusione: '1'
         data_di_firma: '1'
@@ -68,6 +63,7 @@ attribute_group:
         content_show_modified: '1'
         has_code: '1'
         has_dataset: '1'
+        has_service: '1'
         legal_notes: '1'
         life_event: '1'
         other_information: '1'
@@ -92,16 +88,14 @@ table_view:
         content_show_published: '1'
         data_protocollazione: '1'
         document_type: '1'
-        has_code: '0'
+        has_code: '1'
         protocollo: '1'
     show:
         announcement_type: '1'
         attachments: '1'
-        author: '1'
-        business_event: '1'
         content_show_modified: '1'
         content_show_published: '1'
-        content_tree_related: '0'
+        content_tree_related: '1'
         data_consiglio: '1'
         data_di_conclusione: '1'
         data_di_firma: '1'
@@ -120,11 +114,11 @@ table_view:
         has_code: '1'
         has_dataset: '1'
         has_organization: '1'
+        has_service: '1'
         image: '1'
         interroganti: '1'
         legal_notes: '1'
         license: '1'
-        life_event: '1'
         link: '1'
         other_information: '1'
         protocollo: '1'
@@ -135,8 +129,6 @@ table_view:
         start_time: '1'
     show_label:
         announcement_type: '1'
-        author: '1'
-        business_event: '1'
         data_consiglio: '1'
         data_di_conclusione: '1'
         data_di_firma: '1'
@@ -153,14 +145,13 @@ table_view:
         has_code: '1'
         has_dataset: '1'
         has_organization: '1'
+        has_service: '1'
         interroganti: '1'
         legal_notes: '1'
         license: '1'
-        life_event: '1'
         protocollo: '1'
         publication_end_time: '1'
         publication_start_time: '1'
-        related_public_services: '1'
         start_time: '1'
     show_link:
         has_dataset: '1'

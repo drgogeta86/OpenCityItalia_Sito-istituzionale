@@ -24,13 +24,12 @@ data:
                         type: RicercaDocumenti
                         view: default
                         custom_attributes:
-                            root_tag: 'Documenti/Tipo di documento/Documenti funzionamento interno'
+                            root_tag: 'Documenti/Tipo di documento/Funzionamento interno'
                             hide_first_level: '0'
                             color_style: ''
                             container_style: ''
                             node_id: $root_node
                             hide_empty_facets: '1'
-                            hide_publication_end_time: '1'
                         valid_items: {  }
         icon: it-file
         show_topics: 0

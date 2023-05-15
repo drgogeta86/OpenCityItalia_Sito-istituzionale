@@ -59,9 +59,9 @@ data:
                           node_id: $contenttree_OpenCity_Novita_node
                       valid_items: { }
                     - block_id: 9cd237a12fdb73a490fee0b01a3fab9d
-                      name: I prossimi eventi
+                      name: Calendario
                       type: Eventi
-                      view: card
+                      view: default
                       custom_attributes:
                           includi_classi: 'event,public_service'
                           show_facets: '0'
@@ -97,7 +97,7 @@ data:
                           includi_classi: banner
                           color_style: bg-white
                           container_style: ''
-                          node_id: node_id_from_remote_id(banners)
+                          node_id: '140'
                           escludi_classi: ''
                           ordinamento: name
                           livello_profondita: ''
@@ -130,8 +130,8 @@ data:
             - $contenttree_OpenCity_Vivere-il-comune_object
         
         link_nel_footer:
-            - $content_Privacy_object
-            - $content_Note-legali_object
+            - $contenttree_OpenCity_Privacy_object
+            - $contenttree_OpenCity_Note-legali_object
             - $contenttree_Documenti-e-dati_Dataset_object
             - $content_Dichiarazione-di-accessibilita_object
         contacts:

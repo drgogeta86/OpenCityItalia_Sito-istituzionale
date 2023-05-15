@@ -14,7 +14,6 @@ attribute_group:
         curriculum: '1'
     details:
         '*': 'Contenuti secondari'
-        has_role: '1'
     dichiarazione_dei_redditi:
         '*': 'Dichiarazione dei redditi'
         dichiarazione_redditi: '1'
@@ -40,26 +39,6 @@ attribute_group:
         '*': 'Spese elettorali'
     'ita-IT::ulteriori_informazioni':
         '*': 'Ulteriori informazioni'
-    'ita-PA::altre_cariche':
-        '*': ''
-    'ita-PA::biografia':
-        '*': ''
-    'ita-PA::content':
-        '*': ''
-    'ita-PA::curriculum_vitae':
-        '*': ''
-    'ita-PA::details':
-        '*': ''
-    'ita-PA::dichiarazione_dei_redditi':
-        '*': ''
-    'ita-PA::meta':
-        '*': ''
-    'ita-PA::situazione_patrimoniale':
-        '*': ''
-    'ita-PA::spese_elettorali':
-        '*': ''
-    'ita-PA::ulteriori_informazioni':
-        '*': ''
     meta:
         '*': Meta
         has_contact_point: '1'
@@ -102,7 +81,6 @@ card_small_view:
     enabled:
         '*': '1'
     show:
-        image: '1'
         abstract: '1'
         competenze: '1'
         content_show_read_more: '1'

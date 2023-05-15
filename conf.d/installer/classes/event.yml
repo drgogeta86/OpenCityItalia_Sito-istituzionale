@@ -825,21 +825,21 @@ data_map:
             always-available: ita-IT
             eng-GB: ''
             ita-IT: ''
-    related_event:
-        identifier: related_event
-        serialized_description_list:
-            always-available: ita-IT
-            ita-IT: ''
-        serialized_name_list:
-            always-available: ita-IT
-            ita-IT: Appuntamenti
-        data_type_string: openpareverserelationlist
-        placement: 36
-        can_translate: 1
-        data_text5: ''
-        category: details
-        serialized_data_text:
-            always-available: ita-IT
-            ita-IT: ''
+#    related_event:
+#        identifier: related_event
+#        serialized_description_list:
+#            always-available: ita-IT
+#            ita-IT: ''
+#        serialized_name_list:
+#            always-available: ita-IT
+#            ita-IT: Appuntamenti
+#        data_type_string: openpareverserelationlist
+#        placement: 36
+#        can_translate: 1
+#        data_text5: ''
+#        category: details
+#        serialized_data_text:
+#            always-available: ita-IT
+#            ita-IT: ''
 groups:
     - 'Eventi (CPEV)'

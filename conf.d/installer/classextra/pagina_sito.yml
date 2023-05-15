@@ -5,10 +5,7 @@ bootstrapitalia_icon:
     icon:
         '*': ''
 card_small_view:
-    enabled:
-        '*': '1'
     show:
-        abstract: '1'
         content_show_read_more: '1'
 line_view:
     show:
@@ -35,8 +32,6 @@ table_view:
         '*': '1'
     in_overview:
         abstract: '1'
-    main_image:
-        image: '1'
     show:
         description: '1'
     show_label:

@@ -16,6 +16,6 @@ data:
         internal_location: {  }
         location: 'https://designers.italia.it/modello/comuni/'
         background_color:
-            - dark
+            - primary-bg
         topics: {  }
 sort_data: null
