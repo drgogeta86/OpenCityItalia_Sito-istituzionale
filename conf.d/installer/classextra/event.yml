@@ -86,6 +86,42 @@ attribute_group:
         sub_event_of: '1'
         translator: '1'
         ulteriori_informazioni: '1'
+    'ger-DE::a_chi_e_rivolto':
+        '*': 'Wem es angesprochen wird'
+    'eng-GB::a_chi_e_rivolto':
+        '*': 'To whom it is addressed'
+    'ger-DE::appuntamenti':
+        '*': Termine
+    'eng-GB::appuntamenti':
+        '*': Appointments
+    'ger-DE::contatti':
+        '*': Kontakt
+    'eng-GB::contatti':
+        '*': Contacts
+    'ger-DE::cos_e':
+        '*': 'Was Sie wissen müssen'
+    'eng-GB::cos_e':
+        '*': 'What is it?'
+    'ger-DE::costi':
+        '*': 'Kosten und Gebühren'
+    'eng-GB::costi':
+        '*': Costs
+    'ger-DE::date_e_orari':
+        '*': 'Daten und Uhrzeiten'
+    'eng-GB::date_e_orari':
+        '*': 'Dates and times'
+    'ger-DE::documenti':
+        '*': Dokumente
+    'eng-GB::documenti':
+        '*': Documents
+    'ger-DE::luogo':
+        '*': Ort
+    'eng-GB::luogo':
+        '*': Place
+    'ger-DE::ulteriori_informazioni':
+        '*': 'Weitere Informationen'
+    'eng-GB::ulteriori_informazioni':
+        '*': 'Further information'
 bootstrapitalia_icon:
     enabled:
         '*': '1'

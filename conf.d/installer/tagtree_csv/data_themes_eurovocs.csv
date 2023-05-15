@@ -1,15 +1,15 @@
 parent_id,id,remote_id,path_string,keyword_it,keyword_de,keyword_pa,keyword_en,synonyms_it,synonyms_de,synonyms_pa,synonyms_en,description_it,description_de,description_en,hash
-0,1,f40db1db76c7908fa7f871209590aa69,/6/,"Data themes - eurovocs",,,,,,,,,,,bc9bc5cfb9469e9aa750a5d66cf05eaf
-1,2,96f13ac24261e1fd2cdfc5998e44d2c6,/6/10/,Energia,,http://publications.europa.eu/resource/authority/data-theme/ENER,,,,,,,,,3740f0eb333cc09f7a387bbfec054d18
-1,3,a5d8439bede2b7a954338cf68d93a590,/6/11/,"Giustizia, sistema giuridico e sicurezza pubblica",,http://publications.europa.eu/resource/authority/data-theme/JUST,,,,,,,,,525fca90c7ef3d3dbc47831fb5a22737
-1,4,27d96f83b5a228ca646813749612670d,/6/12/,"Governo e settore pubblico",,http://publications.europa.eu/resource/authority/data-theme/GOVE,,,,,,,,,17f4474c70a65b6e03a55459a9f41f62
-1,5,6037ad021c479af5159e7c18a9622c3d,/6/13/,"Istruzione, cultura e sport",,http://publications.europa.eu/resource/authority/data-theme/EDUC,,,,,,,,,804bfb1b486f0583cca8bdae0ee68401
-1,6,82ee53be42fd1d65c4fa44af3f861100,/6/14/,"Popolazione e società",,http://publications.europa.eu/resource/authority/data-theme/SOCI,,,,,,,,,316874f72630103f6c84eb1373b58fdc
-1,7,587c7a06df369bbbedd86bf9c1da1103,/6/15/,"Regioni e città",,http://publications.europa.eu/resource/authority/data-theme/REGI,,,,,,,,,e85a3e20a99a365856a393bc8c19b74f
-1,8,7fb5a31f98198b00e362e66dc0567ba9,/6/16/,Salute,,http://publications.europa.eu/resource/authority/data-theme/HEAL,,,,,,,,,6b59fc1aaf1bfe0328a0e5a21f572b2f
-1,9,eaf289c4ea390d25f4348df0b73ee7a0,/6/17/,"Scienza e tecnologia",,http://publications.europa.eu/resource/authority/data-theme/TECH,,,,,,,,,11c0250ef0132fe1448ff5fa5593f430
-1,10,da8fe49bd1bee6c37267a0f2d5de4aec,/6/18/,"Tematiche internazionali",,http://publications.europa.eu/resource/authority/data-theme/INTR,,,,,,,,,68700ef44f8715825c6f6f4bc200a116
-1,11,dddc7a20975635c06be77f9b3af7d091,/6/19/,Trasporti,,http://publications.europa.eu/resource/authority/data-theme/TRAN,,,,,,,,,5dab2e44d4b8e524321a0063c15c2ec0
-1,12,06bcdd3a81645fbebe102094faef8b05,/6/7/,"Agricoltura, pesca, silvicoltura e prodotti alimentari",,http://publications.europa.eu/resource/authority/data-theme/AGRI,,,,,,,,,28bc3df88122208df1353c188c05bc52
-1,13,1da0948ea2672ddff313eed8c951867b,/6/8/,Ambiente,,http://publications.europa.eu/resource/authority/data-theme/ENVI,,,,,,,,,f8b1c84688a992e9d7a6530d8fa3cf33
-1,14,0d87f78fb40649c71db80b3bc1ec5a3a,/6/9/,"Economia e finanze",,http://publications.europa.eu/resource/authority/data-theme/ECON,,,,,,,,,52ebc0eaf84012f5efd06965986c4987
+0,1,f40db1db76c7908fa7f871209590aa69,/6/,"Data themes - eurovocs","Data themes - eurovocs",,"Data themes - eurovocs",,,,,,,,
+1,2,96f13ac24261e1fd2cdfc5998e44d2c6,/6/10/,Energia,Energie,http://publications.europa.eu/resource/authority/data-theme/ENER,Energy,,,,,,,,
+1,3,a5d8439bede2b7a954338cf68d93a590,/6/11/,"Giustizia, sistema giuridico e sicurezza pubblica","Justiz, Rechtssystem und öffentliche Sicherheit",http://publications.europa.eu/resource/authority/data-theme/JUST,"Justice, legal system and public safety",,,,,,,,
+1,4,27d96f83b5a228ca646813749612670d,/6/12/,"Governo e settore pubblico","Regierung und öffentlicher Dienst",http://publications.europa.eu/resource/authority/data-theme/GOVE,"Government and public sector",,,,,,,,
+1,5,6037ad021c479af5159e7c18a9622c3d,/6/13/,"Istruzione, cultura e sport","Bildung, Kultur und Sport",http://publications.europa.eu/resource/authority/data-theme/EDUC,"Education, culture and sport",,,,,,,,
+1,6,82ee53be42fd1d65c4fa44af3f861100,/6/14/,"Popolazione e società","Bevölkerung und Gesellschaft",http://publications.europa.eu/resource/authority/data-theme/SOCI,"Population and society",,,,,,,,
+1,7,587c7a06df369bbbedd86bf9c1da1103,/6/15/,"Regioni e città","Regionen und Städte",http://publications.europa.eu/resource/authority/data-theme/REGI,"Regions and cities",,,,,,,,
+1,8,7fb5a31f98198b00e362e66dc0567ba9,/6/16/,Salute,Gesundheit,http://publications.europa.eu/resource/authority/data-theme/HEAL,Health,,,,,,,,
+1,9,eaf289c4ea390d25f4348df0b73ee7a0,/6/17/,"Scienza e tecnologia","Wissenschaft und Technologie",http://publications.europa.eu/resource/authority/data-theme/TECH,"Science and technology",,,,,,,,
+1,10,da8fe49bd1bee6c37267a0f2d5de4aec,/6/18/,"Tematiche internazionali","Internationale Themen",http://publications.europa.eu/resource/authority/data-theme/INTR,"International issues",,,,,,,,
+1,11,dddc7a20975635c06be77f9b3af7d091,/6/19/,Trasporti,"Mobilität und Verkehr",http://publications.europa.eu/resource/authority/data-theme/TRAN,Transport,,,,,,,,
+1,12,06bcdd3a81645fbebe102094faef8b05,/6/7/,"Agricoltura, pesca, silvicoltura e prodotti alimentari","Landwirtschaft, Fischerei, Forstwirtschaft und Lebensmittel",http://publications.europa.eu/resource/authority/data-theme/AGRI,"Agriculture, fisheries, forestry and food",,,,,,,,
+1,13,1da0948ea2672ddff313eed8c951867b,/6/8/,Ambiente,Umwelt,http://publications.europa.eu/resource/authority/data-theme/ENVI,Environment,,,,,,,,
+1,14,0d87f78fb40649c71db80b3bc1ec5a3a,/6/9/,"Economia e finanze","Wirtschaft und Finanzen",http://publications.europa.eu/resource/authority/data-theme/ECON,"Economy and finance",,,,,,,,

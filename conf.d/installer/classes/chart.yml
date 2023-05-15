@@ -4,9 +4,11 @@ serialized_name_list:
     always-available: always-available
     ger-DE: Abbildung/Grafik
     ita-IT: Grafico
+    eng-GB: Graphic
 serialized_description_list:
     ger-DE: 'Datenstruktur, die für den Betrieb der Plattform erforderlich ist'
     ita-IT: 'Struttura dati necessaria al funzionamento della piattaforma'
+    eng-GB: 'Data structure necessary for the functioning of the platform'
 data_map:
     name:
         identifier: name
@@ -16,6 +18,7 @@ data_map:
             always-available: always-available
             ger-DE: 'Name der Abbildung/Grafik'
             ita-IT: 'Nome del grafico'
+            eng-GB: 'Name of the chart'
         data_type_string: ezstring
         placement: 1
         is_required: 1
@@ -29,6 +32,7 @@ data_map:
             always-available: always-available
             ger-DE: Beschreibung
             ita-IT: Descrizione
+            eng-GB: Description
         data_type_string: ezxmltext
         placement: 2
         can_translate: 1
@@ -43,6 +47,7 @@ data_map:
             always-available: ita-IT
             ger-DE: Abbildung/Grafik
             ita-IT: Grafico
+            eng-GB: Graphic
         data_type_string: occhart
         placement: 3
         is_required: 1

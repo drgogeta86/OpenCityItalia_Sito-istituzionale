@@ -3,11 +3,13 @@ contentobject_name: '<name>'
 serialized_name_list:
     always-available: ita-IT
     ger-DE: Online-Ansprechpartner
-    ita-IT: 'Punto di contatto'
+    ita-IT: 'Punto di contatto on-line'
+    eng-GB: 'Online contact point'
 serialized_description_list:
     always-available: ita-IT
     ger-DE: 'Gruppiert eine Reihe von digitalen Kanälen, wie z. B. E-Mail, soziale Netzwerke, Websites usw..'
     ita-IT: 'Raggruppa un insieme di tipi di canali digitali, come email, social network, siti web, ecc...'
+    eng-GB: 'Group a set of digital channel types, such as emails, social networks, websites, etc ...'
 always_available: 1
 data_map:
     name:
@@ -18,7 +20,8 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ger-DE: 'Name der Kontaktstelle'
-            ita-IT: 'Titolo punto di contatto'
+            ita-IT: 'Nome del punto di contatto'
+            eng-GB: 'Contact point name'
         data_type_string: ezstring
         placement: 1
         is_searchable: 1
@@ -32,11 +35,13 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ger-DE: 'Geben Sie alle Kontakte an'
-            ita-IT: 'Specificare per ogni contatto il tipo di contatto (Email, Telefono, URL, PEC) e il suo valore specifico (il numero compreso di prefisso internazionale (se telefono), l''account (se social network), l''URL (se sito o pagina web), l''indirizzo email (se email)).'
+            ita-IT: 'Specificare tutti i contatti'
+            eng-GB: 'Specify all contacts'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: Kontakt
             ita-IT: Contatti
+            eng-GB: Contacts
         data_type_string: ezmatrix
         placement: 2
         is_searchable: 1
@@ -56,6 +61,7 @@ data_map:
             always-available: ita-IT
             ger-DE: Hinweise
             ita-IT: Note
+            eng-GB: Notes
         data_type_string: eztext
         placement: 3
         is_searchable: 1
@@ -74,6 +80,7 @@ data_map:
             always-available: ita-IT
             ger-DE: 'Telefonische Ansprechzeiten'
             ita-IT: 'Orari di disponibilità telefonica'
+            eng-GB: 'Telephone availability times'
         data_type_string: ezobjectrelationlist
         placement: 4
         is_searchable: 1
@@ -95,10 +102,12 @@ data_map:
             always-available: ita-IT
             ger-DE: 'Einrichtungen (Ämter, Bereiche, Organisationen), die mit der Kontaktstelle verbunden sind'
             ita-IT: 'Strutture (uffici, aree, organizzazioni) collegate al Punto di contatto'
+            eng-GB: 'Structures (offices, areas, organizations) connected to the Contact Point'
         serialized_name_list:
             always-available: ita-IT
-            ger-DE: 'Zugeordnete Einrichtungen'
-            ita-IT: 'Strutture'
+            ger-DE: 'Zugeordnete Einrichtung'
+            ita-IT: 'Strutture collegate'
+            eng-GB: 'Connected structures'
         data_type_string: openpareverserelationlist
         placement: 5
         can_translate: 1
@@ -115,7 +124,7 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ger-DE: 'Assoziierte Personen'
-            ita-IT: 'Persone'
+            ita-IT: Persone
         data_type_string: openpareverserelationlist
         placement: 6
         can_translate: 1

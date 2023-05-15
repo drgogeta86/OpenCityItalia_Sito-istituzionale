@@ -4,9 +4,11 @@ serialized_name_list:
     always-available: ita-IT
     ger-DE: Dokument
     ita-IT: Documento
+    eng-GB: document
 serialized_description_list:
     ger-DE: 'Jede Art von Dokumentation, die von der Stadtgemeinde erstellt oder in den eigenen digitalen Kanälen veröffentlicht wird; jede angehängte Datei muss von entsprechenden Metadaten begleitet werden'
     ita-IT: 'Qualsiasi tipo di documentazione prodotta dall''ente o da esso pubblicata all''interno dei propri canali digitali; ciascun file allegato deve essere accompagnato da opportuni metadati'
+    eng-GB: 'Any type of documentation produced by the organization or published by it within its digital channels; each attached file must be accompanied by appropriate metadata'
 always_available: 1
 sort_field: 9
 data_map:
@@ -14,11 +16,13 @@ data_map:
         identifier: name
         serialized_description_list:
             ger-DE: 'Name des Dokuments. Der Name des Dokuments muss für die Bürger leicht verständlich sein. Einschränkungen: maximal 60 Zeichen inklusive Leerzeichen'
-            ita-IT: 'Nome del documento. Il nome del Documento deve essere facilmente comprensibile dai cittadini. Vincoli: massimo 160 caratteri spazi inclusi'
+            ita-IT: 'Nome del documento. Il nome del Documento deve essere facilmente comprensibile dai cittadini. Vincoli: massimo 60 caratteri spazi inclusi'
+            eng-GB: 'Name of the document. The name of the document must be easily understood by citizens. Constraints: maximum 60 characters including spaces'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: Titel
             ita-IT: Titolo
+            eng-GB: Title
         data_type_string: ezstring
         placement: 1
         is_searchable: 1
@@ -31,11 +35,13 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ger-DE: 'Eine einheitliche Identifikationsnummer des Dokuments; wenn ein Standard existiert: DOI, ISBN, etc... oder Nummer+Jahr, wenn es sich um einen Akt handelt.'
-            ita-IT: 'Un numero identificativo del documento, univoco (se esiste uno standard: DOI, ISBN, etc. oppure "numero+anno" (es.: delibera/01/2022) se è un atto)'
+            ita-IT: 'Un numero identificativo del documento, univoco; se esite uno standard: DOI, ISBN, ecc... oppure numero+anno se è un atto'
+            eng-GB: 'A unique identification number of the document; if there is a standard: DOI, ISBN, etc ... or number + year if it is an act'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: Dokument-ID-Nummer
             ita-IT: 'Identificativo del documento'
+            eng-GB: 'Document identifier'
         data_type_string: ezstring
         placement: 2
         is_searchable: 1
@@ -52,11 +58,12 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ger-DE: Protokollnummer
-            ita-IT: Protocollo
+            ita-IT: 'Numero di protocollo'
+            eng-GB: 'Protocol number'
         data_type_string: ezstring
         placement: 3
         is_searchable: 1
-        is_required: 1
+        is_required: 0
         can_translate: 1
         serialized_data_text:
             always-available: ita-IT
@@ -69,11 +76,12 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ger-DE: Protokolldatum
-            ita-IT: 'Data protocollazione'
+            ita-IT: 'Data di protocollazione'
+            eng-GB: 'Registration date'
         data_type_string: ezdate
         placement: 4
         is_searchable: 1
-        is_required: 1
+        is_required: 0
         can_translate: 1
         serialized_data_text:
             always-available: ita-IT
@@ -82,12 +90,14 @@ data_map:
         identifier: image
         serialized_description_list:
             always-available: ita-IT
-            ger-DE: 'Galerie mit aussagekräftigen Bildern zu einem Dokument, mit Bildtext versehen'
-            ita-IT: 'Una o più immagini significative, relative al documento, corredate da didascalia'
+            ger-DE: 'Hauptbild des Dokuments'
+            ita-IT: 'Immagine principale del documento'
+            eng-GB: 'Document main picture'
         serialized_name_list:
             always-available: ita-IT
-            ger-DE: Bildergalerie
-            ita-IT: Immagini
+            ger-DE: Bild
+            ita-IT: Immagine
+            eng-GB: Picture
         data_type_string: ezobjectrelationlist
         placement: 5
         is_searchable: 1
@@ -111,7 +121,8 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ger-DE: 'Art des Dokuments'
-            ita-IT: 'Tipo di documento'
+            ita-IT: 'Tipologia di documento'
+            eng-GB: 'Type of document'
         data_type_string: eztags
         placement: 6
         is_searchable: 1
@@ -129,10 +140,12 @@ data_map:
         serialized_description_list:
             ger-DE: 'Inhalt des Dokuments'
             ita-IT: 'Materia del documento'
+            eng-GB: 'Subject matter of the document'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: Thema
-            ita-IT: Argomenti
+            ita-IT: Argomento
+            eng-GB: Topic
         data_type_string: ezobjectrelationlist
         placement: 7
         is_searchable: 1
@@ -172,11 +185,13 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ger-DE: 'Ausführliche Beschreibung des Dokuments'
-            ita-IT: 'L''oggetto del documento, utilizzando un linguaggio semplice che possa aiutare qualsiasi utente a identificare con chiarazza il documento. Non utilizzare un linguaggio ricco di riferimenti normativi.'
+            ita-IT: 'Descrizione estesa del documento'
+            eng-GB: 'Extended description of the document'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: 'Vollständige Beschreibung'
-            ita-IT: Descrizione
+            ita-IT: 'Descrizione completa'
+            eng-GB: 'Complete description'
         data_type_string: ezxmltext
         placement: 10
         is_searchable: 1
@@ -189,11 +204,13 @@ data_map:
         identifier: file
         serialized_description_list:
             ger-DE: 'Hängen Sie das eigentliche Dokument an, in einem Format, das vom Benutzer heruntergeladen und gedruckt werden kann (z. B. PDF)'
-            ita-IT: 'Link al documento vero e proprio, in un formato scaricabile attraverso una URL. Allegare il documento principale vero e proprio, in un formato scaricabile e stampabile da parte dell''utente (es. PDF)'
+            ita-IT: 'Allegare il documento vero e proprio, in un formato scaricabile e stampabile da parte dell''utente (es. PDF)'
+            eng-GB: 'Attach the actual document, in a downloadable and printable format by the user (e.g. PDF)'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: 'Link zum aktuellen Dokument'
-            ita-IT: 'URL documento'
+            ita-IT: 'Link al documento vero e proprio'
+            eng-GB: 'Link to the actual document'
         data_type_string: ezbinaryfile
         placement: 11
         can_translate: 1
@@ -203,10 +220,12 @@ data_map:
         serialized_description_list:
             ger-DE: 'Als Alternative zum vorherigen Feld: Wenn das Dokument extern ist, fügen Sie den Hyperlink ein'
             ita-IT: 'In alternativa al campo precedente: se il documento è esterno al sito, inserire il collegamento ipertestuale'
+            eng-GB: 'As an alternative to the previous field: if the document is external to the site, insert the hyperlink'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: 'Externer Link auf das Dokument'
             ita-IT: 'Link esterno al documento'
+            eng-GB: 'Link external to the document'
         data_type_string: ezurl
         placement: 12
         can_translate: 1
@@ -216,11 +235,13 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ger-DE: 'Angehängte Dateien'
-            ita-IT: 'File allegati al documento principale'
+            ita-IT: 'File allegati'
+            eng-GB: 'Attached files'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: 'Beigefügte Dokumente'
             ita-IT: 'Documenti allegati'
+            eng-GB: 'Attached documents'
         data_type_string: ocmultibinary
         placement: 13
         is_searchable: 1
@@ -233,11 +254,13 @@ data_map:
         identifier: has_organization
         serialized_description_list:
             ger-DE: 'Amt, welches das Dokument verfasst und bearbeitet'
-            ita-IT: 'Indicare l''ufficio che si occupa del documento oppure l''ufficio proponente.'
+            ita-IT: 'Ufficio che si occupa del documento; ufficio proponente'
+            eng-GB: 'Office that deals with the document; proposing office'
         serialized_name_list:
             always-available: ita-IT
-            ger-DE: 'Zuständige/vorlegende Stelle'
-            ita-IT: 'Ufficio responsabile del documento'
+            ger-DE: 'Zuständiges Amt'
+            ita-IT: 'Ufficio responsabile/proponente del documento'
+            eng-GB: 'Office responsible / proposer for the document'
         data_type_string: ezobjectrelationlist
         placement: 14
         is_searchable: 1
@@ -257,11 +280,13 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ger-DE: 'Lizenz, unter der das Dokument verteilt wird'
-            ita-IT: 'Licenza con la quale il documento viene distribuito'
+            ita-IT: 'Licenza con il quale il documento viene distribuito'
+            eng-GB: 'License under which the document is distributed'
         serialized_name_list:
             always-available: ita-IT
-            ger-DE: Vertriebslizenz
+            ger-DE: Verteilungslizenz
             ita-IT: 'Licenza di distribuzione'
+            eng-GB: 'Distribution license'
         data_type_string: eztags
         placement: 15
         is_searchable: 1
@@ -280,10 +305,12 @@ data_map:
             always-available: ita-IT
             ger-DE: 'Liste der Dateiformate, in denen das Dokument verfügbar ist'
             ita-IT: 'Lista dei formati in cui è disponibile il documento'
+            eng-GB: 'List of formats in which the document is available'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: 'Verfügbare Dateiformate'
             ita-IT: 'Formati disponibili'
+            eng-GB: 'Available formats'
         data_type_string: eztags
         placement: 16
         is_searchable: 1
@@ -300,10 +327,12 @@ data_map:
         serialized_description_list:
             ger-DE: 'Gültig/wirksam ab (erster Geltungstag)'
             ita-IT: 'Data a partire dalla quale il documento è valido'
+            eng-GB: 'Date from which the document is valid'
         serialized_name_list:
             always-available: ita-IT
-            ger-DE: 'Gültig/wirksam ab '
+            ger-DE: 'Gültig/wirksam ab'
             ita-IT: 'Data di inizio validità/efficacia'
+            eng-GB: 'Effective / effective start date'
         data_type_string: ezdate
         placement: 17
         is_searchable: 1
@@ -317,10 +346,12 @@ data_map:
         serialized_description_list:
             ger-DE: 'Gültig/wirksam bis (letzter Geltungstag)'
             ita-IT: 'Data a partire dalla quale il documento non è valido'
+            eng-GB: 'Date from which the document is invalid'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: 'Gültig/wirksam bis'
             ita-IT: 'Data di fine validità/efficacia'
+            eng-GB: 'End of validity / effective date'
         data_type_string: ezdate
         placement: 18
         is_searchable: 1
@@ -332,10 +363,12 @@ data_map:
         serialized_description_list:
             ger-DE: 'Tag, an dem das Dokument veröffentlicht wird und von dem an das Dokument auf der Website einsehbar ist'
             ita-IT: 'Data in cui il documento è pubblicato. A partire da questa data, il documento sarà visibile sul sito web.'
+            eng-GB: 'Date the document is published. From this date, the document will be visible on the website.'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: 'Tag der Veröffentlichung'
             ita-IT: 'Data di inizio pubblicazione'
+            eng-GB: 'Publication start date'
         data_type_string: ezdate
         placement: 19
         is_searchable: 1
@@ -349,10 +382,12 @@ data_map:
         serialized_description_list:
             ger-DE: 'Datum, an dem das Dokument archiviert wird. Ab diesem Datum ist das Dokument nur noch im Archiv abrufbar'
             ita-IT: 'Data in cui il documento è archiviato. A partire da questa data, il documento sarà reperibile nell''archivio.'
+            eng-GB: 'Date the document is archived. From this date, the document will be available in the archive.'
         serialized_name_list:
             always-available: ita-IT
-            ger-DE: 'Letzter Veröffentlichungstag '
+            ger-DE: 'Letzter Veröffentlichungstag'
             ita-IT: 'Data di fine pubblicazione'
+            eng-GB: 'Publication end date'
         data_type_string: ezdate
         placement: 20
         is_searchable: 1
@@ -365,10 +400,12 @@ data_map:
             always-available: ita-IT
             ger-DE: 'An diesem Tag wird das Dokument von der Website genommen, d. h., es ist nicht mehr öffentlich einsehbar'
             ita-IT: 'Data a partire dalla quale il documento non sarà più pubblico sul sito.'
+            eng-GB: 'Date from which the document will no longer be public on the site.'
         serialized_name_list:
             always-available: ita-IT
-            ger-DE: 'Tag der Entfernung von der Website '
+            ger-DE: 'Tag der Entfernung von der Website'
             ita-IT: 'Data di rimozione'
+            eng-GB: 'Removal date'
         data_type_string: ezdate
         placement: 21
         is_searchable: 1
@@ -383,10 +420,12 @@ data_map:
             always-available: ita-IT
             ger-DE: 'Datum, an dem das Dokument unterzeichnet wurde'
             ita-IT: 'Data di firma del documento'
+            eng-GB: 'Date of signature of the document'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: 'Datum der Unterzeichnung des Dokuments'
             ita-IT: 'Data di firma'
+            eng-GB: 'Date of signature'
         data_type_string: ezdate
         placement: 22
         is_searchable: 1
@@ -424,10 +463,12 @@ data_map:
             always-available: ita-IT
             ger-DE: 'Weitere Informationen zum Dokument'
             ita-IT: 'Ulteriori informazioni sul documento'
+            eng-GB: 'Learn more about the document'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: 'Weitere Informationen'
             ita-IT: 'Ulteriori informazioni'
+            eng-GB: 'Further informations'
         data_type_string: ezxmltext
         placement: 24
         is_searchable: 1
@@ -442,11 +483,13 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ger-DE: 'Geben Sie die Gesetzesbestimmungen oder eine Liste von Links zu Rechtsquellen im Internet an'
-            ita-IT: 'Indicare i riferimenti normativi o una lista di link ai riferimenti normativi presenti su web utili per il documento'
+            ita-IT: 'Indicare i riferimenti normativi o una lista di link ai riferimenti normativi presenti su web'
+            eng-GB: 'Indicate the regulatory references or a list of links to the regulatory references on the web'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: 'Verweis auf Gesetzesbestimmungen'
             ita-IT: 'Riferimenti normativi'
+            eng-GB: 'Normative requirements'
         data_type_string: ezxmltext
         placement: 25
         is_searchable: 1
@@ -460,11 +503,13 @@ data_map:
         identifier: reference_doc
         serialized_description_list:
             ger-DE: 'Mit dem Dokument verbundene Objekte'
-            ita-IT: 'Link ai documenti collegati, strutturati a loro volta come documenti'
+            ita-IT: 'Oggetti correlati con il documento'
+            eng-GB: 'Objects related to the document'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: Bezugsangabe
-            ita-IT: 'Documenti collegati'
+            ita-IT: Riferimento
+            eng-GB: Reference
         data_type_string: ezobjectrelationlist
         placement: 26
         is_searchable: 1
@@ -484,10 +529,12 @@ data_map:
         serialized_description_list:
             ger-DE: 'Wichtigste Begriffe, die den Inhalt des Dokuments betreffen, durch Komma getrennt'
             ita-IT: 'Concetti più significativi riguardanti il contenuto del documento, separati da virgola'
+            eng-GB: 'Most significant concepts regarding the content of the document, separated by commas'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: Schlüsselwort
             ita-IT: 'Parola chiave'
+            eng-GB: Keyword
         data_type_string: ezkeyword
         placement: 27
         is_searchable: 1
@@ -502,7 +549,8 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ger-DE: 'Zugeordnete Dienste'
-            ita-IT: 'Servizi '
+            ita-IT: 'Servizi collegati'
+            eng-GB: 'Connected services'
         data_type_string: openpareverserelationlist
         placement: 29
         can_translate: 1
@@ -519,7 +567,8 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ger-DE: 'Teil eines Lebensereignisses'
-            ita-IT: 'Life events'
+            ita-IT: 'Fa parte di un evento della vita'
+            eng-GB: 'It is part of a life event'
         data_type_string: eztags
         placement: 31
         is_searchable: 1
@@ -561,6 +610,7 @@ data_map:
             always-available: ita-IT
             ger-DE: Autor(en)
             ita-IT: Autore/i
+            eng-GB: Autor/s
         data_type_string: ezauthor
         placement: 33
         is_searchable: 1
@@ -577,6 +627,7 @@ data_map:
             always-available: ita-IT
             ger-DE: 'Art der Beantwortung'
             ita-IT: 'Tipo di risposta'
+            eng-GB: 'Response type'
         data_type_string: ezselection
         placement: 35
         is_searchable: 1
@@ -595,6 +646,7 @@ data_map:
             always-available: ita-IT
             ger-DE: Anfragesteller
             ita-IT: Interroganti
+            eng-GB: Questioners
         data_type_string: ezobjectrelationlist
         placement: 36
         is_searchable: 1
@@ -620,6 +672,7 @@ data_map:
             always-available: ita-IT
             ger-DE: Ratsfraktion
             ita-IT: 'Gruppo consiliare'
+            eng-GB: 'Council Group'
         data_type_string: ezobjectrelationlist
         placement: 38
         is_searchable: 1
@@ -645,6 +698,7 @@ data_map:
             always-available: ita-IT
             ger-DE: 'Datum Übermittlung an die Ämter'
             ita-IT: 'Data di invio agli uffici'
+            eng-GB: 'Date sent to the offices'
         data_type_string: ezdate
         placement: 39
         is_searchable: 1
@@ -662,6 +716,7 @@ data_map:
             always-available: ita-IT
             ger-DE: 'Datum Einbringung im Stadtrat'
             ita-IT: 'Data di passaggio in Giunta'
+            eng-GB: 'Date of passage in the executive council'
         data_type_string: ezdate
         placement: 40
         is_searchable: 1
@@ -679,6 +734,7 @@ data_map:
             always-available: ita-IT
             ger-DE: 'Datum  Beantwortung der Anfrage an den Gemeinderat'
             ita-IT: 'Data di risposta al consigliere'
+            eng-GB: 'Date of response to the councilor'
         data_type_string: ezdate
         placement: 41
         is_searchable: 1
@@ -696,6 +752,7 @@ data_map:
             always-available: ita-IT
             ger-DE: 'Tage für die Beantwortung der Anfrage'
             ita-IT: 'Giorni per la risposta'
+            eng-GB: 'Days to reply'
         data_type_string: ezinteger
         placement: 42
         is_searchable: 1
@@ -713,6 +770,7 @@ data_map:
             always-available: ita-IT
             ger-DE: 'Datum der Bearbeitung/Beantwortung durch den Gemeinderat'
             ita-IT: 'Data trattazione/risposta in Consiglio'
+            eng-GB: 'Date of discussion / response in the Council'
         data_type_string: ezdate
         placement: 43
         is_searchable: 1
@@ -730,6 +788,7 @@ data_map:
             always-available: ita-IT
             ger-DE: 'Tage für die Verabschiedung'
             ita-IT: 'Giorni per l''adozione'
+            eng-GB: 'Days for adoption'
         data_type_string: ezinteger
         placement: 44
         is_searchable: 1
@@ -744,10 +803,12 @@ data_map:
             always-available: ita-IT
             ger-DE: 'Nr auszufüllen, wenn der gewählte Dokumententyp "Ausschreibung" ist.'
             ita-IT: 'da compilare soltanto in caso la tipologia di documento selezionata sia "Bando di gara"'
+            eng-GB: 'to be filled in only if the type of document selected is "Call for tenders"'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: Ausschreibungen
             ita-IT: 'Tipologia di bando'
+            eng-GB: 'Type of competition notice'
         data_type_string: eztags
         placement: 45
         is_searchable: 1
@@ -792,5 +853,51 @@ data_map:
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
+    description:
+        serialized_name_list:
+            ita-IT: Descrizione/oggetto
+            ger-DE: Beschreibung/Betreff
+            eng-GB: 'Description / object'
+        serialized_description_list:
+            ita-IT: 'Indicare l’oggetto del documento, utilizzando un linguaggio semplice che possa aiutare qualsiasi utente a identificare con chiarezza il documento. Non utilizzare un linguaggio ricco di riferimenti normativi'
+            ger-DE: 'Verordnungen, Richtlinien, Rechtsgrundlagen'
+            eng-GB: 'Indicate the subject of the document, using simple language that can help any user to clearly identify the document. Do not use a language rich in normative references'
+    images:
+        serialized_name_list:
+            ita-IT: 'Galleria immagini'
+            ger-DE: Bildergalerie
+            eng-GB: 'Image gallery'
+        serialized_description_list:
+            ita-IT: 'Galleria di immagini significative relative a un documento, corredate da didascalia'
+            ger-DE: 'Galerie mit aussagekräftigen Bildern zu einem Dokument, mit Bildtext versehen'
+            eng-GB: 'Gallery of meaningful images relating to a document, accompanied by a caption'
+    area:
+        serialized_name_list:
+            ita-IT: 'Area responsabile del documento'
+            ger-DE: 'Verantwortlicher Verwaltungsbereich'
+            eng-GB: 'Area responsible for the document'
+    has_service:
+        serialized_name_list:
+            ita-IT: 'Canale digitale del servizio collegato'
+            ger-DE: 'Digitaler Kanal des zugeordneten Dienstes'
+            eng-GB: 'Digital channel of the linked service'
+        serialized_description_list:
+            ita-IT: 'Se il servizio ha un canale digitale Link per avviare la procedura di prenotazione o attivazione del servizio. Questo campo mette in relazione "Servizio" con il suo canale digitale di attivazione. Es. Vai al servizio bandi on line'
+            ger-DE: 'Wenn der Dienst über einen digitalen Kanal verfügt Link zum Einleiten des Buchungs- oder Aktivierungsvorgangs für den Dienst. Dieses Feld verknüpft "Service" mit seinem digitalen Aktivierungskanal. Z.B. Gehen Sie zum Informationssystem Öffentliche Verträge'
+            eng-GB: 'If the service has a digital channel Link to start the booking or service activation procedure. This field relates "Service" to its digital activation channel. Ex. Go to the online calls service'
+    anno_protocollazione:
+        serialized_name_list:
+            ita-IT: 'Anno di protocollazione'
+            ger-DE: 'Jahr der Protokollierung/Registrierung'
+            eng-GB: 'Year of registration'
+    help:
+        serialized_name_list:
+            ita-IT: 'Box d''aiuto'
+            ger-DE: Hilfebox
+            eng-GB: 'Help Box'
+        serialized_description_list:
+            ita-IT: 'Eventuali contatti di supporto all''utente. Per esempio i riferimenti dell''URP'
+            ger-DE: 'Mögliche Supportkontakte für den Benutzer. Zum Beispiel  Bürgerschalter'
+            eng-GB: 'Any support contacts to the user. For example the references of the URP'
 groups:
     - CPSV-AP_IT

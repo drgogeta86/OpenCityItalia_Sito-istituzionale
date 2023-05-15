@@ -2,11 +2,11 @@ identifier: image
 contentobject_name: '<name>'
 serialized_name_list:
     always-available: eng-GB
-    eng-GB: Immagine
+    eng-GB: Picture
     ger-DE: Bild
     ita-IT: Immagine
 serialized_description_list:
-    eng-GB: ''
+    eng-GB: 'Image files and related metadata'
     ger-DE: 'Bilddatei und Metadaten'
     ita-IT: 'File immagine e relativi metadati'
 always_available: 1
@@ -14,12 +14,12 @@ data_map:
     name:
         identifier: name
         serialized_description_list:
-            eng-GB: 'Titolo dell''immagine'
+            eng-GB: 'Title of the image'
             ger-DE: 'Titel des Bildes'
             ita-IT: 'Titolo dell''immagine'
         serialized_name_list:
             always-available: eng-GB
-            eng-GB: Nome
+            eng-GB: Name
             ger-DE: Name
             ita-IT: Nome
         data_type_string: ezstring
@@ -33,12 +33,12 @@ data_map:
     caption:
         identifier: caption
         serialized_description_list:
-            eng-GB: 'Scritta esplicativa dell''imnmagine situata al disotto della figura'
+            eng-GB: 'Explanatory inscription of the image located below the figure'
             ger-DE: 'Erklärendes Bildskript befindet sich unterhalb der Abbildung'
             ita-IT: 'Scritta esplicativa dell''immagine situata al disotto della figura'
         serialized_name_list:
             always-available: eng-GB
-            eng-GB: Didascalia
+            eng-GB: Caption
             ger-DE: Beschriftung
             ita-IT: Didascalia
         data_type_string: ezxmltext
@@ -51,12 +51,12 @@ data_map:
     image:
         identifier: image
         serialized_description_list:
-            eng-GB: 'File dell''immagine'
+            eng-GB: 'Image''s file'
             ger-DE: Bild-Datei
             ita-IT: 'File dell''immagine'
         serialized_name_list:
             always-available: eng-GB
-            eng-GB: 'File immagine'
+            eng-GB: 'Image file'
             ger-DE: Bild-Datei
             ita-IT: 'File immagine'
         data_type_string: ezimage
@@ -69,13 +69,13 @@ data_map:
     tags:
         identifier: tags
         serialized_description_list:
-            eng-GB: 'Parole chiave riguardanti l''immagine'
+            eng-GB: 'Image''s keywords'
             ger-DE: 'Schlüsselwörter zum Bild'
             ita-IT: 'Parole chiave riguardanti l''immagine'
         serialized_name_list:
             always-available: eng-GB
             eng-GB: Tags
-            ger-DE: Tags
+            ger-DE: Schlagwörter
             ita-IT: Tags
         data_type_string: ezkeyword
         placement: 4
@@ -91,7 +91,7 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: eng-GB
-            eng-GB: 'Licenza di utilizzo'
+            eng-GB: 'License to use'
             ger-DE: Nutzungslizenz
             ita-IT: 'Licenza di utilizzo'
         data_type_string: eztags
@@ -110,12 +110,14 @@ data_map:
         identifier: proprietary_license
         serialized_description_list:
             always-available: ita-IT
-            ger-DE: 'Geben Sie den Namen der Eigentumslizenz an'
+            ger-DE: 'Geben Sie den Namen der Urheber-/Eigentumslizenz an'
             ita-IT: 'Specificare il nome della licenza proprietaria'
+            eng-GB: 'Specify the name of the proprietary license'
         serialized_name_list:
             always-available: ita-IT
-            ger-DE: 'Bildnachweis '
+            ger-DE: 'Urheberlizenz (Bildnachweis)'
             ita-IT: 'Licenza proprietaria'
+            eng-GB: 'Proprietary license'
         data_type_string: ezstring
         placement: 6
         is_searchable: 1
@@ -127,12 +129,14 @@ data_map:
         identifier: proprietary_license_source
         serialized_description_list:
             always-available: ita-IT
-            ger-DE: 'Geben Sie die Quelle der Eigentumslizenz an (z. B. die Adresse der Website, von der Sie das Bild heruntergeladen haben)'
+            ger-DE: 'Geben Sie die Bildquelle an (z. B. die Adresse der Website, von der Sie das Bild heruntergeladen haben)'
             ita-IT: 'Specificare la fonte della licenza proprietaria (ad esempio un indirizzo web sul sito da cui hai scaricato l''immagine)'
+            eng-GB: 'Specify the source of the proprietary license (e.g. a web address on the site from which you downloaded the image)'
         serialized_name_list:
             always-available: ita-IT
-            ger-DE: Bildquelle
+            ger-DE: 'Urheber- und Lizenzhinweise / Bildquelle'
             ita-IT: 'Fonte della licenza proprietaria'
+            eng-GB: 'Source of the proprietary license'
         data_type_string: ezstring
         placement: 7
         is_searchable: 1
@@ -144,12 +148,12 @@ data_map:
         identifier: author
         serialized_description_list:
             always-available: eng-GB
-            eng-GB: ''
+            eng-GB: 'Image''s autor'
             ger-DE: 'Autor des Bildes'
             ita-IT: 'L''autore dell''immagine'
         serialized_name_list:
             always-available: eng-GB
-            eng-GB: Autore
+            eng-GB: Autor
             ger-DE: Autor
             ita-IT: Autore
         data_type_string: ezstring
@@ -169,6 +173,7 @@ data_map:
             always-available: ita-IT
             ger-DE: 'Verwendet in'
             ita-IT: 'Utilizzata in'
+            eng-GB: 'Used in'
         data_type_string: openpareverserelationlist
         placement: 9
         can_translate: 1

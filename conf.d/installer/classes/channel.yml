@@ -4,10 +4,12 @@ serialized_name_list:
     always-available: ita-IT
     ger-DE: 'Support-Kanal über welchen die Dienstleistung erbracht wird'
     ita-IT: 'Canale di erogazione del servizio'
+    eng-GB: 'Service delivery channel'
 serialized_description_list:
     always-available: ita-IT
     ger-DE: 'Support-Kanal, über den der öffentliche Dienst den Endbenutzern zur Verfügung gestellt wird'
     ita-IT: 'Canale attraverso cui il servizio pubblico è erogato agli utenti finali'
+    eng-GB: 'Channel through which the public service is delivered to end users'
 data_map:
     object:
         identifier: object
@@ -15,10 +17,12 @@ data_map:
             always-available: ita-IT
             ger-DE: 'Zum Beispiel (Android App-Download, iOS App-Download, Terminbuchung, Online-Bezahlung, Telefonkontakt, ...)'
             ita-IT: 'Ad esempio (download App Android, download App iOS, prenotazione appuntamento, pagamento online, contatto telefonico, ...)'
+            eng-GB: 'For example (Android App download, iOS App download, appointment booking, online payment, telephone contact, ...)'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: 'Funktion des Support-Kanals über welchen die Dienstleistung erfolgt'
             ita-IT: 'Funzione del canale'
+            eng-GB: 'Channel function'
         data_type_string: ezstring
         placement: 1
         is_searchable: 1
@@ -36,6 +40,7 @@ data_map:
             always-available: ita-IT
             ger-DE: 'Support-Kanal für die Erbringung der Dienstleistung'
             ita-IT: 'Tipo di canale di erogazione'
+            eng-GB: 'Type of delivery channel'
         data_type_string: eztags
         placement: 2
         is_searchable: 1
@@ -54,10 +59,12 @@ data_map:
             always-available: ita-IT
             ger-DE: 'Geben Sie eine kurze Beschreibung des Support-Kanals an, über welchen die Dienstleistung erfolgt (max. 160 Zeichen). Verwenden Sie eine einfache Sprache ohne juristische Fachbegriffe.'
             ita-IT: 'Indicare una sintetica descrizione del canale di erogazione (max 160 caratteri) utilizzando un linguaggio semplice che possa aiutare l''utente. Non utilizzare un linguaggio ricco di riferimenti normativi.'
+            eng-GB: 'Indicate a brief description of the delivery channel (max 160 characters) using simple language that can help the user. Do not use a language rich in normative references.'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: 'Kurze Beschreibung'
             ita-IT: 'Descrizione breve'
+            eng-GB: 'Brief Description'
         data_type_string: ezxmltext
         placement: 3
         is_searchable: 1
@@ -73,10 +80,12 @@ data_map:
             always-available: ita-IT
             ger-DE: 'Allgemeine Beschreibung des Support-Kanals und eventuelle besondere Zahlungsbedingungen'
             ita-IT: 'Descrizione generica del canale ed eventuali condizioni particolari di pagamento'
+            eng-GB: 'Generic description of the channel and any special payment conditions'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: Beschreibung
             ita-IT: Descrizione
+            eng-GB: Description
         data_type_string: ezxmltext
         placement: 4
         is_searchable: 1
@@ -91,10 +100,12 @@ data_map:
             always-available: ita-IT
             ger-DE: 'Im Falle einer Webseitenadresse'
             ita-IT: 'Nel caso si tratti di un indirizzo web'
+            eng-GB: 'In the case of a web address'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: 'Eingabe Supportkanal (url)'
             ita-IT: 'Valore del canale (url)'
+            eng-GB: 'Channel value (url)'
         data_type_string: ezurl
         placement: 5
         can_translate: 1
@@ -108,10 +119,12 @@ data_map:
             always-available: ita-IT
             ger-DE: 'Z. B. E-Mail-Adresse, Telefonnummer'
             ita-IT: 'Ad esempio indirizzo email, numero di telefono'
+            eng-GB: 'For example email address, telephone number'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: 'Eingabe Supportkanal  (url)'
-            ita-IT: 'Valore del canale '
+            ita-IT: 'Valore del canale'
+            eng-GB: 'Channel value'
         data_type_string: ezstring
         placement: 6
         is_searchable: 1
@@ -129,6 +142,7 @@ data_map:
             always-available: ita-IT
             ger-DE: Kosten
             ita-IT: Costo
+            eng-GB: Cost
         data_type_string: ezmatrix
         placement: 7
         is_searchable: 1
@@ -147,6 +161,7 @@ data_map:
             always-available: ita-IT
             ger-DE: Voraussetzungen
             ita-IT: 'Condizioni di accesso'
+            eng-GB: 'Conditions of access'
         data_type_string: ezobjectrelationlist
         placement: 8
         is_searchable: 1
@@ -168,10 +183,12 @@ data_map:
             always-available: ita-IT
             ger-DE: 'Repräsentative Bilder des Support-Kanals'
             ita-IT: 'Immagini rappresentative del canale'
+            eng-GB: 'Representative images of the channel'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: Bilder
             ita-IT: Immagini
+            eng-GB: Pictures
         data_type_string: ezobjectrelationlist
         placement: 9
         is_searchable: 1
@@ -193,10 +210,12 @@ data_map:
             always-available: ita-IT
             ger-DE: 'Repräsentative Dateien des Support-Kanals (fac-simile)'
             ita-IT: 'Files rappresentative del canale (fac-simile)'
+            eng-GB: 'Representative files of the channel (facsimile)'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: Dateien
             ita-IT: Files
+            eng-GB: Files
         data_type_string: ocmultibinary
         placement: 10
         is_searchable: 1

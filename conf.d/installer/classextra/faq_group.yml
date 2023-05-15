@@ -8,6 +8,10 @@ attribute_group:
         '*': 'Contenuti principali'
     'sort::content':
         '*': '0'
+    'ger-DE::content':
+        '*': Hauptinhalt
+    'eng-GB::content':
+        '*': 'Main content'
 bootstrapitalia_icon:
     enabled:
         '*': '1'

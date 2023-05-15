@@ -3,11 +3,13 @@ contentobject_name: '<name>'
 serialized_name_list:
     always-available: ita-IT
     ger-DE: 'Öffentlicher Dienst'
-    ita-IT: Servizio
+    ita-IT: 'Servizio pubblico'
+    eng-GB: 'Pubblic service'
 serialized_description_list:
     always-available: ita-IT
     ger-DE: 'Präsentationsblatt des Dienstes für Bürger. Eine öffentliche Dienstleistung ist jede Pflicht- oder Ermessenshandlung, die von einer öffentlichen Verwaltung (oder im Namen einer öffentlichen Verwaltung) gegenüber Bürgern, Unternehmen/Berufstätigen durchgeführt wird.'
     ita-IT: 'Scheda di presentazione del servizio ai cittadini. Per servizio pubblico si intende qualsiasi atto obbligatorio o discrezionale espletato da una pubblica amministrazione (o per conto di una pubblica amministrazione) nei confronti di cittadini, imprese/professionisti.'
+    eng-GB: 'Presentation form of the service to citizens. By public service we mean any compulsory or discretionary act carried out by a public administration (or on behalf of a public administration) towards citizens, businesses / professionals.'
 always_available: 1
 data_map:
     type:
@@ -15,11 +17,13 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ger-DE: 'Gibt die Navigationsstruktur der Sektion Dienste an'
-            ita-IT: 'Le materie di interesse del servizio (esprime la struttura di navigazione della sezione Servizi)'
+            ita-IT: 'Esprime la struttura di navigazione della sezione servizi'
+            eng-GB: 'Expresses the navigation structure of the services section'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: 'Art des Dienstes'
-            ita-IT: 'Categoria del servizio'
+            ita-IT: 'Tipologia del servizio'
+            eng-GB: 'Kind of service'
         data_type_string: eztags
         placement: 1
         is_searchable: 1
@@ -37,11 +41,13 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ger-DE: 'Die Benennung des Dienstes muss für die Bürger leicht verständlich sein.  Einschränkungen: maximal 60 Zeichen inklusive Leerzeichen'
-            ita-IT: 'Nome del Servizio. Il nome del Servizio deve essere facilmente comprensibile dai cittadini. Il Servizio di raccolta differenziata si chiamerà "Raccolta differenziata". Il Servizio di iscrizione all''asilo nido si chiamerà "Iscrizione asilo nido". Vincoli: massimo 160 caratteri spazi inclusi'
+            ita-IT: 'Il nome del Servizio deve essere facilmente comprensibile dai cittadini. Il Servizio di raccolta differenziata si chiamerà "Raccolta differenziata". Il Servizio di iscrizione all''asilo nido si chiamerà "Iscrizione asilo nido". Vincoli: massimo 60 caratteri spazi inclusi'
+            eng-GB: 'The name of the Service must be easily understood by citizens. The separate collection service will be called "separate collection". The Nursery Registration Service will be called "Nursery Registration". Constraints: maximum 60 characters including spaces'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: 'Benennung des Dienstes'
-            ita-IT: 'Titolo del servizio'
+            ita-IT: 'Nome del Servizio'
+            eng-GB: 'Service name'
         data_type_string: ezstring
         placement: 2
         is_searchable: 1
@@ -57,10 +63,12 @@ data_map:
             always-available: ita-IT
             ger-DE: 'Identifizierungskodex des Dienstes; muss innerhalb der Gemeindeverwaltung einheitlich sein'
             ita-IT: 'Codice identificativo del Servizio; deve essere univoco all''interno del Comune'
+            eng-GB: 'Service identification code; it must be unique within the Municipality'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: 'Einheitlicher Kodex'
             ita-IT: 'Identificativo unico'
+            eng-GB: 'Unique identifier'
         data_type_string: ezstring
         placement: 3
         is_searchable: 1
@@ -76,10 +84,12 @@ data_map:
             always-available: ita-IT
             ger-DE: 'Ein anderer Kodex, der mit dem öffentlichen Dienst verbunden ist. Im Falle von kostenpflichtigen Diensten könnte diese Eintragz. B. verwendet werden, um den entsprechenden SIOPE (Sistema informativo delle Operazioni degli Entiti Pubblici) Verwaltungscode anzugeben.'
             ita-IT: 'un altro codice associato al servizio pubblico. Per esempio, nel caso di servizi di pagamento, tale proprietà potrebbe essere utilizzata per indicare il relativo codice gestionale SIOPE (Sistema informativo delle operazioni degli enti pubblici).'
+            eng-GB: 'another code associated with the public service. For example, in the case of payment services, this property could be used to indicate the related management code SIOPE (Information system for the operations of public entities).'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: 'Anderer Identifizierungskodex'
             ita-IT: 'Altro codice identificativo'
+            eng-GB: 'Other identification code'
         data_type_string: ezstring
         placement: 4
         is_searchable: 1
@@ -94,10 +104,12 @@ data_map:
             always-available: ita-IT
             ger-DE: 'Der Dienststatus zeigt die tatsächliche Nutzbarkeit des Dienstes an. Nur sichtbar, wenn der Dienst nicht aktiv ist'
             ita-IT: 'Lo stato del servizio indica l’effettiva fruibilità del Servizio. Visibile solo se il servizio non è attivo'
+            eng-GB: 'The status of the service indicates the actual usability of the Service. Visible only if the service is not active'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: 'Status des Dienstes'
             ita-IT: 'Stato del servizio'
+            eng-GB: 'Status of the service'
         data_type_string: eztags
         placement: 5
         is_searchable: 1
@@ -116,11 +128,13 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ger-DE: 'Textuelle Beschreibung des Grundes, warum ein Dienst nicht aktiv ist. Z. B. Dienst vorübergehend deaktiviert, weil....Dienst aktiv seit...'
-            ita-IT: 'Descrizione testuale del motivo per cui un servizio non è attivo. Es. Servizio momentaneamente disattivato perché…Servizio attivo dal…'
+            ita-IT: 'Descrizione testuale del motivo per cui un servizio non è attivo. Es. Servizio momentaneamente disattivato perché....Servizio attivo dal...'
+            eng-GB: 'Textual description of why a service is not active. Eg Service temporarily disabled because .... Service active from ...'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: 'Grund für den Status'
             ita-IT: 'Motivo dello stato'
+            eng-GB: 'State reason'
         data_type_string: eztext
         placement: 6
         is_searchable: 1
@@ -135,11 +149,13 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ger-DE: 'Gibt einen Untertitel an, den der Dienst haben kann, oder einen Namen, der den Dienst informell identifiziert.'
-            ita-IT: 'Eventuale sottotitolo del Servizio, oppure un nome che identifica informalmente il Servizio. Ad esempio il Servizio "Sistema Unico di Segnalazioni" potrebbe avere come sottotitolo/titolo alternativo "IoSegnalo".'
+            ita-IT: 'Indica un sottotitolo che può avere il Servizio, oppure un nome che identifica informalmente il Servizio. Ad esempio il Servizio "Sistema Unico di Segnalazioni" potrebbe avere come sottotitolo/titolo alternativo "IoSegnalo".'
+            eng-GB: 'Indicates a subtitle that the Service may have, or a name that informally identifies the Service. For example, the "Single Reporting System" Service could have "IoSegnalo" as an alternative subtitle / title.'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: 'Alternativer Titel/Untertitel'
-            ita-IT: Sottotitolo
+            ita-IT: 'Titolo alternativo/Sottotitolo'
+            eng-GB: 'Alternative title / Subtitle'
         data_type_string: ezstring
         placement: 7
         is_searchable: 1
@@ -153,11 +169,13 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ger-DE: 'Bild zur Identifizierung des Dienstes'
-            ita-IT: 'Immagine principale del servizio'
+            ita-IT: 'Immagine identificativa del servizio'
+            eng-GB: 'Identification image of the service'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: Bild
             ita-IT: Immagine
+            eng-GB: Image
         data_type_string: ezobjectrelationlist
         placement: 8
         is_searchable: 1
@@ -178,9 +196,13 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ita-IT: 'Indicare una sintetica descrizione del Servizio (max 160 caratteri) utilizzando un linguaggio semplice che possa aiutare qualsiasi utente a identificare con chiarezza il Servizio. Non utilizzare un linguaggio ricco di riferimenti normativi'
+            ger-DE: 'Beschreiben Sie kurz und bündig, worin diese Dienstleistung besteht (max. 160 Zeichen). Verwenden Sie hierfür eine einfache Sprache, die es allen Bürgerinnen und Bürgern ermöglicht, die Dienstleistung sofort einzuordnen. Vermeiden Sie Verweise auf Rechtsquellen.'
+            eng-GB: 'Indicate a brief description of the Service (max 160 characters) using simple language that can help any user to clearly identify the Service. Do not use a language rich in normative references'
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Descrizione breve'
+            ger-DE: 'Kurze Beschreibung'
+            eng-GB: 'Short description'
         data_type_string: ezstring
         placement: 9
         is_searchable: 1
@@ -196,11 +218,13 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ger-DE: 'Nennen Sie die wichtigsten Personengruppen, die diese Leistung in Anspruch nehmen können'
-            ita-IT: 'Descrizione testuale dei principali destinatari del servizio'
+            ita-IT: 'Descrizione testuale dei principali destinatari del Servizio'
+            eng-GB: 'Textual description of the main recipients of the Service'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: 'Beschreibung der Personengruppen, die diese Leistung in Anspruch nehmen'
-            ita-IT: 'A chi è rivolto'
+            ita-IT: 'Descrizione dei destinatari'
+            eng-GB: 'Description of the recipients'
         data_type_string: ezxmltext
         placement: 10
         is_searchable: 1
@@ -214,11 +238,13 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ger-DE: 'Beispiele: nur Bürger, die seit X Jahren ansässig sind, mit einem Einkommen von weniger als X Euro, mit N Kindern; die Eltern oder der Vormund des Kindes; usw..'
-            ita-IT: 'Chi può presentare la domanda, che non è necessariamente il destinatario di un servizio (ad esempio, il destinatario del servizio potrebbe essere un minore, ma la domanda va presentata da uno dei genitori o da un tutore). Il campo viene visualizzato nelle scheda del servizio all''interno della voce "A chi si rivolge".'
+            ita-IT: 'esempi: solo cittadini residenti da X anni, con reddito inferiore a X euro, con N figli; il genitore o il tutore del bambino; ecc...'
+            eng-GB: 'examples: only citizens residing for X years, with an income of less than X euro, with N children; the parent or guardian of the child; etc...'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: 'Wer kann das Ansuchen stellen'
             ita-IT: 'Chi può fare domanda'
+            eng-GB: 'Who can apply'
         data_type_string: ezxmltext
         placement: 11
         is_searchable: 1
@@ -233,10 +259,12 @@ data_map:
             always-available: ita-IT
             ger-DE: 'Ausführliche Beschreibung der Dienstleistung'
             ita-IT: 'Descrizione estesa e completa del Servizio'
+            eng-GB: 'Service complete and extended description'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: 'Ausführliche Beschreibung'
-            ita-IT: 'Descrizione estesa'
+            ita-IT: 'Descrizione completa'
+            eng-GB: 'Complete description'
         data_type_string: ezxmltext
         placement: 12
         is_searchable: 1
@@ -251,10 +279,12 @@ data_map:
             always-available: ita-IT
             ger-DE: 'Geben Sie den geografischen Bereich an, auf den sich der Dienst erstreckt.'
             ita-IT: 'Indicare a quale area geografica viene esteso il servizio'
+            eng-GB: 'Indicate to which geographical area the service is extended'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: 'Geografische Abdeckung'
             ita-IT: 'Copertura geografica'
+            eng-GB: 'Geographic coverage'
         data_type_string: openpacomuniitaliani
         placement: 13
         is_searchable: 1
@@ -275,6 +305,7 @@ data_map:
             always-available: ita-IT
             ger-DE: 'Wie das Verfahren eingeleitet wird'
             ita-IT: 'Tipologia di procedimento'
+            eng-GB: 'Type of procedure'
         data_type_string: eztags
         placement: 14
         is_searchable: 1
@@ -293,10 +324,12 @@ data_map:
             always-available: ita-IT
             ger-DE: 'Ein Schlüsselwort oder eine Bezeichnung, die den Dienst beschreibt'
             ita-IT: 'una parola chiave o un’etichetta che descrive il servizio'
+            eng-GB: 'a keyword or a label that describes the service'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: Schlüsselwort
             ita-IT: 'Parole chiave'
+            eng-GB: Keyword
         data_type_string: eztags
         placement: 15
         is_searchable: 1
@@ -315,10 +348,12 @@ data_map:
             always-available: ita-IT
             ger-DE: 'Klassifizierung des Dienstes nach europäischen Thematiken'
             ita-IT: 'Classificazione del servizio secondo le tematiche europee'
+            eng-GB: 'Classification of the service according to European themes'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: 'Thema des Dienstes'
             ita-IT: 'Tema del servizio'
+            eng-GB: 'Service theme'
         data_type_string: eztags
         placement: 16
         is_searchable: 1
@@ -337,10 +372,12 @@ data_map:
             always-available: ita-IT
             ger-DE: 'Sprachen, in denen die Dienstleistung erbracht wird'
             ita-IT: 'Lingue in cui viene erogato il servizio'
+            eng-GB: 'Languages ​​in which the service is provided'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: Sprache
             ita-IT: Lingua
+            eng-GB: Language
         data_type_string: eztags
         placement: 17
         is_searchable: 1
@@ -358,11 +395,13 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ger-DE: 'Vorgehensweise bei der Nutzung des Dienstes'
-            ita-IT: 'Procedura da seguire per usufruire del Servizio'
+            ita-IT: 'Procedura da seguire per usufruire del servizio'
+            eng-GB: 'Procedure to follow to use the service'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: 'So geht''s'
-            ita-IT: 'Come fare'
+            ita-IT: 'Come si fa'
+            eng-GB: 'How you do it'
         data_type_string: ezxmltext
         placement: 18
         is_searchable: 1
@@ -380,7 +419,8 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ger-DE: 'Dokumente, die bei der Antragsstellung vorzulegen sind'
-            ita-IT: 'Cosa serve'
+            ita-IT: 'Documentazione da presentare'
+            eng-GB: 'Documentation to be submitted'
         data_type_string: ezxmltext
         placement: 19
         is_searchable: 1
@@ -394,12 +434,14 @@ data_map:
         identifier: has_module_input
         serialized_description_list:
             always-available: ita-IT
-            ger-DE: 'Dokumente, die zur Inanspruchnahme des Dienstes vorgelegt werden müssen: Dokumente, Erklärungen und mögliche Formulare, die der Bürger herunterladen, ausfüllen und an die Stadtverwaltung senden kann.'
+            ger-DE: 'Geben Sie hier sämtliche Unterlagen an, die für die Inanspruchnahme der Leistung erforderlich sind: Dokumente, Erklärungen, Formulare zum Herunterladen, Ausfüllen und Weiterleiten'
             ita-IT: 'Documentazione da presentare per attivare il servizio: documenti, dichiarazioni ed eventuale modulistica che il cittadino può scaricare, compilare e trasmettere al Comune'
+            eng-GB: 'Documentation to be submitted to activate the service: documents, declarations and any forms that the citizen can download, fill in and send to the Municipality'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: Formulare
-            ita-IT: 'Cosa serve (modulistica)'
+            ita-IT: Modulistica
+            eng-GB: Forms
         data_type_string: ezobjectrelationlist
         placement: 20
         is_searchable: 1
@@ -420,11 +462,13 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ger-DE: 'Seite/Feld für die Beschreibung des Outputs (z. B. Personalausweis, Dienstausweis usw.)'
-            ita-IT: 'Pagina dedicata alla descrizione di uno o più output prodotti dal servizio. Ad es.: "Certificato di residenza", o "Carta d''identità elettronica"'
+            ita-IT: 'Pagina dedicata alla descrizione dell''output (es. carta d''identità, carta dei servizi, ecc)'
+            eng-GB: 'Page dedicated to the description of the output (e.g. identity card, service card, etc.)'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: 'Was Sie erhalten (output)'
-            ita-IT: 'Cosa si ottiene'
+            ita-IT: 'Cosa si ottiene (output)'
+            eng-GB: 'What you get (output)'
         data_type_string: ezobjectrelationlist
         placement: 21
         is_searchable: 1
@@ -445,12 +489,14 @@ data_map:
         identifier: has_temporal_coverage
         serialized_description_list:
             always-available: ita-IT
-            ger-DE: 'Geben Sie einen oder mehrere Zeiträume an, die sich auf den Dienst beziehen. z. B. 22. Januar bis 22. Februar 2017'
+            ger-DE: 'Geben Sie etwaige Zeiten für die Inanspruchnahme der Leistung an, etwa eine Zeitspanne oder das Datum, ab dem eine Leistung beantragt werden kann. Beispiel: Die Online-Ameldung zu den Kinderferien ist vom 22. Januar bis zum 22. Februar 2021 möglich.'
             ita-IT: 'Indicare uno o più periodi temporali associati al servizio. Se esiste una copertura temporale specificare almeno la data di inizio dei periodi temporali. es. Dal 22 gennaio al 22 febbraio 2017 si aprono le Iscrizioni alle scuole online.'
+            eng-GB: 'Indicate one or more time periods associated with the service. If there is a time coverage, specify at least the start date of the time periods. ex. Enrollments for online schools open from 22 January to 22 February 2017.'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: Wann
             ita-IT: Quando
+            eng-GB: When
         data_type_string: ezobjectrelationlist
         placement: 22
         is_searchable: 1
@@ -471,12 +517,14 @@ data_map:
         identifier: average_processing_time
         serialized_description_list:
             always-available: ita-IT
-            ger-DE: 'Geben Sie die durchschnittlichen Wartetage an, um das Output des Dienstes zu ermitteln (durchschnittliche Bearbeitungszeit)'
+            ger-DE: 'Führen Sie hier an, wie lange die Bearbeitungszeit durchschnittlich dauert'
             ita-IT: 'Indicare con un numero intero i giorni di attesa media per ottenere l''output del servizio (tempo medio di processamento)'
+            eng-GB: 'Indicate with an integer the average waiting days to obtain the output of the service (average processing time)'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: 'Durchschnittliche Bearbeitungszeit'
-            ita-IT: 'Giorni medi di attesa dalla richiesta'
+            ita-IT: 'Giorni medi di attesa, dalla richiesta'
+            eng-GB: 'Average days of waiting, from the request'
         data_type_string: ezinteger
         placement: 23
         is_searchable: 1
@@ -489,12 +537,14 @@ data_map:
         identifier: has_processing_time
         serialized_description_list:
             always-available: ita-IT
-            ger-DE: 'Geben Sie die maximalen Wartetage an, um das Output des Dienstes zu ermitteln (Bearbeitungszeit)'
+            ger-DE: 'Führen Sie hier an, wie viele Tage für die Bearbeitung maximal benötigt werden'
             ita-IT: 'Indicare con un numero intero i giorni di attesa massima per ottenere l''output del servizio (tempo di processamento)'
+            eng-GB: 'Indicate with an integer the maximum waiting days to obtain the output of the service (processing time)'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: 'Maximale Bearbeitungszeit'
-            ita-IT: 'Giorni massimi di attesa dalla richiesta'
+            ita-IT: 'Giorni massimi di attesa, dalla richiesta'
+            eng-GB: 'Maximum days of waiting, from the request'
         data_type_string: ezinteger
         placement: 24
         is_searchable: 1
@@ -510,10 +560,12 @@ data_map:
             always-available: ita-IT
             ger-DE: 'Verknüpft den Dienst mit einem anderen (z. B. Wohnsitzwechsel eines italienischen Staatsbürgers, Wohnsitzwechsel eines ausländischen Staatsbürgers könnten miteinander verbunden sein)'
             ita-IT: 'collega il servizio a un altro correlato (esempio. cambio di residenza cittadino italiano, cambio di residenza cittadino straniero potrebbero essere correlati)'
+            eng-GB: 'connects the service to another correlated (example: change of residence of an Italian citizen, change of residence of a foreign citizen could be correlated)'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: 'Zugeordnete Dienste/Andere Dienste'
             ita-IT: 'Servizi correlati/Altri servizi'
+            eng-GB: 'Related services / Other services'
         data_type_string: ezobjectrelationlist
         placement: 25
         is_searchable: 1
@@ -534,12 +586,14 @@ data_map:
         identifier: requires_service
         serialized_description_list:
             always-available: ita-IT
-            ger-DE: 'Verknüpft einen Dienst mit einem anderen Dienst, der zur Ausführung des beschriebenen Dienstes erforderlich ist '
-            ita-IT: 'collega un servizio a un altro servizio che è richiesto per espletare quello che si sta descrivendo '
+            ger-DE: 'Verknüpft einen Dienst mit einem anderen Dienst, der zur Ausführung des beschriebenen Dienstes erforderlich ist'
+            ita-IT: 'collega un servizio a un altro servizio che è richiesto per espletare quello che si sta descrivendo'
+            eng-GB: 'connects one service to another service that is required to perform what you are describing'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: 'Angeforderte Dienste'
             ita-IT: 'Servizi richiesti'
+            eng-GB: 'Requested services'
         data_type_string: ezobjectrelationlist
         placement: 26
         is_searchable: 1
@@ -561,10 +615,12 @@ data_map:
             always-available: ita-IT
             ger-DE: 'Voraussetzungen für die Antragsstellung (wirtschaftliche Bedingungen usw.)'
             ita-IT: 'Condizioni e termini economici per completare la procedura di richiesta del Servizio'
+            eng-GB: 'Economic conditions and terms to complete the service request procedure'
         serialized_name_list:
             always-available: ita-IT
-            ger-DE: Kosten
+            ger-DE: 'Kosten und Gebühren'
             ita-IT: Costi
+            eng-GB: Costs
         data_type_string: ezmatrix
         placement: 27
         is_searchable: 1
@@ -578,10 +634,14 @@ data_map:
         identifier: output_notes
         serialized_description_list:
             always-available: ita-IT
-            ita-IT: ''
+            ita-IT: 'Cosa fare per conoscere l''esito della procedura, e dove eventualmente ritirare l''esito (link all''ufficio, orari, numero sportello)'
+            ger-DE: 'Was Sie tun müssen, um das Ergebnis des Verfahrens zu erfahren oder Dokument abholen können (Link zum Büro, Öffnungszeiten, Schalternummer)'
+            eng-GB: 'What to do to know the outcome of the procedure, and where to collect the outcome (link to the office, hours, counter number)'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Procedure collegate all''esito '
+            ita-IT: 'Procedure collegate all''esito'
+            ger-DE: 'Verfahren und damit verbundenes Ergebnis'
+            eng-GB: 'Procedures related to outcome'
         data_type_string: ezxmltext
         placement: 28
         is_searchable: 1
@@ -595,11 +655,13 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ger-DE: 'Kanal/e für die Dienstaktivierung. Dieses Feld verknüpft den "Dienst" mit seinem Aktivierungskanal (Website, E-Mail, Telefon, ...)'
-            ita-IT: 'Servizio on-line per avviare la procedura di attivazione del servizio (con autenticazione SPID/CIE) o per prenotare un appuntamento con l''ufficio di competenza'
+            ita-IT: 'Canale/i per l''attivazione del servizio. Questo campo mette in relazione "Servizio" con il suo canale di attivazione (sito web, e-mail, telefono, ..)'
+            eng-GB: 'Channel (s) for activating the service. This field connects "Service" with its activation channel (website, e-mail, telephone, ..)'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: 'Digitale Kanäle'
-            ita-IT: 'Accedi al servizio (canale digitale)'
+            ita-IT: 'Canali digitali'
+            eng-GB: 'Digital channels'
         data_type_string: ezobjectrelationlist
         placement: 29
         is_searchable: 1
@@ -636,12 +698,14 @@ data_map:
         identifier: is_physically_available_at
         serialized_description_list:
             always-available: ita-IT
-            ger-DE: 'Gemeindesitze, in denen der Dienst erbracht wird, auch Schalter und Infostellen'
-            ita-IT: 'Sedi presso le quali il servizio viene erogato. Indicare sia sportelli fisici che totem'
+            ger-DE: 'Anschrift des Gemeindegebäudes an, an dem die Serviceleistung erbracht wird; evt. auch Schalter oder andere Infopoints'
+            ita-IT: 'Sedi comunali presso le quali il servizio viene erogato. Indicare sia sportelli fisici che totem'
+            eng-GB: 'Municipal offices where the service is provided. Indicate both physical counters and totems'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: 'So erreichen Sie uns'
-            ita-IT: 'Accedi al servizio (Canale fisico)'
+            ita-IT: 'Dove recarsi'
+            eng-GB: 'Where to go'
         data_type_string: ezobjectrelationlist
         placement: 31
         is_searchable: 1
@@ -662,12 +726,14 @@ data_map:
         identifier: conditions
         serialized_description_list:
             always-available: ita-IT
-            ger-DE: 'Geben Sie etwaige Einschränkungen/Bedingungen an. Z.B.: Es ist nicht möglich, den Personalausweis x Monate vor seinem Ablaufdatum zu erneuern.'
+            ger-DE: 'Geben Sie etwaige Bedingungen für die Inanspruchnahme dieser Leistung an. Beispiel: Die Identitätskarte kann frühestens X Monate vor Fälligkeit verlängert werden.'
             ita-IT: 'Specificare eventuali vincoli. Ad es. non è possibile rinnovare la carta identità x mesi prima della scadenza'
+            eng-GB: 'Specify any constraints. Eg. it is not possible to renew the identity card x months before the expiry date'
         serialized_name_list:
             always-available: ita-IT
-            ger-DE: Voraussetzungen
+            ger-DE: Bedingungen
             ita-IT: Vincoli
+            eng-GB: Constraints
         data_type_string: ezxmltext
         placement: 32
         is_searchable: 1
@@ -680,12 +746,14 @@ data_map:
         identifier: exceptions
         serialized_description_list:
             always-available: ita-IT
-            ger-DE: 'Fügen Sie als freien Text alle besonderen Fälle ein, die sich auf die Erlangung des betreffenden Dienstes beziehen. Z.B. Menschen mit Behinderungen (Gesetz 104) können sich direkt an das Amt wenden'
-            ita-IT: 'Elenco di eventuali casi particolari riferiti all''ottenimento del Servizio in questione. Ad esempio le persone con disabilità (legge 104) possono contattare direttamente l''ufficio e concordare una procedura di rinnovo a domicilio'
+            ger-DE: 'Fügen Sie hier nur besondere Fälle ein, die sich auf die Erlangung des betreffenden Dienstes beziehen. Z.B. Menschen mit Behinderungen (Gesetz 104) können sich direkt an das Amt wenden'
+            ita-IT: 'Inserire come testo libero, eventuali casi particolari riferiti all''ottenimento del Servizio in questione. Le persone con disabilità (legge 104) possono contattare direttamente l''ufficio e concordare una procedura di rinnovo a domicilio'
+            eng-GB: 'Enter as free text any special cases referring to obtaining the Service in question. People with disabilities (law 104) can contact the office directly and agree on a home renewal procedure'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: Sonderfälle
             ita-IT: 'Casi particolari'
+            eng-GB: 'Special cases'
         data_type_string: ezxmltext
         placement: 33
         is_searchable: 1
@@ -717,10 +785,12 @@ data_map:
             always-available: ita-IT
             ger-DE: 'Kontaktstellen für Informationen'
             ita-IT: 'Punti di contatto per avere informazioni'
+            eng-GB: 'Contact points for information'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: Kontaktstellen
-            ita-IT: Contatti
+            ita-IT: 'Punti di contatto'
+            eng-GB: 'Contact points'
         data_type_string: ezobjectrelationlist
         placement: 35
         is_searchable: 1
@@ -791,11 +861,13 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ger-DE: 'Themen, die den Dienst kennzeichnen; WICHTIG: die Themen begleiten den Bürger bei der Navigation auf der Seite'
-            ita-IT: 'Argomenti che caratterizzano il servizio. È importante compilare questo campo nella maniera più pertinente possibile poiché gli argomenti accompagnano il cittadino nella navigazione del sito.'
+            ita-IT: 'Argomenti che caratterizzano il servizio; IMPORTANTE: gli argomenti accompagnano il cittadino nella navigazione del sito'
+            eng-GB: 'Topics that characterize the service; IMPORTANT: the topics accompany the citizen in the navigation of the site'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: Themen
             ita-IT: Argomenti
+            eng-GB: Subjects
         data_type_string: ezobjectrelationlist
         placement: 38
         is_searchable: 1
@@ -817,12 +889,14 @@ data_map:
         identifier: has_authentication_method
         serialized_description_list:
             always-available: ita-IT
-            ger-DE: 'Geben Sie, falls vorhanden, die Anmeldungsmodalitäten an, die für den Zugriff auf den Dienst erforderlich sind'
+            ger-DE: 'Geben Sie an, über welches Verfahren sich die Bürger ausweisen können, um den Dienst in Anspruch zu nehmen'
             ita-IT: 'Indicare, se previste, le modalità di autenticazione necessarie per accedere al Servizio'
+            eng-GB: 'Indicate, if applicable, the authentication methods required to access the Service'
         serialized_name_list:
             always-available: ita-IT
-            ger-DE: Anmeldung
+            ger-DE: 'Verfahren über welche sich die Bürger ausweisen können'
             ita-IT: Autenticazione
+            eng-GB: Authentication
         data_type_string: eztags
         placement: 39
         is_searchable: 1
@@ -840,10 +914,12 @@ data_map:
             always-available: ita-IT
             ger-DE: 'Informationen dazu finden Sie in der Anleitung: https://tinyurl.com/yxkcexrw'
             ita-IT: 'Per informazioni, vedi la guida: https://tinyurl.com/yxkcexrw'
+            eng-GB: 'For information, see the guide: https://tinyurl.com/yxkcexrw'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: 'Grad der Interaktivität'
             ita-IT: 'Livello di interattività'
+            eng-GB: 'Livello di interattività'
         data_type_string: eztags
         placement: 40
         is_searchable: 1
@@ -862,10 +938,12 @@ data_map:
             always-available: ita-IT
             ger-DE: 'Wenn es möglich ist, einen Termin online vorzumerken, verlinken Sie auf den Terminbuchungsservice der Stadtverwaltung'
             ita-IT: 'Se è possibile prenotare un appuntamento nel canale fisico, link al servizio di prenotazione appuntamenti del Comune'
+            eng-GB: 'If it is possible to book an appointment in the physical channel, link to the Municipality''s appointment booking service'
         serialized_name_list:
             always-available: ita-IT
-            ger-DE: Vormerkung
+            ger-DE: 'Termin vereinbaren'
             ita-IT: 'Per prenotare'
+            eng-GB: 'To book'
         data_type_string: ezurl
         placement: 41
         can_translate: 1
@@ -877,12 +955,14 @@ data_map:
         identifier: is_compliant_with_rule
         serialized_description_list:
             always-available: ita-IT
-            ger-DE: 'Eine Reihe von technischen Regeln, Vorschriften, Richtlinien und anderen Verfahren, die der öffentliche Dienst zu befolgen hat'
-            ita-IT: 'Insieme di regole tecniche, regolamenti, disciplinari, linee guida e qualsiasi altra procedura che il servizio pubblico deve seguire. '
+            ger-DE: 'Technische Regeln, Vorschriften, Richtlinien und anderen Verfahren, die der öffentliche Dienst zu befolgen hat'
+            ita-IT: 'insieme di regole tecniche, regolamenti, disciplinari, linee guida e qualsiasi altra procedura che il servizio pubblico deve seguire'
+            eng-GB: 'set of technical rules, regulations, specifications, guidelines and any other procedure that the public service must follow'
         serialized_name_list:
             always-available: ita-IT
-            ger-DE: 'Verordnungen, Richtlinien, Gesetzesbestimmungen'
+            ger-DE: 'Verordnungen, Richtlinien, Rechtsgrundlagen'
             ita-IT: 'Regolamenti, linee guida, normative'
+            eng-GB: 'Regulations, guidelines, regulations'
         data_type_string: ezobjectrelationlist
         placement: 42
         is_searchable: 1
@@ -904,11 +984,13 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ger-DE: 'Einfügen beliebiger Links zu externen Webseiten- und -diensten'
-            ita-IT: 'Inserire eventuali link a pagine web, siti, servizi esterni. Il campo viene visualizzato nelle scheda del servizio all''interno della voce "Ulteriori informazioni".'
+            ita-IT: 'Inserire eventuali link a pagine web, siti, servizi esterni'
+            eng-GB: 'Insert any links to web pages, sites, external services'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: 'Links zu externen Webseiten'
             ita-IT: 'Link a siti esterni'
+            eng-GB: 'Links to external sites'
         data_type_string: ezmatrix
         placement: 43
         is_searchable: 1
@@ -979,11 +1061,13 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ger-DE: 'Europäische Klassifikation der Wirtschaftszweige'
-            ita-IT: 'Classificazione del servizio basata su catalogo dei servizi (Classificazione NACE)'
+            ita-IT: 'Classificazione europea delle attività economiche'
+            eng-GB: 'European classification of economic activities'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: NACE
-            ita-IT: 'Settore merceologico'
+            ita-IT: NACE
+            eng-GB: NACE
         data_type_string: eztags
         placement: 47
         is_searchable: 1
@@ -1001,10 +1085,12 @@ data_map:
             always-available: ita-IT
             ger-DE: 'Weitere Informationen über den Dienst, FAQs, eventuelle rechtliche Hinweise und Kontakte zum Benutzersupport. Z.B.Hinweise auf den Bürgerschalter.'
             ita-IT: 'Ulteriori informazioni sul Servizio, FAQ, eventuali riferimenti normativi ed eventuali contatti di supporto all''utente. Per esempio i riferimenti dell''URP.'
+            eng-GB: 'Further information on the Service, FAQs, any regulatory references and any support contacts to the user. For example the references of the URP.'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: Hilfebox
             ita-IT: 'Box d''aiuto'
+            eng-GB: 'Help box'
         data_type_string: ezobjectrelationlist
         placement: 48
         is_searchable: 1
@@ -1021,5 +1107,32 @@ data_map:
         serialized_data_text:
             always-available: ita-IT
             ita-IT: ''
+    is_part_of_event:
+        serialized_name_list:
+            ita-IT: 'Evento della vita'
+            ger-DE: Lebensereignis
+            eng-GB: 'Event of life'
+        serialized_description_list:
+            ita-IT: 'Collega il Servizio pubblico a un evento della vita di una persona o di una impresa'
+            ger-DE: 'Verbindet den öffentlichen Dienst mit einem Lebensereignis einer Person oder eines Unternehmens'
+            eng-GB: 'Link the Public Service to an event in the life of a person or company'
+    holds_role_in_time_area:
+        serialized_name_list:
+            ita-IT: Area
+            ger-DE: 'Bereich der Gemeinde, von dem der Dienst abhängt'
+            eng-GB: Area
+        serialized_description_list:
+            ita-IT: 'Area del Comune da cui dipende il servizio'
+            ger-DE: 'Bereich der Gemeinde, von dem der Dienst abhängt'
+            eng-GB: 'Area of ​​the Municipality on which the service depends'
+    holds_role_in_time_ufficio:
+        serialized_name_list:
+            ita-IT: 'Ufficio responsabile'
+            ger-DE: 'Verantwortliches Amt'
+            eng-GB: 'Responsible office'
+        serialized_description_list:
+            ita-IT: 'ufficio responsabile dell''erogazione di questo Servizio'
+            ger-DE: 'Für diesen Dienst zuständige Stelle'
+            eng-GB: 'office responsible for providing this Service'
 groups:
     - CPSV-AP_IT

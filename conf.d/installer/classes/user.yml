@@ -4,11 +4,13 @@ serialized_name_list:
     always-available: ita-IT
     ger-DE: Benutzer
     ita-IT: Utente
+    eng-GB: User
 serialized_description_list:
     0: ''
     always-available: false
     ger-DE: 'Technischer Benutzer; Datenstruktur, die für das Funktionieren der Plattform notwendig ist'
-    ita-IT: "Utente tecnico; struttura dati necessaria al funzionamento della piattaforma\t"
+    ita-IT: 'Utente tecnico; struttura dati necessaria al funzionamento della piattaforma'
+    eng-GB: 'Technical user; data structure necessary for the functioning of the platform'
 always_available: 1
 data_map:
     first_name:
@@ -21,6 +23,7 @@ data_map:
             always-available: ita-IT
             ger-DE: Name
             ita-IT: Nome
+            eng-GB: Name
         data_type_string: ezstring
         placement: 1
         is_searchable: 1
@@ -40,6 +43,7 @@ data_map:
             always-available: ita-IT
             ger-DE: Nachname
             ita-IT: Cognome
+            eng-GB: Surname
         data_type_string: ezstring
         placement: 2
         is_searchable: 1
@@ -59,6 +63,7 @@ data_map:
             always-available: ita-IT
             ger-DE: Konto
             ita-IT: Account
+            eng-GB: Account
         data_type_string: ezuser
         placement: 3
         is_searchable: 1
@@ -75,6 +80,7 @@ data_map:
             always-available: ita-IT
             ger-DE: 'Ablauf des Passworts'
             ita-IT: 'Scadenza password'
+            eng-GB: 'Password expiration'
         data_type_string: ezpaex
         placement: 4
         is_searchable: 1
@@ -91,6 +97,7 @@ data_map:
             always-available: ita-IT
             ger-DE: 'Akzeptieren der Nutzungsbedingungen'
             ita-IT: 'Accettazione termini di utilizzo'
+            eng-GB: 'Acceptance of terms of use'
         data_type_string: ocgdpr
         placement: 5
         is_required: 1

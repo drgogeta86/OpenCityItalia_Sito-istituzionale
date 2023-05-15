@@ -1,0 +1,29 @@
+name: "Editor backend (import csv)"
+policies:
+    -
+        ModuleName: csvimport
+        FunctionName: '*'
+        Limitation: {}
+    -
+        ModuleName: sqliimport
+        FunctionName: '*'
+        Limitation: {}
+    -
+        ModuleName: switch
+        FunctionName: user
+        Limitation: {}
+    -
+        ModuleName: user
+        FunctionName: login
+        Limitation:
+            SiteAccess:
+                - ezcrc32($identifier_backend)
+                - ezcrc32(backend)
+    -
+        ModuleName: rss
+        FunctionName: '*'
+        Limitation: {}
+    -
+        ModuleName: migration
+        FunctionName: '*'
+        Limitation: {}

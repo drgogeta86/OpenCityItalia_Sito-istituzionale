@@ -15,7 +15,7 @@ attribute_group:
     'ger-DE::canale':
         '*': Kanal
     'ger-DE::costi_e_vincoli':
-        '*': 'Kosten und Voraussetzungen'
+        '*': 'Kosten und Bedingungen'
     'ger-DE::descrizione':
         '*': Beschreibung
     'ger-DE::ulteriori_informazioni':
@@ -31,6 +31,22 @@ attribute_group:
     ulteriori_informazioni:
         '*': 'Ulteriori informazioni'
         files: '1'
+    'ita-IT::canale':
+        '*': Canale
+    'eng-GB::canale':
+        '*': Channel
+    'ita-IT::costi_e_vincoli':
+        '*': 'Costi e vincoli'
+    'eng-GB::costi_e_vincoli':
+        '*': 'Costs and constraints'
+    'ita-IT::descrizione':
+        '*': Descrizione
+    'eng-GB::descrizione':
+        '*': Description
+    'ita-IT::ulteriori_informazioni':
+        '*': 'Ulteriori informazioni'
+    'eng-GB::ulteriori_informazioni':
+        '*': 'Further information'
 card_small_view:
     enabled:
         '*': '1'

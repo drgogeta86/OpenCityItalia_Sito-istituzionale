@@ -35,7 +35,7 @@ attribute_group:
         output_notes: '1'
         produces_output: '1'
     costi_e_vincoli:
-        '*': 'Costi e vincoli'
+        '*': Costi
         has_cost: '1'
     enabled:
         '*': '1'
@@ -140,6 +140,58 @@ attribute_group:
         news_and_updates: '1'
     vincoli:
         '*': Vincoli
+    'ger-DE::a_chi_si_rivolge':
+        '*': 'An wen sich diese Dienstleistung richtet'
+    'eng-GB::a_chi_si_rivolge':
+        '*': 'Who is it for?'
+    'ger-DE::accedere_al_servizio':
+        '*': 'So geht''s'
+    'eng-GB::accedere_al_servizio':
+        '*': 'Access the service'
+    'ger-DE::come_fare':
+        '*': 'Wie macht man'
+    'eng-GB::come_fare':
+        '*': 'How to do'
+    'ger-DE::condizioni_di_servizio':
+        '*': Nutzungsbedingungen
+    'eng-GB::condizioni_di_servizio':
+        '*': 'Terms of Service'
+    'ger-DE::contatti':
+        '*': Kontakt
+    'eng-GB::contatti':
+        '*': Contacts
+    'ger-DE::cos_e':
+        '*': 'Was Sie wissen müssen'
+    'eng-GB::cos_e':
+        '*': 'What is it?'
+    'ger-DE::cosa_serve':
+        '*': 'Diese Dokumente müssen Sie vorlegen'
+    'eng-GB::cosa_serve':
+        '*': 'What is it for?'
+    'ger-DE::cosa_si_ottiene':
+        '*': 'Was wird erhalten'
+    'eng-GB::cosa_si_ottiene':
+        '*': 'What is obtained'
+    'ger-DE::costi_e_vincoli':
+        '*': 'Kosten und Bedingungen'
+    'eng-GB::costi_e_vincoli':
+        '*': 'Costs and constraints'
+    'ger-DE::footer':
+        '*': Fusszeile
+    'eng-GB::footer':
+        '*': Footer
+    'ger-DE::tempi_e_scadenze':
+        '*': 'Fristen und Fälligkeiten'
+    'eng-GB::tempi_e_scadenze':
+        '*': 'Times and deadlines'
+    'ger-DE::ulteriori_informazioni':
+        '*': 'Weitere Informationen'
+    'eng-GB::ulteriori_informazioni':
+        '*': 'Further information'
+    'ger-DE::vincoli':
+        '*': Einschränkungen
+    'eng-GB::vincoli':
+        '*': Constraints
 bootstrapitalia_icon:
     enabled:
         '*': '1'

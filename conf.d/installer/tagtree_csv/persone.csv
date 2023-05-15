@@ -1,25 +1,25 @@
 parent_id,id,remote_id,path_string,keyword_it,keyword_de,keyword_pa,keyword_en,synonyms_it,synonyms_de,synonyms_pa,synonyms_en,description_it,description_de,description_en,hash
-0,1286,a36709015529f6e428fd8b972aeacebb,/1286/,Persone,,,,,,,,,,,7a4c0eb291202afbfd40e03dec569cca
-1286,1287,1c88a38148ccfa0a99b2443b3f141e05,/1286/1287/,Sesso,,,,,,,,,,,28e94c8406e3ad430988a8d370e4dede
-1287,1288,f176947ee0134ab170116629178260ef,/1286/1287/1288/,Maschio,,,,,,,,,,,ad62a119e040b2a279c7e7e771a7f04d
-1287,1289,3a90beeeceee711dece623019a0fbcd4,/1286/1287/1289/,Femmina,,,,,,,,,,,cd45986a25025c56e6c6332e776988db
-1286,1290,5e2f7209bdf88ff88bd3e6fd540a3c0b,/1286/1290/,"Tipi di incarichi",,,,,,,,,,,3c88ea7851bf88353ddc43bddd85fb6d
-1290,1291,4519d5f4cdeba3de93eaad7b434d6b7b,/1286/1290/1291/,Politico,,,,,,,,,,,6f47622c8d3144c1e61af453f81bf36b
-1290,1292,e2090e3b62c977a58296c3f652ca2b4b,/1286/1290/1292/,Amministrativo,,,,,,,,,,,e4e41d0bfd60a25fec97c509ceecfc39
-1290,1293,c398bdd7be6759f286d14cfcd73ea967,/1286/1290/1293/,Altro,,,,,,,,,,,7c86834f1819f8c0ec3c03ed16470a83
-1286,1294,5376ded36f7895be423a5efc3d3f791f,/1286/1294/,Ruoli,,,,,,,,,,,3ea3eeb1ca199cb41bc5b43da6d5593a
-1294,1295,af1cf36ff529a4f0f8c1e973155de59c,/1286/1294/1295/,Vicesegretario,,,,,,,,,,,aeb79b2a08fdfdb468099b033207e98e
-1294,1296,e2439560100bacfe804be4f09d155684,/1286/1294/1296/,Sindaco,,,,,,,,,,,771b65601d3bdef95d91297d05f7ce83
-1294,1297,47c31566356cc48a4c938a5174461aa0,/1286/1294/1297/,"Membro della Giunta",,,,,,,,,,,f08fe76559419416fcd0ffa9b9fbe6ea
-1294,1298,855baf6e093290b9507396f44461f962,/1286/1294/1298/,Membro,,,,,,,,,,,b4cb8aa071925441eb82ad93d2ef2f20
-1294,1299,0c1e49a5a2ef95a58b626cb56284ff1d,/1286/1294/1299/,Presidente,,,,,,,,,,,9ca6afbb563d6f6e050d32d91e37877f
-1294,1300,d98d1008b91e3bf91fb856f0fbf2f521,/1286/1294/1300/,Vicesindaco,,,,,,,,,,,ddf969a67c7d28ed183b70adaf34a4eb
-1294,1301,9b54325aacbb6c2e6f9ae469790704c3,/1286/1294/1301/,Dirigente,,,,,,,,,,,6d4379c283b6258c9ecd81619bc679c8
-1294,1302,bdab6ef65a36fc3ed85cb7b36a10024e,/1286/1294/1302/,"Segretario generale",,,,,,,,,,,b365eaf979b8392eb093df3519d9a0bd
-1294,1303,bdda08ce2cff1ade9e49f43e6f20ff7a,/1286/1294/1303/,Vicepresidente,,,,,,,,,,,bcd25269446ade6e65121e59c7208e73
-1294,1304,b8f72dade9132d6b686a4f6c5d7ad1f6,/1286/1294/1304/,Dipendente,,,,,,,,,,,b2bf17c8c83b2521deb1f19203e188dd
-1294,1305,c4960058754a645d9134711cfc887c3b,/1286/1294/1305/,Assessore,,,,,,,,,,,c0b885fca69ffb611ac2eb3ad41c16de
-1294,1306,bb9d2812a61b204d8eeb06257035099b,/1286/1294/1306/,Consigliere,,,,,,,,,,,ea7b2b4a3d388d5f0aab67594a16e0b2
-1294,1307,0798d7b60e4271ff14ca1d19fd4bb6ac,/1286/1294/1307/,"Direttore generale",,,,,,,,,,,63640d5dd7abc76ff1e3970ebc6121a8
-1294,1308,98daab02d45fe02ea0aee97709b5205a,/1286/1294/1308/,Responsabile,,,,,,,,,,,f67ab0feea7f2147c7cea1693b39c40a
-1294,1309,141df9311612c9c1a893619d3668b2ae,/1286/1294/1309/,"Segretario comunale",,,,,,,,,,,bdb50f69a836b24d157a50be224cd20e
+0,1286,a36709015529f6e428fd8b972aeacebb,/1286/,Persone,Mitglieder,,People,,,,,,,,
+1286,1287,1c88a38148ccfa0a99b2443b3f141e05,/1286/1287/,Sesso,Geschlecht,,Gender,,,,,,,,
+1287,1288,f176947ee0134ab170116629178260ef,/1286/1287/1288/,Maschio,Männlich,,Male,,,,,,,,
+1287,1289,3a90beeeceee711dece623019a0fbcd4,/1286/1287/1289/,Femmina,Weiblich,,Female,,,,,,,,
+1286,1290,5e2f7209bdf88ff88bd3e6fd540a3c0b,/1286/1290/,"Tipi di incarichi",,,,,,,,,,,
+1290,1291,4519d5f4cdeba3de93eaad7b434d6b7b,/1286/1290/1291/,Politico,,,,,,,,,,,
+1290,1292,e2090e3b62c977a58296c3f652ca2b4b,/1286/1290/1292/,Amministrativo,,,,,,,,,,,
+1290,1293,c398bdd7be6759f286d14cfcd73ea967,/1286/1290/1293/,Altro,,,,,,,,,,,
+1286,1294,5376ded36f7895be423a5efc3d3f791f,/1286/1294/,Ruoli,Funktionen,,Roles,,,,,,,,
+1294,1295,af1cf36ff529a4f0f8c1e973155de59c,/1286/1294/1295/,Vicesegretario,"Stellvertretender Sekretär",,"Deputy secretary",,,,,,,,
+1294,1296,e2439560100bacfe804be4f09d155684,/1286/1294/1296/,Sindaco,Bürgermeister,,Mayor,,,,,,,,
+1294,1297,47c31566356cc48a4c938a5174461aa0,/1286/1294/1297/,"Membro della Giunta","Stadtrat ",,"Member of the executive commetee",,,,,,,,
+1294,1298,855baf6e093290b9507396f44461f962,/1286/1294/1298/,Membro,Mitglied,,Member,,,,,,,,
+1294,1299,0c1e49a5a2ef95a58b626cb56284ff1d,/1286/1294/1299/,Presidente,Vorsitzender,,President,,,,,,,,
+1294,1300,d98d1008b91e3bf91fb856f0fbf2f521,/1286/1294/1300/,Vicesindaco,"Stellvertretender Bürgermeister",,"Deputy mayor",,,,,,,,
+1294,1301,9b54325aacbb6c2e6f9ae469790704c3,/1286/1294/1301/,Dirigente,Direktor,,Executive,,,,,,,,
+1294,1302,bdab6ef65a36fc3ed85cb7b36a10024e,/1286/1294/1302/,"Segretario generale",Generalsekretär,,"General secretary",,,,,,,,
+1294,1303,bdda08ce2cff1ade9e49f43e6f20ff7a,/1286/1294/1303/,Vicepresidente,"Stellvertretender Vorsitzender",,"Vice president",,,,,,,,
+1294,1304,b8f72dade9132d6b686a4f6c5d7ad1f6,/1286/1294/1304/,Dipendente,Mitarbeiter,,Employee,,,,,,,,
+1294,1305,c4960058754a645d9134711cfc887c3b,/1286/1294/1305/,Assessore,"Stadtrat ",,Assessor,,,,,,,,
+1294,1306,bb9d2812a61b204d8eeb06257035099b,/1286/1294/1306/,Consigliere,Stadtviertelrat,,Councilor,,,,,,,,
+1294,1307,0798d7b60e4271ff14ca1d19fd4bb6ac,/1286/1294/1307/,"Direttore generale",Generaldirektor,,"General Director",,,,,,,,
+1294,1308,98daab02d45fe02ea0aee97709b5205a,/1286/1294/1308/,Responsabile,Verantwortlicher,,Responsible,,,,,,,,
+1294,1309,141df9311612c9c1a893619d3668b2ae,/1286/1294/1309/,"Segretario comunale",Gemeindesekretär,,"Municipal secretary",,,,,,,,

@@ -6,9 +6,9 @@ serialized_name_list:
     ger-DE: Banner
     ita-IT: Banner
 serialized_description_list:
-    eng-GB: ''
+    eng-GB: 'Element that consists of highlighting an internal or external link via an image'
     ger-DE: 'Element, das darin besteht, einen internen oder externen Link durch ein Bild hervorzuheben'
-    ita-IT: 'Elemento che consiste di evidenziare un link interno o esterno tramite un''immagine '
+    ita-IT: 'Elemento che consiste di evidenziare un link interno o esterno tramite un''immagine'
 data_map:
     name:
         identifier: name
@@ -17,7 +17,7 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: eng-GB
-            eng-GB: Nome
+            eng-GB: Name
             ger-DE: Name
             ita-IT: Nome
         data_type_string: ezstring
@@ -35,6 +35,7 @@ data_map:
             always-available: ita-IT
             ger-DE: Beschreibung
             ita-IT: Descrizione
+            eng-GB: Description
         data_type_string: ezxmltext
         placement: 2
         is_searchable: 1
@@ -50,7 +51,7 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: eng-GB
-            eng-GB: Immagine
+            eng-GB: Picture
             ger-DE: Bild
             ita-IT: Immagine
         data_type_string: ezimage
@@ -66,7 +67,7 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: eng-GB
-            eng-GB: 'Link interno'
+            eng-GB: 'Internal Link'
             ger-DE: 'Interner Link'
             ita-IT: 'Link interno'
         data_type_string: ezobjectrelationlist
@@ -90,6 +91,7 @@ data_map:
             always-available: ita-IT
             ger-DE: 'Externer Link'
             ita-IT: 'Link esterno'
+            eng-GB: 'External Link'
         data_type_string: ezurl
         placement: 5
         can_translate: 1
@@ -104,6 +106,7 @@ data_map:
             always-available: ita-IT
             ger-DE: Hintergrundfarbe
             ita-IT: 'Colore di sfondo'
+            eng-GB: 'Background color'
         data_type_string: ezselection
         placement: 6
         data_text5: '<?xml version="1.0" encoding="utf-8"?><ezselection><options><option id="0" name="Nessuno"/><option id="1" name="primary"/><option id="2" name="dark"/><option id="3" name="warning"/><option id="4" name="blue"/></options></ezselection>'
@@ -117,6 +120,7 @@ data_map:
             always-available: ita-IT
             ger-DE: Themen
             ita-IT: Argomenti
+            eng-GB: Themes
         data_type_string: ezobjectrelationlist
         placement: 7
         is_searchable: 1

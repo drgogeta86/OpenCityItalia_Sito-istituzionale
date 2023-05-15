@@ -45,7 +45,7 @@ attribute_group:
     'sort::ulteriori_informazioni':
         '*': '5'
     tempi_e_scadenze:
-        '*': 'Tempi e scadenze'
+        '*': Date
         data_consiglio: '1'
         data_di_conclusione: '1'
         data_di_firma: '1'
@@ -73,6 +73,22 @@ attribute_group:
         other_information: '1'
         reference_doc: '1'
         related_public_services: '1'
+    'ger-DE::descrizione':
+        '*': Beschreibung
+    'eng-GB::descrizione':
+        '*': Description
+    'ger-DE::documenti':
+        '*': Unterlagen
+    'eng-GB::documenti':
+        '*': Documents
+    'ger-DE::tempi_e_scadenze':
+        '*': 'Fristen und Fälligkeiten'
+    'eng-GB::tempi_e_scadenze':
+        '*': 'Times and deadlines'
+    'ger-DE::ulteriori_informazioni':
+        '*': 'Weitere Informationen'
+    'eng-GB::ulteriori_informazioni':
+        '*': 'Further information'
 bootstrapitalia_icon:
     enabled:
         '*': '1'

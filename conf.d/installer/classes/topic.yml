@@ -4,10 +4,12 @@ serialized_name_list:
     always-available: ita-IT
     ger-DE: Thema
     ita-IT: Argomento
+    eng-GB: topic
 serialized_description_list:
     always-available: ita-IT
     ger-DE: 'Querschnittsthema in allen Inhalten der Website'
     ita-IT: 'Tematica trasversale a tutti i contenuti del sito'
+    eng-GB: 'Transversal theme to all the contents of the site'
 is_container: 1
 data_map:
     name:
@@ -19,6 +21,7 @@ data_map:
             always-available: ita-IT
             ger-DE: Name
             ita-IT: Nome
+            eng-GB: Name
         data_type_string: ezstring
         placement: 1
         is_searchable: 1
@@ -33,10 +36,12 @@ data_map:
             always-available: ita-IT
             ger-DE: 'Link zu den zuständigen Verwaltungsbereichen'
             ita-IT: 'Link alle aree amministrative responsabili di questo argomento'
+            eng-GB: 'Links to the administrative areas responsible for this topic'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: 'Zugehöriger Bereich'
             ita-IT: 'Area di appartenenza'
+            eng-GB: 'Membership area'
         data_type_string: ezobjectrelationlist
         placement: 2
         is_searchable: 1
@@ -58,10 +63,12 @@ data_map:
             always-available: ita-IT
             ger-DE: 'Link zu den zuständigen Abteilungen'
             ita-IT: 'Link agli assessorati che hanno deleghe su questo argomento'
+            eng-GB: 'Link to the departments who have powers on this topic'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: 'Zuständiges Assessorat'
             ita-IT: 'Assessorato di riferimento'
+            eng-GB: 'Councilorship of reference'
         data_type_string: ezobjectrelationlist
         placement: 3
         is_searchable: 1
@@ -85,6 +92,7 @@ data_map:
             always-available: ita-IT
             ger-DE: 'Art der Einträge'
             ita-IT: 'Tipologia di voce'
+            eng-GB: 'Type of voice'
         data_type_string: ezstring
         placement: 4
         is_searchable: 1
@@ -101,6 +109,7 @@ data_map:
             always-available: ita-IT
             ger-DE: 'Bestehendes kontrolliertes Vokabular'
             ita-IT: 'vocabolario controllato già esistente'
+            eng-GB: 'pre-existing controlled vocabulary'
         data_type_string: eztext
         placement: 5
         is_searchable: 1
@@ -118,6 +127,7 @@ data_map:
             always-available: ita-IT
             ger-DE: 'Übereinstimmung mit Eurovoc'
             ita-IT: 'Corrispondenza con Eurovoc'
+            eng-GB: 'Correspondence with Eurovoc'
         data_type_string: eztext
         placement: 6
         is_searchable: 1
@@ -136,6 +146,7 @@ data_map:
             always-available: ita-IT
             ger-DE: 'Übereinstimmung mit den Datenthemen der Europäischen Kommission'
             ita-IT: 'Corrispondenza con i Data Theme della commissione europea'
+            eng-GB: 'Correspondence with the Data Themes of the European Commission'
         data_type_string: eztext
         placement: 7
         is_searchable: 1
@@ -153,6 +164,7 @@ data_map:
             always-available: ita-IT
             ger-DE: 'Datenthemen (eurovocs)'
             ita-IT: 'Data themes (eurovocs)'
+            eng-GB: 'Data themes (eurovocs)'
         data_type_string: eztags
         placement: 8
         is_searchable: 1
@@ -170,10 +182,12 @@ data_map:
             always-available: ita-IT
             ger-DE: 'Hauptbild zum Thema'
             ita-IT: 'Immagine principale dell''argomento'
+            eng-GB: 'Main picture of the topic'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: Bild
             ita-IT: Immagine
+            eng-GB: Image
         data_type_string: ezobjectrelationlist
         placement: 9
         is_searchable: 1
@@ -196,8 +210,9 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ger-DE: 'Kurze Beschreibung'
+            ger-DE: Kurzbeschreibung
             ita-IT: 'Descrizione breve'
+            eng-GB: 'Short Description'
         data_type_string: ezxmltext
         placement: 10
         is_searchable: 1
@@ -215,6 +230,7 @@ data_map:
             always-available: ita-IT
             ger-DE: Symbol
             ita-IT: Icona
+            eng-GB: Icon
         data_type_string: openpabootstrapitaliaicon
         placement: 11
         can_translate: 1
@@ -230,6 +246,7 @@ data_map:
             always-available: ita-IT
             ger-DE: Layout
             ita-IT: Layout
+            eng-GB: Layout
         data_type_string: ezpage
         placement: 12
         can_translate: 1
@@ -245,6 +262,7 @@ data_map:
             always-available: ita-IT
             ger-DE: Hilfebox
             ita-IT: 'Box d''aiuto'
+            eng-GB: 'Help Box'
         data_type_string: ezobjectrelationlist
         placement: 13
         is_searchable: 1

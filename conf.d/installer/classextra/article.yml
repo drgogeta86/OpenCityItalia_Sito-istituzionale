@@ -68,6 +68,30 @@ attribute_group:
         published: '1'
         related_service: '1'
         people: '1'
+    'ger-DE::a_cura_di':
+        '*': 'Bearbeitet von'
+    'eng-GB::a_cura_di':
+        '*': 'Edited by'
+    'ger-DE::contatti':
+        '*': Kontakt
+    'eng-GB::contatti':
+        '*': Contacts
+    'ger-DE::corpo':
+        '*': Beschreibung
+    'eng-GB::corpo':
+        '*': Description
+    'ger-DE::dataset':
+        '*': Datensatz
+    'eng-GB::dataset':
+        '*': Dataset
+    'ger-DE::documenti':
+        '*': Dokumente
+    'eng-GB::documenti':
+        '*': Documents
+    'ger-DE::ulteriori_informazioni':
+        '*': 'Weitere Informationen'
+    'eng-GB::ulteriori_informazioni':
+        '*': 'Further information'
 bootstrapitalia_icon:
     enabled:
         '*': '1'

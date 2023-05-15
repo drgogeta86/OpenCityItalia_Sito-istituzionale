@@ -41,6 +41,18 @@ attribute_group:
         '*': '4'
     'sort::risorse':
         '*': '2'
+    'ger-DE::dataset':
+        '*': Datensatz
+    'eng-GB::dataset':
+        '*': Dataset
+    'ger-DE::informazioni_sul_dataset':
+        '*': 'Informationen über den Datensatz'
+    'eng-GB::informazioni_sul_dataset':
+        '*': 'Informations about the dataset'
+    'ger-DE::risorse':
+        '*': Ressource
+    'eng-GB::risorse':
+        '*': Resource
 card_small_view:
     enabled:
         '*': '1'

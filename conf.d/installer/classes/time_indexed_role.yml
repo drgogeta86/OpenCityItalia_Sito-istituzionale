@@ -3,11 +3,13 @@ contentobject_name: 'Ruolo "<role>" di <for_entity>'
 serialized_name_list:
     always-available: ita-IT
     ger-DE: 'Zuständigkeiten/Funktion einer Person im Laufe der Zeit'
-    ita-IT: 'Ruolo/incarico di una persona'
+    ita-IT: 'Ruolo di una persona nel tempo'
+    eng-GB: 'Role of a person over time'
 serialized_description_list:
     always-available: ita-IT
     ger-DE: 'Zuständigkeiten/Funktion eines Mitabeiters oder eines Politikers in einem bestimmten Zeitintervall'
-    ita-IT: 'Incarico o carica di un dipendente o di un politico all''interno di un Comune, associato ad un intervallo temporale determinato.'
+    ita-IT: 'Rappresentazione di un ruolo di un dipendente o di un politico associato ad un intervallo temporale determinato'
+    eng-GB: 'Representation of a role of an employee or a politician associated with a specific time interval'
 data_map:
     label:
         identifier: label
@@ -29,11 +31,13 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ger-DE: 'Einen Politiker oder Mitarbeiter auswählen'
-            ita-IT: 'Seleziona la persona (politico o dipendente) che ha la carica e l''incarico.'
+            ita-IT: 'Puoi selezionare un politico o un dipendente'
+            eng-GB: 'You can select a politician or an employee'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: 'Person, welche die Funktion oder Tätigkeit ausübt'
             ita-IT: 'Persona che ha il ruolo'
+            eng-GB: 'Person who has the role'
         data_type_string: ezobjectrelationlist
         placement: 2
         is_searchable: 1
@@ -59,6 +63,7 @@ data_map:
             always-available: ita-IT
             ger-DE: Funktion
             ita-IT: Ruolo
+            eng-GB: Role
         data_type_string: eztags
         placement: 3
         is_searchable: 1
@@ -94,11 +99,13 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ger-DE: 'Sie können ein Amt, einen Bereich, eine öffentliche oder private Einrichtung auswählen'
-            ita-IT: 'Seleziona l''organizzazione presso la quale la persona svolge l''incarico (ufficio, area, organo politico, organizzazione pubblica o privata)'
+            ita-IT: 'Puoi selezionare un ufficio, un''area, una organizzazione pubblica, un''organizzazione privata'
+            eng-GB: 'You can select an office, area, public organization, private organization'
         serialized_name_list:
             always-available: ita-IT
-            ger-DE: 'Übt eine Funktion aus in Bezug auf: '
-            ita-IT: 'Unità organizzativa'
+            ger-DE: 'Übt eine Funktion aus in Bezug auf:'
+            ita-IT: 'Ha un ruolo rispetto a:'
+            eng-GB: 'It has a role in relation to:'
         data_type_string: ezobjectrelationlist
         placement: 5
         is_searchable: 1
@@ -153,11 +160,13 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ger-DE: 'Zeigt das Datum an, an dem die Person diese Funktion übernimmt (z. B. Amtsantritt)'
-            ita-IT: 'Indica la data in cui inizia questo ruolo/incarico'
+            ita-IT: 'Indica la data in cui inizia questo ruolo (es. incarico)'
+            eng-GB: 'Indicate the date on which this role begins (e.g. assignment)'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: Amtsantritt
             ita-IT: 'Data inizio incarico'
+            eng-GB: 'Starting date of the assignment'
         data_type_string: ezdate
         placement: 8
         is_searchable: 1
@@ -171,11 +180,13 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ger-DE: 'Zeigt das Datum an, an dem die Funktion dieser Person abläuft (z. B. Ende Amtszeit)'
-            ita-IT: 'Data in cui termina l''incarico o la carica'
+            ita-IT: 'Indica la data in cui scade questo ruolo (es. incarico)'
+            eng-GB: 'Indicate the date on which this role expires (e.g. position)'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: 'Ende der Amtszeit'
             ita-IT: 'Data conclusione incarico'
+            eng-GB: 'End date of the assignment'
         data_type_string: ezdate
         placement: 9
         is_searchable: 1
@@ -225,12 +236,14 @@ data_map:
         identifier: competences
         serialized_description_list:
             always-available: ita-IT
-            ger-DE: 'Geben Sie die Kompetenzen der Person an, eine pro Zeile '
+            ger-DE: 'Geben Sie die Kompetenzen der Person an, eine pro Zeile'
             ita-IT: 'Indicare le competenze della persona, specificandone una per riga'
+            eng-GB: 'Indicate the person''s skills, specifying one per line'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: Zuständigkeiten
             ita-IT: Competenze
+            eng-GB: Competenze
         data_type_string: ezmatrix
         placement: 12
         is_searchable: 1
@@ -243,12 +256,14 @@ data_map:
         identifier: delegations
         serialized_description_list:
             always-available: ita-IT
-            ger-DE: 'Geben Sie die delegierten Aufgabenbereiche der Person an, eine pro Zeile '
+            ger-DE: 'Geben Sie die delegierten Aufgabenbereiche der Person an, eine pro Zeile'
             ita-IT: 'Indicare le deleghe della persona, specificandone una per riga'
+            eng-GB: 'Indicate the person''s delegations, specifying one per line'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: 'Delegierte Aufgabenbereiche'
             ita-IT: Deleghe
+            eng-GB: Delegations
         data_type_string: ezmatrix
         placement: 13
         is_searchable: 1
@@ -266,6 +281,7 @@ data_map:
             always-available: ita-IT
             ger-DE: 'Aufträge mit Organisationsfunktionen'
             ita-IT: 'Incarichi di posizione organizzativa'
+            eng-GB: 'Organizational position assignments'
         data_type_string: ezboolean
         placement: 14
         is_searchable: 1
@@ -282,6 +298,7 @@ data_map:
             always-available: ita-IT
             ger-DE: Führungsauftrag
             ita-IT: 'Incarico dirigenziale'
+            eng-GB: 'Managerial position'
         data_type_string: ezboolean
         placement: 15
         is_searchable: 1
@@ -295,10 +312,12 @@ data_map:
             always-available: ita-IT
             ger-DE: 'Wird am Anfang angezeigt'
             ita-IT: 'Viene visualizzato in apertura'
+            eng-GB: 'It is displayed at the opening'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: Hauptfunktion
             ita-IT: 'Ruolo principale'
+            eng-GB: 'Ruolo principale'
         data_type_string: ezboolean
         placement: 16
         is_searchable: 1
@@ -312,11 +331,13 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ger-DE: 'Höhere Zahl bedeutet höhere Anzeigepriorität (z. B.: 1000 am wichtigsten, 1 weniger wichtig)'
-            ita-IT: 'Se la Persona pubblica ha più ruoli, puoi scegliere l''ordinamento con cui visualizzare l''elenco dei ruoli, specificando qui la priorità del ruolo che si sta inserendo. Un numero maggiore indica una maggiore priorità di visualizzazione (es: 1000 più importante, 1 meno importante)'
+            ita-IT: 'Numero maggiore indica maggiore priorità di visualizzazione (es: 1000 più importante, 1 meno importante)'
+            eng-GB: 'Higher number indicates higher display priority (ex: 1000 most important, 1 least important)'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: Priorität
             ita-IT: Priorità
+            eng-GB: Priority
         data_type_string: ezinteger
         placement: 17
         is_searchable: 1

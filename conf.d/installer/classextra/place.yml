@@ -23,7 +23,7 @@ attribute_group:
     'ita-IT::dove':
         '*': Indirizzo
     'ita-IT::modalita_di_accesso':
-        '*': 'Modalità di accesso '
+        '*': 'Modalità di accesso'
     'ita-IT::orari_di_apertura':
         '*': 'Orario per il pubblico'
     'ita-IT::servizi':
@@ -73,6 +73,34 @@ attribute_group:
         identifier: '1'
         more_information: '1'
         sede_di: '1'
+    'ger-DE::contatti':
+        '*': Kontakt
+    'eng-GB::contatti':
+        '*': Contacts
+    'ger-DE::descrizione':
+        '*': Beschreibung
+    'eng-GB::descrizione':
+        '*': Description
+    'ger-DE::dove':
+        '*': 'Wo Sie uns finden'
+    'eng-GB::dove':
+        '*': 'Where?'
+    'ger-DE::modalita_di_accesso':
+        '*': 'Zugang zu den Dienstleistungen'
+    'eng-GB::modalita_di_accesso':
+        '*': 'How to access'
+    'ger-DE::orari_di_apertura':
+        '*': Öffnungszeit
+    'eng-GB::orari_di_apertura':
+        '*': 'Opening time'
+    'ger-DE::servizi':
+        '*': Dienste
+    'eng-GB::servizi':
+        '*': Services
+    'ger-DE::ulteriori_informazioni':
+        '*': 'Weitere Informationen'
+    'eng-GB::ulteriori_informazioni':
+        '*': 'Further information'
 bootstrapitalia_icon:
     enabled:
         '*': '1'

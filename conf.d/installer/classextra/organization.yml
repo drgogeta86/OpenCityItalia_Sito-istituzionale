@@ -88,6 +88,42 @@ attribute_group:
         identifier: '1'
         more_information: '1'
         tax_code_e_invoice_service: '1'
+    'ger-DE::allegati':
+        '*': Anhänge
+    'eng-GB::allegati':
+        '*': Attachments
+    'ger-DE::competenze':
+        '*': Fähigkeiten
+    'eng-GB::competenze':
+        '*': Skills
+    'ger-DE::contatti':
+        '*': Kontakte
+    'eng-GB::contatti':
+        '*': Contacts
+    'ger-DE::persone_che_compongono_la_struttura':
+        '*': 'Menschen, die die Struktur ausmachen'
+    'eng-GB::persone_che_compongono_la_struttura':
+        '*': 'People who make up the structure'
+    'ger-DE::responsabile':
+        '*': Verantwortlich
+    'eng-GB::responsabile':
+        '*': Responsible
+    'ger-DE::sede':
+        '*': Grundstück
+    'eng-GB::sede':
+        '*': Site
+    'ger-DE::servizi_offerti':
+        '*': 'Angebotene Dienstleistungen'
+    'eng-GB::servizi_offerti':
+        '*': 'Offered services'
+    'ger-DE::struttura':
+        '*': Struktur
+    'eng-GB::struttura':
+        '*': Structure
+    'ger-DE::ulteriori_informazioni':
+        '*': 'Weitere Informationen'
+    'eng-GB::ulteriori_informazioni':
+        '*': 'Further information'
 bootstrapitalia_icon:
     enabled:
         '*': '1'

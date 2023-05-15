@@ -4,11 +4,13 @@ serialized_name_list:
     always-available: ita-IT
     ger-DE: Ordner
     ita-IT: Cartella
+    eng-GB: Folder
 serialized_description_list:
     0: ''
     always-available: false
     ger-DE: 'Für den Betrieb der Plattform notwendige Datenstruktur'
     ita-IT: 'Struttura dati necessaria al funzionamento della piattaforma'
+    eng-GB: 'Data structure necessary for the functioning of the platform'
 always_available: 1
 sort_field: 9
 is_container: 1
@@ -23,6 +25,7 @@ data_map:
             always-available: ita-IT
             ger-DE: Titel
             ita-IT: Titolo
+            eng-GB: Title
         data_type_string: ezstring
         placement: 1
         is_searchable: 1
@@ -43,6 +46,7 @@ data_map:
             always-available: ita-IT
             ger-DE: 'Kurzer Titel'
             ita-IT: 'Titolo breve'
+            eng-GB: 'Short Title'
         data_type_string: ezstring
         placement: 2
         is_searchable: 1
@@ -55,13 +59,14 @@ data_map:
         identifier: short_description
         serialized_description_list:
             always-available: eng-GB
-            eng-GB: ''
+            eng-GB: 'Summary of content: maximum three lines'
             ger-DE: 'Inhaltsangabe: maximal drei Zeilen'
             ita-IT: 'Sintesi del contenuto: massimo tre righe'
         serialized_name_list:
             always-available: ita-IT
-            ger-DE: 'Kurze Beschreibung'
+            ger-DE: Kurzbeschreibung
             ita-IT: 'Descrizione breve'
+            eng-GB: 'Brief Description'
         data_type_string: ezxmltext
         placement: 3
         is_searchable: 1
@@ -80,6 +85,7 @@ data_map:
             always-available: ita-IT
             ger-DE: Beschreibung
             ita-IT: Descrizione
+            eng-GB: Description
         data_type_string: ezxmltext
         placement: 4
         is_searchable: 1
@@ -98,6 +104,7 @@ data_map:
             always-available: ita-IT
             ger-DE: 'Inhaltselemente anzeigen'
             ita-IT: 'Visualizza elementi contenuti'
+            eng-GB: 'View contained items'
         data_type_string: ezboolean
         placement: 5
         data_int3: 1
@@ -115,6 +122,7 @@ data_map:
             always-available: ita-IT
             ger-DE: Schlüsselwörter
             ita-IT: 'Parole chiave'
+            eng-GB: Keywords
         data_type_string: ezkeyword
         placement: 6
         can_translate: 1
@@ -132,6 +140,7 @@ data_map:
             always-available: ita-IT
             ger-DE: 'Tag der Veröffentlichung'
             ita-IT: 'Data di inizio pubblicazione'
+            eng-GB: 'Publication start date'
         data_type_string: ezdatetime
         placement: 7
         can_translate: 1

@@ -10,7 +10,8 @@ data_map:
         serialized_name_list:
             always-available: ita-IT
             ita-IT: 'Notizie e aggiornamenti'
-            ger-DE: 'Alle Neuigkeiten'
+            ger-DE: Aktuelles
+            eng-GB: 'News and updates'
         data_type_string: openpareverserelationlist
         placement: 46
         can_translate: 1

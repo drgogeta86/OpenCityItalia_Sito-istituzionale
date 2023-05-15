@@ -4,11 +4,13 @@ serialized_name_list:
     always-available: ita-IT
     ger-DE: Gruppe
     ita-IT: Gruppo
+    eng-GB: Group
 serialized_description_list:
     0: ''
     always-available: false
     ger-DE: 'Für den Betrieb der Plattform notwendige Datenstruktur'
     ita-IT: 'Struttura dati necessaria al funzionamento della piattaforma'
+    eng-GB: 'Data structure necessary for the functioning of the platform'
 always_available: 1
 is_container: 1
 data_map:
@@ -22,6 +24,7 @@ data_map:
             always-available: ita-IT
             ger-DE: Name
             ita-IT: Nome
+            eng-GB: Name
         data_type_string: ezstring
         placement: 1
         is_searchable: 1
@@ -41,6 +44,7 @@ data_map:
             always-available: ita-IT
             ger-DE: Beschreibung
             ita-IT: Descrizione
+            eng-GB: Description
         data_type_string: ezstring
         placement: 2
         is_searchable: 1

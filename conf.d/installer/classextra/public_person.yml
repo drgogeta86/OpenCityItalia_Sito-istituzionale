@@ -98,6 +98,46 @@ attribute_group:
         dichiarazione_incompatibilita: '1'
         notes: '1'
         related_news: '1'
+    'ger-DE::altre_cariche':
+        '*': 'Andere Büros'
+    'eng-GB::altre_cariche':
+        '*': 'Other offices'
+    'ger-DE::biografia':
+        '*': Biografie
+    'eng-GB::biografia':
+        '*': Biography
+    'ger-DE::content':
+        '*': Zuordnungen
+    'eng-GB::content':
+        '*': Assignments
+    'ger-DE::curriculum_vitae':
+        '*': Lebenslauf
+    'eng-GB::curriculum_vitae':
+        '*': 'Curriculum vitae'
+    'ger-DE::details':
+        '*': Organisationen
+    'eng-GB::details':
+        '*': Organizations
+    'ger-DE::dichiarazione_dei_redditi':
+        '*': Steuererklärung
+    'eng-GB::dichiarazione_dei_redditi':
+        '*': 'Tax declaration'
+    'ger-DE::meta':
+        '*': Kontaktstellen
+    'eng-GB::meta':
+        '*': 'Contact points'
+    'ger-DE::situazione_patrimoniale':
+        '*': Patrimonialsituation
+    'eng-GB::situazione_patrimoniale':
+        '*': 'Patrimonial situation'
+    'ger-DE::spese_elettorali':
+        '*': Wahlkosten
+    'eng-GB::spese_elettorali':
+        '*': 'Electoral expenses'
+    'ger-DE::ulteriori_informazioni':
+        '*': 'Weitere Informationen'
+    'eng-GB::ulteriori_informazioni':
+        '*': 'Further information'
 card_small_view:
     enabled:
         '*': '1'

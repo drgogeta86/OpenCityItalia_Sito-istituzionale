@@ -1,0 +1,17 @@
+name: 'OpenCity Assistente Migrazione'
+type: module
+version: 0.0.1
+variables:
+    -
+        name: identifier
+        value: 'OpenPABase::getCurrentSiteaccessIdentifier'
+    -
+        name: root_node
+        value: 'ini(NodeSettings,RootNode,content.ini)'
+    -
+        name: content_Images_node
+        value: 51
+steps:
+    -
+        type: class
+        identifier: faq_root

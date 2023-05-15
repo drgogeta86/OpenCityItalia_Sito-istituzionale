@@ -4,10 +4,12 @@ serialized_name_list:
     always-available: ita-IT
     ger-DE: Ort
     ita-IT: Luogo
+    eng-GB: Place
 serialized_description_list:
     always-available: ita-IT
     ger-DE: 'Sehenswürdigkeit für den Bürger oder Touristen: z.B. Kirche, Radweg, Panorama, ...'
     ita-IT: 'Punto di interesse per il cittadino o per il turista: ad esempio chiesa, percorso ciclabile, panorama, ...'
+    eng-GB: 'Point of interest for citizens or tourists: for example church, cycle path, panorama, ...'
 data_map:
     name:
         identifier: name
@@ -15,10 +17,12 @@ data_map:
             always-available: ita-IT
             ger-DE: 'Hauptname des Ortes oder Name, unter dem der Ort bekannt ist (z. B. Kolosseum).'
             ita-IT: 'Nome principale del luogo o nome con il quale il luogo è conosciuto (ad es. Colosseo)'
+            eng-GB: 'Main name of the place or name by which the place is known (e.g. Colosseum)'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: 'Name des Ortes'
             ita-IT: 'Nome del luogo'
+            eng-GB: 'Place name'
         data_type_string: ezstring
         placement: 1
         is_searchable: 1
@@ -31,10 +35,12 @@ data_map:
             always-available: ita-IT
             ger-DE: 'Alternativer oder zweiter Name des Ortes (z. B. flavisches Amphitheater)'
             ita-IT: 'Nome alternativo o secondario del luogo (ad es. Anfiteatro Flavio)'
+            eng-GB: 'Alternative or secondary name of the place (eg. Flavian Amphitheater)'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: 'Alternativer Name'
             ita-IT: 'Nome alternativo'
+            eng-GB: 'Alternative name'
         data_type_string: ezstring
         placement: 2
         is_searchable: 1
@@ -47,11 +53,13 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ger-DE: 'Themen von Interesse für den Bürger'
-            ita-IT: 'Argomenti di interesse per il cittadino '
+            ita-IT: 'Argomenti di interesse per il cittadino'
+            eng-GB: 'Topics of interest to the citizen'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: Themen
             ita-IT: Argomenti
+            eng-GB: Topics
         data_type_string: ezobjectrelationlist
         placement: 3
         is_searchable: 1
@@ -77,6 +85,7 @@ data_map:
             always-available: ita-IT
             ger-DE: 'Geben Sie den gewünschten Ort an'
             ita-IT: 'Tipo di luogo'
+            eng-GB: 'Kind of place'
         data_type_string: eztags
         placement: 4
         is_searchable: 1
@@ -94,11 +103,13 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ger-DE: 'Kurze Beschreibung des Ortes/Sehenswürdigkeit'
-            ita-IT: 'Descrizione sintetica (suggeriti 160 caratteri)'
+            ita-IT: 'Breve descrizione del punto di interesse'
+            eng-GB: 'Brief description of the point of interest'
         serialized_name_list:
             always-available: ita-IT
-            ger-DE: 'Kurze Beschreibung'
+            ger-DE: Kurzbeschreibung
             ita-IT: 'Descrizione breve'
+            eng-GB: 'Short description'
         data_type_string: ezxmltext
         placement: 5
         is_searchable: 1
@@ -111,11 +122,13 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ger-DE: 'Vollständige Beschreibung des Orts/Sehenswürdigkeit'
-            ita-IT: 'Descrizione del luogo e degli elementi di interesse presenti nel luogo.'
+            ita-IT: 'Descrizione completa del punto di interesse'
+            eng-GB: 'Complete description of the point of interest'
         serialized_name_list:
             always-available: ita-IT
-            ger-DE: 'Beschreibung des Ortes/Sehenswürdigkeit'
-            ita-IT: 'Descrizione estesa'
+            ger-DE: Beschreibung
+            ita-IT: Descrizione
+            eng-GB: Description
         data_type_string: ezxmltext
         placement: 6
         is_searchable: 1
@@ -129,10 +142,13 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ger-DE: 'Interessante Punkte'
-            ita-IT: 'Elenco di eventuali altri luoghi d''interesse collegati.'
+            ita-IT: 'Indicare quali altri punti di interesse sono presenti presso questo luogo'
+            eng-GB: 'Indicate which other points of interest are present at this place'
         serialized_name_list:
             always-available: ita-IT
-            ita-IT: 'Luoghi collegati'
+            ita-IT: 'Elementi di interesse'
+            ger-DE: 'Elemente von Interesse'
+            eng-GB: 'Elements of interest'
         data_type_string: ezobjectrelationlist
         placement: 7
         is_searchable: 1
@@ -154,14 +170,17 @@ data_map:
             always-available: ita-IT
             ger-DE: 'Fotogalerie zum Ort/Sehenswürdigkeit'
             ita-IT: 'Galleria fotografica dedicata al punto di interesse'
+            eng-GB: 'Photo gallery dedicated to the point of interest'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: Bilder-Galerie
-            ita-IT: Immagini
+            ita-IT: 'Galleria immagini'
+            eng-GB: 'Image gallery'
         data_type_string: ezobjectrelationlist
         placement: 8
         is_searchable: 1
         can_translate: 1
+        is_required: 1
         data_text5:
             object_class: ''
             selection_type: '0'
@@ -193,10 +212,12 @@ data_map:
             always-available: ita-IT
             ger-DE: Video
             ita-IT: 'Eventuale video di presentazione del luogo'
+            eng-GB: 'Eventual video presentation of the place'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: 'Geben Sie an, welche weiteren interessanten Punkte an diesem Ort vorhanden sind'
             ita-IT: Video
+            eng-GB: Video
         data_type_string: ezstring
         placement: 10
         is_searchable: 1
@@ -224,11 +245,13 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ger-DE: 'Verfügbare Dienste für den Zugang zum Ort mit besonderem Augenmerk auf den Zugang für Menschen mit Behinderungen'
-            ita-IT: 'Modalità di accesso al luogo con particolare attenzione agli accessi per disabili ed eventuale descrizione di come arrivare, costi di accesso.'
+            ita-IT: 'Servizi disponibili sulle modalità di accesso al luogo con particolare attenzione agli accessi per disabili'
+            eng-GB: 'Services available on how to access the place with particular attention to access for the disabled'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: Zugänglichkeit
-            ita-IT: 'Modalità di accesso'
+            ita-IT: Accessibilità
+            eng-GB: Accessibility
         data_type_string: ezxmltext
         placement: 12
         is_searchable: 1
@@ -244,6 +267,7 @@ data_map:
             always-available: ita-IT
             ger-DE: Adresse
             ita-IT: ''
+            eng-GB: Address
         serialized_name_list:
             always-available: ita-IT
             ita-IT: Indirizzo
@@ -261,10 +285,12 @@ data_map:
             always-available: ita-IT
             ger-DE: 'Öffnungszeiten für die Besucher'
             ita-IT: 'Orario di apertura al pubblico del luogo'
+            eng-GB: 'Opening hours to the public of the place'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: Öffnungszeiten
-            ita-IT: 'Orario per il pubblico'
+            ita-IT: 'Orari al pubblico'
+            eng-GB: 'Hours to the public'
         data_type_string: ezobjectrelationlist
         placement: 14
         is_searchable: 1
@@ -285,11 +311,13 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ger-DE: 'Eventuelle Supportkontakte für den Benutzer wie z. B. Bürgerschalter'
-            ita-IT: 'Telefono, mail o altri punti di contatto.'
+            ita-IT: 'Eventuali contatti di supporto all''utente. Per esempio i riferimenti dell''URP'
+            eng-GB: 'Any support contacts to the user. For example the references of the URP'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: Hilfebox
-            ita-IT: 'Punti di contatto'
+            ita-IT: 'Box d''aiuto'
+            eng-GB: 'Help box'
         data_type_string: ezobjectrelationlist
         placement: 15
         is_searchable: 1
@@ -311,11 +339,13 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ger-DE: 'Wenn es sich um einen Gemeindesitz handelt, geben Sie das Amt an'
-            ita-IT: 'Unità organizzativa che ha la responsabilità del luogo'
+            ita-IT: 'Se è sede comunale di una struttura, indicare la struttura (ufficio)'
+            eng-GB: 'If it is the municipal seat of a structure, indicate the structure (office)'
         serialized_name_list:
             always-available: ita-IT
-            ger-DE: 'Zuständige Stelle'
-            ita-IT: 'Struttura responsabile'
+            ger-DE: Referenzstruktur
+            ita-IT: 'Struttura di riferimento'
+            eng-GB: 'Reference structure'
         data_type_string: ezobjectrelationlist
         placement: 16
         is_searchable: 1
@@ -337,10 +367,12 @@ data_map:
             always-available: ita-IT
             ger-DE: 'Geben Sie den Link zu der Website an, auf der diese Informationen zu finden sind'
             ita-IT: 'Indicare il link al sito web dove si trovano queste informazioni'
+            eng-GB: 'Indicate the link to the website where this information is found'
         serialized_name_list:
             always-available: ita-IT
-            ger-DE: 'Zuständige Stelle'
+            ger-DE: 'Externe zuständige Struktur'
             ita-IT: 'Struttura esterna responsabile'
+            eng-GB: 'Responsible external structure'
         data_type_string: ezstring
         placement: 17
         is_searchable: 1
@@ -355,10 +387,12 @@ data_map:
             always-available: ita-IT
             ger-DE: 'Weitere Informationen zum Service, FAQ und eventuelle Hinweise auf Gesetzesbestimmungen'
             ita-IT: 'Ulteriori informazioni sul Servizio, FAQ ed eventuali riferimenti normativi'
+            eng-GB: 'Further information on the Service, FAQs and any regulatory references'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: 'Weitere Informationen'
             ita-IT: 'Ulteriori informazioni'
+            eng-GB: 'Further informations'
         data_type_string: ezxmltext
         placement: 18
         is_searchable: 1
@@ -376,6 +410,7 @@ data_map:
             always-available: ita-IT
             ger-DE: Hauptkategorie
             ita-IT: 'Categoria prevalente'
+            eng-GB: 'Prevailing category'
         data_type_string: eztags
         placement: 19
         is_searchable: 1
@@ -393,11 +428,13 @@ data_map:
         serialized_description_list:
             always-available: ita-IT
             ger-DE: 'Melden Sie den von MiBACT definierten Code der DBUnico für Kulturstätten und den ISIL-Code für Bibliotheken'
-            ita-IT: 'Codice identificativo del luogo. Nel MIBAC c''è il codice del DBUnico per i luoghi della cultura e il codice ISIL per le biblioteche.'
+            ita-IT: 'Riportare il codice del DBUnico per i luoghi della cultura definito da MiBACT e il codice ISIL per le biblioteche'
+            eng-GB: 'Report the code of the Unique DB for places of culture defined by MiBACT and the ISIL code for libraries'
         serialized_name_list:
             always-available: ita-IT
             ger-DE: 'Einheitlicher Kodex'
-            ita-IT: Identificativo
+            ita-IT: 'Codice univoco'
+            eng-GB: 'Unique code'
         data_type_string: ezstring
         placement: 20
         is_searchable: 1
@@ -412,8 +449,9 @@ data_map:
             ita-IT: ''
         serialized_name_list:
             always-available: ita-IT
-            ger-DE: 'Sitz von'
+            ger-DE: 'SItz von'
             ita-IT: 'Sede di'
+            eng-GB: 'Location of'
         data_type_string: openpareverserelationlist
         placement: 21
         can_translate: 1
