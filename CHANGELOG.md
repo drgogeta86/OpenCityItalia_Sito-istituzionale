@@ -6,7 +6,8 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 
 ## [3.0.5](https://gitlab.com/opencity-labs/sito-istituzionale/cms/compare/3.0.4...3.0.5) - 2023-05-23
-
+#### Installer
+- Update required fields in public_service/audience
 
 #### Code dependencies
 | Changes                               | From     | To        | Compare                                                                                         |
@@ -63,21 +64,20 @@ Relevant changes by repository:
 * Revert "Visualizza l'elenco dei cookie tecnici esposti dal sistema (wip traduzioni)"  This reverts commit d92155f9e9ac333d2427f7d64e99d5cd5a363d25.
 
 
-## [3.0.4](https://gitlab.com/opencity-labs/sito-istituzionale/cms/compare/3.0.3...3.0.4) - 2023-05-23
+## [3.0.4](https://gitlab.com/opencity-labs/sito-istituzionale/cms/compare/3.0.3...3.0.4) - 2023-05-15
+#### Installer
 - Update required fields in document and private_organization Update vocabularies Update classes translations Update classextras transla
 
 
 
-## [3.0.3](https://gitlab.com/opencity-labs/sito-istituzionale/cms/compare/3.0.2...3.0.3) - 2023-05-23
-
-
-
+## [3.0.3](https://gitlab.com/opencity-labs/sito-istituzionale/cms/compare/3.0.2...3.0.3) - 2023-04-20
 #### Installer
 - Minor bugfix Remove tag Patrocinatori di eventi Lock topic/data_theme_eurovocs Add Editor homepage role Hide publication date in document child pages Bugfix in some class-extras Remove custom blocks by default Bug fix in installer Vivere-il-comune blocks Fix bug in Editor Vivere-il-comune role Fix user/gdpr_acceptance link Fix bug in Editor-trasparenza role Fix bug in Editor Vivere-il-comune role Set reset var as false by default Avoid view private place in default blocks Add lock edit strucuture Avoid view private place in default blocks
 
 
 
-## [3.0.2](https://gitlab.com/opencity-labs/sito-istituzionale/cms/compare/3.0.1...3.0.2) - 2023-05-23
+## [3.0.2](https://gitlab.com/opencity-labs/sito-istituzionale/cms/compare/3.0.1...3.0.2) - 2023-03-16
+#### Installer
 - Use reset flag for pnrr contents Fix some default abstract Typofix Fix document class and extra Override old organization class extra Make public_service  has_spatial_coverage and has_channel required Fix faq role Fix trasparenza role General review and bug fix
 
 
