@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [3.0.3](https://gitlab.com/opencity-labs/sito-istituzionale/cms/compare/3.0.2...3.0.3) - 2023-05-23
+
+
+
+#### Installer
+- Minor bugfix Remove tag Patrocinatori di eventi Lock topic/data_theme_eurovocs Add Editor homepage role Hide publication date in document child pages Bugfix in some class-extras Remove custom blocks by default Bug fix in installer Vivere-il-comune blocks Fix bug in Editor Vivere-il-comune role Fix user/gdpr_acceptance link Fix bug in Editor-trasparenza role Fix bug in Editor Vivere-il-comune role Set reset var as false by default Avoid view private place in default blocks Add lock edit strucuture Avoid view private place in default blocks
+
+
+
 ## [3.0.2](https://gitlab.com/opencity-labs/sito-istituzionale/cms/compare/3.0.1...3.0.2) - 2023-05-23
 - Use reset flag for pnrr contents Fix some default abstract Typofix Fix document class and extra Override old organization class extra Make public_service  has_spatial_coverage and has_channel required Fix faq role Fix trasparenza role General review and bug fix
 
