@@ -228,6 +228,7 @@ data_map:
         data_type_string: ezxmltext
         placement: 10
         is_searchable: 1
+        is_required: 1
         can_translate: 1
         data_int1: 2
         serialized_data_text:

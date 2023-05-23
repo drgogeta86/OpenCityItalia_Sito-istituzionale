@@ -12,6 +12,8 @@ data:
         alternative_name: null
         accessibility: 'La struttura è provvista di rampa d’accesso per disabili, servoscala con pedana e ascensore'
         abstract: 'Il palazzo storico sede del comune'
+        image:
+            - img-consiglio-comunale
         help:
             - $content_Contatti-URP_object
         topics:
