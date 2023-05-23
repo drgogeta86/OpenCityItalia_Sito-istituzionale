@@ -1,264 +1,132 @@
-# This repository adheres to the publiccode.yml standard by including this
-# metadata file that makes public software easily discoverable.
-# More info at https://github.com/italia/publiccode.yml
-
 publiccodeYmlVersion: '0.3'
 categories:
-  - content-management
-  - communications
-  - digital-citizenship
-  - website-builder
+    - content-management
+    - communications
+    - digital-citizenship
+    - website-builder
 dependsOn:
-  open:
-    - name: PHP
-      optional: false
-      version: ''
-      versionMax: ''
-      versionMin: '7.2'
-    - name: PostgreSQL
-      optional: false
-      version: ''
-      versionMax: ''
-      versionMin: '10'
-    - name: Solr
-      optional: false
-      version: ''
-      versionMax: ''
-      versionMin: 4.10.1
-    - name: Varnish
-      optional: true
-      version: ''
-      versionMax: ''
-      versionMin: '4.0'
-    - name: Traefik
-      optional: true
-      version: ''
-      versionMax: ''
-      versionMin: 1.7.0
-    - name: Docker
-      optional: true
-      version: ''
-      versionMax: ''
-      versionMin: 20.x
+    open:
+        -
+            name: PHP
+            optional: false
+            version: ''
+            versionMax: ''
+            versionMin: '7.2'
+        -
+            name: PostgreSQL
+            optional: false
+            version: ''
+            versionMax: ''
+            versionMin: '10'
+        -
+            name: Solr
+            optional: false
+            version: ''
+            versionMax: ''
+            versionMin: 4.10.1
+        -
+            name: Varnish
+            optional: true
+            version: ''
+            versionMax: ''
+            versionMin: '4.0'
+        -
+            name: Traefik
+            optional: true
+            version: ''
+            versionMax: ''
+            versionMin: 1.7.0
+        -
+            name: Docker
+            optional: true
+            version: ''
+            versionMax: ''
+            versionMin: 20.x
 description:
-  it:
-    apiDocumentation: 'https://opencity.openpa.opencontent.io/openapi/doc'
-    documentation: 'https://link.opencontent.it/opencity?utm_source=developers-italia'
-    features:
-      - PNRR
-      - PNRR/Beneficiari/Comuni
-      - PNRR/Misura/1.4.1
-      - PNRR/Misura/1.2
-      - PNRR/Misura/1.3.1
-      - |-
-        Interfacce utente basate su modello Comuni 2022 e requisiti PNRR con
-        aggiornamenti costanti
-      - |-
-        Raccolta dei feedback degli utenti sulla chiarezza informativa delle
-        pagine del sito
-      - |-
-        Gestione collaborativa dei contenuti (bozze, workflow di pubblicazione,
-        versioning)
-      - |-
-        Interfacce redattore per la modifica rapida di contenuti (menù di
-        navigazione per sezioni)
-      - |-
-        Interfacce per la creazione rapida di contenuti (visualizzazione dei
-        soli campi obbligatori)
-      - |-
-        Pubblicazione automatica in amministrazione trasparente senza doppio
-        inserimento dei contenuti
-      - |-
-        Sistema avanzato di creazione di relazioni tra contenuti senza inserire
-        le informazioni più volte
-      - |-
-        Sistema avanzato di editing e rappresentazione di dataset (tabella,
-        calendario e mappa)
-      - |-
-        Sistema veloce di classificazione dei contenuti basata su standard
-        italiani ed europei
-      - Supporto multilingue
-      - |-
-        Versione [SaaS basata su cloud qualificato ACN su
-        AWS](https://catalogocloud.acn.gov.it/service/525)
-      - |-
-        API in pubblicazione per qualsiasi contenuto (es: integrazione albo
-        pretorio)
-      - |-
-        API in consultazione e scrittura (es. pubblicazione su siti terzi degli
-        eventi)
-      - |-
-        Motore di ricerca che sfrutta la strutturazione dei contenuti per
-        restituire risultati pertinenti
-      - Funzionalità di ricerca avanzata con filtri e ordinamento dei dati
-      - |-
-        Generazione automatica di dataset (metadati DCAT-AP_IT) aggiornati in
-        tempo reale (REST API)
-      - Possibilità di integrazione con CKAN
-      - Multi-istanza (unica installazione per Unioni di Comuni)
-      - |-
-        Gestione di informazioni geografiche con Nominatim (geocoder) e
-        OpenStreetMap (rappresentazione)
-      - ntegrazione rapida con OpenCity Italia - Stanza del Cittadino
-    longDescription: |
-      **Il modello comuni di Designers Italia** 
-
-
-      È un modello di sito web avanzato per i Comuni italiani, che garantisce
-      un’esperienza utente completamente basata su linee guida, prototipi,
-      architettura dell’informazione previsti dal Dipartimento per la
-      Trasformazione Digitale di Presidenza del Consiglio nel 2022 e sui
-      requisiti previsti per i finanziamenti PNRR. Il progetto prevede un
-      costante aggiornamento in base all’evoluzione delle regole tecniche e
-      normative. 
-
-
-      L’esperienza di navigazione dei contenuti (testi, immagini, mappe,
-      calendari) è favorita:
-
-
-      - dalla presenza di menù di navigazione per categorie e per argomenti
-
-      - da un motore di ricerca che restituisce risultati pertinenti sfruttando
-      la forte organizzazione dei contenuti
-
-      - da un sistema di relazione tra contenuti di dettaglio che permette
-      all’utente di approfondire le informazioni sulla base dei bisogni
-      specifici. 
-
-
-      Ciascuna pagina di dettaglio è strutturata sulla base degli attributi del
-      content type cui appartiene e ha un menù di navigazione che permette di
-      muoversi rapidamente da una sezione all’altra della pagina. L’utente può
-      dare un feedback sulla chiarezza informativa di ciascuna singola pagina
-      del sito. 
-
-
-      La piattaforma segue un approccio basato sulla strutturazione delle
-      informazioni con una classificazione dei contenuti secondo i vocabolari
-      controllati previsti dal modello per i siti comunali e dagli standard
-      europei. Le informazioni (per esempio gli orari di apertura di un ufficio)
-      vengono create una sola volta e vengono pubblicate dal redattore nelle
-      diverse pagine del sito secondo necessità (evitando di scriverle più volte
-      e avendo un unico punto in cui tenerle aggiornate). Allo stesso modo, i
-      contenuti pubblicati sul sito che rispondono a requisiti di trasparenza
-      amministrativa sono presenti anche nella sezione amministrazione
-      trasparente, senza necessità di doppio inserimento. Tutti i contenuti del
-      sito sono disponibili come dataset. La disponibilità di API in scrittura e
-      lettura facilita l’integrazione di contenuti provenienti da fonti esterne
-      (es. albo pretorio) e la pubblicazione dei contenuti su altri siti (es.
-      pubblicazione di luoghi ed eventi su altri siti dell’ente). La
-      strutturazione dei contenuti, infine, favorisce processi e strumenti di
-      migrazione dei contenuti dal vecchio al nuovo sito dell’ente orientati a
-      garantire la qualità del dato. 
-
-
-      La piattaforma si caratterizza per una serie di funzionalità che
-      favoriscono il lavoro del redattore costruite su misura per i contenuti
-      del sito comunale e per le esigenze degli uffici della pubblica
-      amministrazione. Una specifica informazione viene pubblicata una sola
-      volta e tenuta aggiornata in un unico punto. Per ciascun tipo di
-      contenuto, una funzione specifica consente al redattore di visualizzare
-      solo i dati obbligatori da inserire in modo da rendere più rapida la
-      pubblicazione. Un menù dedicato al redattore permette di muoversi
-      rapidamente tra le diverse sezioni del contenuto su cui sta lavorando
-      rendendo più rapide le attività di modifica o aggiornamento di contenuti
-      esistenti. Operazioni come la classificazione dei contenuti e la creazione
-      di associazioni tra contenuti appartenenti a tipologie diverse (ad esempio
-      uffici e servizi) sono operazioni semplici. Alcuni accorgimenti consentono
-      di gestire con rapidità attività editoriali tipiche di un sito comunale,
-      come l’aggiornamento degli incarichi amministrativi e politici.
-      Funzionalità specifiche di pubblicazione riguardano i dataset: in questo
-      caso il sistema permette non solo di pubblicare come dataset tutte i
-      contenuti del sito, ma prevede strumenti di editing avanzato che
-      permettono di attribuire un significato ai valori contenuti nel dataset e
-      la conseguente rappresentazione delle informazioni in forma tabellare, di
-      calendario o di mappa. 
-
-
-      La piattaforma consente infine di gestire permessi di accesso in modo
-      analitico, dando la possibilità di limitare l’attività di un redattore
-      alla modifica di specifiche sezioni. I workflow editoriali sono pensati
-      per produrre contenuti in modo collaborativo, gestendo in modo rigoroso le
-      diverse fasi dalla creazione al salvataggio in bozza fino alla
-      pubblicazione, anche in modalità multilingua. 
-
-
-      Il sito web è pensato per consentire una integrazione semplice con
-      [OpenCity Italia - Stanza del
-      Cittadino](https://developers.italia.it/it/software/opencontent-stanza-del-cittadino-core-410a6e)
-      in modo da arricchire il sito con area personale utente, sistema di
-      prenotazione degli appuntamenti, richiesta di assistenza, segnalazione di
-      un disservizio e completare in questo modo le funzionalità previste dal
-      “pacchetto cittadino informato” previste dal modello di siti comunali e
-      finanziate con risorse PNRR. Allo stesso modo, il sito web è facilmente
-      integrabile con i servizi digitali di OpenCity Italia (finanziabili con
-      risorse PNRR all’interno del pacchetto “cittadino attivo” in modo da
-      garantire un’esperienza utente fluida e coerente. 
-
-
-      **Riuso e Open Source** 
-
-
-      OpenCity Italia - Sito web nasce dall’esperienza di collaborazione con il
-      Team per la Trasformazione Digitale di Presidenza del Consiglio e con il
-      Consorzio dei Comuni Trentini (Comunweb) per la creazione di un modello
-      unico di interazione digitale tra cittadini e Comuni in Italia. E’ il
-      risultato di anni di lavoro e di collaborazione con centinaia di
-      amministrazioni su tutto il territorio nazionale.
-    screenshots:
-      - images/opencity01.png
-      - images/opencity02.png
-      - images/opencity03.png
-    shortDescription: Il sito web di un comune italiano
+    it:
+        apiDocumentation: 'https://opencity.openpa.opencontent.io/openapi/doc'
+        documentation: 'https://link.opencontent.it/opencity?utm_source=developers-italia'
+        features:
+            - PNRR
+            - PNRR/Beneficiari/Comuni
+            - PNRR/Misura/1.4.1
+            - PNRR/Misura/1.2
+            - PNRR/Misura/1.3.1
+            - "Interfacce utente basate su modello Comuni 2022 e requisiti PNRR con\naggiornamenti costanti"
+            - "Raccolta dei feedback degli utenti sulla chiarezza informativa delle\npagine del sito"
+            - "Gestione collaborativa dei contenuti (bozze, workflow di pubblicazione,\nversioning)"
+            - "Interfacce redattore per la modifica rapida di contenuti (menù di\nnavigazione per sezioni)"
+            - "Interfacce per la creazione rapida di contenuti (visualizzazione dei\nsoli campi obbligatori)"
+            - "Pubblicazione automatica in amministrazione trasparente senza doppio\ninserimento dei contenuti"
+            - "Sistema avanzato di creazione di relazioni tra contenuti senza inserire\nle informazioni più volte"
+            - "Sistema avanzato di editing e rappresentazione di dataset (tabella,\ncalendario e mappa)"
+            - "Sistema veloce di classificazione dei contenuti basata su standard\nitaliani ed europei"
+            - 'Supporto multilingue'
+            - "Versione [SaaS basata su cloud qualificato ACN su\nAWS](https://catalogocloud.acn.gov.it/service/525)"
+            - "API in pubblicazione per qualsiasi contenuto (es: integrazione albo\npretorio)"
+            - "API in consultazione e scrittura (es. pubblicazione su siti terzi degli\neventi)"
+            - "Motore di ricerca che sfrutta la strutturazione dei contenuti per\nrestituire risultati pertinenti"
+            - 'Funzionalità di ricerca avanzata con filtri e ordinamento dei dati'
+            - "Generazione automatica di dataset (metadati DCAT-AP_IT) aggiornati in\ntempo reale (REST API)"
+            - 'Possibilità di integrazione con CKAN'
+            - 'Multi-istanza (unica installazione per Unioni di Comuni)'
+            - "Gestione di informazioni geografiche con Nominatim (geocoder) e\nOpenStreetMap (rappresentazione)"
+            - 'ntegrazione rapida con OpenCity Italia - Stanza del Cittadino'
+        longDescription: "**Il modello comuni di Designers Italia** \n\n\nÈ un modello di sito web avanzato per i Comuni italiani, che garantisce\nun’esperienza utente completamente basata su linee guida, prototipi,\narchitettura dell’informazione previsti dal Dipartimento per la\nTrasformazione Digitale di Presidenza del Consiglio nel 2022 e sui\nrequisiti previsti per i finanziamenti PNRR. Il progetto prevede un\ncostante aggiornamento in base all’evoluzione delle regole tecniche e\nnormative. \n\n\nL’esperienza di navigazione dei contenuti (testi, immagini, mappe,\ncalendari) è favorita:\n\n\n- dalla presenza di menù di navigazione per categorie e per argomenti\n\n- da un motore di ricerca che restituisce risultati pertinenti sfruttando\nla forte organizzazione dei contenuti\n\n- da un sistema di relazione tra contenuti di dettaglio che permette\nall’utente di approfondire le informazioni sulla base dei bisogni\nspecifici. \n\n\nCiascuna pagina di dettaglio è strutturata sulla base degli attributi del\ncontent type cui appartiene e ha un menù di navigazione che permette di\nmuoversi rapidamente da una sezione all’altra della pagina. L’utente può\ndare un feedback sulla chiarezza informativa di ciascuna singola pagina\ndel sito. \n\n\nLa piattaforma segue un approccio basato sulla strutturazione delle\ninformazioni con una classificazione dei contenuti secondo i vocabolari\ncontrollati previsti dal modello per i siti comunali e dagli standard\neuropei. Le informazioni (per esempio gli orari di apertura di un ufficio)\nvengono create una sola volta e vengono pubblicate dal redattore nelle\ndiverse pagine del sito secondo necessità (evitando di scriverle più volte\ne avendo un unico punto in cui tenerle aggiornate). Allo stesso modo, i\ncontenuti pubblicati sul sito che rispondono a requisiti di trasparenza\namministrativa sono presenti anche nella sezione amministrazione\ntrasparente, senza necessità di doppio inserimento. Tutti i contenuti del\nsito sono disponibili come dataset. La disponibilità di API in scrittura e\nlettura facilita l’integrazione di contenuti provenienti da fonti esterne\n(es. albo pretorio) e la pubblicazione dei contenuti su altri siti (es.\npubblicazione di luoghi ed eventi su altri siti dell’ente). La\nstrutturazione dei contenuti, infine, favorisce processi e strumenti di\nmigrazione dei contenuti dal vecchio al nuovo sito dell’ente orientati a\ngarantire la qualità del dato. \n\n\nLa piattaforma si caratterizza per una serie di funzionalità che\nfavoriscono il lavoro del redattore costruite su misura per i contenuti\ndel sito comunale e per le esigenze degli uffici della pubblica\namministrazione. Una specifica informazione viene pubblicata una sola\nvolta e tenuta aggiornata in un unico punto. Per ciascun tipo di\ncontenuto, una funzione specifica consente al redattore di visualizzare\nsolo i dati obbligatori da inserire in modo da rendere più rapida la\npubblicazione. Un menù dedicato al redattore permette di muoversi\nrapidamente tra le diverse sezioni del contenuto su cui sta lavorando\nrendendo più rapide le attività di modifica o aggiornamento di contenuti\nesistenti. Operazioni come la classificazione dei contenuti e la creazione\ndi associazioni tra contenuti appartenenti a tipologie diverse (ad esempio\nuffici e servizi) sono operazioni semplici. Alcuni accorgimenti consentono\ndi gestire con rapidità attività editoriali tipiche di un sito comunale,\ncome l’aggiornamento degli incarichi amministrativi e politici.\nFunzionalità specifiche di pubblicazione riguardano i dataset: in questo\ncaso il sistema permette non solo di pubblicare come dataset tutte i\ncontenuti del sito, ma prevede strumenti di editing avanzato che\npermettono di attribuire un significato ai valori contenuti nel dataset e\nla conseguente rappresentazione delle informazioni in forma tabellare, di\ncalendario o di mappa. \n\n\nLa piattaforma consente infine di gestire permessi di accesso in modo\nanalitico, dando la possibilità di limitare l’attività di un redattore\nalla modifica di specifiche sezioni. I workflow editoriali sono pensati\nper produrre contenuti in modo collaborativo, gestendo in modo rigoroso le\ndiverse fasi dalla creazione al salvataggio in bozza fino alla\npubblicazione, anche in modalità multilingua. \n\n\nIl sito web è pensato per consentire una integrazione semplice con\n[OpenCity Italia - Stanza del\nCittadino](https://developers.italia.it/it/software/opencontent-stanza-del-cittadino-core-410a6e)\nin modo da arricchire il sito con area personale utente, sistema di\nprenotazione degli appuntamenti, richiesta di assistenza, segnalazione di\nun disservizio e completare in questo modo le funzionalità previste dal\n“pacchetto cittadino informato” previste dal modello di siti comunali e\nfinanziate con risorse PNRR. Allo stesso modo, il sito web è facilmente\nintegrabile con i servizi digitali di OpenCity Italia (finanziabili con\nrisorse PNRR all’interno del pacchetto “cittadino attivo” in modo da\ngarantire un’esperienza utente fluida e coerente. \n\n\n**Riuso e Open Source** \n\n\nOpenCity Italia - Sito web nasce dall’esperienza di collaborazione con il\nTeam per la Trasformazione Digitale di Presidenza del Consiglio e con il\nConsorzio dei Comuni Trentini (Comunweb) per la creazione di un modello\nunico di interazione digitale tra cittadini e Comuni in Italia. E’ il\nrisultato di anni di lavoro e di collaborazione con centinaia di\namministrazioni su tutto il territorio nazionale.\n"
+        screenshots:
+            - images/opencity01.png
+            - images/opencity02.png
+            - images/opencity03.png
+        shortDescription: 'Il sito web di un comune italiano'
 developmentStatus: stable
 intendedAudience:
-  countries:
-    - it
-    - gb
-    - de
-  scope:
-    - local-authorities
-    - culture
-    - tourism
-    - government
+    countries:
+        - it
+        - gb
+        - de
+    scope:
+        - local-authorities
+        - culture
+        - tourism
+        - government
 it:
-  conforme:
-    gdpr: true
-    lineeGuidaDesign: true
-    misureMinimeSicurezza: true
-    modelloInteroperabilita: true
-  countryExtensionVersion: '0.2'
-  piattaforme:
-    anpr: false
-    cie: false
-    pagopa: false
-    spid: false
+    conforme:
+        gdpr: true
+        lineeGuidaDesign: true
+        misureMinimeSicurezza: true
+        modelloInteroperabilita: true
+    countryExtensionVersion: '0.2'
+    piattaforme:
+        anpr: false
+        cie: false
+        pagopa: false
+        spid: false
 landingURL: 'https://gitlab.com/opencity-labs/sito-istituzionale'
 legal:
-  license: GPL-2.0-only
-  mainCopyrightOwner: OpenCity Labs srl
-  repoOwner: OpenCity Labs srl
+    license: GPL-2.0-only
+    mainCopyrightOwner: 'OpenCity Labs srl'
+    repoOwner: 'OpenCity Labs srl'
 localisation:
-  availableLanguages:
-    - it
-    - de
-    - en
-  localisationReady: true
+    availableLanguages:
+        - it
+        - de
+        - en
+    localisationReady: true
 logo: images/opencity-italia.png
 maintenance:
-  contacts:
-    - affiliation: Opencity Labs Srl
-      email: gabriele.francescotto@opencitylabs.it
-      name: Gabriele Francescotto
-      phone: +39 0461 917437
-  type: community
-name: Opencity Italia - Sito web comunale
+    contacts:
+        -
+            affiliation: 'Opencity Labs Srl'
+            email: gabriele.francescotto@opencitylabs.it
+            name: 'Gabriele Francescotto'
+            phone: '+39 0461 917437'
+    type: community
+name: 'Opencity Italia - Sito web comunale'
 platforms:
-  - web
-releaseDate: '2023-03-01'
+    - web
+releaseDate: '2023-05-23'
 softwareType: standalone/web
-softwareVersion: 3.0.0
+softwareVersion: 3.0.4
 url: 'https://gitlab.com/opencity-labs/sito-istituzionale/cms'
 usedBy:
-  - Comune di Vicopisano (PI)
+    - 'Comune di Vicopisano (PI)'

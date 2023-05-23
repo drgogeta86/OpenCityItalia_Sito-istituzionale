@@ -5,6 +5,137 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [3.0.4](https://gitlab.com/opencity-labs/sito-istituzionale/cms/compare/3.0.3...3.0.4) - 2023-05-23
+- Update required fields in document and private_organization Update vocabularies Update classes translations Update classextras transla
+
+
+
+## [3.0.3](https://gitlab.com/opencity-labs/sito-istituzionale/cms/compare/3.0.2...3.0.3) - 2023-05-23
+
+
+
+#### Installer
+- Minor bugfix Remove tag Patrocinatori di eventi Lock topic/data_theme_eurovocs Add Editor homepage role Hide publication date in document child pages Bugfix in some class-extras Remove custom blocks by default Bug fix in installer Vivere-il-comune blocks Fix bug in Editor Vivere-il-comune role Fix user/gdpr_acceptance link Fix bug in Editor-trasparenza role Fix bug in Editor Vivere-il-comune role Set reset var as false by default Avoid view private place in default blocks Add lock edit strucuture Avoid view private place in default blocks
+
+
+
+## [3.0.2](https://gitlab.com/opencity-labs/sito-istituzionale/cms/compare/3.0.1...3.0.2) - 2023-05-23
+- Use reset flag for pnrr contents Fix some default abstract Typofix Fix document class and extra Override old organization class extra Make public_service  has_spatial_coverage and has_channel required Fix faq role Fix trasparenza role General review and bug fix
+
+
+
+## [3.0.1](https://gitlab.com/opencity-labs/sito-istituzionale/cms/compare/3.0.0...3.0.1) - 2023-05-15
+- Fix Banner and Place classes Fix homepage contacts Avoid external request if not needed Fix tag Persone/Ruoli Presidente, Assessore, Consigliere Simplify channel class Fix public_service/channel extra
+- Update publiccode.yml
+- Remove must-revalidate from cache headers Add cache header to nginx assets
+- Increase js and css default ttl
+- Remove lazyload and proxy settings images from default docker-compose
+- Update installer (commit 0d17990af2dc9c273b4348ea21498ff93d916ab7)
+
+
+#### Installer
+- Add Editor homepage role - Hide publication date in document child pages - Bugfix in some class-extras - Remove custom blocks by default
+- Bug fix in installer Vivere-il-comune blocks
+
+#### Code dependencies
+| Changes                               | From     | To       | Compare                                                                                         |
+|---------------------------------------|----------|----------|-------------------------------------------------------------------------------------------------|
+| aws/aws-crt-php                       | v1.0.4   | v1.2.1   | [...](https://github.com/awslabs/aws-crt-php/compare/v1.0.4...v1.2.1)                           |
+| aws/aws-sdk-php                       | 3.261.13 | 3.263.14 | [...](https://github.com/aws/aws-sdk-php/compare/3.261.13...3.263.14)                           |
+| google/apiclient-services             | v0.290.1 | v0.296.0 | [...](https://github.com/googleapis/google-api-php-client-services/compare/v0.290.1...v0.296.0) |
+| google/auth                           | v1.25.0  | v1.26.0  | [...](https://github.com/googleapis/google-auth-library-php/compare/v1.25.0...v1.26.0)          |
+| opencontent/occsvimport-ls            | 3.4.9    | 3.4.29   | [...](https://github.com/OpencontentCoop/occsvimport/compare/3.4.9...3.4.29)                    |
+| opencontent/ocinstaller               | 397742e  | 3bc7ae9  | [...](https://github.com/OpencontentCoop/ocinstaller/compare/397742e...3bc7ae9)                 |
+| opencontent/ocmultibinary-ls          | 3.1.3    | 3.1.6    | [...](https://github.com/OpencontentCoop/ocmultibinary/compare/3.1.3...3.1.6)                   |
+| opencontent/ocopendata-ls             | 2.28.3   | 2.28.4   | [...](https://github.com/OpencontentCoop/ocopendata/compare/2.28.3...2.28.4)                    |
+| opencontent/openpa_bootstrapitalia-ls | 2.0.53   | 2.0.78   | [...](https://github.com/OpencontentCoop/openpa_bootstrapitalia/compare/2.0.53...2.0.78)        |
+| php-http/client-common                | 2.6.0    | 2.x-dev  | [...](https://github.com/php-http/client-common/compare/2.6.0...2.x-dev)                        |
+| php-http/message                      | 1.13.0   | 1.x-dev  | [...](https://github.com/php-http/message/compare/1.13.0...1.x-dev)                             |
+| php-http/message-factory              | 597f30e  | 4d8778e  | [...](https://github.com/php-http/message-factory/compare/597f30e...4d8778e)                    |
+| psr/http-client                       | 22b2ef5  | 0955afe  | [...](https://github.com/php-fig/http-client/compare/22b2ef5...0955afe)                         |
+| psr/http-factory                      | 5a4f141  | e616d01  | [...](https://github.com/php-fig/http-factory/compare/5a4f141...e616d01)                        |
+| psr/http-message                      | efd67d1  | 1.1      | [...](https://github.com/php-fig/http-message/compare/efd67d1...1.1)                            |
+| zetacomponents/mvc-tools              | 1.2.1    | 1.2.2    | [...](https://github.com/zetacomponents/MvcTools/compare/1.2.1...1.2.2)                         |
+
+
+Relevant changes by repository:
+
+**[opencontent/occsvimport-ls changes between 3.4.9 and 3.4.29](https://github.com/OpencontentCoop/occsvimport/compare/3.4.9...3.4.29)**
+* Fix ocm_opening_hours_specification location discover
+* avoid name replication in time indexed role
+* Fi document parent discovery
+* Fix author parsing
+* Fix event payload generation Fix parent in organization payload generation Add cli log for skip by source
+* Fix place is_accessible_for_free payload
+* Fix appen translations in payload generation
+* fix place/has_address translations
+* make master spreadsheet configurable in cli script
+* dry run sync helpers
+* dry run sync helpers
+* Add api Fix people relations in article, hold_employment mapping in organization, logo in private org, parent node in public_person, json export in time indexed role
+* typo fix
+* typo fix
+* typo fix mp
+* Fix typed person list
+* Fix nota politico
+* Fix url in image relations Fix filtervocs
+* Fix autoimage loader
+* Fix autoimage loader
+* Fix missing filename in image payload
+* Add remove contents script
+* Add row link Reformat data table Force public person parent node
+* Avoid db error in topics fetch
+
+**[opencontent/ocinstaller changes between 397742e and 3bc7ae9](https://github.com/OpencontentCoop/ocinstaller/compare/397742e...3bc7ae9)**
+* Allow override installer var invoking script
+* Add lock status feature
+* Remove tag only from custom script
+* Remove verbose debug log
+* Fix merge imports
+* Store data dit foreach version
+
+**[opencontent/ocmultibinary-ls changes between 3.1.3 and 3.1.6](https://github.com/OpencontentCoop/ocmultibinary/compare/3.1.3...3.1.6)**
+* Il modulo download redirige alla versione corrente se quella selezionata non esiste
+* Corregge un corner case nella redirezione alla versione corrente
+* Corregge l'encoding del nome file nelle api ocopendata
+
+**[opencontent/ocopendata-ls changes between 2.28.3 and 2.28.4](https://github.com/OpencontentCoop/ocopendata/compare/2.28.3...2.28.4)**
+* Add cache-control response filter (disabled by default)
+
+**[opencontent/openpa_bootstrapitalia-ls changes between 2.0.53 and 2.0.78](https://github.com/OpencontentCoop/openpa_bootstrapitalia/compare/2.0.53...2.0.78)**
+* Introduce un modulo per visualizzare l'elenco delle segnalazioni del servizio builtin inefficiency
+* Corregge un bug di visualizzazione nella pagina argomento per cui non venivano caricati correttamente i contenuti automatici Introduce lun’interfaccia custom per il redattore struttura sito
+* Aggiunge il preload su css Serve i font da un indirizzo statico
+* Introduce il caricamento lazy delle immagini Esegue il preload delle immagini di background, dello script principale dei css e dei fonts
+* Aggiunge un placeholder alle immagini lazy
+* Revert "Aggiunge un placeholder alle immagini lazy"  This reverts commit 0c2ddc164f6315ad5386dd6f0b80046719de10d9.
+* Revert "Revert "Aggiunge un placeholder alle immagini lazy""  This reverts commit 0429fd194a46f6359800cda5c665fa5e8893aa8d.
+* Introduce il srcset e data-srcset le image responsive
+* Corregge il caricamento del logo e razionalizza i preload Fissa l'altezza dell'immagine del blocco singolo Corregge la query di eventi cards Corregge il caricamento del logo Rimuove un'icona font-awesome dalla scheda del servizio
+* Corregge un bug nel logo
+* Corregge un problema nel blocco eventi_card
+* Corregge un type nel blocco singolo
+* Aggiorna le dipendenze del widget "Segnala disservizio"
+* disable FlyImg prefix image by default
+* Corregge alcuni bug nella definizione dell'url delle immagini Corregge alcuni bug nell'interfaccia locked Permette di modificar eil logo in impostazioni info
+* Corregge un errore nella modifica delle info generali
+* Introduce il nuovo permesso Editor Homepage e aggiunge i privilegi di modifica delle pagine del sito in ciascun permesso di sezione
+* Corregge alcuni bug di visualizzazione
+* Corregge un problema di lingua dell'editor pagine sito
+* Aggiunge il link all'assistente migrazione nella toolbar
+* Visualizza le liste del personale come card teaser
+* Permette di svuotare il contenuto di un attributo openparole impostando a zero la paginazione
+* Corregge il testo di default delle specifiche di licenza in conformità ala validatore
+* Corregge un bug nella paginazione dell'attributo openparole
+* Visualizza il link "Ulteriori dettagli" nella visualizzazione card_teaser_info qualora il titolo sia nascosto
+* Abilita l'AnnounceKit di default
+* Corregge un problema di visualizzazione della tabella di openparole
+* Introduce alcuni miglioramenti dell'interfaccia permette di visualizzare l'anteprima dell'immagine quando si seleziona da libreria correggi alcune stringhe non tradotte corregge il limite di siti tematici notizie e argomenti nell'interfaccia di modifica
+* Introduce una splash page per l'accesso riservato allo staff
+* Permette di modificare la favicon dalla nuova interfaccia di gestione delle informazioni principali
+* Rimuove l'accesso al backend dalla website toolbar Corregge una stringa traducibile
+
+
 ## [3.0.0](https://gitlab.com/opencity-labs/sito-istituzionale/cms/compare/2.1.13...3.0.0) - 2023-03-17
 - Update readme.md
 - Fix error in readme.md
