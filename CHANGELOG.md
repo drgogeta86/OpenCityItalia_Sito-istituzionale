@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [3.0.2](https://gitlab.com/opencity-labs/sito-istituzionale/cms/compare/3.0.1...3.0.2) - 2023-05-23
+- Use reset flag for pnrr contents Fix some default abstract Typofix Fix document class and extra Override old organization class extra Make public_service  has_spatial_coverage and has_channel required Fix faq role Fix trasparenza role General review and bug fix
+
+
+
 ## [3.0.1](https://gitlab.com/opencity-labs/sito-istituzionale/cms/compare/3.0.0...3.0.1) - 2023-05-15
 - Fix Banner and Place classes Fix homepage contacts Avoid external request if not needed Fix tag Persone/Ruoli Presidente, Assessore, Consigliere Simplify channel class Fix public_service/channel extra
 - Update publiccode.yml
