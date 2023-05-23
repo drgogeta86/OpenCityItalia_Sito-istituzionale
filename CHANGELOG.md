@@ -5,6 +5,64 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [3.0.5](https://gitlab.com/opencity-labs/sito-istituzionale/cms/compare/3.0.4...3.0.5) - 2023-05-23
+
+
+#### Code dependencies
+| Changes                               | From     | To        | Compare                                                                                         |
+|---------------------------------------|----------|-----------|-------------------------------------------------------------------------------------------------|
+| aws/aws-sdk-php                       | 3.263.14 | 3.271.0   | [...](https://github.com/aws/aws-sdk-php/compare/3.263.14...3.271.0)                            |
+| google/apiclient-services             | v0.296.0 | v0.301.0  | [...](https://github.com/googleapis/google-api-php-client-services/compare/v0.296.0...v0.301.0) |
+| guzzlehttp/promises                   | b94b280  | 1.5.x-dev | [...](https://github.com/guzzle/promises/compare/b94b280...1.5.x-dev)                           |
+| guzzlehttp/psr7                       | 1.x-dev  | 1.9.x-dev | [...](https://github.com/guzzle/psr7/compare/1.x-dev...1.9.x-dev)                               |
+| opencontent/occsvimport-ls            | 3.4.29   | 3.4.35    | [...](https://github.com/OpencontentCoop/occsvimport/compare/3.4.29...3.4.35)                   |
+| opencontent/ocinstaller               | 3bc7ae9  | e5cbb7a   | [...](https://github.com/OpencontentCoop/ocinstaller/compare/3bc7ae9...e5cbb7a)                 |
+| opencontent/ocopendata-ls             | 2.28.4   | 2.28.6    | [...](https://github.com/OpencontentCoop/ocopendata/compare/2.28.4...2.28.6)                    |
+| opencontent/openpa_bootstrapitalia-ls | 2.0.78   | 2.0.89    | [...](https://github.com/OpencontentCoop/openpa_bootstrapitalia/compare/2.0.78...2.0.89)        |
+| php-http/httplug                      | f640739  | 2.x-dev   | [...](https://github.com/php-http/httplug/compare/f640739...2.x-dev)                            |
+| psr/http-factory                      | e616d01  | 6d70f40   | [...](https://github.com/php-fig/http-factory/compare/e616d01...6d70f40)                        |
+
+
+Relevant changes by repository:
+
+**[opencontent/occsvimport-ls changes between 3.4.29 and 3.4.35](https://github.com/OpencontentCoop/occsvimport/compare/3.4.29...3.4.35)**
+* Hotfix rest settings
+* no message
+* Add public_service channel and output Fix matrix in time_indexed_role Add util links in dashboard
+* Init trasparenza migration tool
+* Typo fix
+* Hotfix article locations
+* Fix import piani_progetto children
+* parse place default image
+* get filename from content disposition if needed
+
+**[opencontent/ocinstaller changes between 3bc7ae9 and e5cbb7a](https://github.com/OpencontentCoop/ocinstaller/compare/3bc7ae9...e5cbb7a)**
+* Bugfix in TagTreeCsv installer
+* Add slack notification
+
+**[opencontent/ocopendata-ls changes between 2.28.4 and 2.28.6](https://github.com/OpencontentCoop/ocopendata/compare/2.28.4...2.28.6)**
+* Fix file name enconding in api file url Bugfix in PAge connector
+* Encode filename in file.url payload if needed
+
+**[opencontent/openpa_bootstrapitalia-ls changes between 2.0.78 and 2.0.89](https://github.com/OpencontentCoop/openpa_bootstrapitalia/compare/2.0.78...2.0.89)**
+* Abilita di default le openapi trasaprenza
+* Introduce la visualizzazione per gli oggetti di classe Documento trasparenza
+* Corregge un bug di visualizzazione della modifica dei gruppi di attributi Espone il link nel card_teaser per le classi non configurate
+* Permette di nascondere tramite configurazione i topics dall'overview della visualizzazione full
+* Corregge un errore grave nel calcolo dei data-element
+* Corregge un problema sulla visualizzazione dei ruoli Introduce un meccanismo di importazione delle informazioni generali
+* Corregge un errore nello script di importazione delle informazioni del sito
+* Aggiorna le stringhe di traduzione
+* Aggiorna il meccanismo automatico di caricamento dei servizi builtin
+* Introduce un manifest.json minimo
+* Evita un errore in creazione delle openapi della trasparenza
+* Visualizza l'elenco dei cookie tecnici esposti dal sistema (wip traduzioni)
+* Sovrascrive il logo in importazione siteinfo
+* Corregge l'indirizzo di logout per accesso operatori
+* Introduce uno script per la creazione di utenti redattori
+* Revert "Visualizza l'elenco dei cookie tecnici esposti dal sistema (wip traduzioni)"  This reverts commit d92155f9e9ac333d2427f7d64e99d5cd5a363d25.
+
+
 ## [3.0.4](https://gitlab.com/opencity-labs/sito-istituzionale/cms/compare/3.0.3...3.0.4) - 2023-05-23
 - Update required fields in document and private_organization Update vocabularies Update classes translations Update classextras transla
 
