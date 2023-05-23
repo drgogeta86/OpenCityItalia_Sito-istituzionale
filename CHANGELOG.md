@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [3.0.4](https://gitlab.com/opencity-labs/sito-istituzionale/cms/compare/3.0.3...3.0.4) - 2023-05-23
+- Update required fields in document and private_organization Update vocabularies Update classes translations Update classextras transla
+
+
+
 ## [3.0.3](https://gitlab.com/opencity-labs/sito-istituzionale/cms/compare/3.0.2...3.0.3) - 2023-05-23
 
 
