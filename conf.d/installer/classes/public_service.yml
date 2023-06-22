@@ -667,7 +667,7 @@ data_map:
         placement: 29
         is_searchable: 1
         can_translate: 1
-        is_required: 1
+        is_required: 0
         data_text5:
             object_class: ''
             selection_type: '0'

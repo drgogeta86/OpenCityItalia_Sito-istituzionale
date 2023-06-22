@@ -2,8 +2,6 @@ metadata:
     remoteId: management
     classIdentifier: frontpage
     sectionIdentifier: standard
-    stateIdentifiers:
-        - ez_lock.locked
     languages:
         - ger-DE
         - ita-IT

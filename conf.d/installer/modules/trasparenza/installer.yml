@@ -1,6 +1,6 @@
 name: 'OpenCity Trasparenza'
 type: module
-version: 0.0.14
+version: 0.0.15
 variables:
     -
         name: identifier
@@ -33,6 +33,12 @@ steps:
     -
         type: classextra
         identifier: nota_trasparenza
+    -
+        type: class
+        identifier: partecipazione_societaria
+    -
+        type: classextra
+        identifier: partecipazione_societaria
     -
         type: content
         identifier: Amministrazione-Trasparente
@@ -557,7 +563,7 @@ steps:
             fields: 'parent:1|filters:role in [''"Segretario generale"'',''"Segretario comunale"''] and end_time range [now,''*'']|time_indexed_role|person,role,for_entity'
     -
         type: patch_content
-        current_version_le: 0.0.9
+        current_version_le: 0.0.15
         identifier: 9eed77856255692eca75cdb849540c23
         attributes:
             fields: 'parent:1|filters::incarico_dirigenziale = ''true'' and end_time range [now,''*'']|time_indexed_role|person,role,for_entity'
@@ -570,13 +576,13 @@ steps:
             icon: it-password-visible
     -
         type: patch_content
-        current_version_le: 0.0.9
+        current_version_le: 0.0.15
         identifier: d4836df7b45710db1bf15b35c5482086
         attributes:
-            fields: 'parent:1|filters:role = ''"Sindaco"'' and end_time range [now,''*'']|time_indexed_role|person,role,for_entity&parent:1|filters:for_entity.type_political_body in [''"Consiglio comunale"'',''"Giunta comunale"''] and end_time range [now,''*'']|time_indexed_role|person,role,for_entity'
+            fields: 'parent:1|filters:role = ''"Sindaco"'' and end_time range [now,''*'']|time_indexed_role|person,role,for_entity&parent:1|filters:for_entity.type in [''"Consiglio comunale"'',''"Giunta comunale"''] and end_time range [now,''*'']|time_indexed_role|person,role,for_entity'
     -
         type: patch_content
-        current_version_le: 0.0.9
+        current_version_le: 0.0.15
         identifier: 154a8d7d190b4e49e2796384c0732712
         attributes:
             fields: 'parent:1|filters:organizational_position = 1 and end_time range [now,''*'']|time_indexed_role|person,role,for_entity'
@@ -592,3 +598,22 @@ steps:
         attributes:
             contenuto_obbligo: '<p>Testi ufficiali aggiornati degli Statuti e dei regolamenti, che regolano le funzioni, l''organizzazione e lo svolgimento delle attività di competenza dell''amministrazione</p>'
             fields: ''
+    -
+        type: patch_content
+        current_version_le: 0.0.15
+        identifier: 2803f003c03c4940a1d01bac9dee285c
+        attributes:
+            fields: 'parent:2|online_contact_point|name,contact&parent:1|public_person|family_name,given_name,has_contact_point'
+    -
+        type: patch_content
+        current_version_le: 0.0.15
+        identifier: e28f316825dba873f9f0a4ca50d1c5f4
+        attributes:
+            fields: 'parent:2|filters:document_type in [''"Determinazione"'',''"Determinazione del Dirigente"'',''"Determinazione dirigenziale"'',''"Determinazione del Sindaco"'',''"Determinazione sindacale"'']|document|name,abstract,file'
+    -
+        type: patch_content
+        current_version_le: 0.0.15
+        identifier: 280fb2af7960538a94d877f404f67a61
+        attributes:
+            fields: 'parent:2|filters:document_type in [''"Deliberazione"'',''"Deliberazione del Commissario ad acta"'',''"Delibere del Commissario ad acta"'',''"Deliberazione del Consiglio circoscrizionale"'',''"Delibere del Consiglio circoscrizionale"'',''"Deliberazione del Consiglio comunale"'',''"Deliberazione consiliare"'',''"Deliberazione della Giunta comunale"'',''"Deliberazione giuntale"'',''"Deliberazione dell\''Esecutivo circoscrizionale"'',''"Deliberazioni dell\''Esecutivo circoscrizionale"'',''"Deliberazione di altri Organi"'',''"Delibere di altri Organi"'']|document|name,abstract,file'
+

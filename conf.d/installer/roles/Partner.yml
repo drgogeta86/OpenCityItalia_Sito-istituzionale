@@ -1,0 +1,14 @@
+name: "Partner"
+policies:
+  -
+    ModuleName: switch
+    FunctionName: user
+    Limitation: {}
+  -
+    ModuleName: rss
+    FunctionName: '*'
+    Limitation: {}
+  -
+    ModuleName: migration
+    FunctionName: '*'
+    Limitation: {}

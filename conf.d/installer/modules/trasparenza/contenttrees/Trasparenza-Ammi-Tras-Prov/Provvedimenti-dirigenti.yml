@@ -19,7 +19,7 @@ data:
             - Semestrale
         termine_pubblicazione:
             - '5 anni a decorrere dal primo gennaio dell''anno successivo a quello da cui decorre l''obbligo di pubblicazione'
-        fields: 'parent:2|filters:document_type = ''"Determinazione"''|document|name,abstract,file'
+        fields: 'parent:2|filters:document_type in [''"Determinazione"'',''"Determinazione del Dirigente"'',''"Determinazione dirigenziale"'',''"Determinazione del Sindaco"'',''"Determinazione sindacale"'']|document|name,abstract,file'
 sort_data:
     sort_field: 8
     sort_order: 1

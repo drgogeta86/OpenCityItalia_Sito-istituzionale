@@ -29,6 +29,7 @@ policies:
                 - $class_nota_trasparenza
                 - $class_pagina_trasparenza
                 - classid(folder)
+                - $class_partecipazione_societaria
             ParentClass:
                 - $class_pagina_trasparenza
                 - classid(folder)
@@ -53,6 +54,7 @@ policies:
                 - classid(folder)
                 - $class_lotto
                 - $class_dataset_lotto
+                - $class_partecipazione_societaria
 
     -
         ModuleName: content
@@ -68,6 +70,7 @@ policies:
                 - classid(folder)
                 - $class_lotto
                 - $class_dataset_lotto
+                - $class_partecipazione_societaria
     -
         ModuleName: content
         FunctionName: remove

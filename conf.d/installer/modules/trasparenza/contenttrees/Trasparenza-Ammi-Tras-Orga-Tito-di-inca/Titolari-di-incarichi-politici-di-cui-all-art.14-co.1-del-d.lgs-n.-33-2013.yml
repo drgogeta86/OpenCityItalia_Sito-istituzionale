@@ -19,7 +19,7 @@ data:
             - Tempestivo
         termine_pubblicazione:
             - '3 anni successivi alla cessazione dell''incarico'
-        fields: 'parent:1|filters:role = ''"Sindaco"''|time_indexed_role|person,role,for_entity&parent:1|filters:for_entity.name in [''Consiglio comunale'',''Giunta comunale'']|time_indexed_role|person,role,for_entity'
+        fields: 'parent:1|filters:role = ''"Sindaco"'' and end_time range [now,''*'']|time_indexed_role|person,role,for_entity&parent:1|filters:for_entity.type in [''"Consiglio comunale"'',''"Giunta comunale"''] and end_time range [now,''*'']|time_indexed_role|person,role,for_entity'
 sort_data:
     sort_field: 8
     sort_order: 1

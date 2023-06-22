@@ -1,5 +1,5 @@
 name: OpenCity
-version: 3.0.5
+version: 3.0.6
 variables:
   - name: identifier
     value: 'OpenPABase::getCurrentSiteaccessIdentifier'
@@ -405,22 +405,31 @@ steps:
 
   - type: content
     identifier: Contatti-URP
+    condition: $is_install_from_scratch
   - type: content
     identifier: Palazzo-del-municipio
+    condition: $is_install_from_scratch
   - type: content
     identifier: Ufficio-relazioni-con-il-pubblico
+    condition: $is_install_from_scratch
   - type: content
     identifier: Consiglio-comunale
+    condition: $is_install_from_scratch
   - type: content
     identifier: Giunta-comunale
+    condition: $is_install_from_scratch
   - type: content
     identifier: Commissione
+    condition: $is_install_from_scratch
   - type: content
     identifier: PNRR-la-digitalizzazione-dei-servizi-comunali
+    condition: $is_install_from_scratch
   - type: content
     identifier: Con-il-nuovo-sito-web-il-comune-e-sempre-piu-digitale
+    condition: $is_install_from_scratch
   - type: content
     identifier: Kit-comuni
+    condition: $is_install_from_scratch
   - type: content
     identifier: Opencityitalia
   - type: content
@@ -551,3 +560,6 @@ steps:
   - type: class
     identifier: edit_page
     condition: $do_lock
+
+  - type: role
+    identifier: Partner

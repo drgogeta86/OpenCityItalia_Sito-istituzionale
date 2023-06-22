@@ -19,7 +19,7 @@ data:
             - Tempestivo
         termine_pubblicazione:
             - 'Non specificato'
-        fields: 'parent:2|online_contact_point|name,contact&parent:1|employee|cognome,nome,phone,email'
+        fields: 'parent:2|online_contact_point|name,contact&parent:1|public_person|family_name,given_name,has_contact_point'
 sort_data:
     sort_field: 8
     sort_order: 1
