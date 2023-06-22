@@ -124,9 +124,9 @@ maintenance:
 name: 'Opencity Italia - Sito web comunale'
 platforms:
     - web
-releaseDate: '2023-05-23'
+releaseDate: '2023-06-22'
 softwareType: standalone/web
-softwareVersion: 3.0.5
+softwareVersion: 3.0.6
 url: 'https://gitlab.com/opencity-labs/sito-istituzionale/cms'
 usedBy:
     - 'Comune di Vicopisano (PI)'

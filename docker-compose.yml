@@ -4,6 +4,7 @@ services:
 
   app:
     image: registry.gitlab.com/opencity-labs/sito-istituzionale/cms/app:latest
+    #image: docker.io/library/opencity
     restart: unless-stopped
     depends_on:
       - minio

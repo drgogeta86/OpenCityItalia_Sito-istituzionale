@@ -5,6 +5,62 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [3.0.6](https://gitlab.com/opencity-labs/sito-istituzionale/cms/compare/3.0.5...3.0.6) - 2023-06-22
+
+
+
+#### Installer
+- Add Partner role Remove public_service/has_channel required Add Collaboratore person role tag Minor bugfix Trasparenza Version 0.0.15 Fix trasparenza fields. Fix field public_service/audience as required Fix demo content
+
+#### Code dependencies
+| Changes                               | From     | To       | Compare                                                                                         |
+|---------------------------------------|----------|----------|-------------------------------------------------------------------------------------------------|
+| aws/aws-sdk-php                       | 3.271.0  | 3.273.5  | [...](https://github.com/aws/aws-sdk-php/compare/3.271.0...3.273.5)                             |
+| google/apiclient-services             | v0.301.0 | v0.302.0 | [...](https://github.com/googleapis/google-api-php-client-services/compare/v0.301.0...v0.302.0) |
+| opencontent/occsvimport-ls            | 3.4.35   | 3.4.39   | [...](https://github.com/OpencontentCoop/occsvimport/compare/3.4.35...3.4.39)                   |
+| opencontent/ocinstaller               | e5cbb7a  | 60dca6e  | [...](https://github.com/OpencontentCoop/ocinstaller/compare/e5cbb7a...60dca6e)                 |
+| opencontent/ocsupport-ls              | 848dad7  | 403f780  | [...](https://github.com/OpencontentCoop/ocsupport/compare/848dad7...403f780)                   |
+| opencontent/openpa_bootstrapitalia-ls | 2.0.89   | 2.0.97   | [...](https://github.com/OpencontentCoop/openpa_bootstrapitalia/compare/2.0.89...2.0.97)        |
+
+
+Relevant changes by repository:
+
+**[opencontent/occsvimport-ls changes between 3.4.35 and 3.4.39](https://github.com/OpencontentCoop/occsvimport/compare/3.4.35...3.4.39)**
+* Fix document date Fix override strategy
+* Force fix buggy id duplication
+* Fix people location discover
+* Fix remoteid length if needed
+* set db execption handler in import
+* White list avoiding force ssl url
+
+**[opencontent/ocinstaller changes between e5cbb7a and 60dca6e](https://github.com/OpencontentCoop/ocinstaller/compare/e5cbb7a...60dca6e)**
+* Fix contentree payload builder
+* Fix slack integration
+* Typo fix
+
+**[opencontent/ocsupport-ls changes between 848dad7 and 403f780](https://github.com/OpencontentCoop/ocsupport/compare/848dad7...403f780)**
+* Add push_var_to_s3 script to migrate storage from nfs to s3
+
+**[opencontent/openpa_bootstrapitalia-ls changes between 2.0.89 and 2.0.97](https://github.com/OpencontentCoop/openpa_bootstrapitalia/compare/2.0.89...2.0.97)**
+* Corregge un bug nel blocco eventi card
+* Rimuove per gli utenti loggati l'installazione del service worker per incompatibilità con l'interfaccia di edit
+* Corregge un bug di visualizzazione del blocco eventi card
+* Corregge la visualizzazione del topic Corregge un bug del blocco eventi
+* Controlla l'effettiva abilitazione del servizio builtin prima di renderizzarlo
+* Migliora l'usabilità dell'interfaccia editor contenuto quando si clicca su un bottone per avviare un'azione custom
+* Esponde le informazioni generali del tenant in  /openpa/data/meta
+* Preimposta un'esportazione rss di default degli articoli
+* Introduce una vista dedicata per tempi e scadenze compatibile con gli shared links
+* Rifattorizza la visualizzazione del copyright Introduce un pannello di impostazioni avanzate ad uso dell'admin per sincronizzare header e footer in area personale, impostare il partner, importare le informazioni da altra istanza opencityt
+* Permette di rimuovere il partner configurato
+* Riduce la dimensione massima delle immagini visualizzate
+* Corregge l'icona di default nel manifest.json
+* Permette l'ordinamento di oggetti in stato opencity_locked
+* Corregge un errore di rendering del menu nella visualizzazione di una versione
+* Permette di modificare i link nell'header e nel footer da gestione informazioni generali
+* Introduce un pannello per la sincronizzazione dei servizi pubblici (ad uso amministrativo)
+
+
 ## [3.0.5](https://gitlab.com/opencity-labs/sito-istituzionale/cms/compare/3.0.4...3.0.5) - 2023-05-23
 #### Installer
 - Update required fields in public_service/audience
