@@ -5,6 +5,95 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [3.0.9](https://gitlab.com/opencity-labs/sito-istituzionale/cms/compare/3.0.6...3.0.9) - 2023-08-04
+- Set the repository version to match the repository version of the installer
+- Remove installer folder and set it as composer dependecy
+
+#### Code dependencies
+| Changes                                | From    | To      | Compare                                                                                    |
+|----------------------------------------|---------|---------|--------------------------------------------------------------------------------------------|
+| aws/aws-crt-php                        | v1.2.1  | v1.2.2  | [...](https://github.com/awslabs/aws-crt-php/compare/v1.2.1...v1.2.2)                      |
+| aws/aws-sdk-php                        | 3.273.5 | 3.277.8 | [...](https://github.com/aws/aws-sdk-php/compare/3.273.5...3.277.8)                        |
+| lasserafn/php-initial-avatar-generator | 49d0b10 | ffe43d8 | [...](https://github.com/LasseRafn/php-initial-avatar-generator/compare/49d0b10...ffe43d8) |
+| lasserafn/php-string-script-language   | 0.3     | 0.4     | [...](https://github.com/LasseRafn/php-string-script-language/compare/0.3...0.4)           |
+| league/html-to-markdown                | 2185d5e | 0b4066e | [...](https://github.com/thephpleague/html-to-markdown/compare/2185d5e...0b4066e)          |
+| **opencity-labs/opencity-installer**   |         | **3.0.9**   |                                                                                            |
+| opencontent/occsvimport-ls             | 3.4.39  | 3.4.44  | [...](https://github.com/OpencontentCoop/occsvimport/compare/3.4.39...3.4.44)              |
+| opencontent/ocinstaller                | 60dca6e | 36d45d6 | [...](https://github.com/OpencontentCoop/ocinstaller/compare/60dca6e...36d45d6)            |
+| opencontent/ocmultibinary-ls           | 3.1.6   | 3.1.7   | [...](https://github.com/OpencontentCoop/ocmultibinary/compare/3.1.6...3.1.7)              |
+| opencontent/ocopendata-ls              | 2.28.6  | 2.86.7  | [...](https://github.com/OpencontentCoop/ocopendata/compare/2.28.6...2.86.7)               |
+| opencontent/ocopendata_forms-ls        | 1.6.12  | 1.6.13  | [...](https://github.com/OpencontentCoop/ocopendata_forms/compare/1.6.12...1.6.13)         |
+| opencontent/ocsupport-ls               | 403f780 | 46e1759 | [...](https://github.com/OpencontentCoop/ocsupport/compare/403f780...46e1759)              |
+| opencontent/openpa-ls                  | 3.18.1  | 3.18.2  | [...](https://github.com/OpencontentCoop/openpa/compare/3.18.1...3.18.2)                   |
+| opencontent/openpa_bootstrapitalia-ls  | 2.0.97  | 2.0.117 | [...](https://github.com/OpencontentCoop/openpa_bootstrapitalia/compare/2.0.97...2.0.117)  |
+| symfony/polyfill-ctype                 | ea208ce | 1.x-dev | [...](https://github.com/symfony/polyfill-ctype/compare/ea208ce...1.x-dev)                 |
+| symfony/polyfill-intl-idn              | ecaafce | 1.x-dev | [...](https://github.com/symfony/polyfill-intl-idn/compare/ecaafce...1.x-dev)              |
+| symfony/polyfill-intl-normalizer       | 8c4ad05 | 1.x-dev | [...](https://github.com/symfony/polyfill-intl-normalizer/compare/8c4ad05...1.x-dev)       |
+| symfony/polyfill-mbstring              | f9c7aff | 1.x-dev | [...](https://github.com/symfony/polyfill-mbstring/compare/f9c7aff...1.x-dev)              |
+| symfony/polyfill-php72                 | 70f4aeb | 1.x-dev | [...](https://github.com/symfony/polyfill-php72/compare/70f4aeb...1.x-dev)                 |
+| symfony/polyfill-php73                 | fe2f306 | 1.x-dev | [...](https://github.com/symfony/polyfill-php73/compare/fe2f306...1.x-dev)                 |
+| symfony/polyfill-php80                 | 6caa573 | 1.x-dev | [...](https://github.com/symfony/polyfill-php80/compare/6caa573...1.x-dev)                 |
+
+
+Relevant changes by repository:
+
+**[opencontent/occsvimport-ls changes between 3.4.39 and 3.4.44](https://github.com/OpencontentCoop/occsvimport/compare/3.4.39...3.4.44)**
+* Fix public service de fields
+* Handle ocm_article/image_file
+* Allow multi relations in public-service
+* Import urlalias if needed
+* allow name duplication in ocm_event
+
+**[opencontent/ocinstaller changes between 60dca6e and 36d45d6](https://github.com/OpencontentCoop/ocinstaller/compare/60dca6e...36d45d6)**
+* Add prebuilt installer Bugfix in main bin
+
+**[opencontent/ocmultibinary-ls changes between 3.1.6 and 3.1.7](https://github.com/OpencontentCoop/ocmultibinary/compare/3.1.6...3.1.7)**
+* Corregge la visualizzazione dei nomi dei file nel design bi2
+
+**[opencontent/ocopendata-ls changes between 2.28.6 and 2.86.7](https://github.com/OpencontentCoop/ocopendata/compare/2.28.6...2.86.7)**
+* Fix eztags attribute converter
+
+**[opencontent/ocopendata_forms-ls changes between 1.6.12 and 1.6.13](https://github.com/OpencontentCoop/ocopendata_forms/compare/1.6.12...1.6.13)**
+* Fix Nominatim api paths
+
+**[opencontent/ocsupport-ls changes between 403f780 and 46e1759](https://github.com/OpencontentCoop/ocsupport/compare/403f780...46e1759)**
+* Add migration utils script
+
+**[opencontent/openpa-ls changes between 3.18.1 and 3.18.2](https://github.com/OpencontentCoop/openpa/compare/3.18.1...3.18.2)**
+* Fix Nominatim api paths
+
+**[opencontent/openpa_bootstrapitalia-ls changes between 2.0.97 and 2.0.117](https://github.com/OpencontentCoop/openpa_bootstrapitalia/compare/2.0.97...2.0.117)**
+* Corregge un problema di doppia collocazione in creazione servizio da service tools
+* Introduce il nuovo tema amalfi
+* Rimuove il service worker di default
+* Ottimizza il caricamento del tools sync servizi
+* Corregge il testo guida di tools sync servizi
+* Corregge un bug di visualizzazione della barra dei menu e del widget satisfy
+* Perfeziona le servicetools api
+* Corregge un possibile fallimento di servicetools
+* Espone un controllo dei campi obbligatori sulla vista elenco dei contenuti per classe
+* Effettua un controllo automatico per esporre i bottoni di accesso al servizio in base allo stato
+* Introduce uno script per correggere l'errata importazione del tag "Salute, benessere e assistenza"
+* Espone i contenuti correlati nella vista classlist
+* Corregge il controllo dei contenuti nella vista classlist
+* Corregge un bug nella vista classlist
+* Introduce una api per modificare il link all'area personale e i relativi link
+* Aggiunge un testo di default nel paragrafo Tempi e scadenze della scheda del servizio in caso di valori non popolati
+* Permette di reindirizzare a nominatim invece che a google per il link alle geolocalizzazioni
+* Permette di inserire un logo custom per il footer (se configurato homepage/footer_logo)
+* Rimuove i caratteri ascii nella visualizzazione del nome del file
+* Aggiunge il link al Piano di miglioramento delle performance nel footer
+* Valida il campo "Motivo dello stato" in creazione o modifica di un servizio non attivo
+* Forza la visualizzazione del menu utente anche in caso di link all'area riservata errato o mancante
+* Corregge la minificazione dell'output dell'html
+* Considera la tipologia di attributo per il campo numero nel blocco ricerca documenti (bootstrapitalia 1)
+* Introduce la gestione dei servizi bis in importazione servizio da prototipo
+* Corregge un bug nelle api sync servizi
+* Permette di ripristinare una versione precedente di un contenuto locked
+* Corregge un bug di visualizzazione del marker popup
+* Corregge il colore dello slim header nello stile amalfi
+
+
 ## [3.0.6](https://gitlab.com/opencity-labs/sito-istituzionale/cms/compare/3.0.5...3.0.6) - 2023-06-22
 
 
