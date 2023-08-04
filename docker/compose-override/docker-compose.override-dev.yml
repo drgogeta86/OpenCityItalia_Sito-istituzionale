@@ -33,7 +33,6 @@ services:
 #      - ./html/vendor:/var/www/html/vendor:rw,cached
 #      - ./conf.d/ez/siteaccess:/var/www/html/settings/siteaccess:rw,cached
 #      - ./conf.d/ez/override:/var/www/html/settings/override:rw,cached
-#      - ./conf.d/installer:/var/www/installer:rw,cached
 #      - ./composer.json:/var/www/composer.json
 #      - ./composer.lock:/var/www/composer.lock
 

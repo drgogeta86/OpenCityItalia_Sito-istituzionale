@@ -1,6 +1,0 @@
-parent_id,id,remote_id,path_string,keyword_it,keyword_de,keyword_pa,keyword_en,synonyms_it,synonyms_de,synonyms_pa,synonyms_en,description_it,description_de,description_en,hash
-0,1,3ae7d11f42cd48ccf805f66eb5591991,/1/,"Costi e prezzi","Kosten und Preise",,"Costs and prices",,,,,,,,
-1,2,904599a5e356c6132bedc6be481bdc91,/1/2/,Valute,Währungen,,Currencies,,,,,,,,
-2,3,0557e6fbacd253e7cf2ac033870a46aa,/1/2/3/,Dollari,Dollars,,Dollars,,,,,,,,
-2,4,185b0840b975dac09585f39c00938a97,/1/2/4/,Euro,Euro,,Euro,,,,,,,,
-2,5,dfd08f89e4f1675bd0debab6bf78dd84,/1/2/5/,Sterline,Pfund,,Pounds,,,,,,,,

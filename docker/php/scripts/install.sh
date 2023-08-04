@@ -63,8 +63,8 @@ echo "[info] chmod ${EZ_CHMOD_VAR} ${EZ_ROOT}/var"
 echo "[info] chmod ${EZ_CHMOD_LOG} ${EZ_ROOT}/var/log/*"
      chmod ${EZ_CHMOD_LOG} ${EZ_ROOT}/var/log/*
 
-echo "[info] chown -R -L $EZ_USER.$EZ_USER_GROUP /var/www/installer"
-      chown -R $EZ_USER.$EZ_USER_GROUP /var/www/installer
+echo "[info] chown -R -L $EZ_USER.$EZ_USER_GROUP /var/www/html/vendor/opencity-labs/opencity-installer"
+      chown -R $EZ_USER.$EZ_USER_GROUP /var/www/html/vendor/opencity-labs/opencity-installer
 
 if [[ -n $EZINI_file__eZDFSClusteringSettings__MountPointPath ]]; then
     if [[ -d $EZINI_file__eZDFSClusteringSettings__MountPointPath ]]; then
@@ -89,27 +89,27 @@ if [[ -n $EZ_INSTANCE ]]; then
             sudo -E -u $EZ_USER php vendor/opencontent/ocinstaller/bin/install_pgcrypto.php --host=${EZINI_site__DatabaseSettings__Server} --port=${EZINI_site__DatabaseSettings__Port} --user=${EZINI_site__DatabaseSettings__User} --password=${EZINI_site__DatabaseSettings__Password} --database=${EZINI_site__DatabaseSettings__Database}  || exit 2
 
             echo "[info] run installer on ${EZ_INSTANCE}"
-            sudo -E -u $EZ_USER php vendor/bin/ocinstall --allow-root-user -sbackend --embed-dfs-schema --no-interaction --languages=ita-IT,ita-PA ../installer/
+            sudo -E -u $EZ_USER php vendor/bin/ocinstall --allow-root-user -sbackend --embed-dfs-schema --no-interaction --languages=ita-IT,ita-PA ./vendor/opencity-labs/opencity-installer/
         else
             echo "[info] RUN_INSTALLER is set to false (install only base schema)"
             echo "[info] run installer on ${EZ_INSTANCE}"
-            sudo -E -u $EZ_USER php vendor/bin/ocinstall --allow-root-user -sbackend --embed-dfs-schema --no-interaction --languages=ita-IT,ita-PA --only-schema ../installer/
+            sudo -E -u $EZ_USER php vendor/bin/ocinstall --allow-root-user -sbackend --embed-dfs-schema --no-interaction --languages=ita-IT,ita-PA --only-schema ./vendor/opencity-labs/opencity-installer/
         fi
         if [[ $RUN_INSTALLER_TRASPARENZA == 'true' ]]; then
             echo "[info] run installer trasparenza on ${EZ_INSTANCE}"
-            sudo -E -u $EZ_USER php vendor/bin/ocinstall --allow-root-user -sbackend --no-interaction ../installer/modules/trasparenza
+            sudo -E -u $EZ_USER php vendor/bin/ocinstall --allow-root-user -sbackend --no-interaction ./vendor/opencity-labs/opencity-installer/modules/trasparenza
         else
             echo "[info] RUN_INSTALLER_TRASPARENZA is set to false"
         fi
         if [[ $RUN_INSTALLER_NEWSLETTER == 'true' ]]; then
             echo "[info] run installer trasparenza on ${EZ_INSTANCE}"
-            sudo -E -u $EZ_USER php vendor/bin/ocinstall --allow-root-user -sbackend --no-interaction ../installer/modules/newsletter
+            sudo -E -u $EZ_USER php vendor/bin/ocinstall --allow-root-user -sbackend --no-interaction ./vendor/opencity-labs/opencity-installer/modules/newsletter
         else
             echo "[info] RUN_INSTALLER_NEWSLETTER is set to false"
         fi
         if [[ $RUN_INSTALLER_DEMO == 'true' ]]; then
             echo "[info] run installer demo on ${EZ_INSTANCE}"
-            sudo -E -u $EZ_USER php vendor/bin/ocinstall --allow-root-user -sbackend --no-interaction ../installer/modules/demo
+            sudo -E -u $EZ_USER php vendor/bin/ocinstall --allow-root-user -sbackend --no-interaction ./vendor/opencity-labs/opencity-installer/modules/demo
         else
             echo "[info] RUN_INSTALLER_DEMO is set to false"
         fi

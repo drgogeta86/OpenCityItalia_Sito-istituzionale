@@ -29,9 +29,6 @@ COPY conf.d/ez/override /var/www/html/settings/override
 COPY conf.d/ez/siteaccess /var/www/html/settings/siteaccess
 COPY conf.d/ez/config.cluster.php /var/www/html/config.cluster.php
 
-# Add installer
-COPY conf.d/installer /var/www/installer
-
 COPY security.txt /var/www/html/.well-known/security.txt
 
 # Copy install script to default entrypoint script dir to extend base entrypoint without modifying it

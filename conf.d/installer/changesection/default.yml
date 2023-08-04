@@ -1,9 +1,0 @@
-rootNodeIdList:
-    document: '$contenttree_Amministrazione_Documenti-e-dati_node'
-dataTimeAttributeIdentifierList:
-    document: expiration_time
-sectionIdList:
-    document: restricted
-secondsExpire: []
-overrideValue: false
-ignore: false

@@ -1,5 +1,0 @@
-bootstrapitalia_icon:
-    enabled:
-        '*': '1'
-    icon:
-        '*': it-box

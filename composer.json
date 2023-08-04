@@ -78,7 +78,8 @@
     "opencontent/openpa-ls": "3.*",
     "opencontent/openpa_bootstrapitalia-ls": "2.0.*",
     "opencontent/openpa_newsletter-ls": "2.*",
-    "opencontent/openpa_userprofile-ls": "dev-master"
+    "opencontent/openpa_userprofile-ls": "dev-master",
+    "opencity-labs/opencity-installer": "3.*"
   },
   "replace": {
     "ezsystems/ezdemo-ls-extension": "*",

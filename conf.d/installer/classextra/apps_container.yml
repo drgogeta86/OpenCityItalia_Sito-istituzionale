@@ -1,8 +1,0 @@
-search_form:
-    enabled:
-        '*': '1'
-    show:
-        titolo: '1'
-table_view:
-    enabled:
-        '*': '1'
