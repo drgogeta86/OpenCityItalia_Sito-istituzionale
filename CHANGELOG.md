@@ -5,6 +5,53 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [3.0.10](https://gitlab.com/opencity-labs/sito-istituzionale/cms/compare/3.0.9...3.0.10) - 2023-09-25
+- Close:  - https://gitlab.com/opencity-labs/sito-istituzionale/cms/-/issues/2  - https://gitlab.com/opencity-labs/sito-istituzionale/cms/-/issues/1  - https://gitlab.com/opencity-labs/sito-istituzionale/installer/-/issues/2  - https://gitlab.com/opencity-labs/sito-istituzionale/installer/-/issues/1
+
+#### Code dependencies
+| Changes                               | From    | To       | Compare                                                                                    |
+|---------------------------------------|---------|----------|--------------------------------------------------------------------------------------------|
+| aws/aws-sdk-php                       | 3.277.8 | 3.281.12 | [...](https://github.com/aws/aws-sdk-php/compare/3.277.8...3.281.12)                       |
+| league/html-to-markdown               | 0b4066e | 0542c8f  | [...](https://github.com/thephpleague/html-to-markdown/compare/0b4066e...0542c8f)          |
+| mtdowling/jmespath.php                | 9b87907 | 59f3250  | [...](https://github.com/jmespath/jmespath.php/compare/9b87907...59f3250)                  |
+| opencity-labs/opencity-installer      | 3.0.9   | 3.0.10   |                                                                                            |
+| opencontent/ocinstaller               | 36d45d6 | c505140  | [...](https://github.com/OpencontentCoop/ocinstaller/compare/36d45d6...c505140)            |
+| opencontent/openpa-ls                 | 3.18.2  | 3.18.4   | [...](https://github.com/OpencontentCoop/openpa/compare/3.18.2...3.18.4)                   |
+| opencontent/openpa_bootstrapitalia-ls | 2.0.117 | 2.0.121  | [...](https://github.com/OpencontentCoop/openpa_bootstrapitalia/compare/2.0.117...2.0.121) |
+| php-http/promise                      | 4c4c1f9 | cac94eb  | [...](https://github.com/php-http/promise/compare/4c4c1f9...cac94eb)                       |
+| psr/event-dispatcher                  | e275e2d | 977ffcf  | [...](https://github.com/php-fig/event-dispatcher/compare/e275e2d...977ffcf)               |
+| psr/http-client                       | 0955afe | bb5906e  | [...](https://github.com/php-fig/http-client/compare/0955afe...bb5906e)                    |
+| psr/http-factory                      | 6d70f40 | 7037f4b  | [...](https://github.com/php-fig/http-factory/compare/6d70f40...7037f4b)                   |
+| zetacomponents/mail                   | 1.9.4   | 1.9.6    | [...](https://github.com/zetacomponents/Mail/compare/1.9.4...1.9.6)                        |
+| zetacomponents/mvc-tools              | 1.2.2   | 1.2.3    | [...](https://github.com/zetacomponents/MvcTools/compare/1.2.2...1.2.3)                    |
+| zetacomponents/system-information     | 1.1.1   | 1.1.2    | [...](https://github.com/zetacomponents/SystemInformation/compare/1.1.1...1.1.2)           |
+
+
+Relevant changes by repository:
+
+**[opencontent/ocinstaller changes between 36d45d6 and c505140](https://github.com/OpencontentCoop/ocinstaller/compare/36d45d6...c505140)**
+* Fix log message
+
+**[opencontent/openpa-ls changes between 3.18.2 and 3.18.4](https://github.com/OpencontentCoop/openpa/compare/3.18.2...3.18.4)**
+* Esclude i siti archiviati dal motore di ricerca
+* Corregge un possibile bug di cache nella selezione del tema
+* Disallow robots for /opendata
+
+**[opencontent/openpa_bootstrapitalia-ls changes between 2.0.117 and 2.0.121](https://github.com/OpencontentCoop/openpa_bootstrapitalia/compare/2.0.117...2.0.121)**
+* Corregge un problema di performance nella visualizzazione dei ruoli
+* Corregge un bug nella funziona di pulizia dei nomi dei file
+* Introduce alcuni script di utilità per l'installazione di componenti opzionali Corregge un bug nelle configurazioni di default di editorialstuff
+* Corregge un bug nel template reverse relations
+* Aggiorna le stringhe di traduzione
+* Aggiorna le stringhe di traduzione
+* Corregge alcuni problemi di validazione WCAG 2.1 SC 1.1.1
+* Evita di duplicare i contenuti nelle pagine di filtro per tag
+* Corregge un bug per cui non era possibile inserire degli eventi in evidenza nella pagina Vivere il comune
+* Verifica e corregge la visualizzazione dello stato corrente di un servizio pubblico se l'istanza è connessa ad un'area personale
+* Inserisce alcuni campi di default nell'esposizione in json-ld del public service
+* Permette l'inserimento di una immagine decorativa in homepage (abilitabile da configurazione)
+
+
 ## [3.0.9](https://gitlab.com/opencity-labs/sito-istituzionale/cms/compare/3.0.6...3.0.9) - 2023-08-04
 - Set the repository version to match the repository version of the installer
 - Remove installer folder and set it as composer dependecy
