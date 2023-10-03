@@ -104,7 +104,7 @@ services:
       EZINI_openpa_cluster__RedisDFSBackendSettings__Endpoint: 'tcp://redis:6379'
 
       ## Bucket e Regione S3
-      #EZINI_openpa_cluster__AWSS3DFSBackendSettings__Region: ''
+      EZINI_openpa_cluster__AWSS3DFSBackendSettings__Region: 'eu-west-1'
       EZINI_openpa_cluster__AWSS3DFSBackendSettings__Bucket: 'opencity-bucket'
       ## Solo per configurazioni di emulatori di S3
       # Dominio che serve le immagini pubbliche: se non configurato è s3-<Region>.amazonaws.com
