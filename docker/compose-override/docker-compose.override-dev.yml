@@ -14,6 +14,7 @@ services:
       EZINI_site__TemplateSettings__TemplateCompile: 'disabled'
       EZINI_site__TemplateSettings__ShowUsedTemplates: 'enabled'
       EZINI_site__DebugSettings__DebugOutput: 'enabled'
+      EZINI_site__DebugSettings__DebugRedirection: 'enabled'
       EZINI_site__DebugSettings__DebugToolbar: 'enabled'
       EZINI_site__DebugSettings__AlwaysLog_0: 'debug'
       EZINI_site__DebugSettings__AlwaysLog_1: 'warning'
