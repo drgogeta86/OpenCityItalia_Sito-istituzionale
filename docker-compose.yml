@@ -3,7 +3,8 @@ version: '3.7'
 services:
 
   app:
-    image: registry.gitlab.com/opencity-labs/sito-istituzionale/cms/app:latest
+    #image: registry.gitlab.com/opencity-labs/sito-istituzionale/cms/app:latest
+    build: .
     restart: unless-stopped
     depends_on:
       - minio
@@ -247,7 +248,9 @@ services:
     command: server --console-address ":9001" /data
     environment:
       MINIO_ACCESS_KEY: AKIAIOSFODNN7EXAMPLE
+      MINIO_ROOT_USER: AKIAIOSFODNN7EXAMPLE
       MINIO_SECRET_KEY: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+      MINIO_ROOT_PASSWORD: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
     healthcheck:
       test: [ "CMD", "curl", "-f", "http://localhost:9000/minio/health/live" ]
       interval: 30s

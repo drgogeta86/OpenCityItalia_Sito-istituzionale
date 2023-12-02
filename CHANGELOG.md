@@ -5,6 +5,101 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [3.0.11](https://gitlab.com/opencity-labs/sito-istituzionale/cms/compare/3.0.10...3.0.11) - 2023-12-02
+- Add default s3 region env
+
+#### Code dependencies
+| Changes                               | From     | To      | Compare                                                                                    |
+|---------------------------------------|----------|---------|--------------------------------------------------------------------------------------------|
+| aws/aws-crt-php                       | v1.2.2   | v1.2.4  | [...](https://github.com/awslabs/aws-crt-php/compare/v1.2.2...v1.2.4)                      |
+| aws/aws-sdk-php                       | 3.281.12 | 3.293.2 | [...](https://github.com/aws/aws-sdk-php/compare/3.281.12...3.293.2)                       |
+| mtdowling/jmespath.php                | 59f3250  | b243cac | [...](https://github.com/jmespath/jmespath.php/compare/59f3250...b243cac)                  |
+| opencity-labs/opencity-installer      | 3.0.10   | 3.0.11  |                                                                                            |
+| opencontent/occsvimport-ls            | 3.4.44   | 3.4.51  | [...](https://github.com/OpencontentCoop/occsvimport/compare/3.4.44...3.4.51)              |
+| opencontent/ocopenapi-ls              | 1.4.1    | 1.5.2   | [...](https://github.com/OpencontentCoop/ocopenapi-ls/compare/1.4.1...1.5.2)               |
+| opencontent/ocopendata-ls             | 2.86.7   | 2.87.0  | [...](https://github.com/OpencontentCoop/ocopendata/compare/2.86.7...2.87.0)               |
+| opencontent/ocrss-ls                  | 1.4      | 1.4.3   | [...](https://github.com/OpencontentCoop/ocrss/compare/1.4...1.4.3)                        |
+| opencontent/openpa-ls                 | 3.18.4   | 3.18.5  | [...](https://github.com/OpencontentCoop/openpa/compare/3.18.4...3.18.5)                   |
+| opencontent/openpa_bootstrapitalia-ls | 2.0.121  | 2.0.157 | [...](https://github.com/OpencontentCoop/openpa_bootstrapitalia/compare/2.0.121...2.0.157) |
+| php-http/promise                      | cac94eb  | 1.x-dev | [...](https://github.com/php-http/promise/compare/cac94eb...1.x-dev)                       |
+
+
+Relevant changes by repository:
+
+**[opencontent/occsvimport-ls changes between 3.4.44 and 3.4.51](https://github.com/OpencontentCoop/occsvimport/compare/3.4.44...3.4.51)**
+* Remove comments
+* Fix import/export trasparenza
+* Add stats in migrate trasparenza
+* Add script to create custom editor trasparenza role
+* Fix public service audience
+* Fix user guide to create a google service account
+* Fix credentials discover in migration dashboard
+* Fix query escaping
+
+**[opencontent/ocopenapi-ls changes between 1.4.1 and 1.5.2](https://github.com/OpencontentCoop/ocopenapi-ls/compare/1.4.1...1.5.2)**
+* Add section documentation feature
+* Fix wrong url in doc breadcrumb
+* Coding style and small bug fixes
+* Enable api access with pdnd jwt
+* Issue JWT for internal interop
+
+**[opencontent/ocopendata-ls changes between 2.86.7 and 2.87.0](https://github.com/OpencontentCoop/ocopendata/compare/2.86.7...2.87.0)**
+* Expose get eZURL by id as api /api/opendata/v2/url/:id
+
+**[opencontent/ocrss-ls changes between 1.4 and 1.4.3](https://github.com/OpencontentCoop/ocrss/compare/1.4...1.4.3)**
+* Fix item timestamp and category output Add set_redirect script
+* Typo fix
+* Remove first version published date time workaround
+
+**[opencontent/openpa-ls changes between 3.18.4 and 3.18.5](https://github.com/OpencontentCoop/openpa/compare/3.18.4...3.18.5)**
+* Fix legacy rss handler node query
+* Introduce un operatore di template per forzare il blocco dei motori di ricerca in base a una lista configurata di domini
+
+**[opencontent/openpa_bootstrapitalia-ls changes between 2.0.121 and 2.0.157](https://github.com/OpencontentCoop/openpa_bootstrapitalia/compare/2.0.121...2.0.157)**
+* Corregge un bug di traduzione nell'elenco dei servizi
+* Corregge la traduzione italiana mancante di "Venerdì"
+* Rimuove i data-element nella visualizzazione dei link nel blocco ricerca
+* Permette di visualizzare le card dei topic con il template di default
+* Introduce un template custom per visualizzare alberature di trasparenza di versioni obsolete di opencity
+* Inserisce l'intestazione della sezione trasparenza nelle visualizzazioni delle classi custom trasparenza
+* Corregge il comportamento della select dei comuni italiani in modo da ricercare anche i nomi con lo spazio
+* Typo fix
+* Corregge un bug nella configurazione di default della visibilità sui motori di ricerca
+* Abilita di default l'inserimento dell'immagine decorativa nella homepage locked gui
+* Aggiunge una cache per alleggerire il carico del content edit
+* Corregge un bug per cui veniva generato un errore nella modifica della homepage quando si ricercava un contenuto da relazionare
+* Introduca uno static cache handler per la staticizzazione dell'html in unn bucket S3 compatibile
+* Typo fix
+* Corregge il campo audienceType nell'esposizione dei metatag schema.org
+* Permette di customizzare il numero degli eventi esposti nella vista card del blocco eventi
+* Corregge un errore nell'api di sincronizzazione servizi
+* Aggiorna le stringhe di traduzione
+* Corregge un bug nell'url di accesso redazione in siteaccess non italiano
+* Aggiorna il logo di Twitter/X
+* Introduce la possibilità di inserire lo script di monitoraggio performance di Sentry per gli utenti autenticati
+* Aggiunge l'identificatore dell'istanza nello script di monitoraggio performance di Sentry per gli utenti autenticati
+* Corregge una stringa di traduzione nel blocco ocopendata
+* Introduce una funzione per correggere il language mask delle classi in fase di installazione/aggiornamento
+* Corregge il percorso del log della creazione dell'avatar
+* Corregge un problema di creazione del link nell'interfaccia di gestione utenti
+* Corregge le traduzioni nella pagina full topic
+* Permette di utilizzare il widget loginbox
+* Espone lo script di monitoraggio performance di Sentry per gli utenti autenticati nel design v1
+* Espone un cache-control di default nei moduli service-worker e manifest
+* Introduce le visualizzazioni per la classe pubòic_service_link per esporre cataloghi di servizi esterni
+* Permette la traduzione statica dei nomi dei comuni
+* Corregge un problema nell'interfaccia di inserimento dataset
+* Corregge un possibile problema di generazione di cache con url non conformi al SiteUrl impostato
+* Introduce l'internazionalizzazione del logo eu
+* Espone il metodo OpenPABootstrapItaliaContentEnvironmentSettings::generateView per generare snippet html
+* Remove cache headers in manifest.json
+* Introduce il connettore con openagenda per visualizzare automaticamente eventi e luoghi da un'installazione di openagenda
+* Introduce una configurazione per il controllo runtime dello stato dei servizi
+* typofix
+* Fix OpenAgenda bridge
+* Fix clearcache command
+
+
 ## [3.0.10](https://gitlab.com/opencity-labs/sito-istituzionale/cms/compare/3.0.9...3.0.10) - 2023-09-25
 - Close:  - https://gitlab.com/opencity-labs/sito-istituzionale/cms/-/issues/2  - https://gitlab.com/opencity-labs/sito-istituzionale/cms/-/issues/1  - https://gitlab.com/opencity-labs/sito-istituzionale/installer/-/issues/2  - https://gitlab.com/opencity-labs/sito-istituzionale/installer/-/issues/1
 
